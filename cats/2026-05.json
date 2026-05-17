@@ -8223,5 +8223,39 @@
     ],
     "story": "春日午後的老街麵包店裡，剛吃飽的麻糬戴上老闆娘親手編織的櫻花花環。牠慵懶地趴在櫃檯的穿衣鏡前，看著鏡中自己像花生麻糬般圓滾滾的身型，好奇地用那隻像戴了橘色手套的右前腳，輕輕撥弄著從櫻花樹下帶進店內的粉嫩花瓣。穿透幾何窗戶的體積光將莫蘭迪色調的麵包架渲染得格外溫柔，麻糬滿足地瞇起大圓眼，一邊在鏡前享受著屬於牠的春季室內野餐，一邊舒服地打著呼嚕。",
     "prompt": "An artistic illustration in the De Stijl style of neoplasticism combined with a Morandi color palette, featuring a mirror selfie composition inside a traditional old-street bakery. The central subject is a chubby, short-haired cat named Mochi. Mochi is a literal four-legged cat with a spherical torso and short stubby legs, possessing a white base coat and solid orange patches with no tabby stripes. The right half of its face has an orange mask extending across the right cheek to the right ear, while the left face remains pure white. It has a heart-shaped orange saddle on its upper back, a white belly, and large round amber eyes with a pink nose containing a tiny orange dot. Its right front paw is a solid orange mitten to the wrist, while its left front paw is pure white. Mochi is wearing a cherry blossom garland on its head, suitable for a spring theme. The cat is looking into a mirror and using its short, stubby right orange front paw to play with scattered pink cherry blossom petals on the counter. The background bakery features geometric abstraction with horizontal and vertical lines, alongside futuristic liquid metal lines with a mercury-like reflective flow and a chrome dripping texture. Volumetric lighting and dramatic god rays filter through geometric window panes, catching dust particles in the atmosphere to create a cozy indoor picnic vibe. The overall color scheme consists of desaturated soft pastels and dusty grey undertones with quiet elegance. Inscribed clearly and visually displayed in the corner of the image is the timestamp text '2026-05-17 21:43 UTC'."
+  },
+  {
+    "number": 1929,
+    "prompt": "A real captured DSLR portrait photo with an isometric angle, capturing an orange and white cat in a paleontology laboratory, focused and pressing its front paw onto a newly excavated massive dinosaur bone fossil on a table. The date and time '2026-05-17 22:42 UTC' is visually displayed in the corner of the image. Shot with an 85mm f/1.4 lens, featuring a sharp focus on the cat and a creamy bokeh background with no miniature effect. The environment is decorated with a Shibori style resist-dyed textile tablecloth with indigo blue organic flowing designs. The color scheme is an earth tone palette of terracotta, olive green, warm brown, and natural organic harmony. Classic three-point lighting setup with a key light creating soft shadows, a fill light, and a subtle rim light for separation.",
+    "comment_id": 4472740097,
+    "inspiration": "古生物學家在泰裝猜也蓬府發現了東南亞有史以來最大的恐龍化石，並將其命名為「猜也蓬那伽巨龍」，為該地區的史前歷史寫下新篇章。",
+    "idea": "這是一幅以單眼人像散景風格呈現的等距攝影作品，一隻橘白相間的貓咪在充滿大地色系溫暖色調的古生物實驗室裡，正趴在桌上專注地用一隻前腳按壓著新出土的巨大恐龍骨骼化石。",
+    "story": "古生物學家在泰國發現了東南亞最大的「猜也蓬那伽巨龍」化石，這隻實驗室的駐守貓似乎對這份跨越千萬年的禮物充滿好奇。在完美的三點打光下，背景的絞染桌布與散景交織，牠用貓咪特有的謹慎方式，輕輕觸碰著古老歷史的痕跡。",
+    "avoid_list": [
+      "粉紅色紅鶴的孟買濕地",
+      "魚眼鏡頭與極度扭曲",
+      "霓虹螢光的虹彩全息光澤",
+      "黑光燈下的螢光照明",
+      "復古褪色色調與底片顆粒",
+      "硬光日照與高對比硬邊陰影",
+      "粉彩色系的柔和感",
+      "用爪子撥弄或試圖撥弄",
+      "專注地嗅聞著交界或物體",
+      "聚光燈精準打在身上"
+    ],
+    "style_picks": {
+      "art_style": "DSLR Portrait with Bokeh",
+      "composition": "Isometric Photography",
+      "lighting": "Three-Point Lighting",
+      "texture": "Shibori Textile",
+      "color_palette": "Earth Tones"
+    },
+    "news_inspiration": [
+      "古生物學家在西班牙特魯埃爾發現了歐洲迄今保存最完好的劍龍頭骨化石，這項重大發現刷新了科學界對劍龍演化史的認知。",
+      "美國國家航空暨太空總署（NASA）的哈伯太空望遠鏡捕捉到一個被暱稱為「德古拉的巴魯斯」的巨大且不對稱行星托兒所，為研究行星誕生提供了全新且顛覆傳統的觀測視角。",
+      "一項由國際研究團隊發表的最新健康研究指出，每天洗冷水澡或穿著冰背心有助於活化人體內的棕色脂肪，進而達到促進新陳代謝與減重的效果。",
+      "古生物學家在泰國猜也蓬府發現了東南亞有史以來最大的恐龍化石，並將其命名為「猜也蓬那伽巨龍」，為該地區的史前歷史寫下新篇章。"
+    ],
+    "title": "巨龍與古陵的探戈"
   }
 ]
