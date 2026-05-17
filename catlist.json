@@ -17665,5 +17665,18 @@
     "title": "時光的細線修補",
     "url": "https://github.com/yazelin/catime/releases/download/cats-2026-05/cat_2026-05-17_2051_UTC.webp",
     "model": "gemini-3-pro-image-preview"
+  },
+  {
+    "model": "gemini-3-pro-image-preview",
+    "is_seasonal": true,
+    "timestamp": "2026-05-17 21:43 UTC",
+    "character_name": "麻糬",
+    "url": "https://github.com/yazelin/catime/releases/download/cats-2026-05/cat_2026-05-17_2143_UTC.webp",
+    "title": "鏡中的春日野餐",
+    "character": "mochi",
+    "number": 1928,
+    "season": "spring",
+    "inspiration": "original",
+    "status": "success"
   }
 ]
