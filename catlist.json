@@ -17634,5 +17634,18 @@
     "number": 1924,
     "url": "https://github.com/yazelin/catime/releases/download/cats-2026-05/cat_2026-05-17_1746_UTC.webp",
     "title": "螢光下的微塑捕手"
+  },
+  {
+    "title": "春風鏡中的老舵手",
+    "number": 1925,
+    "url": "https://github.com/yazelin/catime/releases/download/cats-2026-05/cat_2026-05-17_1852_UTC.webp",
+    "character_name": "船長",
+    "timestamp": "2026-05-17 18:52 UTC",
+    "inspiration": "original",
+    "season": "spring",
+    "is_seasonal": true,
+    "model": "gemini-3-pro-image-preview",
+    "character": "captain",
+    "status": "success"
   }
 ]

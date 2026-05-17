@@ -8095,5 +8095,38 @@
     ],
     "story": "這隻好奇的貓咪闖入了年輕科學家的實驗室，正專注地看著杯中被羅望子粉末凝聚成塊的微塑料。隨著牠伸出肉墊撥弄，水杯在超廣角視野中呈現出奇幻的幾何結構，黑光燈將這場環保微觀實驗變成了一場霓虹色彩的視覺盛宴。",
     "title": "螢光下的微塑捕手"
+  },
+  {
+    "title": "春風鏡中的老舵手",
+    "avoid_list": [
+      "粉紅色紅鶴的孟買濕地",
+      "魚眼鏡頭與極度扭曲",
+      "霓虹螢光的虹彩全息光澤",
+      "黑光燈下的螢光照明",
+      "復古褪色色調與底片顆粒",
+      "硬光日照與高對比硬邊陰影",
+      "粉彩色系的柔和感",
+      "用爪子撥弄或試圖撥弄",
+      "專注地嗅聞著交界或物體",
+      "聚光燈精準打在身上"
+    ],
+    "number": 1925,
+    "story": "春天暖風吹拂，碼頭老大『船長』在巡邏空檔發現了一面廢棄的舊鏡子。牠微微側過那張帶著戰鬥缺口方臉，任憑海風吹亂粗糙的毛髮，在粗獷的體素世界中，利用鏡面反射留下自己看守這片水域的威武身影。閃光燈強烈地照亮牠胸前的白襯衫與腳上的白手套，散發著不修邊幅的退休霸氣。",
+    "comment_id": 4472162018,
+    "character_name": "船長",
+    "inspiration": "original",
+    "season": "spring",
+    "idea": "在以體素（Voxel/Minecraft）風格建構的春季漁港碼頭邊，一隻體型壯碩的經典虎斑貓『船長』正站在一面布滿織品紋理的舊鏡子前，以獨特的鏡子自拍構圖展現其堅毅的右眼與褪色紅色頭巾，背景則是閃光燈直打下呈現大地色系的海風與出海漁船。",
+    "is_seasonal": true,
+    "prompt": "Voxel art mirror selfie composition of a large, stocky, muscular brown classic tabby cat with bold black stripes, a thick sturdy tail, and a distinctive M-mark on its forehead, standing on all fours at a spring fishing harbor pier built from Minecraft-style pixelated cubes and blocky textures. The cat has an untidy, scruffy, and slightly coarse fur texture. Its left eye (viewer perspective) is permanently concealed by a natural dark-pigmented fur patch, with no fabric eye patch or straps, while its right eye is a piercing emerald green. Its left ear has a prominent V-shaped notch. A faded red bandana is tied loosely around its neck, and it features a white chest bib and white mitten paws. The cat is posing close-up in front of an old, weathered mirror with a visible woven fabric texture, displaying linen threads and a tactile appearance. The raw candid snapshot is illuminated by a harsh, direct on-camera flash with blown-out highlights and hard shadows, revealing earth tones like terracotta, olive green, and warm brown in the background sea breeze and fishing boats. The text '2026-05-17 18:52 UTC' is clearly and visually displayed in the corner of the image.",
+    "style_picks": {
+      "art_style": "Voxel / Minecraft Style",
+      "composition": "Mirror Selfie Composition",
+      "lighting": "Direct Flash",
+      "texture": "Fabric / Textile",
+      "color_palette": "Earth Tones"
+    },
+    "character": "captain",
+    "news_inspiration": []
   }
 ]
