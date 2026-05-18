@@ -8320,5 +8320,39 @@
     "number": 1931,
     "comment_id": 4473641294,
     "prompt": "A candid photography snapshot of a tabby cat focused on pushing a colorful game piece with its nose, on an ancient Roman limestone chessboard covered in fine sand texture and desert dune ripples. Art Nouveau style with flowing organic curves, ornamental borders, and a vertical poster composition with a side calligraphy panel and red seal accents. The date and time '2026-05-18 02:07 UTC' is visually displayed in the image. Shot with a 35mm lens, harsh direct on-camera flash, blown-out highlights, hard shadows, raw candid snapshot look with multi-layered depth. Features vibrant neon fluorescent colors, electric pink, lime green, and hot cyan glowing against a dark background, blending East Asian movie poster framing with a photorealistic central focal point."
+  },
+  {
+    "prompt": "Fauvism art style painting of a large tabby cat lying on a straw stack, curiously staring at a great horned owl that has just been released and is spreading its wings to fly into the sky. The scene is set against a heavy snowstorm background with a distinct woven fabric texture, visible threads, and a linen or cotton weave pattern. Captured with a tilt-shift photography miniature effect, creating a selective focus band with a blurred foreground and background. The artwork features bold non-naturalistic colors, textured impasto brushwork, simplified forms, and a wildly vibrant palette mixed with earth tones of terracotta, olive green, and warm brown. Atmospheric snowstorm lighting with a heavy falling snow veil, muted diffused daylight, and a cold blue-white palette. The text '2026-05-18 06:43 UTC' is visually displayed in the corner of the image.",
+    "number": 1932,
+    "style_picks": {
+      "art_style": "Fauvism",
+      "composition": "Tilt-Shift Miniature",
+      "lighting": "Snowstorm Haze",
+      "texture": "Fabric / Textile",
+      "color_palette": "Earth Tones"
+    },
+    "comment_id": 4475093467,
+    "idea": "在暴風雪朦朧的厚重織品質感背景中，一隻大斑貓正趴在草堆上，好奇地凝視著前方一隻剛被釋放、展翅準備飛向高空的大角鴞，整體呈現野獸派的強烈色彩與移軸微縮效果。",
+    "inspiration": "美國猶他州一隻受困於水泥攪拌機而受傷的大角鴞，在動物庇護所接受手術治療後目前已順利痊癒並重返大自然飛翔。",
+    "title": "風雪中的羽翼復甦",
+    "story": "受傷的大角鴞在人類細心照料下終於痊癒，在風雪交加的牧場邊緣被野放。守候在側的農場貓咪沒有撲咬，只是靜靜地伏在如粗麻布般粗獷的大地上，目送這個曾經的落難鄰居重返藍天。狂風捲起漫天雪花，模糊了彼此的輪廓，卻定格了這幕純粹的荒野道別。",
+    "news_inspiration": [
+      "美國伊利諾州一家博物館展出的《霹靂遊俠》複製道具車，在完全沒有移動的情況下，竟然離奇收到了警方的超速罰單。",
+      "美國猶他州一隻受困於水泥攪拌機而受傷的大角鴞，在動物庇護所接受手術治療後目前已順利痊癒並重返大自然飛翔。",
+      "中國日本科學家透過大規模基因組分析發現了先前被忽略的第三個祖先群體，這項重大的DNA發現重新改寫了日本人的起源歷史。",
+      "緬甸的礦工在當地的寶石產區挖掘出一顆重達11,000克拉的巨型紅寶石，這被認為是該國有史以來重量第二大的發現。"
+    ],
+    "avoid_list": [
+      "全息虹彩雙色調",
+      "粉彩莫蘭迪色系貼紙拼貼",
+      "單色調融合倫勃朗光",
+      "前爪觸碰或按壓物品",
+      "體積光與硬光日照",
+      "超廣角或魚眼扭曲視角",
+      "鏡子自拍構圖",
+      "齒輪與工坊機械元素",
+      "幾何窗格與大理石紋理",
+      "手作機關或刺繡工藝質感"
+    ]
   }
 ]
