@@ -26,6 +26,29 @@ jobs:
       - name: Install dependencies
         run: pip install nanobanana-py google-genai Pillow
 
+      - name: Validate codex backend secrets (fail fast)
+        if: vars.CAT_IMAGE_GENERATOR == 'codex'
+        env:
+          CODEX_IMAGE_KEY: ${{ secrets.CODEX_IMAGE_KEY }}
+          CODEX_IMAGE_BASE_URL: ${{ secrets.CODEX_IMAGE_BASE_URL }}
+        run: |
+          missing=0
+          if [ -z "$CODEX_IMAGE_KEY" ]; then
+            echo "::error::CAT_IMAGE_GENERATOR=codex but CODEX_IMAGE_KEY secret is empty."
+            missing=1
+          elif [[ ! "$CODEX_IMAGE_KEY" =~ ^cimg_ ]]; then
+            echo "::error::CODEX_IMAGE_KEY does not start with 'cimg_' — looks like a key_* handle was pasted instead of the bearer token. Re-create the key in codex-image-service admin and copy the cimg_<random> value from the yellow popup."
+            missing=1
+          fi
+          if [ -z "$CODEX_IMAGE_BASE_URL" ]; then
+            echo "::error::CAT_IMAGE_GENERATOR=codex but CODEX_IMAGE_BASE_URL secret is empty."
+            missing=1
+          elif [[ ! "$CODEX_IMAGE_BASE_URL" =~ ^https?:// ]]; then
+            echo "::error::CODEX_IMAGE_BASE_URL must start with http:// or https:// (got '${CODEX_IMAGE_BASE_URL}')."
+            missing=1
+          fi
+          [ "$missing" -eq 0 ]
+
       - name: Generate cat and update repo
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
