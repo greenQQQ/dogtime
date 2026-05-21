@@ -9185,5 +9185,44 @@
     "number": 1958,
     "title": "極速燃燒的幾何點滴",
     "prompt": "A sports panning photography shot of a low-poly style cat with geometric crystalline surface and flat shaded triangular faces, wearing a custom cooling vest while sprinting on a treadmill inside a postmodern gym. High contrast black and white monochrome with rich tonal range and dramatic shadows. The composition mimics a mirror selfie with a visible reflection in a large front mirror, captured from an intimate close-up perspective. Overhead butterfly lighting creates a symmetrical shadow under the nose with soft even illumination on the glamorous geometric features. The background is motion-blurred while the sprinting cat is frozen in high dynamic energy. Visually displayed in the corner of the image is the timestamp text '2026-05-20 23:03 UTC'. Shot on a 35mm lens, f/2.8, high shutter speed, candid action captured."
+  },
+  {
+    "comment_id": 4504144647,
+    "avoid_list": [
+      "等距攝影與3D空間",
+      "正交投影視角",
+      "微縮景觀與微縮模型",
+      "粗糙混凝土建築與空間",
+      "沙質紋理與風雕圖案",
+      "充氣PVC與氣球膨脹質感",
+      "粉筆畫藝術風格",
+      "彩色玻璃窗拼接風格",
+      "命令列終端機或漫畫分格排版",
+      "貓用前爪撥弄或輕觸特定物品",
+      "霓虹螢光色彩與高飽和色調",
+      "復古褪色色調與老舊底片顆粒",
+      "冷調藍青色與琥珀色秋日調",
+      "在特定角落視覺化顯示日期與時間"
+    ],
+    "inspiration": "德國考古學家在一處中世紀公廁遺址中，成功挖掘出一本保存極為完好的精緻皮革筆記本，讓其中記載的拉丁文草書在數百年後重見天日。",
+    "character_name": "墨墨",
+    "number": 1959,
+    "title": "雪盲中的墨痕",
+    "style_picks": {
+      "art_style": "GTA Style",
+      "composition": "Floating Island Scene",
+      "lighting": "Snowstorm Haze",
+      "texture": "Marble",
+      "color_palette": "Monochrome / Black and White"
+    },
+    "character": "momo",
+    "story": "古老的舊書店意外分裂成無數漂浮的大理石島嶼，在漫天暴風雪的單色世界中緩緩移動。墨墨憑藉著輕盈的步伐，在懸空的神祕德意志公廁遺址間無聲跳躍，牠的金色耳環在風雪中微閃，正專注地看著那本剛重見天日的拉丁文皮革筆記本。這隻黑色的精靈彷彿在解讀數百年前的秘密，任憑雪花落在大理石與牠如緞面般的黑毛上。",
+    "prompt": "Grand Theft Auto art style, bold cel-shaded illustration with high contrast, rich tonal range, and dramatic shadows. A floating miniature island made of polished white marble with natural vein patterns and a luxurious stone surface drifts in a monochrome black and white world. On the levitating platform, the ruins of a medieval public toilet are suspended in a heavy falling snow veil and foggy distance. Momo, a sleek, slender solid-black Bombay-style shorthair cat with satin-sheen fur, is gracefully lying on the stone ruins, calmly and attentively staring at an unearthed leather notebook. Momo has luminous golden-amber eyes, long prominent white whiskers, a tiny natural white locket tuft on her ventral chest, a single dark-grey ring at her tail tip, and a single small gold hoop earring positioned at the mid-ear edge of her left ear. The atmosphere is a painterly weather mood of a snowstorm with muted diffused daylight and cold white lighting. Visually displayed clearly in the corner of the image is the date and time text '2026-05-21 02:04 UTC'.",
+    "news_inspiration": [
+      "澳洲一名農夫在超市購買的密封沙拉菜包中，驚奇地發現了一隻依然存活的綠色青蛙，並在社群媒體上分享了這段有趣的經歷。",
+      "智利科學家正積極擴展核能與同位素技術的應用，藉此檢驗並鑑定本土蜂蜜的真偽，以確保食品安全並促進國際貿易發展。",
+      "德國考古學家在一處中世紀公廁遺址中，成功挖掘出一本保存極為完好的精緻皮革筆記本，讓其中記載的拉丁文草書在數百年後重見天日。"
+    ],
+    "idea": "在黑白單色且帶有大理石紋理的 GTA 風格漂浮舊書店中，一隻純黑貓墨墨正優雅地趴在懸浮於暴風雪朦朧空中的中世紀公廁遺蹟上，凝視著一本剛出土的皮革筆記本。"
   }
 ]
