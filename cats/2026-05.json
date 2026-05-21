@@ -9261,5 +9261,39 @@
     ],
     "idea": "這是一幅採用限色編輯插畫風格的 Knolling 排列攝影構圖，以螢光綠與霓虹橘等霓虹螢光色系，將胖嘟嘟的橘白貓「麻糬」與牠最愛的各類老街傳統小吃、蔬菜及一台精準的電子體重計，如同標本般整齊矩陣排列在粗糙的混凝土背景上，並以經典的蝴蝶光由正上方照射。",
     "story": "老街市場的超商舉辦了減重送牛肉活動，貪吃的麻糬為了獲得最愛的牛肉，正心甘情願地趴在電子秤上量體重。牠看著身旁整齊排列的滷肉飯、貢丸湯和油條，琥珀色的大眼睛興奮地放大兩倍，尾巴在混凝土高台上微微捲曲，成為這場趣味促銷中最受歡迎的「重量級」參賽者。"
+  },
+  {
+    "inspiration": "original",
+    "character": "lingling",
+    "news_inspiration": [],
+    "character_name": "鈴鈴",
+    "style_picks": {
+      "art_style": "Woodcut Print",
+      "composition": "Spiral Vortex Frame",
+      "lighting": "Harsh Midday Sun",
+      "texture": "Rust / Weathered",
+      "color_palette": "Warm Tones (Amber / Autumn)"
+    },
+    "number": 1961,
+    "story": "春季的花園陽光刺眼，鈴鈴被一隻粉蝶吸引，繞著老櫻花樹幹不斷打轉，完全沉浸在自己的冒險裡。她脖子上的粉紅鈴鐺隨著激烈的動作叮鈴作響，毛茸茸的尾巴像羽毛撢子般掃過帶有鐵鏽舊化質感的斑駁長椅。一個不留神，她打個噴嚏往後一彈，整隻貓啪嗒一聲趴倒在落櫻堆中，乾脆順勢翻肚向花店老闆撒嬌。",
+    "avoid_list": [
+      "微縮景觀與傾斜移軸效果",
+      "前爪輕輕撥弄物品的動作",
+      "莫蘭迪色調與低飽和度粉彩",
+      "非洲未來主義融合宇宙意象",
+      "鏡子自拍與閃光燈直打構圖",
+      "運動追焦與高速凍結瞬間",
+      "黑金奢華色調搭配大理石或金屬",
+      "冷調藍青色與半色調網點風格",
+      "日光燈管的無陰影均勻照明",
+      "賽璐璐風格搭配黏土或低多邊形質感",
+      "沙質紋理與細緻微粒表面"
+    ],
+    "idea": "在琥珀色調的木刻版畫世界中，蓬鬆如棉花糖的白貓鈴鈴正圍繞著櫻花樹幹，呈螺旋漩渦狀興奮地追逐著飛舞的蝴蝶，身上沾滿了粉色瓣片。",
+    "is_seasonal": true,
+    "season": "spring",
+    "title": "旋風櫻落鈴聲響",
+    "comment_id": 4507243832,
+    "prompt": "A woodcut print style illustration with bold carved lines and rough wood grain texture. An extremely fluffy pure white longhair Ragdoll-like cat named Lingling, with a small round face, huge round sapphire-blue eyes, a pale pink nose, and an enormous feathery white plume tail, is wearing a pink ribbon bow collar with a clearly visible centered small golden bell. The cat is excitedly chasing flying butterflies in a spiral vortex composition, coiling around an old cherry blossom tree trunk with a strong rotational perspective, a centered vanishing point, and a dizzying sense of depth. The cat's white fur is covered in pink cherry blossom petals. The scene is rendered in a warm amber color grading with an autumn palette of golden yellows and burnt orange, showcasing cozy nostalgic warmth. The lighting is harsh midday sunlight with hard-edge shadows and strong directional sun. Visually displayed clearly in the image is the date and time text '2026-05-21 10:29 UTC'."
   }
 ]
