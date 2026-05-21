@@ -9295,5 +9295,35 @@
     "title": "旋風櫻落鈴聲響",
     "comment_id": 4507243832,
     "prompt": "A woodcut print style illustration with bold carved lines and rough wood grain texture. An extremely fluffy pure white longhair Ragdoll-like cat named Lingling, with a small round face, huge round sapphire-blue eyes, a pale pink nose, and an enormous feathery white plume tail, is wearing a pink ribbon bow collar with a clearly visible centered small golden bell. The cat is excitedly chasing flying butterflies in a spiral vortex composition, coiling around an old cherry blossom tree trunk with a strong rotational perspective, a centered vanishing point, and a dizzying sense of depth. The cat's white fur is covered in pink cherry blossom petals. The scene is rendered in a warm amber color grading with an autumn palette of golden yellows and burnt orange, showcasing cozy nostalgic warmth. The lighting is harsh midday sunlight with hard-edge shadows and strong directional sun. Visually displayed clearly in the image is the date and time text '2026-05-21 10:29 UTC'."
+  },
+  {
+    "avoid_list": [
+      "微縮景觀與傾斜移軸效果",
+      "前爪輕輕撥弄物品的動作",
+      "莫蘭迪色調與低飽和度粉彩",
+      "非洲未來主義融合宇宙意象",
+      "鏡子自拍與閃光燈直打構圖",
+      "運動追焦與高速凍結瞬間",
+      "黑金奢華色調搭配大理石或金屬",
+      "冷調藍青色與半色調網點風格",
+      "日光燈管的無陰影均勻照明",
+      "賽璐璐風格搭配黏土或低多邊形質感",
+      "沙質紋理與細緻微粒表面"
+    ],
+    "title": "琥珀溫室的影子追逐",
+    "idea": "這是一幅採用故事插畫分格的 X 光透視風格作品，展現一隻暖色調琥珀色的貓咪在鋪滿綠意苔蘚的溫室裡，正趴在古老日晷上試圖捕捉指針陰影的靈動瞬間。",
+    "news_inspiration": [],
+    "style_picks": {
+      "art_style": "X-Ray Style",
+      "composition": "Illustrated Story Panel Layout",
+      "lighting": "Three-Point Lighting",
+      "texture": "Moss Overgrowth",
+      "color_palette": "Warm Tones (Amber / Autumn)"
+    },
+    "comment_id": 4508988584,
+    "number": 1962,
+    "prompt": "An illustrated story page layout with multiple irregular panels showing a slice-of-life storybook composition. The main scene features a warm amber and burnt orange cat with a translucent skeletal view in an X-ray radiograph style, playfully swatting at the moving shadow of an ancient stone sundial's gnomon. The setting is a cozy, nostalgic greenhouse where nature is reclaiming the space, featuring a moss-covered surface with lush green organic overgrowth and damp forest aesthetics. Classic three-point lighting setup with a bright key light casting soft shadows, a subtle fill light, and a rim light separating the cat from the background. The text '2026-05-21 13:53 UTC' is visually displayed and integrated into a decorative title banner at the top of the page. High contrast medical imaging aesthetic mixed with shoujo manga narrative flow.",
+    "inspiration": "original",
+    "story": "在被時光遺忘的溫室深處，秋日的陽光透過斑駁玻璃，經由精密的三點打光投射在長滿苔蘚的石質日晷上。一隻溫柔的橘貓正專注地伸出爪子，在分格的畫面中追逐著那道隨時間推移而緩緩移動的陰影。透過透視的骨骼線條，我們看見了生命律動與時間流逝的奇妙交織。"
   }
 ]
