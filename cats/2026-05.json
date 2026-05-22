@@ -9583,5 +9583,39 @@
       "texture": "Wrought Iron Filigree",
       "color_palette": "Monochrome / Black and White"
     }
+  },
+  {
+    "story": "北海道的大學團隊剛觀測到直達深太空的巨大紅色極光，而太空觀測站裡的氣氛也同樣沸騰。值班的三花貓一邊發出滿足的呼嚕聲，一邊在控制台上興奮地來回踩踏，讓黑光螢光下的螢幕閃爍著高飽和度的鮮豔色彩。",
+    "idea": "這是一幅以3D Q版盲盒風格呈現的微縮立體模型，一隻圓滾滾的三花貓正趴在太空觀測站的控制台上，用粉嫩的肉墊踩踏發光的指令按鈕。",
+    "number": 1971,
+    "comment_id": 4519073198,
+    "prompt": "A 3D chibi blind box style miniature diorama of a chubby calico cat lying on a space observatory console, stepping on glowing command buttons with its pink paws. The screen displays the date and time '2026-05-22 13:21 UTC' in a clear, visible digital font. Toy-like scale model with smooth plastic toy texture and clean geometry. The scene features blacklight UV illumination with fluorescent pigments glowing in vibrant neon colors against a dark background, creating an ethereal ultraviolet luminescence. C4D rendering, smooth materials, soft studio lighting with global illumination, and a tilt-shift effect creating a shallow depth of field. High saturation vivid colors and energetic palette, Cinema 4D aesthetic.",
+    "inspiration": "日本北海道大學等團隊發表最新科學研究，發現在中度太陽風暴期間，日本上空出現了罕見且直達極高空深太空的巨大紅色極光，推翻了過往對太空天氣的認知。",
+    "avoid_list": [
+      "溫室與苔蘚",
+      "琥珀色調與秋意",
+      "用爪子撥弄或拍打",
+      "三點打光與軟陰影",
+      "生物發光裝置或氣泡",
+      "老街或古董舊化痕跡",
+      "底片顆粒與復古褪色",
+      "無限遞迴與螺旋漩渦",
+      "俯瞰排列攝影",
+      "溫暖夕陽與黃金時刻"
+    ],
+    "title": "極光下的肉墊密碼",
+    "style_picks": {
+      "art_style": "3D Chibi / Blind Box",
+      "composition": "Miniature Diorama",
+      "lighting": "Blacklight / UV Glow",
+      "texture": "3D Render",
+      "color_palette": "High Saturation Vivid"
+    },
+    "news_inspiration": [
+      "美國國家科學基金會位於夏威夷毛納基山的雙子星北望遠鏡，於今日發布了一張垂死恆星的精美影像，其外觀宛如一顆在太空間飄渺的「水晶球星雲」。",
+      "澳洲迪金大學發表了最新的週休四日實驗結果，顯示參與試驗的15家企業中有將近一半的生產力不降反升，且絕大多數企業在實驗結束後皆決定繼續實施該制度。",
+      "義大利羅馬著名的「性感神父」旅遊曆主角日前公開坦承，自己其實從未進入過神學院或當過神職人員，在當地引發一場幽默的文化話題與關注。",
+      "日本北海道大學等團隊發表最新科學研究，發現在中度太陽風暴期間，日本上空出現了罕見且直達極高空深太空的巨大紅色極光，推翻了過往對太空天氣的認知。"
+    ]
   }
 ]

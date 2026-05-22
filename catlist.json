@@ -18080,5 +18080,14 @@
     "title": "雪夜鐵窗的密碼",
     "inspiration": "original",
     "url": "https://github.com/yazelin/catime/releases/download/cats-2026-05/cat_2026-05-22_1014_UTC.webp"
+  },
+  {
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "number": 1971,
+    "inspiration": "日本北海道大學等團隊發表最新科學研究，發現在中度太陽風暴期間，日本上空出現了罕見且直達極高空深太空的巨大紅色極光，推翻了過往對太空天氣的認知。",
+    "timestamp": "2026-05-22 13:21 UTC",
+    "title": "極光下的肉墊密碼",
+    "status": "success",
+    "url": "https://github.com/yazelin/catime/releases/download/cats-2026-05/cat_2026-05-22_1321_UTC.webp"
   }
 ]
