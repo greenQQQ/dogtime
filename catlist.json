@@ -18100,5 +18100,14 @@
     "status": "success",
     "model": "gpt-image-2 (codex-image-service / $imagegen)",
     "title": "深夜關東煮巡禮"
+  },
+  {
+    "status": "success",
+    "url": "https://github.com/yazelin/catime/releases/download/cats-2026-05/cat_2026-05-22_1827_UTC.webp",
+    "title": "浮島上的風車守護者",
+    "number": 1973,
+    "timestamp": "2026-05-22 18:27 UTC",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "inspiration": "original"
   }
 ]
