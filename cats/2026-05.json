@@ -9848,5 +9848,37 @@
     "number": 1978,
     "idea": "這是一幅採用黑白與粉藍雙色調（Duotone）的等距攝影（Isometric Photography）視角漫畫，描繪一隻橘貓在被棉花糖雲朵包圍的巨大泰坦巨龍化石肋骨間，專注地啃食著一根古代植物化石。",
     "comment_id": 4523866788
+  },
+  {
+    "character": "momo",
+    "character_name": "墨墨",
+    "comment_id": 4524343369,
+    "avoid_list": [
+      "用貓掌撥弄物品",
+      "生物發光裝置",
+      "碳纖維材質表面",
+      "黃金時刻夕陽光暈",
+      "微縮立體模型風格",
+      "大地色系墨流紋理",
+      "黑白單色高對比油畫",
+      "德羅斯特效應遞迴",
+      "折紙微縮場景",
+      "莫蘭迪色調浴室",
+      "命令列終端機復古主軸"
+    ],
+    "idea": "在浮空的機械古董舊書店島嶼上，一隻擁有精緻手作機關偶質感的純黑貓「墨墨」，正用牠的金屬關節貓爪輕輕按住一本懸浮的發光古籍，並專注地凝視著書頁。",
+    "story": "墨墨是一隻融合了發條機構與極致優雅的黑貓機關偶。在霓虹螢光流轉的漂浮書店中，牠輕盈地在懸空的齒輪與金屬書架間穿梭，當高調明亮的光線照亮牠身上的緞面金屬外殼與左耳的金環時，牠正享受著獨自解讀古老發條秘密的靜謐時光。",
+    "title": "浮島書香的發條晨曦",
+    "prompt": "A real photograph capturing Momo, a sleek and slender solid-black Bombay-style shorthair cat with a satin-sheen coat, crafted with exquisite handmade mechanical figurine joints and aged brass gears seamlessly integrated into her feline form. On her left ear, a single small gold hoop earring glints. She has large luminous golden-amber eyes, long prominent white whiskers, and a tiny natural white locket tuft of fur on her chest. Sitting on a miniature floating island in the sky surrounded by white clouds, she uses her metallic jointed cat paw to gently press down on a levitating, glowing ancient book. The background features a whimsical, floating antique bookstore with copper gears and springs under high-key bright lighting, creating an airy, soft even illumination with minimal shadows. Shot with a 35mm lens at f/1.8, creating a dreamy shallow depth of field and soft pastel patina with neon fluorescent colors like hot cyan and electric pink glowing softly in the clean atmosphere. The timestamp '2026-05-23 05:57 UTC' is clearly and cleanly displayed on the lower edge of the image.",
+    "news_inspiration": [],
+    "style_picks": {
+      "art_style": "Handmade Mechanical Figurine",
+      "composition": "Floating Island Scene",
+      "lighting": "High-Key Bright Lighting",
+      "texture": "Metallic Surface",
+      "color_palette": "Neon Fluorescent"
+    },
+    "inspiration": "original",
+    "number": 1979
   }
 ]
