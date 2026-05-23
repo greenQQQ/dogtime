@@ -18263,5 +18263,14 @@
     "timestamp": "2026-05-23 22:41 UTC",
     "number": 1989,
     "inspiration": "original"
+  },
+  {
+    "inspiration": "挪威因內蘭郡的高山冰川隨著氣溫上升而融化，促使冰川考古學家展開一場與時間的賽跑，成功搶救出保存完好的古代箭頭和數千年前的衣物鞋履。",
+    "title": "融冰下的遠古呢喃",
+    "url": "https://github.com/yazelin/catime/releases/download/cats-2026-05/cat_2026-05-23_2346_UTC.webp",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "status": "success",
+    "number": 1990,
+    "timestamp": "2026-05-23 23:46 UTC"
   }
 ]

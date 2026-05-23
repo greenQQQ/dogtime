@@ -10227,5 +10227,38 @@
       "棉花糖雲朵",
       "幾何排列古文物"
     ]
+  },
+  {
+    "news_inspiration": [
+      "在瑞士蘇黎世舉辦的2026年男子冰球世界錦標賽中，拉脫維亞隊以 4 比 2 爆冷擊敗衛冕冠軍美國隊，贏得了一場充滿戲劇性的精彩勝利。",
+      "挪威因內蘭郡的高山冰川隨著氣溫上升而融化，促使冰川考古學家展開一場與時間的賽跑，成功搶救出保存完好的古代箭頭和數千年前的衣物鞋履。",
+      "韓國國家足球隊隊長孫興慜在美國洛杉磯接受採訪，表達了即將第四度征戰世界盃的興奮與決心，並承諾將傾盡全力把這場在北美舉辦的體育盛事變成球迷的歡樂節日。"
+    ],
+    "idea": "在一座融合有機組織與實驗儀器的生物朋克（Biopunk）高山研究室中，一隻貓咪正專注地用鼻子嗅聞被冰封的古代皮革鞋履。畫面呈現柔和的粉彩色系，並以精緻的衍紙藝術（Paper Quilling）層疊出生物組織的立體紋理，聚光燈自上方灑落，邊框巧妙融入了配色條邊框。",
+    "story": "隨著氣候變遷導致挪威冰川消融，古老的秘密重見天日。這隻駐守在研究室的貓咪，正以敏銳的嗅覺協助科學家辨識剛從內蘭郡高山搶救回來的數千年文物。牠輕輕抽動鼻子，彷彿在與來自遠古的狩獵記憶進行一場跨越時空的對話。",
+    "inspiration": "挪威因內蘭郡的高山冰川隨著氣溫上升而融化，促使冰川考古學家展開一場與時間的賽跑，成功搶救出保存完好的古代箭頭和數千年前的衣物鞋履。",
+    "title": "融冰下的遠古呢喃",
+    "style_picks": {
+      "art_style": "Biopunk",
+      "composition": "Color Palette Swatch Frame",
+      "lighting": "Spotlight",
+      "texture": "Paper Quilling",
+      "color_palette": "Pastel Colors"
+    },
+    "comment_id": 4526843445,
+    "avoid_list": [
+      "伸出爪子撥弄",
+      "粉筆畫風格",
+      "超寫實動漫風格",
+      "閃光燈直打",
+      "螺旋漩渦構圖",
+      "奢華色調與金屬質感",
+      "復古褪色色調",
+      "發光蝴蝶與生物發光",
+      "液態流動與3D渲染材質",
+      "日期和時間標籤"
+    ],
+    "number": 1990,
+    "prompt": "Paper quilling art of a cat intently sniffing an ancient leather shoe frozen in a block of ice, set inside a biopunk high-altitude mountain research lab blending organic tissue and experimental instruments. The scene features 3D dimensional ornaments made of intricate coiled paper strips, delicate curling loops, and colorful rolled paper textures. A narrow beam spotlight casts dramatic high-contrast light from above with sharp edges and deep darkness falloff. Dreamy soft pastel color palette of gentle pink, lavender, mint, and baby blue. The overall composition is a design moodboard aesthetic, an illustration framed by vertical color palette swatch bars on both sides with stacked color blocks revealing the work's palette in a portfolio presentation format. Visually integrated text reading '2026-05-23 23:46 UTC' is displayed on the image."
   }
 ]
