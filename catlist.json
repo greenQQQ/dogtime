@@ -18310,5 +18310,18 @@
     "status": "success",
     "number": 1994,
     "title": "珊瑚深處的航海誌"
+  },
+  {
+    "character_name": "墨墨",
+    "is_seasonal": true,
+    "model": "gemini-3.1-flash-image-preview (fallback from gemini-3-pro-image-preview, reason: timeout after 240.0s) (fallback from codex: codex-image-service request failed: Remote end closed connection without response)",
+    "status": "success",
+    "timestamp": "2026-05-24 12:56 UTC",
+    "character": "momo",
+    "season": "spring",
+    "title": "雨窗下的摺紙古卷",
+    "inspiration": "original",
+    "url": "https://github.com/yazelin/catime/releases/download/cats-2026-05/cat_2026-05-24_1256_UTC.webp",
+    "number": 1995
   }
 ]

@@ -10397,5 +10397,43 @@
     "title": "珊瑚深處的航海誌",
     "idea": "在立體紙藝景的精緻圖層中，一隻擁有亮面塑膠質感的乳牛斑紋貓咪正用前腳推動並翻閱著一本比牠還大的航海日誌，背景是大堡礁深處的夢幻粉彩色系珊瑚礁群。",
     "prompt": "A paper diorama scene and three-dimensional layered paper sculpture depicting a glossy plastic toy texture, vinyl figure aesthetic cow-patterned cat. The cat is inside an underwater shipwreck ruin, using its front paws to push and flip through a massive logbook diary that is larger than itself. In the background are the deep Great Barrier Reef's dreamy soft pastel color palette coral reefs in gentle pink, lavender, mint, and baby blue. Illumination comes from a candlelight warm orange flickering glow, casting soft dancing shadows for an intimate atmosphere. The composition features a slice-of-life storybook layout, pop-up book aesthetic, and backlit warm glow through translucent layers. Visually displayed clearly within the image is the date and time text '2026-05-24 11:05 UTC'."
+  },
+  {
+    "comment_id": 4528778892,
+    "story": "春雨綿綿，墨墨獨自待在舊書店的高處窗台上。牠優雅地趴在一本關於古老工藝的立體摺紙書上，金琥珀色的眼睛專注地盯著書頁上精緻的紙雕結構，偶爾歪著頭，彷彿在研究某種消失的遠古技術，與窗外飄落的櫻花雨構成一幅靜謐的畫面。",
+    "character_name": "墨墨",
+    "is_seasonal": true,
+    "style_picks": {
+      "art_style": "Manga",
+      "composition": "Illustrated Story Panel Layout",
+      "lighting": "Snowstorm Haze",
+      "texture": "Origami",
+      "color_palette": "Morandi Color Palette"
+    },
+    "avoid_list": [
+      "螺旋漩渦構圖",
+      "伸出前爪撥弄",
+      "復古褪色色調",
+      "用鼻子嗅聞",
+      "夢幻粉彩色系",
+      "衍紙藝術紋理",
+      "化石與貓",
+      "亮面塑膠質感",
+      "慢速快門時間流逝",
+      "在老街櫻花樹下"
+    ],
+    "character": "momo",
+    "season": "spring",
+    "idea": "在融合莫蘭迪色調與摺紙質感的漫畫分格中，黑貓墨墨在雨天舊書店的窗台上，正用前腳按壓著一本翻開的古老立體摺紙書，窗外則是朦朧如暴風雪般迷離的櫻花雨。",
+    "title": "雨窗下的摺紙古卷",
+    "inspiration": "original",
+    "prompt": "An illustrated manga story page layout with multiple irregular panels, featuring a sleek, slender solid-black Bombay-style shorthair cat named Momo with satin-sheen fur, large luminous golden-amber eyes, long prominent white whiskers, a tiny natural white fur locket tuft on the ventral chest, a single dark-grey ring at the tip of its slightly upward-curled tail, and a single small gold hoop earring on its left ear. The cat is calmly sitting on a bookstore window sill on a rainy spring day, using its front paw to press down on an open, intricate pop-up origami book with clean geometric creases and a paper sculpture aesthetic. Outside the window, a dense storm of cherry blossom petals creates a heavy falling veil like a snowstorm, with muted diffused daylight and a cold blue-white palette. The overall art style combines clean ink lines, screentone shading, and a Morandi muted color palette of desaturated soft pastels with dusty grey undertones, evoking a quiet elegance and slice-of-life narrative flow. The date and time '2026-05-24 12:56 UTC' is visually displayed in the corner of the page.",
+    "news_inspiration": [
+      "在美國佛羅里達州的聖彼得斯堡與全國多個美國職棒大聯盟球場，許多年輕球迷發起「脫外衣揮舞」的風潮，在看台上脫掉上衣並在頭頂瘋狂旋轉，為比賽注入充滿大學校園般的新活力。",
+      "英國倫敦北部的芬斯伯里公園街頭聚集了大量球迷徹夜狂歡，慶祝阿仙奴隊在總教練阿爾特塔的帶領下，打破22年來的等待奪得英超聯賽冠軍。",
+      "科學家在希臘中部的馬拉索薩1號考古遺址中，挖掘出了距今43萬年前的人類手工木製工具，這項發現刷新了已知人類使用木器的最古老紀錄，並證實早期人類比想像中更具備高超的工藝技能。",
+      "一項由德國德勒斯登-羅森道夫研究中心參與的國際科學實驗，首次透過強大的太赫茲雷射脈衝直接觀測到晶體結構中的角動量轉移，並意外發現原子旋轉方向在過程中會突然逆轉的特殊量子效應。"
+    ],
+    "number": 1995
   }
 ]
