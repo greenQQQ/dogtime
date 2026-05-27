@@ -11392,5 +11392,43 @@
       "邊角顯示日期時間文字"
     ],
     "idea": "這是一幅採用鉛筆素描風格繪製的畫作，捕捉一隻貓咪在深夜的復古更衣室裡，趴在絲綢布料上對著穿衣鏡進行鏡子自拍構圖的瞬間。"
+  },
+  {
+    "story": "午後的黃金時刻斜斜灑進市場旁的傳統麵包店，剛偷溜進來的麻糬被角落一面沾著麵粉的穿衣鏡吸引了目光。牠好奇地湊過去，鏡子裡正好映出牠那張帶著粉紅鼻頭的呆萌扁圓臉，以及因為看見後方剛出爐羅宋麵包而瞬間放大兩倍的琥珀色大圓眼。這幕靜謐而充滿古典光影張力的瞬間，彷彿一幅歌頌貪吃與慵懶的文藝復興仕女畫。",
+    "idea": "在融合文藝復興古典油畫風格與冷藍調混凝土背景的麵包店裡，胖橘白貓麻糬正以獨特的鏡子自拍構圖，專注地凝視著老舊穿衣鏡中自己倒映的渾圓身影與那隻顯眼的橘色手套右腳。",
+    "character_name": "麻糬",
+    "title": "鏡中的花生麻糬",
+    "avoid_list": [
+      "移軸攝影與微縮模型",
+      "霓虹螢光色系與環形燈",
+      "極低角度與X光透視風格",
+      "Y2K風格與未來電子溫室",
+      "超廣角鏡頭與試管實驗室",
+      "中片幅攝影與硬光日照",
+      "漁港碼頭與直打閃光燈",
+      "等距攝影與復古海報風格",
+      "工筆畫風格與黑金日晷",
+      "木紋桌面與溫暖燭光",
+      "機械改造與生物發光植物",
+      "雙色調強烈對比與暗黑花卉",
+      "邊角顯示日期時間文字"
+    ],
+    "news_inspiration": [
+      "格陵蘭努克：一部探討當地八支球隊在冰天雪地中克服航班取消與惡劣氣候、爭奪足球聯賽冠軍的紀錄片於本週引發熱烈關注。",
+      "柬埔寨金邊：2026年柬埔寨「越南文化週」於當地盛大開幕，透過馬戲藝術與傳統音樂舞蹈表演展現兩國深厚的文化交流情誼。",
+      "美國加州：一條曾受污染的溪流在當地志工持續不懈默默奉獻長達三十年的清理與維護後，至今依然保持著清澈原始的自然生態。"
+    ],
+    "inspiration": "original",
+    "character": "mochi",
+    "style_picks": {
+      "art_style": "Renaissance",
+      "composition": "Mirror Selfie Composition",
+      "lighting": "Golden Hour",
+      "texture": "Concrete",
+      "color_palette": "Cool Tones (Blue / Teal)"
+    },
+    "comment_id": 4554423214,
+    "prompt": "Artistic oil painting blending Renaissance style with modern elements. In a bakery with raw concrete walls, industrial minimalism, and a cool blue-teal color grading with icy undertones, a chubby rounded shorthair cat named Mochi looks into an old dressing mirror. The composition is a casual mirror selfie framing, showing the visible reflection of the cat. The cat is a four-legged literal animal with a spherical torso and short stubby legs, featuring a pure white base coat with solid orange patches and no tabby stripes. Its face has an asymmetrical marking: the right half-face (viewer perspective) has an orange mask from the nose bridge to the right ear, while the left face is entirely white. It has large round amber eyes, a pink nose with a tiny orange center dot, and a pure white belly. Its right front paw is a solid orange mitten to the wrist, and its left front paw is pure white. Golden hour lighting and a warm sunset glow stream in, creating long soft shadows and a golden rim light on the subject, contrasted against the rough aggregate surface of the background. The sfumato technique is used for masterful light and shadow. Visually displayed clearly in the corner of the image is the date and time text '2026-05-27 12:17 UTC'.",
+    "number": 2024
   }
 ]
