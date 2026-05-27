@@ -18619,5 +18619,14 @@
     "title": "雲巔追逐黃金球",
     "url": "https://github.com/yazelin/catime/releases/download/cats-2026-05/cat_2026-05-27_1631_UTC.webp",
     "model": "gpt-image-2 (codex-image-service / $imagegen)"
+  },
+  {
+    "inspiration": "英國威爾特郡的巨石陣遺址附近，上百名志願者花費九個月時間，完全使用新石器時代的複製品石器與天然材料，成功重建了一座擁有4,500年歷史的大型史前集會廳複製建築。",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "url": "https://github.com/yazelin/catime/releases/download/cats-2026-05/cat_2026-05-27_1912_UTC.webp",
+    "number": 2026,
+    "status": "success",
+    "timestamp": "2026-05-27 19:12 UTC",
+    "title": "史前巨石的迴響"
   }
 ]

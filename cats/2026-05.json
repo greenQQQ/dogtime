@@ -11467,5 +11467,40 @@
       "color_palette": "Duotone"
     },
     "story": "這是一場舉辦在雲端浮島的香蕉球棒球賽。當球員們在空中奮力展現特技時，一隻當地的白貓在看台邊緣輕快躍動，專注地用爪子追逐那顆被擊飛、在空中慢動作旋轉的黃色香蕉球，為這場瘋狂的球賽增添了純真而生動的趣味。"
+  },
+  {
+    "inspiration": "英國威爾特郡的巨石陣遺址附近，上百名志願者花費九個月時間，完全使用新石器時代的複製品石器與天然材料，成功重建了一座擁有4,500年歷史的大型史前集會廳複製建築。",
+    "avoid_list": [
+      "鏡子自拍構圖",
+      "等距攝影視角",
+      "中片幅攝影風格",
+      "迷你藍色章魚",
+      "橘色手套右腳",
+      "向日葵與愛爾蘭燈塔",
+      "莫蘭迪色調房間",
+      "生物朋克咖啡廳",
+      "文藝復興油畫風格",
+      "蝴蝶光與魚眼扭曲",
+      "粗壯的棕黑虎斑",
+      "草莓大福與傳統市場"
+    ],
+    "style_picks": {
+      "art_style": "Magazine Cover Layout",
+      "composition": "Split View",
+      "lighting": "Ring Light",
+      "texture": "3D Render",
+      "color_palette": "Earth Tones"
+    },
+    "prompt": "Magazine cover mockup of a 3D render showing a tortoiseshell cat pushing a stone block at a historic site. Split view composition: left half is a polished 3D render with smooth materials and clean geometry, right half is a wireframe diagram, separated by a sharp vertical cut line. Features a bold vertical typography overlay, issue number, barcode, and the text '2026-05-27 19:12 UTC' visually displayed. Editorial print publication aesthetic, clean graphic design. Even frontal ring light illumination creating a circular catchlight in the cat's eyes. Warm earth tone palette with terracotta, olive green, and warm brown, creating a natural organic harmony in a Cinema 4D aesthetic with soft global illumination.",
+    "number": 2026,
+    "story": "在威爾特郡的泥土香氣中，一隻玳瑁貓正用前爪認真地撥弄著地上的新石器時代石器複製品，與周圍志願者重建史前集會廳的忙碌身影相映成趣。畫面透過環形燈的聚焦與溫暖的大地色系，將古老歷史的厚重感與貓咪的靈動瞬間完美融合。",
+    "title": "史前巨石的迴響",
+    "news_inspiration": [
+      "科學家在厄瓜多加拉巴哥群島附近約5,900英尺的深海中，發現了一種外觀如海洋般湛藍、體型小巧到可蜷縮在手掌心的全新章魚物種。",
+      "芬蘭阿爾托大學的研究團隊成功將一艘17世紀古老沉船的木材碎片轉化為紡織纖維，並結合人工智慧設計，打造出兩件時尚的針織連身裙。",
+      "英國威爾特郡的巨石陣遺址附近，上百名志願者花費九個月時間，完全使用新石器時代的複製品石器與天然材料，成功重建了一座擁有4,500年歷史的大型史前集會廳複製建築。"
+    ],
+    "comment_id": 4557888718,
+    "idea": "這是一幅採用雜誌封面排版與分割畫面的3D渲染視覺作品，呈現一隻玳瑁貓在歷史遺址中推動石塊的場景。"
   }
 ]
