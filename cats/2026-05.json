@@ -11570,5 +11570,36 @@
     "inspiration": "original",
     "idea": "在黑白單色與建築藍圖的線條世界中，一隻輕盈的暹羅貓正以極低角度被捕捉，牠在燭光搖曳的搖晃陰影下，用前爪輕輕撥弄著散落於草圖上的舊黃銅齒輪與發條零件。",
     "prompt": "An extreme low angle shot of a Siamese cat gently batting at old brass gears and clockwork springs scattered across an architectural blueprint. The background is a stark black and white monochrome world of precise technical drawing lines, measurements, and annotations. The scene is illuminated by a single warm orange flickering candlelight that casts soft dancing shadows, creating a high contrast tonal range. The date and time '2026-05-27 23:08 UTC' is visually displayed in the corner. Taken with a 35mm lens, f/2.8, visible analog film grain texture, organic photographic imperfections, rich contrast, candid moment."
+  },
+  {
+    "inspiration": "original",
+    "number": 2029,
+    "idea": "這是一幅採用35mm底片攝影風格的照片，展現一隻異國短毛貓在老舊紡織廠的巨型絲綢染色漩渦中，伸爪撥弄彩色布料的瞬間。",
+    "prompt": "A 35mm film photography candid shot of a pure white exotic shorthair cat perched on the edge of a large vintage industrial textile machine, stretching out its paw to touch a swirling vortex of high saturation vivid silk fabric. The scene is shot from a cinematic low angle looking into a massive spiral vortex composition of rotating textiles, creating a dizzying sense of depth with a centered vanishing point. Golden hour lighting from a warm sunset glows through the old factory windows, casting long soft shadows and a golden rim light on the cat's fur. The silk fabric texture shows a luminous smooth surface with delicate light reflections and a luxurious sheen in bold vibrant hues. Visible film grain, warm tones, and a slight vignette evoke a nostalgic feel. A clear digital timestamp reading '2026-05-28 01:54 UTC' is visually displayed in the corner of the frame.",
+    "avoid_list": [
+      "鏡子自拍構圖",
+      "等距攝影視角",
+      "中片幅攝影風格",
+      "迷你藍色章魚",
+      "橘色手套右腳",
+      "向日葵與愛爾蘭燈塔",
+      "莫蘭迪色調房間",
+      "生物朋克咖啡廳",
+      "文藝復興油畫風格",
+      "蝴蝶光與魚眼扭曲",
+      "粗壯的棕黑虎斑",
+      "草莓大福與傳統市場"
+    ],
+    "style_picks": {
+      "art_style": "35mm Film Photography",
+      "composition": "Spiral Vortex Frame",
+      "lighting": "Golden Hour",
+      "texture": "Silk",
+      "color_palette": "High Saturation Vivid"
+    },
+    "news_inspiration": [],
+    "story": "在黃金時刻的夕陽斜照下，高飽和鮮豔色的絲綢布料在大型脫水機中旋轉，形成一個巨大的螺旋漩渦。一隻毛色純白的異國短毛貓趴在機台邊緣，被那如流水般滑順的絲綢質感深深吸引，忍不住伸出前爪去捕捉那抹流動的豔紅。",
+    "comment_id": 4560193885,
+    "title": "織光中的流轉"
   }
 ]
