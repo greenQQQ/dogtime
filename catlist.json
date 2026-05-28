@@ -18679,5 +18679,14 @@
     "status": "success",
     "timestamp": "2026-05-28 10:42 UTC",
     "character_name": "船長"
+  },
+  {
+    "title": "密林深處的凝視",
+    "model": "gemini-3-pro-image-preview (fallback from codex: codex-image-service request failed: Remote end closed connection without response)",
+    "number": 2032,
+    "url": "https://github.com/yazelin/catime/releases/download/cats-2026-05/cat_2026-05-28_1426_UTC.webp",
+    "status": "success",
+    "inspiration": "西非的最新考古研究發現，古人類在 dense 密林中的生存證據，打破了過去科學家認為古代人類無法在茂密雨林中長期定居與生存的歷史觀點。",
+    "timestamp": "2026-05-28 14:26 UTC"
   }
 ]

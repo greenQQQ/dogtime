@@ -11661,5 +11661,37 @@
       "texture": "Frosted Glass",
       "color_palette": "Gold and Black Luxury"
     }
+  },
+  {
+    "title": "密林深處的凝視",
+    "story": "在剛出土的茂密雨林遺址中，環形燈的冷冽光線照亮了碎裂的大理石基座。這隻當地的虎斑貓悄悄溜進考古現場，以多個角度被手機鏡頭捕捉到牠在大地色系泥土間，好奇探查古人類生存痕跡的真實瞬間。",
+    "number": 2032,
+    "prompt": "A smartphone snapshot featuring a multi-view layout in a fashion design sheet format, showcasing a tabby cat on an archaeological site. Arranged in panels with a front view, back view, side view, and detail close-up, the cat is focused on sniffing a fossilized ancient human bone resting on a polished marble altar with natural vein patterns. The scene is set in a freshly excavated West African dense rainforest ruin surrounded by earth tone dirt, terracotta, olive green, and warm brown hues. The lighting is an even frontal ring light illumination, casting a subtle circular catchlight in the cat's eyes against the dark jungle background. A digital timestamp reading '2026-05-28 14:26 UTC' is visually displayed in the corner of the frame. Shot on a mobile camera, 28mm lens, casual composition, authentic everyday moment, realistic photographic texture.",
+    "idea": "這是一組採用手機隨拍風格的相片，透過服裝多視角展示的構圖，記錄一隻正在西非密林考古遺址的大理石祭壇上，專注嗅聞古人類骨頭化石的虎斑貓。",
+    "news_inspiration": [
+      "英國伯明罕大學的研究團隊發現，蘇格蘭聖基爾達群島上的鷦鷯正獨立演化出體型變大的「島嶼巨大化」現象，有助於科學家深入了解物種的平行演化。",
+      "美國紐約市為了迎接即將到來的2026年世界盃足球賽，宣布將在曼哈頓洛克斐勒中心等五個行政區免費開設大型「球迷互動區」，提供豐富的文化與體育體驗。",
+      "西非的最新考古研究發現，古人類在 dense 密林中的生存證據，打破了過去科學家認為古代人類無法在茂密雨林中長期定居與生存的歷史觀點。"
+    ],
+    "style_picks": {
+      "art_style": "Smartphone Snapshot",
+      "composition": "Multi-View Fashion Display",
+      "lighting": "Ring Light",
+      "texture": "Marble",
+      "color_palette": "Earth Tones"
+    },
+    "avoid_list": [
+      "用爪子撥弄",
+      "鏡子自拍構圖",
+      "黃金時刻與金黃色輪廓光",
+      "底片攝影與顆粒感質地",
+      "35mm鏡頭",
+      "絲綢滑順質地",
+      "復古與莫蘭迪色調",
+      "極端視角與扭曲鏡頭",
+      "在角落顯示日期時間標籤"
+    ],
+    "comment_id": 4565123624,
+    "inspiration": "西非的最新考古研究發現，古人類在 dense 密林中的生存證據，打破了過去科學家認為古代人類無法在茂密雨林中長期定居與生存的歷史觀點。"
   }
 ]
