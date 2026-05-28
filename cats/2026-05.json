@@ -11601,5 +11601,35 @@
     "story": "在黃金時刻的夕陽斜照下，高飽和鮮豔色的絲綢布料在大型脫水機中旋轉，形成一個巨大的螺旋漩渦。一隻毛色純白的異國短毛貓趴在機台邊緣，被那如流水般滑順的絲綢質感深深吸引，忍不住伸出前爪去捕捉那抹流動的豔紅。",
     "comment_id": 4560193885,
     "title": "織光中的流轉"
+  },
+  {
+    "idea": "在黑光螢光與金黑奢華色調下，手作機關偶風格的純黑貓墨墨正以四足站立在等距3D結構的古董店鐘錶展示櫃上，專注地用頭輕蹭一隻發光的機械發條鳥。",
+    "character": "momo",
+    "inspiration": "original",
+    "story": "古董店的深夜裡，黑光燈悄然亮起，折射出墨墨身上如緞面般的皮革光澤與金色耳環。牠無聲地踩在精密的齒輪機關之間，被一隻剛跳出來的機械鳥吸引，忍不住湊過去用下巴磨蹭，觸發了整座時鐘的金色齒輪緩緩運轉。",
+    "avoid_list": [
+      "用爪子撥弄",
+      "鏡子自拍構圖",
+      "黃金時刻與金黃色輪廓光",
+      "底片攝影與顆粒感質地",
+      "35mm鏡頭",
+      "絲綢滑順質地",
+      "復古與莫蘭迪色調",
+      "極端視角與扭曲鏡頭",
+      "在角落顯示日期時間標籤"
+    ],
+    "number": 2030,
+    "title": "深夜鐘錶店的發條舞曲",
+    "news_inspiration": [],
+    "style_picks": {
+      "art_style": "Handmade Mechanical Figurine",
+      "composition": "Isometric 3D Illustration",
+      "lighting": "Blacklight / UV Glow",
+      "texture": "Leather",
+      "color_palette": "Gold and Black Luxury"
+    },
+    "comment_id": 4561252529,
+    "character_name": "墨墨",
+    "prompt": "A handmade mechanical figurine style illustration of Momo, a sleek, slender solid-black Bombay-style shorthair cat with satin-sheen fur, golden-amber eyes, long white whiskers, a tiny white tuft of fur on the chest, and a single small gold hoop earring on the left ear. The cat is standing on all fours, gently nuzzling a glowing mechanical clockwork bird. The scene is set on an antique shop clock display cabinet with a 3D isometric structure, detailed with copper gears, springs, and aged brass parts in an assemblage sculpture aesthetic. Illuminated by blacklight UV light, causing fluorescent pigments to glow with ultraviolet luminescence against a deep black background. The color scheme is luxurious gold and black with rich metallic accents. The text '2026-05-28 06:00 UTC' is clearly and visually displayed in a clean font integrated into the scene's structure. Clean geometric forms and a polished playful rendering style."
   }
 ]
