@@ -11858,5 +11858,37 @@
     "story": "在巴西里約熱內盧國家博物館的深夜修復室裡，這隻負責驅趕鼠類的館貓成了修復師最安靜的夥伴。牠維持著四足伏臥的姿勢，在莫蘭迪色調的柔和三點打光下，好奇地看著無數破碎的歷史碎片在人類手中重新拼湊完整。",
     "inspiration": "巴西里約熱內盧的國家博物館在歷經2018年的嚴重火災後，館方人員在2026年5月正傾盡全力進行文物重建與修復，致力於讓這座失去八成館藏的歷史博物館重新對外開放。",
     "number": 2037
+  },
+  {
+    "news_inspiration": [],
+    "comment_id": 4573394037,
+    "story": "深夜的舊書店亮起柔和的蝴蝶光，墨墨優雅地躍上鋼琴，在一堆泛黃的古籍間挑選了牠今晚的床墊。當牠把下巴擱在冰霜結晶般質感的琴譜上時，螢幕微弱的掃描線彷彿記錄下了這隻黑貓與古老旋律的靜謐對話。",
+    "idea": "在粉彩色系的復古舊書店中，黑貓墨墨正專注地用鼻子輕觸一本翻開的古老樂譜，畫面呈現獨特的CRT掃描線藝術風格。",
+    "avoid_list": [
+      "伸出爪子撥弄",
+      "前爪輕輕撥弄",
+      "多視角展示畫面",
+      "服裝多視角展示",
+      "環形燈",
+      "黃金時刻",
+      "底片攝影風格",
+      "大理石祭壇",
+      "極低角度",
+      "大地色系泥土",
+      "金黑奢華色調"
+    ],
+    "inspiration": "original",
+    "character_name": "墨墨",
+    "number": 2038,
+    "prompt": "A vertical East Asian movie poster framing of a sleek, slender solid-black Bombay-style shorthair cat with satin-sheen fur, large luminous golden-amber eyes, a tiny natural white locket tuft on its chest, long prominent white whiskers, a single small gold hoop earring on its left ear from the viewer's perspective, and a single dark-grey ring on its tail tip. The cat is inside a vintage pastel-colored secondhand bookstore, focused on gently touching its nose to an open ancient music score. The scene features a CRT monitor aesthetic with visible scan lines, phosphor glow, retro screen curvature, and vintage display artifacts. A side calligraphy panel, ornamental border elements, and red seal accents frame the image. The composition has multi-layered depth under a soft overhead butterfly key light creating a symmetrical shadow under the nose. The music score has an ice crystal formation with delicate frost patterns and a translucent frozen surface texture. The background is a soft pastel color palette of gentle pink, lavender, mint, and baby blue dreamy light tones. The date and time '2026-05-29 09:31 UTC' is visually displayed on the image screen.",
+    "character": "momo",
+    "style_picks": {
+      "art_style": "CRT Scanline",
+      "composition": "Vertical Calligraphy Poster",
+      "lighting": "Butterfly Lighting",
+      "texture": "Frost Crystal",
+      "color_palette": "Pastel Colors"
+    },
+    "title": "琴扉上的墨色曼步"
   }
 ]
