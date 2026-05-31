@@ -19026,5 +19026,14 @@
     "title": "月下溫室的呢喃",
     "url": "https://github.com/yazelin/catime/releases/download/cats-2026-05/cat_2026-05-31_2012_UTC.webp",
     "inspiration": "original"
+  },
+  {
+    "title": "懸日大道疾馳",
+    "url": "https://github.com/yazelin/catime/releases/download/cats-2026-05/cat_2026-05-31_2146_UTC.webp",
+    "status": "success",
+    "inspiration": "美國紐約市迎來了著名的「曼哈頓懸日（Manhattanhenge）」壯麗景觀，夕陽剛好落在棋盤式街道的中央，吸引無數市民與遊客駐足拍攝。",
+    "number": 2067,
+    "timestamp": "2026-05-31 21:46 UTC",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)"
   }
 ]

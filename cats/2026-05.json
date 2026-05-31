@@ -12823,5 +12823,39 @@
     "news_inspiration": [],
     "inspiration": "original",
     "story": "深夜的巨型溫室被清冷的月光籠罩，呈現出獨特的正交投影視覺感。這隻四腳著地的貓咪在深夜裡巡視著植物王國，牠對這株會動的新植物充滿好奇，正小心翼翼地抽動鼻子研究眼前的綠色小生命。"
+  },
+  {
+    "title": "懸日大道疾馳",
+    "comment_id": 4588203008,
+    "inspiration": "美國紐約市迎來了著名的「曼哈頓懸日（Manhattanhenge）」壯麗景觀，夕陽剛好落在棋盤式街道的中央，吸引無數市民與遊客駐足拍攝。",
+    "prompt": "A continuous panoramic handscroll narrative in a vibrant manga style, featuring clean ink lines, screentone shading, and dynamic action lines. An adventurous tabby cat with expressive eyes is precisely balancing and speeding on a skateboard down a New York street. The scene is viewed from an oblique bird's-eye angle with a right-to-left reading flow across an extreme wide panoramic composition. Massive, industrial premium metallic skyscrapers in a soft pastel color palette of gentle pink, lavender, mint, and baby blue rise into the sky, their brushed metal surfaces throwing sharp reflections. A dramatic, high-contrast narrow beam spotlight of a sunset—the Manhattanhenge—casts intense light with sharp edges and deep darkness falloff. The text '2026-05-31 21:46 UTC' is visually displayed and integrated naturally into the image. Layered foreground, middleground, and background with multiple horizontal focal points show shadows of cheering crowds along the metallic street.",
+    "avoid_list": [
+      "用爪子輕輕撥弄",
+      "古董齒輪零件",
+      "日期時間字樣",
+      "低角度與等距攝影",
+      "棉花糖或微型章魚",
+      "雙色調或琥珀色調",
+      "復古未來與極地氣象站",
+      "液態金屬或生物發光",
+      "溫暖燭光與閃爍影子",
+      "黑白單色與底片顆粒"
+    ],
+    "idea": "這是一幅採用漫畫風格與長卷全景構圖的精采畫面，展現一隻斑鯛貓在紐約街頭高聳的粉彩色系金屬摩天大樓間，頂著強烈的聚光燈夕陽，精準地在滑板上保持平衡並向前滑行。",
+    "style_picks": {
+      "art_style": "Manga",
+      "composition": "Handscroll Panoramic Layout",
+      "lighting": "Spotlight",
+      "texture": "Metallic Surface",
+      "color_palette": "Pastel Colors"
+    },
+    "story": "當全紐約的市民都屏息等待著名的「曼哈頓懸日」時，一隻勇敢的街貓早已踏上牠的滑板。牠在反光的金屬街道上破風前行，精準地穿梭在落日餘暉與圍觀人群的影子之間，享受這場一年一度的城市追光疾馳。群眾的歡呼聲與相機快門聲此起彼落，而牠只是專注地盯著前方的橘紅大道。",
+    "number": 2067,
+    "news_inspiration": [
+      "在法國巴黎舉辦的坎城影城中，一隻名叫「La Perra」的可愛狗狗憑藉出色表現，成功榮獲著名的「金棕櫚狗狗獎（Palm Dog Award）」。",
+      "美國紐約市迎來了著名的「曼哈頓懸日（Manhattanhenge）」壯麗景觀，夕陽剛好落在棋盤式街道的中央，吸引無數市民與遊客駐足拍攝。",
+      "紐西蘭首都威靈頓在睽違一世紀之後，成功迎來了標誌性珍稀鳥類「奇威鳥（Kiwi bird）」再度回歸野外棲息。",
+      "在南非東北部的林波波省與普馬蘭加省，著名的克留格爾國家公園（Kruger National Park）迎來了成立100週年的重要里程碑。"
+    ]
   }
 ]
