@@ -12890,5 +12890,36 @@
       "黑白單色與底片顆粒"
     ],
     "title": "企鵝衰變的微粒捕捉"
+  },
+  {
+    "prompt": "A magazine cover mockup featuring a chubby rounded shorthair cat named Mochi taking a mirror selfie reflection. Magazine cover style with bold vertical typography overlay, issue number, barcode, and clean graphic design composition. The image displays the text '2026-05-31 23:55 UTC' visually in a corner. The cat is a spherical four-legged cat with a white base coat, solid orange patches, short stubby legs, white belly, and large round amber eyes. Its right half-face from the viewer's perspective has an orange mask extending from the nose bridge across the right cheek to the right ear, while its left face is entirely white. On its upper back is a heart-shaped orange saddle. Its right front paw is a solid orange mitten to the wrist, and its left front paw is pure white. Its nose is pink with a tiny orange center dot, and it has an orange-and-white ringed tail. The orange patches are solid with no tabby stripes. In a quiet nighttime atmosphere of a traditional late-night noodle stand kitchen, the cat is peering intimately close-up into the reflection of a polished stainless steel soup pot, appearing as if taking a selfie. Polished 3D render with smooth materials, clean geometry, soft global illumination, and a Cinema 4D aesthetic. High saturation vivid colors, bold vibrant hues, eye-catching contrast, and an energetic palette illuminated by moonlight with cool blue tones and a gentle silvery glow.",
+    "idea": "在深夜的傳統市場麵攤前，一隻肥嘟嘟的橘白貓正對著不銹鋼湯鍋的反射「自拍」，畫面呈現高飽和鮮豔色的雜誌封面排版風格。",
+    "character": "mochi",
+    "character_name": "麻糬",
+    "inspiration": "original",
+    "title": "深夜市場的鏡中巡禮",
+    "comment_id": 4588618816,
+    "news_inspiration": [],
+    "number": 2069,
+    "story": "夜深了，老街市場的麵攤已打烊，麻糬趁著四下無人溜進廚房。牠被不銹鋼鍋面反射的圓滾滾身影吸引，好奇地湊近嗅聞，月光灑在牠右腳的橘色手套上，彷彿是在對著鏡子擺姿勢的巨星。",
+    "style_picks": {
+      "art_style": "Magazine Cover Layout",
+      "composition": "Mirror Selfie Composition",
+      "lighting": "Moonlight",
+      "texture": "3D Render",
+      "color_palette": "High Saturation Vivid"
+    },
+    "avoid_list": [
+      "用爪子輕輕撥弄",
+      "古董齒輪零件",
+      "日期時間字樣",
+      "低角度與等距攝影",
+      "棉花糖或微型章魚",
+      "雙色調或琥珀色調",
+      "復古未來與極地氣象站",
+      "液態金屬或生物發光",
+      "溫暖燭光與閃爍影子",
+      "黑白單色與底片顆粒"
+    ]
   }
 ]
