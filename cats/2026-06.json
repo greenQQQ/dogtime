@@ -67,5 +67,40 @@
     "comment_id": 4590848382,
     "story": "在陽光穿透海面所形成的柔和背光下，巨大的圓形珊瑚如同一座海底的莫蘭迪色迷宮。這隻熱帶貓咪靈巧地在絞染質感的珊瑚礁岩間穿梭，用牠敏捷的四足在水底撥動漣漪，與尋得庇護的海洋生物們展開一場無聲的捉迷藏。",
     "inspiration": "澳洲凱恩斯外海的大堡礁公民科學計畫傳出好消息，研究人員發現了一座面積將近四千平方公尺、相當於半個足球場大的巨型圓形珊瑚群落（Pavona clavus），為近期面臨白化危機的海洋生態注入希望。"
+  },
+  {
+    "avoid_list": [
+      "貓用爪子輕輕撥弄物品",
+      "浮空或懸浮的島嶼基地",
+      "微弱的燭光與溫暖橘色光芒",
+      "極端廣角或全景構圖",
+      "黑白單色與豐富調性範疇",
+      "半透明或液態金屬質感的精密儀器與零件",
+      "高飽和鮮豔色調與強烈對比",
+      "冷清的深夜月光與藍色調氛圍",
+      "貓用肉墊小心翼翼地觸碰或整理物品",
+      "幾何線條或立體派碎片化面貌",
+      "背景為無限循環或遞迴的層疊圖案"
+    ],
+    "news_inspiration": [
+      "澳洲大堡礁凱恩斯外海近期發現一座面積達3973平方公尺的巨大珊瑚群，其面積幾乎達半個足球場大，被信為是有紀錄以來最巨大的珊瑚群之一。",
+      "奧地利維也納獸醫大學的科學家首度記錄到一頭名為薇洛妮卡（Veronika）的乳牛具備使用多功能工具的罕見能力，顯示牛隻的智慧遠高於過往認知。",
+      "丹麥哥本哈根近年推廣的「真人圖書館閱讀花園」在近期持續引發熱潮，讓來到當地的遊客與居民不再借閱書籍，而是透過借閱「真人」來分享與聆聽彼此的人生故事。",
+      "美國科學家在追蹤座頭鯨遷徙時，驚訝地發現有兩頭座頭鯨竟然在澳洲與巴西的繁殖地之間移動，跨越了超過1萬4000公里的開放海洋，打破了過往的歷史遷徙紀錄。"
+    ],
+    "title": "紙扉間的傾聽者",
+    "number": 2072,
+    "inspiration": "丹麥哥本哈根近年推廣的「真人圖書館閱讀花園」在近期持續引發熱潮，讓來到當地的遊客與居民不再借閱書籍，而是透過借閱「真人」來分享與聆聽彼此的人生故事。",
+    "story": "在哥本哈根的綠意花園中，人們不再翻閱書本，而是藉由對談聆聽彼此的人生。一隻優雅的貓咪在柔和的粉彩色系拼貼世界裡漫步，牠輕巧地鑽過長椅，用鼻子觸碰著正在分享故事的旅人，成為這場心靈交流中最安靜的聽眾。",
+    "idea": "這是一幅採用撕紙拼貼效果與低多邊形紋理的視覺作品，展現一隻花斑貓在日光燈照耀的「真人圖書館」溫室花園裡，穿梭於多角度服裝展示結構間並好奇地嗅聞讀者的衣角。",
+    "prompt": "A torn paper collage and low-poly mixed media illustration of a calico cat in a sunlit Human Library greenhouse garden in Copenhagen. The cat curiosity-sniffs a reader's clothing hem while weaving through multi-view fashion design showcases. The layout features a lookbook reference guide format with panels showing front, back, and side views against a clean studio backdrop. Illumination is provided by overhead fluorescent lighting with neutral white 5000K institutional flat illumination. The art style blends layered textures, visible paper edges, notebook lines, and digital origami aesthetics with geometric crystalline surfaces and flat shaded triangular faces. A soft pastel color palette dominates with gentle pink, lavender, mint, and baby blue dreamy light tones. Visually displayed in the corner of the image is the text '2026-06-01 14:47 UTC'.",
+    "style_picks": {
+      "art_style": "Torn Paper Collage",
+      "composition": "Multi-View Fashion Display",
+      "lighting": "Fluorescent Lighting",
+      "texture": "Low Poly",
+      "color_palette": "Pastel Colors"
+    },
+    "comment_id": 4593732430
   }
 ]
