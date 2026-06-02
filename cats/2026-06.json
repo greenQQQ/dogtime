@@ -301,5 +301,44 @@
       "手持慢門與強烈動感模糊"
     ],
     "prompt": "An orange cat in a standard quadrupedal stance agilely jumping and chasing between tilted giant illustrated story panels. The cat is trying to catch a strong, meteor-like spotlight beam with its front paws, tearing through the frame. The background is a duotone canvas blending rough raw concrete texture, a brutalist aesthetic with a rough aggregate surface, and Abstract Expressionism with high contrast gestural brushwork and large bold color fields. Illustrated story page layout with multiple irregular panels arranged on one page, a decorative title banner at the top, integrated dialogue bubbles, and a shoujo manga narrative flow. A narrow beam spotlight creates dramatic high-contrast with sharp light edges and deep darkness falloff. Duotone color treatment using two contrasting colors only for a bold graphic impact. The date and time '2026-06-02 14:04 UTC' is visually displayed in the image."
+  },
+  {
+    "avoid_list": [
+      "粉彩色系金屬摩天大樓",
+      "粉彩色系微縮世界",
+      "長卷全景構圖",
+      "扁平向量插圖與幾何線條",
+      "深夜溫室與月光照耀",
+      "全像投影與實體零件交錯",
+      "用前腳撥弄或修理物品",
+      "好奇地嗅聞植物或衣角",
+      "蝴蝶光照射與古董家具",
+      "高飽和鮮豔色與雜誌封面風格",
+      "手持慢門與強烈動感模糊"
+    ],
+    "prompt": "Black and white monochrome photography of a large stocky brown classic tabby handmade mechanical figurine cat. The figurine has bold black stripes, a scruffy untidy fur texture, a white chest bib, and white mitten paws. Its left eye is permanently concealed by a natural dark-pigmented fur patch, while its right eye is a single piercing emerald green. The left ear features a prominent V-shaped notch, and a faded red bandana is tied loosely around its neck. The cat figurine is in a summer scene, wearing a woven straw hat and pressing its paw onto an intricate miniature fishing rod on a perfectly symmetrical breakwater. Handcrafted assemblage sculpture style with ceramic head, aged brass parts, copper gears, and springs, but the entire scene is covered in delicate frost patterns and ice crystal formations. Perfectly symmetrical composition, architectural framing. Dramatic Rembrandt lighting with a single light source at 45 degrees, creating high contrast chiaroscuro with a signature triangle of light on the shadowed cheek. Rich tonal range. The date and time '2026-06-02 18:29 UTC' is visually displayed in the image. Shot on 35mm lens, f/2.8, with a dreamy shallow depth of field and analog film grain.",
+    "season": "summer",
+    "character_name": "船長",
+    "idea": "這是一幅採用黑白單色與倫勃朗光影的「手作機關偶」藝術風格創作，呈現一隻獨眼虎斑貓在對稱構圖的防波堤上，戴著編織草帽並用爪子按著精緻微縮釣竿的靜態場景，表面覆蓋著細緻的冰霜結晶紋理。",
+    "title": "獨眼船長的夏日獨白",
+    "story": "碼頭的老老大「船長」今天在防波堤上享受著牠的夏日儀式。儘管身軀如同木雕機關般硬朗沉穩，當牠戴上心愛的草帽、凝視著海面上的浮標時，那份屬於討海貓的堅毅與對魚的執著，在寒霜般的黑白光影中顯得格外動人。",
+    "style_picks": {
+      "art_style": "Handmade Mechanical Figurine",
+      "composition": "Symmetrical Composition",
+      "lighting": "Rembrandt Lighting",
+      "texture": "Frost Crystal",
+      "color_palette": "Monochrome / Black and White"
+    },
+    "comment_id": 4605906509,
+    "news_inspiration": [
+      "紐西蘭奧馬魯（Ōamaru）近日舉辦了全球知名的蒸汽龐克節（Steampunk NZ Festival），吸引數千名狂熱愛好者穿戴維多利亞風格結合科幻元素的復古機械裝備齊聚盛裝遊行。",
+      "台灣沿海海域傳出生物研究喜訊，科學家發現了一種體型比芝麻粒還小的全新物種「芝麻海蛞蝓」，其極其獨特的微小外觀讓分類學家感到驚奇。",
+      "英國牛津大學物理學家參與的一項最新國際天文研究指出，科學家透過觀測七顆極熱的類木星系外行星的風速，首次獲得強烈證據，證實這些太陽系外的行星也擁有磁場與壯麗的極光。",
+      "澳洲凱恩斯外海的大堡礁（Great Barrier Reef）在公民科學計畫的探索下，最新發現了一株占地近3,973平方公尺（約半個足球場大）的巨大柱狀珊瑚群，被認為是有紀錄以來最龐大的珊瑚活體之一。"
+    ],
+    "is_seasonal": true,
+    "inspiration": "original",
+    "character": "captain",
+    "number": 2079
   }
 ]
