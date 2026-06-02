@@ -19153,5 +19153,18 @@
     "inspiration": "original",
     "character": "captain",
     "number": 2079
+  },
+  {
+    "season": "summer",
+    "character_name": "麻糬",
+    "inspiration": "original",
+    "is_seasonal": true,
+    "character": "mochi",
+    "title": "螢光夏夜的西瓜浪潮",
+    "url": "https://github.com/yazelin/catime/releases/download/cats-2026-06/cat_2026-06-02_2139_UTC.webp",
+    "model": "gemini-3-pro-image-preview (fallback from codex: codex-image-service HTTP 502: {\"detail\":\"Codex exited with code 1\"})",
+    "status": "success",
+    "timestamp": "2026-06-02 21:39 UTC",
+    "number": 2080
   }
 ]

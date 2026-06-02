@@ -340,5 +340,43 @@
     "inspiration": "original",
     "character": "captain",
     "number": 2079
+  },
+  {
+    "style_picks": {
+      "art_style": "Glitch Art",
+      "composition": "Split View",
+      "lighting": "Neon Lighting",
+      "texture": "Glossy Plastic / Toy",
+      "color_palette": "High Saturation Vivid"
+    },
+    "season": "summer",
+    "character_name": "麻糬",
+    "inspiration": "original",
+    "is_seasonal": true,
+    "character": "mochi",
+    "news_inspiration": [
+      "紐西蘭奧馬魯小鎮舉辦了一場熱鬧的蒸氣龐克節，吸引了許多裝扮成飛船艦長與維多利亞時代發明家的愛好者前來狂歡。",
+      "最新科學研究指出，棲息在美國紐約州伊薩卡市一座公墓地下深處的蜜蜂數量高達約550萬隻，成為目前已知最龐大的地棲蜜蜂群聚之一。",
+      "三名青少年因發明能輕鬆去除微塑料的羅望子粉，在今年6月榮獲全球地球獎（Global Earth Prize）的肯定。"
+    ],
+    "title": "螢光夏夜的西瓜浪潮",
+    "idea": "在分割畫面的霓虹燈光中，肥嘟嘟的橘白貓麻糬穿著迷你浮水衣，在海邊小吃攤旁的故障藝術風沙灘上大口啃著西瓜。",
+    "story": "老街市場的肥貓麻糬給自己放了個暑假，來到色彩高飽和的霓虹海灘。牠穿上亮面塑膠質感的縮小版浮水衣，靈活地在沙灘小吃攤間穿梭，最後停在被數位故障線條切開的瓜攤前，瞇著眼幸福地埋頭吃著多汁西瓜。",
+    "number": 2080,
+    "prompt": "Split-view composition image showing a literal chubby shorthair cat named Mochi eating a juicy watermelon slice next to a beachside food stall. The cat is four-legged, with a spherical torso and short stubby legs, wearing a glossy, high-shine miniature plastic life jacket for summer. Its coat is white with solid orange patches and no tabby stripes: its right half-face has an orange mask from the nose bridge to the right ear, while its left face is pure white; it has large round amber eyes, a pink nose with a tiny orange dot, a heart-shaped orange saddle on its upper back, a solid orange right front paw, a pure white left front paw, and a white belly. The visual is split with a sharp vertical cut line: the left half is photorealistic with vivid neon lighting, colorful glowing signs, and moody reflections on wet sand; the right half transitions into wireframe diagrams, glitch art, digital distortion, and RGB channel shifts. The date and time '2026-06-02 21:39 UTC' is visually displayed in the corner of the image. High saturation vivid colors, scan line artifacts, and vinyl figure aesthetic.",
+    "avoid_list": [
+      "前爪專注撥弄零件",
+      "粉彩莫蘭迪色系",
+      "雙色調高對比色塊",
+      "微縮移軸世界",
+      "強制透視大隻爪子",
+      "粗糙混凝土幾何空間",
+      "手作機關與齒輪零件",
+      "戴草帽的夏日場景",
+      "單一聚光燈強烈光影",
+      "全像投影與虛擬圖層",
+      "撕紙低多邊形拼貼"
+    ],
+    "comment_id": 4607242661
   }
 ]
