@@ -486,5 +486,40 @@
     "inspiration": "英國倫敦的一項最新調查顯示，高達八成的英國成年人在與他人一同觀看電視節目中的親密親熱鏡頭時會感到無比尷尬，其中與父母或兄弟姊妹同看時的尷尬比例更分別高達84%與71%。",
     "number": 2083,
     "prompt": "A digital illustration of a glittering black cat with sparkle and glitter overlay effects, shimmering particles, and star-shaped highlights, sitting perfectly centered on top of a massive outdoor television screen in a cyberpunk city core. The screen displays an intimate, affectionate scene between two people, and a glowing digital timestamp reading '2026-06-03 07:30 UTC' is clearly visible in a corner of the display. The scene features a perfectly symmetrical composition with architectural framing, creating a mirror-like balance. The lighting is high-key bright lighting, with an airy overexposed feel, soft even illumination, and minimal shadows, creating a luminous clean atmosphere with a dreamy pastel mood. The color palette is filled with vibrant neon fluorescent colors, featuring electric pink, lime green, and hot cyan glowing against a dark background, blending the cyberpunk aesthetic with anime shine accents and magical glow dust."
+  },
+  {
+    "inspiration": "英國：科學家最新發現鴿子之所以擁有驚人的導航能力，關鍵祕密竟然隱藏在牠們肝臟內如同微型磁力感測器的含鐵免疫細胞中。",
+    "comment_id": 4612338205,
+    "story": "科學家剛證實鴿子靠著肝臟的微型磁力感測器導航，這隻貓咪似乎也感應到了某種神祕磁場，在沙質紋理的藍莓城堡迷宮前停下腳步。牠以優雅的四足姿態圍繞著這座精緻的食物雕塑，試圖用貓爪找出隱藏在冷青色果實陣列中的定位祕密。",
+    "title": "藍莓迷宮的磁場軌跡",
+    "prompt": "Food surrealism photography, multi-view product showcase layout arranged in panels with front view, back view, side view, and detail close-up. A massive ragdoll cat stands in an elegant four-legged pose on a clean studio backdrop with fine sand texture and desert dune ripples. The cat gently bats its paw at a giant sandcastle sculpture constructed from countless stacked blueberries and mint jelly cubes. High-key bright lighting, airy overexposed feel, soft even illumination, and minimal shadows create a luminous clean atmosphere. Cool blue-teal color grading with icy undertones and a serene mood. Shot on 35mm lens, f/2.8, crisp studio details, natural grain. Stamped clearly in the corner is the text '2026-06-03 12:28 UTC'.",
+    "style_picks": {
+      "art_style": "Food Surrealism",
+      "composition": "Multi-View Fashion Display",
+      "lighting": "High-Key Bright Lighting",
+      "texture": "Sand Texture",
+      "color_palette": "Cool Tones (Blue / Teal)"
+    },
+    "news_inspiration": [
+      "美國紐約市：近日有多起群眾在夜間神祕出沒並潛入地下龐大排水溝系統的影像曝光，引發當地居民與警方的離奇關注與調查。",
+      "海地：海地裔義大利設計師史黛拉·吉恩（Stella Jean）將海地國家足球隊的官方球衣轉化為高級時裝，透過手工縫製的精緻設計向加勒比海文化遺產與國家自豪感致敬。",
+      "德國：挪威科技大學等國際學者針對困擾部分民眾的低頻「神祕嗡嗡聲（The Hum）」發表最新研究，指出部分嗡嗡聲確實源於可被測量的人為基礎建設或自然音浪。",
+      "英國：科學家最新發現鴿子之所以擁有驚人的導航能力，關鍵祕密竟然隱藏在牠們肝臟內如同微型磁力感測器的含鐵免疫細胞中。"
+    ],
+    "idea": "在冷藍色調的高調明亮光線下，一隻巨大的布偶貓正伸爪輕撥由無數顆藍莓與薄荷凍堆疊而成的「食物超現實擬物」巨型沙灘城堡，呈現如服裝多視角展示般的環繞剖面視覺。",
+    "number": 2084,
+    "avoid_list": [
+      "前爪專注撥弄零件",
+      "粉彩莫蘭迪色系",
+      "雙色調高對比色塊",
+      "微縮移軸世界",
+      "強制透視大隻爪子",
+      "粗糙混凝土幾何空間",
+      "手作機關與齒輪零件",
+      "戴草帽的夏日場景",
+      "單一聚光燈強烈光影",
+      "全像投影與虛擬圖層",
+      "撕紙低多邊形拼貼"
+    ]
   }
 ]
