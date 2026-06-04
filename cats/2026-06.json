@@ -867,5 +867,45 @@
       "菲律賓巴拉望群島的恩塔魯拉海灘（Entalula Beach）因其壯麗的石灰岩懸崖與漸層色澤的清澈海水，在最新的全球評選中榮登2026年度世界最佳海灘榜首。"
     ],
     "number": 2094
+  },
+  {
+    "news_inspiration": [
+      "奧地利維也納獸醫大學的科學家首次記錄到一頭名為薇洛妮卡（Veronika）的乳牛具備罕見的使用工具能力，打破了以往認為只有靈長類動物才會持續使用多功能工具的認知。",
+      "澳洲凱恩斯外海的大堡礁公民科學項目中，研究人員發現了一個面積達3,973平方公尺（約半個足球場大）的巨大柱狀微孔珊瑚群，被認為是目前有紀錄以來體積最大的珊瑚之一。",
+      "紐西蘭奧瑪魯（Oamaru）迎來了一年一度的蒸汽龐克節（Steampunk Festival），吸引了大批愛好者穿著維多利亞時代的改良發明家服飾與飛艇船長裝扮齊聚一堂。",
+      "孟加拉達卡的一家動物園內，一頭因擁有一頭神似美國前總統金黃蓬鬆髮型而名為「唐納德·川普」的水牛，在社群媒體上爆紅並成為當地炙手可熱的明星動物。"
+    ],
+    "season": "summer",
+    "is_seasonal": true,
+    "story": "盛夏的烈日被歐普藝術的藍青色線條扭曲成一場視覺暴風雪，港口老大「船長」卻老神在在地戴上草帽，在防波堤邊享受著牠的專屬季節。牠用粗壯的爪子壓著釣竿，銳利的翠綠色右眼正緊盯著漩渦般的海面，因為只有牠知道，在這種迷幻的幾何浪潮下，最肥美的魚群才會現身。",
+    "comment_id": 4626735718,
+    "avoid_list": [
+      "移軸微縮效果",
+      "德羅斯特效應無限嵌套",
+      "合成波美學風格",
+      "粉彩與莫蘭迪低彩度色調",
+      "斑駁生鏽天線與老舊鐵鏽痕跡",
+      "懸浮或漂浮的混凝土碎塊與天線",
+      "溫和柔和的自然漫射光與無陰影",
+      "古老時鐘齒輪與發條機關",
+      "粗糙棕色舊皮革地墊",
+      "用前爪或鼻子輕觸撥弄物體",
+      "貓咪趴在或坐在微縮模型與沙盤中央",
+      "角落清晰顯示日期與時間文字"
+    ],
+    "idea": "在歐普藝術（Op Art）的幾何錯視與螺旋漩渦構圖中，一隻身形壯碩、戴著眼罩的虎斑老貓「船長」正蹲坐在藍青冷色調的防波堤上，牠戴著草帽，用前掌穩穩按住一根竹製釣竿在暴風雪朦朧的幻象中釣魚。",
+    "title": "幻色旋渦裡的夏日垂釣",
+    "prompt": "An artistic illustration in Op Art style featuring Captain, a large, stocky brown classic tabby cat with bold black stripes and a scruffy, untidy, slightly coarse fur texture. His left eye is permanently concealed by a natural dark-pigmented fur patch, with no fabric eye patch or straps, while his right eye is a piercing emerald green. He has a prominent V-shaped notch on his left ear, a faded red bandana tied loosely around his neck, a white chest bib, white mitten paws, and a distinctive M-mark on his forehead. Sitting calmly on a cold blue-teal concrete breakwater, he wears a simple straw hat and uses one white front paw to firmly press down a bamboo fishing rod. The composition is built around a dizzying spiral vortex and abstract geometric design, with high-contrast repetition and a centered vanishing point creating an optical illusion pattern of movement. The summer setting is transformed into a painterly, hallucinatory weather mood resembling a heavy snowstorm veil with blurred distance and muted diffused daylight. The artwork has a sculpted clay texture and handmade ceramic feel with a matte surface. The text '2026-06-04 22:59 UTC' is clearly and visually displayed in a clean font in the corner of the image.",
+    "inspiration": "original",
+    "number": 2095,
+    "character_name": "船長",
+    "style_picks": {
+      "art_style": "Op Art",
+      "composition": "Spiral Vortex Frame",
+      "lighting": "Snowstorm Haze",
+      "texture": "Clay / Ceramic",
+      "color_palette": "Cool Tones (Blue / Teal)"
+    },
+    "character": "captain"
   }
 ]

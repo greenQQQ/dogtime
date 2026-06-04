@@ -19306,5 +19306,18 @@
     "model": "gpt-image-2 (codex-image-service / $imagegen)",
     "status": "success",
     "number": 2094
+  },
+  {
+    "url": "https://github.com/yazelin/catime/releases/download/cats-2026-06/cat_2026-06-04_2259_UTC.webp",
+    "season": "summer",
+    "is_seasonal": true,
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "timestamp": "2026-06-04 22:59 UTC",
+    "status": "success",
+    "title": "幻色旋渦裡的夏日垂釣",
+    "inspiration": "original",
+    "number": 2095,
+    "character_name": "船長",
+    "character": "captain"
   }
 ]
