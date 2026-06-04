@@ -768,5 +768,38 @@
       "color_palette": "Duotone"
     },
     "story": "當正午的陽光以完美角度穿透曼哈頓的摩天大樓狹縫，一隻長毛黑貓正專注地用前爪拍擊地面上那道筆直延伸的金黃色光束。分割畫面的另一側，則是無數攝影師蹲伏在棋盤式街道上，正試圖捕捉這一年一度的曼哈頓懸日奇景，而貓咪成了這場夕陽盛宴中最靈動的點綴。"
+  },
+  {
+    "news_inspiration": [],
+    "number": 2092,
+    "title": "烈日下的藍寶石",
+    "character": "lingling",
+    "style_picks": {
+      "art_style": "Street Photography",
+      "composition": "Extreme Low Angle",
+      "lighting": "Harsh Midday Sun",
+      "texture": "Leather",
+      "color_palette": "Earth Tones"
+    },
+    "comment_id": 4624077848,
+    "avoid_list": [
+      "橘白貓麻糬",
+      "霓虹螢光色",
+      "高調明亮光線",
+      "微縮移軸效果",
+      "老舊生鏽鐵皮痕跡",
+      "賽博龐克城市",
+      "精緻手工作品模型",
+      "四足圓滾滾姿態",
+      "冷藍青色調",
+      "深海全新生物物種",
+      "傳統市場老街",
+      "蒸汽龐克古老工坊"
+    ],
+    "idea": "這是一幅採用街頭攝影風格的照片，以極低角度捕捉在午後硬光日照下，一隻極其蓬鬆的白色布偶貓風格貓咪「鈴鈴」，正趴在花店門口一塊棕色舊皮革地墊上，伸出前爪試圖撥弄一片飄落的玫瑰花瓣。",
+    "character_name": "鈴鈴",
+    "story": "陽光猛烈地灑在花店外的街道上，大地色系的磚道泛著熱氣。脖子上戴著粉紅蝴蝶結鈴鐺的鈴鈴，耐不住對陽光下閃爍花瓣的好奇，大著膽子從店裡溜了出來。她趴在粗糙的皮革墊上，寶石藍的大眼睛緊盯著目標，每當她微微一動，清脆的鈴聲便在燥熱的空氣中迴盪。",
+    "prompt": "A street photography style, candid shot of a literal four-legged cat named Lingling. Lingling is an extremely fluffy pure white longhair Ragdoll-like cat with voluminous cloud-like pure white fur, a small round face nearly hidden in fur, huge round sapphire-blue eyes, a pale pink nose, and pale pink inner ears. She wears a pink ribbon bow collar with a small golden bell clearly visible and centered beneath the bow knot. She is lying on a brown old genuine leather mat with a rich grain pattern and warm aged patina at a florist shop entrance, extending her front paw to playfully swat a falling rose petal. Extreme low-angle shot looking up at the cat from the ground, creating a dramatic towering perspective. Captured in harsh midday sunlight with strong directional sun, hard edge shadows, and high contrast natural daylight. The background shows a gritty urban realism with earth tone palette including terracotta, olive green, and warm brown. The date and time '2026-06-04 16:16 UTC' is visually stamped and clearly displayed in the image corner. Shot on 35mm lens, f/1.8, shallow depth of field, natural film grain texture, real photograph.",
+    "inspiration": "original"
   }
 ]
