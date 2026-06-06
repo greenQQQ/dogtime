@@ -1479,5 +1479,40 @@
       "英國劍橋啟用了全國首條荷蘭式「自行車優先街」，將汽車定位為「訪客」並給予單車與行人絕對路權，每天吸引約三千名騎士通行。"
     ],
     "comment_id": 4639357565
+  },
+  {
+    "news_inspiration": [
+      "在美國紐約市，多名神秘人在深夜透過人行道人孔蓋頻繁進出下水道，引發當地居民與警方的離奇關注與調查。",
+      "在紐西蘭奧瑪魯，當地一年一度舉辦的蒸汽龐克節（Steampunk Festival）吸引了無數喜愛維多利亞風格與科幻美學的發明家與愛好者齊聚狂歡。",
+      "在哈薩克草原，保育組織「金草原保育倡議」成功將8匹暌違該棲息地超過200年的真正野馬放歸大自然，有助於降低當地野火風險並改善土壤碳儲存。"
+    ],
+    "number": 2112,
+    "style_picks": {
+      "art_style": "Fashion Croquis Sketch",
+      "composition": "Fisheye Lens",
+      "lighting": "Harsh Midday Sun",
+      "texture": "Velvet",
+      "color_palette": "Neon Fluorescent"
+    },
+    "story": "紐約市的深夜不再平靜，傳言大批神秘人正悄悄潛入地底。這隻天鵝絨黑貓在刺眼的正午陽光下徘徊在街頭，牠將耳朵貼近那塊沉重的人孔蓋，試圖從黑洞洞的縫隙中捕捉地底傳來的詭異腳步聲與低語。",
+    "avoid_list": [
+      "用前爪好奇撥弄物體",
+      "趴或躺在物體表面凝視",
+      "倫勃朗光與特殊三角光影",
+      "黃金時刻的溫暖夕陽與輪廓光",
+      "柔和粉彩色系搭配棉花糖雲朵",
+      "黏土動畫風格與指紋紋理",
+      "立體紙雕與層層疊疊的剪紙藝術",
+      "多視角分格與不規則漫畫面板構圖",
+      "在角落視覺化顯示日期與時間文字",
+      "貓咪穿戴迷你服飾或配件",
+      "古老機械工作坊或蒸汽龐克場景",
+      "在特定環境中追逐或觀察微小生物"
+    ],
+    "idea": "在強烈硬光日照下，一隻全身散發天鵝絨般光澤的黑貓，正透過人行道人孔蓋的縫隙向黑暗的紐約下水道深處窺探，整體畫面以霓虹螢光色的時尚設計草圖線條搭配極致誇張的魚眼鏡頭呈現。",
+    "comment_id": 4639776666,
+    "prompt": "A fashion croquis sketch with loose pencil and marker lines of a velvet-textured black cat with light-absorbing matte fur peering down through the cracks of a New York sidewalk manhole cover. The illustration is captured in an extreme fisheye wide-angle lens with strong barrel distortion and an exaggerated foreground, creating a 360-degree feel. The scene features harsh midday sunlight, hard-edge shadows, and high-contrast natural daylight with gritty urban realism. The design uses neon fluorescent colors like electric pink, lime green, and hot cyan glowing against the dark background, capturing a designer sketchbook aesthetic with visible colored pencils as props. The date and time '2026-06-06 16:57 UTC' is clearly and visually displayed in the corner of the image.",
+    "title": "地底黑洞的窺聽者",
+    "inspiration": "在美國紐約市，多名神秘人在深夜透過人行道人孔蓋頻繁進出下水道，引發當地居民與警方的離奇關注與調查。"
   }
 ]
