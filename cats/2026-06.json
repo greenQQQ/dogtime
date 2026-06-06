@@ -1652,5 +1652,35 @@
     "title": "棉花糖的意外降落",
     "number": 2116,
     "character_name": "鈴鈴"
+  },
+  {
+    "idea": "這是一幅以黑白單色為主的色鉛筆畫，採用服裝多視角展示的構圖，將聚光燈打在一隻正在熟睡、身陷棉花糖雲朵般蓬鬆窩裡的貓咪身上。",
+    "number": 2117,
+    "title": "鏡中的純白夢境",
+    "prompt": "A colored pencil illustration with visible pencil grain and rich tonal range on rough sketchbook paper texture. The composition is a multi-view product showcase layout, arranged in panels presenting a front view, back view, side view, and detail close-up of a sleeping calico cat. The cat is curled up tightly in a sleeping activity, deeply nestled within fluffy cotton candy cloud texture and marshmallow-like soft cumulus puffs. A narrow beam spotlight creates dramatic high-contrast, sharp light edges, and deep darkness falloff, casting a harsh beam on the cat. The overall color is black and white monochrome with deep shadows and high-contrast highlights. The text '2026-06-06 23:55 UTC' is visually displayed and labeled neatly on the clean studio backdrop in a fashion design sheet format, resembling a lookbook reference guide.",
+    "inspiration": "original",
+    "comment_id": 4640836703,
+    "story": "深夜的服裝設計工作室裡，一隻三花貓悄悄溜進了展示區。牠沒有破壞衣服，反而選中了聚光燈下最柔軟的純白鋪棉布料，蜷縮成一個圓圈沉沉睡去，在多角度的鏡子折射下，呈現出如時裝秀般奇妙的靜謐視角。",
+    "avoid_list": [
+      "用爪子撥弄發光物",
+      "紐約下水道人孔蓋",
+      "黃金時刻的夕陽餘暉",
+      "極低角度仰望",
+      "溫室與懸掛植物",
+      "金色與黑色的奢華色調",
+      "天鵝絨質感與吸光毛皮",
+      "柔和粉彩夢幻色調",
+      "刺眼的正午硬光日照",
+      "專注地用身體部位操作或輕觸",
+      "迷你浮水衣與海灘"
+    ],
+    "style_picks": {
+      "art_style": "Colored Pencil Drawing",
+      "composition": "Multi-View Fashion Display",
+      "lighting": "Spotlight",
+      "texture": "Cotton Candy Clouds",
+      "color_palette": "Monochrome / Black and White"
+    },
+    "news_inspiration": []
   }
 ]
