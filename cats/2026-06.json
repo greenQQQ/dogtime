@@ -1916,5 +1916,38 @@
       "對稱構圖實驗室場景",
       "鏡面反射與折射迷宮"
     ]
+  },
+  {
+    "idea": "在微距攝影下，墨墨趴在一座由舊書頁與黃銅齒輪組成的浮島微縮場景中，瞇著眼享受下巴被隱形微風摩挲的瞬間。",
+    "style_picks": {
+      "art_style": "Macro Photography",
+      "composition": "Floating Island Scene",
+      "lighting": "Backlighting / Rim Light",
+      "texture": "Sparkle Glitter Accents",
+      "color_palette": "Warm Tones (Amber / Autumn)"
+    },
+    "comment_id": 4643720221,
+    "number": 2125,
+    "avoid_list": [
+      "在畫面角落清晰顯示日期與時間",
+      "莫蘭迪色調與灰土色底蘊",
+      "用前爪好奇地撥弄或拍打",
+      "35mm鏡頭與真實底片顆粒",
+      "冷色調藍青色鐵鏽與舊化",
+      "蝴蝶光或環形燈的均勻正面照明",
+      "一隻貓伸出前爪的強制透視",
+      "白色蓬鬆布偶貓或長毛貓",
+      "橘白相間或虎斑貓的專注側影",
+      "傳統蒸籠或大理石紋理表面",
+      "微縮立體模型或多視角分格構圖",
+      "巨型機械蝴蝶或章魚雕塑迷宮"
+    ],
+    "character": "momo",
+    "title": "琥珀微塵的浮島密語",
+    "news_inspiration": [],
+    "character_name": "墨墨",
+    "inspiration": "original",
+    "prompt": "Macro photography of Momo, a sleek, slender solid-black shorthair cat with satin-sheen fur revealing warm brown undertones under light, and large luminous golden-amber eyes. A tiny natural white locket tuft is on her chest, a single dark-grey ring is at her tail tip, and long prominent white whiskers are visible. On her left ear, a single small gold hoop earring is positioned at the mid-ear edge. Momo is lying on a miniature floating island made of old book pages and brass gears, squinting her eyes blissfully as if feeling an invisible breeze. The text '2026-06-07 19:03 UTC' is visually displayed in the corner of the image. Extreme close-up shot, sharp detail, shallow depth of field, fine textures visible. Aerial perspective of the miniature landscape on a levitating platform. Strong backlighting with rim light, glowing silhouette edges, with Momo's outline defined by light. Shimmering particles, sparkle and glitter overlay effects, and magical glow dust drift in the air. Warm amber color grading with a cozy nostalgic warmth. Taken with a 35mm lens, f/1.4, candid shot, looking like a real photograph.",
+    "story": "這隻優雅的黑色貓咪在古老書頁堆疊而成的懸浮世界裡找到了安身之處。強烈的背光勾勒出牠緞面般的純黑輪廓與耳上的金環，溫暖的琥珀色調與空氣中如閃光亮粉般飄散的塵埃相互輝映。墨墨似乎對這個與世隔絕的奇幻空間相當滿意，專注地凝視著腳下如藝術品般精緻的齒輪軌道。"
   }
 ]
