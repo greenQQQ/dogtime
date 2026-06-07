@@ -1682,5 +1682,40 @@
       "color_palette": "Monochrome / Black and White"
     },
     "news_inspiration": []
+  },
+  {
+    "inspiration": "達特茅斯學院一項發表於2026年6月的最新科學研究發現，章魚不僅聰明，還學會了利用鏡子折射來尋找視線死角的隱藏食物，是首個展現此能力的無脊椎動物。",
+    "prompt": "A long exposure photograph of an orange and white cat looking down, captivated by shifting reflections within a giant floating octopus sculpture maze in the sky. The scene is shot from an aerial perspective on a levitating platform with white clouds below. Thin, glowing light trails and motion blur from surrounding light sources streak through the air. The date and time '2026-06-07 02:30 UTC' is cleanly and visually displayed in the corner of the image. Cinematic lighting with volumetric light rays and dramatic shadows creates a high dynamic range, film-quality mood. The color scheme follows a Morandi muted palette with desaturated soft pastels and dusty grey undertones. Shot with a 35mm lens, f/8 aperture to capture the deep depth of field of the maze, realistic film grain, and authentic photographic texture.",
+    "comment_id": 4641192910,
+    "number": 2118,
+    "title": "鏡間的流光視角",
+    "story": "這座懸浮在半空的鏡面迷宮是科學家的最新實驗場。章魚雕塑利用鏡子折射藏匿著美味，而這隻好奇的貓咪正趴在浮島邊緣，試圖看穿鏡中倒影與實體之間的空間奧秘。",
+    "news_inspiration": [
+      "美國紐約州伊薩卡市的一座公墓地底，科學家意外發現了估計高達550萬隻地下築巢蜜羊蜂的巨型聚集地，這可能是迄今為止記錄到最大的蜜蜂群落之一。",
+      "達特茅斯學院一項發表於2026年6月的最新科學研究發現，章魚不僅聰明，還學會了利用鏡子折射來尋找視線死角的隱藏食物，是首個展現此能力的無脊椎動物。",
+      "澳洲科學家成功利用最新的環境DNA（eDNA）糞便分析技術，追蹤並著手保護野外僅存不到150隻的極危袋鼠類物種「吉爾伯特長鼻袋鼠」。",
+      "日本東京科學大學自主機器人實驗室於近日正式啟用，展示了最新一代由人工智慧驅動的自動化研究機器人，將大幅加快生物科學數據的發現速度。"
+    ],
+    "style_picks": {
+      "art_style": "Long Exposure Photography",
+      "composition": "Floating Island Scene",
+      "lighting": "Cinematic Lighting",
+      "texture": "3D Render",
+      "color_palette": "Morandi Color Palette"
+    },
+    "idea": "在漂浮於空中的巨型章魚雕塑迷宮中，一隻橘白相間的貓咪正低頭凝視著錯落的鏡面反射，畫面透過長曝光攝影捕捉到周圍光影流轉的細長軌跡。",
+    "avoid_list": [
+      "用爪子撥弄發光物",
+      "紐約下水道人孔蓋",
+      "黃金時刻的夕陽餘暉",
+      "極低角度仰望",
+      "溫室與懸掛植物",
+      "金色與黑色的奢華色調",
+      "天鵝絨質感與吸光毛皮",
+      "柔和粉彩夢幻色調",
+      "刺眼的正午硬光日照",
+      "專注地用身體部位操作或輕觸",
+      "迷你浮水衣與海灘"
+    ]
   }
 ]
