@@ -1849,5 +1849,37 @@
     ],
     "prompt": "Tlingit art formline design illustration of a large stocky brown classic tabby cat with bold black stripes, scruffy coarse fur texture, a distinctive M-mark on forehead, a thick sturdy tail, and white mitten paws on all four feet. Its left eye is permanently concealed by a natural dark-pigmented fur patch, while its single right eye is piercing emerald green, and its left ear features a prominent V-shaped notch. A faded red bandana is tied loosely around its neck. The cat is using its white mitten paw to swat at a plump bonito fish falling from a fishing boat. The scene is structured in a spiral vortex composition, with dynamic formline curves coiling around the subject, utilizing a strong rotational perspective and centered vanishing point for a dizzying sense of depth from a cinematic low angle. The color palette is a strict duotone of bold black and vibrant red, evoking the Pacific Northwest indigenous totem style with strong graphic impact. Visually displayed clearly within the image text is the date and time '2026-06-07 13:17 UTC'.",
     "character_name": "船長"
+  },
+  {
+    "character": "mochi",
+    "avoid_list": [
+      "莫蘭迪低飽和色調",
+      "環形燈均勻正面光",
+      "視覺嵌入日期時間戳",
+      "蝴蝶光對稱光影",
+      "35mm鏡頭膠片顆粒質感",
+      "天鵝絨吸光啞光質感",
+      "藍青色調冷冽光芒",
+      "專注撥弄操作複雜儀器",
+      "棉花糖蓬鬆雲朵",
+      "對稱構圖實驗室場景",
+      "鏡面反射與折射迷宮"
+    ],
+    "story": "老街夜市的黃昏熱鬧非凡，空氣中彌漫著復古褪色的溫暖色調。麻糬巡邏到最愛的點心攤，在大理石紋理的微縮檯面上，牠一邊瞇眼享受著三點打光帶來的溫熱，一邊用粉紅小鼻頭嗅著肉香，肚子隨著呼吸微微晃動，準備趁老闆不注意時「試吃」這道美味。",
+    "idea": "在融合東方奇幻海報風格的微縮立體模型中，圓滾滾的橘白貓麻糬正趴在熱氣騰騰的傳統蒸籠旁，伸出戴著右橘色手套的肥嫩前爪，試圖撥弄一顆剛出爐的巨型湯包。",
+    "comment_id": 4643088423,
+    "news_inspiration": [],
+    "title": "蒸籠上的花生麻糬",
+    "number": 2123,
+    "style_picks": {
+      "art_style": "Oriental Mythic Poster",
+      "composition": "Miniature Diorama",
+      "lighting": "Three-Point Lighting",
+      "texture": "Marble",
+      "color_palette": "Retro Faded Tones"
+    },
+    "prompt": "A detailed miniature diorama in an oriental mythic poster art style featuring a chubby rounded shorthair cat named Mochi. The cat has a white base coat, bright orange patches, a spherical torso, and short stubby legs. Its right half-face from the perspective of the viewer has an orange mask covering the cheek and ear, while its left face is entirely pure white. It has large round amber eyes and a pink nose with a tiny orange dot. On its upper back is a heart-shaped orange saddle patch. Its right front paw is a solid orange mitten to the wrist, while its left front paw is pure white. Its belly is white, its tail has orange-and-white ringed bands, and its shorthair coat has no tabby stripes. The cat is lying next to a steaming traditional bamboo steamer on a polished marble surface with natural vein patterns, stretching out its orange right front paw to pat a giant freshly-baked soup dumpling. The scene is blending a toy-like scale model with cinematic fantasy composition, using a tilt-shift effect for a tiny detailed world. The background features traditional Chinese ink cloud ornaments, vertical calligraphy panels, and red seal stamps, with gold leaf accents on deep black. Classic three-point lighting setup with a soft key light, fill light, and subtle rim light separation. The color palette is retro and faded with washed-out vintage tones, low contrast, and nostalgic film-era warmth. The date and time '2026-06-07 15:16 UTC' is visually displayed in the corner of the image.",
+    "character_name": "麻糬",
+    "inspiration": "original"
   }
 ]
