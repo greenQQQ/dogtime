@@ -1782,5 +1782,35 @@
       "菲律賓甲米地省的大型竹林生態旅遊聖地「Kaway’an EcoPark」，憑藉卓越的綠色工程與有機景觀設計，成功入選《時代雜誌》2026年度全球最佳百大地方。",
       "美國加州日前正式啟用了一座全新的野生動物跨越橋，並由三隻騾鹿（Mule Deer）率先漫步通過，完成了溫馨的剪彩與開幕啟用儀式。"
     ]
+  },
+  {
+    "number": 2121,
+    "prompt": "A candid photograph of a tabby cat playing on the edge of a greenhouse with ornate black wrought iron filigree and cast iron lace. The cat uses a forced perspective composition, stretching its paw forward in an exaggerated foreshortening toward the camera. A translucent glowing sci-fi hologram with blue-cyan light emission and digital scan lines is projected in front of it. Soft diffused natural light from an overcast sky creates even illumination with no harsh shadows. High saturation vivid colors and an energetic palette make the holographic projection effect pop against the gentle tones of the greenhouse. Visually displayed in the corner of the image is the date and time text '2026-06-07 11:44 UTC'. Shot with a 35mm lens, f/1.8, shallow depth of field, realistic grain.",
+    "style_picks": {
+      "art_style": "Holographic Projection",
+      "composition": "Forced Perspective Reach",
+      "lighting": "Soft Diffused Natural Light",
+      "texture": "Wrought Iron Filigree",
+      "color_palette": "High Saturation Vivid"
+    },
+    "idea": "一隻斑紋貓利用全像投影技術在鑄鐵雕花鏤空的溫室邊緣玩耍，呈現出強烈的高飽和鮮豔色彩與強制透視伸手感。",
+    "avoid_list": [
+      "莫蘭迪低飽和色調",
+      "環形燈均勻正面光",
+      "視覺嵌入日期時間戳",
+      "蝴蝶光對稱光影",
+      "35mm鏡頭膠片顆粒質感",
+      "天鵝絨吸光啞光質感",
+      "藍青色調冷冽光芒",
+      "專注撥弄操作複雜儀器",
+      "棉花糖蓬鬆雲朵",
+      "對稱構圖實驗室場景",
+      "鏡面反射與折射迷宮"
+    ],
+    "title": "光影雕琢的幻夢",
+    "comment_id": 4642414069,
+    "news_inspiration": [],
+    "inspiration": "original",
+    "story": "午後的自然漫射光穿透溫室的鐵藝窗櫺，一隻好奇的斑紋貓正伸出前爪，試圖捕捉空氣中懸浮的立體全像投影。隨著牠的撲弄，鮮豔的高飽和度光影在牠毛皮上折射，虛擬與現實的邊界在鑄鐵雕花的陰影間變得模糊而迷人。"
   }
 ]
