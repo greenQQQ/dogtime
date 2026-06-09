@@ -19773,5 +19773,16 @@
     "status": "success",
     "model": "gemini-3-pro-image-preview (fallback from codex: codex-image-service HTTP 502: {\"detail\":\"Codex exited with code 1\"})",
     "url": "https://github.com/yazelin/catime/releases/download/cats-2026-06/cat_2026-06-09_1905_UTC.webp"
+  },
+  {
+    "title": "花生麻糬的烘焙坊巡禮",
+    "number": 2142,
+    "character_name": "麻糬",
+    "timestamp": "2026-06-09 21:28 UTC",
+    "status": "success",
+    "character": "mochi",
+    "url": "https://github.com/yazelin/catime/releases/download/cats-2026-06/cat_2026-06-09_2128_UTC.webp",
+    "inspiration": "original",
+    "model": "gemini-3-pro-image-preview (fallback from codex: codex-image-service HTTP 502: {\"detail\":\"Codex exited with code 1\"})"
   }
 ]

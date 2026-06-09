@@ -2509,5 +2509,42 @@
     "number": 2141,
     "comment_id": 4663136781,
     "story": "一隻可愛的貓咪正在享受美好的一天。"
+  },
+  {
+    "title": "花生麻糬的烘焙坊巡禮",
+    "avoid_list": [
+      "粉彩色系",
+      "半透明樹脂鍵盤",
+      "蒸汽龐克節",
+      "草帽與防波堤",
+      "微弱的燭光與折射",
+      "古老廢墟或老宅",
+      "好奇地嗅聞或觸摸",
+      "用爪子撥弄或撲抓",
+      "聚光燈與強烈高對比",
+      "琥珀與化石元素",
+      "追逐蝴蝶的動態"
+    ],
+    "number": 2142,
+    "comment_id": 4664249575,
+    "character": "mochi",
+    "idea": "在色彩繽紛的高飽和鮮豔色老街麵包店中，以等距3D插圖與漫畫風格呈現，並融合精緻的摺紙質感與電影感打光。",
+    "style_picks": {
+      "art_style": "Manga",
+      "composition": "Isometric 3D Illustration",
+      "lighting": "Cinematic Lighting",
+      "texture": "Origami",
+      "color_palette": "High Saturation Vivid"
+    },
+    "inspiration": "original",
+    "news_inspiration": [
+      "在加拿大納奈莫，一名十二歲少年在凌晨三點鍥而不捨地挨家挨戶按門鈴求助，最終成功引導鄰居為他突發心臟驟停的父親實施心肺復甦術並救回一命。",
+      "在奧地利維也納，科學家發現一頭名為薇若妮卡（Veronika）的牛隻竟然具備罕見的使用工具能力，能將其當作多功能工具使用，顛覆了過往對牛隻智力的認知。",
+      "在英國蓋茨黑德，當地社區與全英國同步展開二〇二六年「偉大綠色週」慶祝活動，動員超過百萬人參與社區清潔與環境保護的永續行動。",
+      "在美國新澤西州，一所學校延續了五十多年的傳統，要求每位新生必須完成長達五十五英里的阿帕拉契小徑徒步健行，以在親近自然中培養韌性與團隊合作精神。"
+    ],
+    "prompt": "A 3D isometric illustration of an old-school bakery, blending manga style with clean ink lines, screentone shading, and precise origami style folded paper art featuring clean geometric creases and a paper sculpture aesthetic. A chubby, rounded, short-haired literal cat named Mochi is four-legged, perched on a wooden counter, playing with folded paper croissants using its right paw. Mochi has a white base coat with solid orange patches and no tabby stripes: the right half of its face (viewer perspective) has an orange mask over the cheek and ear while the left face is entirely white; it has a heart-shaped orange saddle on its upper back, a solid orange right front paw, a pure white left front paw, a white belly, large round amber eyes, and a pink nose with a tiny orange dot. In the background, the bakery owner smiles, holding a tray of freshly baked bread. The scene features cinematic lighting with volumetric light rays, dramatic shadows, and high saturation vivid colors with an energetic palette. In the corner of the image, the date and time '2026-06-09 21:28 UTC' is clearly and visually displayed as part of the graphic design.",
+    "story": "貪吃的橘白貓麻糬正趴在傳統麵包店的木質櫃檯上，用小胖爪認真地撥弄著幾件精緻的摺紙牛角麵包。牠琥珀色的大圓眼因為看到食物而放大兩倍，正當牠準備把這層層疊疊的「美味」推進嘴裡時，老闆娘正笑著從廚房端出剛出爐的真正羅宋麵包。",
+    "character_name": "麻糬"
   }
 ]
