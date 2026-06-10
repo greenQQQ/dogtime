@@ -2784,5 +2784,35 @@
     "idea": "在一座復古高空觀景台的透明玻璃窗前，一隻蓬鬆的緬因貓正專注地用鼻子探嗅一尊微型的木雕海狸，整體畫面採用不透明水彩風格，邊緣點綴著繽紛的貼紙拼貼邊框。",
     "prompt": "An opaque gouache painting with a matte finish and bold flat colors, illustrating a fluffy Maine Coon cat intently sniffing a miniature wooden beaver carving. They are positioned in front of a transparent glass window on a retro high-altitude observation deck. The text '2026-06-10 20:08 UTC' is visually displayed clearly in the image. The composition is a scrapbook-style overlay and die-cut sticker collage, featuring a central character surrounded by layered sticker cutouts with white outline borders, chibi side characters, and floating props decorating the frame. The background shows a distant city skyline under a duotone color treatment with two contrasting colors. The scene utilizes a classic three-point lighting setup, including a key light with soft shadows, a fill light, and a subtle rim light for separation. Beautiful sparkle and glitter overlay effects, star-shaped highlights, shimmering particles, anime shine accents, dreamy twinkle embellishments, and magical glow dust decorate the entire frame.",
     "comment_id": 4674031785
+  },
+  {
+    "story": "在充斥著虹彩全息光澤的1950年代美式餐廳裡，陽光透過頂窗形成完美的蝴蝶光。畫面一側是店員忙碌的手部特寫，另一側則是三花貓專注盯著融化冰淇淋的圓滾滾大眼，空氣中瀰漫著甜膩與夏日的慵懶。",
+    "idea": "這是一幅採用半色調網點與分割畫面呈現的粉彩色系創作，一隻三花貓正趴在復古冰淇淋店的點餐檯上，用鼻子好奇地嗅著剛做好的巨型草莓聖代。",
+    "number": 2150,
+    "news_inspiration": [],
+    "avoid_list": [
+      "黑貓墨墨",
+      "優雅地趴在竹蓆上納涼",
+      "金色與黑色奢華",
+      "琥珀化石與昆蟲",
+      "用前爪推動或撥弄物品",
+      "在古老廢墟中捕捉昆蟲",
+      "電影感打光與強烈體積光",
+      "微距攝影結合古絹或精細工藝",
+      "將日期時間標記在畫面角落",
+      "採用特殊的透視與對稱構圖",
+      "融合傳統工藝元素如摺紙與衍紙"
+    ],
+    "title": "莓果聖代的午後凝視",
+    "style_picks": {
+      "art_style": "Halftone",
+      "composition": "Split View",
+      "lighting": "Butterfly Lighting",
+      "texture": "Iridescent Holographic",
+      "color_palette": "Pastel Colors"
+    },
+    "inspiration": "original",
+    "comment_id": 4675444752,
+    "prompt": "A split view composition illustration of a calico cat on a retro ice cream parlor counter, curiously sniffing a giant strawberry sundae with its nose. The scene is set in a 1950s American diner with iridescent holographic material, featuring rainbow color shifts, pastel prismatic reflections, and a shimmering translucent surface. The style uses a halftone dot pattern, CMYK print aesthetic, and a visible dot matrix for a retro newspaper print effect with graphic texture. One side shows a close-up of a clerk's busy hands, while the other focuses on the cat's big, round eyes staring at the melting ice cream. Bright sunlight streams through a clerestory window, creating butterfly lighting with an overhead key light and a symmetrical shadow under the cat's nose. A soft pastel color palette dominates with gentle pink, lavender, mint, and baby blue dreamy light tones. Visually displayed in the image is the exact text '2026-06-10 22:46 UTC'."
   }
 ]
