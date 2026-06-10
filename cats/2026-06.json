@@ -2749,5 +2749,40 @@
       "採用特殊的透視與對稱構圖",
       "融合傳統工藝元素如摺紙與衍紙"
     ]
+  },
+  {
+    "story": "這隻好奇的巨大緬因貓在觀景台的角落發現了隱藏的尋寶線索，正伸長脖子仔細嗅著那尊散發木頭香氣的海狸小雕像。遠處的城市天際線在雙色調的夜色中閃爍，三點打光巧妙地勾勒出貓咪精緻的輪廓與畫面上細緻的閃光亮粉效果。",
+    "style_picks": {
+      "art_style": "Gouache",
+      "composition": "Sticker Collage Frame",
+      "lighting": "Three-Point Lighting",
+      "texture": "Sparkle Glitter Accents",
+      "color_palette": "Duotone"
+    },
+    "inspiration": "加拿大多倫多的一個社區推出了一場以世界盃為主題、尋找特殊海狸雕塑的獨特尋寶活動，為當地增添了濃厚的運動與文化氛圍。",
+    "number": 2149,
+    "title": "雲端的木香奇遇",
+    "news_inspiration": [
+      "加拿大多倫多的一個社區推出了一場以世界盃為主題、尋找特殊海狸雕塑的獨特尋寶活動，為當地增添了濃厚的運動與文化氛圍。",
+      "西班牙加泰隆尼亞著名的疊人塔團隊於巴塞隆納的奧林匹克體育場進行表演，以壯觀的人體城堡奇景向教宗致敬。",
+      "美國紐約州一名男子的中學畢業紀念冊預言在六年後意外成真，他當年寫下「尼克隊六場奪冠」的留名隨著現今賽事而在網路上瘋傳。",
+      "丹麥哥本哈根的「真人圖書館閱讀花園」持續推廣獨特的借閱體驗，讓讀者不借書而是「借一尊真人」來聊天，以傾聽不同的人生故事。"
+    ],
+    "avoid_list": [
+      "黑貓墨墨",
+      "優雅地趴在竹蓆上納涼",
+      "金色與黑色奢華",
+      "琥珀化石與昆蟲",
+      "用前爪推動或撥弄物品",
+      "在古老廢墟中捕捉昆蟲",
+      "電影感打光與強烈體積光",
+      "微距攝影結合古絹或精細工藝",
+      "將日期時間標記在畫面角落",
+      "採用特殊的透視與對稱構圖",
+      "融合傳統工藝元素如摺紙與衍紙"
+    ],
+    "idea": "在一座復古高空觀景台的透明玻璃窗前，一隻蓬鬆的緬因貓正專注地用鼻子探嗅一尊微型的木雕海狸，整體畫面採用不透明水彩風格，邊緣點綴著繽紛的貼紙拼貼邊框。",
+    "prompt": "An opaque gouache painting with a matte finish and bold flat colors, illustrating a fluffy Maine Coon cat intently sniffing a miniature wooden beaver carving. They are positioned in front of a transparent glass window on a retro high-altitude observation deck. The text '2026-06-10 20:08 UTC' is visually displayed clearly in the image. The composition is a scrapbook-style overlay and die-cut sticker collage, featuring a central character surrounded by layered sticker cutouts with white outline borders, chibi side characters, and floating props decorating the frame. The background shows a distant city skyline under a duotone color treatment with two contrasting colors. The scene utilizes a classic three-point lighting setup, including a key light with soft shadows, a fill light, and a subtle rim light for separation. Beautiful sparkle and glitter overlay effects, star-shaped highlights, shimmering particles, anime shine accents, dreamy twinkle embellishments, and magical glow dust decorate the entire frame.",
+    "comment_id": 4674031785
   }
 ]
