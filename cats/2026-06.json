@@ -2848,5 +2848,44 @@
     ],
     "number": 2151,
     "prompt": "A dreamy digital oil painting of a ginger tabby cat on a miniature railway model's detailed wood grain platform. The giant cat is intently sniffing a miniature Przewalski's horse figurine that was just unloaded from a tiny cargo train. The image features soft painterly brush strokes, a mixed impasto texture, and smooth transitions. The composition uses a tilt-shift photography technique with a selective focus band to create a miniature toy-like effect, leaving the foreground and background blurred. Illuminated by a classic three-point lighting setup, a soft key light creates gentle shadows while a subtle rim light separates the subjects. The color grading is a rich warm amber and cozy autumn palette full of golden yellows and burnt orange. The text '2026-06-11 00:07 UTC' is clearly and visually displayed in the corner of the image."
+  },
+  {
+    "prompt": "An illustrated story page layout with multiple panels showing a narrative flow, in De Stijl neoplasticism art style combined with Morandi muted color palette of desaturated soft pastels and dusty grey undertones. A summer scene on a warm afternoon inside an old house with a bamboo mat. The main character is a sleek, slender solid-black Bombay-style shorthair cat named Momo, with athletic proportions and a slight upward curl at the tail tip. Momo has a tiny natural white locket tuft on her chest, a single dark-grey ring on her tail tip, long prominent white whiskers, and large luminous golden-amber eyes. On Momo's left ear (viewer's left), there is a single small gold hoop earring at the mid-ear edge. Momo is focused, pressing one paw onto a small mirror on the floor, trying to look at the reflection to find dried fish snacks hidden behind her. The composition features geometric abstraction with horizontal and vertical lines, geometric grids, and decorative gold leaf ornamental clouds with intricate traditional East Asian curling swirl patterns on the walls. The lighting is an intimate atmosphere with a warm orange flickering glow from candlelight, casting soft dancing shadows. A decorative title banner is at the top of the page. The text '2026-06-11 05:19 UTC' is clearly and visually displayed in a corner of the illustration.",
+    "number": 2152,
+    "character_name": "墨墨",
+    "inspiration": "美國紐約達特茅斯的研究團隊發現章魚具有超越以往認知的智慧，能夠學會利用鏡子來尋找隱藏在身後的食物。",
+    "idea": "在融合風格派幾何線條的老宅內，黑貓墨墨正專注地用一隻肉墊按壓著一面小鏡子，試圖透過鏡像尋找藏在身後的魚乾，畫面以故事插畫分格呈現。",
+    "title": "鏡中的夏日密碼",
+    "avoid_list": [
+      "黑貓墨墨",
+      "優雅地趴在竹蓆上納涼",
+      "金色與黑色奢華",
+      "琥珀化石與昆蟲",
+      "用前爪推動或撥弄物品",
+      "在古老廢墟中捕捉昆蟲",
+      "電影感打光與強烈體積光",
+      "微距攝影結合古絹或精細工藝",
+      "將日期時間標記在畫面角落",
+      "採用特殊的透視與對稱構圖",
+      "融合傳統工藝元素如摺紙與衍紙"
+    ],
+    "style_picks": {
+      "art_style": "De Stijl",
+      "composition": "Illustrated Story Panel Layout",
+      "lighting": "Candlelight",
+      "texture": "Gold Leaf Cloud Ornament",
+      "color_palette": "Morandi Color Palette"
+    },
+    "character": "momo",
+    "season": "summer",
+    "is_seasonal": true,
+    "news_inspiration": [
+      "美國紐約達特茅斯的研究團隊發現章魚具有超越以往認知的智慧，能夠學會利用鏡子來尋找隱藏在身後的食物。",
+      "加拿大不列顛哥倫比亞省納奈莫市的一名十二歲男孩在深夜臨危不亂，挨家挨戶按門鈴求助，最終成功引導鄰居為他突發心臟驟停的父親進行心肺復甦術並挽回性命。",
+      "奧地利維也納獸醫大學的研究指出，一頭名叫維羅妮卡（Veronika）的牛展現出罕見的多用途工具使用能力，令科學家們感到驚奇。",
+      "英國歌手仙妮亞·唐恩（Shania Twain）在英格蘭的演唱會上，特別邀請了一位支持她長達二十五年的八十一歲超級粉絲一同登台互動，場面十分溫馨。"
+    ],
+    "comment_id": 4677484756,
+    "story": "酷熱的夏日午後，墨墨優雅地待在老宅的竹蓆上納涼。牠偶然發現了主人遺落的鏡子，展現出超越以往認知的智慧，正透過鏡面的反射觀察死角，尋找藏在身後的零食。柔和的燭光映照在莫蘭迪色調的幾何格子間，牆上裝飾著細緻的金箔祥雲，襯托出牠金琥珀色雙眸的聰慧光芒。"
   }
 ]
