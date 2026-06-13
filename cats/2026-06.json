@@ -3708,5 +3708,38 @@
       "color_palette": "Morandi Color Palette"
     },
     "comment_id": 4700039794
+  },
+  {
+    "character_name": "船長",
+    "inspiration": "original",
+    "idea": "在融合非洲未來主義的璀璨科技碼頭，一隻戴眼罩的壯碩虎斑貓在超廣角鏡頭下，正伸出白手套前爪撥弄金屬質感的懸浮導航光球，周圍環繞著粉彩色系的金屬船艦與高調明亮的科技光芒。",
+    "story": "被尊稱為「船長」的牠，站在泛著科幻金屬光澤的未來港口最高處。儘管身處充滿前衛科技的非洲未來主義幻境，當港口懸浮魚群型無人機閃過時，這位老練的碼頭老大仍舊暴露出貓咪天性，在耀眼的亮白光暈中威嚴盡失地撲向半空。",
+    "character": "captain",
+    "title": "幻彩星港的舵手",
+    "number": 2176,
+    "news_inspiration": [],
+    "avoid_list": [
+      "立體紙藝景",
+      "雙色調為主",
+      "玻璃水晶",
+      "微縮立體模型",
+      "折射的微弱光芒",
+      "黃金時刻的夕陽",
+      "電影感打光",
+      "高飽和鮮豔色彩",
+      "復古褪色色調",
+      "專注地用前爪按住",
+      "在傳統市場攤位",
+      "生物朋克風"
+    ],
+    "prompt": "An Afrofuturism illustration, dynamic empowering aesthetic with African cultural symbolism and cosmic imagery. Ultra wide angle 12-18mm lens perspective, dramatic perspective distortion, expansive field of view of a brilliant tech dock. A large stocky four-legged brown classic tabby cat with bold black stripes, scruffy untidy coarse fur, an M-mark on forehead, a thick sturdy tail, and a broad muscular build. The cat has a prominent V-shaped notch on its left ear, a faded red bandana tied loosely around its neck, a white chest bib, and white mitten paws. Its left eye is permanently concealed by a natural dark-pigmented fur patch with no straps, and its right eye is a piercing emerald green. The cat is extended, reaching a white mitten front paw to swipe at a metallic, hovering navigation light sphere. Surrounding the scene are metallic surface spaceships with sharp reflections, rendered in a soft pastel color palette of gentle pink, lavender, mint, and baby blue. High-key bright lighting, airy overexposed feel with a luminous clean atmosphere and dreamy pastel mood. The date and time '2026-06-13 23:56 UTC' is visually displayed clearly in a digital format within the image environment.",
+    "comment_id": 4700159676,
+    "style_picks": {
+      "art_style": "Afrofuturism",
+      "composition": "Ultra Wide Angle",
+      "lighting": "High-Key Bright Lighting",
+      "texture": "Metallic Surface",
+      "color_palette": "Pastel Colors"
+    }
   }
 ]

@@ -20123,5 +20123,16 @@
     "inspiration": "original",
     "url": "https://github.com/yazelin/catime/releases/download/cats-2026-06/cat_2026-06-13_2252_UTC.webp",
     "model": "gpt-image-2 (codex-image-service / $imagegen)"
+  },
+  {
+    "character_name": "船長",
+    "inspiration": "original",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "url": "https://github.com/yazelin/catime/releases/download/cats-2026-06/cat_2026-06-13_2356_UTC.webp",
+    "character": "captain",
+    "title": "幻彩星港的舵手",
+    "number": 2176,
+    "timestamp": "2026-06-13 23:56 UTC",
+    "status": "success"
   }
 ]
