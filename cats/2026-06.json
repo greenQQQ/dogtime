@@ -3952,5 +3952,41 @@
       "包含精密齒輪、發條或微縮機械裝置的場景"
     ],
     "story": "多倫多世界盃的「尋找海狸活動」迎來了意想不到的巨型挑戰者。一隻宛如巨獸的橘色大貓降臨舊城區，牠在聚光燈般的強烈光線下微微瞇眼，巨大的粉嫩鼻頭正湊向街道上的一座海狸雕像，渾身毛髮在溫暖的琥珀色秋日色調中閃爍著細碎的亮粉光芒。"
+  },
+  {
+    "news_inspiration": [
+      "在美國堪薩斯州的勞倫斯市，當地的坎薩斯大學管弦樂團特別練奏阿爾及利亞國歌，溫馨迎接世界盃參賽球隊，讓這座大學城瞬間掀起一陣「阿爾及利亞熱潮」。",
+      "兩名 17 歲的肯亞學生利用農作物廢棄物成功研發出能減少污染的汽車尾氣過濾器，並在內羅比榮獲了今年「地球獎」的非洲區冠軍。",
+      "在墨西哥的世界盃賽事期間，一隻穿著墨西哥國家隊特製球衣的鴨子出現在球迷活動中，逗趣溫馨的畫面迅速在社群網路上走紅。",
+      "在泰國的利邦島，當地島民團體攜手合作進行海草床復育並實施友善船隻政策，成功凝聚全島力量來保護瀕臨絕種的儒艮。"
+    ],
+    "prompt": "A monochrome futurism miniature diorama featuring a tiny, detailed scale model of an eco-friendly car exhaust filter developed by Kenyan students. A cat covered in silk-like smooth black fur with a luminous sheen is captured in a shallow depth of field, focused on gently touching its nose to sniff the filter. The scene incorporates dynamic motion lines and fragmented overlapping forms to convey a sense of velocity and energy within an angular kinetic composition. Classic three-point lighting setup illuminates the miniature world, using a key light with soft shadows, a fill light, and a subtle rim light for separation. High contrast black and white monochrome with a rich tonal range and dramatic shadows. The date and time '2026-06-14 19:06 UTC' is visually displayed and integrated into the image.",
+    "style_picks": {
+      "art_style": "Futurism",
+      "composition": "Miniature Diorama",
+      "lighting": "Three-Point Lighting",
+      "texture": "Silk",
+      "color_palette": "Monochrome / Black and White"
+    },
+    "comment_id": 4702758962,
+    "avoid_list": [
+      "貓咪伸出前爪撥弄或抓取物品",
+      "向鏡頭方向大幅延伸或伸出前爪的強制透視",
+      "畫面邊緣或角落顯示明確的日期與時間文字",
+      "奢華的黑色與金色搭配色調",
+      "柔和的莫蘭迪色調與粉彩色系",
+      "帶有浮游塵埃與神祕神聖光芒的體積光",
+      "大理石或冰霜結晶等特殊材質的貓咪身體",
+      "貓咪在古老、廢棄工廠或宮殿的建築場景",
+      "超廣角或魚眼鏡頭造成的強烈透視扭曲與 barrel distortion",
+      "倫勃朗式45度單一光源側光",
+      "垂直書法海報構圖與裝飾藝術風格",
+      "包含精密齒輪、發條或微縮機械裝置的場景"
+    ],
+    "title": "未來的微縮呼吸",
+    "number": 2183,
+    "story": "兩名肯亞少年用農作物廢棄物製成過濾器，成功為地球減排，這項發明被微縮複製在未來的科技展台上。機械感十足的線條與速度感在單色世界中交錯，而一隻黑貓靈巧地穿梭其間，用牠敏銳的嗅覺見證這場綠色革命。克服污染的未來不再遙遠，連最挑剔的貓咪也駐足讚賞。",
+    "idea": "在黑白單色調的未來主義微縮立體模型中，一隻全身覆蓋著絲綢般光滑黑毛的貓咪，正在精密的三點打光下，專注地用鼻子輕觸並嗅聞一台由肯亞學生研發的環保汽車尾氣過濾器模型。",
+    "inspiration": "兩名 17 歲的肯亞學生利用農作物廢棄物成功研發出能減少污染的汽車尾氣過濾器，並在內羅比榮獲了今年「地球獎」的非洲區冠軍。"
   }
 ]
