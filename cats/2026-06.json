@@ -3741,5 +3741,36 @@
       "texture": "Metallic Surface",
       "color_palette": "Pastel Colors"
     }
+  },
+  {
+    "idea": "這是一張採用手機隨拍風格的照片，透過扭曲的魚眼鏡頭捕捉一隻低多邊形立體質感的貓咪，正用爪子撥弄著古董氣象儀器的指針，現場籠罩在經典的倫勃朗光與柔和的粉彩色系中。",
+    "prompt": "A smartphone snapshot of a low-poly style geometric cat with polygon mesh facets and flat shaded triangular faces, inquisitively swathes at the needle of an antique bronze weather instrument with its paw. Shot through a fisheye wide-angle lens creating strong barrel distortion and an exaggerated foreground. The scene is illuminated by dramatic Rembrandt lighting from a single light source at 45 degrees, casting a signature triangle of light on the shadowed cheek. The color palette consists of soft pastels including gentle pink, lavender, mint, and baby blue. Visually displayed in the corner of the image is the date and time text '2026-06-14 02:50 UTC'.",
+    "style_picks": {
+      "art_style": "Smartphone Snapshot",
+      "composition": "Fisheye Lens",
+      "lighting": "Rembrandt Lighting",
+      "texture": "Low Poly",
+      "color_palette": "Pastel Colors"
+    },
+    "number": 2177,
+    "news_inspiration": [],
+    "comment_id": 4700509530,
+    "inspiration": "original",
+    "story": "在氣象學家的凌亂工作室裡，這隻貓咪正對一台青銅製的氣象觀測儀產生濃厚興趣。牠伸出前腳試圖撥動氣壓計的指針，歪著頭看著刻度變化，而強烈的側光剛好勾勒出牠專注的面部輪廓與幾何線條。",
+    "avoid_list": [
+      "立體紙藝景",
+      "雙色調為主",
+      "玻璃水晶",
+      "微縮立體模型",
+      "折射的微弱光芒",
+      "黃金時刻的夕陽",
+      "電影感打光",
+      "高飽和鮮豔色彩",
+      "復古褪色色調",
+      "專注地用前爪按住",
+      "在傳統市場攤位",
+      "生物朋克風"
+    ],
+    "title": "微光中的氣壓觀測"
   }
 ]
