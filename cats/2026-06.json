@@ -4298,5 +4298,36 @@
       "color_palette": "Morandi Color Palette"
     },
     "character_name": "鈴鈴"
+  },
+  {
+    "style_picks": {
+      "art_style": "Fractal Geometry",
+      "composition": "Recursive / Droste Effect",
+      "lighting": "Fluorescent Lighting",
+      "texture": "Film Grain",
+      "color_palette": "Neon Fluorescent"
+    },
+    "story": "夜半的碼頭魚市場在冷冽的日光燈下扭曲成無盡重複的德羅斯特效應空間。退休的碼頭老大「船長」本該威嚴巡邏，卻在看到魚的瞬間卸下所有防備，在粗糙的底片顆粒質感中，像個孩子般專注地伸爪撥弄著戰利品。",
+    "character": "captain",
+    "comment_id": 4715649767,
+    "avoid_list": [
+      "古絹絹本質感",
+      "溫潤的雙色調底圖",
+      "用鼻子專注地嗅聞",
+      "海狸雕塑",
+      "服裝多視角展示構圖",
+      "強烈的聚光燈投射",
+      "單色世界中交錯",
+      "生物發光微光",
+      "高飽和鮮豔色彩",
+      "微縮立體模型"
+    ],
+    "number": 2193,
+    "title": "無盡霓虹的魚市巡禮",
+    "prompt": "A candid analog photograph capturing a large stocky brown classic tabby cat with bold black stripes and a broad, muscular build named Captain, with a scruffy, untidy, and coarse fur texture. The text '2026-06-16 06:22 UTC' is visually stamped in a corner of the image. The cat's left eye from the viewer's perspective is permanently concealed by a natural dark-pigmented fur patch with no straps or fabric, while its right eye is a piercing emerald green. The cat has a prominent V-shaped notch in its left ear, a faded red bandana tied loosely around its neck, a white chest bib, white mitten paws, and a distinctive M-mark on its forehead. In a midnight fish market warped into fractal geometry and infinite recursive detail with a Droste effect, the cat extends a white paw to poke a fish that glows with neon fluorescent colors of electric pink, lime green, and hot cyan against a dark background. Shot on a 35mm lens with institutional flat overhead fluorescent lighting at 5000K, creating no shadows, with a distinct visible film grain, analog texture, and organic photographic imperfections.",
+    "character_name": "船長",
+    "inspiration": "original",
+    "news_inspiration": [],
+    "idea": "在充滿分形幾何視覺迷宮的深夜魚市場中，一隻戴眼罩的壯碩虎斑貓「船長」正伸出前爪，試圖撥弄一條散發霓虹螢光色彩的鮮魚。"
   }
 ]
