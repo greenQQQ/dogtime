@@ -4358,5 +4358,45 @@
       "texture": "Velvet",
       "color_palette": "Morandi Color Palette"
     }
+  },
+  {
+    "style_picks": {
+      "art_style": "Gyotaku Print",
+      "composition": "Split View",
+      "lighting": "Direct Flash",
+      "texture": "Paper Texture",
+      "color_palette": "High Saturation Vivid"
+    },
+    "idea": "這是一幅結合魚拓藝術風格與分割畫面構圖的創作，展現純黑貓墨墨在老宅竹蓆上納涼、並以貓爪撥弄金色閃卡的生動瞬間。",
+    "title": "竹蓆上的金色夏影",
+    "character": "momo",
+    "comment_id": 4721787275,
+    "prompt": "A Gyotaku style art piece combined with a split view composition, showing Momo, a sleek, slender solid-black Bombay-style shorthair cat with satin-sheen fur, athletic proportions, a tiny white locket tuft on the ventral chest, long prominent white whiskers, a single dark-grey ring at the tail tip, and large luminous golden-amber eyes. In the cat's left ear (viewer perspective), there is a single small gold hoop earring at the mid-ear edge. Momo is lying on a traditional bamboo mat in an old house during summer, using a paw to toy with a shiny golden Messi collectible card. The split view features a sharp vertical cut line: the left half is a raw candid snapshot look with harsh direct on-camera flash, blown-out highlights, and hard shadows, while the right half is a monochrome contact print aesthetic wireframe diagram. The artwork exhibits a direct ink impression print with a textured relief surface, visible fiber grain on watercolor paper texture, and high saturation vivid colors with bold vibrant hues. The date and time '2026-06-16 17:52 UTC' is visually stamped onto the image canvas.",
+    "story": "盛夏的午後，墨墨優雅地躺在古厝的涼爽竹蓆上。牠那金琥珀色的雙眸盯著身旁散落的限量版梅西金色閃卡，偶爾伸出肉墊輕輕撥弄，在強烈直打的閃光燈與高飽和鮮豔色調下，黑色的身軀與金色的卡片在帶有紙質肌理的魚拓畫風中，交織出獨特的夏日圖景。",
+    "character_name": "墨墨",
+    "avoid_list": [
+      "霓虹螢光色",
+      "莫蘭迪色調",
+      "微縮模型與移軸效果",
+      "古早味彈珠汽水或小船",
+      "35mm鏡頭搭配f/2.8光圈",
+      "5000K冷冽日光燈與螢光燈",
+      "伸出前爪撥弄或磨爪",
+      "迷你章魚生物",
+      "底片顆粒與復古褪色色調",
+      "深夜酒吧或深夜魚市場",
+      "圓滾滾的橘白貓麻糬",
+      "壯碩虎斑貓船長"
+    ],
+    "is_seasonal": true,
+    "number": 2195,
+    "inspiration": "在阿根廷布宜諾斯艾利斯，成千上萬名狂熱球迷齊聚里瓦達維亞公園，只為在世界盃期間瘋狂交換並收集梅西的限量版金色閃卡。",
+    "news_inspiration": [
+      "在阿根廷布宜諾斯艾利斯，成千上萬名狂熱球迷齊聚里瓦達維亞公園，只為在世界盃期間瘋狂交換並收集梅西的限量版金色閃卡。",
+      "在克羅埃西亞羅維尼，一隻僅一個月大的可愛迷你馬悄悄住進了一棟公寓的四樓，而友善的鄰居們對這位新住客完全不介意。",
+      "三名來自印度的青少年憑藉著利用印度料理常見食材「羅望子」研發出的微塑膠過濾技術，在瑞士日內瓦成功奪得全球地球獎殊榮。",
+      "法屬玻里尼西亞與環保組織聯手，正式宣布建立一個面積相當於法國本土大小的巨型海洋保護區，為全球海洋保育寫下歷史新頁。"
+    ],
+    "season": "summer"
   }
 ]

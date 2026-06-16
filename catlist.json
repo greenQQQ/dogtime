@@ -20312,5 +20312,18 @@
     "title": "深夜洗衣店的旋律",
     "inspiration": "original",
     "number": 2194
+  },
+  {
+    "model": "gemini-3.1-flash-image-preview (fallback from gemini-3-pro-image-preview, reason: timeout after 240.0s) (fallback from codex: codex-image-service HTTP 502: {\"detail\":\"Codex completed but did not create /app/static/generated/img_791d6944daf32b94515eabda.png\"})",
+    "title": "竹蓆上的金色夏影",
+    "character": "momo",
+    "character_name": "墨墨",
+    "is_seasonal": true,
+    "number": 2195,
+    "inspiration": "在阿根廷布宜諾斯艾利斯，成千上萬名狂熱球迷齊聚里瓦達維亞公園，只為在世界盃期間瘋狂交換並收集梅西的限量版金色閃卡。",
+    "url": "https://github.com/yazelin/catime/releases/download/cats-2026-06/cat_2026-06-16_1752_UTC.webp",
+    "timestamp": "2026-06-16 17:52 UTC",
+    "season": "summer",
+    "status": "success"
   }
 ]
