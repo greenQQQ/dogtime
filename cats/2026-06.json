@@ -4537,5 +4537,38 @@
     "idea": "在長卷全景構圖中，以抽象表現主義筆觸展現一隻白色長毛布偶貓「鈴鈴」，在虹彩全息質感的迷幻蝴蝶園裡，於黑光螢光與溫暖琥珀色調交織的巨幅光影中，天真地追逐著閃爍珍珠母貝光澤的抽象斑塊。",
     "inspiration": "以色列海法大學的研究團隊在特哈迪德（Tel Hadid）遺址一座西元前七世紀的古老廢棄坑中，首度挖掘出一枚極其珍貴且閃耀著虹彩光澤的鐵器時代珍珠母貝印章。",
     "story": "鈴鈴在充滿秋日溫暖琥珀色的抽象花園裡醒來，脖子上的粉紅鈴鐺在紫外線般神祕的黑光螢光下微微泛著光。她被前方一塊閃耀著古老虹彩光澤的珍珠母貝印章殘影所吸引，誤以為那是長著翅膀的亮晶晶蝴蝶，興奮地在長卷展開的斑斕色彩中撲騰跳躍。縱使抽象的線條與大片色塊讓她有些頭暈，好奇心旺盛的鈴鈴依然甩著如羽毛撢子般的蓬鬆大尾巴，努力在絢麗的全息光影間追逐那抹跨越時空的璀璨光芒。"
+  },
+  {
+    "inspiration": "original",
+    "title": "雲頂齒輪的眺望",
+    "character_name": "船長",
+    "number": 2200,
+    "style_picks": {
+      "art_style": "Steampunk",
+      "composition": "Bird's-Eye View",
+      "lighting": "Three-Point Lighting",
+      "texture": "Aged Silk Scroll",
+      "color_palette": "Pastel Colors"
+    },
+    "comment_id": 4729142765,
+    "prompt": "Bird's-eye view from a top-down perspective looking straight down onto a massive steampunk mechanical dock with Victorian-era machinery, brass gears, cogs, and steam-powered mechanisms. Atop a turning gear crane, a large stocky brown classic tabby cat with bold black stripes, a thick sturdy tail, a prominent V-shaped notch on his left ear, and a faded red bandana tied loosely around his neck is lying down, nudging a brass telescope with his white mitten paws. The cat has scruffy, untidy, coarse fur texture with uneven lengths, a white chest bib, and a distinctive M-mark on his forehead. His left eye is completely and permanently concealed by a natural dark-pigmented fur patch, while his single right eye is piercing emerald green. The text '2026-06-17 10:48 UTC' is visually displayed in the corner of the frame. Artistic medium of a traditional painting on an aged silk scroll surface with weathered paper stains, delicate crease lines, and an antique manuscript texture showing a visible silk weave. Soft pastel color palette of gentle pink, lavender, mint, and baby blue in dreamy light tones with a warm sepia patina. Classic three-point lighting setup creates a diffuse key light with soft shadows, a fill light, and a subtle rim light separation.",
+    "character": "captain",
+    "story": "天空飄著細雨，退休的碼頭老大「船長」熟練地爬上蒸汽蒸騰的機械高處。雖然看見遠處魚市場的漁獲讓牠心癢難耐，但牠仍壓低身軀，專注地透過發光的黃銅齒輪儀器巡視牠所守護的這片水域。這幅畫面被捕捉在泛黃的古絹卷軸上，散發著一絲粗獷卻溫柔的霸氣。",
+    "news_inspiration": [],
+    "idea": "從高空鳥瞰蒸汽朋克風的巨型機械碼頭，一隻戴眼罩的壯碩虎斑貓「船長」正趴在齒輪轉動的起重機頂端，在柔和的粉彩色調與古絹絹本質感的漫射光下，用爪子撥弄著一具黃銅望遠鏡。",
+    "avoid_list": [
+      "伸出前爪撥弄",
+      "貼紙拼貼邊框",
+      "莫蘭迪色調",
+      "螢光燈與日光燈照明",
+      "黑白單色調",
+      "35mm鏡頭",
+      "微縮碼頭與魚市場",
+      "全息全像投影",
+      "橘白貓麻糬",
+      "白貓鈴鈴",
+      "時間戳記日期",
+      "雜誌封面與排版佈局"
+    ]
   }
 ]
