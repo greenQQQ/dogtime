@@ -4500,5 +4500,42 @@
     "comment_id": 4724733722,
     "inspiration": "original",
     "news_inspiration": []
+  },
+  {
+    "avoid_list": [
+      "霓虹螢光色",
+      "莫蘭迪色調",
+      "微縮模型與移軸效果",
+      "古早味彈珠汽水或小船",
+      "35mm鏡頭搭配f/2.8光圈",
+      "5000K冷冽日光燈與螢光燈",
+      "伸出前爪撥弄或磨爪",
+      "迷你章魚生物",
+      "底片顆粒與復古褪色色調",
+      "深夜酒吧或深夜魚市場",
+      "圓滾滾的橘白貓麻糬",
+      "壯碩虎斑貓船長"
+    ],
+    "character": "lingling",
+    "prompt": "Abstract Expressionism painting, extreme wide handscroll composition, continuous panoramic narrative with right-to-left reading flow. An oblique bird's-eye angle captures an extremely fluffy pure white longhair Ragdoll cat named Lingling, featuring voluminous cloud-like pure white fur, a small round face, huge round sapphire-blue eyes, a pink nose, and an enormous feathery white plume tail. She wears a pink ribbon bow collar with a small golden bell clearly visible and centered beneath the bow knot. The cat is innocently chasing abstract patches shimmering with translucent mother-of-pearl lustre in a psychedelic holographic butterfly garden. The scene features high contrast gestural brushwork and large bold color fields, combining blacklight UV illumination with fluorescent pigments glowing in ethereal ultraviolet luminescence against a warm amber color grading and cozy nostalgic autumn palette of golden yellows and burnt orange. The text '2026-06-17 05:57 UTC' is clearly and visually displayed in the corner of the image.",
+    "number": 2199,
+    "character_name": "鈴鈴",
+    "news_inspiration": [
+      "以色列海法大學的研究團隊在特哈迪德（Tel Hadid）遺址一座西元前七世紀的古老廢棄坑中，首度挖掘出一枚極其珍貴且閃耀著虹彩光澤的鐵器時代珍珠母貝印章。",
+      "中國國家航天局的「天問二號」探測器於本月順利抵達近地小行星「振盪天體」（Kamo'oalewa），並正式展開為期數月的小行星表面採樣與科學探測任務。",
+      "美國國家航空暨太空總署（NASA）正式向外界揭曉了預計最快於2027年執行的「阿提米絲三號」（Artemis III）載人登月任務太空人名單，為人類重返月球跨出關鍵一步。"
+    ],
+    "style_picks": {
+      "art_style": "Abstract Expressionism",
+      "composition": "Handscroll Panoramic Layout",
+      "lighting": "Blacklight / UV Glow",
+      "texture": "Iridescent Holographic",
+      "color_palette": "Warm Tones (Amber / Autumn)"
+    },
+    "comment_id": 4726546696,
+    "title": "虹光印記與棉花糖",
+    "idea": "在長卷全景構圖中，以抽象表現主義筆觸展現一隻白色長毛布偶貓「鈴鈴」，在虹彩全息質感的迷幻蝴蝶園裡，於黑光螢光與溫暖琥珀色調交織的巨幅光影中，天真地追逐著閃爍珍珠母貝光澤的抽象斑塊。",
+    "inspiration": "以色列海法大學的研究團隊在特哈迪德（Tel Hadid）遺址一座西元前七世紀的古老廢棄坑中，首度挖掘出一枚極其珍貴且閃耀著虹彩光澤的鐵器時代珍珠母貝印章。",
+    "story": "鈴鈴在充滿秋日溫暖琥珀色的抽象花園裡醒來，脖子上的粉紅鈴鐺在紫外線般神祕的黑光螢光下微微泛著光。她被前方一塊閃耀著古老虹彩光澤的珍珠母貝印章殘影所吸引，誤以為那是長著翅膀的亮晶晶蝴蝶，興奮地在長卷展開的斑斕色彩中撲騰跳躍。縱使抽象的線條與大片色塊讓她有些頭暈，好奇心旺盛的鈴鈴依然甩著如羽毛撢子般的蓬鬆大尾巴，努力在絢麗的全息光影間追逐那抹跨越時空的璀璨光芒。"
   }
 ]
