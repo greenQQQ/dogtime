@@ -4678,5 +4678,38 @@
       "時間戳記日期",
       "雜誌封面與排版佈局"
     ]
+  },
+  {
+    "character_name": "墨墨",
+    "title": "粉彩展廳的黑色座標",
+    "comment_id": 4735897144,
+    "idea": "在粉彩色系的美術館展場中，純黑貓墨墨正優雅地趴在透明樹脂製成的展台頂端，形成服裝多視角展示的獨特構圖，強烈的閃光燈直打將牠的黑影與金色耳環清晰投射在牆上。",
+    "news_inspiration": [],
+    "number": 2204,
+    "prompt": "A candid snapshot photograph of a sleek, slender solid-black Bombay-style shorthair cat with satin-sheen fur, prominent white whiskers, and large luminous golden-amber eyes, lying elegantly on top of a monumental translucent resin pedestal. On the cat's left ear, a single small gold hoop earring is visible. On its ventral chest, a tiny natural white locket tuft is present. The cat is inside a contemporary museum gallery installation view with polished wooden floors and a soft pastel color palette of gentle pink, lavender, mint, and baby blue. The composition mimics a multi-view fashion lookbook reference guide layout, showing the cat and its shadow from a front view, back view, side view, and detail close-up arranged in panels. Harsh direct on-camera flash creates blown-out highlights and casts a crisp, hard shadow of the black cat and its golden earring onto the clean white wall behind it. The date and time '2026-06-17 21:54 UTC' is visually displayed in the corner of the image. 35mm lens, f/2.8, raw snapshot look, photographic grain.",
+    "character": "momo",
+    "style_picks": {
+      "art_style": "Gallery Installation Scene",
+      "composition": "Multi-View Fashion Display",
+      "lighting": "Direct Flash",
+      "texture": "Translucent Resin",
+      "color_palette": "Pastel Colors"
+    },
+    "story": "墨墨走進這間新開的當代美術館，挑選了全場最高的透明樹脂藝術品作為牠的專屬王座。當閃光燈亮起，牠那金琥珀色的眼睛在柔和的粉彩展間裡顯得格外耀眼，彷彿牠自己才是這場展覽中最完美的藝術主體。",
+    "avoid_list": [
+      "伸出前爪撥弄",
+      "貼紙拼貼邊框",
+      "莫蘭迪色調",
+      "螢光燈與日光燈照明",
+      "黑白單色調",
+      "35mm鏡頭",
+      "微縮碼頭與魚市場",
+      "全息全像投影",
+      "橘白貓麻糬",
+      "白貓鈴鈴",
+      "時間戳記日期",
+      "雜誌封面與排版佈局"
+    ],
+    "inspiration": "original"
   }
 ]
