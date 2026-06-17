@@ -4465,5 +4465,40 @@
       "color_palette": "Gold and Black Luxury"
     },
     "story": "這隻黑貓在奢華的金色殿堂中追逐著那條如流水般滑順的黑色與金色絲綢。環形燈光將牠的身影拉長，與迷幻的幾何圖形交織在一起。牠敏捷地躍過那些彷彿撕貼在空間邊緣的復古圖騰，自顧自地享受著這場光影與質感的盛宴。"
+  },
+  {
+    "story": "市場的萬人迷麻糬登上了未來的全息時尚秀，三點打光完美勾勒出牠圓滾滾的花生身型與右腳的橘色手套。雖然身處前衛的科技投影中，這顆貪吃的麻糬眼裡依然只有那顆清涼的夏日西瓜，專注地享受著屬於牠的慵懶海灘派對。",
+    "number": 2198,
+    "prompt": "Digital art illustration, fashion design sheet format. A multi-view product showcase layout with panels displaying a front view, back view, side view, and detail close-up of a literal, four-legged chubby spherical shorthair cat named Mochi. Mochi has a white base coat, large round amber eyes, short stubby legs, a white belly, and solid orange patches with no tabby stripes. His right half-face (viewer perspective) has an orange mask extending from the nose bridge across the right cheek to the right ear, while his left face is pure white. A heart-shaped orange saddle is centered on his dorsal back, his right front paw is a solid orange mitten to the wrist, his left front paw is pure white, and his tail has orange-and-white ringed bands. Mochi is wearing a custom mini life vest, standing on a holographic projection runway at a digital summer beach party. He is stretching his tongue to lick a massive iridescent holographic watermelon. High saturation vivid colors, bold vibrant hues, energetic palette, and translucent glowing figures with digital scan lines. Multi-view layout featuring labeled views on a clean studio backdrop. Classic three-point lighting setup, key light with soft shadows, fill light, and subtle rim light separation. Rainbow color shift on transparent PVC, pastel prismatic reflections, and a bubble-like holographic film. The text '2026-06-17 00:07 UTC' is visually and clearly displayed in the image.",
+    "avoid_list": [
+      "霓虹螢光色",
+      "莫蘭迪色調",
+      "微縮模型與移軸效果",
+      "古早味彈珠汽水或小船",
+      "35mm鏡頭搭配f/2.8光圈",
+      "5000K冷冽日光燈與螢光燈",
+      "伸出前爪撥弄或磨爪",
+      "迷你章魚生物",
+      "底片顆粒與復古褪色色調",
+      "深夜酒吧或深夜魚市場",
+      "圓滾滾的橘白貓麻糬",
+      "壯碩虎斑貓船長"
+    ],
+    "character": "mochi",
+    "character_name": "麻糬",
+    "title": "幻彩夏日的西瓜巡禮",
+    "idea": "在充滿高飽和鮮豔色的全像投影伸展台上，多視角展示著一隻橘白胖貓麻糬，牠身穿特製的迷你浮水衣，在海邊幻影中伸長舌頭舔著一顆巨大的虹彩全息西瓜。",
+    "is_seasonal": true,
+    "season": "summer",
+    "style_picks": {
+      "art_style": "Holographic Projection",
+      "composition": "Multi-View Fashion Display",
+      "lighting": "Three-Point Lighting",
+      "texture": "Iridescent Holographic",
+      "color_palette": "High Saturation Vivid"
+    },
+    "comment_id": 4724733722,
+    "inspiration": "original",
+    "news_inspiration": []
   }
 ]

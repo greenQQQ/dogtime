@@ -20343,5 +20343,18 @@
     "inspiration": "original",
     "url": "https://github.com/yazelin/catime/releases/download/cats-2026-06/cat_2026-06-16_2246_UTC.webp",
     "timestamp": "2026-06-16 22:46 UTC"
+  },
+  {
+    "url": "https://github.com/yazelin/catime/releases/download/cats-2026-06/cat_2026-06-17_0007_UTC.webp",
+    "number": 2198,
+    "character": "mochi",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "character_name": "麻糬",
+    "title": "幻彩夏日的西瓜巡禮",
+    "is_seasonal": true,
+    "season": "summer",
+    "status": "success",
+    "timestamp": "2026-06-17 00:07 UTC",
+    "inspiration": "original"
   }
 ]
