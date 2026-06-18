@@ -4842,5 +4842,44 @@
       "color_palette": "Morandi Color Palette"
     },
     "number": 2208
+  },
+  {
+    "character": "captain",
+    "title": "獨眼船長的夏日堤岸",
+    "season": "summer",
+    "prompt": "A tilt-shift miniature style illustration on textured paper with visible fiber grain, blending stained glass art and high-contrast black and white monochrome. A large, stocky brown classic tabby cat with bold black stripes, a muscular build, and scruffy, coarse untidy fur is on a black and white mottled breakwater, wearing a straw hat. Its left eye (viewer perspective) is permanently concealed by a natural dark-pigmented fur patch, while its single right eye is piercing emerald green with a circular catchlight from intense overhead ring light illumination. It has a prominent V-shaped notch in its left ear, a faded red bandana tied loosely around its neck, a white chest bib, and white mitten paws, with a thick tail and a distinctive M-mark on its forehead. The cat is using its paw to fiddle with a fishing line hanging down into the sea. The scene features bold black outlines and translucent jewel-toned segments with a backlit glow contrasting against the monochrome setting. The composition uses a selective focus band, creating a miniature toy-like effect with a blurred foreground and background. The date and time '2026-06-18 14:42 UTC' is visually and clearly displayed in the image.",
+    "comment_id": 4743152502,
+    "inspiration": "original",
+    "avoid_list": [
+      "服裝多視角展示的排版與構圖",
+      "蝴蝶光在貓咪鼻子下投射出的對比陰影",
+      "藍青色調與冷冽冰冷氛圍",
+      "貼紙拼貼與白邊相簿風格邊框",
+      "粉彩色系與溫柔粉嫩的柔和夢幻色調",
+      "魚拓藝術或畫意攝影風格",
+      "純黑孟買貓戴著金色耳環",
+      "撥弄金色絲綢緞帶或金色閃卡",
+      "溫暖琥珀色與秋日金黃橘色調",
+      "用鼻子輕輕嗅聞植物或木桶",
+      "全息投影與虹彩全息質感",
+      "強烈直打的閃光燈與高對比硬陰影"
+    ],
+    "story": "人稱「船長」的碼頭老大，頂著烈日戴上草帽，在熟悉的防波堤頂端享受夏日垂釣。儘管少了往常的繽紛海色，環形燈般的強烈頂光透過彩色玻璃般的拼接紋理，在紙質肌理上刻劃出牠堅毅的硬漢剪影。即使只是在靜謐的微縮世界裡釣魚，牠依然是這片海域最沉穩的守護者。",
+    "idea": "這是一幅結合彩色玻璃與單色黑白美學的移軸微縮作品，展現一隻戴著草帽的獨眼虎斑貓在黑白斑駁的防波堤上，用爪子撥弄著垂入海中的釣魚線。",
+    "character_name": "船長",
+    "news_inspiration": [
+      "英國劍橋大學專家成功重建了一座擁有 336 年歷史的植物園，以紀念 17 世紀首創「花瓣」和「花粉」等詞彙的自然歷史之父約翰·雷（John Ray）。",
+      "美國路易斯安那州杜蘭大學發表最新研究指出，全球紅樹林在經歷數十年萎縮後已迎來復甦拐點，過去 16 年的生長面積已超過流失面積。",
+      "一項由多國科學家發表的最新研究發現，山羊其實能夠透過聆聽並識別人類的聲音，來定向和尋找隱藏的食物來源。"
+    ],
+    "is_seasonal": true,
+    "style_picks": {
+      "art_style": "Stained Glass",
+      "composition": "Tilt-Shift Miniature",
+      "lighting": "Ring Light",
+      "texture": "Paper Texture",
+      "color_palette": "Monochrome / Black and White"
+    },
+    "number": 2209
   }
 ]
