@@ -5016,5 +5016,34 @@
     "comment_id": 4747192041,
     "story": "六歲男童在鬆軟的泥土中挖出了沉睡千年的傳奇，而隨行的家貓成了第一個見證者。牠圍繞著那柄雕刻著神祕紋路的古刃踩踏，在霓虹螢光色的輪廓光中，歷史的塵埃彷彿與絞染質感的夜空融為一體。",
     "title": "千年的泥土與微光"
+  },
+  {
+    "title": "螢光長卷之幻鼠逐影",
+    "prompt": "A Chinese panoramic scroll painting in the Song dynasty jie hua style, featuring meticulous architectural line work and muted traditional pigments on aged silk. A calico cat is nimbly chasing a mechanical clockwork mouse through a bustling marketplace filled with countless tiny figures in daily life, viewed from an oblique aerial perspective. The scene exhibits a recursive image with the Droste effect, a picture within a picture repeating infinitely inside the mouse's eye reflection as a self-referential loop. The lighting is harsh overhead fluorescent lighting with a neutral white 5000K institutional flat illumination and no shadows. Gold leaf ornamental clouds and traditional East Asian auspicious cloud motifs with an embossed metallic finish and intricate curling swirl patterns add a luxurious gilt texture on a dark ground. Neon fluorescent colors of electric pink, lime green, and hot cyan glow against the dark background. The text '2026-06-19 06:06 UTC' is clearly and visually displayed in the image.",
+    "idea": "在以《清明上河圖》式長卷展開的繁華市集裡，一隻三花貓正在熙攘的攤位間敏捷地追逐一隻機械發條老鼠，畫面透過德羅斯特效應在老鼠眼中的倒影裡無限遞迴延伸。",
+    "comment_id": 4748953320,
+    "style_picks": {
+      "art_style": "Chinese Panoramic Scroll Painting",
+      "composition": "Recursive / Droste Effect",
+      "lighting": "Fluorescent Lighting",
+      "texture": "Gold Leaf Cloud Ornament",
+      "color_palette": "Neon Fluorescent"
+    },
+    "news_inspiration": [],
+    "avoid_list": [
+      "用爪子撥弄",
+      "粉彩色調",
+      "故事插畫分格",
+      "古絹質感",
+      "服裝多視角展示",
+      "獨眼虎斑貓船長",
+      "莫蘭迪色調",
+      "雙色調",
+      "透明樹脂",
+      "佈滿苔蘚"
+    ],
+    "number": 2214,
+    "story": "市井的喧囂被包覆在怪異的霓虹螢光中，日光燈將長卷上的金箔祥雲照得格外刺眼。這隻三花貓壓低身子，在無數個縮小的平行時空裡，永遠執著地撲向那隻發光的老鼠。",
+    "inspiration": "original"
   }
 ]

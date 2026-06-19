@@ -20507,5 +20507,14 @@
     "title": "千年的泥土與微光",
     "status": "success",
     "url": "https://github.com/yazelin/catime/releases/download/cats-2026-06/cat_2026-06-19_0018_UTC.webp"
+  },
+  {
+    "timestamp": "2026-06-19 06:06 UTC",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "title": "螢光長卷之幻鼠逐影",
+    "status": "success",
+    "number": 2214,
+    "url": "https://github.com/yazelin/catime/releases/download/cats-2026-06/cat_2026-06-19_0606_UTC.webp",
+    "inspiration": "original"
   }
 ]
