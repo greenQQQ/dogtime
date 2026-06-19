@@ -5148,5 +5148,41 @@
       "丹麥哥本哈館開始推行一項別開生面的「真人圖書館」計畫，讓來到圖書館的民眾不再只是借閱紙本書籍，而是可以透過「借閱真人」來與不同背景的人進行面對面深度對談。",
       "瑞典與挪威之間推出了一條全新的絕美火車路線，從瑞典直接開往挪威奧斯陸，沿途將帶領旅客飽覽兩國最壯麗的北歐自然風光與精華景致。"
     ]
+  },
+  {
+    "idea": "在融合黑白單色與交叉沖洗特效的深夜廚房中，圓滾滾的橘白貓麻糬正趴在流理台上，歪著頭凝視著一排宛如液態金屬般流動的醬料罐。",
+    "story": "夜深人靜的麵包店廚房裡，麻糬趁著四下無人溜了進來。在神祕的黑光螢光照射下，工作檯上的不鏽鋼器具與剛出爐的糕點散發出迷幻的單色光澤，這隻貪吃的小胖貓正聳著粉紅鼻頭，專注地研究著哪裡還有留給牠的「試吃」點心。",
+    "avoid_list": [
+      "用爪子撥弄",
+      "霓虹螢光色",
+      "莫蘭迪色調",
+      "鏡子自拍構圖",
+      "硬光日照",
+      "古董店",
+      "雙色調",
+      "微縮移軸",
+      "傳統老街",
+      "機械老鼠或蝴蝶",
+      "絞染質感"
+    ],
+    "character_name": "麻糬",
+    "prompt": "A candid photograph taken on a 35mm lens, f/1.8, capturing a scene in a dark kitchen. The text '2026-06-19 19:23 UTC' is visually stamped in the corner of the image. A literal, short-legged, chubby rounded shorthair cat is on the countertop, tilting its head while staring intently at liquid metal sauce bottles with a mercury-like reflective flow and chrome dripping texture. The cat has a white base coat and solid orange patches without any tabby stripes. Its right half-face (viewer perspective) has an orange mask from the nose bridge to the right ear, while the left face is entirely white. It has large round amber eyes, a pink nose with a tiny orange center dot, and a heart-shaped orange saddle on its upper back. Its right front paw is a solid orange mitten to the wrist, its left front paw is pure white, and it has a white belly. The lighting combines a black and white monochrome high-contrast environment with a cross-processing print effect, experimental color shifts, and unpredictable color casts. Subtle blacklight UV illumination makes certain fluorescent pigments glow with an ultraviolet luminescence, creating a surreal blend of rich tonal range, deep dramatic shadows, and vibrant neon accents on the dark metallic surfaces.",
+    "style_picks": {
+      "art_style": "Cross Processing",
+      "composition": "Multi-View Fashion Display",
+      "lighting": "Blacklight / UV Glow",
+      "texture": "Liquid Metal",
+      "color_palette": "Monochrome / Black and White"
+    },
+    "comment_id": 4754203931,
+    "character": "mochi",
+    "news_inspiration": [
+      "環境組織最新報告指出，瑞典與多個歐洲國家在過去一年內拆除了創紀錄的603座水壩，成功讓超過2300英里的河流恢復自然流暢。",
+      "位於瑞士日內瓦的歐洲核子研究組織（CERN）於6月18日宣布，LHCb實驗團隊成功發現了雙魅重子家族中最後一個未知的失蹤成員，為這段長達半個世紀的理論拼圖畫下完美句點。",
+      "在加拿大溫哥華舉辦的2026年世界盃足球賽分組賽中，地道地主加拿大隊以6比0大勝卡達隊，創下隊史里程碑並引爆全城體育狂熱。"
+    ],
+    "inspiration": "original",
+    "title": "深夜廚房的液態流光",
+    "number": 2218
   }
 ]
