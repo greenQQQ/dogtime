@@ -5493,5 +5493,41 @@
     },
     "number": 2227,
     "story": "老學者留在礦坑頂層的探勘工具，成了貓咪的最新玩具。牠趴在剔透的玻璃質地岩壁上，好奇地用爪子轉動鏡頭，折射出的藍青色蝴蝶光在幽暗的坑道中一閃一滅。"
+  },
+  {
+    "character": "captain",
+    "prompt": "Papercut art and 3D isometric illustration of a four-legged cat standing on all fours on top of an old map. A large, stocky brown classic tabby cat with bold black stripes, scruffy and untidy coarse fur texture, a white chest bib, and white mitten paws on all four feet. Its left eye (viewer perspective) is permanently concealed by a natural dark-pigmented fur patch, with no fabric eye patch and no straps. Its right eye is a single piercing emerald green. It has a prominent V-shaped notch in its left ear and a faded red bandana tied loosely around its neck. The cat is inside the top floor of a lighthouse under a narrow beam spotlight, staring out the window. Layered paper silhouettes, shadow depth, intricate cutout details, clean geometric forms. The edges of the paper have delicate frost patterns and ice crystal textures. The lighting features dramatic high-contrast and a sharp light edge with deep darkness falloff. Warm amber color grading with a cozy nostalgic warmth, golden yellows, and burnt orange. The date and time '2026-06-20 18:03 UTC' is clearly and visually displayed in the image.",
+    "inspiration": "original",
+    "comment_id": 4759455374,
+    "story": "退休的「船長」依然保持著巡邏的習慣，今晚牠來到熟悉的漁港燈塔頂端。一陣海風吹進窗櫺，牠熟練地用白色的前爪壓住快被吹跑的航海圖，銳利的綠色右眼警戒地掃視著下方的波濤。",
+    "style_picks": {
+      "art_style": "Papercut Art",
+      "composition": "Isometric 3D Illustration",
+      "lighting": "Spotlight",
+      "texture": "Frost Crystal",
+      "color_palette": "Warm Tones (Amber / Autumn)"
+    },
+    "character_name": "船長",
+    "number": 2228,
+    "news_inspiration": [
+      "瑞士日內瓦的歐洲核子研究組織（CERN）於6月18日宣布，大型強子對撞機科學家成功發現了由兩個魅夸克和一個奇夸克組成的全新粒子，完成了預測逾半個世紀的「雙魅重子」家族最後一塊拼圖。",
+      "利比亞撒哈拉沙漠深處的最新考古研究於6月20日發表，科學家在此發現了距今約3900萬年前最古老且多樣的類人猿化石，這項重大發現正重新改寫古代靈長類動物遷徙至非洲的演化時間線。",
+      "美國加州大學河濱分校的研究團隊於6月17日發表成果，科學家在安札-博雷戈沙漠採集的苔蘚組織內部，首次發現了先前從未被記載過的神祕共生真菌，揭示了極端環境植物強韌生存力的全新祕密。"
+    ],
+    "avoid_list": [
+      "高飽和鮮豔色",
+      "黑白單色與色彩融合",
+      "生物發光與微芒",
+      "粉彩色系夢幻光暈",
+      "深海與實驗室研究場景",
+      "溫室與老舊工坊",
+      "用鼻子輕觸嗅聞",
+      "專注凝視閃爍螢幕或水珠",
+      "金箔與金色浮雕元素",
+      "35mm鏡頭拍攝",
+      "顯示精確的時間戳記"
+    ],
+    "idea": "這是一幅結合等距3D插圖與琥珀暖色調的剪紙藝術作品，獨眼的貓咪「船長」正四腳踩在舊地圖上，於燈塔頂層的強烈聚光燈下凝視著窗外，紙張邊緣帶有細緻的冰霜結晶紋理。",
+    "title": "燈塔頂層的守望"
   }
 ]
