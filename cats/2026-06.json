@@ -5255,5 +5255,39 @@
       "在澳洲凱恩斯附近的珊瑚礁海域，一項公民科學計畫的參與者發現了一個面積達3,973平方公尺（約半個足球場大）的巨大 Pavona clavus 珊瑚群落，被認為是目前有紀錄以來最大的珊瑚群落之一。"
     ],
     "prompt": "Illustrated story page layout with multiple irregular panels in a vintage poster art style, mid-century modern design. A literal four-legged cat named Lingling is depicted. Lingling is an extremely fluffy pure white longhair cat, Ragdoll-like with voluminous cloud-like fur, a small round face nearly hidden in fur, huge round sapphire-blue eyes, and a pink ribbon bow collar with a small golden bell clearly visible and centered. In a midnight greenhouse with ornate black wrought iron filigree and cast iron lace, she pounces toward a glowing firefly amidst fine metal plant stands, bumping into a carved flowerpot, with falling flower petals around. Cool blue tones, a gentle silvery moonlight illumination, and a retro faded color palette create a nostalgic film-era warmth. A decorative title banner at the top features integrated dialogue bubbles and the text '2026-06-19 22:04 UTC' visually displayed within the layout composition."
+  },
+  {
+    "prompt": "Abstract Expressionism painting of Momo, a sleek, slender solid-black shorthair cat with satin-sheen fur, a tiny natural white locket tuft on the ventral chest, large luminous golden-amber eyes, long prominent white whiskers, and a single small gold hoop earring on the left ear (viewer perspective). The cat is elegantly reclining on a traditional bamboo mat inside an old house during a summer night, looking calm and attentive. The composition features a spiral vortex, high contrast gestural brushwork, and large bold color fields. Bioluminescent lighting and an organic glow emit a soft pastel color palette of gentle pink, lavender, mint, and baby blue. In the background, a frosted glass texture screen with translucent matte surfaces diffuses the light, revealing soft blurred shapes. The date and time '2026-06-19 23:58 UTC' is visually displayed and integrated into the image.",
+    "idea": "在融合抽象表現主義的氤氳夏夜中，黑貓墨墨優雅地橫臥於老宅的竹蓆上納涼，身周環繞著如螺旋漩渦般流動的粉彩色系與生物發光微芒。",
+    "title": "竹簟流螢凝墨色",
+    "inspiration": "original",
+    "avoid_list": [
+      "用爪子撥弄",
+      "霓虹螢光色",
+      "莫蘭迪色調",
+      "鏡子自拍構圖",
+      "硬光日照",
+      "古董店",
+      "雙色調",
+      "微縮移軸",
+      "傳統老街",
+      "機械老鼠或蝴蝶",
+      "絞染質感"
+    ],
+    "news_inspiration": [],
+    "style_picks": {
+      "art_style": "Abstract Expressionism",
+      "composition": "Spiral Vortex Frame",
+      "lighting": "Bioluminescence",
+      "texture": "Frosted Glass",
+      "color_palette": "Pastel Colors"
+    },
+    "character": "momo",
+    "is_seasonal": true,
+    "season": "summer",
+    "number": 2221,
+    "character_name": "墨墨",
+    "story": "盛夏的燥熱在老宅深處悄然沉澱，墨墨挑了一塊最溫涼的竹蓆，半瞇著金琥珀色的雙眼享受片刻清幽。隨著牠輕輕呼吸，周遭的磨砂玻璃屏風上映照出如夢似幻的柔和光暈，彷彿整個空間都隨牠一起進入了沉靜的仲夏夜之夢。",
+    "comment_id": 4755540776
   }
 ]

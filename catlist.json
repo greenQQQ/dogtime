@@ -20576,5 +20576,18 @@
     "character": "lingling",
     "status": "success",
     "model": "gpt-image-2 (codex-image-service / $imagegen)"
+  },
+  {
+    "title": "竹簟流螢凝墨色",
+    "inspiration": "original",
+    "character": "momo",
+    "is_seasonal": true,
+    "timestamp": "2026-06-19 23:58 UTC",
+    "season": "summer",
+    "number": 2221,
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "character_name": "墨墨",
+    "url": "https://github.com/yazelin/catime/releases/download/cats-2026-06/cat_2026-06-19_2358_UTC.webp",
+    "status": "success"
   }
 ]
