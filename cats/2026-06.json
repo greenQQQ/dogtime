@@ -5529,5 +5529,37 @@
     ],
     "idea": "這是一幅結合等距3D插圖與琥珀暖色調的剪紙藝術作品，獨眼的貓咪「船長」正四腳踩在舊地圖上，於燈塔頂層的強烈聚光燈下凝視著窗外，紙張邊緣帶有細緻的冰霜結晶紋理。",
     "title": "燈塔頂層的守望"
+  },
+  {
+    "character_name": "麻糬",
+    "number": 2229,
+    "news_inspiration": [],
+    "comment_id": 4759864162,
+    "style_picks": {
+      "art_style": "Expressionism",
+      "composition": "Ultra Wide Angle",
+      "lighting": "Rembrandt Lighting",
+      "texture": "Glossy Plastic / Toy",
+      "color_palette": "Morandi Color Palette"
+    },
+    "avoid_list": [
+      "高飽和鮮豔色",
+      "黑白單色與色彩融合",
+      "生物發光與微芒",
+      "粉彩色系夢幻光暈",
+      "深海與實驗室研究場景",
+      "溫室與老舊工坊",
+      "用鼻子輕觸嗅聞",
+      "專注凝視閃爍螢幕或水珠",
+      "金箔與金色浮雕元素",
+      "35mm鏡頭拍攝",
+      "顯示精確的時間戳記"
+    ],
+    "inspiration": "original",
+    "idea": "在超廣角的傳統市場魚攤前，一隻呈現表現主義風格、具備亮面塑膠玩具質感的圓滾滾橘白貓，正伸出右邊的橘色前腳試圖撥弄攤位上的冰鮮魚獲，現場籠罩在強烈的倫勃朗光與優雅的莫蘭迪色調中。",
+    "prompt": "Expressionism art style, ultra wide angle 12-18mm lens view of a traditional fish market stall. A chubby, rounded shorthair cat named Mochi with a spherical torso and short stubby legs is reaching out its right front paw, which is a solid orange mitten, to touch the iced fish. The cat has a white base coat, a white belly, and amber eyes. Its right half-face (viewer perspective) has an orange mask from the nose bridge to the right ear, while the left face is entirely white. On its upper back is a heart-shaped orange saddle. Its left front paw is pure white, and its tail has orange-and-white ringed bands. The cat features a glossy plastic toy texture with a smooth high-shine vinyl figure aesthetic. The scene is illuminated by dramatic Rembrandt lighting with a single light source at 45 degrees, creating strong chiaroscuro. The color palette consists of elegant, desaturated Morandi muted colors, dusty grey undertones, and soft pastels. The date and time '2026-06-20 20:09 UTC' is visually displayed in the corner of the image.",
+    "character": "mochi",
+    "title": "魚市裡的貪吃巡禮",
+    "story": "剛巡邏到海產攤的麻糬被眼前的鮮魚深深吸引，牠那如花生麻糬般的肥嫩身軀在攤位前定格。伴隨著微晃的肥肚子，牠那戴著橘色手套的右爪正悄悄伸向一條肥美的鱸魚，呆萌的大圓眼裡溢滿了對食物的渴望。魚攤老闆看著這顆會走路的麻糬，只能無奈又寵溺地搖搖頭。"
   }
 ]
