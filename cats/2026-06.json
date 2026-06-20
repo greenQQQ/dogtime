@@ -5561,5 +5561,39 @@
     "character": "mochi",
     "title": "魚市裡的貪吃巡禮",
     "story": "剛巡邏到海產攤的麻糬被眼前的鮮魚深深吸引，牠那如花生麻糬般的肥嫩身軀在攤位前定格。伴隨著微晃的肥肚子，牠那戴著橘色手套的右爪正悄悄伸向一條肥美的鱸魚，呆萌的大圓眼裡溢滿了對食物的渴望。魚攤老闆看著這顆會走路的麻糬，只能無奈又寵溺地搖搖頭。"
+  },
+  {
+    "style_picks": {
+      "art_style": "Cyberpunk",
+      "composition": "Recursive / Droste Effect",
+      "lighting": "Three-Point Lighting",
+      "texture": "Wood Grain",
+      "color_palette": "Cool Tones (Blue / Teal)"
+    },
+    "story": "瑞士 CERN 的科學家們在大型強子對撞機中成功拼湊出雙魅重子家族的最後一塊拼圖。這隻戴著微型感測項圈的四腳機械貓正專注地用前爪在半空中追逐著螢幕上不斷向內遞迴、無限延伸的魅夸克能量軌跡。",
+    "prompt": "A close-up shot of a cool blue-teal robotic cat wearing a miniature sensor collar, swatting its front paw at a recursive Droste effect display screen inside a cyberpunk control room. The screen shows a picture within a picture repeating infinitely with glowing charm quark energy trails. The control room walls feature rich warm tones with natural wood grain texture, visible knots, and an organic tactile surface, contrasting with neon-lit holographic elements. In the corner of the screen, the timestamp '2026-06-20 21:58 UTC' is clearly displayed. Classic three-point lighting setup with a soft key light, gentle fill light, and a subtle rim light separating the cat from the background, captured on a 35mm lens, f/2.8, realistic photographic texture.",
+    "number": 2230,
+    "title": "魅影微觀的無盡凝視",
+    "inspiration": "瑞士日內瓦的歐洲核子研究組織（CERN）科學家於 6 月 18 日宣佈，大型強子對撞機底夸克實驗（LHCb）成功發現了一個由一個奇夸克和兩個魅夸克組成的新粒子，完美補齊了預測超過半世紀的雙魅重子家族最後一塊拼圖。",
+    "news_inspiration": [
+      "法國街頭藝術家 JR 於六月中旬在首都巴黎最古老的「新橋」（Pont Neuf）打造了一座大型充氣藝術裝置，將其偽裝成一座雄偉的岩石山洞，成功融合了現代創意與歷史地標。",
+      "墨西哥首都墨西哥城的一條街道上，一隻名叫馬林（Merlin）的寵物鴨子因為穿著墨西哥國家足球隊的迷你球衣跟隨主人散步，成為了世界盃期間當地引人注目的逗趣奇景。",
+      "瑞士日內瓦的歐洲核子研究組織（CERN）科學家於 6 月 18 日宣佈，大型強子對撞機底夸克實驗（LHCb）成功發現了一個由一個奇夸克和兩個魅夸克組成的新粒子，完美補齊了預測超過半世紀的雙魅重子家族最後一塊拼圖。",
+      "加拿大多倫多的一個社區為了迎接世界盃，於六月初推出了一場以海狸雕塑為主角的獨特世界盃主題尋寶遊戲（The Great Beaver Quest），吸引眾多居民與遊客趣味參與。"
+    ],
+    "avoid_list": [
+      "冰霜結晶紋理",
+      "復古褪色色調與電影感打光",
+      "等距3D插圖",
+      "粉彩色系與生物發光",
+      "長毛貓皮毛上凝結著冰霜",
+      "老舊公寓四樓",
+      "大白貓在頂端俯瞰",
+      "琥珀暖色調",
+      "用前爪撥弄老舊儀器或工具",
+      "電影感打光與強烈聚光燈"
+    ],
+    "comment_id": 4760130729,
+    "idea": "一隻冷色調藍青色澤的機械貓在充滿賽博龐克霓虹感、牆面卻布滿木紋質感的控制室裡，透過層層嵌套的遞迴螢幕監控新粒子的誕生。"
   }
 ]

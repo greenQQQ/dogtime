@@ -20665,5 +20665,14 @@
     "status": "success",
     "url": "https://github.com/yazelin/catime/releases/download/cats-2026-06/cat_2026-06-20_2009_UTC.webp",
     "character": "mochi"
+  },
+  {
+    "number": 2230,
+    "title": "魅影微觀的無盡凝視",
+    "inspiration": "瑞士日內瓦的歐洲核子研究組織（CERN）科學家於 6 月 18 日宣佈，大型強子對撞機底夸克實驗（LHCb）成功發現了一個由一個奇夸克和兩個魅夸克組成的新粒子，完美補齊了預測超過半世紀的雙魅重子家族最後一塊拼圖。",
+    "model": "gemini-3-pro-image-preview (fallback from codex: codex-image-service request failed: The read operation timed out)",
+    "url": "https://github.com/yazelin/catime/releases/download/cats-2026-06/cat_2026-06-20_2158_UTC.webp",
+    "timestamp": "2026-06-20 21:58 UTC",
+    "status": "success"
   }
 ]
