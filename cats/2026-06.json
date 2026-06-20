@@ -5324,5 +5324,40 @@
     "idea": "在溫暖的琥珀色自然漫射光下，一隻三花貓正趴在精密的划槳工坊內，一旁是排列極其整齊、具有碳纖維質感的現代龍舟槳葉與組裝零件，呈現出超寫實動漫風格的 Knolling 排列攝影。",
     "story": "為了迎戰澳門龍舟賽，造船師將所有特製的碳纖維槳葉與鈦合金螺絲一字排開檢查。守護工坊的三花貓一邊享受秋日般的暖陽，一邊用敏銳的目光監督著這些即將打破紀錄的奪冠裝備。",
     "inspiration": "在中國澳門舉辦的2026國際龍舟賽圓滿落幕，其中中國南海九江隊展現強大實力，成功衛冕公開組與女子組雙料冠軍並打破賽事紀錄。"
+  },
+  {
+    "news_inspiration": [
+      "挪威一名六歲男校童在戶外教學時，於奧斯陸附近意外從泥土中發現一把擁有1200年歷史、保存完好的維京時期單刃鐵劍。",
+      "奧地利維也納的獸醫學研究團隊首次記錄到一隻名為薇洛妮卡（Veronika）的母牛能夠靈活且多用途地使用工具，打破了科學界過去對牛群智力的認知。",
+      "科學家在大堡礁的凱恩斯近海區域發現了一個面積接近半個足球場大的巨型軸孔珊瑚群落，是目前全球有紀錄以來最大的珊瑚結構之一。",
+      "美國太空總署（NASA）的太空人從太空站成功捕捉並分享了一段南極光（Southern Lights）在地球大氣層上空跳躍共舞的絕美縮時影片。"
+    ],
+    "story": "在金黑色調交織的巴洛克式密室裡，一隻黑色緬因貓正用鼻子嗅聞並用長尾輕掃一把剛出土的維京古劍。古劍上的金色浮雕在電影感打光的照射下，與貓咪琥珀色的雙眼一同折射出微弱而神祕的光芒。",
+    "inspiration": "挪威一名六歲男校童在戶外教學時，於奧斯陸附近意外從泥土中發現一把擁有1200年歷史、保存完好的維京時期單刃鐵劍。",
+    "prompt": "A 3D isometric illustration blending Rococo style and polished playful rendering. A black Maine Coon cat is in a luxurious, translucent resin palace with embedded elements visible inside, playfully interacting with an ancient Viking sword that has intricate golden reliefs. The scene features a gold and black color scheme with flamboyant pastel accents, flowing ornamental curves, and elaborate decorative details. Cinematic lighting creates volumetric light rays, dramatic shadows, and a film-quality opulent mood, highlighting the glossy smooth surface and the cat's amber eyes. Visually displayed clearly in the image is the date and time '2026-06-20 07:40 UTC'.",
+    "style_picks": {
+      "art_style": "Rococo",
+      "composition": "Isometric 3D Illustration",
+      "lighting": "Cinematic Lighting",
+      "texture": "Translucent Resin",
+      "color_palette": "Gold and Black Luxury"
+    },
+    "comment_id": 4756888466,
+    "avoid_list": [
+      "用爪子撥弄",
+      "霓虹螢光色",
+      "莫蘭迪色調",
+      "鏡子自拍構圖",
+      "硬光日照",
+      "古董店",
+      "雙色調",
+      "微縮移軸",
+      "傳統老街",
+      "機械老鼠或蝴蝶",
+      "絞染質感"
+    ],
+    "title": "琥珀殿宇的維京遺音",
+    "idea": "這是一幅融合洛可可藝術風格與等距3D插圖的奢華畫面，展現一隻貓咪在透明樹脂雕琢的華麗宮殿中撥弄一柄古老兵器的場景。",
+    "number": 2223
   }
 ]
