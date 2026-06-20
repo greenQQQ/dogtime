@@ -5428,5 +5428,40 @@
       "35mm鏡頭拍攝",
       "顯示精確的時間戳記"
     ]
+  },
+  {
+    "avoid_list": [
+      "高飽和鮮豔色",
+      "黑白單色與色彩融合",
+      "生物發光與微芒",
+      "粉彩色系夢幻光暈",
+      "深海與實驗室研究場景",
+      "溫室與老舊工坊",
+      "用鼻子輕觸嗅聞",
+      "專注凝視閃爍螢幕或水珠",
+      "金箔與金色浮雕元素",
+      "35mm鏡頭拍攝",
+      "顯示精確的時間戳記"
+    ],
+    "style_picks": {
+      "art_style": "Chalk Art",
+      "composition": "Isometric Photography",
+      "lighting": "Cinematic Lighting",
+      "texture": "Rust / Weathered",
+      "color_palette": "Retro Faded Tones"
+    },
+    "story": "克羅埃西亞的這棟老舊公寓最近熱鬧了起來，四樓迎來了一位不可思議的迷你新鄰居。當小馬在陽台散步時，隔壁的貓咪總會從斑駁的鐵窗探出頭來，以優雅的四足姿態趴著，試圖用粉撲般的肉墊與這個新朋友打招呼。鄰居們路過天井時，總會被這幅奇妙而溫馨的日常畫面逗得會心一笑。",
+    "news_inspiration": [
+      "在墨西哥首都墨西哥城，一隻名叫「小熊（Osito）」的流浪犬因經常坐在主人的載貨腳踏車上穿梭街頭，而在世界盃足球賽期間成為深受各國球迷喜愛的超人氣吉祥物。",
+      "一匹僅一個月大的可愛迷你小馬搬進了克羅埃西亞的一棟公寓四樓，特別的是，這裡的鄰居們對這位新搬來的四腳室友完全不介意且感到非常有趣。",
+      "在英國著名的皇家雅士谷賽馬會上，現場觀眾紛紛戴上極具創意且色彩斑斕的特色帽子盛裝出席，成為賽場外最吸睛的時尚亮點。",
+      "在孟加拉的一家動物園裡，一頭因擁有一頭神似美國前總統金色蓬鬆大背頭而特別被命名為「唐納川普」的美洲野牛，意外成為當地爆紅的超人氣明星。"
+    ],
+    "title": "四樓的天井派對",
+    "comment_id": 4758632378,
+    "number": 2226,
+    "prompt": "An isometric photography view of a calico cat lying on a rusted iron window sill of an old apartment on the fourth floor, curiously swatting at the tail of a newly moved-in mini horse with its paw. The text '2026-06-20 14:58 UTC' is visually displayed in the corner of the image. Chalk art on blackboard style with dusty matte texture, colored chalk, and visible hatching strokes on dark green slate. Perfectly isometric photography angle. Cinematic lighting with volumetric light rays, dramatic shadows, and high dynamic range to create a film-quality mood. Rusted weathered metal with oxidized patina, peeling paint layers, and aged industrial decay with warm orange-brown corrosion on the window sill. Retro faded color palette with washed-out vintage tones, low contrast, and nostalgic film-era warmth.",
+    "inspiration": "一匹僅一個月大的可愛迷你小馬搬進了克羅埃西亞的一棟公寓四樓，特別的是，這裡的鄰居們對這位新搬來的四腳室友完全不介意且感到非常有趣。",
+    "idea": "在粉筆畫風格與等距攝影視角下，一隻三花貓趴在老舊公寓四樓的生鏽鐵窗台上，好奇地用爪子撥弄一匹剛搬進來的迷你小馬的尾巴，整體呈現復古褪色色調與電影感打光。"
   }
 ]

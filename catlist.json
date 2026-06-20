@@ -20625,5 +20625,14 @@
     "timestamp": "2026-06-20 12:22 UTC",
     "inspiration": "在克羅埃西亞，一匹出生僅一個月的小馬日前跟著主人搬進了位於 4 樓的公寓，而友善的鄰居們對此並未表示反對。",
     "number": 2225
+  },
+  {
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "title": "四樓的天井派對",
+    "timestamp": "2026-06-20 14:58 UTC",
+    "number": 2226,
+    "url": "https://github.com/yazelin/catime/releases/download/cats-2026-06/cat_2026-06-20_1458_UTC.webp",
+    "inspiration": "一匹僅一個月大的可愛迷你小馬搬進了克羅埃西亞的一棟公寓四樓，特別的是，這裡的鄰居們對這位新搬來的四腳室友完全不介意且感到非常有趣。",
+    "status": "success"
   }
 ]
