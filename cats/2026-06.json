@@ -5728,5 +5728,45 @@
     "prompt": "A 1990s 35mm film photograph of a tabby cat lying on a natural wood grain bar counter inside a crowded sports bar, stretching its front paw out to swat at a television screen showing a basketball game. The timestamp '2026-06-21 10:58 UTC' is visually displayed in the corner of the image. Perfectly symmetrical composition with the centered cat and mirror-like balance framing the scene. The image blends a stark black and white monochrome high-contrast background of dramatic shadows and cheering fans with vibrant, colorful neon lighting casting a nostalgic glow and reflections on the bar surface. Direct flash camera style, rich tonal range, and slightly muted warm tones on the organic tactile surface of the wood.",
     "idea": "在黑白與霓虹燈光交織的90年代底片風格中，一隻斑虎貓正趴在塞滿球迷的酒吧木紋吧台上，伸出前爪試圖拍打電視螢幕上播放的球賽轉播。",
     "story": "紐約尼克隊奪冠的這一夜，整間酒吧陷入瘋狂的歡呼與騷動。這隻店貓完全不理會身旁舉杯狂歡的群眾，只是專注地盯著螢幕上跳動的籃球，用貓咪特有的精準節奏，在對稱構圖的畫面中央不斷撲向彩色的霓虹殘影。"
+  },
+  {
+    "avoid_list": [
+      "伸出前爪撥弄",
+      "四樓公寓陽台",
+      "古老地標新橋",
+      "冷藍色調",
+      "藍青色色調",
+      "冰霜結晶紋理",
+      "木紋質感控制室",
+      "生鏽鐵窗台",
+      "紐約尼克隊奪冠",
+      "體積光與神祕光影",
+      "傳統魚拓藝術風格",
+      "等距攝影視角"
+    ],
+    "news_inspiration": [
+      "在美國加州安扎-博雷戈沙漠的最新科學研究發現，當地的沙漠苔蘚葉片內部竟然藏有特殊的真菌共生結構，這項發現可能有助於未來利用植物改造火星環境。",
+      "在瑞士日內瓦，世界氣象組織（WMO）發布最新預測指出，2026年夏季聖嬰現象（El Niño）發展的機率高達80%，這將使全球在未來數月普遍面臨更顯著的高溫氣候。",
+      "在歐洲核子研究組織（CERN）位於瑞士與法國邊境的大型強子對撞機（LHCb）實驗中，科學家成功發現了由兩個粲夸克與一個奇夸克組成的全新粒子，正式為尋找了逾半個世紀的「雙粲重子」家族填補上最後一塊拼圖。",
+      "在美國達拉斯舉行的2026年世界盃足球賽分組賽中，阿根廷傳奇球星梅西再度重返賽場，率領球隊迎戰奧地利，掀起全球廣大足球迷的熱烈關注。"
+    ],
+    "character_name": "鈴鈴",
+    "prompt": "A tilt-shift photograph of an extremely fluffy longhair pure white cat with a small round face, huge round sapphire-blue eyes, a pale pink nose, and a pink ribbon bow collar featuring a centered golden bell, wearing a miniature straw hat adorned with a sunflower. The cat is inquisitively chasing a glittering golden beetle in a sun-drenched sunflower maze. The environment blends suminagashi-inspired concentric ink patterns and delicate swirls into the golden fields, with fine sand textures rippling like desert dunes. Shot with a 35mm lens at f/1.8, showing a selective focus band, a miniature toy-like effect, and blurred foreground and background. The scene features cinematic lighting with volumetric light rays, dramatic shadows, a warm earth tone palette of golden-yellow, terracotta, olive green, and warm brown, with natural film grain. The date and time '2026-06-21 13:03 UTC' is visually stamped in a clean font in the corner of the image.",
+    "style_picks": {
+      "art_style": "Suminagashi",
+      "composition": "Tilt-Shift Miniature",
+      "lighting": "Cinematic Lighting",
+      "texture": "Sand Texture",
+      "color_palette": "Earth Tones"
+    },
+    "number": 2235,
+    "title": "盛夏流光的向日葵探險",
+    "story": "面對2026年熱浪來襲的酷暑，天真的鈴鈴戴上特製的太陽花草帽，勇敢地踏入高聳的向日葵花海探險。她因為被一隻閃爍金光的甲蟲吸引而不小心撞上花莖，清脆的鈴鐺聲在被墨流波紋與沙質紋理包裹的金色田野間迴盪，顯得格外逗趣。",
+    "comment_id": 4762075474,
+    "character": "lingling",
+    "is_seasonal": true,
+    "season": "summer",
+    "inspiration": "在瑞士日內瓦，世界氣象組織（WMO）發布最新預測指出，2026年夏季聖嬰現象（El Niño）發展的機率高達80%，這將使全球在未來數月普遍面臨更顯著的高溫氣候。",
+    "idea": "這是一幅結合墨流藝術風格與移軸微縮效果的獨特畫面，純白蓬鬆的布偶貓風格小貓「鈴鈴」正戴著迷你草帽與太陽花，在烈日灼身的向日葵田迷宮中，好奇地追逐一隻閃閃發光的金色甲蟲。"
   }
 ]
