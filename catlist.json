@@ -20763,5 +20763,16 @@
     "url": "https://github.com/yazelin/catime/releases/download/cats-2026-06/cat_2026-06-21_2102_UTC.webp",
     "inspiration": "original",
     "character_name": "麻糬"
+  },
+  {
+    "character": "captain",
+    "character_name": "船長",
+    "url": "https://github.com/yazelin/catime/releases/download/cats-2026-06/cat_2026-06-21_2258_UTC.webp",
+    "inspiration": "葡萄牙馬德拉群島因擁有壯麗懸崖、天然泳池與溫和氣候，在 2026 年 6 月被國際旅遊界盛讚為「歐洲的夏威夷」，成為今年最熱門的避暑度假勝地。",
+    "number": 2240,
+    "title": "夏威夷雪夜的咆哮",
+    "status": "success",
+    "timestamp": "2026-06-21 22:58 UTC",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)"
   }
 ]

@@ -5909,5 +5909,42 @@
     "story": "貪吃的麻糬在深夜溜進了一家充滿未來感的霓虹傳統老街麵包店，試圖偷吃剛出爐的巨大花生麻糬。沒想到牠圓滾滾的身軀直接塞進了透明樹脂做的展示蒸籠，在螢光燈的強烈照射下，牠動彈不得地瞇著眼，宛如一件活生生的普普藝術品。",
     "inspiration": "original",
     "character_name": "麻糬"
+  },
+  {
+    "comment_id": 4763558223,
+    "news_inspiration": [
+      "日本東京於 2026 年世界盃達成了第 1000 場賽事的歷史里程碑，並以 4 比 0 大勝突尼西亞隊，引發當地媒體與球迷熱烈慶祝。",
+      "葡萄牙馬德拉群島因擁有壯麗懸崖、天然泳池與溫和氣候，在 2026 年 6 月被國際旅遊界盛讚為「歐洲的夏威夷」，成為今年最熱門的避暑度假勝地。",
+      "加拿大多倫多體育場湧入大量熱情球迷，共同見證其國家隊在 2026 年世界盃正式開踢，整座城市沉浸在歡樂的足球嘉年華氛圍中。",
+      "奧地利維也納在 2026 年 6 月推出了一系列全新的文化深度體驗與音樂節慶活動，以豐富的歷史與美食底蘊吸引全球自由行旅客前來朝聖。"
+    ],
+    "character": "captain",
+    "style_picks": {
+      "art_style": "Caricature",
+      "composition": "Forced Perspective Reach",
+      "lighting": "Snowstorm Haze",
+      "texture": "Sparkle Glitter Accents",
+      "color_palette": "Warm Tones (Amber / Autumn)"
+    },
+    "character_name": "船長",
+    "story": "號稱「歐洲的夏威夷」的馬德拉群島竟意外迎來一場罕見的夏日暴風雪。碼頭老大「船長」頂著寒風爬上燈塔最高處，一邊享受著狂風的吹拂，一邊用粗壯的爪子試圖抓取天空中飄落的閃亮雪花，穩重地守護這片海域。",
+    "prompt": "Caricature style, exaggerated proportions comic illustration of a large stocky brown classic tabby cat named Captain, who has bold black stripes, a muscular build, scruffy untidy coarse fur, and a prominent V-shaped notch on his left ear. His left eye (viewer's perspective) is permanently concealed by a natural dark-pigmented fur patch with no straps, while his right eye is a single piercing emerald green. He wears a faded red bandana tied loosely around his neck, has a white chest bib, a distinctive M-mark on his forehead, and white mitten paws. Using forced perspective composition with exaggerated foreshortening, Captain thrusts a massive white mitten paw directly toward the camera, trying to catch falling snow. The setting is the edge of a cliff on the Madeira Islands with a hazy lighthouse in the background, heavily enveloped by a summer snowstorm veil. The scene features a heavy falling snow atmosphere, muted diffused daylight, and foggy distance, overspread with sparkle and glitter overlay effects, star-shaped highlights, shimmering particles, and magical glow dust. The color grading is a warm amber and cozy nostalgic autumn palette of golden yellows and burnt orange. Visually displayed in the corner of the image is the timestamp text '2026-06-21 22:58 UTC'.",
+    "number": 2240,
+    "title": "夏威夷雪夜的咆哮",
+    "idea": "在溫暖琥珀色調的誇張漫畫風格中，一隻巨大的虎斑貓「船長」以強制透視的誇張比例向鏡頭伸出白手套大爪，背景是正遭受暴風雪朦朧席捲的馬德拉群島懸崖燈塔，畫面上點綴著閃光亮粉效果。",
+    "inspiration": "葡萄牙馬德拉群島因擁有壯麗懸崖、天然泳池與溫和氣候，在 2026 年 6 月被國際旅遊界盛讚為「歐洲的夏威夷」，成為今年最熱門的避暑度假勝地。",
+    "avoid_list": [
+      "用爪子撥弄",
+      "鏡子自拍構圖",
+      "歐普藝術",
+      "木紋質感",
+      "冷藍色調",
+      "螢光霓虹燈",
+      "黑金相間",
+      "極低角度",
+      "體積光",
+      "35mm鏡頭",
+      "傳統魚拓藝術風格"
+    ]
   }
 ]
