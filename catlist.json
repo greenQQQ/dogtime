@@ -20811,5 +20811,14 @@
     "model": "gpt-image-2 (codex-image-service / $imagegen)",
     "character": "lingling",
     "inspiration": "挪威一名六歲男孩在參與學校戶外教學時，於一處田地發現了埋藏在地底、距今約1200年前的維京時期古劍。"
+  },
+  {
+    "title": "貓咪日常",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "timestamp": "2026-06-22 20:31 UTC",
+    "number": 2245,
+    "inspiration": "original",
+    "url": "https://github.com/yazelin/catime/releases/download/cats-2026-06/cat_2026-06-22_2031_UTC.webp",
+    "status": "success"
   }
 ]
