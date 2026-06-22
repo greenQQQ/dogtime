@@ -20774,5 +20774,13 @@
     "status": "success",
     "timestamp": "2026-06-21 22:58 UTC",
     "model": "gpt-image-2 (codex-image-service / $imagegen)"
+  },
+  {
+    "number": null,
+    "error": "codex failed (codex-image-service request failed: The read operation timed out); nanobanana fallback also failed: Failed to generate any images - All models failed. Last error: ",
+    "url": null,
+    "model": "all failed",
+    "status": "failed",
+    "timestamp": "2026-06-22 00:10 UTC"
   }
 ]
