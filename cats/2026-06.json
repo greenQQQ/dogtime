@@ -6364,5 +6364,43 @@
     "title": "油墨旋律中的夜行",
     "inspiration": "original",
     "story": "深夜的報社印刷廠裡機器轟鳴，工人們正忙著印製明早的晨報。一隻黑貓在巨大的印刷滾筒間穿梭尋落腳點，牠黑亮如天鵝絨的毛皮在電影感的光影下，與四周飛速旋轉、因長曝光而化為虛影的機械部件融為一體。"
+  },
+  {
+    "character_name": "鈴鈴",
+    "character": "lingling",
+    "style_picks": {
+      "art_style": "Oil Painting",
+      "composition": "Color Palette Swatch Frame",
+      "lighting": "Three-Point Lighting",
+      "texture": "Rust / Weathered",
+      "color_palette": "Retro Faded Tones"
+    },
+    "comment_id": 4783606934,
+    "avoid_list": [
+      "橘白胖貓麻糬",
+      "巨型發光蒸籠",
+      "正交投影無透視",
+      "虎斑貓船長",
+      "眼睛周圍天然色斑",
+      "白手套大爪向前伸出",
+      "直打閃光燈硬陰影",
+      "潮濕廢棄溫室",
+      "用爪子撥弄或捕捉",
+      "霓虹與螢光色彩",
+      "古老歷史或傳奇遺物",
+      "鳥瞰俯視視角"
+    ],
+    "prompt": "An oil painting illustration in a portfolio presentation format, framed by vertical color palette swatch bars on both sides revealing the work's color palette, featuring the text '2026-06-23 21:22 UTC' visually displayed. The subject is a literal four-legged cat, an extremely fluffy pure white longhair Ragdoll-like cat with voluminous cloud-like fur, a small round face nearly hidden in fur, and huge round sapphire-blue eyes with a gentle sparkle. The cat has a pink nose, pink inner ears, an enormous feathery white plume tail, and is wearing a pink ribbon bow collar with a small golden bell clearly visible and centered beneath the bow knot. The cat is on a balcony chasing a butterfly near rusted weathered metal railings with an oxidized patina and peeling paint layers. Classic three-point lighting setup with a key light, soft shadows, a fill light, and a subtle rim light separation. Thick impasto brushstrokes, rich color palette, visible canvas texture, and a retro faded color palette with washed-out vintage tones and low contrast.",
+    "news_inspiration": [
+      "在奧地利維也納的一項行為科學研究中，科學家首次記錄到一頭名為維羅妮卡（Veronika）的母牛展現出罕見的工具使用能力，打破了以往認為只有靈長類動物才會此技能的認知。",
+      "2026年世界盃足球賽在北美正式開打，本屆賽事創下歷史紀錄，共有來自法國、加勒比海庫拉索等國家的七對親兄弟球員同時登上有關賽場展開激烈競爭或合作。",
+      "在澳洲凱恩斯外海的大堡礁公民科學項目中，潛水員發現了一座面積將近半個足球場大、高達3973平方公尺的巨型足形類珊瑚群落，成為目前已知文字記載中最大的珊瑚之一。",
+      "在英國拉夫堡大學所舉辦的春季體育與永續環保活動中，學生們參與了源自日本的「撿垃圾體育聯賽」（SpoGomi），在一個下午內以競賽形式成功清除城鎮裡高達281公斤的廢棄垃圾。"
+    ],
+    "inspiration": "original",
+    "title": "褪色陽台與藍眼晴",
+    "story": "天真好奇的鈴鈴在灑滿三點打光的復古陽台上，正興奮地盯著一隻落在斑駁鐵器上的蝴蝶。她那寶石藍的大眼睛閃閃發亮，脖子上的粉紅蝴蝶結鈴鐺隨著她興奮的微調動作發出清脆的叮鈴聲，下一秒她就因為太專注而一頭撞上了旁邊的舊花盆。",
+    "idea": "這是一幅採用油畫風格與復古褪色色調繪製的畫作，畫面四周帶有細緻的配色條邊框，展現一隻全身毛量極蓬鬆的白色布偶貓風格貓咪「鈴鈴」，在充滿鐵鏽舊化質感的陽台欄杆上追逐蝴蝶。",
+    "number": 2254
   }
 ]
