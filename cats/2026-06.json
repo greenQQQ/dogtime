@@ -6298,5 +6298,40 @@
     ],
     "number": 2251,
     "inspiration": "original"
+  },
+  {
+    "inspiration": "越南河內將於西湖地區舉辦二零二六荷花節，透過豐富的文化、藝術與旅遊活動，向遊客展現荷花這項極具代表性的國家文化象徵。",
+    "comment_id": 4781255158,
+    "story": "為了慶祝河內荷花節，滿城荷香四溢，引來了一隻充滿好奇心的貓咪。牠踩著柔軟的肉墊，在層層疊疊的墨色荷葉間敏捷移動，用鼻子輕輕嗅聞著盛開荷花的芬芳。長卷沿著湖岸延伸，環形燈般柔和的水面反光與細膩的底片顆粒，共同烘托出這幅充滿詩意的夏日生態百態。",
+    "news_inspiration": [
+      "聯合國教科文組織於法國巴黎總部推出全新數位時代家庭指南，旨在幫助全球家長與照顧者引導兒童安全且自信地使用社群媒體。",
+      "歐洲各國在河流保育上取得重大突破，透過拆除破紀錄數量的廢棄水壩，成功為魚類等物種重新打通數千英里的遷徙水路。",
+      "越南河內將於西湖地區舉辦二零二六荷花節，透過豐富的文化、藝術與旅遊活動，向遊客展現荷花這項極具代表性的國家文化象徵。"
+    ],
+    "idea": "這是一幅以《清明上河圖》為靈感的黑白長卷式等距攝影作品，展現一隻全身布滿細緻斑紋的貓咪正在越南西湖畔的無邊荷花田間，輕巧地在一根根交錯的荷花莖與巨大荷葉間穿梭攀爬。",
+    "title": "墨荷微瀾見貓影",
+    "prompt": "An isometric long-scroll photograph capturing a detailed brindle cat agilely climbing and weaving through a dense grid of crisscrossing lotus stems and giant lotus leaves at the edge of West Lake in Hanoi. The composition is a black and white monochrome panoramic shot with a high contrast, rich tonal range, and dramatic shadows and highlights. The lighting features a ring light illumination effect with subtle circular reflections on the water, providing even frontal coverage with visible film grain, analog texture, and organic photographic imperfections. The scene is framed from a perfectly isometric oblique aerial perspective without a miniature effect, mirroring the layout of a Chinese panoramic scroll painting. Visually displayed in a subtle, clean font in the corner of the image is the timestamp '2026-06-23 16:18 UTC'.",
+    "style_picks": {
+      "art_style": "Chinese Panoramic Scroll Painting",
+      "composition": "Isometric Photography",
+      "lighting": "Ring Light",
+      "texture": "Film Grain",
+      "color_palette": "Monochrome / Black and White"
+    },
+    "avoid_list": [
+      "橘白胖貓麻糬",
+      "巨型發光蒸籠",
+      "正交投影無透視",
+      "虎斑貓船長",
+      "眼睛周圍天然色斑",
+      "白手套大爪向前伸出",
+      "直打閃光燈硬陰影",
+      "潮濕廢棄溫室",
+      "用爪子撥弄或捕捉",
+      "霓虹與螢光色彩",
+      "古老歷史或傳奇遺物",
+      "鳥瞰俯視視角"
+    ],
+    "number": 2252
   }
 ]
