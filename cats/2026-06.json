@@ -6333,5 +6333,36 @@
       "鳥瞰俯視視角"
     ],
     "number": 2252
+  },
+  {
+    "number": 2253,
+    "comment_id": 4782527343,
+    "avoid_list": [
+      "橘白胖貓麻糬",
+      "巨型發光蒸籠",
+      "正交投影無透視",
+      "虎斑貓船長",
+      "眼睛周圍天然色斑",
+      "白手套大爪向前伸出",
+      "直打閃光燈硬陰影",
+      "潮濕廢棄溫室",
+      "用爪子撥弄或捕捉",
+      "霓虹與螢光色彩",
+      "古老歷史或傳奇遺物",
+      "鳥瞰俯視視角"
+    ],
+    "news_inspiration": [],
+    "style_picks": {
+      "art_style": "Long Exposure Photography",
+      "composition": "Fisheye Lens",
+      "lighting": "Cinematic Lighting",
+      "texture": "Velvet",
+      "color_palette": "Monochrome / Black and White"
+    },
+    "prompt": "A black-and-white long-exposure photograph taken with a fisheye wide-angle lens showing a strong barrel distortion. In a late-night printing press facility, a pure black cat with a velvet texture coat walks gracefully around a rapidly spinning rotary printing press. The motion of the machinery creates silky smooth light trails and motion blur, blending with dramatic shadows and high-contrast cinematic lighting. On one of the foreground surfaces, the date and time '2026-06-23 19:00 UTC' is clearly and visually displayed. Shot on film, high dynamic range, rich tonal range with deep blacks and stark highlights, capturing a film-quality mood with no digital art elements.",
+    "idea": "這是一幅採用魚眼鏡頭與長曝光攝影捕捉的黑白畫面，一隻純黑的貓咪在深夜的印刷廠裡，繞著飛速旋轉的滾筒式印刷機輕巧漫步，留下流動如絲綢的光影軌跡。",
+    "title": "油墨旋律中的夜行",
+    "inspiration": "original",
+    "story": "深夜的報社印刷廠裡機器轟鳴，工人們正忙著印製明早的晨報。一隻黑貓在巨大的印刷滾筒間穿梭尋落腳點，牠黑亮如天鵝絨的毛皮在電影感的光影下，與四周飛速旋轉、因長曝光而化為虛影的機械部件融為一體。"
   }
 ]
