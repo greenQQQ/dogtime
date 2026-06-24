@@ -20987,5 +20987,14 @@
     "timestamp": "2026-06-24 17:35 UTC",
     "inspiration": "在印尼布魯島，保育人員在登陸卡帕拉特馬達山的健行途中，成功拍攝到曾被正式列為失蹤物種的藍額吸蜜鸚鵡。",
     "model": "gpt-image-2 (codex-image-service / $imagegen)"
+  },
+  {
+    "title": "螢光雪夜的微型策展",
+    "url": "https://github.com/yazelin/catime/releases/download/cats-2026-06/cat_2026-06-24_1826_UTC.webp",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "timestamp": "2026-06-24 18:26 UTC",
+    "number": 2263,
+    "inspiration": "美國明尼蘇達州的一位藝術家推出「迷你藝術販賣機」，以每件僅一美元的價格成功售出近三千件藝術作品，掀起在地文化熱潮。",
+    "status": "success"
   }
 ]

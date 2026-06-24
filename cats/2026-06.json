@@ -6684,5 +6684,42 @@
     "inspiration": "在印尼布魯島，保育人員在登陸卡帕拉特馬達山的健行途中，成功拍攝到曾被正式列為失蹤物種的藍額吸蜜鸚鵡。",
     "prompt": "A ukiyo-e Japanese woodblock print with flat color areas, bold outlines, and a fisheye wide-angle lens composition creating strong barrel distortion, an exaggerated foreground, and a 360-degree feel. An orange and white tabby cat with a velvet texture and deep pile softness extends its front paw, trying to swat a blue-fronted lorikeet leaping on a twisted tree branch. High-key bright lighting creates an airy overexposed feel with soft even illumination, minimal shadows, and a luminous clean atmosphere. The color palette features a cool blue-teal color grading with icy undertones and rich color saturation for a dreamy pastel mood. Inscribed visibly in a corner of the artwork is the text '2026-06-24 17:35 UTC'.",
     "comment_id": 4792040232
+  },
+  {
+    "news_inspiration": [
+      "澳洲坎培拉的一名榮譽鎮民官因喊出高達 122.4 分貝的巨響，正式被金氏世界紀錄認證為世界上聲音最大的人。",
+      "墨西哥墨西哥市的一隻鴨子「梅林」因經常在街頭散步而走紅，近日更受邀參加總統的新聞簡報會並成為世界盃的超人氣吉祥物。",
+      "克羅埃西亞的一家住戶迎來一匹僅一個月大的迷你小馬住進其四樓公寓，而友善的鄰居們對此奇特景象均表示完全不介意。",
+      "美國明尼蘇達州的一位藝術家推出「迷你藝術販賣機」，以每件僅一美元的價格成功售出近三千件藝術作品，掀起在地文化熱潮。"
+    ],
+    "title": "螢光雪夜的微型策展",
+    "story": "在明尼蘇達州的街頭一隅，一台迷你藝術販賣機旁散落著各式精緻的小作品。這隻充滿好奇心的貓咪在霓虹螢光色的雪夜裡，正認真地用肉墊調整每件一美元藝術品的排列角度，彷彿自己就是這座微型藝廊的首席策展人。",
+    "style_picks": {
+      "art_style": "Synthwave",
+      "composition": "Knolling Photography",
+      "lighting": "Snowstorm Haze",
+      "texture": "Sand Texture",
+      "color_palette": "Neon Fluorescent"
+    },
+    "idea": "這是一幅採用合成波（Synthwave）藝術風格的 Knolling 排列攝影作品，一隻橘白花貓正用爪子撥弄並整理散落於沙質紋理地面的微型畫作與硬幣，整體畫面籠罩在暴風雪朦朧的微光中。",
+    "comment_id": 4792453123,
+    "number": 2263,
+    "prompt": "A crisp, detailed knolling photography flat lay overhead view of an orange and white cat neatly arranging miniature paintings and coins at 90-degree angles on a fine sand texture surface. The text '2026-06-24 18:26 UTC' is clearly and visually displayed in the corner. Synthwave aesthetic with electric pink, lime green, and hot cyan neon fluorescent colors glowing against a dark background. Snowstorm atmospheric lighting with a heavy falling snow veil, fogged distance, and cold blue-white tones blending with the neon glow. Shot on a 35mm lens, f/2.8, cinematic lighting, sharp detail on the cat's paw touching a coin, capturing a real photographic grain and texture.",
+    "avoid_list": [
+      "維多利亞式鑄鐵鏤空溫室",
+      "黑白長卷式等距攝影",
+      "復古褪色色調",
+      "環形燈般圓頂天窗投射",
+      "蝴蝶光投射在鼻子下",
+      "文字時間戳記視覺化顯示",
+      "貓咪用鼻子輕嗅物品",
+      "對稱構圖與建築框架手法",
+      "電影分鏡風格畫面",
+      "純黑貓咪優雅在場景中",
+      "巨大的印刷滾筒與飛速旋轉機械",
+      "散發霓虹燈光的發光食物",
+      "超廣角鏡頭與強烈明暗對比"
+    ],
+    "inspiration": "美國明尼蘇達州的一位藝術家推出「迷你藝術販賣機」，以每件僅一美元的價格成功售出近三千件藝術作品，掀起在地文化熱潮。"
   }
 ]
