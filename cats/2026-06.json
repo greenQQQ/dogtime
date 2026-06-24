@@ -6721,5 +6721,41 @@
       "超廣角鏡頭與強烈明暗對比"
     ],
     "inspiration": "美國明尼蘇達州的一位藝術家推出「迷你藝術販賣機」，以每件僅一美元的價格成功售出近三千件藝術作品，掀起在地文化熱潮。"
+  },
+  {
+    "avoid_list": [
+      "維多利亞式鑄鐵鏤空溫室",
+      "黑白長卷式等距攝影",
+      "復古褪色色調",
+      "環形燈般圓頂天窗投射",
+      "蝴蝶光投射在鼻子下",
+      "文字時間戳記視覺化顯示",
+      "貓咪用鼻子輕嗅物品",
+      "對稱構圖與建築框架手法",
+      "電影分鏡風格畫面",
+      "純黑貓咪優雅在場景中",
+      "巨大的印刷滾筒與飛速旋轉機械",
+      "散發霓虹燈光的發光食物",
+      "超廣角鏡頭與強烈明暗對比"
+    ],
+    "news_inspiration": [
+      "美國明尼阿波利斯舉辦了年度「Wedge貓咪巡禮」活動，吸引大量居民上街沿路欣賞坐在窗台或嬰兒車內的鄰居貓咪。",
+      "加拿大溫哥華的科學世界（Science World）博物館將其標誌性圓頂建築外觀改造為直徑40公尺的巨大2026世界盃官方指定足球，成為當地的打卡新地標。",
+      "馬來西亞古晉舉辦了第三屆熱帶雨林青年峰會，匯聚全球青年代表共同探討原住民知識與環境保護的永續解決方案。"
+    ],
+    "number": 2264,
+    "title": "巨球上的墨色攀登者",
+    "comment_id": 4793384647,
+    "idea": "一隻斑紋貓在40公尺巨大的等距3D足球立體剪紙模型上奮力攀爬，場景呈現單色黑白與虹彩全息的紙張質感，並由斜上方投射出戲劇性的倫勃朗光影。",
+    "style_picks": {
+      "art_style": "Papercut Art",
+      "composition": "Isometric 3D Illustration",
+      "lighting": "Rembrandt Lighting",
+      "texture": "Iridescent Holographic",
+      "color_palette": "Monochrome / Black and White"
+    },
+    "inspiration": "加拿大溫哥華的科學世界（Science World）博物館將其標誌性圓頂建築外觀改造為直徑40公尺的巨大2026世界盃官方指定足球，成為當地的打卡新地標。",
+    "story": "溫哥華的科學世界博物館圓頂一夜之間變成了巨型足球。這隻充滿好奇心的貓咪將這個龐然大物當成了自己的新玩具，在交錯的幾何紙雕縫隙間靈巧穿梭，試圖征服這個全世界最大的足球。紙張邊緣在微光下折射出如全息投影般的隱約虹彩，記錄下這場黑白世界裡的微型冒險。",
+    "prompt": "A detailed 3D isometric illustration and papercut art of a small tabby cat scaling a massive 40-meter giant soccer ball made of layered paper silhouettes and intricate cutout details. The scene features a high-contrast black and white monochrome base with dramatic chiaroscuro, illuminated by a single Rembrandt lighting source from a 45-degree angle above. The clean geometric forms and paper edges exhibit a shimmering translucent surface with an iridescent holographic material texture, showing a subtle rainbow color shift and pastel prismatic reflections. The date and time '2026-06-24 20:26 UTC' is clearly and visually displayed in the image as a clean text element."
   }
 ]
