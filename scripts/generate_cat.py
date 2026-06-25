@@ -896,8 +896,6 @@ async def _generate_via_codex_image_service(
 ) -> dict:
     """Use the self-hosted codex-image-service (Codex CLI behind FastAPI + nginx)."""
     import json as _json
-    import socket
-    import http.client
     import urllib.request
     import urllib.error
 
@@ -914,56 +912,65 @@ async def _generate_via_codex_image_service(
     payload = _json.dumps(
         {"prompt": prompt, "size": "1024x1024", "quality": "medium", "count": 1}
     ).encode("utf-8")
-    req = urllib.request.Request(
-        f"{base_url}/v1/images/generate",
-        data=payload,
-        headers={
-            "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json",
-        },
-        method="POST",
-    )
-
-    # gpt-image-2 renders can take minutes; the connection sits idle while we wait.
-    # Some NAT/firewall on the public path (GitHub Actions → home router → nginx)
-    # silently drops that idle TCP connection mid-render, surfacing here as
-    # "Remote end closed connection without response" (nginx logs it as 499).
-    # Aggressive TCP keepalive keeps the connection visibly alive so it survives.
-    # ponytail: keepalive only nudges idle-timeout droppers; an ISP/router that
-    # hard-RSTs long connections needs the async submit+poll path instead.
-    def _enable_keepalive(sock: socket.socket) -> None:
-        sock.setsockopt(socket.SOL_SOCKET, socket.SO_KEEPALIVE, 1)
-        for name, value in (("TCP_KEEPIDLE", 30), ("TCP_KEEPINTVL", 30), ("TCP_KEEPCNT", 8)):
-            opt = getattr(socket, name, None)
-            if opt is not None:
-                sock.setsockopt(socket.IPPROTO_TCP, opt, value)
-
-    class _KAHTTPConnection(http.client.HTTPConnection):
-        def connect(self):
-            super().connect()
-            _enable_keepalive(self.sock)
-
-    class _KAHTTPSConnection(http.client.HTTPSConnection):
-        def connect(self):
-            super().connect()
-            _enable_keepalive(self.sock)
-
-    class _KAHTTPHandler(urllib.request.HTTPHandler):
-        def http_open(self, r):
-            return self.do_open(_KAHTTPConnection, r)
-
-    class _KAHTTPSHandler(urllib.request.HTTPSHandler):
-        def https_open(self, r):
-            return self.do_open(_KAHTTPSConnection, r, context=self._context)
-
-    opener = urllib.request.build_opener(_KAHTTPHandler(), _KAHTTPSHandler())
-
-    def _call() -> dict:
-        with opener.open(req, timeout=650) as resp:
+    # gpt-image-2 renders can take minutes. Holding ONE long connection for the
+    # whole render is fragile: the idle TCP connection (GitHub Actions → home
+    # router → nginx) gets silently dropped mid-render ("Remote end closed
+    # connection without response"), wasting a perfectly good codex image. So
+    # submit the job and poll for the result with short requests — each poll
+    # survives the NAT, and the service finishes the render in the background no
+    # matter how long it takes.
+    def _post_json(url: str, body: bytes) -> dict:
+        r = urllib.request.Request(
+            url,
+            data=body,
+            headers={
+                "Authorization": f"Bearer {api_key}",
+                "Content-Type": "application/json",
+            },
+            method="POST",
+        )
+        with urllib.request.urlopen(r, timeout=60) as resp:
             return _json.loads(resp.read().decode("utf-8"))
 
+    def _get_json(url: str) -> dict:
+        r = urllib.request.Request(
+            url, headers={"Authorization": f"Bearer {api_key}"}, method="GET"
+        )
+        with urllib.request.urlopen(r, timeout=60) as resp:
+            return _json.loads(resp.read().decode("utf-8"))
+
+    poll_interval_s = 20
+    max_wait_s = 720
     try:
-        data = await asyncio.to_thread(_call)
+        submitted = await asyncio.to_thread(
+            _post_json, f"{base_url}/v1/images/jobs", payload
+        )
+        request_id = submitted["id"]
+        waited = 0
+        data: dict = {}
+        while True:
+            data = await asyncio.to_thread(
+                _get_json, f"{base_url}/v1/images/jobs/{request_id}"
+            )
+            job_status = data.get("status")
+            if job_status == "succeeded":
+                break
+            if job_status in ("failed", "expired"):
+                return {
+                    "file_path": None,
+                    "model_used": None,
+                    "status": "failed",
+                    "error": f"codex-image-service job {job_status}: {data.get('error')}",
+                }
+            if waited >= max_wait_s:
+                return {
+                    "file_path": None,
+                    "model_used": None,
+                    "status": "failed",
+                    "error": f"codex-image-service job still '{job_status}' after {max_wait_s}s",
+                }
+            await asyncio.sleep(poll_interval_s)
+            waited += poll_interval_s
     except urllib.error.HTTPError as exc:
         body = exc.read().decode("utf-8", errors="replace") if exc.fp else ""
         return {
