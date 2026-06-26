@@ -7475,5 +7475,39 @@
       "義大利一所高中的學生在進行體育館修繕時，意外於地底發現了一座擁有1,800年歷史的古羅馬豪宅別墅遺跡。",
       "美國史丹佛大學醫學院的研究團隊成功發現透過阻斷特定蛋白質（15-PGDH），可以逆轉年長者關節中的軟骨流失，有望讓未來的膝關節置換手術成為歷史。"
     ]
+  },
+  {
+    "news_inspiration": [
+      "瑞士大聖伯納山口的高山步道上，歷史悠久的聖伯納犬依然參與當地的「活體博物館」與繁殖計畫，延續數百年來在雪地中搜救旅人的傳統英姿。",
+      "墨西哥韋拉克魯斯州的坎波維耶荷遺址發現了一座早期古典時期的圓形石造平台與一座高逾六英尺的巨石雕刻，呈現兩位人物正領受神聖液體的神話場景。",
+      "西班牙海域捕獲了一隻幼年大白鯊，這項最新發現為科學界提供了有力證據，證實地中海神祕且難以追蹤的「幽靈」大白鯊族群至今依然存在。",
+      "加拿大哈利法克斯港舉行的國際帆船大獎賽迎來高潮，現場變幻莫測的「瘋狂氣象」與劇烈風向轉變，為十三支參賽隊伍帶來極具考驗的精彩對決。"
+    ],
+    "style_picks": {
+      "art_style": "Film Noir",
+      "composition": "Isometric 3D Illustration",
+      "lighting": "Direct Flash",
+      "texture": "Aged Silk Scroll",
+      "color_palette": "Duotone"
+    },
+    "prompt": "A duotone 3D isometric illustration with a film noir style, featuring a lean black cat at the top of an old seaside Spanish lighthouse late at night. The cat is looking down, intently using its paw to fiddle with a rusted brass nautical compass. High-contrast monochrome with dramatic deep shadows and hard shadows, blended with clean geometric forms and an antique manuscript texture of an aged silk scroll surface with weathered paper stains and a visible silk weave. The scene is illuminated by a harsh direct on-camera flash, creating blown-out highlights and a raw candid snapshot look. The date and time '2026-06-26 22:01 UTC' is visually displayed in the corner of the image.",
+    "title": "幽暗燈塔的磁偏角",
+    "number": 2285,
+    "avoid_list": [
+      "長卷全景構圖",
+      "強制透視伸手構圖",
+      "復古褪色色調",
+      "螢光燈無陰影照明",
+      "金黑奢華配色",
+      "粉紅鼻尖嗅聞",
+      "前爪按壓物件",
+      "圓滾滾胖貓",
+      "3D盲盒黏土風格",
+      "大地色系竹蓆"
+    ],
+    "comment_id": 4813746315,
+    "idea": "在融合黑色電影風格與等距3D插圖的雙色調畫面中，一隻精瘦的黑貓在深夜的西班牙海邊舊燈塔頂端，正低頭專注地用爪子撥弄一具生鏽的黃銅航海羅盤。",
+    "inspiration": "西班牙海域捕獲了一隻幼年大白鯊，這項最新發現為科學界提供了有力證據，證實地中海神祕且難以追蹤的「幽靈」大白鯊族群至今依然存在。",
+    "story": "暴風雨前的燈塔內，黑貓在古絹絹本質感的陰影中穿梭。強烈的直打閃光燈照亮了牠敏銳的雙眼，牠正試圖撥動那具指向神祕海域的羅盤，彷彿在為遠方的某個神祕族群指引航向。"
   }
 ]
