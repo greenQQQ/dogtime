@@ -7897,5 +7897,34 @@
     ],
     "title": "粉彩雲翼的伸展",
     "comment_id": 4821591496
+  },
+  {
+    "prompt": "An illustrated storybook page layout with two irregular panels and a decorative title banner at the top, showing a shoujo manga narrative flow. In a dark tropical greenhouse, a long-haired cat with a sculpted clay texture and handmade ceramic feel focuses on fine-tuning an antique brass barometer with its paw. The scene is captured in an infrared photography style with surreal otherworldly tones. Under blacklight UV illumination, surrounding ferns and orchids glow with vibrant neon fluorescent pigments and ethereal ultraviolet luminescence, contrasting against a dark background. The timestamp '2026-06-27 21:52 UTC' is visually displayed in the image. High saturation vivid colors, bold vibrant hues, energetic palette, slice-of-life storybook composition, integrated dialogue bubbles.",
+    "avoid_list": [
+      "生物發光螢幕",
+      "特林吉特圖騰藝術",
+      "金箔祥雲紋理",
+      "黑色電影風格",
+      "用爪子撥弄",
+      "用鼻子嗅聞",
+      "直打閃光燈",
+      "墨西哥市的活動背景",
+      "巴西外海或深海船艙",
+      "極低角度仰望"
+    ],
+    "story": "在深夜的熱帶溫室裡，老花匠的長毛貓正繞著一具黃銅氣壓計打轉。隨著牠用肉墊輕輕撥動指針，周圍的蕨類與蘭花在紫外線的照射下，開始釋放出如夢似幻的霓虹螢光。這隻四足守護者正用牠的方式，獨自調整著這座溫室的微氣候。",
+    "number": 2297,
+    "inspiration": "original",
+    "idea": "這是一幅採用紅外線攝影風格的兩格故事插畫，展現一隻帶有黏土般溫潤質感的貓咪在溫室中專注地用爪子微調古董氣壓計，周圍植物在黑光螢光下激發出高飽和度的鮮豔異界色彩。",
+    "title": "翠綠溫室的霓虹呼吸",
+    "style_picks": {
+      "art_style": "Infrared Photography",
+      "composition": "Illustrated Story Panel Layout",
+      "lighting": "Blacklight / UV Glow",
+      "texture": "Clay / Ceramic",
+      "color_palette": "High Saturation Vivid"
+    },
+    "comment_id": 4822192289,
+    "news_inspiration": []
   }
 ]
