@@ -21265,5 +21265,16 @@
     "title": "黑金祥雲間的彩衣追逐",
     "model": "gpt-image-2 (codex-image-service / $imagegen)",
     "number": 2290
+  },
+  {
+    "title": "古碑前的夏至凝視",
+    "url": "https://github.com/yazelin/catime/releases/download/cats-2026-06/cat_2026-06-27_1305_UTC.webp",
+    "character": "momo",
+    "timestamp": "2026-06-27 13:05 UTC",
+    "status": "success",
+    "inspiration": "在英國的索爾茲伯里，考古學家在著名的巨石陣附近發現了一座擁有5000年歷史、精準對齊冬夏至日出的新石器時代遺跡，被譽為「一生僅能遇見一次」的重大科學發現。",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "character_name": "墨墨",
+    "number": 2291
   }
 ]

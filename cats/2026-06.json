@@ -7680,5 +7680,42 @@
       "texture": "Gold Leaf Cloud Ornament",
       "color_palette": "Gold and Black Luxury"
     }
+  },
+  {
+    "idea": "在幽暗的舊書店角落，墨墨在一座精準對齊夏至日出的新石器時代石碑複製品旁沉思，手持慢門的拍攝捕捉了牠靈動的身影與微微發光的動態。",
+    "prompt": "An illustration framed by vertical color palette swatch bars on both sides, design moodboard aesthetic with stacked color blocks revealing the work's palette, portfolio presentation format in a Korean illustrator signature layout. In a dim, cozy corner of an old bookstore, Momo, a sleek, slender solid-black Bombay-style shorthair cat with satin-sheen fur, a single small gold hoop earring on the left ear edge, a tiny white locket tuft of fur on the chest, a dark-grey ring at the tail tip, and large luminous golden-amber eyes with long white whiskers, is staring intently at a replica of a Neolithic stone monument aligned with the summer solstice sunrise. Handheld slow shutter technique and intentional motion blur capture the cat's fluid, dreamy movement, leaving light streaks and a time-passing effect. The scene features bioluminescent lighting with an organic deep blue-green radiance and an ethereal glow. Traditional East Asian auspicious cloud motifs in gold leaf ornamental clouds, with an embossed metallic finish and intricate curling swirl patterns, create a luxurious gilt texture on a deep black background. The color scheme is gold and black with opulent metallic gold accents. The date and time '2026-06-27 13:05 UTC' is visually displayed and integrated clearly in the corner of the image.",
+    "avoid_list": [
+      "用爪子撥弄",
+      "霓虹螢光色",
+      "巴西外海深海生物",
+      "黑色電影風格",
+      "蝴蝶光照明",
+      "精密氣象與鐘錶儀器",
+      "暗黑花卉肖像風格",
+      "分割畫面與線框圖",
+      "虹彩全息質感",
+      "粗獷主義混凝土質感",
+      "棉花糖般的雲霧",
+      "微縮立體模型"
+    ],
+    "news_inspiration": [
+      "在墨西哥的墨西哥城，一隻名叫馬林（Merlin）的寵物鴨因經常在街頭散步而走紅，最近甚至受邀參加總統新聞簡報會，成為深受民眾喜愛的世界盃非官方吉祥物。",
+      "在英國的索爾茲伯里，考古學家在著名的巨石陣附近發現了一座擁有5000年歷史、精準對齊冬夏至日出的新石器時代遺跡，被譽為「一生僅能遇見一次」的重大科學發現。",
+      "在澳洲的坎培拉，一名當地的鎮鳴官（Town Crier）以高達122.4分貝的驚人呼喊聲，正式獲得健力士世界紀錄認證為目前世界上「嗓門最大的人」。"
+    ],
+    "comment_id": 4817708488,
+    "title": "古碑前的夏至凝視",
+    "story": "書店老闆為了慶祝巨石陣附近的重大發現，特地搬來一座新石器時代的縮小版石碑。墨墨似乎對石碑上的古老刻痕非常感興趣，用金琥珀色的眼睛專注地盯著，在微弱的生物發光與金箔祥雲的紋理映襯下，牠就像一位穿越時空的守護者。",
+    "inspiration": "在英國的索爾茲伯里，考古學家在著名的巨石陣附近發現了一座擁有5000年歷史、精準對齊冬夏至日出的新石器時代遺跡，被譽為「一生僅能遇見一次」的重大科學發現。",
+    "style_picks": {
+      "art_style": "Handheld Slow Shutter",
+      "composition": "Color Palette Swatch Frame",
+      "lighting": "Bioluminescence",
+      "texture": "Gold Leaf Cloud Ornament",
+      "color_palette": "Gold and Black Luxury"
+    },
+    "character": "momo",
+    "character_name": "墨墨",
+    "number": 2291
   }
 ]
