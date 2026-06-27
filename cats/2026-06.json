@@ -7578,5 +7578,34 @@
     ],
     "story": "老街的夜市才剛收攤，巡邏完畢的麻糬被地上泛著奇異光澤的液態金屬水窪吸引。在幽暗的分割畫面中，一邊是麻糬好奇放大兩倍的圓滾滾大眼，另一邊則是月光灑落、充滿神祕偵探片氛圍的寂靜巷弄。",
     "idea": "在黑夜籠罩的老街巷弄中，一隻肥嘟嘟的橘白貓「麻糬」正窩在路邊反光的液態金屬水窪旁，專注地盯著水中倒映的月光與四周粉彩色系的霓虹招牌，呈現經典的黑色電影風格。"
+  },
+  {
+    "title": "琥珀時光的齒輪",
+    "comment_id": 4815619192,
+    "idea": "在一個溫暖琥珀色調的極低角度立體像素世界中，一隻長毛波斯貓正趴在老舊的秋日溫室地板上，用爪子輕輕撥弄一具散落的復古發條時鐘零件。",
+    "number": 2288,
+    "inspiration": "original",
+    "style_picks": {
+      "art_style": "Voxel / Minecraft Style",
+      "composition": "Extreme Low Angle",
+      "lighting": "Butterfly Lighting",
+      "texture": "Paper Texture",
+      "color_palette": "Warm Tones (Amber / Autumn)"
+    },
+    "story": "陽光透過溫室的幾何方塊玻璃，以完美的蝴蝶光灑落在散落的齒輪上。這隻貓咪在帶著細緻紙質肌理的微縮世界裡，專注地凝視著微小的指針，試圖捕捉那隨著齒輪轉動而流逝的時間微塵。",
+    "news_inspiration": [],
+    "avoid_list": [
+      "長卷全景構圖",
+      "強制透視伸手構圖",
+      "復古褪色色調",
+      "螢光燈無陰影照明",
+      "金黑奢華配色",
+      "粉紅鼻尖嗅聞",
+      "前爪按壓物件",
+      "圓滾滾胖貓",
+      "3D盲盒黏土風格",
+      "大地色系竹蓆"
+    ],
+    "prompt": "A Minecraft-style voxel art 3D render of a fluffy long-haired Persian cat lying on the floor of an old autumn greenhouse, gently pawing at scattered vintage clockwork gears and parts. Extreme low angle shot looking up at the cat, creating a dramatic, towering perspective. The entire scene is crafted from pixelated cubes and blocky textures, overlaid with a tactile textured paper surface showing visible fiber grain and a kraft paper feel. The date and time '2026-06-27 06:19 UTC' is visually displayed in the image. Illuminated by dramatic butterfly lighting from an overhead key light, creating symmetrical shadows under the nose. Color grading is a warm amber and autumn palette of golden yellows and burnt orange, exuding cozy nostalgic warmth."
   }
 ]
