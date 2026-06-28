@@ -8246,5 +8246,41 @@
     ],
     "prompt": "A black and white tuxedo cat holding a metallic wrench in its mouth, looking down intently while repairing a massive metal air conditioning unit on a high-altitude rooftop. The scene is captured in an ultra-wide angle 12-18mm lens perspective with dramatic distortion and an expansive field of view. Shot with a point-and-shoot IXUS digital camera aesthetic, featuring a visual timestamp '2026-06-28 16:56 UTC' displayed in a corner. The lighting is harsh midday sunlight with hard-edged, unforgiving shadows and slightly overexposed highlights, blended with a polished 3D render and Cinema 4D aesthetic featuring clean geometry and smooth materials. The image is monochrome, high contrast, with a rich tonal range, gritty urban realism, and a casual candid feel.",
     "inspiration": "original"
+  },
+  {
+    "title": "新城牆的築巢者",
+    "inspiration": "蘇格蘭通過了一項新法律，規定該國境內所有新建的房屋都必須安裝專供雨燕築巢的「雨燕磚」，以拯救數量面臨嚴重下滑的雨燕群體。",
+    "avoid_list": [
+      "粉彩色系",
+      "霓虹螢光",
+      "35mm底片攝影風格",
+      "黏土動畫風格",
+      "巨型足球",
+      "伸出前爪撥弄",
+      "日光燈照明",
+      "莫蘭迪色調",
+      "時間戳記標記",
+      "魚眼鏡頭視角",
+      "故事插畫兩格或分割畫面",
+      "四腳著地趴在物體上"
+    ],
+    "comment_id": 4826935706,
+    "story": "隨着蘇格蘭新法規的推行，建築工地上隨處可見特殊的雨燕磚。一隻街貓在錯綜複雜的微縮街角停下腳步，專注地研究着人類工匠不小心遺留的空心磚石，環形燈的強烈對比在底片顆粒中勾勒出牠好奇的輪廓。",
+    "number": 2307,
+    "news_inspiration": [
+      "在義大利羅馬舉行的游泳比賽中，荷蘭名將馬利特·斯廷貝亨打破了女子100公尺自由式的世界紀錄。",
+      "科學家利用南極的望遠鏡觀測，在距離地球1110光年外的飛魚座發現了兩顆密度比棉花糖還要輕的「超級蓬鬆」系外行星。",
+      "在澳洲凱恩斯附近的珊瑚礁地區，一項公民科學計畫發現了一座面積將近半個足球場大的巨型珊瑚群，成為史上紀錄中最大的珊瑚之一。",
+      "蘇格蘭通過了一項新法律，規定該國境內所有新建的房屋都必須安裝專供雨燕築巢的「雨燕磚」，以拯救數量面臨嚴重下滑的雨燕群體。"
+    ],
+    "idea": "在黑白微縮立體模型般的繁忙街道上，一隻黑白相間的貓咪正低頭嗅著地面上一塊剛掉落的雨燕磚碎片，呈現出寫實的街頭攝影風格。",
+    "style_picks": {
+      "art_style": "Street Photography",
+      "composition": "Miniature Diorama",
+      "lighting": "Ring Light",
+      "texture": "Film Grain",
+      "color_palette": "Monochrome / Black and White"
+    },
+    "prompt": "A candid street photography shot of a black and white cat leaning down to sniff a broken piece of a swift brick on the ground. The scene is set on a busy street that looks like a black and white miniature diorama with a distinct tilt-shift effect, creating a toy-like scale model appearance. Shot on a 35mm lens, f/1.8, with high contrast monochrome tones, dramatic shadows, and rich highlights. Ring light illumination provides a circular catchlight in the cat's eyes alongside even frontal lighting. The image features visible film grain, analog texture, and organic photographic imperfections with a shallow depth of field. Stamped in a clean, legible font in the bottom corner of the photograph is the date and time '2026-06-28 17:59 UTC'."
   }
 ]

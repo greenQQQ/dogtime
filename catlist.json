@@ -21421,5 +21421,14 @@
     "timestamp": "2026-06-28 16:56 UTC",
     "status": "success",
     "inspiration": "original"
+  },
+  {
+    "title": "新城牆的築巢者",
+    "inspiration": "蘇格蘭通過了一項新法律，規定該國境內所有新建的房屋都必須安裝專供雨燕築巢的「雨燕磚」，以拯救數量面臨嚴重下滑的雨燕群體。",
+    "url": "https://github.com/yazelin/catime/releases/download/cats-2026-06/cat_2026-06-28_1759_UTC.webp",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "timestamp": "2026-06-28 17:59 UTC",
+    "number": 2307,
+    "status": "success"
   }
 ]
