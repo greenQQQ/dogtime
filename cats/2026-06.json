@@ -7994,5 +7994,42 @@
       "巴西外海或深海船艙",
       "極低角度仰望"
     ]
+  },
+  {
+    "title": "微光中的遠古密碼",
+    "style_picks": {
+      "art_style": "35mm Film Photography",
+      "composition": "Knolling Photography",
+      "lighting": "Spotlight",
+      "texture": "Sparkle Glitter Accents",
+      "color_palette": "Pastel Colors"
+    },
+    "news_inspiration": [
+      "美國德克薩斯州一隻名叫葛蕾絲（Gracie）的長頸鹿在從私人農場走失兩週後，於本週五被安全尋獲，且在野外生活得相當悠閒愜意。",
+      "墨西哥墨西哥市街頭一隻名叫梅林（Merlin）的明星寵物鴨，因其獨特的街頭漫步風格在近期世界盃期間成為了熱門的球隊吉祥物與焦點。",
+      "澳洲首都坎培拉的官方鎮長傳令官（Town Crier）近日被金氏世界紀錄正式認證為「全球說話聲音最大的人」，創下高達 122.4 分貝的驚人紀錄。",
+      "科學家在摩洛哥的古代海底岩石中，意外發現了原本只存在於溫暖淺水區的古老微生物席所留下的神祕皺紋圖案，為古代生命研究帶來新線索。"
+    ],
+    "story": "在摩洛哥的深夜實驗室裡，一隻好奇的布偶貓正用爪子撥弄著桌上排列完美的古代海底岩石標本。聚光燈穿透微塵，照亮了岩石上神祕的微生物席皺紋，粉彩色系的礦石碎屑與亮粉在底片質感下閃爍著跨越億萬年的微光。",
+    "idea": "這是一幅採用 35mm 底片攝影風格的照片，以 Knolling 排列攝影手法將一隻布偶貓與無數色彩斑斕的古老微生物化石標本、迷你地質錘及測繪工具整齊平鋪於聚光燈下，並點綴著閃光亮粉效果。",
+    "comment_id": 4824194466,
+    "number": 2300,
+    "avoid_list": [
+      "偉士牌速克達",
+      "黑金奢華庭院",
+      "金箔祥雲紋理",
+      "特林吉特圖騰藝術",
+      "莫蘭迪色調",
+      "3D渲染刺繡質感",
+      "四腳著地踩在沙發上",
+      "用鼻子嗅聞",
+      "黑光紫外線螢光",
+      "新石器時代石碑",
+      "黏土動畫風格",
+      "慶祝速克達問世80週年",
+      "液態金屬霓虹街道"
+    ],
+    "inspiration": "科學家在摩洛哥的古代海底岩石中，意外發現了原本只存在於溫暖淺水區的古老微生物席所留下的神祕皺紋圖案，為古代生命研究帶來新線索。",
+    "prompt": "A 35mm film photograph of a curious Ragdoll cat gently swatting at a collection of colorful ancient microbial fossil specimens, a mini geological hammer, and mapping tools. The scene is captured in a precise Knolling photography style, with all objects neatly arranged in an organized grid layout at 90-degree angles on a flat lay overhead view. A narrow beam spotlight illuminates the setup from above, creating a dramatic high-contrast scene with sharp light edges and deep darkness falloff. The image has a visible film grain, warm tones, a slight vignette, and a nostalgic feel, featuring a soft pastel color palette of gentle pink, lavender, mint, and baby blue. Subtle sparkle and glitter overlay effects, star-shaped highlights, and shimmering particles float through the air like magical glow dust. Visually displayed in the corner of the frame is the exact text '2026-06-28 02:14 UTC' as a subtle, retro camera timestamp."
   }
 ]
