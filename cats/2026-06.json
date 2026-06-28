@@ -8215,5 +8215,36 @@
     },
     "news_inspiration": [],
     "title": "墨染金輪轉"
+  },
+  {
+    "comment_id": 4826776496,
+    "style_picks": {
+      "art_style": "Point-and-Shoot Camera Aesthetic",
+      "composition": "Ultra Wide Angle",
+      "lighting": "Harsh Midday Sun",
+      "texture": "3D Render",
+      "color_palette": "Monochrome / Black and White"
+    },
+    "news_inspiration": [],
+    "idea": "在耀眼的硬光日照下，一隻黑白斑紋貓正低頭用嘴叼著扳手，在刺眼的屋頂維修巨大的金屬冷氣機，呈現出超廣角與3D渲染質感的IXUS消費相機黑白攝影風格。",
+    "story": "正午的烈日將屋頂曬得發燙，這隻黑白相間的貓咪在冷氣機旁專注地嗅聞與撥弄著零件，試圖用牠的方式「修理」這台機器。超廣角鏡頭捕捉到了高空屋頂的空曠感，強烈的陰影與金屬反光在單色調下顯得格外硬朗與真實。",
+    "number": 2306,
+    "title": "烈日下的機械師",
+    "avoid_list": [
+      "粉彩色系",
+      "霓虹螢光",
+      "35mm底片攝影風格",
+      "黏土動畫風格",
+      "巨型足球",
+      "伸出前爪撥弄",
+      "日光燈照明",
+      "莫蘭迪色調",
+      "時間戳記標記",
+      "魚眼鏡頭視角",
+      "故事插畫兩格或分割畫面",
+      "四腳著地趴在物體上"
+    ],
+    "prompt": "A black and white tuxedo cat holding a metallic wrench in its mouth, looking down intently while repairing a massive metal air conditioning unit on a high-altitude rooftop. The scene is captured in an ultra-wide angle 12-18mm lens perspective with dramatic distortion and an expansive field of view. Shot with a point-and-shoot IXUS digital camera aesthetic, featuring a visual timestamp '2026-06-28 16:56 UTC' displayed in a corner. The lighting is harsh midday sunlight with hard-edged, unforgiving shadows and slightly overexposed highlights, blended with a polished 3D render and Cinema 4D aesthetic featuring clean geometry and smooth materials. The image is monochrome, high contrast, with a rich tonal range, gritty urban realism, and a casual candid feel.",
+    "inspiration": "original"
   }
 ]
