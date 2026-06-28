@@ -8282,5 +8282,43 @@
       "color_palette": "Monochrome / Black and White"
     },
     "prompt": "A candid street photography shot of a black and white cat leaning down to sniff a broken piece of a swift brick on the ground. The scene is set on a busy street that looks like a black and white miniature diorama with a distinct tilt-shift effect, creating a toy-like scale model appearance. Shot on a 35mm lens, f/1.8, with high contrast monochrome tones, dramatic shadows, and rich highlights. Ring light illumination provides a circular catchlight in the cat's eyes alongside even frontal lighting. The image features visible film grain, analog texture, and organic photographic imperfections with a shallow depth of field. Stamped in a clean, legible font in the bottom corner of the photograph is the date and time '2026-06-28 17:59 UTC'."
+  },
+  {
+    "character_name": "鈴鈴",
+    "news_inspiration": [
+      "奧地利維也納的獸醫學研究人員首次記錄到一頭名為薇洛妮卡（Veronika）的母牛展現出罕見的多功能工具使用能力，打破了科學界對牛類智商的傳統認知。",
+      "美國夏威夷的研究團隊成功研發出新技術，將回收的舊漁網與海洋廢棄塑料混合融入瀝青中，賦予廢棄物第二生命來鋪設更環保的馬路。",
+      "英國布里斯托大學的科學團隊在領地廣闊的地中海海域中，首次捕捉並記錄到抹香鯨群體方言（Dialects）的演變過程，為海洋哺乳動物的文化研究帶來重大突破。",
+      "澳洲凱恩斯外海的大堡礁公民科學項目中，研究人員發現了一座面積將近半個足球場大（約3,973平方公尺）的巨型牡丹珊瑚群落，被認為是有紀錄以來最大的巨型珊瑚之一。"
+    ],
+    "comment_id": 4827142347,
+    "number": 2308,
+    "style_picks": {
+      "art_style": "Voxel / Minecraft Style",
+      "composition": "Vertical Calligraphy Poster",
+      "lighting": "Rembrandt Lighting",
+      "texture": "Rust / Weathered",
+      "color_palette": "Earth Tones"
+    },
+    "avoid_list": [
+      "粉彩色系",
+      "霓虹螢光",
+      "35mm底片攝影風格",
+      "黏土動畫風格",
+      "巨型足球",
+      "伸出前爪撥弄",
+      "日光燈照明",
+      "莫蘭迪色調",
+      "時間戳記標記",
+      "魚眼鏡頭視角",
+      "故事插畫兩格或分割畫面",
+      "四腳著地趴在物體上"
+    ],
+    "prompt": "A voxel art illustration of Lingling, an extremely fluffy four-legged Ragdoll-like pure white longhair cat with voluminous cloud-like fur, a small round face, huge round sapphire-blue eyes, and a pale pink nose and inner ears. Around her neck is a prominent pink ribbon bow collar with a small golden bell centered beneath the knot. Made entirely of white pixelated cubes, she is playfully pouncing towards a colorful butterfly composed of geometric blocks. The scene is set in a voxel-style garden made of earth-toned cubes in terracotta, olive green, and warm brown, with weathered rust textures and oxidized patina. The composition follows a vertical East Asian movie poster framing with a side calligraphy panel and ornamental border elements, with the text '2026-06-28 19:21 UTC' visually integrated into the layout. Dramatic Rembrandt lighting from a single light source at 45 degrees casts a signature triangle of light on the shadowed cheek, creating a strong chiaroscuro effect across the blocky textures and multi-layered depth.",
+    "story": "鈴鈴在充滿泥土芬芳的體素花園裡橫衝直撞，脖子上的粉紅鈴鐺隨著她的動作發出清脆的叮鈴聲。她清澈的寶石藍大眼睛緊盯著前方飛舞的方塊蝴蝶，完全沒注意到自己正朝著一面斑駁的生鏽鐵皮牆撞去，天真又笨拙的模樣讓剛好路過的花店老闆忍俊不禁。",
+    "title": "方塊花園的清脆迴響",
+    "character": "lingling",
+    "inspiration": "original",
+    "idea": "在鐵鏽舊化的大地色系體素方塊花園中，一隻全身由白色方塊構成、戴著粉紅蝴蝶結鈴鐺的蓬鬆布偶貓鈴鈴，正撲向一隻由幾何方塊組成的斑斕蝴蝶，畫面呈現直式書法海報構圖與戲劇性的倫勃朗光。"
   }
 ]
