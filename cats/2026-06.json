@@ -8452,5 +8452,34 @@
     },
     "story": "科學家懷疑金星上的生命源自地球的遠古撞擊，於是派遣了配備微型生物感測器的貓咪宇航員前往採樣。這隻四足踩在冰冷大理石上的太空貓，正用鼻子嗅聞並用肉墊撥弄著一排排整齊排列的螢光外星微生物，試圖找出它們與地球老家的連結。",
     "inspiration": "一項於 6 月 25 日發表在科學期刊的太空研究指出，地球在過去數十億年間，可能透過小行星撞擊將微生物帶到金星，這意味著如果未來在金星雲層發現生命，它們可能來自地球。"
+  },
+  {
+    "title": "螢弦流光撥墨影",
+    "style_picks": {
+      "art_style": "Contemporary Chinese Doll Illustration",
+      "composition": "Symmetrical Composition",
+      "lighting": "Bioluminescence",
+      "texture": "Shibori Textile",
+      "color_palette": "High Saturation Vivid"
+    },
+    "prompt": "A contemporary Chinese doll-style illustration of a large-eyed stylized girl in hanfu, featuring a perfectly symmetrical composition with a centered subject and mirror-like balance framed by traditional architectural elements. In the foreground, an orange cat is lying on an ancient Guqin zither, actively pressing its front paw onto vibrating, bioluminescent glowing strings that emit a deep blue-green radiance and organic light. The surface of the Guqin is detailed with Shibori style resist-dyed textile patterns and intricate crackle textures. The background consists of soft ink wash elements, traditional flora motifs, and subtle calligraphy scroll accents. The scene is set in a dark room illuminated by high saturation vivid colors and bold vibrant hues of fluorescent blue-green, creating an energetic and eye-catching contrast. The text '2026-06-29 03:50 UTC' is clearly and visually displayed in a corner of the image as a modern chinoiserie design element.",
+    "story": "寂靜的深夜，少女的書房被高飽和鮮豔的螢光藍綠色調照亮。橘貓對桌上那把散發出神祕光芒的古琴充滿好奇，它伏下身子，用肉墊輕輕壓住顫動的發光琴弦，彷彿在與命運的旋律低語。",
+    "number": 2313,
+    "inspiration": "original",
+    "avoid_list": [
+      "伸出爪子撥弄",
+      "粉彩色系",
+      "35mm底片攝影風格",
+      "鳥瞰俯瞰視角",
+      "世界盃與足球",
+      "時間戳記浮雕",
+      "液態金屬或虹彩材質",
+      "直式海報構圖",
+      "微縮立體模型效果",
+      "硬光強烈陰影"
+    ],
+    "news_inspiration": [],
+    "idea": "在充滿對稱美感的新中式少女插畫中，一隻橘貓正趴在佈滿絞染織物紋理的古琴上，試圖用前爪按住正在發出生物發光的奇幻螢光琴弦。",
+    "comment_id": 4828830743
   }
 ]
