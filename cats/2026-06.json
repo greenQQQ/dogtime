@@ -8645,5 +8645,43 @@
     },
     "inspiration": "丹麥哥本哈根推行了一項創新的「真人圖書館」活動，讓民眾可以像借書一樣「借出」不同背景的真人進行面對面交流，以此打破刻板印象並促進社區多元包容。",
     "title": "午後的傾聽者"
+  },
+  {
+    "inspiration": "original",
+    "number": 2319,
+    "avoid_list": [
+      "強制透視貓爪",
+      "直式書法海報構圖",
+      "生物發光發光弦菌落",
+      "黑白單色高對比",
+      "低頭嗅聞探測",
+      "琥珀色秋日陽光",
+      "微縮立體模型風格",
+      "金箔祥雲紋理",
+      "無限循環德羅斯特效應",
+      "前爪輕撥觸碰物件"
+    ],
+    "style_picks": {
+      "art_style": "Studio Portrait",
+      "composition": "Handscroll Panoramic Layout",
+      "lighting": "Ring Light",
+      "texture": "Concrete",
+      "color_palette": "Pastel Colors"
+    },
+    "news_inspiration": [
+      "在墨西哥的墨西哥城，一支由盲人女性組成的足球隊正透過賽事建立自信與友誼，打破大眾對視障運動員的刻板印象。",
+      "科學家在奧地利維也納的獸醫學大學首次證實，一頭名為維羅妮卡（Veronika）的乳牛具備罕見的使用工具能力，推翻了過往認為只有黑猩猩等靈長類才會這種多用途行為的認知。",
+      "在澳洲凱恩斯附近的珊瑚礁海域，公民科學家發現了一座面積將近半個足球場大（約3,973平方公尺）的巨型浪花珊瑚群，是目前有紀錄以來最大的珊瑚群之一。",
+      "丹麥哥本哈根近年推行的「真人圖書館」服務在今年夏天持續受到歡迎，民眾可以像借書一樣「借閱」不同背景的真人，透過面對面聊天消除社會偏見。"
+    ],
+    "character": "lingling",
+    "story": "天真好奇的鈴鈴頭戴綴有太陽花的迷你草帽，在粉彩色調的棚拍現場興奮地穿梭。現場特別用粗糙的混凝土基座搭建出向日葵田造景，在環形燈的柔和照射下，她那寶石藍的大眼睛閃閃發亮，脖子上的粉紅鈴鐺隨著她撲向花瓣的動作發出清脆的叮鈴聲。",
+    "title": "夏日葵田的棉花糖",
+    "season": "summer",
+    "idea": "這是一幅採用棚拍人像風格與長卷全景構圖的攝影作品，展現一隻戴著迷你草帽的白色長毛布偶貓，在充滿粗獷混凝土質感的室內向日葵花藝棚內盡情探險。",
+    "comment_id": 4837633792,
+    "prompt": "A studio portrait photography using an extreme wide handscroll composition and continuous panoramic narrative, capturing an oblique bird's-eye angle with a right-to-left reading flow. An extremely fluffy pure white longhair Ragdoll-like cat named Lingling explores an indoor studio setting. The cat has a small round face nearly hidden in voluminous cloud-like fur, huge round sapphire-blue eyes, and a pale pink nose and inner ears. She wears a pink ribbon bow collar with a small golden bell clearly visible and centered beneath the bow knot. A small sunflower-adorned mini straw hat sits on her head for summer. She is playfully interacting with sunflowers in an indoor floral studio set with raw concrete textures, a brutalist aesthetic, and rough aggregate surfaces. The lighting is a soft ring light illumination creating circular catchlights in her eyes, with three-point lighting and even frontal lighting. The scene features a soft pastel color palette of gentle pink, lavender, mint, and baby blue. Photographed on a 35mm lens, f/2.8, with professional headshot quality and layered foreground, middleground, and background. The date and time '2026-06-29 22:02 UTC' is visually displayed in the corner of the image.",
+    "character_name": "鈴鈴",
+    "is_seasonal": true
   }
 ]
