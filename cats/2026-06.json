@@ -8683,5 +8683,38 @@
     "prompt": "A studio portrait photography using an extreme wide handscroll composition and continuous panoramic narrative, capturing an oblique bird's-eye angle with a right-to-left reading flow. An extremely fluffy pure white longhair Ragdoll-like cat named Lingling explores an indoor studio setting. The cat has a small round face nearly hidden in voluminous cloud-like fur, huge round sapphire-blue eyes, and a pale pink nose and inner ears. She wears a pink ribbon bow collar with a small golden bell clearly visible and centered beneath the bow knot. A small sunflower-adorned mini straw hat sits on her head for summer. She is playfully interacting with sunflowers in an indoor floral studio set with raw concrete textures, a brutalist aesthetic, and rough aggregate surfaces. The lighting is a soft ring light illumination creating circular catchlights in her eyes, with three-point lighting and even frontal lighting. The scene features a soft pastel color palette of gentle pink, lavender, mint, and baby blue. Photographed on a 35mm lens, f/2.8, with professional headshot quality and layered foreground, middleground, and background. The date and time '2026-06-29 22:02 UTC' is visually displayed in the corner of the image.",
     "character_name": "鈴鈴",
     "is_seasonal": true
+  },
+  {
+    "story": "寒流毫無預警地襲擊了這片盛開的秋日山谷，大雪如粉末般漫天飛舞。這隻胖嘟嘟的橘貓固執地趴在最後一叢溫暖的向日葵與琥珀色雛菊中，用爪子撥弄著被凍結在紙藝花瓣上的晶瑩雪花。它拒絕離開這片由溫暖色彩築成的最後堡壘，在風雪中瞇起眼睛，享受著與季節對抗的片刻寧靜。",
+    "inspiration": "original",
+    "avoid_list": [
+      "百葉窗條紋光影",
+      "生物發光螢光弦",
+      "莫蘭迪色調與線框質感",
+      "強制透視與巨大視覺",
+      "微縮模型與分割畫面",
+      "黑白單色與霓虹燈光",
+      "粗糙混凝土與向日葵",
+      "天然冰面與鏡面自拍",
+      "大理石桌與發光菌落",
+      "古羅馬遺跡與斷壁殘垣"
+    ],
+    "prompt": "A paper diorama scene of a chubby orange tabby cat lazily reclining in a sea of blossoms, delicately swatting at frozen flakes on the petals, with the date and time '2026-06-29 23:51 UTC' clearly and visually displayed in the image. Top-down flat-lay framing, overhead view of the subject surrounded by dense flowers in a dreamy decorative bird's-eye composition. The environment is a three-dimensional layered paper sculpture with laser-cut foliage silhouettes, pop-up book aesthetic, and soft textured paper mountains. This handmade landscape is overlaid with an impasto oil texture featuring thick palette-knife strokes, raised three-dimensional paint ridges, and visible brush gestures creating a rich tactile painterly surface. Lighting is a mix of backlit warm glow through translucent layers and a snowstorm atmospheric lighting with a heavy falling snow veil, muted diffused daylight, and a fogged distance. The color grading blends a cold blue-white palette from the snow flurries with a warm amber color grading, autumn palette, golden yellows, and burnt orange to evoke a cozy nostalgic warmth.",
+    "title": "琥珀花海的冬日守候",
+    "comment_id": 4838609628,
+    "number": 2320,
+    "news_inspiration": [
+      "美國西北大學的科學家利用詹姆斯·韋伯太空望遠鏡，成功觀測到距離地球57光年的著名「粉紅行星」大氣中富含奇特的「鹽微粒雲層」，破解了長達十年的宇宙謎題。",
+      "法國巴黎正式向數萬名游泳愛好者重新開放塞納河，這項歷史性的河川整治成果讓市民與遊客能再次於市中心體驗親水樂趣。",
+      "奧地利因斯布魯克大學的物理學家成功利用極低溫銫原子創造出全新的物質狀態「分數費米海」，為量子模擬科技帶來突破性進展。"
+    ],
+    "style_picks": {
+      "art_style": "Paper Diorama Layered Scene",
+      "composition": "Overhead Reclining-in-Blossoms",
+      "lighting": "Snowstorm Haze",
+      "texture": "Impasto Oil Texture",
+      "color_palette": "Warm Tones (Amber / Autumn)"
+    },
+    "idea": "在漫天暴風雪的朦朧光線中，一隻橘色大斑貓慵懶地俯臥在由厚塗油彩肌理層層堆疊出的琥珀色秋日花海中央，這是一幅融合立體紙藝景風格的獨特創作。"
   }
 ]
