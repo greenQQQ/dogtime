@@ -8881,5 +8881,35 @@
       "日光燈或螢光燈的冷冽平淡光線",
       "等距或鳥瞰視角的廢墟探險"
     ]
+  },
+  {
+    "inspiration": "original",
+    "comment_id": 4845666501,
+    "idea": "這是一幅採用單眼人像散景風格的攝影作品，捕捉一隻貓咪在漂浮於半空中的神祕木造藏書閣中，專注地用鼻子輕嗅一本古老地圖集的情景。",
+    "style_picks": {
+      "art_style": "DSLR Portrait with Bokeh",
+      "composition": "Floating Island Scene",
+      "lighting": "Candlelight",
+      "texture": "Wood Grain",
+      "color_palette": "Cool Tones (Blue / Teal)"
+    },
+    "avoid_list": [
+      "長卷全景構圖",
+      "對角線構圖",
+      "用爪子撥弄",
+      "用肉墊專注地按壓",
+      "冰霜結晶與透明冰屑",
+      "螢光或霓虹燈光的機械物件",
+      "厚塗油彩肌理與刀畫線條",
+      "莫蘭迪色系或雙色調畫面",
+      "自然風景攝影與故事插畫結合",
+      "日光燈或螢光燈的冷冽平淡光線",
+      "等距或鳥瞰視角的廢墟探險"
+    ],
+    "news_inspiration": [],
+    "number": 2326,
+    "prompt": "A DSLR portrait of a British Shorthair cat focused intently, sniffing an ancient nautical atlas with visible wood grain texture. The scene is set on a mysterious wooden library bookshelf floating like an island in mid-air surrounded by white clouds. Shot with an 85mm f/1.4 lens, featuring a creamy bokeh background and sharp focus on the cat's nose and the map. The atmosphere is intimate with a warm orange flickering glow from candlelight casting soft dancing shadows, contrasted against cool blue-teal color grading and icy undertones in the shadows. The date and time '2026-06-30 16:14 UTC' is visually displayed in the corner of the image.",
+    "title": "浮島書香的燭光巡航",
+    "story": "在一個違反引力的神祕空間裡，無數巨大的木製書架化為浮島緩慢漂移。一隻英國短毛貓輕巧地躍上一座浮島，在微弱的溫暖燭光與周圍冷藍調陰影的交織下，牠正仔細探索著一本散發著古舊木紋香氣的航海圖，尋找下一個冒險的落腳點。"
   }
 ]
