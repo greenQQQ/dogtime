@@ -21637,5 +21637,16 @@
     "model": "gpt-image-2 (codex-image-service / $imagegen)",
     "title": "翠竹靜謐之鐘",
     "timestamp": "2026-06-30 20:49 UTC"
+  },
+  {
+    "inspiration": "克羅埃西亞一名鄰居日前迎來了一匹僅一個月大的迷你馬遷入其位於四樓的公寓，而大樓鄰居們對此表示完全不介意且相當歡迎。",
+    "character": "lingling",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "number": 2329,
+    "timestamp": "2026-06-30 22:07 UTC",
+    "character_name": "鈴鈴",
+    "status": "success",
+    "title": "月下甜點屋的迷你訪客",
+    "url": "https://github.com/yazelin/catime/releases/download/cats-2026-06/cat_2026-06-30_2207_UTC.webp"
   }
 ]
