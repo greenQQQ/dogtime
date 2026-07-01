@@ -130,5 +130,36 @@
     ],
     "story": "麻糬趁著老街市場的包子店老闆不注意，悄悄溜到矮凳上。牠伸出那隻戴著橘色手套的右前腳，試圖去碰觸剛出爐、正冒著熱氣的竹蒸籠，整隻貓因為貪吃而興奮得直瞇眼。畫面帶有水彩潑濺墨點，以極低角度捕捉這顆花生麻糬在蒸籠旁的呆萌瞬間。",
     "character_name": "麻糬"
+  },
+  {
+    "news_inspiration": [],
+    "number": 2335,
+    "avoid_list": [
+      "框中框構圖",
+      "熱成像風格",
+      "新藝術風格",
+      "魚拓藝術風格",
+      "立體主義與低多邊形",
+      "酒精墨水藝術風格",
+      "蠟筆兒童畫風格",
+      "液態金屬般流動",
+      "溫暖燭光與冷藍調陰影",
+      "藍青色調網球場",
+      "純白去背棚光",
+      "水彩潑濺墨點"
+    ],
+    "story": "落葉如金箔般飄落，三花貓正專注地用爪子撥弄著一隻剛停在石燈籠上的金屬發條蟬。身旁的柴犬則好奇地湊上前嗅聞，兩隻動物的影子在溫暖的秋陽下被拉得好長好長。",
+    "style_picks": {
+      "art_style": "Ukiyo-e",
+      "composition": "Mucha Arched Frame Composition",
+      "lighting": "Volumetric Light",
+      "texture": "Translucent Resin",
+      "color_palette": "Warm Tones (Amber / Autumn)"
+    },
+    "comment_id": 4858135367,
+    "title": "琥珀秋庭的發條歌姬",
+    "idea": "一隻斑犬與三花貓在浮世繪風格的秋日庭院中，透過穆夏式拱框構圖呈現，環境充滿如透明樹脂般晶瑩的琥珀色體積光。",
+    "prompt": "An ukiyo-e Japanese woodblock print with a Mucha-style arched frame composition, featuring a calico cat and a spotted dog in an autumn courtyard. The calico cat is intently patting a metallic wind-up cicada perched on a stone lantern with its paw, while the dog curiously leans in to sniff it. The scene is enclosed in an ornamental rounded arch with decorative border halos and integrated floral motifs. The lighting is dramatic with volumetric amber god rays and visible light rays shining through the atmosphere, catching dust particles. The entire environment has a translucent resin material quality, looking like warm amber with embedded elements visible inside and a glossy smooth surface. The color palette consists of autumn golden yellows, burnt orange, and warm amber tones. Visually displayed clearly in a corner of the artwork is the text '2026-07-01 17:04 UTC' in a clean, elegant font. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "inspiration": "original"
   }
 ]
