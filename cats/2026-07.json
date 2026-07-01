@@ -194,5 +194,40 @@
       "純白去背棚光",
       "水彩潑濺墨點"
     ]
+  },
+  {
+    "news_inspiration": [
+      "台灣國立自然科學博物館的研究團隊於2026年7月發表最新成果，透過打造一比一的偷蛋龍巢穴模型與熱傳導模擬，成功解開了這類恐龍如何結合體溫與陽光孵化鳥蛋的7000萬年謎團。",
+      "在奧地利維也納的一座有機農場裡，一頭名叫維羅妮卡（Veronika）的乳牛首次被科學家記錄到具有使用「多用途工具」的罕見能力，打破了以往認為只有黑猩猩等高智商動物才會如此操作的認知。",
+      "澳洲聯邦科學與工業研究組織（CSIRO）於2026年7月公布最新地質與科學研究成果，利用創新的智慧探勘技術，協助澳洲在金價創歷史新高的時期，能更快速且具永續性地開採黃金。"
+    ],
+    "comment_id": 4860127895,
+    "style_picks": {
+      "art_style": "Flat Vector Illustration",
+      "composition": "Split View",
+      "lighting": "Bioluminescence",
+      "texture": "Gold Leaf Cloud Ornament",
+      "color_palette": "Festive Red and Gold"
+    },
+    "idea": "採用扁平向量插圖風格，分割畫面一邊呈現貓咪在佈滿生物發光的史前熱帶灌木叢中頑皮扒弄巨蛋，另一邊則是古生物學家在現代實驗室比對數據，整體點綴著金箔祥雲。",
+    "number": 2337,
+    "avoid_list": [
+      "框中框構圖",
+      "熱成像風格",
+      "新藝術風格",
+      "魚拓藝術風格",
+      "立體主義與低多邊形",
+      "酒精墨水藝術風格",
+      "蠟筆兒童畫風格",
+      "液態金屬般流動",
+      "溫暖燭光與冷藍調陰影",
+      "藍青色調網球場",
+      "純白去背棚光",
+      "水彩潑濺墨點"
+    ],
+    "inspiration": "台灣國立自然科學博物館的研究團隊於2026年7月發表最新成果，透過打造一比一的偷蛋龍巢穴模型與熱傳導模擬，成功解開了這類恐龍如何結合體溫與陽光孵化鳥蛋的7000萬年謎團。",
+    "title": "跨越時空的巢穴嬉戲",
+    "prompt": "A split-view flat vector illustration with clean lines and geometric forms. The left side features a playful orange cat pawing at a large prehistoric egg within a lush tropical shrubbery glowing with deep blue-green bioluminescent radiance. The right side shows a modern laboratory with a paleontologist comparing data on a screen. Elegant gold leaf ornamental clouds with traditional East Asian auspicious cloud motifs and intricate curling swirl patterns are delicately layered across both scenes. The overall color scheme combines bright pastel colors with celebratory warmth from a festive red and gold palette. Inscribed clearly on the screen in a modern font is the text '2026-07-01 21:15 UTC'. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "story": "一隻好奇的橘貓意外闖入了科學家依據最新研究一比一還原的偷蛋龍巢穴模型。牠將那些模擬恐龍體溫與陽光孵化效應的特製複製品當成了毛線球，在閃爍著生物發光的擬真灌木間開心撲咬，完全不知道自己正與七千萬年的歷史謎團同框。"
   }
 ]
