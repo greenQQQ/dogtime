@@ -9021,5 +9021,38 @@
       "等距或鳥瞰視角的廢墟探險"
     ],
     "comment_id": 4848326847
+  },
+  {
+    "prompt": "A vertical poster composition in Gyotaku print style, direct ink impression print with a textured relief surface and traditional Japanese art form aesthetics. In the center, a photorealistic inflatable PVC cat with a high-gloss balloon-like surface and puffy rounded forms is on all fours, pouncing toward a glowing tennis ball on a cool blue-teal colored tennis court. The background blends a monochrome contact print look with a nebula cosmic glow, featuring soft colorful starfield illumination, ethereal purple and blue space light, glowing particles, and galactic haze. Side calligraphy panels, ornamental border elements, and red seal accents frame the image like an East Asian movie poster. Visually displayed clearly in the image is the text '2026-06-30 23:56 UTC'. Icy undertones, crisp atmosphere, serene and calm mood.",
+    "story": "在溫布頓的夢幻決賽夜，一隻散發著幽藍微光的充氣貓咪在場邊奔跑，牠靈巧地壓低身軀，伸出爪子撥弄著滾過的網球。背景融入了《追殺比爾》風格的流線線條，彷彿將網球巨星的凌厲攻勢化為貓咪在墨色與星雲間的優雅躍動。",
+    "comment_id": 4848948411,
+    "avoid_list": [
+      "用前爪或鼻子撥弄嗅聞物品",
+      "古老海圖與航海圖集",
+      "冰霜結晶與冰雪碎屑",
+      "琥珀色與大地色系花海",
+      "等距攝影或俯視鳥瞰視角",
+      "溫暖燭光與冷藍色調陰影對比",
+      "厚塗油彩肌理與立體雕塑質感",
+      "發光水母或霓虹機械電子鼠",
+      "廢棄或神祕的室內空間"
+    ],
+    "title": "藍調球場的幻影擊球",
+    "idea": "這是一幅結合魚拓（Gyotaku Print）藝術風格的直式書法海報構圖作品，描繪一隻充氣 PVC 材質的貓咪在充滿星雲輝光的冷藍色調（藍青）網球場上，四腳著地撲向一顆發光網球。",
+    "news_inspiration": [
+      "在瑞士舉辦的年度約德爾唱法音樂節上，由於天氣極度炎熱，參賽的歌手們紛紛跳進噴泉裡邊泡水邊高歌。",
+      "大英博物館附近的考古學家在英國發現了一座擁有 5000 年歷史、與夏至和冬至對齊的古老紀念碑，被讚譽為一生難得一見的重大文化發現。",
+      "一項由耶魯大學發布的長期研究打破了老化的迷思，發現美國 65 歲以上的年長者中，有將近一半的人在身體或心理機能上反而隨著年齡增長而有所提升。",
+      "在溫布頓網球錦標賽上，日本網球球星大坂直美身穿一套靈感來自電影《追殺比爾》中劉玉玲角色的和服風球裝亮相，驚豔全場。"
+    ],
+    "inspiration": "在溫布頓網球錦標賽上，日本網球球星大坂直美身穿一套靈感來自電影《追殺比爾》中劉玉玲角色的和服風球裝亮相，驚豔全場。",
+    "style_picks": {
+      "art_style": "Gyotaku Print",
+      "composition": "Vertical Calligraphy Poster",
+      "lighting": "Nebula Cosmic Glow",
+      "texture": "Inflatable PVC",
+      "color_palette": "Cool Tones (Blue / Teal)"
+    },
+    "number": 2330
   }
 ]
