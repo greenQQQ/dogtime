@@ -161,5 +161,38 @@
     "idea": "一隻斑犬與三花貓在浮世繪風格的秋日庭院中，透過穆夏式拱框構圖呈現，環境充滿如透明樹脂般晶瑩的琥珀色體積光。",
     "prompt": "An ukiyo-e Japanese woodblock print with a Mucha-style arched frame composition, featuring a calico cat and a spotted dog in an autumn courtyard. The calico cat is intently patting a metallic wind-up cicada perched on a stone lantern with its paw, while the dog curiously leans in to sniff it. The scene is enclosed in an ornamental rounded arch with decorative border halos and integrated floral motifs. The lighting is dramatic with volumetric amber god rays and visible light rays shining through the atmosphere, catching dust particles. The entire environment has a translucent resin material quality, looking like warm amber with embedded elements visible inside and a glossy smooth surface. The color palette consists of autumn golden yellows, burnt orange, and warm amber tones. Visually displayed clearly in a corner of the artwork is the text '2026-07-01 17:04 UTC' in a clean, elegant font. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
     "inspiration": "original"
+  },
+  {
+    "idea": "在融合原子龐克（Atompunk）美學的復古未來風咖啡廳窗邊，純黑貓咪墨墨正伸出前爪，輕輕撥弄一台黃藍互補色調的球形發光投影儀，光芒隨螺旋漩渦構圖旋轉。",
+    "number": 2336,
+    "prompt": "An Atompunk illustration with retro-futuristic atomic age aesthetics, featuring a sleek, slender solid-black Bombay-style shorthair cat named Momo with satin-sheen fur, athletic proportions, a tiny natural white locket tuft on its chest, and large luminous golden-amber eyes. On its left ear (viewer's left), there is a single small gold hoop earring. The cat is sitting on a sleek chrome windowsill inside a retro-future cafe, extending its front paw to gently touch a spherical glowing projector with a vibrant blue and yellow complementary palette. The projector casts light in a dynamic spiral vortex composition, coiling around the scene with a strong rotational perspective and a centered vanishing point, creating a dizzying sense of depth from a cinematic low angle. Dappled light and soft mottled shadow patterns filter through a textured paper surface with visible fiber grain, giving a tactile watercolor paper feel. Visually displayed clearly in a corner of the image is the date and time text '2026-07-01 19:38 UTC'. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "inspiration": "original",
+    "story": "墨墨優雅地趴在流線型金屬窗台上，大而圓的金琥珀色眼睛倒映著旋轉的未來科技。陽光透過帶有紙質肌理的毛玻璃，將斑駁光影灑在牠緞面般的黑毛與胸前的白毛領結上。牠看似在玩耍，眼神卻專注得像在調校這台精密的量子點唱機。",
+    "news_inspiration": [],
+    "comment_id": 4859443386,
+    "character": "momo",
+    "style_picks": {
+      "art_style": "Atompunk",
+      "composition": "Spiral Vortex Frame",
+      "lighting": "Dappled Light",
+      "texture": "Paper Texture",
+      "color_palette": "Blue and Yellow Complementary"
+    },
+    "title": "原子咖啡廳的微光軌跡",
+    "character_name": "墨墨",
+    "avoid_list": [
+      "框中框構圖",
+      "熱成像風格",
+      "新藝術風格",
+      "魚拓藝術風格",
+      "立體主義與低多邊形",
+      "酒精墨水藝術風格",
+      "蠟筆兒童畫風格",
+      "液態金屬般流動",
+      "溫暖燭光與冷藍調陰影",
+      "藍青色調網球場",
+      "純白去背棚光",
+      "水彩潑濺墨點"
+    ]
   }
 ]
