@@ -331,5 +331,44 @@
     },
     "number": 2340,
     "title": "鏡花水月的凝望"
+  },
+  {
+    "inspiration": "original",
+    "is_seasonal": true,
+    "news_inspiration": [
+      "美國密西根州一位56歲的男子在堅持使用30年前於拉斯維加斯「卓爾塔」占卜機獲得的幸運號碼投注後，終於在今年贏得了100萬美元的強力球樂透大獎。",
+      "法國索恩-盧瓦爾省的警方在社群媒體上發布幽默警告，提醒用路人注意因食用森林中發酵水果而「醉酒」並在道路上出現軌跡不穩、行為脫序的野生鹿群。",
+      "瑞士巴塞爾郊區的貝耶勒基金會美術館推出了一項獨特的文化體驗，允許參觀者僅穿著泳裝在展廳內欣賞當代藝術展覽。",
+      "澳洲凱恩斯外海的大堡礁發現了一座面積達3973平方公尺（約半個足球場大）的巨大柱狀珊瑚群，科學家相信這是目前文獻記載中體積最大的珊瑚之一。"
+    ],
+    "prompt": "Full-body vertical portrait centered in a tall frame. A polished 3D render of a minimalist surreal scene with a single subject in a vast empty space and clean negative space. A large stocky brown classic tabby cat with bold black stripes, a broad muscular build, and scruffy untidy coarse fur texture sits in a cat's natural resting posture at the end of a terracotta-colored breakwater that extends infinitely into a boundless silent ocean. The cat wears a small, slightly comical straw hat on its head, and a faded red bandana is tied loosely around its neck. The cat's left eye (viewer perspective) is permanently concealed by a natural dark-pigmented fur patch, with no fabric patch or straps, while its right eye is a piercing emerald green. Its left ear has a prominent V-shaped notch. The cat has a white chest bib, white mitten paws, and a thick, sturdy tail resting next to a thin bamboo fishing rod that dips into the water. Conceptual fine art with smooth materials, clean geometry, and soft global illumination. Cinema 4D aesthetic featuring a muted refined earth tone palette of terracotta, olive green, and warm brown. Lit by soft diffused natural light from an overcast sky with even illumination and no harsh shadows. The date and time '2026-07-02 09:50 UTC' is cleanly and visually displayed in text in a corner of the frame. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "character": "captain",
+    "style_picks": {
+      "art_style": "Minimalist Surreal Scene",
+      "composition": "Full-Body Vertical Portrait",
+      "lighting": "Soft Diffused Natural Light",
+      "texture": "3D Render",
+      "color_palette": "Earth Tones"
+    },
+    "character_name": "船長",
+    "idea": "這是一幅極簡超現實場景的全身居中直幅畫面，一隻身形壯碩、左眼戴眼罩並圍著褪色紅頭巾的經典虎斑家貓『船長』，頭戴一頂略顯滑稽的小草帽，正以貓咪特有的趴臥姿態安穩地坐在無限延伸的土色防波堤盡頭，尾巴旁放著一根垂入無邊寂靜海面的細竹竿，展現3D渲染的大地色系質感。",
+    "season": "summer",
+    "avoid_list": [
+      "四足俯臥姿態",
+      "伸出前爪撲向發光物體",
+      "互補色調球形發光物",
+      "傳統雕花窗櫺或欄杆的框中框構圖",
+      "融入幾何抽象與線條風格的背景",
+      "水下焦散與星雲輝光結合的光影",
+      "融合傳統東方藝術元素與海報構圖",
+      "精準整齊的物品網格排列",
+      "衣服配件上印有特定國家隊或特製圖案",
+      "帶有時間戳記與繁體中文限制的標記",
+      "微縮模型與移軸攝影特效"
+    ],
+    "story": "漫長的夏季正午，退役的碼頭老大『船長』決定給自己放個假。牠戴上心愛的小草帽，在空無一物的極簡防波堤端頭獨自釣魚，雖然銳利的翠綠色右眼正盯著海面，但其實牠只是想在最高處吹吹海風，享受屬於老水手的沉穩午後。",
+    "comment_id": 4864430980,
+    "title": "老船長的夏日防波堤",
+    "number": 2341
   }
 ]
