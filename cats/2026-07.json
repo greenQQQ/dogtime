@@ -542,5 +542,40 @@
       "texture": "Three-Dimensional Floral Appliqué",
       "color_palette": "Moonlit Indigo"
     }
+  },
+  {
+    "style_picks": {
+      "art_style": "Mandala Art",
+      "composition": "Inside-the-Glass-Vessel Composition",
+      "lighting": "Neon Lighting",
+      "texture": "Iridescent Holographic",
+      "color_palette": "Retro Faded Tones"
+    },
+    "number": 2347,
+    "idea": "在一座巨大的幾何玻璃瓶內，一隻三花貓正用鼻子貼著一個由無數霓虹線條交織而成的曼陀羅圖騰足球；整體畫面融合了虹彩全息的迷幻質感，並在復古褪色色調中展現出複雜的對稱美學。",
+    "inspiration": "在美國加州聖克拉拉舉辦的 2026 年世界盃淘汰賽中，美國隊憑藉充滿觀賞性的靈活攻勢以 2 比 0 擊敗波士尼亞，順利晉級並在當地掀起足球熱潮。",
+    "news_inspiration": [
+      "在美國加州聖克拉拉舉辦的 2026 年世界盃淘汰賽中，美國隊憑藉充滿觀賞性的靈活攻勢以 2 比 0 擊敗波士尼亞，順利晉級並在當地掀起足球熱潮。",
+      "科學家在研究大猩猩的笑聲後發表最新成果，發現人類笑聲的節奏與黑猩猩及紅毛猩猩等靈長類有著相同的演化根源，進一步揭開了人類語言起源的神秘面紗。",
+      "在印度孟買，一名在日本留學的女子首次搭乘孟買地鐵後，在網路上極力讚美其車廂環境「乾淨且舒適」，引發兩國網友的熱烈討論與迴響。",
+      "為慶祝美國建國 250 週年，南達科他州拉什莫爾山國家紀念公園於今日重啟標誌性的國慶煙火施放與無人機燈光秀，吸引全美大量幸運中籤的民眾前往朝聖。"
+    ],
+    "story": "世界盃的足球熱潮意外延燒到了微觀世界。這隻被困在玻璃容器中的小貓，正專注地用鼻尖輕觸這顆充滿曼陀羅花紋的未來感足球，每一次微小的觸碰，都讓瓶內的虹彩光暈隨之產生波紋般的劇烈震盪。",
+    "comment_id": 4870810414,
+    "prompt": "A real photograph capturing a calico cat touching its nose to a soccer ball made of intricate neon lines forming a mandala pattern, all contained within a giant geometric glass bottle. The image features a visible time stamp reading '2026-07-02 21:57 UTC' at the bottom. Inside-the-glass-vessel composition, showcasing a tiny subject staged within a transparent jar with refractive glass borders and a contained miniature world framing. The lighting blends moody urban night atmosphere with vibrant neon lighting, casting reflections on wet surfaces. The scene is defined by iridescent holographic material, rainbow color shifts on transparent surfaces, and pastel prismatic reflections with a bubble-like holographic film quality. Shot with a 35mm lens, f/2.8, capturing subtle film grain, low contrast, and a retro faded color palette with washed-out vintage tones and nostalgic film-era warmth. Complex circular design, radial symmetry, and meditative sacred geometry are integrated seamlessly. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "avoid_list": [
+      "伸出前爪撥弄",
+      "粉紅肉掌與鼻頭",
+      "青橙電影調色彩",
+      "生物發光與特製複製品",
+      "留白負空間構圖",
+      "透明樹脂與水晶折射",
+      "互補色調與螺旋漩渦",
+      "新中式繁花禮服",
+      "水下焦散與體積光",
+      "傳統祥雲與金箔",
+      "好奇探頭俯瞰"
+    ],
+    "title": "微觀瓶中的點球戰"
   }
 ]

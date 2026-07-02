@@ -21817,5 +21817,14 @@
     "number": 2346,
     "inspiration": "義大利羅馬迎來約15,000輛偉士牌（Vespa）摩托車齊聚巡遊，共同慶祝這款經典速克達品牌誕生80週年。",
     "timestamp": "2026-07-02 20:51 UTC"
+  },
+  {
+    "number": 2347,
+    "title": "微觀瓶中的點球戰",
+    "timestamp": "2026-07-02 21:57 UTC",
+    "inspiration": "在美國加州聖克拉拉舉辦的 2026 年世界盃淘汰賽中，美國隊憑藉充滿觀賞性的靈活攻勢以 2 比 0 擊敗波士尼亞，順利晉級並在當地掀起足球熱潮。",
+    "url": "https://github.com/yazelin/catime/releases/download/cats-2026-07/cat_2026-07-02_2157_UTC.webp",
+    "status": "success",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)"
   }
 ]
