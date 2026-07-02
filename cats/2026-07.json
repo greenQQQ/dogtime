@@ -405,5 +405,35 @@
       "帶有時間戳記與繁體中文限制的標記",
       "微縮模型與移軸攝影特效"
     ]
+  },
+  {
+    "news_inspiration": [],
+    "number": 2343,
+    "prompt": "Coloring book line art of a playful cat inside a huge vintage crystal hourglass vessel, swatting at and trying to catch sliding blue sand from above. The composition features a tiny subject staged within a transparent jar, a contained miniature world framing with a refractive glass border. Intricate decorative linework, clean uniform black outlines on white with no shading, ready-to-color aesthetic. Luminous blue and yellow complementary palette with vivid contrasting cool blue and warm yellow. Classic three-point lighting setup with light refraction and prismatic reflections on the transparent glass material. The text '2026-07-02 15:03 UTC' is clearly and visually displayed on the base of the hourglass. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "title": "沙漏歲月中的追逐",
+    "avoid_list": [
+      "四足俯臥姿態",
+      "伸出前爪撲向發光物體",
+      "互補色調球形發光物",
+      "傳統雕花窗櫺或欄杆的框中框構圖",
+      "融入幾何抽象與線條風格的背景",
+      "水下焦散與星雲輝光結合的光影",
+      "融合傳統東方藝術元素與海報構圖",
+      "精準整齊的物品網格排列",
+      "衣服配件上印有特定國家隊或特製圖案",
+      "帶有時間戳記與繁體中文限制的標記",
+      "微縮模型與移軸攝影特效"
+    ],
+    "idea": "這是一幅結合藍黃互補色的線描著色本插畫，刻畫一隻貓咪在巨大的複古水晶沙漏容器內，用爪子撥弄並試圖接住頂部滑落的藍色流沙。",
+    "style_picks": {
+      "art_style": "Coloring Book Line Art",
+      "composition": "Inside-the-Glass-Vessel Composition",
+      "lighting": "Three-Point Lighting",
+      "texture": "Glass / Crystal",
+      "color_palette": "Blue and Yellow Complementary"
+    },
+    "inspiration": "original",
+    "story": "在時間齒輪停擺的奇幻工坊裡，這隻好奇的貓咪鑽進了精緻的雙層玻璃沙漏中。牠隨著傾瀉的藍黃沙塵靈巧地轉動身體，試圖在流沙的縫隙間捕捉時間的軌跡。光線透過璀璨的水晶折射，將這場與時間的追逐遊戲定格在交錯的線條之中。",
+    "comment_id": 4867222285
   }
 ]
