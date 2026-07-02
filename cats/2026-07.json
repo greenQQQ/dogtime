@@ -577,5 +577,43 @@
       "好奇探頭俯瞰"
     ],
     "title": "微觀瓶中的點球戰"
+  },
+  {
+    "style_picks": {
+      "art_style": "Op Art",
+      "composition": "Shallow Depth-of-Field Close-up",
+      "lighting": "White Seamless Studio Light",
+      "texture": "Prismatic Rainbow Flare",
+      "color_palette": "Cool Tones (Blue / Teal)"
+    },
+    "number": 2348,
+    "character_name": "墨墨",
+    "news_inspiration": [
+      "瑞士一場年度約德爾調（Yodeling）傳統歌唱節因高溫炎熱，表演者紛紛跳進噴泉中一邊泡水一邊繼續歡唱。",
+      "巴西里約熱內盧近海的大翅鯨（座頭鯨）數量因商業捕鯨禁令而成功復甦，近年目擊次數激增並帶動了當地的賞鯨觀光熱潮。",
+      "印度拉達克的漢列（Hanle）暗空保護區自成立以來，因其純黑夜空吸引大量遊客前來觀星，讓這座喜馬拉雅山村發展出興旺的在地星空觀光業。",
+      "澳洲坎培拉的一名鎮民官（Town Crier）以高達122.4分貝的宏亮嗓音，獲得金氏世界紀錄認證為全球說話聲音最大的人。",
+      "美國德州一座牧場此前走失的一隻名叫「葛蕾希」（Gracie）的長頸鹿，在展開一場虛驚的流浪記後終於被安全尋回。"
+    ],
+    "idea": "在融合歐普藝術黑白幾何錯視的暗空展覽中，黑貓墨墨正以淺景深特寫的視角，專注地用前額輕蹭一架指向喜馬拉雅星空的復古黃銅天文望遠鏡。",
+    "character": "momo",
+    "inspiration": "印度拉達克的漢列（Hanle）暗空保護區自成立以來，因其純黑夜空吸引大量遊客前來觀星，讓這座喜馬拉雅山村發展出興旺的在地星空觀光業。",
+    "comment_id": 4871154207,
+    "title": "暗夜星穹的凝望",
+    "story": "印度漢列暗空保護區的深夜，墨墨悄然溜進了專為觀星客設計的幾何幻象展館。牠被那架散發淡淡光澤的古董望遠鏡所吸引，在冷色調的稜鏡彩虹光斑折射下，牠微瞇著寶石般的金琥珀色眼睛，在無聲的純黑夜色中享受著與星空的親密接觸。",
+    "prompt": "A close-up photograph of Momo, a sleek, slender solid-black Bombay-style shorthair cat with satin-sheen fur, large luminous golden-amber eyes, and long white whiskers. She has a single small gold hoop earring on her left ear edge, a tiny white locket tuft of fur on her chest, and a dark-grey ring at her tail tip. She is intimately rubbing her forehead against a vintage brass astronomical telescope pointed toward a Himalayan starry sky. The scene is set in an dark sky exhibition filled with Op Art optical illusion patterns and high-contrast geometric designs. Shot with a 50mm lens at f/1.4, creating a shallow depth of field with soft bokeh where Momo and the telescope are sharp against a creamy, blurred background. Prismatic rainbow flare textures and refracted spectral light spots scatter across the frame, mixed with cool blue-teal color grading. Stamped clearly in the corner of the image is the date and time text '2026-07-02 22:59 UTC' in a clean, minimalist font. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "avoid_list": [
+      "伸出前爪撥弄",
+      "粉紅肉掌與鼻頭",
+      "青橙電影調色彩",
+      "生物發光與特製複製品",
+      "留白負空間構圖",
+      "透明樹脂與水晶折射",
+      "互補色調與螺旋漩渦",
+      "新中式繁花禮服",
+      "水下焦散與體積光",
+      "傳統祥雲與金箔",
+      "好奇探頭俯瞰"
+    ]
   }
 ]
