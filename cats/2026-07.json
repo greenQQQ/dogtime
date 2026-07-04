@@ -1389,5 +1389,43 @@
     "inspiration": "original",
     "idea": "這是一幅融合非洲未來主義（Afrofuturism）風格的攝影作品，一隻花斑貓正透過佈滿青苔的幾何飛船舷窗，好奇地用爪子撥弄懸浮的粉彩色全息星圖，營造出獨特的框中框構圖。",
     "prompt": "A candid 35mm photograph of a calico cat looking through a moss-covered geometric spaceship window, using its paw to play with a floating pastel holographic star map. Frame within a frame composition, layered foreground border focusing on the cat. Inside a high-tech greenhouse spaceship, soft dappled light and mottled shadow patterns filter through a translucent ceiling onto the lush green organic overgrowth on the control console. In the background, an Afrofuturism-style urban mothership glides by. The color palette features soft pastel tones of gentle pink, lavender, mint, and baby blue, creating a dreamy, serene mood. Displayed clearly on a glowing digital readout in the corner of the window frame is the text '2026-07-04 18:57 UTC' in a clean futuristic font. Shot on f/1.8 lens, shallow depth of field, subtle film grain. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字)."
+  },
+  {
+    "title": "螢光夜市的蜂芒對決",
+    "story": "老街夜市進行了生物科技改造，麻糬在巡邏時發現攤位旁飛來一隻自行研發出覓食新方法的機械熊蜂。這顆會走路的花生麻糬被螢光翅膀吸引，顧不得眼前的試吃美食，興奮地伸出橘手套肉墊想把這隻高智商昆蟲攔截下來。",
+    "inspiration": "科學家在智力測試研究中發現，熊蜂（大黃蜂）在沒有經過任何事前培訓下，竟然自行研發出獲取隱藏獎勵的新方法，展現了令人驚嘆的群體智慧。",
+    "prompt": "A raw candid snapshot photograph capturing a literal chubby rounded shorthair cat named Mochi. Mochi has a white base coat and solid orange patches with no tabby stripes. Her right half-face (viewer perspective) bears an orange mask extending from the nose bridge across the right cheek to the right ear, while her left face remains entirely white. Her right front paw is a solid orange mitten to the wrist, and her left front paw is pure white. She has a white belly, large round amber eyes, a pink nose with a tiny orange center dot, short stubby legs, a spherical torso, an orange-and-white ringed tail, and a heart-shaped orange saddle centered on her upper back. Mochi is on all fours, using her right orange front paw to swat at a glowing mechanical bumblebee. The scene is set in a neon fluorescent night market with a biopunk aesthetic, featuring organic-mechanical hybrid food stalls and bio-engineered creatures covered in a glossy, overlapping snake scale texture. Shot with a harsh direct on-camera flash, blown-out highlights, and hard shadows. The composition is a dynamic, slanted diagonal composition with an off-axis kinetic visual flow. Colors are electric pink, lime green, and hot cyan glowing against a dark background. Imprinted sharply in the corner of the image is the English text datestamp '2026-07-04 20:06 UTC'. Shot on 35mm lens, f/2.8, raw grainy snapshot look. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "number": 2372,
+    "avoid_list": [
+      "強烈硬光日照",
+      "古絹絹本質感",
+      "溫暖秋日琥珀色調",
+      "渺小人物對比",
+      "青橙電影調",
+      "微弱燭光搖曳",
+      "水彩潑濺墨點",
+      "百百窗條紋光",
+      "英文字串時間戳記",
+      "硬光格子窗投影",
+      "大理石或古董雕刻邊緣",
+      "傳統圖騰與符號裝飾"
+    ],
+    "comment_id": 4883670482,
+    "character": "mochi",
+    "news_inspiration": [
+      "在奧地利維也納舉辦的「多瑙島節」於本週末熱鬧登場，結合現場音樂、體育活動與各國美食，打造出全球最具規模的戶外免費露天夏日盛典。",
+      "科學家在智力測試研究中發現，熊蜂（大黃蜂）在沒有經過任何事前培訓下，竟然自行研發出獲取隱藏獎勵的新方法，展現了令人驚嘆的群體智慧。",
+      "2026年環法自行車賽於西班牙巴塞隆納盛大開賽，由車手溫格高率領的隊伍在首站團體計時賽中奪冠，並成功穿上象徵領先的黃衫。",
+      "隨著2026年世界盃足球賽在美國、加拿大和墨西哥多個城市開踢，這項四年一度的體育盛事帶動了北美各大主辦城市的旅遊與航班需求大幅飆升。"
+    ],
+    "style_picks": {
+      "art_style": "Biopunk",
+      "composition": "Diagonal Composition",
+      "lighting": "Direct Flash",
+      "texture": "Snake Scale Texture",
+      "color_palette": "Neon Fluorescent"
+    },
+    "character_name": "麻糬",
+    "idea": "在融合生物朋克風格的霓虹螢光夜市中，橘白相間的胖貓麻糬正用牠的右橘色前爪扒拉著一隻發光的機械大黃蜂。畫面採用閃光燈直打與對角線構圖，背景的小吃攤與機械生物外殼皆覆蓋著詭異的蛇鱗肌理。"
   }
 ]
