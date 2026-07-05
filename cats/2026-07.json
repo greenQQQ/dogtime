@@ -1528,5 +1528,40 @@
     "story": "冬日午後的陽光穿過樹梢，將斑駁光影灑在靜謐的室內。小貓被窗台上一座精緻的微型冰雕吸引，牠伸出粉嫩的鼻子輕輕一聞，感受著指尖與呼吸間的初冬寒意。這份純粹的靜止，彷彿讓整個午後的時間都慢了下來。",
     "idea": "在極簡的留白負空間中，一隻日系萌系風格的三花貓正趴在結滿冰霜結晶的窗沿上，專注地用鼻子輕觸一個正在融化的莫蘭迪色系冰雕。",
     "news_inspiration": []
+  },
+  {
+    "inspiration": "在瑞士巴塞爾，由於歐洲正遭遇酷熱的夏日熱浪襲擊，參加年度約德爾調（Yodeling）傳統音樂節的女性歌唱家們紛紛跳進市區的噴泉中一邊泡水消暑、一邊高歌練唱。",
+    "style_picks": {
+      "art_style": "Whiteboard Marker Art",
+      "composition": "Bird's-Eye View",
+      "lighting": "Butterfly Lighting",
+      "texture": "Sheer Gauze Mesh",
+      "color_palette": "Blue and Yellow Complementary"
+    },
+    "avoid_list": [
+      "伸出前爪撥弄",
+      "霓虹螢光色彩",
+      "電影調青橙對比",
+      "珠飾水鑽鑲嵌",
+      "日光燈無陰影照明",
+      "角落顯示日期時間",
+      "繁體中文與英文排他性",
+      "復古溫室與植物",
+      "閃光燈直打強烈陰影",
+      "微縮與超現實擬物",
+      "等距視覺構圖"
+    ],
+    "title": "噴泉清涼的和聲",
+    "news_inspiration": [
+      "在美國紐約市，傳奇大胃王喬伊·切斯納特（Joey Chestnut）於國慶日吃熱狗大賽中，在逼近攝氏38度的高溫熱浪下仍成功吞下66個熱狗，第18度奪得象徵冠軍的芥末黃金腰帶。",
+      "在阿根廷布宜諾斯艾利斯，一名職業遛狗師將他照顧的13隻狗狗全部穿上阿根廷國家足球隊的藍白條紋球衣，組成超萌的應援團為世界盃足球賽加油打氣。",
+      "在澳洲塔斯馬尼亞州，一隻體重高達一公噸的明星象海豹「尼爾」（Neil the Seal）因為再度現身岸邊並用身體磨蹭、破壞防撞護欄，讓當地官員無奈呼籲粉絲追星之餘要尊重牠的「隱私」。",
+      "在瑞士巴塞爾，由於歐洲正遭遇酷熱的夏日熱浪襲擊，參加年度約德爾調（Yodeling）傳統音樂節的女性歌唱家們紛紛跳進市區的噴泉中一邊泡水消暑、一邊高歌練唱。"
+    ],
+    "prompt": "A whiteboard marker drawing on glass with slightly faded ink and hand-drawn line art, capturing a casual sketch feel. Bird's-eye view, top-down perspective looking straight down to create a miniature world effect. An orange cat is soaking in a Swiss fountain during a European summer heatwave, with its paws immersed in the water alongside a group of singing Yodelers. The composition is illuminated by butterfly lighting with an overhead key light creating a symmetrical shadow under the nose, providing a soft even illumination. The outer edges of the scene are intricately intertwined with a sheer gauze mesh texture and fine translucent netting, showing a delicate woven veil with soft light passing through the fabric for a gossamer layered transparency. The color scheme features a bold and balanced blue and yellow complementary palette, showcasing vivid contrasting cool blue and warm yellow with striking graphic vibrancy. The text '2026-07-05 01:55 UTC' is clearly and visually written on the glass surface. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "number": 2376,
+    "comment_id": 4884478361,
+    "idea": "這是一幅以藍黃互補色為主調的白板記號筆畫，採用俯瞰視角呈現一隻橘貓身處熱浪襲擊的瑞士噴泉中，在蝴蝶光照射下與身旁歌唱家們一同泡水消暑，畫面邊緣巧妙交織著紗網薄透肌理的線條。",
+    "story": "歐洲夏日熱浪來襲，巴塞爾的噴泉成了最清涼的舞台。這隻四腳浸在水裡的橘貓一邊享受著泉水的拍打，一邊好奇地豎起耳朵，聆聽身旁約德爾調歌唱家們高亢清脆的練唱共鳴。"
   }
 ]
