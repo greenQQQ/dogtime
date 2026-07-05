@@ -1691,5 +1691,41 @@
     "title": "貓咪日常",
     "inspiration": "original",
     "news_inspiration": []
+  },
+  {
+    "number": 2381,
+    "story": "畫面以引導線構圖呈現，聚焦於虎斑貓在藍灰色岩壁上的探索。透明玻璃與晶體般的岩點在紅外線下呈現獨特紋理，而藍黃互補的色調則強調了其毛皮與岩點的對比。",
+    "news_inspiration": [
+      "科學家利用詹姆斯·韋伯太空望遠鏡首次在圍繞死亡恆星運行的行星WD 1856 b上發現了大氣層，地點在太空中。",
+      "烏克蘭日托米爾地區舉辦了「石匠攀登者」節，該活動結合了攀岩與現場音樂，創造了受優勝美地啟發的全新戶外文化。",
+      "法國隊在美國費城舉行的2026年國際足聯世界盃十六強賽中，憑藉基利安·姆巴佩的進球以1-0擊敗巴拉圭，成功晉級八強。"
+    ],
+    "idea": "在一處現代攀岩設施內，一隻虎斑貓正小心翼翼地攀爬著鮮黃色的岩點，以紅外線攝影風格捕捉，畫面中透過天窗上方的水體折射出水下焦散光。",
+    "inspiration": "烏克蘭日托米爾地區舉辦了「石匠攀登者」節，該活動結合了攀岩與現場音樂，創造了受優勝美地啟發的全新戶外文化。",
+    "prompt": "An infrared photograph of a tabby cat meticulously climbing bright yellow crystalline rock holds on a modern blue-gray rock wall. The image visually displays '2026-07-05 09:05 UTC'. The composition features leading lines and converging perspective lines, architecturally framing the scene and guiding the eye toward the exploring cat, creating strong directional depth. The lighting showcases underwater caustic patterns with rippling light dancing over the subject, a blue-green aquatic glow originating from refracted sun shafts through water above a transparent glass skylight, immersing the scene in a submerged, dreamlike atmosphere with surreal otherworldly tones. Transparent glass elements and crystalline holds exhibit light refraction and prismatic reflections with crystalline clarity. A vivid blue and yellow complementary palette emphasizes the contrasting cool blue wall and warm yellow holds, lending bold balanced energy and striking graphic vibrancy. Shot on a 35mm lens at f/2.8 with sharp focus and subtle film grain. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "comment_id": 4885492291,
+    "style_picks": {
+      "art_style": "Infrared Photography",
+      "composition": "Leading Lines Composition",
+      "lighting": "Underwater Caustics",
+      "texture": "Glass / Crystal",
+      "color_palette": "Blue and Yellow Complementary"
+    },
+    "title": "石匠貓影",
+    "avoid_list": [
+      "宇宙星雲輝光",
+      "霓虹螢光色調",
+      "蛇鱗肌理質感",
+      "柔和斑駁光影",
+      "高科技溫室飛船",
+      "閃光燈直打硬影",
+      "留白負空間構圖",
+      "貓咪撥弄微型物件",
+      "復古底片風格攝影",
+      "飄浮發光物體",
+      "鳥瞰俯視視角",
+      "高飽和鮮豔色彩",
+      "吉卜力動畫風格"
+    ]
   }
 ]
