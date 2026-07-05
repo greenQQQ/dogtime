@@ -1974,5 +1974,37 @@
     "comment_id": 4886674285,
     "prompt": "A cute cat with the date and time '2026-07-05 16:05 UTC' displayed in the image, high quality, detailed",
     "number": 2388
+  },
+  {
+    "avoid_list": [
+      "宇宙星雲輝光",
+      "霓虹螢光色調",
+      "蛇鱗肌理質感",
+      "柔和斑駁光影",
+      "高科技溫室飛船",
+      "閃光燈直打硬影",
+      "留白負空間構圖",
+      "貓咪撥弄微型物件",
+      "復古底片風格攝影",
+      "飄浮發光物體",
+      "鳥瞰俯視視角",
+      "高飽和鮮豔色彩",
+      "吉卜力動畫風格"
+    ],
+    "inspiration": "original",
+    "news_inspiration": [],
+    "comment_id": 4886845338,
+    "story": "在古老植物園溫室 crumbling 的核心深處，大自然早已突破人類的宏偉設計，一隻孤獨的虎斑貓悄無聲息地行動著。牠琥珀色的眼睛鎖定在一隻閃爍的甲蟲上，甲蟲正攀附在長滿青苔的玻璃窗內側。這塊破碎的玻璃，由古老的銹蝕鐵絲網纏繞加固，既是阻隔，也是光影奇幻舞動的畫布，以電影般的青色與橙色調為場景增添色彩。",
+    "number": 2389,
+    "idea": "一隻野生虎斑貓在廢棄植物園溫室內，透過巨大破碎的玻璃窗，專注地追蹤著一片葉子上的甲蟲。整個場景以壯麗自然風景攝影的宏大視角呈現，陽光透過水漬斑駁的玻璃與茂密藤蔓，形成水下焦散光影，畫面籠罩在青橙電影調的氛圍中。",
+    "prompt": "一隻野生虎斑貓在廢棄植物園溫室內，透過巨大破碎的玻璃窗，專注地追蹤著一片葉子上的甲蟲。整個場景以壯麗自然風景攝影的宏大視角呈現，陽光透過水漬斑駁的玻璃與茂密藤蔓，形成水下焦散光影，畫面籠罩在青橙電影調的氛圍中。. The date and time '2026-07-05 17:05 UTC' is visually displayed in the image. majestic landscape photography, sweeping natural vista, dramatic sky and light, deep depth of field, grand sense of scale, fine art outdoor scenery, inside-the-glass-vessel composition, tiny subject staged within a transparent jar or bottle, contained miniature world framing, refractive glass border, underwater caustic lighting, rippling light patterns dancing over the subject, blue-green aquatic glow, refracted sun shafts through water, submerged dreamlike atmosphere, tangled wire mesh texture, coiled and woven metal strands, intricate wrapped wireframe, industrial netting, sculptural twisted-wire surface, teal and orange color grading, warm skin tones against cool blue-green shadows, complementary cinematic palette, blockbuster film look, punchy balanced contrast IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "style_picks": {
+      "art_style": "Majestic Landscape Photography",
+      "composition": "Inside-the-Glass-Vessel Composition",
+      "lighting": "Underwater Caustics",
+      "texture": "Tangled Wire Mesh",
+      "color_palette": "Teal and Orange"
+    },
+    "title": "玻璃荒園獵影"
   }
 ]
