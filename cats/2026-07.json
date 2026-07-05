@@ -2006,5 +2006,34 @@
       "color_palette": "Teal and Orange"
     },
     "title": "玻璃荒園獵影"
+  },
+  {
+    "news_inspiration": [],
+    "number": 2390,
+    "prompt": "在一座宏偉的巴洛克式圖書館中，一隻烏黑的貓正以超廣角視角被捕捉，牠專注地用爪子輕觸一張鋪展在巨大桌上的描金星圖，整個空間被水下焦散光般的奢華金黑色調照亮，並勾勒出精緻的描金墨線紋理。. The date and time '2026-07-05 18:05 UTC' is visually displayed in the image. Baroque art style, dramatic chiaroscuro, exuberant grandeur, rich ornate detail, deep shadows and golden highlights, ultra wide angle 12-18mm lens, dramatic perspective distortion, expansive field of view, underwater caustic lighting, rippling light patterns dancing over the subject, blue-green aquatic glow, refracted sun shafts through water, submerged dreamlike atmosphere, gilded ink outline texture, fine black brush lines edged with metallic gold, lustrous gilt contours, ornamental hand-drawn detailing on dark ground, gold and black color scheme, luxurious metallic gold accents, deep black background, opulent mood IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "story": "夜深人靜，這隻擁有古老靈魂的貓在昏暗的書海中漫步。牠的目光被星圖上神秘的符號吸引，爪尖輕點，彷彿正在解讀宇宙的秘密。光影斑駁，為這場無聲的探索增添了一抹永恆的巴洛克奢華。",
+    "title": "星圖密語",
+    "comment_id": 4887086859,
+    "inspiration": "original",
+    "avoid_list": [
+      "日期時間顯示",
+      "可愛貓咪預設指令",
+      "水下焦散光影",
+      "透明玻璃元素與構圖",
+      "黑貓弓背觸碰",
+      "柔焦霧面夢幻氛圍",
+      "虎斑貓攀爬探索",
+      "藍黃互補色調",
+      "青橙電影調色",
+      "特定文本渲染限制"
+    ],
+    "idea": "在一座宏偉的巴洛克式圖書館中，一隻烏黑的貓正以超廣角視角被捕捉，牠專注地用爪子輕觸一張鋪展在巨大桌上的描金星圖，整個空間被水下焦散光般的奢華金黑色調照亮，並勾勒出精緻的描金墨線紋理。",
+    "style_picks": {
+      "art_style": "Baroque",
+      "composition": "Ultra Wide Angle",
+      "lighting": "Underwater Caustics",
+      "texture": "Gilded Ink Outline",
+      "color_palette": "Gold and Black Luxury"
+    }
   }
 ]
