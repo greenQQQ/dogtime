@@ -548,6 +548,66 @@ def parse_ai_response_generic(text: str, required_keys: list) -> dict | None:
     return None
 
 
+# ── Codex CLI text backend (ChatGPT subscription) ──
+# CAT_TEXT_BACKEND=codex routes the text stages (news search / idea / render
+# prompt / creative notes) through the local Codex CLI, so they consume the
+# ChatGPT subscription instead of the tiny Gemini free tier (20 req/day).
+# Every stage silently falls back to the original Gemini path on any failure.
+_TEXT_BACKEND = (os.environ.get("CAT_TEXT_BACKEND") or "gemini").strip().lower()
+_CODEX_BIN = os.environ.get("CODEX_BIN") or ""
+
+_NEWS_PROMPT_CODEX = (
+    "Search the web for today's interesting world news and current events.\n\n"
+    "Pick 3-5 news items that are:\n"
+    "- Positive, novel, curious, or visually inspiring (science, art, nature, sports, culture, tech)\n"
+    "- From the last 24-48 hours\n"
+    "- Varied in topic (not all from one category)\n"
+    "- NOT politics, war, disasters, or tragedies\n\n"
+    "Reply with ONLY this JSON object (no code fences, no commentary):\n"
+    '{"news": [{"summary": "繁體中文一句話摘要", "url": "exact article URL copied from the search results", "source": "media name"}, ...]}\n\n'
+    "Rules: every url MUST be copied exactly from a real search result — never invent, shorten, or reconstruct URLs. "
+    "If you cannot find a real URL for an item, set its url to null."
+)
+
+
+def _codex_text(prompt: str, *, search: bool = False, timeout: int = 240) -> str | None:
+    """Run `codex exec` and return the final message text, or None on any failure."""
+    if _TEXT_BACKEND != "codex" or not _CODEX_BIN:
+        return None
+    import tempfile
+    out_path = None
+    try:
+        fd, out_path = tempfile.mkstemp(suffix=".txt", prefix="codex_text_")
+        os.close(fd)
+        cmd = [
+            _CODEX_BIN, "exec",
+            "--skip-git-repo-check",
+            "-C", tempfile.gettempdir(),  # neutral cwd: keep the agent from exploring the repo
+            "-o", out_path,
+        ]
+        if search:
+            cmd += ["-c", "tools.web_search=true"]
+        cmd.append(prompt + "\n\nReply with ONLY the JSON object — no code fences, no extra commentary.")
+        result = subprocess.run(
+            cmd, capture_output=True, text=True, timeout=timeout,
+            encoding="utf-8", errors="replace",
+        )
+        if result.returncode != 0:
+            print(f"  codex text backend exited {result.returncode}; falling back to Gemini.")
+            return None
+        text = Path(out_path).read_text(encoding="utf-8", errors="replace").strip()
+        return text or None
+    except Exception as e:
+        print(f"  codex text backend failed ({e}); falling back to Gemini.")
+        return None
+    finally:
+        if out_path:
+            try:
+                os.unlink(out_path)
+            except OSError:
+                pass
+
+
 def load_creative_notes() -> dict:
     """Load creative_notes.json, return empty structure if not found."""
     notes_path = Path("creative_notes.json")
@@ -600,13 +660,16 @@ def maybe_update_creative_notes(cat_number: int) -> dict:
     )
 
     try:
-        client = _create_genai_client()
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=SUMMARY_PROMPT.format(entries=entries_text),
-            config={"response_mime_type": "application/json"},
-        )
-        result = parse_ai_response_generic(response.text, ["avoid_list"])
+        raw = _codex_text(SUMMARY_PROMPT.format(entries=entries_text))
+        result = parse_ai_response_generic(raw, ["avoid_list"]) if raw else None
+        if not result:
+            client = _create_genai_client()
+            response = client.models.generate_content(
+                model="gemini-2.5-flash",
+                contents=SUMMARY_PROMPT.format(entries=entries_text),
+                config={"response_mime_type": "application/json"},
+            )
+            result = parse_ai_response_generic(response.text, ["avoid_list"])
         if result and isinstance(result["avoid_list"], list):
             notes = {
                 "avoid_list": result["avoid_list"],
@@ -699,6 +762,31 @@ def fetch_news_inspiration() -> list[dict]:
     Returns a list of {"summary", "url", "source"} dicts, or empty list on failure.
     """
     print("Stage 0: Fetching today's news for inspiration...")
+
+    # Codex CLI path (ChatGPT subscription): the model does the web search and
+    # returns summaries with real source URLs directly — no grounding parsing.
+    raw = _codex_text(_NEWS_PROMPT_CODEX, search=True, timeout=300)
+    if raw:
+        result = parse_ai_response_generic(raw, ["news"])
+        if result and isinstance(result["news"], list):
+            items = []
+            for it in result["news"][:5]:
+                if isinstance(it, dict) and isinstance(it.get("summary"), str) and it["summary"].strip():
+                    url = it.get("url")
+                    items.append({
+                        "summary": it["summary"].strip(),
+                        "url": url if isinstance(url, str) and url.startswith("http") else None,
+                        "source": it.get("source") if isinstance(it.get("source"), str) else None,
+                    })
+                elif isinstance(it, str) and it.strip():
+                    items.append({"summary": it.strip(), "url": None, "source": None})
+            if items:
+                for i, item in enumerate(items, 1):
+                    src = item.get("source") or ("有來源" if item.get("url") else "無來源")
+                    print(f"  News {i} [codex/{src}]: {item['summary'][:80]}...")
+                return items
+        print("  codex news parse failed; falling back to Gemini news search.")
+
     from google.genai import types
 
     for attempt in range(2):
@@ -819,7 +907,19 @@ def generate_prompt_and_story(timestamp: str, creative_notes: dict, character: d
     idea_input = IDEA_PROMPT.format(news_section=news_section, avoid_section=avoid_section, style_section=style_section)
     if character_idea_section:
         idea_input = character_idea_section + "\n" + idea_input
-    for attempt in range(2):
+    # Codex CLI first (subscription); Gemini loop below only runs if it failed.
+    codex_raw = _codex_text(idea_input)
+    codex_parsed = parse_ai_response_generic(codex_raw, ["idea", "story"]) if codex_raw else None
+    if codex_parsed:
+        idea = codex_parsed["idea"]
+        story = codex_parsed["story"]
+        title = codex_parsed.get("title", "")
+        inspiration = codex_parsed.get("inspiration", "original")
+        print(f"Title: {title}")
+        print(f"Inspiration: {'🎨 原創' if inspiration == 'original' else '📰 ' + inspiration[:60]}")
+        print(f"Idea: {idea[:120]}...")
+        print(f"Story: {story[:80]}...")
+    for attempt in (range(0) if codex_parsed else range(2)):
         try:
             response = client.models.generate_content(
                 model="gemini-2.5-flash",
@@ -867,12 +967,16 @@ def generate_prompt_and_story(timestamp: str, creative_notes: dict, character: d
         render_input = RENDER_PROMPT.format(idea=idea, story=story, timestamp=timestamp, style_snippets_section=style_snippets_section)
         if character_render_section:
             render_input = render_input + "\n" + character_render_section
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=render_input,
-            config={"response_mime_type": "application/json"},
-        )
-        result = parse_ai_response_generic(response.text, ["prompt"])
+        # Codex CLI first (subscription); Gemini only when it fails.
+        raw2 = _codex_text(render_input)
+        result = parse_ai_response_generic(raw2, ["prompt"]) if raw2 else None
+        if not result:
+            response = client.models.generate_content(
+                model="gemini-2.5-flash",
+                contents=render_input,
+                config={"response_mime_type": "application/json"},
+            )
+            result = parse_ai_response_generic(response.text, ["prompt"])
         if result:
             prompt = result["prompt"] + _ZH_TEXT_CONSTRAINT
             print(f"Prompt: {prompt[:120]}...")
