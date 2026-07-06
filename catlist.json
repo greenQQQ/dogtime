@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "inspiration": "original",
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-06_0626_UTC.webp",
+    "character": "machi",
+    "status": "success",
+    "title": "狗狗日常",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "timestamp": "2026-07-06 06:26 UTC",
+    "character_name": "麻吉",
+    "number": 1
+  }
+]
