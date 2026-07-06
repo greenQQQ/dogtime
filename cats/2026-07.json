@@ -643,5 +643,66 @@
     ],
     "title": "靛沙守徑",
     "story": "牠每天跟著巡護員巡邏，最先發現那些人類圖紙上沒有標記的小生命路徑。當機械停下、陽光把沙粒曬得發白時，牠趴在通道旁守著，像在替森林保管一個還沒被命名的秘密。"
+  },
+  {
+    "title": "紅籤蒸影",
+    "number": 15,
+    "inspiration": "中國新創與製造鏈正加速研發靈巧機器手，讓人形機器人更接近能執行細膩實用任務。",
+    "style_picks": {
+      "art_style": "Gyotaku Print",
+      "composition": "Mucha Arched Frame Composition",
+      "lighting": "Soft Diffused Natural Light",
+      "texture": "Wrought Iron Filigree",
+      "color_palette": "Festive Red and Gold"
+    },
+    "story": "茶樓師傅讓新機器手學摺蝦餃，卻總漏看桌邊客人的加單。柴犬熟門熟路地把紅紙籤送到點心車前，蒸籠一開，牠的影子像一尾被拓印下來的熱氣魚。",
+    "prompt": "Illustration in Gyotaku style: a yellow-and-white Shiba Inu clearly carrying a red paper dim sum order slip in its mouth, trotting beside a steaming dim sum cart on the second floor of an old Guangzhou teahouse, while a nimble robotic hand is being tested folding shrimp dumplings nearby. Direct ink impression print aesthetic, textured relief surface, monochrome contact-print base with festive Chinese red and bright gold accents bleeding like ink stains into rice paper. Mucha-style arched frame composition encloses the scene, symmetrical Art Nouveau ornamental border with integrated floral motifs, a decorative halo around the dog, and cast-iron filigree window shadows from an ornate black wrought-iron lattice beside the flower window. Soft diffused natural daylight, overcast even illumination, gentle tones, no harsh shadows. Steam from open bamboo steamers forms a fish-like printed shadow behind the dog. Include a small elegant sign or stamped label in English reading exactly: \"2026-07-06 20:35 UTC\". All visible text must be Traditional Chinese or English only, no Simplified Chinese. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "comment_id": 4897417263,
+    "idea": "廣州老茶樓的二樓花窗旁，一隻黃白柴犬叼著紅紙點心籤，穿過冒著蒸氣的點心車與測試中的靈巧機器手；整幅以魚拓風格呈現，穆夏式拱框包住鑄鐵雕花鏤空窗影，柔和自然光把中國紅金暈成宣紙上的印痕。",
+    "news_inspiration": [
+      {
+        "summary": "天文學家指出星際彗星 3I/Atlas 可能是來自遙遠恆星系、年齡達 100 至 120 億年的宇宙化石。",
+        "url": "https://www.thetimes.com/uk/science/article/comet-ancient-relic-distant-star-system-dh328xqx6",
+        "source": "The Times"
+      },
+      {
+        "summary": "中國新創與製造鏈正加速研發靈巧機器手，讓人形機器人更接近能執行細膩實用任務。",
+        "url": "https://www.theguardian.com/technology/ng-interactive/2026/jul/06/china-dextrous-robotic-hands-humanoid",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "巴黎高訂週秋冬 2026 登場，Balenciaga、Jean Paul Gaultier、Fendi 等新任設計師首秀成為視覺焦點。",
+        "url": "https://www.vogue.com/article/paris-couture-week-cheat-sheet-fall-winter-2026",
+        "source": "Vogue"
+      },
+      {
+        "summary": "溫布頓 2026 第 8 天爆出驚喜，英國外卡選手 Arthur Fery 五盤逆轉晉級首個大滿貫八強。",
+        "url": "https://www.thetimes.com/sport/tennis/wimbledon/article/wimbledon-2026-live-scores-latest-news-day-8-kostyuk-de-minaur-fery-fritz-b022zf0sb",
+        "source": "The Times"
+      },
+      {
+        "summary": "科學家在墨西哥確認新的蠑螈化石物種 Ambystoma quetzalcoatli，刷新當地鈍口螈演化史線索。",
+        "url": "https://www.wired.com/story/scientists-have-identified-a-new-fossil-species-of-axolotl-in-mexico",
+        "source": "WIRED"
+      }
+    ],
+    "avoid_list": [
+      "狗用前爪輕輕撥開沙粒",
+      "狗用鼻尖或前爪推動物件",
+      "鏡子自拍後台構圖",
+      "可讀 UTC 時間標籤",
+      "繁體中文與英文文字限制",
+      "月夜靛藍冷色場景",
+      "金色裝飾與黑色背景",
+      "低光斜射輪廓光",
+      "復古褪色電影質感",
+      "高級時尚或劇院後台",
+      "考古現場清理陶片",
+      "太空科學實驗室與校色絲帶",
+      "俯瞰地圖式場景",
+      "柔和粉彩加莫蘭迪色調",
+      "狗協助人類修正混亂"
+    ],
+    "inspiration_url": "https://www.theguardian.com/technology/ng-interactive/2026/jul/06/china-dextrous-robotic-hands-humanoid"
   }
 ]
