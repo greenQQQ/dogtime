@@ -122,5 +122,15 @@
     "character": "ajin",
     "inspiration_url": "https://www.theguardian.com/science/2026/jul/06/starwatch-waning-crescent-moon-pairs-up-with-the-seven-sisters",
     "number": 12
+  },
+  {
+    "inspiration": "埃及西部沙漠達赫拉綠洲出土保存良好的拜占庭古城，住宅、教堂與大量陶片文字讓古代日常生活更具體可見。",
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-06_1835_UTC.webp",
+    "title": "瓶中古城",
+    "status": "success",
+    "number": 13,
+    "inspiration_url": "https://www.theguardian.com/world/2026/jul/04/archaeologists-uncover-ancient-byzantine-city-in-egypts-western-desert",
+    "timestamp": "2026-07-06 18:35 UTC",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)"
   }
 ]

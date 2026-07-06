@@ -531,5 +531,61 @@
       "texture": "Shibori Textile",
       "color_palette": "Vermilion and Gilt"
     }
+  },
+  {
+    "idea": "水墨畫風格中，一隻短毛米格魯趴在達赫拉綠洲出土的拜占庭古城住宅地板上，用前爪輕輕撥開半埋在沙中的陶片；整個古城像被置入一只厚玻璃古董水瓶裡，瓶外是帶木紋的考古桌面，莫蘭迪灰綠與沙粉色在電影感斜光中暈開。",
+    "news_inspiration": [
+      {
+        "summary": "喬治克隆尼將在第83屆威尼斯影展獲頒終身成就金獅獎，表彰他橫跨演員、導演與製片的電影生涯。",
+        "url": "https://apnews.com/article/de2fea048ff9e5f16d23f3ebf6fe1541",
+        "source": "AP News"
+      },
+      {
+        "summary": "埃及西部沙漠達赫拉綠洲出土保存良好的拜占庭古城，住宅、教堂與大量陶片文字讓古代日常生活更具體可見。",
+        "url": "https://www.theguardian.com/world/2026/jul/04/archaeologists-uncover-ancient-byzantine-city-in-egypts-western-desert",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "AI生成演員Tilly Norwood將主演創作者打造的首部長片《Misaligned》，成為影視與人工智慧交會的奇特新案例。",
+        "url": "https://people.com/ai-actress-tilly-norwood-to-make-feature-film-debut-12012414",
+        "source": "People"
+      },
+      {
+        "summary": "溫布頓第八天賽事亮點連發，Flavio Cobolli爆冷晉級八強、Jasmine Paolini也挺進女單八強。",
+        "url": "https://www.thetimes.com/sport/tennis/wimbledon/article/wimbledon-2026-live-scores-latest-news-day-8-kostyuk-de-minaur-fery-fritz-b022zf0sb",
+        "source": "The Times"
+      }
+    ],
+    "inspiration": "埃及西部沙漠達赫拉綠洲出土保存良好的拜占庭古城，住宅、教堂與大量陶片文字讓古代日常生活更具體可見。",
+    "title": "瓶中古城",
+    "comment_id": 4896409900,
+    "story": "牠不是在尋寶，而是在追一縷從陶片縫裡鑽出的乾草氣味。考古員彎腰記錄牠停下的位置，忽然發現那裡藏著一行關於麵包、井水與傍晚鐘聲的日常文字，古城因此像剛剛醒來。",
+    "avoid_list": [
+      "鏡子自拍構圖",
+      "後台化妝間場景",
+      "清楚顯示 UTC 時間戳",
+      "金箔與金色點綴",
+      "傳統中文或英文文字限制",
+      "倫勃朗或蝴蝶光戲劇打光",
+      "狗叼著工具或物件執行任務",
+      "小型道具整齊排列",
+      "科學實驗室與太空訓練場景",
+      "移軸微縮透視",
+      "低角度動態追逐",
+      "高級時尚或表演後台",
+      "螢光邊緣與線框效果",
+      "復古膠片顆粒與褪色色調",
+      "禁止擬人化狗狗負面詞"
+    ],
+    "prompt": "Chinese ink wash and sumi-e style illustration on textured rice paper: inside a thick transparent antique glass water bottle sits a miniature Byzantine residential floor excavated at Dakhla Oasis, refractive glass border bending the scene. A short-haired beagle lies on the ancient floor, clearly using its front paws to gently brush sand away from half-buried pottery shards, sniffing a faint dry-grass scent rising from the cracks. A small archaeologist bends nearby, recording the exact spot. Outside the bottle is a natural wood-grain archaeology table with visible knots and tactile lines. Minimalist black ink brushwork, flowing ink gradients, soft Morandi grey-green and dusty sand-pink washes, muted desaturated pastel undertones, quiet elegance. Film-quality slanted light through glass, volumetric light rays, dramatic shadows, high dynamic range mood. The date and time must be clearly visible as English text on a small archival tag on the table: \"2026-07-06 18:35 UTC\". IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "number": 13,
+    "style_picks": {
+      "art_style": "Chinese Ink Wash",
+      "composition": "Inside-the-Glass-Vessel Composition",
+      "lighting": "Cinematic Lighting",
+      "texture": "Wood Grain",
+      "color_palette": "Morandi Color Palette"
+    },
+    "inspiration_url": "https://www.theguardian.com/world/2026/jul/04/archaeologists-uncover-ancient-byzantine-city-in-egypts-western-desert"
   }
 ]
