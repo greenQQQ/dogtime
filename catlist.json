@@ -7,5 +7,13 @@
     "model": "gpt-image-2 (codex-image-service / $imagegen)",
     "timestamp": "2026-07-06 06:26 UTC",
     "number": 1
+  },
+  {
+    "timestamp": "2026-07-06 07:35 UTC",
+    "number": null,
+    "status": "failed",
+    "url": null,
+    "model": "all failed",
+    "error": "codex-image-service job failed: Codex timed out after 360 seconds"
   }
 ]
