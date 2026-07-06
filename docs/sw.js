@@ -1,9 +1,9 @@
-const STATIC_CACHE = "catime-static-v8";   // html/css/js/icons — network-first, cache is offline fallback
-const CATS_CACHE = "catime-cats-v1";       // cat images — immutable, kept across updates
+const STATIC_CACHE = "catime-static-v9";   // html/css/js/icons — network-first, cache is offline fallback
+const CATS_CACHE = "catime-cats-v2";       // cat images — immutable, kept across updates
 const CATLIST_RE = /catlist\.json$/;
 const ICON_RE = /(icon|favicon|apple-touch-icon)/;
-const RAW = "https://raw.githubusercontent.com/yazelin/catime/main/characters/";
-const CATLIST_URL = "https://raw.githubusercontent.com/yazelin/catime/main/catlist.json";
+const RAW = "https://raw.githubusercontent.com/greenQQQ/catime/main/characters/";
+const CATLIST_URL = "https://raw.githubusercontent.com/greenQQQ/catime/main/catlist.json";
 
 // Precache the app shell + latest catlist + character data/avatars on install,
 // so the app + character pages reliably work offline even on first run.
@@ -13,8 +13,8 @@ const CORE = [
   "character.html", "character.js", "manifest.json",
   "icon-192.png", "icon-512.png", "apple-touch-icon.png", "favicon-32.png", "favicon.ico",
   CATLIST_URL,
-  "avatars/momo.webp", "avatars/captain.webp", "avatars/mochi.webp", "avatars/lingling.webp",
-  RAW + "index.json", RAW + "momo.json", RAW + "captain.json", RAW + "mochi.json", RAW + "lingling.json"
+  "avatars/qqq.webp", "avatars/blanli.webp", "avatars/snowball.webp", "avatars/oreo.webp", "avatars/huahua.webp",
+  RAW + "index.json", RAW + "qqq.json", RAW + "blanli.json", RAW + "snowball.json", RAW + "oreo.json", RAW + "huahua.json"
 ];
 
 // A cat image = a GitHub Release asset under any "cats" / "cats-YYYY-MM" tag.

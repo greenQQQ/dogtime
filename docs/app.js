@@ -1,6 +1,6 @@
 (function () {
-  const CATLIST_URL = "https://raw.githubusercontent.com/yazelin/catime/main/catlist.json";
-  const CATS_BASE_URL = "https://raw.githubusercontent.com/yazelin/catime/main/cats/";
+  const CATLIST_URL = "https://raw.githubusercontent.com/greenQQQ/catime/main/catlist.json";
+  const CATS_BASE_URL = "https://raw.githubusercontent.com/greenQQQ/catime/main/cats/";
   const LIKES_URL = "likes.json";
   const COMMENT_MAP_URL = "comment_map.json";
   const PAGE_SIZE = 20;
@@ -511,9 +511,17 @@
       }
       if (inspiration) {
         const isNews = inspiration !== "original";
-        const inspirationTag = document.createElement("span");
+        const newsUrl = (isNews && typeof cat.inspiration_url === "string") ? cat.inspiration_url : null;
+        const inspirationTag = document.createElement(newsUrl ? "a" : "span");
         inspirationTag.className = `inspiration-tag ${isNews ? "news" : "original"}`;
-        inspirationTag.textContent = isNews ? "新聞靈感" : "原創";
+        inspirationTag.textContent = isNews ? (newsUrl ? "新聞靈感 ↗" : "新聞靈感") : "原創";
+        if (newsUrl) {
+          inspirationTag.href = newsUrl;
+          inspirationTag.target = "_blank";
+          inspirationTag.rel = "noopener";
+          inspirationTag.title = inspiration;
+          inspirationTag.addEventListener("click", (e) => e.stopPropagation());
+        }
         cardInfo.appendChild(inspirationTag);
       }
       if (modelName) {
@@ -656,17 +664,39 @@
     setIconLabel(lbCopyBtn, SVG_CLIPBOARD, "Copy Prompt");
 
     lbStoryText.textContent = detail.story || "";
-    const inspirationText = detail.inspiration && detail.inspiration !== "original"
-      ? `\n\n靈感來源：${detail.inspiration}`
-      : "";
-    lbIdeaText.textContent = (detail.idea || "") + inspirationText;
+    lbIdeaText.textContent = detail.idea || "";
+    if (detail.inspiration && detail.inspiration !== "original") {
+      lbIdeaText.appendChild(document.createTextNode("\n\n靈感來源：" + detail.inspiration + " "));
+      const srcUrl = detail.inspiration_url || cat.inspiration_url;
+      if (srcUrl) {
+        const srcLink = document.createElement("a");
+        srcLink.className = "lb-inspiration-link";
+        srcLink.href = srcUrl;
+        srcLink.target = "_blank";
+        srcLink.rel = "noopener";
+        srcLink.textContent = "（看新聞出處 ↗）";
+        srcLink.addEventListener("click", e => e.stopPropagation());
+        lbIdeaText.appendChild(srcLink);
+      }
+    }
     clearElement(lbNewsList);
     clearElement(lbAvoidList);
     if (Array.isArray(detail.news_inspiration) && detail.news_inspiration.length) {
+      // Entries are strings (old cats) or {summary, url, source} dicts (new cats).
       detail.news_inspiration.forEach(t => {
-        const tag = document.createElement("span");
+        const summary = (t && typeof t === "object") ? (t.summary || "") : String(t || "");
+        const url = (t && typeof t === "object") ? t.url : null;
+        if (!summary) return;
+        const tag = document.createElement(url ? "a" : "span");
         tag.className = "news-tag";
-        tag.textContent = t;
+        tag.textContent = summary;
+        if (url) {
+          tag.href = url;
+          tag.target = "_blank";
+          tag.rel = "noopener";
+          tag.title = (t.source ? "來源：" + t.source : "打開新聞出處");
+          tag.addEventListener("click", e => e.stopPropagation());
+        }
         lbNewsList.appendChild(tag);
       });
     }
@@ -758,9 +788,17 @@
     }
     if (inspiration) {
       const isNews = inspiration !== "original";
-      const inspirationTag = document.createElement("span");
+      const newsUrl = (isNews && typeof cat.inspiration_url === "string") ? cat.inspiration_url : null;
+      const inspirationTag = document.createElement(newsUrl ? "a" : "span");
       inspirationTag.className = `inspiration-tag ${isNews ? "news" : "original"}`;
-      inspirationTag.textContent = isNews ? "新聞靈感" : "原創";
+      inspirationTag.textContent = isNews ? (newsUrl ? "新聞靈感 ↗" : "新聞靈感") : "原創";
+      if (newsUrl) {
+        inspirationTag.href = newsUrl;
+        inspirationTag.target = "_blank";
+        inspirationTag.rel = "noopener";
+        inspirationTag.title = inspiration;
+        inspirationTag.addEventListener("click", (e) => e.stopPropagation());
+      }
       appendWithSpace(lbInfo, inspirationTag);
     }
     if (modelName) {
@@ -849,7 +887,7 @@
       const blobUrl = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = blobUrl;
-      a.download = "catime-cat-" + currentCatNumber + ".png";
+      a.download = "cat-" + currentCatNumber + (currentCatUrl.endsWith(".webp") ? ".webp" : ".png");
       document.body.appendChild(a);
       a.click();
       a.remove();

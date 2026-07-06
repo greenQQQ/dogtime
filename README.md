@@ -1,110 +1,49 @@
-# <img src="docs/icon-192.png" width="32" height="32" alt="catime icon"> catime
+# <img src="docs/icon-192.png" width="32" height="32" alt="貓咪時光 icon"> 貓咪時光
 
-**AI 生成的每小時貓咪圖片，每小時誕生一隻新貓！** 🐱
+**每小時誕生一隻 AI 貓咪！** 🐱 由 QQQ、布藍里和朋友們主演的自動貓咪相簿。
 
-每小時，GitHub Actions 會透過 Google Gemini 自動生成一張獨特的貓咪圖片，上傳到 GitHub Release，並發佈到月度 issue。103+ 種藝術風格——從浮世繪到賽博龐克到刺繡微縮模型。每隻貓都有自己的故事。
+每小時自動生成一張獨特的貓咪圖片：從當日新聞找靈感、由 AI 構思場景與小故事、再用 **gpt-image-2**（透過自架 [codex-image-service](https://github.com/yazelin/codex-image-service)，走 ChatGPT 訂閱額度）畫出來，上傳到 GitHub Release 並更新相簿。103+ 種藝術風格——從浮世繪到賽博龐克。每隻貓都有自己的故事，新聞靈感的貓還能點回新聞出處。
 
-🌐 **圖庫：** [yazelin.github.io/catime](https://yazelin.github.io/catime/)
-📲 **Telegram：** [@catime_yaze](https://t.me/catime_yaze) — 每小時自動發圖
-📦 **PyPI：** [catime](https://pypi.org/project/catime/)
-🧩 **OpenClaw 技能：** `clawhub install catime`
+- 🌐 **相簿：** [greenqqq.github.io/catime](https://greenqqq.github.io/catime/)
+- 📘 **Facebook：** [lphotoimpact](https://www.facebook.com/lphotoimpact/)
+- 🐙 **GitHub：** [greenQQQ](https://github.com/greenQQQ)
 
-> 📖 其他語言：[English](README.en.md) | [日本語](README.ja.md)
+> 📖 Other languages: [English](README.en.md)
 
 ## 贊助
 
-如果你喜歡 catime，歡迎透過 [Buy Me a Coffee](https://buymeacoffee.com/yazelin) 贊助本專案 ☕
+喜歡貓咪時光的話，歡迎 [🧋 請我喝珍奶](https://greenqqq.bobaboba.me/)！
 
-所有贊助收入將用於 API 費用、運算資源與專案維護。詳見 [SPONSORS.md](SPONSORS.md)。
+## 常駐角色
 
-## 安裝與使用
+相簿裡有固定出場的貓咪角色，各有外型與個性：
 
-```bash
-pip install catime
-```
+- **QQQ** — 圓滾滾的橘貓，貪吃憨厚，聽到罐頭聲移動速度超越物理極限（本喵真實存在）
+- **布藍里（Blanli）** — 翠綠眼睛的虎斑貓，高冷觀察家，溫柔藏在細節裡（本喵真實存在）
+- **雪球（Snowball）** — 藍寶石眼睛的布偶貓，貓咪咖啡廳的人氣小公主
+- **奧利奧（Oreo）** — 穿燕尾服的賓士貓，巷子裡最有名的紳士搗蛋鬼
+- **花花（Huahua）** — 據說會帶來好運的三花貓，哪裡熱鬧去哪裡
 
-```bash
-catime                     # 顯示貓咪總數
-catime latest              # 查看最新的貓
-catime 42                  # 查看第 42 號貓
-catime today               # 列出今天的貓
-catime yesterday           # 列出昨天的貓
-catime 2026-01-30          # 列出某天的所有貓
-catime 2026-01-30T05       # 查看某小時的貓
-catime --list              # 列出所有貓
-catime view                # 在瀏覽器開啟貓咪圖庫（localhost:8000）
-catime view --port 3000    # 自訂連接埠
-```
-
-不安裝直接執行：
-
-```bash
-uvx catime latest
-```
+角色圖鑑：[greenqqq.github.io/catime/character.html](https://greenqqq.github.io/catime/character.html)
 
 ## 運作原理
 
 | 元件 | 說明 |
 |------|------|
-| **圖片生成** | 可切換。預設：[nanobanana-py](https://pypi.org/project/nanobanana-py/) 搭配 `gemini-3-pro-image-preview`（備用：`gemini-2.5-flash-image`）。選用：自架的 `codex-image-service`（OpenAI Codex CLI 後端 + FastAPI），把 repo variable `CAT_IMAGE_GENERATOR` 設成 `codex` 就會切換。 |
+| **圖片生成** | `gpt-image-2`，透過本機 [codex-image-service](https://github.com/yazelin/codex-image-service)（Codex CLI + FastAPI），使用 ChatGPT 訂閱額度（`CAT_IMAGE_FALLBACK=none`，不退回 Gemini 生圖） |
+| **文字構思** | Google Gemini（新聞搜尋 + 靈感 + prompt 撰寫），新聞附來源連結 |
 | **圖片存放** | GitHub Release assets |
-| **貓咪圖庫** | 每月 GitHub issue（自動建立） |
-| **元資料** | repo 中的 `catlist.json` |
-| **網頁圖庫** | [GitHub Pages](https://yazelin.github.io/catime/) 瀑布流排版 |
-| **排程** | GitHub Actions cron，每小時執行 |
+| **月度相簿** | GitHub issue（自動建立） |
+| **元資料** | repo 中的 `catlist.json` 與 `cats/*.json` |
+| **網頁相簿** | [GitHub Pages](https://greenqqq.github.io/catime/) 瀑布流排版 |
+| **排程** | 本機 Windows 工作排程器每小時執行（`scripts/generate_cat.py`） |
 
-## 角色
+## 致謝
 
-catime 有固定出場的貓咪角色，各有獨特的外型與個性：
+本專案基於 [**yazelin/catime**](https://github.com/yazelin/catime) 改造而成，包括整體架構、生成管線、網頁相簿與 [codex-image-service](https://github.com/yazelin/codex-image-service)。由衷感謝原作者 [@yazelin](https://github.com/yazelin) 的無私開源分享 ❤️
 
-- **墨墨（Momo）** — 優雅的純黑短毛貓，金琥珀色眼睛，左耳戴小金耳環
-- **Captain** — 身經百戰的橘色虎斑冒險家，左耳有缺口
-- **麻糬（Mochi）** — 圓滾滾的奶油白波斯貓，永遠一臉想睡
-- **鈴鈴（Lingling）** — 活潑好動的銀色虎斑幼貓，寶石藍眼睛
-
-## 自行架設
-
-1. Fork 或 clone 這個 repo
-2. 進 GitHub `Settings → Secrets and variables → Actions`，依你要用的後端加入對應的值
-
-### 預設（Gemini / nanobanana）必要
-
-| 種類 | 名稱 | 值 |
-|---|---|---|
-| Secret | `GEMINI_API_KEY` | Google AI Studio 的 key |
-| Secret | `GEMINI_WEB_BASE_URL` | _（選填）_ 自架的 gemini-web 代理，例如 `https://ching-tech.ddns.net/gemini-web` |
-| Secret | `TELEGRAM_BOT_TOKEN` | _（選填）_ 同步發到 Telegram 頻道 |
-
-設好之後 workflow 會自動建立月度 issue 與 `cats` release。
-
-### 選用：把「最後一步產圖」改走 codex-image-service
-
-跳過 nanobanana / Gemini 那步的產圖，改用自架的
-[`codex-image-service`](https://ching-tech.ddns.net/codex-image)（OpenAI Codex CLI 包在
-FastAPI 後面）。**前面的 Gemini 鏈（新聞 → 構圖 → 寫 prompt）完全不動**，只換最後「把
-prompt 變成像素」這一步。
-
-| 種類 | 名稱 | 值 |
-|---|---|---|
-| Secret | `CODEX_IMAGE_KEY` | 從 codex-image-service admin 後台發出來的 `cimg_*` |
-| Secret | `CODEX_IMAGE_BASE_URL` | `https://ching-tech.ddns.net/codex-image`（或你自己的部署） |
-| Variable | `CAT_IMAGE_GENERATOR` | 設成 `codex` 才會切過去；留空或 `nanobanana` 保持 Gemini |
-| Variable | `CODEX_IMAGE_MODEL_LABEL` | _（選填）_ gallery 紀錄裡的 `model` 欄要顯示什麼。預設 `gpt-image-2 (codex-image-service / $imagegen)`。 |
-
-底層其實是 Codex CLI 的 `$imagegen` skill 在跑內建的 `image_gen` 工具，預設模型是
-**`gpt-image-2`**，吃的是主機 ChatGPT 訂閱的配額而不是 OpenAI Images API。要是
-你改了底層或想換個標籤，設 `CODEX_IMAGE_MODEL_LABEL` 之後新的貓記錄就會用新名字。
-
-切換後端只要在 GitHub UI 改 `CAT_IMAGE_GENERATOR` 這個 repository variable，**不用
-commit**。
-
-`CAT_IMAGE_GENERATOR=codex` 時若 codex backend 掛掉（key 吊銷、服務下線、超時、網
-路問題等等），腳本會**自動退回 nanobanana / Gemini**，那個整點還是出得了貓。退回的記錄
-會把 gallery entry 的 `model` 欄寫成 `<gemini 模型> (fallback from codex: <錯誤原因>)`，讓
-你之後追得到當時為什麼退；只有當兩條路都掛時，那一筆才會標 `failed`、workflow 紅燈。
-
-吊銷的 key 回 `403`、沒帶 key 回 `401`；隨時可以從 codex-image-service 後台 Disable 或 Delete。
+原專案的相簿內容（貓咪圖片、角色）均已在本 fork 中移除並重新開始，本站所有貓咪圖片皆為本帳號自行生成。
 
 ## 授權
 
-MIT
+MIT License（沿用原專案授權，見 [LICENSE](LICENSE)）

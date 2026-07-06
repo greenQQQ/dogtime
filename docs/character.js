@@ -8,8 +8,8 @@
     return;
   }
 
-  var charUrl = 'https://raw.githubusercontent.com/yazelin/catime/main/characters/' + encodeURIComponent(charId) + '.json';
-  var catlistUrl = 'https://raw.githubusercontent.com/yazelin/catime/main/catlist.json';
+  var charUrl = 'https://raw.githubusercontent.com/greenQQQ/catime/main/characters/' + encodeURIComponent(charId) + '.json';
+  var catlistUrl = 'https://raw.githubusercontent.com/greenQQQ/catime/main/catlist.json';
 
   Promise.all([
     fetch(charUrl).then(function (r) { if (!r.ok) throw new Error('Character not found'); return r.json(); }),
@@ -25,7 +25,7 @@
   });
 
   function renderProfile(c) {
-    document.title = (c.name.en || c.id) + ' - Catime Character';
+    document.title = (c.name.zh || c.name.en || c.id) + ' - 貓咪時光角色圖鑑';
 
     document.getElementById('char-name').innerHTML =
       '<img class="char-name-avatar" src="avatars/' + esc(c.id) + '.webp" alt="" width="56" height="56">' +
