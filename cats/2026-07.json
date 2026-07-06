@@ -319,5 +319,67 @@
     ],
     "number": 8,
     "idea": "以雙重曝光呈現米蘭斯卡拉歌劇院黑金化妝間的鏡子自拍構圖：鏡中映出一隻黑色長毛臘腸犬正叼著細毛刷，把低音提琴盒旁的松香碎屑掃進金色小鏟，牠蓬鬆絨毛般的毛質被蝴蝶光壓出柔亮鼻影，身形與鏡中疊映的金色觀眾席交融。"
+  },
+  {
+    "news_inspiration": [
+      {
+        "summary": "巴黎高級訂製服週今日登場，30個品牌齊聚並帶來多位設計師首秀，成為本週最具視覺張力的時尚焦點。",
+        "url": "https://www.vogue.com/article/paris-couture-week-cheat-sheet-fall-winter-2026",
+        "source": "Vogue"
+      },
+      {
+        "summary": "Marta Kostyuk直落二晉級個人生涯首個溫網八強，賽後真摯慶祝也讓球迷印象深刻。",
+        "url": "https://timesofindia.indiatimes.com/sports/international-sports/world-no-13-marta-kostyuk-marches-into-first-wimbledon-quarterfinal-her-special-celebration-after-beating-american-star-ashlyn-krueger-wins-hearts/articleshow/132216735.cms",
+        "source": "The Times of India"
+      },
+      {
+        "summary": "Boston Dynamics的人形機器人Atlas現身世界盃賽場遞交比賽用球，讓足球與機器人科技有了超現實同框。",
+        "url": "https://www.businessinsider.com/humanoid-robot-world-cup-match-ball-norway-brazil-boston-dynamics-2026-7",
+        "source": "Business Insider"
+      },
+      {
+        "summary": "蘇格蘭新Center Parcs度假村公布首個職缺為資深保育巡護員，強調在開發初期就把生物多樣性納入核心。",
+        "url": "https://www.thescottishsun.co.uk/money/16498450/first-job-unveiled-scotland-new-center-parcs-resort/",
+        "source": "The Scottish Sun"
+      },
+      {
+        "summary": "南澳「Little Sporting Legend」活動聚焦57位充滿毅力與運動精神的兒童選手，展現基層體育的溫暖能量。",
+        "url": "https://www.adelaidenow.com.au/entertainment/competitions/south-australias-little-sporting-legend-of-2026-competition-nominations-now-open/news-story/a9122512c4f6c69672407a5fcb839b13",
+        "source": "The Advertiser"
+      }
+    ],
+    "story": "小嗚本來只是聞到球上有草地味，下一秒就認定那顆球會自己逃跑。牠一邊用全身煞車一邊發出長篇辯解，彷彿在告訴通道裡的球員與機器人：我沒有搗亂，是這顆球先挑釁我。",
+    "number": 9,
+    "inspiration": "Boston Dynamics的人形機器人Atlas現身世界盃賽場遞交比賽用球，讓足球與機器人科技有了超現實同框。",
+    "character_name": "小嗚",
+    "title": "嗚追螢球",
+    "character": "wuwu",
+    "style_picks": {
+      "art_style": "Cross Processing",
+      "composition": "Full-Bleed Frame Fill",
+      "lighting": "Blacklight / UV Glow",
+      "texture": "Wireframe Overlay",
+      "color_palette": "Earth Tones"
+    },
+    "prompt": "Real cross-processed sports photography, full-bleed frame-filling close-up inside a World Cup stadium players' tunnel: Wuwu, a literal four-legged Siberian Husky, is sprinting low against the floor while braking hard, goofy crooked open-mouth husky grin as if howling excuses, chasing a fluorescent match ball just handed forward by Atlas in the background. Wuwu has only classic black-grey #3C4148 and snow-white #FFFFFF husky mask markings, crisp symmetrical mask, white face center, muzzle, chest, belly and legs, dark saddle over back and head-top, both eyes striking ice-blue #7EC3E8, upright ears with white inner fluff, fluffy double coat, big brush tail, athletic medium-large build, no collar, no harness, no accessories. 35mm lens, low ground-level tracking angle, f/2.0, fast shutter, slight motion blur on paws and flying grass, gritty film grain, harsh heightened contrast, subject cropped to the edges with no empty margin. UV blacklight illumination makes the ball seams, grass scraps, and fur edges glow with fluorescent neon outlines; a projected translucent technical wireframe grid and geometric mesh lines skim across the dog and ball like a see-through blueprint effect. Earth-tone tunnel walls in terracotta, olive green, and warm brown are stained with mud marks and shifted into strange retro cross-processing color casts. Background football players and robots may be visible, but Wuwu remains a normal dog. The exact text \"2026-07-06 14:35 UTC\" is clearly displayed in English on a glowing tunnel scoreboard or wall timestamp sign. Do not show red husky, brown husky, all-white husky, brown eyes, heterochromia, floppy ears, short coat, thin tail, small dog, malamute bulk, collar, harness, bandana, clothing, leash, anthropomorphic dog, dog with human body, human hands, standing upright like a person, humanoid dog, furry character, mascot costume, or human face. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "comment_id": 4894078570,
+    "avoid_list": [
+      "日期時間招牌入鏡",
+      "可愛狗狗享受美好一天",
+      "正面平視端坐構圖",
+      "高角度移軸微縮場景",
+      "狗狗前爪壓住物件",
+      "短腿拼命挖沙動作",
+      "月夜靛藍老店門口",
+      "暖光從室內灑出",
+      "倫勃朗斜射戲劇光",
+      "金箔潑點與蒸氣閃光",
+      "粉筆黑板插畫質感",
+      "不透明水彩霧面質感",
+      "白色胸口臉頰特寫焦點",
+      "無配件無擬人負面約束"
+    ],
+    "inspiration_url": "https://www.businessinsider.com/humanoid-robot-world-cup-match-ball-norway-brazil-boston-dynamics-2026-7",
+    "idea": "交叉沖洗攝影風格的滿版特寫：世界盃球場的球員通道裡，小嗚這隻黑白面具紋、冰藍眼睛的哈士奇正貼地衝刺，歪嘴嗚嗚追著Atlas剛遞出的螢光比賽用球，UV黑光讓球縫、草屑和牠毛邊泛出線框透明質感，大地色牆面與泥痕被沖洗成怪誕偏色。"
   }
 ]
