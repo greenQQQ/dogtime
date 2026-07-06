@@ -821,5 +821,39 @@
       "柔和粉彩加莫蘭迪色調",
       "狗協助人類修正混亂"
     ]
+  },
+  {
+    "comment_id": 4898603538,
+    "story": "暴雨把巷口淹成一面黑紅色的水鏡，店裡臨時停電，只剩炭火和補光燈照著料理台。那隻常在市場巡遊的杜賓犬沒有討食，而是安靜守在滴水的門邊，像在替今晚最後一份鰻魚飯判斷火候。師傅笑著把紫蘇葉放回砧板，牠卻先一步叼住，彷彿知道這一口香氣才是雨夜的印章。",
+    "inspiration": "original",
+    "title": "雨爐守味",
+    "news_inspiration": [],
+    "idea": "濕身水花空靈人像風格的滿版特寫：一隻全身濕透的黑色杜賓犬趴在台北舊式鰻魚飯店的紅漆料理台前，正專注看著師傅用長筷翻動炭火上的鰻魚，牠嘴邊叼著一片落下的紫蘇葉。三點打光讓緋紅爐火、烏黑毛色與地面鏡面水反射交疊成近乎肖像般的張力。",
+    "number": 18,
+    "prompt": "Real cinematic wet-splash portrait photograph, full-bleed frame-filling close-up of a soaking wet black Doberman lying at the red lacquer cooking counter of an old Taipei unagi rice restaurant, clearly watching a chef use long chopsticks to turn eel over glowing charcoal, the dog holding a fallen purple shiso leaf at the side of its mouth. Flooded rainy alley visible beyond the doorway, floor covered in glassy mirror-like water reflecting the dog, crimson fire, counter, and chef in a subtle symmetrical inverted image with small ripples. Dense edge-to-edge detail, subject cropped to the edges with no empty margin, immersive overwhelming scale. Classic three-point lighting: soft key light with gentle shadows, low fill light, subtle rim light separating wet black fur from the background; crimson charcoal glow against jet-black fur, dramatic high contrast, seductive sinister rainy-night mood, dreamy backlit glow, dewy glistening fur, suspended water droplets and splashes, fresh aquatic atmosphere. Shot like a real photograph with a 35mm lens, f/1.8, shallow depth of field, natural film grain, candid documentary food-stall realism. The exact text \"2026-07-06 23:35 UTC\" must be clearly visible in English on a small illuminated digital clock or timestamp placard mounted above the red counter; any other visible signage must use Traditional Chinese or English only. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "avoid_list": [
+      "狗用前爪輕輕撥開沙粒",
+      "狗用鼻尖或前爪推動物件",
+      "鏡子自拍後台構圖",
+      "可讀 UTC 時間標籤",
+      "繁體中文與英文文字限制",
+      "月夜靛藍冷色場景",
+      "金色裝飾與黑色背景",
+      "低光斜射輪廓光",
+      "復古褪色電影質感",
+      "高級時尚或劇院後台",
+      "考古現場清理陶片",
+      "太空科學實驗室與校色絲帶",
+      "俯瞰地圖式場景",
+      "柔和粉彩加莫蘭迪色調",
+      "狗協助人類修正混亂"
+    ],
+    "style_picks": {
+      "art_style": "Wet-Splash Ethereal Portrait",
+      "composition": "Full-Bleed Frame Fill",
+      "lighting": "Three-Point Lighting",
+      "texture": "Mirror Water Reflection",
+      "color_palette": "Crimson and Black"
+    }
   }
 ]
