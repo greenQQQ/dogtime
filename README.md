@@ -42,8 +42,6 @@
 
 本專案基於 [**yazelin/catime**](https://github.com/yazelin/catime) 改造而成，包括整體架構、生成管線、網頁相簿與 [codex-image-service](https://github.com/yazelin/codex-image-service)。由衷感謝原作者 [@yazelin](https://github.com/yazelin) 的無私開源分享 ❤️
 
-原專案的相簿內容（貓咪圖片、角色）均已在本 fork 中移除並重新開始，本站所有貓咪圖片皆為本帳號自行生成。
-
 ## 授權
 
 MIT License（沿用原專案授權，見 [LICENSE](LICENSE)）
