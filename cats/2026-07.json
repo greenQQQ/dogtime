@@ -126,5 +126,55 @@
     },
     "character_name": "麻吉",
     "character": "machi"
+  },
+  {
+    "number": 5,
+    "story": "秀前最後三分鐘，裁縫師發現腰封缺了一段淡金緞帶，靈緹犬卻早已從散落的布料堆裡嗅出正確那捲。牠穿梭在低垂裙襬與高跟鞋之間，把緞帶推到鏡前，讓自拍中的混亂瞬間像一場即興高訂儀式。",
+    "news_inspiration": [
+      {
+        "summary": "巴黎高級訂製服週登場，30個時裝品牌帶來新秀首秀、珠寶發表與視覺感十足的時尚展演。",
+        "url": "https://www.vogue.com/article/paris-couture-week-cheat-sheet-fall-winter-2026",
+        "source": "Vogue"
+      },
+      {
+        "summary": "2026世界盃16強葡萄牙對西班牙成為今日焦點，C羅預計領軍出戰這場備受矚目的淘汰賽。",
+        "url": "https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/will-cristiano-ronaldo-play-tonight-vs-spain-latest-update-on-the-portugal-captains-injury-report-for-fifa-world-cup-2026-r16-july-6-2026/articleshow/132214329.cms",
+        "source": "The Times of India"
+      },
+      {
+        "summary": "研究人員在墨西哥確認全新的化石蠑螈物種，為墨西哥鈍口螈的古老演化史補上重要拼圖。",
+        "url": "https://www.wired.com/story/scientists-have-identified-a-new-fossil-species-of-axolotl-in-mexico",
+        "source": "WIRED"
+      }
+    ],
+    "prompt": "Watercolor fashion illustration in a glossy magazine sketch style: a mirror selfie composition inside a Paris haute couture week backstage fitting room, intimate close-up framing with the mirror dominating the scene. Under flat overhead fluorescent lighting, neutral white 5000K, no dramatic shadows, a four-legged slender greyhound clearly pushes a pale gold satin ribbon roll forward with the tip of its nose, nudging it beside a vintage suitcase toward a focused tailor at the mirror. In the reflection: elongated stylish couture models, flowing gowns rendered in loose pigment, a jewelry tray, scattered fabric, low skirt hems and high heels creating show-before-chaos energy. Add splattered ink accents, soft washed watercolor edges, retro faded color palette, low contrast nostalgic film-era warmth. Around the image edges, gold leaf ornamental clouds inspired by traditional East Asian auspicious cloud motifs, embossed metallic finish, curling swirl patterns, luxurious gilt texture on a dark ground. Visibly display the exact text \"2026-07-06 10:35 UTC\" on a small backstage mirror timestamp sticker or phone-screen overlay, crisp and readable. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "inspiration": "巴黎高級訂製服週登場，30個時裝品牌帶來新秀首秀、珠寶發表與視覺感十足的時尚展演。",
+    "style_picks": {
+      "art_style": "Watercolor Fashion Illustration",
+      "composition": "Mirror Selfie Composition",
+      "lighting": "Fluorescent Lighting",
+      "texture": "Gold Leaf Cloud Ornament",
+      "color_palette": "Retro Faded Tones"
+    },
+    "inspiration_url": "https://www.vogue.com/article/paris-couture-week-cheat-sheet-fall-winter-2026",
+    "idea": "水彩時尚插畫描繪巴黎高級訂製服週後台試衣間的鏡子自拍構圖：螢光燈下，一隻四腳靈緹犬正用鼻尖把復古行李箱旁的緞帶捲推向裁縫師，鏡中映出模特、珠寶托盤與金箔祥雲般漂浮在畫面邊緣的裝飾紋樣，整體是復古褪色色調。",
+    "comment_id": 4891869211,
+    "title": "鏡中雲裁",
+    "avoid_list": [
+      "日期時間招牌入鏡",
+      "可愛狗狗享受美好一天",
+      "正面平視端坐構圖",
+      "高角度移軸微縮場景",
+      "狗狗前爪壓住物件",
+      "短腿拼命挖沙動作",
+      "月夜靛藍老店門口",
+      "暖光從室內灑出",
+      "倫勃朗斜射戲劇光",
+      "金箔潑點與蒸氣閃光",
+      "粉筆黑板插畫質感",
+      "不透明水彩霧面質感",
+      "白色胸口臉頰特寫焦點",
+      "無配件無擬人負面約束"
+    ]
   }
 ]
