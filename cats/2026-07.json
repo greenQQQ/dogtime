@@ -478,5 +478,58 @@
     ],
     "title": "靛窗小公主",
     "story": "拿鐵剛從美容院吹完毛，驕傲地坐上牠指定的窗邊座位，卻發現枕頭邊緣有一滴雨水。牠立刻抬頭挺胸，粉色小舌頭微露，用深棕圓眼哀怨地看著服務生，直到新的軟枕被送來才恢復公主姿態。"
+  },
+  {
+    "comment_id": 4895837763,
+    "avoid_list": [
+      "鏡子自拍構圖",
+      "後台化妝間場景",
+      "清楚顯示 UTC 時間戳",
+      "金箔與金色點綴",
+      "傳統中文或英文文字限制",
+      "倫勃朗或蝴蝶光戲劇打光",
+      "狗叼著工具或物件執行任務",
+      "小型道具整齊排列",
+      "科學實驗室與太空訓練場景",
+      "移軸微縮透視",
+      "低角度動態追逐",
+      "高級時尚或表演後台",
+      "螢光邊緣與線框效果",
+      "復古膠片顆粒與褪色色調",
+      "禁止擬人化狗狗負面詞"
+    ],
+    "idea": "新藝術風格的月夜湖邊碼頭上，黃金獵犬阿金趴在朱紅欄杆旁，溫柔深棕眼睛望著怕生的小貓，前爪以強制透視伸向畫面前方，把一角藍白絞染毯慢慢推過去；牠寬闊微笑的臉、深金垂耳、胸前金圍巾般長毛與蓬鬆旗幟尾巴成為畫面主角，天空有漸虧眉月、昴宿星團與低掛火星。",
+    "character": "ajin",
+    "news_inspiration": [
+      {
+        "summary": "本週末清晨，漸虧眉月將掠過昴宿星團「七姊妹」，火星也會低掛附近，形成適合雙筒望遠鏡觀賞的天象。",
+        "url": "https://www.theguardian.com/science/2026/jul/06/starwatch-waning-crescent-moon-pairs-up-with-the-seven-sisters",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "史密森尼國家航空太空博物館新展回顧 NASA 與藝術家的合作，展出從洛克威爾到勞森伯格如何把飛行與太空想像變成視覺藝術。",
+        "url": "https://www.theguardian.com/artanddesign/2026/jul/06/smithsonian-space-museum-exhibition",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "大坂直美在溫布頓以亮眼造型與強勢球風直落二擊敗世界球后莎芭蓮卡，首次闖進溫網八強。",
+        "url": "https://www.theguardian.com/sport/2026/jul/05/osaka-inspired-win-over-sabalenka-wimbledon-2026-tennis",
+        "source": "The Guardian"
+      }
+    ],
+    "story": "清晨前的碼頭很安靜，小貓躲在繩柱後不敢靠近人群，阿金便一動不動陪牠等星星落下。牠沒有急著叼禮物，只用前爪把暖毯推近一點，尾巴在月光裡搖成柔軟的弧線。",
+    "title": "月橋贈毯",
+    "character_name": "阿金",
+    "inspiration_url": "https://www.theguardian.com/science/2026/jul/06/starwatch-waning-crescent-moon-pairs-up-with-the-seven-sisters",
+    "inspiration": "本週末清晨，漸虧眉月將掠過昴宿星團「七姊妹」，火星也會低掛附近，形成適合雙筒望遠鏡觀賞的天象。",
+    "prompt": "Art Nouveau gouache and ink illustration with flowing organic curves, ornamental floral border, Mucha-inspired linework, vermilion lacquer railings with restrained metallic-gold outlines. On a quiet moonlit lakeside dock before dawn, A-gin is a literal large four-legged Golden Retriever lying beside a cinnabar-red railing, warm golden #D9A85C medium-long coat, feathered chest/legs/tail, slightly darker floppy ears, broad kind smiling face, gentle dark brown #5A4028 eyes, sturdy relaxed body, no collar, no accessories. Forced perspective composition: A-gin’s front paws are exaggeratedly foreshortened toward the viewer as he slowly pushes one corner of an indigo blue-and-white Shibori resist-dyed blanket forward to a shy small kitten hiding behind a rope post. His natural chest feathering looks like a golden scarf shape but is fur only; his big feathered plume tail curves softly in silvery moonlight. Sky shows a waning crescent moon, the Pleiades star cluster, and low-hanging Mars over cool blue lake reflections. Gentle silver glow, cool blue tones balanced with vermilion and gilt warmth, quiet nighttime atmosphere. Include the exact visible English text “2026-07-06 17:35 UTC” engraved on a small brass plaque attached to the dock railing, clearly readable. Avoid: cream-white coat, dark red coat, short labrador coat, upright ears, blue eyes, thin or small dog, curly poodle fur, black fur, collar, bandana, clothing, leash, anthropomorphic dog, human hands, humanoid character. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "number": 12,
+    "style_picks": {
+      "art_style": "Art Nouveau",
+      "composition": "Forced Perspective Reach",
+      "lighting": "Moonlight",
+      "texture": "Shibori Textile",
+      "color_palette": "Vermilion and Gilt"
+    }
   }
 ]
