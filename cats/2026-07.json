@@ -231,5 +231,60 @@
       }
     ],
     "comment_id": 4892355878
+  },
+  {
+    "news_inspiration": [
+      {
+        "summary": "NASA發布紅白藍宇宙影像，讓超新星殘骸、星雲與星系團成為兼具科學與視覺震撼的太空慶典。",
+        "url": "https://www.livescience.com/space/astronomy/nasa-celebrates-americas-250th-birthday-with-red-white-and-blue-snaps-of-the-cosmos-space-photo-of-the-week",
+        "source": "Live Science"
+      },
+      {
+        "summary": "中國新創正加速研發靈巧機器手，從人形機器人到低價義肢都可能因此更接近實用化。",
+        "url": "https://www.theguardian.com/technology/ng-interactive/2026/jul/06/china-dextrous-robotic-hands-humanoid",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "大阪直美在溫網擊敗世界第一 Sabalenka 晉級八強，並把媽媽的日本料理幽默稱為自己的秘密武器。",
+        "url": "https://nypost.com/2026/07/05/sports/naomi-osaka-credits-moms-food-for-aryna-sabalenka-wimbledon-upset/",
+        "source": "New York Post"
+      },
+      {
+        "summary": "英國本週娛樂與藝文活動從展覽、芭蕾、音樂到遊戲都有亮點，呈現一份多彩的夏季文化清單。",
+        "url": "https://www.theguardian.com/culture/2026/jul/04/entertainment-week-ahead-minions-monsters-madonna-little-house-prairie-assassins-black-flag",
+        "source": "The Guardian"
+      }
+    ],
+    "prompt": "Hand-drawn infographic illustration on an aged silk scroll surface: an ultra-wide 12-18mm dramatic perspective view inside the Houston Space Center image color-calibration laboratory. A gray-white sheepdog clearly runs across a floor-sized star map, gripping pastel color-calibration ribbons in its mouth, pulling them into labeled route lines that connect to a red, white, and blue supernova remnant image on the wall. Small Traditional Chinese and English annotation boxes mark the dog’s turns and color-layer corrections, with the date/time visibly displayed as “2026-07-06 12:35 UTC” on a lab wall label. Paper texture background, visible silk weave, weathered stains, delicate crease lines, calligraphy brush strokes, warm sepia patina, soft pastel pink, lavender, mint, and baby blue accents. Backlighting creates rim light around the dog’s fur and instrument edges, glowing like fine diagram lines, expansive field of view, dynamic motion, scientific manuscript mood. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "comment_id": 4892900321,
+    "story": "研究員把錯亂的宇宙影像資料鋪成一條長長的地面星河，牧羊犬憑嗅覺追著臭氧味與熱紙味，停在每個需要修正的色層旁低吠。當牠最後把絲帶拖到星雲中心，整面牆的圖像像一張活的科學海圖展開，旁邊的小註解框記錄著牠的每一次轉彎。",
+    "idea": "手繪信息圖風格的超廣角古絹絹本畫面中，一隻灰白牧羊犬在休士頓太空中心的影像校色實驗室裡，叼著粉彩色校色絲帶沿著地面星圖奔跑，替牆上紅白藍超新星殘骸影像拉出標註路徑；背光輪廓光讓牠的毛邊與儀器邊緣像細線圖例般發亮。",
+    "style_picks": {
+      "art_style": "Hand-drawn Infographic",
+      "composition": "Ultra Wide Angle",
+      "lighting": "Backlighting / Rim Light",
+      "texture": "Aged Silk Scroll",
+      "color_palette": "Pastel Colors"
+    },
+    "inspiration_url": "https://www.livescience.com/space/astronomy/nasa-celebrates-americas-250th-birthday-with-red-white-and-blue-snaps-of-the-cosmos-space-photo-of-the-week",
+    "title": "絲帶星圖",
+    "avoid_list": [
+      "日期時間招牌入鏡",
+      "可愛狗狗享受美好一天",
+      "正面平視端坐構圖",
+      "高角度移軸微縮場景",
+      "狗狗前爪壓住物件",
+      "短腿拼命挖沙動作",
+      "月夜靛藍老店門口",
+      "暖光從室內灑出",
+      "倫勃朗斜射戲劇光",
+      "金箔潑點與蒸氣閃光",
+      "粉筆黑板插畫質感",
+      "不透明水彩霧面質感",
+      "白色胸口臉頰特寫焦點",
+      "無配件無擬人負面約束"
+    ],
+    "inspiration": "NASA發布紅白藍宇宙影像，讓超新星殘骸、星雲與星系團成為兼具科學與視覺震撼的太空慶典。",
+    "number": 7
   }
 ]
