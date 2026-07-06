@@ -32,5 +32,63 @@
     },
     "story": "一隻可愛的狗狗正在享受美好的一天。",
     "number": 1
+  },
+  {
+    "inspiration_url": "https://www.theguardian.com/world/2026/jul/04/archaeologists-uncover-ancient-byzantine-city-in-egypts-western-desert",
+    "comment_id": 4890791709,
+    "idea": "粉筆畫風格的移軸微縮畫面裡，布丁在社區中庭改造成的「柯基考古沙坑」用小短腿拼命刨開竹影翠綠遮棚下的沙土，旁邊一排被牠自己排好的玩具鏟子與生鏽小鐵桶像迷你發掘隊；倫勃朗光從廊柱斜照在牠橘紅白相間的狐狸臉、超大立耳、白色圍脖與搖擺蜜桃屁股上。",
+    "number": 3,
+    "story": "布丁堅信自己是大型犬考古隊長，只是腿在探險路上短了一截，所以牠用最快的小短腿挖出一枚「古代餅乾形狀石頭」。孩子們圍在沙坑邊鼓掌時，牠立刻興奮柯基趴，屁股還得意地左右搖，彷彿剛揭開一座失落城市的秘密。",
+    "news_inspiration": [
+      {
+        "summary": "巴黎高級訂製時裝週秋冬2026今日登場，30個品牌參與並有多位設計師迎來備受矚目的首秀。",
+        "url": "https://www.vogue.com/article/paris-couture-week-cheat-sheet-fall-winter-2026",
+        "source": "Vogue"
+      },
+      {
+        "summary": "德約科維奇在溫網擊敗薩菲烏林，創下第17次晉級溫網八強與第66次大滿貫八強的新紀錄。",
+        "url": "https://www.theguardian.com/sport/2026/jul/05/novak-djokovic-roman-safiullin-wimbledon-2026-last-16-match-report-tennis",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "本週科學亮點包括詹姆斯韋伯太空望遠鏡在冥王星與土衛六大氣中偵測到前所未見的神祕物質。",
+        "url": "https://www.livescience.com/space/science-news-this-week-james-webb-telescope-finds-a-never-before-seen-substance-chinas-great-green-wall-grows-faster-than-natural-trees-and-a-medici-murder-mystery-is-solved",
+        "source": "Live Science"
+      },
+      {
+        "summary": "考古學家在埃及西部沙漠發現保存良好的拜占庭時期古城，街道、教堂、工具與錢幣揭開1600年前日常生活面貌。",
+        "url": "https://www.theguardian.com/world/2026/jul/04/archaeologists-uncover-ancient-byzantine-city-in-egypts-western-desert",
+        "source": "The Guardian"
+      }
+    ],
+    "style_picks": {
+      "art_style": "Chalk Art",
+      "composition": "Tilt-Shift Miniature",
+      "lighting": "Rembrandt Lighting",
+      "texture": "Rust / Weathered",
+      "color_palette": "Bamboo Jade Green"
+    },
+    "inspiration": "考古學家在埃及西部沙漠發現保存良好的拜占庭時期古城，街道、教堂、工具與錢幣揭開1600年前日常生活面貌。",
+    "title": "短腿考古隊",
+    "character": "pudding",
+    "character_name": "布丁",
+    "avoid_list": [
+      "貓爪輕觸古卷/物件",
+      "玻璃容器內微縮世界",
+      "水下焦散光影",
+      "柔焦霧面夢幻光暈",
+      "黑貓弓背",
+      "圖書館/書齋場景",
+      "描金墨線紋理",
+      "朱紅與留白對比",
+      "青橙電影調",
+      "強制透視構圖",
+      "圖像顯示日期時間",
+      "強調材質紋理細節",
+      "古風仙俠風格",
+      "巴洛克藝術風格",
+      "巨大圓頂/宏偉建築"
+    ],
+    "prompt": "Chalk art illustration on a dark green blackboard slate: a tilt-shift miniature scene of Pudding, a literal four-legged red-and-white Pembroke Welsh Corgi, frantically digging sand with very short sturdy legs inside a community courtyard “Corgi Archaeology Sandpit” under a jade-green bamboo-shadow canopy. Pudding has a long loaf-shaped body, warm orange-red #D98243 and white coat, white collar ruff, white chest and belly, four white socks, a thin white blaze up the nose bridge, oversized upright triangular ears, big round bright brown #6B4423 eyes, happy cheeky corgi grin, no collar, no accessories, no tail or only a tiny stub, and a round peach-shaped rump wiggling proudly in a corgi sploot pose. In the sand before the dog is an unearthed ancient cookie-shaped stone; beside the sandpit is a neat row of toy shovels and rusted small iron buckets with oxidized patina, peeling paint, warm orange-brown corrosion, like a tiny excavation team. Children stand blurred around the sandpit edge clapping in the background, never replacing the dog. Composition: miniature toy-like courtyard diorama, selective focus band across Pudding and the cookie stone, blurred foreground and background, high-angle tilt-shift view. Lighting: Rembrandt lighting from a single 45-degree beam through corridor columns, dramatic chiaroscuro, signature triangle of light on the shadowed cheek, warm highlights on the fox-like orange-white face, upright ears, white ruff, and peach rump. Color and technique: dusty matte colored chalk texture, visible hatching strokes, saturated emerald, malachite, bamboo jade-green tones with warm rust accents on dark green slate. Visually display the exact text “2026-07-06 08:35 UTC” in clear white chalk on a small blackboard sign at the sandpit edge. Negative constraints: no tricolor corgi, no black saddle marking, no long legs, no tall dog, no normal leg proportions, no long fluffy tail, no floppy ears, no blue eyes, no cardigan corgi tail, no thin body, no collar, no bandana, no clothing, no leash, no anthropomorphic dog, no dog with human body or human hands, no dog standing upright, no humanoid dog, no mascot costume, no dog with human face. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字)."
   }
 ]
