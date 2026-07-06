@@ -176,5 +176,60 @@
       "白色胸口臉頰特寫焦點",
       "無配件無擬人負面約束"
     ]
+  },
+  {
+    "number": 6,
+    "prompt": "Pixel art illustration, retro 8-bit style with crisp blocky pixels and a limited color palette. Full-body vertical portrait, entire ceramic search-and-rescue dog centered head-to-toe in a tall frame, clearly swimming underwater inside NASA Neutral Buoyancy Laboratory training module. The dog has a sculpted clay texture, handmade ceramic feel, matte surface, subtle imperfections, warm earthy tones, and is biting a fluorescent orange locator tether while swimming toward a robotic arm rehearsing repairs on the Swift space telescope model. Metal habitat walls, truss frames, drifting bubbles, and a tiny loose bolt floating into shadow add environmental context. Teal and orange film-style lighting, volumetric light rays cutting through water and bubbles, dramatic shadows, punchy balanced contrast, cool blue-green shadows against warm orange highlights. A waterproof English timestamp placard on the module wall clearly displays: \"2026-07-06 11:35 UTC\". IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "title": "橙繩星犬",
+    "story": "訓練員原本只讓牠辨認工具氣味，牠卻先發現一枚鬆脫的微型螺栓正飄進水下模型的陰影。機械臂停在半空，搜救犬拖著繩索繞過艙架，像替一顆老望遠鏡找回回家的路。",
+    "inspiration_url": "https://www.axios.com/2026/07/03/nasa-swift-rescue-mission",
+    "inspiration": "NASA 發射新型太空維修任務，準備用機械臂替老化的 Swift 太空望遠鏡升軌續命，可能開啟非對接衛星救援的新模式。",
+    "idea": "像素藝術全身居中直幅，一隻陶瓷質感的搜救犬在 NASA 中性浮力實驗室水下艙段裡，咬著螢橙色定位繩游向正在演練修復 Swift 太空望遠鏡的機械臂；青橙電影調燈光穿過氣泡與金屬艙壁。",
+    "avoid_list": [
+      "日期時間招牌入鏡",
+      "可愛狗狗享受美好一天",
+      "正面平視端坐構圖",
+      "高角度移軸微縮場景",
+      "狗狗前爪壓住物件",
+      "短腿拼命挖沙動作",
+      "月夜靛藍老店門口",
+      "暖光從室內灑出",
+      "倫勃朗斜射戲劇光",
+      "金箔潑點與蒸氣閃光",
+      "粉筆黑板插畫質感",
+      "不透明水彩霧面質感",
+      "白色胸口臉頰特寫焦點",
+      "無配件無擬人負面約束"
+    ],
+    "style_picks": {
+      "art_style": "Pixel Art",
+      "composition": "Full-Body Vertical Portrait",
+      "lighting": "Cinematic Lighting",
+      "texture": "Clay / Ceramic",
+      "color_palette": "Teal and Orange"
+    },
+    "news_inspiration": [
+      {
+        "summary": "巴黎高訂週今日登場，Balenciaga、Jean Paul Gaultier、Fendi 等品牌迎來新設計師與首次高訂亮相，為時裝界帶來一波視覺焦點。",
+        "url": "https://www.vogue.com/article/paris-couture-week-cheat-sheet-fall-winter-2026",
+        "source": "Vogue"
+      },
+      {
+        "summary": "英格蘭在世界盃 16 強以 3 比 2 擊敗墨西哥，Jude Bellingham 以 98 秒梅開二度刷新阿茲特克球場的歷史紀錄。",
+        "url": "https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/jude-bellingham-shatters-maradonas-40-year-azteca-record-with-lightning-98-second-brace-in-5-goal-thriller/articleshow/132206541.cms",
+        "source": "The Times of India"
+      },
+      {
+        "summary": "加拿大洛磯山脈被確認擁有基因獨特的西部蟾蜍族群，讓科學家看見熟悉地區仍藏有未被辨識的生物多樣性。",
+        "url": "https://timesofindia.indiatimes.com/science/this-toad-exists-only-in-canadaand-scientists-have-finally-discovered-why/articleshow/132178677.cms",
+        "source": "The Times of India"
+      },
+      {
+        "summary": "NASA 發射新型太空維修任務，準備用機械臂替老化的 Swift 太空望遠鏡升軌續命，可能開啟非對接衛星救援的新模式。",
+        "url": "https://www.axios.com/2026/07/03/nasa-swift-rescue-mission",
+        "source": "Axios"
+      }
+    ],
+    "comment_id": 4892355878
   }
 ]
