@@ -99,5 +99,16 @@
     "title": "沙城犬跡",
     "number": 10,
     "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-06_1535_UTC.webp"
+  },
+  {
+    "character_name": "拿鐵",
+    "status": "success",
+    "timestamp": "2026-07-06 16:35 UTC",
+    "number": 11,
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "inspiration": "original",
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-06_1635_UTC.webp",
+    "character": "latte",
+    "title": "靛窗小公主"
   }
 ]

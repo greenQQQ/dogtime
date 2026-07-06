@@ -442,5 +442,41 @@
     ],
     "story": "考古隊原本以為那只是普通碎陶，直到獵犬停下嗅聞，把鼻尖貼近一段半埋的街角石縫。牠沒有叼起任何東西，只是一再用爪尖推開沙粒，像替一座沉睡一千六百年的城指出回家的門。",
     "prompt": "Art Deco inspired photograph. A shallow depth-of-field close-up, intimate near-object framing, featuring a graceful sand-colored sighthound. The sighthound is the sharp subject against a creamy blurred background, its front paw delicately nudging fine desert sand away from ancient pottery fragments. This tactile scene unfolds on a geometric patterned surface, hinting at a luxurious gold and black aesthetic, inside a temporary protective shelter made of frosted glass, showcasing a translucent matte surface and diffused light transmission at a Byzantine ancient city excavation site in the Egyptian Western Desert. Outside the shelter, a blizzard-like sandstorm rages, creating a snowstorm atmospheric lighting effect. Visibility is obscured by heavy falling sand, veiling the fogged distance in cold blue-white hues. Through the frosted glass, high saturation peacock blue, coral red, and emerald green archaeological markers appear as soft, blurred, vivid shapes, creating eye-catching contrast and an energetic color feel. Muted diffused daylight within the shelter emphasizes tactile details of the dog's fur and the ancient ceramic fragments. The scene embodies 1920s elegance and luxurious symmetry in its design elements. The date and time '2026年7月6日 15:35 UTC' are visually displayed. Shot with a 35mm lens, f/1.8, using natural light, a candid shot emphasizing soft bokeh and fine grain. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字)."
+  },
+  {
+    "style_picks": {
+      "art_style": "Op Art",
+      "composition": "Head-and-Shoulders Portrait",
+      "lighting": "Window Light",
+      "texture": "Rust / Weathered",
+      "color_palette": "Moonlit Indigo"
+    },
+    "character_name": "拿鐵",
+    "comment_id": 4895301055,
+    "inspiration": "original",
+    "idea": "歐普藝術風格的頭肩特寫：拿鐵坐在由鏽蝕老電車改裝的月夜靛藍下午茶咖啡廳窗邊，杏紅色泰迪捲毛被窗邊柔光勾出圓蓬輪廓，正用前爪輕拍蕾絲坐墊上的小水滴，要求換一顆更軟的枕頭。背景的鐵鏽窗框與靛藍黑白視錯波紋交錯，讓牠像一朵不肯沾濕的拿鐵拉花。",
+    "prompt": "Op Art illustrated head-and-shoulders portrait of Latte, a literal small toy poodle sitting on all fours beside the window of a moonlit indigo afternoon-tea cafe built inside a rusted old tram. Latte has an even apricot-red #C98B5E coat of soft tight curls, signature round teddy-bear groom with extra-fluffy round head and rounded muzzle, floppy ears hidden in curls, small round black button nose, round dark-brown #4A3220 button eyes, tiny pink tongue peeking out, sweet bright slightly prideful expression; no collar, no bows, no clothing. Tight classic portrait composition, face filling the frame, intimate eye-level connection. The dog gently taps a tiny water droplet on a lace cushion with one front paw, looking upward with dignified complaint as if requesting a softer pillow. On the lace cushion beside the droplet, clearly readable embroidered text in English: \"2026-07-06 16:35 UTC\". Background: oxidized rusted tram window frame, peeling paint, warm orange-brown corrosion, intersecting indigo, black, and white optical illusion wave patterns with high-contrast repetition, abstract geometric Op Art vibration and movement, making Latte resemble a latte-art foam flower refusing to get wet. Lighting: soft directional daylight from a side window, gentle Vermeer-like illumination, smooth falloff into shadow, cool silvery moonlit highlights, deep night-blue and violet dominance with warm rust accents. Artistic medium: polished editorial gouache and ink illustration with clean graphic Op Art patterning, crisp shapes, delicate lace texture, expressive portrait detail. Negative constraints: no white poodle, no black poodle, no grey poodle, no show cut, no shaved muzzle, no pompom tail cut, no straight silky fur, no large standard poodle, no upright ears, no blue eyes, no bows, no ribbons, no collar, no dress, no clothing, no leash, no anthropomorphic dog, no human body, no human hands, no standing upright like a person, no humanoid dog, no furry character, no mascot costume, no human face. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "news_inspiration": [],
+    "number": 11,
+    "character": "latte",
+    "avoid_list": [
+      "鏡子自拍構圖",
+      "後台化妝間場景",
+      "清楚顯示 UTC 時間戳",
+      "金箔與金色點綴",
+      "傳統中文或英文文字限制",
+      "倫勃朗或蝴蝶光戲劇打光",
+      "狗叼著工具或物件執行任務",
+      "小型道具整齊排列",
+      "科學實驗室與太空訓練場景",
+      "移軸微縮透視",
+      "低角度動態追逐",
+      "高級時尚或表演後台",
+      "螢光邊緣與線框效果",
+      "復古膠片顆粒與褪色色調",
+      "禁止擬人化狗狗負面詞"
+    ],
+    "title": "靛窗小公主",
+    "story": "拿鐵剛從美容院吹完毛，驕傲地坐上牠指定的窗邊座位，卻發現枕頭邊緣有一滴雨水。牠立刻抬頭挺胸，粉色小舌頭微露，用深棕圓眼哀怨地看著服務生，直到新的軟枕被送來才恢復公主姿態。"
   }
 ]
