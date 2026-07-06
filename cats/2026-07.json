@@ -765,5 +765,61 @@
       "texture": "Pressed Botanical Layers",
       "color_palette": "Bamboo Jade Green"
     }
+  },
+  {
+    "inspiration": "英國外卡選手 Arthur Fery 在溫布頓五盤大戰爆冷擊敗 Dimitrov，延續本屆最驚奇的草地童話。",
+    "style_picks": {
+      "art_style": "Voxel / Minecraft Style",
+      "composition": "Mirror Selfie Composition",
+      "lighting": "Three-Point Lighting",
+      "texture": "Moss Overgrowth",
+      "color_palette": "Morandi Color Palette"
+    },
+    "story": "爆冷五盤大戰後，球場被雨後的苔蘚慢慢接管，只有這隻柯基還記得每顆球落下的位置。牠把最後一顆球放進老發球機時，機器吐出一枚草葉包裹的方塊球，像替童話續寫下一局。",
+    "news_inspiration": [
+      {
+        "summary": "NASA 公布哈伯望遠鏡拍下的 M3 球狀星團影像，50 萬顆古老恆星以紅白藍色調呈現，兼具科學與視覺震撼。",
+        "url": "https://timesofindia.indiatimes.com/science/nasas-hubble-captures-a-spectacular-cluster-of-500000-ancient-stars-to-mark-americas-250th-anniversary/articleshow/132217269.cms",
+        "source": "The Times of India"
+      },
+      {
+        "summary": "康乃狄克 Mystic Museum of Art 的夏季展覽以天鵝絨與時裝串起地方紡織史，展現工藝、奢華與現代設計的連結。",
+        "url": "https://www.ctinsider.com/living/article/ct-culture-corner-mystic-museum-luxe-textiles-22310851.php",
+        "source": "CT Insider"
+      },
+      {
+        "summary": "溫布頓新星 Alexandra Eala 雖敗給 Jasmine Paolini，仍以韌性與魅力贏得全球球迷關注。",
+        "url": "https://www.theguardian.com/sport/2026/jul/06/rising-star-alexandra-eala-wins-hearts-and-minds-but-falls-to-jasmine-paolini",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "英國外卡選手 Arthur Fery 在溫布頓五盤大戰爆冷擊敗 Dimitrov，延續本屆最驚奇的草地童話。",
+        "url": "https://www.theguardian.com/sport/live/2026/jul/06/wimbledon-2026-de-minaur-fery-and-keys-in-action-on-day-eight-live",
+        "source": "The Guardian"
+      }
+    ],
+    "comment_id": 4898258507,
+    "idea": "體素/我的世界風格的溫布頓舊練習草地球場，一隻四腳柯基正把散落的網球一顆顆叼進被苔蘚覆蓋的發球機，畫面由場邊破裂維修鏡形成鏡子自拍式構圖，三點打光落在莫蘭迪綠、灰白與淡土色方塊上。",
+    "title": "苔草第五盤",
+    "number": 17,
+    "inspiration_url": "https://www.theguardian.com/sport/live/2026/jul/06/wimbledon-2026-de-minaur-fery-and-keys-in-action-on-day-eight-live",
+    "prompt": "Minecraft-style voxel art 3D render of an old Wimbledon practice grass court after rain, slowly reclaimed by moss. In an intimate mirror selfie composition, the scene is seen through a cracked courtside maintenance mirror, with the mirror edge and fractures visible in the foreground and the reflection framing the action. A blocky four-legged corgi clearly carries scattered tennis balls one by one in its mouth, placing the final ball into an aged moss-covered tennis ball machine; the machine ejects a grass-leaf-wrapped cube-shaped tennis ball. Pixelated cubes, blocky textures, playful voxel modeling, damp grass, lush green organic overgrowth, soft living patina. Visually display the exact English timestamp \"2026-07-06 22:35 UTC\" on a small reflected courtside maintenance label or digital scoreboard. Classic three-point lighting: soft key light casting gentle shadows, muted fill light, subtle rim light separating the corgi and ball machine. Morandi muted color palette with desaturated greens, grey-white chalk lines, pale earth-toned blocks, dusty grey undertones, quiet elegant atmosphere, clean lighting, casual close-up framing, visible reflection. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "avoid_list": [
+      "狗用前爪輕輕撥開沙粒",
+      "狗用鼻尖或前爪推動物件",
+      "鏡子自拍後台構圖",
+      "可讀 UTC 時間標籤",
+      "繁體中文與英文文字限制",
+      "月夜靛藍冷色場景",
+      "金色裝飾與黑色背景",
+      "低光斜射輪廓光",
+      "復古褪色電影質感",
+      "高級時尚或劇院後台",
+      "考古現場清理陶片",
+      "太空科學實驗室與校色絲帶",
+      "俯瞰地圖式場景",
+      "柔和粉彩加莫蘭迪色調",
+      "狗協助人類修正混亂"
+    ]
   }
 ]
