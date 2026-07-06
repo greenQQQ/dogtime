@@ -587,5 +587,61 @@
       "color_palette": "Morandi Color Palette"
     },
     "inspiration_url": "https://www.theguardian.com/world/2026/jul/04/archaeologists-uncover-ancient-byzantine-city-in-egypts-western-desert"
+  },
+  {
+    "avoid_list": [
+      "鏡子自拍構圖",
+      "後台化妝間場景",
+      "清楚顯示 UTC 時間戳",
+      "金箔與金色點綴",
+      "傳統中文或英文文字限制",
+      "倫勃朗或蝴蝶光戲劇打光",
+      "狗叼著工具或物件執行任務",
+      "小型道具整齊排列",
+      "科學實驗室與太空訓練場景",
+      "移軸微縮透視",
+      "低角度動態追逐",
+      "高級時尚或表演後台",
+      "螢光邊緣與線框效果",
+      "復古膠片顆粒與褪色色調",
+      "禁止擬人化狗狗負面詞"
+    ],
+    "comment_id": 4896897206,
+    "inspiration_url": "https://www.thescottishsun.co.uk/money/16498450/first-job-unveiled-scotland-new-center-parcs-resort/",
+    "number": 14,
+    "style_picks": {
+      "art_style": "Chalk Art",
+      "composition": "Bird's-Eye View",
+      "lighting": "Harsh Midday Sun",
+      "texture": "Sand Texture",
+      "color_palette": "Moonlit Indigo"
+    },
+    "prompt": "Bird's-eye top-down chalk art illustration on a dark green slate blackboard: a border collie at the edge of a construction clearing in a Scottish forest resort, clearly using its front paws to gently scrape fallen leaves away from sandy indigo ground while sniffing a narrow lizard passage lit by harsh midday sun. The entire site resembles a moonlit indigo chalk map, with dusty matte texture, colored chalk hatching strokes, fine sand grain, dune-like ripples, warm golden granules, cool silvery highlights, and deep night-blue violet tones. Unlaid wooden boardwalk planks, temporary fencing, conservation ranger shadows, and hard-edged directional sunlight form strange intersecting patterns across the clearing. Miniature world effect, looking straight down, gritty natural realism translated into chalk, high contrast, unforgiving illumination, mysterious nocturnal blue dominance. Include the visible text “2026-07-06 19:35 UTC” written in white chalk on a small blackboard-style site marker near the dog. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "idea": "粉筆畫風格的俯瞰鳥瞰構圖中，一隻邊境牧羊犬在蘇格蘭森林度假村的建設空地邊緣，用前爪小心扒開沙質靛藍地面上的落葉，嗅查一條被日正硬光照亮的蜥蜴通道。整片工地像月夜靛藍色粉筆磨出的地圖，保育巡護員的影子、未鋪設的木棧道與臨時圍欄交錯成奇異圖案。",
+    "inspiration": "蘇格蘭新的Center Parcs度假村釋出首個職缺，將由保育巡護員從建設期開始守護基地生物多樣性。",
+    "news_inspiration": [
+      {
+        "summary": "溫布頓第8天爆出驚喜，英國外卡選手Arthur Fery五盤大戰晉級生涯首個大滿貫八強。",
+        "url": "https://www.thetimes.com/sport/tennis/wimbledon/article/wimbledon-2026-live-scores-latest-news-day-8-kostyuk-de-minaur-fery-fritz-b022zf0sb",
+        "source": "The Times"
+      },
+      {
+        "summary": "蘇格蘭新的Center Parcs度假村釋出首個職缺，將由保育巡護員從建設期開始守護基地生物多樣性。",
+        "url": "https://www.thescottishsun.co.uk/money/16498450/first-job-unveiled-scotland-new-center-parcs-resort/",
+        "source": "The Scottish Sun"
+      },
+      {
+        "summary": "美國獨立電影院迎來復興，年輕觀眾重新愛上有策展感與社群氛圍的大銀幕體驗。",
+        "url": "https://www.theguardian.com/film/2026/jul/04/america-indie-cinemas-revival",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "美股盤前由科技與記憶體晶片股帶動走高，SpaceX也即將加入Nasdaq 100，成為市場焦點。",
+        "url": "https://www.investopedia.com/5-things-to-know-before-the-stock-market-opens-monday-july-6-2026-12012247",
+        "source": "Investopedia"
+      }
+    ],
+    "title": "靛沙守徑",
+    "story": "牠每天跟著巡護員巡邏，最先發現那些人類圖紙上沒有標記的小生命路徑。當機械停下、陽光把沙粒曬得發白時，牠趴在通道旁守著，像在替森林保管一個還沒被命名的秘密。"
   }
 ]

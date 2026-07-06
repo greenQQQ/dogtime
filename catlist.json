@@ -132,5 +132,15 @@
     "inspiration_url": "https://www.theguardian.com/world/2026/jul/04/archaeologists-uncover-ancient-byzantine-city-in-egypts-western-desert",
     "timestamp": "2026-07-06 18:35 UTC",
     "model": "gpt-image-2 (codex-image-service / $imagegen)"
+  },
+  {
+    "inspiration_url": "https://www.thescottishsun.co.uk/money/16498450/first-job-unveiled-scotland-new-center-parcs-resort/",
+    "status": "success",
+    "number": 14,
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-06_1935_UTC.webp",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "inspiration": "蘇格蘭新的Center Parcs度假村釋出首個職缺，將由保育巡護員從建設期開始守護基地生物多樣性。",
+    "title": "靛沙守徑",
+    "timestamp": "2026-07-06 19:35 UTC"
   }
 ]
