@@ -268,7 +268,7 @@
   }
 
   function updateCatCount() {
-    catCount.textContent = filtered.length + " cats";
+    catCount.textContent = filtered.length + " dogs";
   }
 
   // ── Search with debounce ──
