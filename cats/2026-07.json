@@ -286,5 +286,38 @@
     ],
     "inspiration": "NASA發布紅白藍宇宙影像，讓超新星殘骸、星雲與星系團成為兼具科學與視覺震撼的太空慶典。",
     "number": 7
+  },
+  {
+    "style_picks": {
+      "art_style": "Double Exposure",
+      "composition": "Mirror Selfie Composition",
+      "lighting": "Butterfly Lighting",
+      "texture": "Fur / Plush Texture",
+      "color_palette": "Gold and Black Luxury"
+    },
+    "prompt": "Real photograph, mirror selfie composition inside a black-and-gold dressing room at La Scala Opera House in Milan. A stage manager’s hand and smartphone are visible at the edge of the mirror, casually framing the reflection. In the mirror, a black long-haired dachshund clearly holds a fine bristle brush in its mouth, sweeping rosin crumbs beside a double bass case into a small metallic gold dustpan. Use a double exposure effect: the dog’s fluffy silhouette blends with the golden opera audience seats reflected inside its body, two overlapping images naturally merged through glass reflection. Intimate close-up perspective, 35mm lens, f/1.8, shallow depth of field, subtle film grain. Butterfly lighting from an overhead key light creates soft even illumination, a symmetrical shadow under the dog’s nose, glossy highlights on plush fuzzy fur fibers, and luxurious metallic gold accents against a deep black background. Opulent backstage mood, realistic textures, candid pre-performance moment. The exact text “2026-07-06 13:35 UTC” must be clearly visible as a small timestamp sticker on the mirror. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "comment_id": 4893469231,
+    "inspiration": "original",
+    "title": "鏡中金席",
+    "news_inspiration": [],
+    "story": "演出前最後十分鐘，舞台管理員舉著手機檢查鏡中走位，卻拍到牠比任何人都專注地清理樂器箱邊的混亂。那一刻，空蕩劇院的金色座椅像秘密掌聲一樣浮在牠的輪廓裡。",
+    "avoid_list": [
+      "日期時間招牌入鏡",
+      "可愛狗狗享受美好一天",
+      "正面平視端坐構圖",
+      "高角度移軸微縮場景",
+      "狗狗前爪壓住物件",
+      "短腿拼命挖沙動作",
+      "月夜靛藍老店門口",
+      "暖光從室內灑出",
+      "倫勃朗斜射戲劇光",
+      "金箔潑點與蒸氣閃光",
+      "粉筆黑板插畫質感",
+      "不透明水彩霧面質感",
+      "白色胸口臉頰特寫焦點",
+      "無配件無擬人負面約束"
+    ],
+    "number": 8,
+    "idea": "以雙重曝光呈現米蘭斯卡拉歌劇院黑金化妝間的鏡子自拍構圖：鏡中映出一隻黑色長毛臘腸犬正叼著細毛刷，把低音提琴盒旁的松香碎屑掃進金色小鏟，牠蓬鬆絨毛般的毛質被蝴蝶光壓出柔亮鼻影，身形與鏡中疊映的金色觀眾席交融。"
   }
 ]
