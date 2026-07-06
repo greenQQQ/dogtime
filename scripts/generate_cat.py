@@ -788,7 +788,9 @@ def generate_prompt_and_story(timestamp: str, creative_notes: dict, character: d
     season = character.get("_season") if character else None
 
     fallback = {
-        'prompt': f"A cute dog with the date and time '{timestamp}' displayed in the image, high quality, detailed",
+        # Include the character identity card even on the degraded path, so a
+        # quota-exhausted hour still renders the right dog (not a random one).
+        'prompt': f"A cute dog with the date and time '{timestamp}' displayed in the image, high quality, detailed{character_render_section}",
         'story': "一隻可愛的狗狗正在享受美好的一天。",
         'idea': '',
         'title': '狗狗日常',
