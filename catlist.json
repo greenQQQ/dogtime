@@ -125,5 +125,18 @@
     "url": "https://github.com/greenQQQ/catime/releases/download/cats-2026-07/cat_2026-07-06_0418_UTC.webp",
     "title": "仙語卷邊的白靈",
     "inspiration": "科學家指出，學習第二語言似乎能有效減緩大腦老化，研究顯示雙語者的大腦比單語者年輕約六歲。"
+  },
+  {
+    "status": "success",
+    "is_seasonal": true,
+    "season": "summer",
+    "number": 15,
+    "url": "https://github.com/greenQQQ/catime/releases/download/cats-2026-07/cat_2026-07-06_0505_UTC.webp",
+    "character": "snowball",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "inspiration": "original",
+    "timestamp": "2026-07-06 05:05 UTC",
+    "character_name": "雪球",
+    "title": "大理石畔清涼"
   }
 ]

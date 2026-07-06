@@ -465,5 +465,43 @@
     "avoid_list": [],
     "title": "仙語卷邊的白靈",
     "inspiration": "科學家指出，學習第二語言似乎能有效減緩大腦老化，研究顯示雙語者的大腦比單語者年輕約六歲。"
+  },
+  {
+    "style_picks": {
+      "art_style": "Drone Aerial Shot",
+      "composition": "Tilt-Shift Miniature",
+      "lighting": "Nebula Cosmic Glow",
+      "texture": "Shibori Textile",
+      "color_palette": "Morandi Color Palette"
+    },
+    "prompt": "從高空俯瞰，優雅的布偶貓雪球像一朵奶油色的雲朵般，以移軸微縮效果呈現，在莫蘭迪色調的空調大理石地板上攤開身體，周圍散發著星雲般的柔和輝光。. The date and time '2026-07-06 05:05 UTC' is visually displayed in the image. drone aerial shot, bird's-eye view, expansive landscape, geometric patterns from above, Tilt-shift photography, selective focus band, miniature toy-like effect, blurred foreground and background, vibrant saturated colors, nebula cosmic glow, soft colorful starfield illumination, ethereal purple and blue space light, glowing particles and galactic haze, otherworldly radiance, Shibori style, resist-dyed textile patterns, indigo blue palette, organic flowing designs, Japanese artisan dye technique, Morandi muted color palette, desaturated soft pastels, dusty grey undertones, quiet elegance\n⚠️ CHARACTER CONSISTENCY — NON-NEGOTIABLE:\n[IDENTITY CARD] Snowball — a large, gentle Ragdoll cat with long, silky, cloud-like cream-white fur #F5EFE6. Colorpoint markings: soft seal-brown #8A6A50 shading on the ears and a gentle wash down the nose bridge ONLY. All four paws wear clean white mittens/socks #FFFFFF. Chest: long white ruff fur like a scarf. Tail: magnificent fluffy plume, lightly seal-tinted. Eyes: large, deep sapphire blue #2E5FA3. Pink paw pads and nose. Relaxed, floppy, doll-like posture. Expression: serene, sweet, softly affectionate. [HARD CONSTRAINTS] 1) Long fluffy fur ONLY — NEVER shorthair. 2) Sapphire blue #2E5FA3 eyes ONLY — NEVER green or amber. 3) Cream-white body with seal-point ears/nose ONLY — no stripes, no patches, no full dark mask. 4) All four paws white — NEVER dark paws. 5) Large soft silhouette — never skinny. 6) No collar or accessories. End.\nNEGATIVE CONSTRAINTS (must not appear): shorthair, sleek coat, green eyes, amber eyes, yellow eyes, tabby stripes, orange fur, black cat, full dark face mask, dark paws, dark legs, siamese slim body, skinny cat, collar, necklace, bandana, calico patches, tuxedo pattern, anthropomorphic cat, cat with human body, cat with human hands, cat standing upright like a person, humanoid cat, furry character, catboy, mascot costume, cat wearing full human clothing, cat with human face\nThe subject is ALWAYS a literal cat. NEVER replace the cat with a human, humanoid, person, child, or anthropomorphic figure — even if the scene mentions people, robots, or human activities. Humans may appear in the background, but the named character stays a four-legged cat.\nEvery HARD CONSTRAINT above is MANDATORY. Do NOT skip any.\nIf the art style makes any feature hard to show, simplify the style — NEVER drop the feature. Seasonal theme: summer - the cat should be dressed/styled appropriately for summer.\n IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "avoid_list": [
+      "貓爪輕觸古卷/物件",
+      "玻璃容器內微縮世界",
+      "水下焦散光影",
+      "柔焦霧面夢幻光暈",
+      "黑貓弓背",
+      "圖書館/書齋場景",
+      "描金墨線紋理",
+      "朱紅與留白對比",
+      "青橙電影調",
+      "強制透視構圖",
+      "圖像顯示日期時間",
+      "強調材質紋理細節",
+      "古風仙俠風格",
+      "巴洛克藝術風格",
+      "巨大圓頂/宏偉建築"
+    ],
+    "is_seasonal": true,
+    "season": "summer",
+    "number": 15,
+    "story": "在寧靜的午後，雪球在鋪有絞染布藝的下午茶桌旁，微微閉著寶藍色的眼睛，享受大理石的沁涼。牠全身放鬆，宛如一團輕盈的羽毛，尾巴時不時輕輕拂過一旁放置的蕾絲墊。整個畫面籠罩在莫蘭迪色的靜謐中，細節處透露著絞染的雅緻與星雲輝光的溫柔。",
+    "comment_id": 4889290184,
+    "character": "snowball",
+    "inspiration": "original",
+    "idea": "從高空俯瞰，優雅的布偶貓雪球像一朵奶油色的雲朵般，以移軸微縮效果呈現，在莫蘭迪色調的空調大理石地板上攤開身體，周圍散發著星雲般的柔和輝光。",
+    "character_name": "雪球",
+    "title": "大理石畔清涼",
+    "news_inspiration": []
   }
 ]
