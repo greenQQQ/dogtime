@@ -1,0 +1,58 @@
+{
+  "id": "machi",
+  "name": {
+    "zh": "麻吉",
+    "en": "Machi"
+  },
+  "appearance": {
+    "breed": "赤柴犬（Shiba Inu）",
+    "body": "精實小巧，站姿端正，尾巴捲成漂亮的圈圈背在背上",
+    "face": "狐狸般的尖臉，瞇瞇眼配標誌性的柴犬微笑，臉頰兩團白色麻糬毛",
+    "fur_pattern": "亮赤紅色為主，臉頰、下巴、胸口、肚子與四腳內側是奶油白色（urajiro）",
+    "distinctive_features": [
+      "標誌性的柴犬瞇眼微笑",
+      "臉頰兩團圓鼓鼓的白色麻糬毛",
+      "尾巴捲成完美的圈圈背在背上",
+      "三角形立耳，內側是奶油色",
+      "眉毛位置有兩點淺色斑，像小眉毛",
+      "深棕色圓眼睛"
+    ],
+    "size": "中小型，精實"
+  },
+  "personality": {
+    "traits": [
+      "傲嬌",
+      "忠心",
+      "固執",
+      "愛面子",
+      "外冷內熱"
+    ],
+    "quirks": [
+      "不想走的時候會定格變成雕像",
+      "開心時原地轉圈但假裝沒事",
+      "喜歡把下巴放在桌沿上盯著食物"
+    ],
+    "voice": "平常很安靜，偶爾發出小小的嗚咽抗議"
+  },
+  "visual_prompt_snippet": "[IDENTITY CARD] Machi — a compact red Shiba Inu with a bright russet-red #C96F33 coat and clean cream urajiro #FFF6E8 on the cheeks, chin, chest, belly and inner legs. Signature squinting shiba smile. Two round fluffy white cheek tufts like mochi. Tail: tightly curled over the back. Ears: upright triangles with cream inner fur. Two light dots above the eyes like tiny eyebrows. Eyes: round, dark brown #4A3220. Poised, dignified little stance. Expression: smug contented shiba smile. [HARD CONSTRAINTS] 1) Red shiba coloring ONLY — never black-and-tan, never cream-only. 2) Tail ALWAYS curled over the back — never straight or drooping. 3) Dark brown #4A3220 eyes ONLY — never blue. 4) Upright triangle ears — never floppy. 5) Compact shiba build — never large or slim like a husky. 6) No collar or accessories. End.",
+  "negative_prompt": "black and tan shiba, cream shiba, white shiba, floppy ears, drooping tail, straight tail, blue eyes, long silky coat, large dog, husky markings, corgi body, collar, bandana, clothing, leash, anthropomorphic dog, dog with human body, dog with human hands, dog standing upright like a person, humanoid dog, furry character, mascot costume, dog with human face",
+  "story_context": "麻吉是巷口最有原則的狗。散步路線不能改、飯碗位置不能動、摸頭可以但只能三秒。牠總是一臉「本柴不需要」的表情，但每天傍晚都會準時坐在門口等家人回來——被發現的時候，就假裝只是剛好路過。",
+  "preferred_settings": [
+    "老屋門口的階梯",
+    "巷弄的紅磚牆邊",
+    "櫻花樹下",
+    "便當店門口",
+    "河堤散步道",
+    "廟口的石階",
+    "夕陽下的鐵道旁"
+  ],
+  "seasonal_variants": {
+    "spring": "坐在櫻花樹下，花瓣落在頭上也維持端正坐姿",
+    "summer": "趴在電風扇前，肚皮貼著涼涼的磁磚地板",
+    "autumn": "在銀杏落葉堆裡踩來踩去，假裝不是故意的",
+    "winter": "裹在小被被裡只露出頭，仍然保持柴犬微笑"
+  },
+  "appearances": 0,
+  "last_appeared": null,
+  "created_at": "2026-07-06"
+}

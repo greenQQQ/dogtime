@@ -11,7 +11,7 @@ from catime.utils.http import safe_get_json
 
 CATLIST_URL = "https://raw.githubusercontent.com/{repo}/main/catlist.json"
 DETAIL_URL = "https://raw.githubusercontent.com/{repo}/main/cats/{month}.json"
-DEFAULT_REPO = "greenQQQ/catime"
+DEFAULT_REPO = "greenQQQ/dogtime"
 
 _detail_cache: dict[str, list[dict]] = {}
 

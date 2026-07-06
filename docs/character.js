@@ -8,8 +8,8 @@
     return;
   }
 
-  var charUrl = 'https://raw.githubusercontent.com/greenQQQ/catime/main/characters/' + encodeURIComponent(charId) + '.json';
-  var catlistUrl = 'https://raw.githubusercontent.com/greenQQQ/catime/main/catlist.json';
+  var charUrl = 'https://raw.githubusercontent.com/greenQQQ/dogtime/main/characters/' + encodeURIComponent(charId) + '.json';
+  var catlistUrl = 'https://raw.githubusercontent.com/greenQQQ/dogtime/main/catlist.json';
 
   Promise.all([
     fetch(charUrl).then(function (r) { if (!r.ok) throw new Error('Character not found'); return r.json(); }),
@@ -25,7 +25,7 @@
   });
 
   function renderProfile(c) {
-    document.title = (c.name.zh || c.name.en || c.id) + ' - 貓咪時光角色圖鑑';
+    document.title = (c.name.zh || c.name.en || c.id) + ' - 狗狗時光角色圖鑑';
 
     document.getElementById('char-name').innerHTML =
       '<img class="char-name-avatar" src="avatars/' + esc(c.id) + '.webp" alt="" width="56" height="56">' +
@@ -96,7 +96,7 @@
 
       var img = document.createElement('img');
       img.src = entry.url || '';
-      img.alt = entry.title || ('Cat #' + (entry.number || ''));
+      img.alt = entry.title || ('Dog #' + (entry.number || ''));
       img.loading = 'lazy';
       img.onerror = function () { this.parentNode.innerHTML = '<div class="img-error"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" style="vertical-align:middle"><path d="M12 2l3 4 4 1-2 3 1 4-4-2-4 2 1-4-2-3 4-1z"/></svg></div>'; };
 

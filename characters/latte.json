@@ -1,0 +1,58 @@
+{
+  "id": "latte",
+  "name": {
+    "zh": "拿鐵",
+    "en": "Latte"
+  },
+  "appearance": {
+    "breed": "紅貴賓／泰迪犬（Toy Poodle）",
+    "body": "小巧輕盈，全身蓬鬆捲毛修剪成圓圓的泰迪造型",
+    "face": "圓臉圓眼，口鼻修剪成標誌性的圓球泰迪臉，像玩偶一樣",
+    "fur_pattern": "全身均勻的杏紅色（拿鐵咖啡色）捲毛，頭頂的毛特別圓蓬",
+    "distinctive_features": [
+      "標誌性的圓球泰迪頭，頭頂毛特別蓬",
+      "全身杏紅色小捲毛，像拿鐵拉花的顏色",
+      "黑色小圓鼻子配深棕圓眼，像鈕扣",
+      "垂垂的長耳朵藏在捲毛裡",
+      "小小的粉色舌頭常常微微吐出",
+      "走路輕快像在跳舞"
+    ],
+    "size": "小型，蓬鬆玩偶感"
+  },
+  "personality": {
+    "traits": [
+      "精緻",
+      "聰明",
+      "黏人",
+      "愛漂亮",
+      "小小的公主脾氣"
+    ],
+    "quirks": [
+      "洗完澡吹毛時會露出陶醉的表情",
+      "只肯睡在最軟的那顆枕頭上",
+      "聽到「漂亮」兩個字會抬頭挺胸"
+    ],
+    "voice": "細細軟軟的奶音，撒嬌時會拉長音"
+  },
+  "visual_prompt_snippet": "[IDENTITY CARD] Latte — a toy poodle with an even apricot-red #C98B5E coat of soft tight curls groomed in the signature round teddy-bear cut: extra-fluffy round head top and a rounded muzzle like a plush toy. Long floppy ears hidden in the curls. Nose: small round black button. Eyes: round dark-brown #4A3220 like buttons. Tiny pink tongue often peeking out. Light, prancing dance-like steps. Expression: sweet, bright, a little prideful. [HARD CONSTRAINTS] 1) Apricot-red curly coat ONLY — never white, black, or grey. 2) Teddy-bear round groom ALWAYS — never a show-cut with shaved parts, never straight fur. 3) Dark brown button eyes ONLY — never blue. 4) Small toy size — never a large standard poodle. 5) Floppy ears blended into curls — never upright ears. 6) No collar, bows, or clothing — the fluff is the outfit. End.",
+  "negative_prompt": "white poodle, black poodle, grey poodle, show cut, shaved muzzle, pompom tail cut, straight silky fur, large standard poodle, upright ears, blue eyes, bows, ribbons, collar, dress, clothing, leash, anthropomorphic dog, dog with human body, dog with human hands, dog standing upright like a person, humanoid dog, furry character, mascot costume, dog with human face",
+  "story_context": "拿鐵是寵物美容院的活招牌，每三週準時報到，吹毛的時候比誰都享受。牠深信自己是這條街最精緻的存在——直到踩到水窪的那一刻。牠會用最哀怨的眼神看著你，直到你把牠抱起來，然後在你懷裡立刻恢復公主的姿態。",
+  "preferred_settings": [
+    "寵物美容院",
+    "下午茶咖啡廳的椅子上",
+    "花店門口",
+    "陽光灑落的飄窗",
+    "甜點店的櫥窗前",
+    "野餐籃旁邊",
+    "鋪著蕾絲墊的沙發"
+  ],
+  "seasonal_variants": {
+    "spring": "在花店門口跟一束粉玫瑰合照，分不出誰比較蓬",
+    "summer": "剪了清爽的夏日短捲毛，在冷氣房裡優雅乘涼",
+    "autumn": "毛色和滿地落葉融為一體，只有黑鼻子露了餡",
+    "winter": "窩在針織毛毯裡，像一杯冒著熱氣的拿鐵"
+  },
+  "appearances": 0,
+  "last_appeared": null,
+  "created_at": "2026-07-06"
+}

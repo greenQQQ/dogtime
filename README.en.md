@@ -1,15 +1,11 @@
-# 貓咪時光 (Cat Time)
+# 狗狗時光 (Dog Time)
 
-**A new AI-generated cat, every hour!** 🐱
+**A new AI-generated dog, every hour!** 🐶 Sister site of [貓咪時光 (Cat Time)](https://greenqqq.github.io/catime/).
 
-Every hour this repo generates a unique cat image — news-inspired ideas and stories by Gemini, rendered with **gpt-image-2** via a self-hosted [codex-image-service](https://github.com/yazelin/codex-image-service) (ChatGPT subscription quota), then published to GitHub Releases and the gallery.
+🌐 **Gallery:** [greenqqq.github.io/dogtime](https://greenqqq.github.io/dogtime/)
 
-🌐 **Gallery:** [greenqqq.github.io/catime](https://greenqqq.github.io/catime/)
-
-Recurring characters: QQQ the chubby orange tabby and Blanli the green-eyed tabby (both real cats!), plus Snowball the Ragdoll, Oreo the tuxedo, and Huahua the calico.
+Recurring characters: Machi the shiba, Pudding the corgi, Latte the toy poodle, A-gin the golden retriever, and Wuwu the husky.
 
 ## Credits
 
-This project is a customized fork of [**yazelin/catime**](https://github.com/yazelin/catime) — huge thanks to [@yazelin](https://github.com/yazelin) for open-sourcing the architecture, pipeline, and gallery.
-
-MIT License.
+Based on [**yazelin/catime**](https://github.com/yazelin/catime) — huge thanks to [@yazelin](https://github.com/yazelin). MIT License.

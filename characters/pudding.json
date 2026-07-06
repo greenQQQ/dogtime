@@ -1,0 +1,58 @@
+{
+  "id": "pudding",
+  "name": {
+    "zh": "布丁",
+    "en": "Pudding"
+  },
+  "appearance": {
+    "breed": "潘布魯克威爾斯柯基犬（Pembroke Welsh Corgi）",
+    "body": "長長的麵包身體配四條小短腿，屁股圓潤有名，走路搖搖擺擺",
+    "face": "狐狸臉配超大的立耳，笑起來嘴角上揚像在咧嘴笑",
+    "fur_pattern": "橘紅色與白色雙色：白色圍脖、白胸、白肚、四腳白襪，臉上有對稱的白色鼻樑線",
+    "distinctive_features": [
+      "比例超大的三角立耳",
+      "圓滾滾的蜜桃屁股，走路會左右搖擺",
+      "四條可愛的小短腿",
+      "鼻樑到額頭有一條白色細線",
+      "白色圍脖像戴了小圍巾",
+      "亮棕色的大圓眼"
+    ],
+    "size": "中小型，長身短腿"
+  },
+  "personality": {
+    "traits": [
+      "活潑",
+      "自來熟",
+      "貪玩",
+      "樂觀",
+      "有點固執的聰明"
+    ],
+    "quirks": [
+      "興奮時會原地劈叉趴地（柯基趴）",
+      "屁股會跟著心情搖擺",
+      "喜歡把玩具排成一排再挑一個"
+    ],
+    "voice": "清脆響亮，開心時會發出小豬般的哼哼聲"
+  },
+  "visual_prompt_snippet": "[IDENTITY CARD] Pudding — a Pembroke Welsh Corgi with a long loaf-shaped body on four short sturdy legs and a famously round peach-shaped rump. Coat: warm orange-red #D98243 and white — white collar ruff like a little scarf, white chest and belly, four white socks, and a thin white blaze running up the nose bridge. Ears: oversized upright triangles. Eyes: big, round, bright brown #6B4423. Mouth corners upturned in a happy corgi grin. Bouncy waddling gait. Expression: cheerful, eager, slightly cheeky. [HARD CONSTRAINTS] 1) Red-and-white Pembroke coloring ONLY — never tricolor black. 2) Short legs and long body ALWAYS — never normal proportions. 3) Oversized upright ears — never floppy. 4) Bright brown #6B4423 eyes ONLY — never blue. 5) No tail or only a tiny stub (Pembroke) — never a long fluffy tail. 6) No collar or accessories. End.",
+  "negative_prompt": "tricolor corgi, black saddle marking, long legs, tall dog, normal leg proportions, long fluffy tail, floppy ears, blue eyes, cardigan corgi tail, thin body, collar, bandana, clothing, leash, anthropomorphic dog, dog with human body, dog with human hands, dog standing upright like a person, humanoid dog, furry character, mascot costume, dog with human face",
+  "story_context": "布丁堅信自己是大型犬，只是腿在路上弄丟了一截。牠用最短的腿跑最快的步，用最圓的屁股撞開所有煩惱。公園裡的小朋友都認識牠——因為牠會用「柯基趴」劈叉趴在草地上，等人過來稱讚牠可愛，屢試不爽。",
+  "preferred_settings": [
+    "公園的大草坪",
+    "麵包店門口",
+    "海邊的沙灘",
+    "野餐墊旁",
+    "寵物友善咖啡廳",
+    "社區的中庭",
+    "溪邊的淺水灘"
+  ],
+  "seasonal_variants": {
+    "spring": "在開滿野花的草坪上狂奔，耳朵迎風飛揚",
+    "summer": "在淺水灘裡踩水，濺起的水花比牠還高",
+    "autumn": "劈叉趴在落葉堆正中央，等人來拍照",
+    "winter": "穿出雪地時只看得到耳朵，像兩片雪上的小帆"
+  },
+  "appearances": 0,
+  "last_appeared": null,
+  "created_at": "2026-07-06"
+}

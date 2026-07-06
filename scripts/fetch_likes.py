@@ -1,6 +1,6 @@
 """Fetch reaction counts from GitHub issue comments and produce likes.json + comment_map.json.
 
-Scans all "Cat Gallery - YYYY-MM" issues, reads comments, parses cat numbers,
+Scans all "Dog Gallery - YYYY-MM" issues, reads comments, parses cat numbers,
 and sums positive reactions (👍 ❤️ 😄 🎉 🚀 👀).
 
 Run by GitHub Actions hourly or manually.
@@ -13,7 +13,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-REPO = os.environ.get("GITHUB_REPOSITORY", "greenQQQ/catime")
+REPO = os.environ.get("GITHUB_REPOSITORY", "greenQQQ/dogtime")
 POSITIVE_REACTIONS = ("+1", "heart", "hooray", "laugh", "rocket", "eyes")
 
 
@@ -37,7 +37,7 @@ def gh_api(endpoint: str) -> list | dict:
 
 
 def find_gallery_issues() -> list[dict]:
-    """Find all open+closed issues matching 'Cat Gallery - YYYY-MM'."""
+    """Find all open+closed issues matching 'Dog Gallery - YYYY-MM'."""
     issues = gh_api(f"/repos/{REPO}/issues?state=all&per_page=100")
     gallery = []
     for issue in issues:
@@ -46,7 +46,7 @@ def find_gallery_issues() -> list[dict]:
         # Skip pull requests (GitHub issues API returns PRs too)
         if "pull_request" in issue:
             continue
-        if re.match(r"Cat Gallery - \d{4}-\d{2}", issue.get("title", "")):
+        if re.match(r"Dog Gallery - \d{4}-\d{2}", issue.get("title", "")):
             gallery.append(issue)
     return gallery
 
@@ -70,14 +70,14 @@ def sum_positive_reactions(reactions: dict) -> int:
 
 
 def main():
-    print("Finding Cat Gallery issues...")
+    print("Finding Dog Gallery issues...")
     issues = find_gallery_issues()
 
     likes = {}       # cat_number_str -> count
     comment_map = {} # cat_number_str -> comment URL
 
     if not issues:
-        print("No Cat Gallery issues found.")
+        print("No Dog Gallery issues found.")
     else:
         print(f"Found {len(issues)} gallery issue(s)")
 

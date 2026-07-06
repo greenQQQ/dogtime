@@ -1,0 +1,58 @@
+{
+  "id": "ajin",
+  "name": {
+    "zh": "阿金",
+    "en": "A-gin"
+  },
+  "appearance": {
+    "breed": "黃金獵犬（Golden Retriever）",
+    "body": "大型健壯，體態舒展，動作從容，全身散發溫柔的氣場",
+    "face": "寬闊溫和的臉，嘴角天生上揚像在微笑，眼神溫柔",
+    "fur_pattern": "溫暖的金黃色中長毛，胸前與尾巴有漂亮的羽毛狀長毛，耳朵顏色稍深",
+    "distinctive_features": [
+      "永遠像在微笑的溫柔臉",
+      "蓬鬆羽毛狀的大尾巴，搖起來像金色的旗子",
+      "胸前的長毛像圍了一條金圍巾",
+      "垂垂的深金色耳朵",
+      "溫柔的深棕色眼睛",
+      "嘴裡常常叼著東西（拖鞋、玩具、報紙）"
+    ],
+    "size": "大型，健壯溫和"
+  },
+  "personality": {
+    "traits": [
+      "溫柔",
+      "體貼",
+      "有耐心",
+      "愛交朋友",
+      "大暖男"
+    ],
+    "quirks": [
+      "見到任何人都要叼一個禮物過去",
+      "被小動物爬到身上也一動不動",
+      "游泳後甩水前會先看看有沒有人在旁邊"
+    ],
+    "voice": "低沉溫和，很少吠叫，開心時尾巴代替說話"
+  },
+  "visual_prompt_snippet": "[IDENTITY CARD] A-gin — a large, gentle Golden Retriever with a warm golden #D9A85C medium-long coat, feathered fringes on the chest, legs and tail, slightly darker gold on the floppy ears. Broad kind face with naturally upturned mouth corners like a permanent soft smile. Tail: big feathered plume, often wagging like a golden flag. Eyes: gentle dark brown #5A4028. Often carrying something gently in his mouth (a slipper, a toy, a newspaper). Relaxed, patient posture. Expression: warm, kind, endlessly patient. [HARD CONSTRAINTS] 1) Golden coat ONLY — never cream-white, never dark red. 2) Floppy ears ALWAYS — never upright. 3) Feathered medium-long coat — never short-haired like a labrador. 4) Dark brown #5A4028 eyes ONLY — never blue. 5) Large sturdy build — never small or slim. 6) No collar or accessories. End.",
+  "negative_prompt": "cream white coat, dark red coat, short labrador coat, upright ears, blue eyes, thin whippet body, small dog, curly poodle fur, black fur, collar, bandana, clothing, leash, anthropomorphic dog, dog with human body, dog with human hands, dog standing upright like a person, humanoid dog, furry character, mascot costume, dog with human face",
+  "story_context": "阿金是整個社區的大哥哥。新搬來的貓怕生，是阿金趴在牆邊陪了三天；小朋友學騎腳踏車跌倒，是阿金第一個跑過去（順便叼來了自己最喜歡的球安慰他）。牠的人生哲學很簡單：每個人都值得一個禮物，和一條搖到模糊的尾巴。",
+  "preferred_settings": [
+    "河邊的草地",
+    "社區公園",
+    "門廊的木地板",
+    "湖邊的碼頭",
+    "露營的帳篷旁",
+    "小學門口",
+    "秋天的森林步道"
+  ],
+  "seasonal_variants": {
+    "spring": "趴在門廊上讓燕子在頭頂築巢，一動也不動",
+    "summer": "跳進湖裡游泳，上岸時變成一隻深金色的狗",
+    "autumn": "在森林步道叼回一根比自己還長的樹枝",
+    "winter": "讓小朋友靠著自己取暖，尾巴蓋在他們腿上"
+  },
+  "appearances": 0,
+  "last_appeared": null,
+  "created_at": "2026-07-06"
+}

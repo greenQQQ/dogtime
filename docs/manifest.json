@@ -1,11 +1,11 @@
 {
-  "name": "貓咪時光 - AI 貓咪相簿",
-  "short_name": "貓咪時光",
-  "description": "每小時 AI 自動生成的貓咪藝術相簿",
-  "start_url": "/catime/",
+  "name": "狗狗時光 - AI 狗狗相簿",
+  "short_name": "狗狗時光",
+  "description": "每小時 AI 自動生成的狗狗藝術相簿",
+  "start_url": "/dogtime/",
   "display": "standalone",
-  "background_color": "#fdf6ee",
-  "theme_color": "#ff8a5c",
+  "background_color": "#f2f8fd",
+  "theme_color": "#5fa8e0",
   "icons": [
     { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
     { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },

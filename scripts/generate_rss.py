@@ -6,9 +6,9 @@ import os
 from datetime import datetime, timezone
 from xml.etree.ElementTree import Element, SubElement, ElementTree
 
-FEED_TITLE = "貓咪時光 - AI Cat Gallery"
-FEED_LINK = "https://greenqqq.github.io/catime/"
-GALLERY_BASE = "https://greenqqq.github.io/catime/"
+FEED_TITLE = "狗狗時光 - AI Dog Gallery"
+FEED_LINK = "https://greenqqq.github.io/dogtime/"
+GALLERY_BASE = "https://greenqqq.github.io/dogtime/"
 ATOM_NS = "http://www.w3.org/2005/Atom"
 MAX_ENTRIES = 20
 

@@ -1,0 +1,58 @@
+{
+  "id": "wuwu",
+  "name": {
+    "zh": "小嗚",
+    "en": "Wuwu"
+  },
+  "appearance": {
+    "breed": "西伯利亞哈士奇（Siberian Husky）",
+    "body": "健壯挺拔，狼一般的帥氣輪廓，但表情完全破功",
+    "face": "黑白分明的面具紋路，一雙冰藍色眼睛，表情戲劇化豐富",
+    "fur_pattern": "背部與頭頂是黑灰色，臉部中央、口鼻、胸腹和四腳是雪白色，標準的哈士奇面具紋",
+    "distinctive_features": [
+      "冰藍色的眼睛，像兩顆小冰晶",
+      "黑白分明的臉部面具紋路",
+      "表情戲劇化，常常一臉冤枉或震驚",
+      "毛茸茸的大尾巴像刷子",
+      "立耳內側是白色絨毛",
+      "微張的嘴常常掛著哈士奇的傻笑"
+    ],
+    "size": "中大型，健壯"
+  },
+  "personality": {
+    "traits": [
+      "戲精",
+      "精力無限",
+      "好奇心爆炸",
+      "神經大條",
+      "自帶喜感"
+    ],
+    "quirks": [
+      "會用整個身體表達不想洗澡",
+      "看到雪（或保麗龍屑）會瞬間進入狂喜模式",
+      "被抓到搗蛋時會先發出嗚嗚的辯解"
+    ],
+    "voice": "標誌性的嗚嗚說話聲，像在跟你辯論"
+  },
+  "visual_prompt_snippet": "[IDENTITY CARD] Wuwu — a Siberian Husky with a classic black-grey #3C4148 and snow-white #FFFFFF coat: dark saddle over the back and head-top, white face center, muzzle, chest, belly and legs, crisp symmetric mask markings. Eyes: striking ice-blue #7EC3E8 like little ice crystals. Upright ears with white inner fluff. Big brush-like fluffy tail. Mouth often slightly open in a goofy husky grin; dramatically expressive face (shocked, wronged, ecstatic). Athletic wolf-like frame with zero wolf-like dignity. Expression: theatrical, goofy, full of mischief. [HARD CONSTRAINTS] 1) Black-grey and white husky mask coloring ONLY — never red-brown, never all-white. 2) Ice-blue #7EC3E8 eyes ONLY — never brown (both eyes blue, no heterochromia). 3) Upright ears ALWAYS — never floppy. 4) Fluffy double coat and brush tail — never short-haired. 5) Athletic medium-large build. 6) No collar, harness, or accessories. End.",
+  "negative_prompt": "red husky, brown husky, all white husky, brown eyes, heterochromia, one brown one blue eye, floppy ears, short coat, thin tail, small dog, malamute bulk, collar, harness, bandana, clothing, leash, anthropomorphic dog, dog with human body, dog with human hands, dog standing upright like a person, humanoid dog, furry character, mascot costume, dog with human face",
+  "story_context": "小嗚的夢想是拆掉全世界，目前進度：一顆沙發抱枕（未遂）。牠每天都有新的震驚：吹風機會叫！落葉會動！自己的尾巴會跟蹤自己！家人早就學會了牠的語言——那些嗚嗚嗚的長篇大論，翻譯過來大概是「我沒有錯，是世界太奇怪」。",
+  "preferred_settings": [
+    "雪地（或想像中的雪地）",
+    "被拆到一半的客廳",
+    "寬闊的狗公園",
+    "山上的步道",
+    "電風扇正前方",
+    "紙箱堆裡",
+    "夜晚的頂樓（對月亮嗚嗚）"
+  ],
+  "seasonal_variants": {
+    "spring": "追著漫天飛舞的柳絮，以為終於下雪了",
+    "summer": "整隻攤在冷氣出風口正下方，肚皮朝天",
+    "autumn": "衝進落葉堆炸出一場葉子煙火",
+    "winter": "在真正的雪地裡瘋狂打滾，夢想成真"
+  },
+  "appearances": 0,
+  "last_appeared": null,
+  "created_at": "2026-07-06"
+}

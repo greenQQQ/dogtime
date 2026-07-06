@@ -1,4 +1,4 @@
-"""Generate a cat image using nanobanana-py, upload as GitHub Release asset. Run by GitHub Actions hourly."""
+"""Generate a dog image using nanobanana-py, upload as GitHub Release asset. Run by GitHub Actions hourly."""
 
 import asyncio
 import json
@@ -42,13 +42,13 @@ def _patch_nanobanana():
 _patch_nanobanana()
 
 SUMMARY_PROMPT = (
-    "You are analyzing recent AI-generated cat image prompts to identify repetitive patterns.\n\n"
+    "You are analyzing recent AI-generated dog image prompts to identify repetitive patterns.\n\n"
     "Here are the most recent prompts and stories:\n{entries}\n\n"
     "Identify overused themes, settings, styles, poses, lighting, and vocabulary.\n"
     "Output a JSON object with exactly this format:\n"
     '{{"avoid_list": ["繁體中文短語 1", "繁體中文短語 2", ...]}}\n\n'
     "Rules:\n"
-    "- Each item should be a short phrase in 繁體中文 (e.g. '生物發光森林', '貓凝望月亮', '宇宙空靈光芒')\n"
+    "- Each item should be a short phrase in 繁體中文 (e.g. '生物發光森林', '狗凝望月亮', '宇宙空靈光芒')\n"
     "- List 8-15 items that appear too frequently\n"
     "- Focus on specific repeated combos, not generic concepts"
 )
@@ -65,12 +65,12 @@ NEWS_PROMPT = (
 )
 
 IDEA_PROMPT = (
-    "You are a wildly creative storyteller and visual director inventing a unique scene for an AI cat image.\n\n"
+    "You are a wildly creative storyteller and visual director inventing a unique scene for an AI dog image.\n\n"
     "{news_section}"
     "{avoid_section}"
     "Requirements:\n"
-    "(1) A cat must be the subject or prominently featured\n"
-    "(2) The cat MUST be DOING something specific (cooking, skateboarding, repairing a clock, reading a map, etc.)\n"
+    "(1) A dog must be the subject or prominently featured\n"
+    "(2) The dog MUST be DOING something specific (cooking, skateboarding, repairing a clock, reading a map, etc.)\n"
     "(3) The scene MUST be set in a specific, concrete place (a 1950s diner, a Tokyo subway car, a greenhouse, a lighthouse, etc.)\n"
     "(4) Be wildly creative - surprise me with unexpected combinations\n"
     "{style_section}"
@@ -78,13 +78,13 @@ IDEA_PROMPT = (
     "(6) For photography styles: describe the scene realistically - real cats in real places. "
     "Do NOT add fantasy or magical elements. Think like a photographer, not a painter.\n"
     "(7) Vary the scene composition - sometimes include other characters (people, other animals, crowds) "
-    "or objects the cat interacts with. A lone cat is fine occasionally, but don't default to it every time.\n"
-    "(8) The cat is ALWAYS a literal four-legged cat. Do NOT describe it as anthropomorphic, "
+    "or objects the dog interacts with. A lone dog is fine occasionally, but don't default to it every time.\n"
+    "(8) The dog is ALWAYS a literal four-legged dog. Do NOT describe it as anthropomorphic, "
     "standing upright like a human, wearing full human clothing, mimicking a humanoid, "
     "or acting in a way that an illustrator would naturally draw as a human figure. "
     "Avoid verbs like 'mimics a human/robot', 'poses as a person', 'stands upright'. "
-    "The cat can watch, chase, sniff, paw at, or sit near human/robot subjects — "
-    "but the cat itself stays a cat in form.\n\n"
+    "The dog can watch, chase, sniff, paw at, or sit near human/robot subjects — "
+    "but the dog itself stays a dog in form.\n\n"
     "Output a JSON object with exactly this format:\n"
     '{{"idea": "繁體中文場景描述，1-2句，包含藝術風格", "story": "繁體中文短故事，2-3句", "title": "作品名稱，3-10個字的繁體中文", "inspiration": "original 或引用的新聞摘要"}}\n\n'
     "The title should be poetic, evocative, and concise (3-10 Chinese characters). Like a painting title.\n"
@@ -104,7 +104,7 @@ RENDER_PROMPT = (
     "(1) The date and time '{timestamp}' MUST be visually displayed in the image\n"
     "(2) Include specific art style, composition, lighting, and color details\n"
     "(3) Do NOT include any resolution keywords (like 4K, 8K, 16K, etc.)\n"
-    "(4) The image must clearly show a cat doing the described activity\n"
+    "(4) The image must clearly show a dog doing the described activity\n"
     "(5) CRITICAL - match the prompt style to the medium:\n"
     "    - If PHOTOGRAPHY: use camera terms (e.g. '35mm lens, f/1.8, natural light, shallow depth of field, "
     "grain, candid shot'). The output MUST look like a real photograph, NOT a painting or digital art. "
@@ -172,7 +172,7 @@ def load_style_reference() -> dict:
 
 
 STYLE_FILTER_PROMPT = (
-    "You are filtering style options for an AI cat image generator.\n\n"
+    "You are filtering style options for an AI dog image generator.\n\n"
     "AVOID LIST (overused themes to skip):\n{avoid_list}\n\n"
     "STYLE OPTIONS by category:\n{style_options}\n\n"
     "For each style option, decide if it matches or overlaps with ANY avoid list item.\n"
@@ -265,7 +265,7 @@ def format_style_prompt_snippet(picks: dict) -> str:
     return ", ".join(snippets)
 
 
-REPO = os.environ.get("GITHUB_REPOSITORY", "greenQQQ/catime")
+REPO = os.environ.get("GITHUB_REPOSITORY", "greenQQQ/dogtime")
 # RELEASE_TAG is now set dynamically in main() based on current month
 
 # ── Character System ──
@@ -442,7 +442,7 @@ def format_character_for_render(char: dict) -> str:
         season = char["_season"]
         variant = char.get("seasonal_variants", {}).get(season, "")
         if variant:
-            seasonal_addition = f" Seasonal theme: {season} - the cat should be dressed/styled appropriately for {season}."
+            seasonal_addition = f" Seasonal theme: {season} - the dog should be dressed/styled appropriately for {season}."
 
     negative = char.get("negative_prompt", "")
     negative_line = f"NEGATIVE CONSTRAINTS (must not appear): {negative}\n" if negative else ""
@@ -451,10 +451,10 @@ def format_character_for_render(char: dict) -> str:
         f"\n⚠️ CHARACTER CONSISTENCY — NON-NEGOTIABLE:\n"
         f"{snippet}\n"
         f"{negative_line}"
-        f"The subject is ALWAYS a literal cat. NEVER replace the cat with a human, humanoid, "
+        f"The subject is ALWAYS a literal dog. NEVER replace the dog with a human, humanoid, "
         f"person, child, or anthropomorphic figure — even if the scene mentions people, robots, "
         f"or human activities. Humans may appear in the background, but the named character "
-        f"stays a four-legged cat.\n"
+        f"stays a four-legged dog.\n"
         f"Every HARD CONSTRAINT above is MANDATORY. Do NOT skip any.\n"
         f"If the art style makes any feature hard to show, simplify the style — NEVER drop the feature.{seasonal_addition}\n"
     )
@@ -570,7 +570,7 @@ def maybe_update_creative_notes(cat_number: int) -> dict:
     if cat_number % 5 != 0:
         return notes
 
-    print(f"Cat #{cat_number} is a multiple of 5, updating creative notes...")
+    print(f"Dog #{cat_number} is a multiple of 5, updating creative notes...")
     catlist_path = Path("catlist.json")
     if not catlist_path.exists():
         return notes
@@ -764,7 +764,7 @@ def generate_prompt_and_story(timestamp: str, creative_notes: dict, character: d
         bullets = "\n".join(f"- {item['summary']}" for item in news)
         news_section = (
             "Here are some current world events for inspiration. "
-            "You MAY creatively incorporate one into the cat scene, or ignore them entirely. "
+            "You MAY creatively incorporate one into the dog scene, or ignore them entirely. "
             "Aim for roughly half news-inspired, half pure imagination.\n"
             f"{bullets}\n\n"
         )
@@ -788,10 +788,10 @@ def generate_prompt_and_story(timestamp: str, creative_notes: dict, character: d
     season = character.get("_season") if character else None
 
     fallback = {
-        'prompt': f"A cute cat with the date and time '{timestamp}' displayed in the image, high quality, detailed",
-        'story': "一隻可愛的貓咪正在享受美好的一天。",
+        'prompt': f"A cute dog with the date and time '{timestamp}' displayed in the image, high quality, detailed",
+        'story': "一隻可愛的狗狗正在享受美好的一天。",
         'idea': '',
-        'title': '貓咪日常',
+        'title': '狗狗日常',
         'inspiration': 'original',
         'inspiration_url': None,
         'avoid_list': avoid_list,
@@ -878,7 +878,7 @@ def generate_prompt_and_story(timestamp: str, creative_notes: dict, character: d
                 'prompt': prompt,
                 'story': story,
                 'idea': idea,
-                'title': title or '貓咪日常',
+                'title': title or '狗狗日常',
                 'inspiration': inspiration,
                 'inspiration_url': _match_news_url(news, inspiration),
                 'avoid_list': avoid_list,
@@ -895,7 +895,7 @@ def generate_prompt_and_story(timestamp: str, creative_notes: dict, character: d
                 'prompt': f"{idea}. The date and time '{timestamp}' is visually displayed in the image. {style_snippets}{character_render_section}{_ZH_TEXT_CONSTRAINT}",
                 'story': story,
                 'idea': idea,
-                'title': title or '貓咪日常',
+                'title': title or '狗狗日常',
                 'inspiration': inspiration,
                 'inspiration_url': _match_news_url(news, inspiration),
                 'avoid_list': avoid_list,
@@ -912,7 +912,7 @@ def generate_prompt_and_story(timestamp: str, creative_notes: dict, character: d
             'prompt': f"{idea}. The date and time '{timestamp}' is visually displayed in the image. {style_snippets}{character_render_section}{_ZH_TEXT_CONSTRAINT}",
             'story': story,
             'idea': idea,
-            'title': title or '貓咪日常',
+            'title': title or '狗狗日常',
             'inspiration': inspiration,
             'inspiration_url': _match_news_url(news, inspiration),
             'avoid_list': avoid_list,
@@ -1118,7 +1118,7 @@ async def generate_cat_image(output_dir: str, timestamp: str, prompt: str) -> di
 
     When the codex path is selected and the call fails (key revoked, service
     down, timeout, etc.), this falls back to nanobanana so the hourly cron
-    still produces a cat. The fallback is annotated in `model_used`.
+    still produces a dog. The fallback is annotated in `model_used`.
     """
     backend = (os.environ.get("CAT_IMAGE_GENERATOR") or "").strip().lower()
     if backend != "codex":
@@ -1142,7 +1142,7 @@ async def generate_cat_image(output_dir: str, timestamp: str, prompt: str) -> di
         return primary
     print(
         f"codex-image-service failed ({primary_error!r}); "
-        "falling back to nanobanana (Gemini) so the hour still ships a cat",
+        "falling back to nanobanana (Gemini) so the hour still ships a dog",
         file=sys.stderr,
     )
     fallback = await _generate_via_nanobanana(output_dir, timestamp, prompt)
@@ -1168,8 +1168,8 @@ def ensure_release_exists():
             [
                 "gh", "release", "create", RELEASE_TAG,
                 "--repo", REPO,
-                "--title", "Cat Images",
-                "--notes", "Auto-generated cat images, one every hour.",
+                "--title", "Dog Images",
+                "--notes", "Auto-generated dog images, one every hour.",
             ],
             check=True,
         )
@@ -1256,9 +1256,9 @@ query($owner: String!, $name: String!, $cursor: String) {
 
 
 def get_or_create_monthly_issue(now: datetime) -> str:
-    """Get or create a monthly issue for cat images. Returns issue number as string."""
+    """Get or create a monthly issue for dog images. Returns issue number as string."""
     month_label = now.strftime("%Y-%m")
-    title = f"Cat Gallery - {month_label}"
+    title = f"Dog Gallery - {month_label}"
 
     issue_number = find_open_issue_by_exact_title(title)
     if issue_number:
@@ -1266,7 +1266,7 @@ def get_or_create_monthly_issue(now: datetime) -> str:
 
     # Create new monthly issue
     result = subprocess.run(
-        ["gh", "issue", "create", "--repo", REPO, "--title", title, "--body", f"Auto-generated cat images for {month_label}."],
+        ["gh", "issue", "create", "--repo", REPO, "--title", title, "--body", f"Auto-generated dog images for {month_label}."],
         capture_output=True, text=True, check=True,
     )
     # Extract issue number from URL output
@@ -1275,7 +1275,7 @@ def get_or_create_monthly_issue(now: datetime) -> str:
 
 
 def post_issue_comment(issue_number: str, image_url: str, number: int, timestamp: str, model_used: str, prompt: str = "", story: str = "", idea: str = "", title: str = "", inspiration: str = "") -> int | None:
-    """Post a comment on the monthly issue with the cat image. Returns comment_id or None."""
+    """Post a comment on the monthly issue with the dog image. Returns comment_id or None."""
     prompt_line = f"**Prompt:** {prompt}\n" if prompt else ""
     story_line = f"**Story:** {story}\n" if story else ""
     idea_line = f"**Idea:** {idea}\n" if idea else ""
@@ -1287,14 +1287,14 @@ def post_issue_comment(issue_number: str, image_url: str, number: int, timestamp
     else:
         inspiration_line = ""
     body = (
-        f"## Cat #{number}{title_display}\n"
+        f"## Dog #{number}{title_display}\n"
         f"**Time:** {timestamp}\n"
         f"**Model:** `{model_used}`\n"
         f"{inspiration_line}"
         f"{idea_line}"
         f"{prompt_line}"
         f"{story_line}\n"
-        f"![cat-{number}]({image_url})"
+        f"![dog-{number}]({image_url})"
     )
     result = subprocess.run(
         ["gh", "issue", "comment", issue_number, "--repo", REPO, "--body", body],
@@ -1353,7 +1353,7 @@ def update_catlist_and_push(entry: dict) -> int:
     status = entry["status"]
     number = entry.get("number")
     timestamp = entry["timestamp"]
-    msg = f"Add cat #{number} - {timestamp}" if status == "success" else f"Failed cat - {timestamp}"
+    msg = f"Add dog #{number} - {timestamp}" if status == "success" else f"Failed dog - {timestamp}"
     subprocess.run(["git", "commit", "-m", msg], check=True)
 
     # Retry push with rebase in case of concurrent pushes
@@ -1369,7 +1369,7 @@ def update_catlist_and_push(entry: dict) -> int:
 
 
 def already_has_cat_this_hour(now: datetime) -> bool:
-    """Check if a successful cat already exists for the current hour."""
+    """Check if a successful dog already exists for the current hour."""
     catlist_path = Path("catlist.json")
     if not catlist_path.exists():
         return False
@@ -1391,12 +1391,12 @@ def main():
     timestamp = now.strftime("%Y-%m-%d %H:%M UTC")
     
     # Dynamically set release tag based on current month (e.g., "cats-2026-03")
-    RELEASE_TAG = f"cats-{timestamp[:7]}"
+    RELEASE_TAG = f"dogs-{timestamp[:7]}"
     print(f"📦 Using release tag: {RELEASE_TAG}")
 
-    # Skip if this hour already has a successful cat
+    # Skip if this hour already has a successful dog
     if already_has_cat_this_hour(now):
-        print(f"Cat already exists for hour {now.strftime('%Y-%m-%d %H')} UTC, skipping.")
+        print(f"Dog already exists for hour {now.strftime('%Y-%m-%d %H')} UTC, skipping.")
         return
 
     # Read current count for numbering (needed before creative notes update)
@@ -1410,7 +1410,7 @@ def main():
     # Select character (or None for original)
     character = select_character(now)
 
-    print(f"Generating cat #{next_number} for {timestamp}...")
+    print(f"Generating dog #{next_number} for {timestamp}...")
     prompt_data = generate_prompt_and_story(timestamp, creative_notes, character)
     prompt = prompt_data['prompt']
     story = prompt_data['story']
@@ -1418,7 +1418,7 @@ def main():
     avoid_list = prompt_data.get('avoid_list', [])
     news_inspiration = prompt_data.get('news_inspiration', [])
     style_picks = prompt_data.get('style_picks', {})
-    title = prompt_data.get('title', '貓咪日常')
+    title = prompt_data.get('title', '狗狗日常')
     inspiration = prompt_data.get('inspiration', 'original')
     char_id = prompt_data.get('character')
     char_name = prompt_data.get('character_name')
@@ -1494,7 +1494,7 @@ def main():
     print("Updating catlist.json...")
     update_catlist_and_push(entry)
 
-    print(f"Done! Cat #{next_number}" + (f" (character: {char_name})" if char_name else ""))
+    print(f"Done! Dog #{next_number}" + (f" (character: {char_name})" if char_name else ""))
 
 
 if __name__ == "__main__":

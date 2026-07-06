@@ -1,6 +1,6 @@
 (function () {
-  const CATLIST_URL = "https://raw.githubusercontent.com/greenQQQ/catime/main/catlist.json";
-  const CATS_BASE_URL = "https://raw.githubusercontent.com/greenQQQ/catime/main/cats/";
+  const CATLIST_URL = "https://raw.githubusercontent.com/greenQQQ/dogtime/main/catlist.json";
+  const CATS_BASE_URL = "https://raw.githubusercontent.com/greenQQQ/dogtime/main/cats/";
   const LIKES_URL = "likes.json";
   const COMMENT_MAP_URL = "comment_map.json";
   const PAGE_SIZE = 20;
@@ -113,7 +113,7 @@
   }
 
   function normalizeCatlist(data) {
-    if (!Array.isArray(data)) throw new Error("Invalid cat list");
+    if (!Array.isArray(data)) throw new Error("Invalid dog list");
     return data.filter(c => (
       c && typeof c === "object" &&
       typeof c.timestamp === "string" &&
@@ -148,7 +148,7 @@
       populateModels();
       populateCharacters();
       buildTimeline();
-      // Init calendar to latest cat's month
+      // Init calendar to latest dog's month
       if (allCats.length) {
         const parts = allCats[0].timestamp.split(" ")[0].split("-");
         calYear = parseInt(parts[0], 10);
@@ -159,7 +159,7 @@
       checkForNewCats();
     })
     .catch(err => {
-      showGalleryError("載入貓咪列表失敗，請稍後重試");
+      showGalleryError("載入狗狗列表失敗，請稍後重試");
     });
 
   // "最新" band — stale-while-revalidate. The gallery you first see is the
@@ -192,22 +192,22 @@
     band.innerHTML = "";
     const head = document.createElement("div");
     head.className = "newest-head";
-    head.textContent = "最新 · 你離開後多了 " + newCats.length + " 隻新貓";
+    head.textContent = "最新 · 你離開後多了 " + newCats.length + " 隻新狗";
     band.appendChild(head);
     const row = document.createElement("div");
     row.className = "newest-row";
-    newCats.slice(0, 40).forEach(cat => {
+    newCats.slice(0, 40).forEach(dog => {
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "newest-item";
-      btn.setAttribute("aria-label", "Cat #" + cat.number);
+      btn.setAttribute("aria-label", "Dog #" + dog.number);
       const img = document.createElement("img");
-      img.src = cat.url;
-      img.alt = "Cat #" + cat.number;
+      img.src = dog.url;
+      img.alt = "Dog #" + dog.number;
       img.loading = "lazy";
       img.addEventListener("error", () => handleImgError(img, false));
       btn.appendChild(img);
-      btn.addEventListener("click", () => openLightbox(cat, filtered.indexOf(cat)));
+      btn.addEventListener("click", () => openLightbox(dog, filtered.indexOf(dog)));
       row.appendChild(btn);
     });
     band.appendChild(row);
@@ -326,7 +326,7 @@
       const cls = [];
       if (ds === todayStr) cls.push("today");
       if (ds === selectedDate) cls.push("selected");
-      if (catDates.has(ds)) cls.push("has-cat");
+      if (catDates.has(ds)) cls.push("has-dog");
       const btn = document.createElement("button");
       btn.dataset.date = ds;
       if (cls.length) btn.className = cls.join(" ");
@@ -437,8 +437,8 @@
       lastMonth = prev.timestamp.slice(0, 7);
     }
     const frag = document.createDocumentFragment();
-    slice.forEach((cat, i) => {
-      const month = cat.timestamp.slice(0, 7);
+    slice.forEach((dog, i) => {
+      const month = dog.timestamp.slice(0, 7);
       if (month !== lastMonth) {
         const sep = document.createElement("div");
         sep.className = "month-sep";
@@ -452,20 +452,20 @@
       card.dataset.catIndex = loaded + i;
       card.setAttribute("role", "button");
       card.setAttribute("tabindex", "0");
-      card.setAttribute("aria-label", "Cat #" + cat.number + (cat.title ? " " + cat.title : "") + " — click to view details");
-      const likeCount = likesData[String(cat.number)] || 0;
-      const timestamp = typeof cat.timestamp === "string" ? cat.timestamp : "";
-      const title = typeof cat.title === "string" ? cat.title : "";
-      const characterName = typeof cat.character_name === "string" ? cat.character_name : "";
-      const characterId = typeof cat.character === "string" ? cat.character : "";
-      const modelName = typeof cat.model === "string" ? cat.model : "";
-      const inspiration = typeof cat.inspiration === "string" ? cat.inspiration : "";
+      card.setAttribute("aria-label", "Dog #" + dog.number + (dog.title ? " " + dog.title : "") + " — click to view details");
+      const likeCount = likesData[String(dog.number)] || 0;
+      const timestamp = typeof dog.timestamp === "string" ? dog.timestamp : "";
+      const title = typeof dog.title === "string" ? dog.title : "";
+      const characterName = typeof dog.character_name === "string" ? dog.character_name : "";
+      const characterId = typeof dog.character === "string" ? dog.character : "";
+      const modelName = typeof dog.model === "string" ? dog.model : "";
+      const inspiration = typeof dog.inspiration === "string" ? dog.inspiration : "";
 
       const cardImgWrap = document.createElement("div");
       cardImgWrap.className = "card-img-wrap";
       const img = document.createElement("img");
-      img.src = cat.url;
-      img.alt = `Cat #${cat.number}`;
+      img.src = dog.url;
+      img.alt = `Dog #${dog.number}`;
       img.loading = "lazy";
       img.addEventListener("load", () => sizeCard(card));
       cardImgWrap.appendChild(img);
@@ -482,13 +482,13 @@
       cardInfo.className = "card-info";
       const time = document.createElement("div");
       time.className = "time";
-      time.textContent = `#${cat.number} ${title ? title + " · " : ""}${timestamp}`;
+      time.textContent = `#${dog.number} ${title ? title + " · " : ""}${timestamp}`;
       cardInfo.appendChild(time);
       if (characterName) {
         // link to the character's page when we know which character it is;
         // stop the click from also opening the card lightbox.
         const charTag = document.createElement(characterId ? "a" : "span");
-        charTag.className = "character-tag" + (cat.is_seasonal ? " seasonal" : "");
+        charTag.className = "character-tag" + (dog.is_seasonal ? " seasonal" : "");
         if (characterId) {
           charTag.href = "character.html?id=" + encodeURIComponent(characterId);
           charTag.title = "看看 " + characterName + " 的介紹頁";
@@ -503,15 +503,15 @@
           charTag.appendChild(charAvatar);
         }
         let tagText = characterName;
-        if (cat.season && SEASON_ICONS[cat.season]) {
-          tagText += " · " + SEASON_ICONS[cat.season];
+        if (dog.season && SEASON_ICONS[dog.season]) {
+          tagText += " · " + SEASON_ICONS[dog.season];
         }
         charTag.appendChild(document.createTextNode(tagText));
         cardInfo.appendChild(charTag);
       }
       if (inspiration) {
         const isNews = inspiration !== "original";
-        const newsUrl = (isNews && typeof cat.inspiration_url === "string") ? cat.inspiration_url : null;
+        const newsUrl = (isNews && typeof dog.inspiration_url === "string") ? dog.inspiration_url : null;
         const inspirationTag = document.createElement(newsUrl ? "a" : "span");
         inspirationTag.className = `inspiration-tag ${isNews ? "news" : "original"}`;
         inspirationTag.textContent = isNews ? (newsUrl ? "新聞靈感 ↗" : "新聞靈感") : "原創";
@@ -536,13 +536,13 @@
       img.addEventListener("error", () => { handleImgError(img, false); sizeCard(card); });
       card.addEventListener("click", () => {
         triggerCard = card;
-        openLightbox(cat, loaded - slice.length + i + (frag.contains(card) ? 0 : 0));
+        openLightbox(dog, loaded - slice.length + i + (frag.contains(card) ? 0 : 0));
       });
       card.addEventListener("keydown", (e) => {
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();
           triggerCard = card;
-          openLightbox(cat, loaded - slice.length + i + (frag.contains(card) ? 0 : 0));
+          openLightbox(dog, loaded - slice.length + i + (frag.contains(card) ? 0 : 0));
         }
       });
       frag.appendChild(card);
@@ -642,8 +642,8 @@
     if (def) def.panel.classList.remove("hidden");
   }
 
-  async function fetchDetail(cat) {
-    const month = cat.timestamp.slice(0, 7);
+  async function fetchDetail(dog) {
+    const month = dog.timestamp.slice(0, 7);
     if (!detailCache[month]) {
       try {
         const resp = await fetch(CATS_BASE_URL + month + ".json");
@@ -656,10 +656,10 @@
         detailCache[month] = [];
       }
     }
-    return detailCache[month].find(d => d.number === cat.number) || {};
+    return detailCache[month].find(d => d.number === dog.number) || {};
   }
 
-  function populateLightboxDetail(cat, detail) {
+  function populateLightboxDetail(dog, detail) {
     lbPromptText.textContent = detail.prompt || "";
     setIconLabel(lbCopyBtn, SVG_CLIPBOARD, "Copy Prompt");
 
@@ -667,7 +667,7 @@
     lbIdeaText.textContent = detail.idea || "";
     if (detail.inspiration && detail.inspiration !== "original") {
       lbIdeaText.appendChild(document.createTextNode("\n\n靈感來源：" + detail.inspiration + " "));
-      const srcUrl = detail.inspiration_url || cat.inspiration_url;
+      const srcUrl = detail.inspiration_url || dog.inspiration_url;
       if (srcUrl) {
         const srcLink = document.createElement("a");
         srcLink.className = "lb-inspiration-link";
@@ -728,47 +728,47 @@
     if (available.length) switchTab(available[0]);
   }
 
-  function openLightbox(cat, index) {
+  function openLightbox(dog, index) {
     // Find index in filtered array
     if (typeof index === "number" && index >= 0) {
-      currentLbIndex = filtered.indexOf(cat);
+      currentLbIndex = filtered.indexOf(dog);
     } else {
-      currentLbIndex = filtered.indexOf(cat);
+      currentLbIndex = filtered.indexOf(dog);
     }
-    if (currentLbIndex === -1) currentLbIndex = filtered.findIndex(c => c.number === cat.number);
+    if (currentLbIndex === -1) currentLbIndex = filtered.findIndex(c => c.number === dog.number);
 
-    currentCatUrl = cat.url;
-    currentCatNumber = cat.number;
+    currentCatUrl = dog.url;
+    currentCatNumber = dog.number;
 
     // Restore img element if it was replaced by error placeholder
     const existingError = lbImgWrap.querySelector(".lb-img-error");
     if (existingError) {
       const newImg = document.createElement("img");
       newImg.id = "lb-img";
-      newImg.alt = "Cat";
+      newImg.alt = "Dog";
       existingError.replaceWith(newImg);
     }
     const imgEl = document.getElementById("lb-img") || lbImg;
-    imgEl.src = cat.url;
+    imgEl.src = dog.url;
     imgEl.addEventListener("error", function onErr() {
       handleImgError(imgEl, true);
       imgEl.removeEventListener("error", onErr);
     });
 
-    const titleText = typeof cat.title === "string" ? ` ${cat.title}` : "";
-    const timestamp = typeof cat.timestamp === "string" ? cat.timestamp : "";
-    const characterName = typeof cat.character_name === "string" ? cat.character_name : "";
-    const characterId = typeof cat.character === "string" ? cat.character : "";
-    const modelName = typeof cat.model === "string" ? cat.model : "";
-    const inspiration = typeof cat.inspiration === "string" ? cat.inspiration : "";
+    const titleText = typeof dog.title === "string" ? ` ${dog.title}` : "";
+    const timestamp = typeof dog.timestamp === "string" ? dog.timestamp : "";
+    const characterName = typeof dog.character_name === "string" ? dog.character_name : "";
+    const characterId = typeof dog.character === "string" ? dog.character : "";
+    const modelName = typeof dog.model === "string" ? dog.model : "";
+    const inspiration = typeof dog.inspiration === "string" ? dog.inspiration : "";
     clearElement(lbInfo);
     const title = document.createElement("span");
     title.className = "lb-title";
-    title.textContent = `#${cat.number}${titleText} · ${timestamp}`;
+    title.textContent = `#${dog.number}${titleText} · ${timestamp}`;
     lbInfo.appendChild(title);
     if (characterName) {
       const charTag = document.createElement("span");
-      charTag.className = "character-tag" + (cat.is_seasonal ? " seasonal" : "");
+      charTag.className = "character-tag" + (dog.is_seasonal ? " seasonal" : "");
       if (characterId) {
         const charAvatar = document.createElement("img");
         charAvatar.src = "avatars/" + characterId + ".webp";
@@ -780,15 +780,15 @@
         charTag.appendChild(charAvatar);
       }
       let tagText = characterName;
-      if (cat.season && SEASON_ICONS[cat.season]) {
-        tagText += " · " + SEASON_ICONS[cat.season];
+      if (dog.season && SEASON_ICONS[dog.season]) {
+        tagText += " · " + SEASON_ICONS[dog.season];
       }
       charTag.appendChild(document.createTextNode(tagText));
       appendWithSpace(lbInfo, charTag);
     }
     if (inspiration) {
       const isNews = inspiration !== "original";
-      const newsUrl = (isNews && typeof cat.inspiration_url === "string") ? cat.inspiration_url : null;
+      const newsUrl = (isNews && typeof dog.inspiration_url === "string") ? dog.inspiration_url : null;
       const inspirationTag = document.createElement(newsUrl ? "a" : "span");
       inspirationTag.className = `inspiration-tag ${isNews ? "news" : "original"}`;
       inspirationTag.textContent = isNews ? (newsUrl ? "新聞靈感 ↗" : "新聞靈感") : "原創";
@@ -810,7 +810,7 @@
     setIconLabel(lbDownloadBtn, SVG_DOWNLOAD, "Download");
     lbDownloadBtn.dataset.label = "Download";
 
-    const catKey = String(cat.number);
+    const catKey = String(dog.number);
     const likeCount = likesData[catKey] || 0;
     const commentUrl = commentMap[catKey];
     setIconLabel(lbLikeBtn, SVG_HEART, likeCount > 0 ? String(likeCount) : "");
@@ -836,7 +836,7 @@
     // Focus close button (don't use focus to avoid outline)
     lbClose.focus();
 
-    fetchDetail(cat).then(detail => populateLightboxDetail(cat, detail));
+    fetchDetail(dog).then(detail => populateLightboxDetail(dog, detail));
   }
 
   function updateNavButtons() {
@@ -887,7 +887,7 @@
       const blobUrl = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = blobUrl;
-      a.download = "cat-" + currentCatNumber + (currentCatUrl.endsWith(".webp") ? ".webp" : ".png");
+      a.download = "dog-" + currentCatNumber + (currentCatUrl.endsWith(".webp") ? ".webp" : ".png");
       document.body.appendChild(a);
       a.click();
       a.remove();
@@ -927,8 +927,8 @@
     }
   });
 
-  // ── Random cat button ──
-  const randomCatBtn = document.getElementById("random-cat-btn");
+  // ── Random dog button ──
+  const randomCatBtn = document.getElementById("random-dog-btn");
   function openRandomCat() {
     const pool = filtered.length ? filtered : allCats;
     if (!pool.length) return;

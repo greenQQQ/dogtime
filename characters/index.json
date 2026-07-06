@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 1,
   "probability": {
     "original": 0.50,
     "recurring": 0.35,
@@ -14,28 +14,28 @@
   "cooldown_hours": 24,
   "characters": [
     {
-      "id": "qqq",
-      "file": "qqq.json",
+      "id": "machi",
+      "file": "machi.json",
       "enabled": true
     },
     {
-      "id": "blanli",
-      "file": "blanli.json",
+      "id": "pudding",
+      "file": "pudding.json",
       "enabled": true
     },
     {
-      "id": "snowball",
-      "file": "snowball.json",
+      "id": "latte",
+      "file": "latte.json",
       "enabled": true
     },
     {
-      "id": "oreo",
-      "file": "oreo.json",
+      "id": "ajin",
+      "file": "ajin.json",
       "enabled": true
     },
     {
-      "id": "huahua",
-      "file": "huahua.json",
+      "id": "wuwu",
+      "file": "wuwu.json",
       "enabled": true
     }
   ]
