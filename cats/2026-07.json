@@ -90,5 +90,41 @@
       "巨大圓頂/宏偉建築"
     ],
     "prompt": "Chalk art illustration on a dark green blackboard slate: a tilt-shift miniature scene of Pudding, a literal four-legged red-and-white Pembroke Welsh Corgi, frantically digging sand with very short sturdy legs inside a community courtyard “Corgi Archaeology Sandpit” under a jade-green bamboo-shadow canopy. Pudding has a long loaf-shaped body, warm orange-red #D98243 and white coat, white collar ruff, white chest and belly, four white socks, a thin white blaze up the nose bridge, oversized upright triangular ears, big round bright brown #6B4423 eyes, happy cheeky corgi grin, no collar, no accessories, no tail or only a tiny stub, and a round peach-shaped rump wiggling proudly in a corgi sploot pose. In the sand before the dog is an unearthed ancient cookie-shaped stone; beside the sandpit is a neat row of toy shovels and rusted small iron buckets with oxidized patina, peeling paint, warm orange-brown corrosion, like a tiny excavation team. Children stand blurred around the sandpit edge clapping in the background, never replacing the dog. Composition: miniature toy-like courtyard diorama, selective focus band across Pudding and the cookie stone, blurred foreground and background, high-angle tilt-shift view. Lighting: Rembrandt lighting from a single 45-degree beam through corridor columns, dramatic chiaroscuro, signature triangle of light on the shadowed cheek, warm highlights on the fox-like orange-white face, upright ears, white ruff, and peach rump. Color and technique: dusty matte colored chalk texture, visible hatching strokes, saturated emerald, malachite, bamboo jade-green tones with warm rust accents on dark green slate. Visually display the exact text “2026-07-06 08:35 UTC” in clear white chalk on a small blackboard sign at the sandpit edge. Negative constraints: no tricolor corgi, no black saddle marking, no long legs, no tall dog, no normal leg proportions, no long fluffy tail, no floppy ears, no blue eyes, no cardigan corgi tail, no thin body, no collar, no bandana, no clothing, no leash, no anthropomorphic dog, no dog with human body or human hands, no dog standing upright, no humanoid dog, no mascot costume, no dog with human face. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字)."
+  },
+  {
+    "title": "靛夜路線",
+    "news_inspiration": [],
+    "inspiration": "original",
+    "avoid_list": [
+      "貓爪輕觸古卷/物件",
+      "玻璃容器內微縮世界",
+      "水下焦散光影",
+      "柔焦霧面夢幻光暈",
+      "黑貓弓背",
+      "圖書館/書齋場景",
+      "描金墨線紋理",
+      "朱紅與留白對比",
+      "青橙電影調",
+      "強制透視構圖",
+      "圖像顯示日期時間",
+      "強調材質紋理細節",
+      "古風仙俠風格",
+      "巴洛克藝術風格",
+      "巨大圓頂/宏偉建築"
+    ],
+    "story": "今天家人想臨時改走河堤，麻吉立刻在便當店門口定格成雕像，前爪死死壓著原本的巷弄路線。店老闆偷偷放下一小塊雞肉，麻吉只把下巴靠上桌沿盯了三秒，然後假裝不是因為開心才原地轉了一圈。",
+    "prompt": "Opaque gouache painting with matte finish, bold flat colors and illustrative texture. Eye-level frontal composition, straight-on symmetrical view of a moonlit indigo old bento shop entrance at night. A compact literal red Shiba Inu named Machi sits squarely on all fours at the wooden threshold facing the camera, bright russet-red #C96F33 coat, clean cream urajiro #FFF6E8 cheeks, chin, chest, belly and inner legs, two round fluffy white mochi-like cheek tufts, upright triangular ears with cream inner fur, tightly curled tail over the back forming a perfect ring, round dark brown #4A3220 eyes, tiny light eyebrow dots, smug squinting shiba smile. Machi stubbornly presses one front paw onto a small wind-rumpled walking route map on the ground, clearly protecting the original alley route. Warm high-key bright light spills from inside the bento shop, airy overexposed feel, soft even illumination, minimal shadows, luminous clean atmosphere. Bento steam drifts through the doorway; gold foil flecks, scattered metallic gold leaf shards and hand-applied gilded splatter sparkle along the shop sign edges and steam. Moonlit indigo palette with deep night-blue and violet tones, cool silvery highlights, dreamy pastel mood, dark blue dominance with luxurious shimmering accents. The dog’s cream mochi cheeks, cream chest, small eyebrow dots, curled tail and paw-on-map action are the focal point. A small shop wall clock or neat sign beside the door must visibly display the English text: \"2026-07-06 09:35 UTC\". No collar, no accessories, no leash, no clothing, no humans as main subject, no anthropomorphic features, no human hands, no black-and-tan shiba, no cream-only shiba, no white shiba, no floppy ears, no straight or drooping tail, no blue eyes, no husky markings, no corgi body. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "comment_id": 4891315609,
+    "number": 4,
+    "idea": "不透明水彩畫風，平視正面構圖：月夜靛藍的老便當店門口，赤柴犬麻吉端坐在木門檻前，用一隻前爪固執地壓住被風吹亂的散步路線小地圖，尾巴捲成完美圈圈，瞇眼微笑裡帶著「本柴早就安排好」的傲嬌。高調明亮光從店內灑出，便當蒸氣與招牌邊緣散落金箔潑點，牠白色麻糬臉頰、奶油白胸口與小眉毛斑清楚成為畫面焦點。",
+    "style_picks": {
+      "art_style": "Gouache",
+      "composition": "Eye-Level Frontal Composition",
+      "lighting": "High-Key Bright Lighting",
+      "texture": "Gold Foil Flecks",
+      "color_palette": "Moonlit Indigo"
+    },
+    "character_name": "麻吉",
+    "character": "machi"
   }
 ]
