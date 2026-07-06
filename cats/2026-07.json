@@ -381,5 +381,66 @@
     ],
     "inspiration_url": "https://www.businessinsider.com/humanoid-robot-world-cup-match-ball-norway-brazil-boston-dynamics-2026-7",
     "idea": "交叉沖洗攝影風格的滿版特寫：世界盃球場的球員通道裡，小嗚這隻黑白面具紋、冰藍眼睛的哈士奇正貼地衝刺，歪嘴嗚嗚追著Atlas剛遞出的螢光比賽用球，UV黑光讓球縫、草屑和牠毛邊泛出線框透明質感，大地色牆面與泥痕被沖洗成怪誕偏色。"
+  },
+  {
+    "idea": "裝飾藝術風格的淺景深特寫：埃及西部沙漠拜占庭古城發掘現場的臨時磨砂玻璃保護棚內，一隻沙色獵犬正用前爪輕輕撥開陶片旁的細沙，外頭暴風雪般的沙霧把高飽和孔雀藍、珊瑚紅與祖母綠考古標記暈成朦朧色塊。",
+    "inspiration": "埃及西部沙漠發現保存良好的拜占庭古城，街道、教堂、民居與陶片文字讓考古學家得以重建約1600年前的日常生活。",
+    "inspiration_url": "https://www.theguardian.com/world/2026/jul/04/archaeologists-uncover-ancient-byzantine-city-in-egypts-western-desert",
+    "comment_id": 4894746849,
+    "title": "沙城犬跡",
+    "news_inspiration": [
+      {
+        "summary": "埃及西部沙漠發現保存良好的拜占庭古城，街道、教堂、民居與陶片文字讓考古學家得以重建約1600年前的日常生活。",
+        "url": "https://www.theguardian.com/world/2026/jul/04/archaeologists-uncover-ancient-byzantine-city-in-egypts-western-desert",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "天文學家指出星際彗星3I/Atlas可能是來自遙遠恆星系統、年齡達100億至120億年的宇宙古物。",
+        "url": "https://www.thetimes.com/uk/science/article/comet-ancient-relic-distant-star-system-dh328xqx6",
+        "source": "The Times"
+      },
+      {
+        "summary": "英國新創在AI熱潮帶動下，上半年募資翻倍至170億美元，顯示歐洲科技創投動能明顯升溫。",
+        "url": "https://www.thetimes.com/business/companies-markets/article/uk-startups-raise-17bn-ai-boom-nn08xqqvd",
+        "source": "The Times"
+      },
+      {
+        "summary": "溫布頓第八天出現多場亮點，Jasmine Paolini、Flavio Cobolli與Marta Kostyuk等選手挺進八強，賽場故事性十足。",
+        "url": "https://www.thetimes.com/sport/tennis/wimbledon/article/wimbledon-2026-live-scores-latest-news-day-8-kostyuk-de-minaur-fery-fritz-b022zf0sb",
+        "source": "The Times"
+      },
+      {
+        "summary": "考古人員在阿拉莫遺址挖出罕見鐵製砲彈，可能自1836年戰役後近190年未被移動。",
+        "url": "https://nypost.com/2026/07/06/science/rare-cannonball-found-at-the-alamo-may-date-to-1836-battle/",
+        "source": "New York Post"
+      }
+    ],
+    "style_picks": {
+      "art_style": "Art Deco",
+      "composition": "Shallow Depth-of-Field Close-up",
+      "lighting": "Snowstorm Haze",
+      "texture": "Frosted Glass",
+      "color_palette": "High Saturation Vivid"
+    },
+    "number": 10,
+    "avoid_list": [
+      "鏡子自拍構圖",
+      "後台化妝間場景",
+      "清楚顯示 UTC 時間戳",
+      "金箔與金色點綴",
+      "傳統中文或英文文字限制",
+      "倫勃朗或蝴蝶光戲劇打光",
+      "狗叼著工具或物件執行任務",
+      "小型道具整齊排列",
+      "科學實驗室與太空訓練場景",
+      "移軸微縮透視",
+      "低角度動態追逐",
+      "高級時尚或表演後台",
+      "螢光邊緣與線框效果",
+      "復古膠片顆粒與褪色色調",
+      "禁止擬人化狗狗負面詞"
+    ],
+    "story": "考古隊原本以為那只是普通碎陶，直到獵犬停下嗅聞，把鼻尖貼近一段半埋的街角石縫。牠沒有叼起任何東西，只是一再用爪尖推開沙粒，像替一座沉睡一千六百年的城指出回家的門。",
+    "prompt": "Art Deco inspired photograph. A shallow depth-of-field close-up, intimate near-object framing, featuring a graceful sand-colored sighthound. The sighthound is the sharp subject against a creamy blurred background, its front paw delicately nudging fine desert sand away from ancient pottery fragments. This tactile scene unfolds on a geometric patterned surface, hinting at a luxurious gold and black aesthetic, inside a temporary protective shelter made of frosted glass, showcasing a translucent matte surface and diffused light transmission at a Byzantine ancient city excavation site in the Egyptian Western Desert. Outside the shelter, a blizzard-like sandstorm rages, creating a snowstorm atmospheric lighting effect. Visibility is obscured by heavy falling sand, veiling the fogged distance in cold blue-white hues. Through the frosted glass, high saturation peacock blue, coral red, and emerald green archaeological markers appear as soft, blurred, vivid shapes, creating eye-catching contrast and an energetic color feel. Muted diffused daylight within the shelter emphasizes tactile details of the dog's fur and the ancient ceramic fragments. The scene embodies 1920s elegance and luxurious symmetry in its design elements. The date and time '2026年7月6日 15:35 UTC' are visually displayed. Shot with a 35mm lens, f/1.8, using natural light, a candid shot emphasizing soft bokeh and fine grain. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字)."
   }
 ]

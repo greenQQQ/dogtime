@@ -89,5 +89,15 @@
     "model": "gpt-image-2 (codex-image-service / $imagegen)",
     "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-06_1435_UTC.webp",
     "inspiration_url": "https://www.businessinsider.com/humanoid-robot-world-cup-match-ball-norway-brazil-boston-dynamics-2026-7"
+  },
+  {
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "inspiration": "埃及西部沙漠發現保存良好的拜占庭古城，街道、教堂、民居與陶片文字讓考古學家得以重建約1600年前的日常生活。",
+    "inspiration_url": "https://www.theguardian.com/world/2026/jul/04/archaeologists-uncover-ancient-byzantine-city-in-egypts-western-desert",
+    "status": "success",
+    "timestamp": "2026-07-06 15:35 UTC",
+    "title": "沙城犬跡",
+    "number": 10,
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-06_1535_UTC.webp"
   }
 ]
