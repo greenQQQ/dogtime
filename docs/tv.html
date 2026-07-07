@@ -4,63 +4,153 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>狗狗時光 · 電視牆</title>
-  <meta name="description" content="狗狗時光電視牆模式 — 全螢幕自動輪播，把螢幕變成每小時更新的 AI 狗狗相框。">
+  <meta name="description" content="狗狗時光電視牆模式 — 全螢幕自動輪播＋大字故事，把螢幕變成每小時更新的 AI 狗狗相框。">
   <meta name="robots" content="noindex">
   <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    html, body { height: 100%; background: #0e0a07; overflow: hidden; cursor: none; }
-    body.paused { cursor: default; }
-    .stage { position: fixed; inset: 0; }
+    html, body { height: 100%; background: #0e0a07; overflow: hidden; }
+    body {
+      display: flex;
+      font-family: 'LXGW WenKai TC', 'Nunito', system-ui, sans-serif;
+      color: #f3e7d7;
+    }
+
+    /* ── 圖片區 ── */
+    .stage { position: relative; flex: 1; min-width: 0; }
     .slide {
       position: absolute; inset: 0;
       display: flex; align-items: center; justify-content: center;
       opacity: 0; transition: opacity 1.6s ease;
+      padding: 1rem;
     }
     .slide.show { opacity: 1; }
-    .slide img { max-width: 100%; max-height: 100%; object-fit: contain; }
+    .slide img { max-width: 100%; max-height: 100%; object-fit: contain; border-radius: 6px; }
+
+    /* ── 故事側欄 ── */
+    .panel {
+      width: clamp(300px, 32vw, 500px);
+      background: linear-gradient(180deg, #17110b, #0e0a07);
+      border-left: 1px solid rgba(255, 220, 180, .12);
+      padding: 3.6rem 2rem 2rem;
+      display: flex; flex-direction: column;
+      overflow-y: auto;
+    }
+    body.no-story .panel { display: none; }
+    .p-num { font-size: 1rem; color: #c9a882; letter-spacing: .1em; margin-bottom: .3rem; }
+    .p-title { font-size: 2.1rem; font-weight: 800; line-height: 1.35; margin-bottom: .6rem; color: #ffd9ae; }
+    .p-meta { font-size: .92rem; color: #9d8a74; margin-bottom: 1.4rem; }
+    .p-story { font-size: 1.32rem; line-height: 2.05; color: #f3e7d7; }
+    .p-story.empty { color: #9d8a74; font-size: 1.05rem; }
+    .p-insp {
+      margin-top: auto; padding-top: 1.4rem;
+      font-size: .92rem; line-height: 1.8; color: #b09a80;
+      border-top: 1px dashed rgba(255, 220, 180, .18);
+    }
+    .p-insp a { color: #8fc3e8; text-decoration: none; }
+    .p-insp a:hover { text-decoration: underline; }
+    .p-brand { margin-top: 1rem; font-size: .9rem; color: #8a765f; }
+
+    /* ── 底部小標（隱藏故事模式才顯示） ── */
     .caption {
-      position: fixed; left: 0; right: 0; bottom: 0;
-      padding: 1.4rem 2rem 1.6rem;
-      background: linear-gradient(transparent, rgba(10, 6, 3, .82));
-      color: #f3e7d7;
-      font-family: 'LXGW WenKai TC', 'Nunito', system-ui, sans-serif;
-      display: flex; align-items: baseline; gap: 1rem;
+      position: absolute; left: 0; right: 0; bottom: 0;
+      padding: 1.3rem 2rem 1.4rem;
+      background: linear-gradient(transparent, rgba(10, 6, 3, .85));
+      display: none; align-items: baseline; gap: 1rem;
       text-shadow: 0 1px 6px rgba(0,0,0,.6);
-      transition: opacity .8s ease;
     }
-    .caption .t { font-size: 1.5rem; font-weight: 700; }
-    .caption .m { font-size: .95rem; opacity: .75; }
-    .caption .brand { margin-left: auto; font-size: .95rem; opacity: .6; }
-    .hint {
-      position: fixed; top: 1rem; right: 1.2rem; color: #f3e7d7;
-      font: .8rem 'Nunito', sans-serif; opacity: .45;
-      background: rgba(0,0,0,.35); padding: .3rem .7rem; border-radius: 999px;
+    body.no-story .caption { display: flex; }
+    .caption .t { font-size: 1.4rem; font-weight: 700; }
+    .caption .m { font-size: .92rem; opacity: .7; }
+
+    /* ── 上排控制鈕（常駐微透明） ── */
+    .ctrl {
+      position: fixed; top: .9rem; z-index: 10;
+      display: inline-flex; align-items: center; gap: .4rem;
+      font: 700 .92rem 'LXGW WenKai TC', 'Nunito', sans-serif;
+      color: #f3e7d7; text-decoration: none; cursor: pointer;
+      background: rgba(20, 13, 8, .62); border: 1px solid rgba(255, 220, 180, .22);
+      border-radius: 999px; padding: .45rem 1.05rem;
+      opacity: .6; transition: opacity .2s ease, transform .15s ease;
+      backdrop-filter: blur(4px);
     }
-    .hint.fade { opacity: 0; transition: opacity 2s ease 4s; }
+    .ctrl:hover { opacity: 1; transform: translateY(-1px); }
+    #backBtn { left: 1rem; }
+    #storyBtn { right: 1rem; }
     .paused-badge {
-      position: fixed; top: 1rem; left: 1.2rem; color: #ffd9a0;
-      font: .85rem 'Nunito', sans-serif;
-      background: rgba(0,0,0,.45); padding: .3rem .8rem; border-radius: 999px;
+      position: fixed; top: 4rem; left: 1rem; z-index: 10; color: #ffd9a0;
+      font-size: .85rem;
+      background: rgba(0,0,0,.5); padding: .3rem .8rem; border-radius: 999px;
       display: none;
     }
     body.paused .paused-badge { display: block; }
+    .hint {
+      position: fixed; bottom: .8rem; right: 1rem; z-index: 10; color: #f3e7d7;
+      font-size: .78rem; opacity: .4;
+      background: rgba(0,0,0,.35); padding: .28rem .7rem; border-radius: 999px;
+      animation: hint-fade 1ms linear 7s forwards;
+    }
+    @keyframes hint-fade { to { opacity: 0; visibility: hidden; } }
+
+    /* ── 直式／窄螢幕：改上下排 ── */
+    @media (max-width: 860px), (orientation: portrait) {
+      body { flex-direction: column; }
+      .stage { flex: 1 1 56%; }
+      .panel {
+        width: 100%; flex: 0 0 44%;
+        border-left: 0; border-top: 1px solid rgba(255, 220, 180, .12);
+        padding: 1.2rem 1.3rem 1.2rem;
+      }
+      .p-title { font-size: 1.5rem; }
+      .p-story { font-size: 1.08rem; line-height: 1.9; }
+      .p-insp { padding-top: .9rem; margin-top: .9rem; }
+    }
   </style>
 </head>
 <body>
-  <div class="stage" id="stage"></div>
-  <div class="caption" id="caption"><span class="t" id="capT"></span><span class="m" id="capM"></span><span class="brand">🐾 狗狗時光</span></div>
-  <div class="hint fade">點一下暫停 · 再點繼續 · Esc 回相簿</div>
-  <div class="paused-badge">⏸ 已暫停</div>
+  <a class="ctrl" id="backBtn" href="index.html">← 回狗狗時光</a>
+  <button class="ctrl" id="storyBtn" type="button">📖 隱藏故事</button>
+  <div class="paused-badge">⏸ 已暫停（點圖片繼續）</div>
+
+  <div class="stage" id="stage">
+    <div class="caption"><span class="t" id="capT"></span><span class="m" id="capM"></span></div>
+  </div>
+
+  <aside class="panel" id="panel">
+    <div class="p-num" id="pNum"></div>
+    <div class="p-title" id="pTitle"></div>
+    <div class="p-meta" id="pMeta"></div>
+    <p class="p-story" id="pStory"></p>
+    <div class="p-insp" id="pInsp"></div>
+    <div class="p-brand">🐾 狗狗時光 · 每小時誕生一隻</div>
+  </aside>
+
+  <div class="hint">點圖片暫停 · 📖 可隱藏故事 · Esc 回相簿</div>
+
   <script>
   (function () {
-    var LIST = "https://raw.githubusercontent.com/greenQQQ/dogtime/main/catlist.json";
+    var OWNER = "greenQQQ/dogtime";
+    var RAW = "https://raw.githubusercontent.com/" + OWNER + "/main/";
     var params = new URLSearchParams(location.search);
-    var interval = Math.max(5, parseInt(params.get("speed") || "18", 10)) * 1000;
+    var interval = Math.max(5, parseInt(params.get("speed") || "22", 10)) * 1000;
     var stage = document.getElementById("stage");
-    var capT = document.getElementById("capT");
-    var capM = document.getElementById("capM");
     var items = [], idx = 0, timer = null, cur = null;
+    var detailCache = {};
+
+    /* 故事顯示偏好 */
+    var storyBtn = document.getElementById("storyBtn");
+    function applyStoryPref() {
+      var off = localStorage.getItem("tv-story") === "off";
+      document.body.classList.toggle("no-story", off);
+      storyBtn.textContent = off ? "📖 顯示故事" : "📖 隱藏故事";
+    }
+    storyBtn.addEventListener("click", function (e) {
+      e.stopPropagation();
+      var off = localStorage.getItem("tv-story") === "off";
+      localStorage.setItem("tv-story", off ? "on" : "off");
+      applyStoryPref();
+    });
+    applyStoryPref();
 
     function shuffle(a) {
       for (var i = a.length - 1; i > 0; i--) {
@@ -70,46 +160,93 @@
     }
 
     function load() {
-      return fetch(LIST + "?tv=" + Date.now())
+      return fetch(RAW + "catlist.json?tv=" + Date.now())
         .then(function (r) { return r.json(); })
         .then(function (list) {
           var ok = list.filter(function (c) { return c.status !== "failed" && c.url; });
-          var latest = ok.slice(-12).reverse();          // 最新 12 張先播
-          var rest = shuffle(ok.slice(0, -12));          // 其餘隨機
-          items = latest.concat(rest);
+          var latest = ok.slice(-12).reverse();
+          items = latest.concat(shuffle(ok.slice(0, -12)));
           idx = 0;
         });
     }
 
+    function fetchStory(cat) {
+      var month = (cat.timestamp || "").slice(0, 7);
+      if (!month) return Promise.resolve({});
+      if (detailCache[month]) {
+        return Promise.resolve(pick(detailCache[month]));
+      }
+      return fetch(RAW + "cats/" + month + ".json")
+        .then(function (r) { return r.ok ? r.json() : []; })
+        .catch(function () { return []; })
+        .then(function (d) { detailCache[month] = d || []; return pick(detailCache[month]); });
+      function pick(arr) {
+        return arr.filter(function (x) { return x.number === cat.number; })[0] || {};
+      }
+    }
+
+    function fillPanel(cat, detail) {
+      document.getElementById("pNum").textContent = "#" + cat.number + "　" + (cat.timestamp || "");
+      document.getElementById("pTitle").textContent = cat.title || "狗狗日常";
+      var meta = [];
+      if (cat.character_name) meta.push("主演 " + cat.character_name + (cat.is_birthday ? " 🎂" : ""));
+      if (cat.crossover) meta.push("🐾 貓狗同題");
+      document.getElementById("pMeta").textContent = meta.join(" · ");
+      var storyEl = document.getElementById("pStory");
+      if (detail.story) {
+        storyEl.textContent = detail.story;
+        storyEl.classList.remove("empty");
+      } else {
+        storyEl.textContent = "這一張沒有留下故事，自己看圖說故事吧~";
+        storyEl.classList.add("empty");
+      }
+      var insp = document.getElementById("pInsp");
+      insp.innerHTML = "";
+      if (cat.inspiration && cat.inspiration !== "original") {
+        insp.textContent = "📰 靈感：" + cat.inspiration + " ";
+        var url = cat.inspiration_url || detail.inspiration_url;
+        if (url) {
+          var a = document.createElement("a");
+          a.href = url; a.target = "_blank"; a.rel = "noopener";
+          a.textContent = "看新聞 ↗";
+          insp.appendChild(a);
+        }
+      } else {
+        insp.textContent = "🎨 AI 原創";
+      }
+    }
+
     function show() {
       if (!items.length) return;
-      var dog = items[idx % items.length];
+      var cat = items[idx % items.length];
       idx++;
       var slide = document.createElement("div");
       slide.className = "slide";
       var img = document.createElement("img");
-      img.src = dog.url;
-      img.alt = dog.title || ("Dog #" + dog.number);
+      img.src = cat.url;
+      img.alt = cat.title || ("Dog #" + cat.number);
       img.onload = function () {
         slide.classList.add("show");
         if (cur) { var old = cur; setTimeout(function () { old.remove(); }, 1800); }
         cur = slide;
-        capT.textContent = "#" + dog.number + (dog.title ? "　" + dog.title : "");
-        capM.textContent = (dog.timestamp || "") + (dog.character_name ? " · 主演 " + dog.character_name : "");
+        document.getElementById("capT").textContent = "#" + cat.number + (cat.title ? "　" + cat.title : "");
+        document.getElementById("capM").textContent = (cat.timestamp || "") + (cat.character_name ? " · " + cat.character_name : "");
+        fetchStory(cat).then(function (d) { fillPanel(cat, d); });
       };
       img.onerror = function () { slide.remove(); show(); };
       slide.appendChild(img);
-      stage.appendChild(slide);
+      stage.insertBefore(slide, stage.firstChild);
     }
 
     function tick() { show(); timer = setTimeout(tick, interval); }
 
     load().then(function () {
       tick();
-      setInterval(load, 60 * 60 * 1000);   // 每小時重新抓，新狗自動進輪播
+      setInterval(load, 60 * 60 * 1000);   // 每小時重抓，新作品自動進輪播
     });
 
-    document.addEventListener("click", function () {
+    /* 點圖片區暫停／繼續（按鈕不受影響） */
+    stage.addEventListener("click", function () {
       if (timer) { clearTimeout(timer); timer = null; document.body.classList.add("paused"); }
       else { document.body.classList.remove("paused"); tick(); }
     });
