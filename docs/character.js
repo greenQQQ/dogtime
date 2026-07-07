@@ -4,7 +4,17 @@
   var params = new URLSearchParams(window.location.search);
   var charId = params.get('id');
   if (!charId) {
-    document.getElementById('character-profile').innerHTML = '<p style="padding:2rem;text-align:center">No character id specified. <a href="index.html">Back to gallery</a></p>';
+    // 沒帶 id（例如從外站直接連 character.html）→ 自動跳到第一位角色
+    fetch('https://raw.githubusercontent.com/greenQQQ/dogtime/main/characters/index.json')
+      .then(function (r) { return r.json(); })
+      .then(function (idx) {
+        var first = (idx.characters || []).filter(function (c) { return c.enabled; })[0];
+        if (first) location.replace('character.html?id=' + encodeURIComponent(first.id));
+        else document.getElementById('character-profile').innerHTML = '<p style="padding:2rem;text-align:center">尚未設定角色。<a href="index.html">返回相簿</a></p>';
+      })
+      .catch(function () {
+        document.getElementById('character-profile').innerHTML = '<p style="padding:2rem;text-align:center">角色載入失敗，請稍後再試。<a href="index.html">返回相簿</a></p>';
+      });
     return;
   }
 
