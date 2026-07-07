@@ -210,5 +210,14 @@
     "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-07_0235_UTC.webp",
     "title": "雪庫量軌",
     "timestamp": "2026-07-07 02:35 UTC"
+  },
+  {
+    "status": "success",
+    "title": "膠卷裡的犬",
+    "number": 22,
+    "inspiration": "original",
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-07_0335_UTC.webp",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "timestamp": "2026-07-07 03:35 UTC"
   }
 ]

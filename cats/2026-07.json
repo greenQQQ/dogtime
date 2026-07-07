@@ -992,5 +992,37 @@
     "number": 21,
     "title": "雪庫量軌",
     "idea": "白板記號筆畫風格中，一隻小小的臘腸狗趴在哈爾濱老式電車維修庫的軌道旁，用鼻尖推動一只黃色粉筆標記的測距輪，協助技師校準被暴風雪埋住的鑄鐵雕花車門。畫面以巨大的藍色電車車廂壓出渺小人物對比，雪霧朦朧中只留下藍黃互補色的線條與擦痕。"
+  },
+  {
+    "news_inspiration": [],
+    "title": "膠卷裡的犬",
+    "comment_id": 4899874519,
+    "number": 22,
+    "inspiration": "original",
+    "style_picks": {
+      "art_style": "Embroidered Folk Doll Illustration",
+      "composition": "Recursive / Droste Effect",
+      "lighting": "Backlighting / Rim Light",
+      "texture": "3D Render",
+      "color_palette": "Neon Fluorescent"
+    },
+    "story": "午夜散場後，這隻柴犬聽見老膠卷在鐵盒裡細細作響，便趴上倒片台，把斷裂的畫格一格格推回順序。每修好一段，銀幕深處就多出一個更小的牠，像把整座戲院縫成一只會發光的民俗娃娃。",
+    "avoid_list": [
+      "前爪輕輕撥開沙粒或落葉",
+      "狗叼著小物奔跑或移送",
+      "可讀 UTC 時間牌",
+      "新藝術穆夏式裝飾框",
+      "月夜靛藍冷色場景",
+      "磨砂玻璃或透明玻璃包覆空間",
+      "考古現場與陶片碎片",
+      "水花雨幕與鏡面反射",
+      "三點打光電影感特寫",
+      "莫蘭迪灰綠沙粉色調",
+      "強制透視或等距構圖",
+      "高飽和藍紅綠色塊對比",
+      "狗幫人類完成溫柔任務"
+    ],
+    "prompt": "Polished 3D render in embroidered folk-doll illustration style: inside a narrow old Tainan cinema projection booth after midnight, a cute round-faced four-legged Shiba Inu lies on a metal film rewinding table, front paws pinning the glowing fluorescent-thread film edge while its nose pushes a hand-cranked film rewinder. Behind it, an old projector casts strong backlighting and bright rim light, outlining the dog with glowing silhouette edges. The cinema screen shows the same projection booth and the same dog repairing film again and again, creating a recursive Droste picture-within-picture loop. Stitched textile patterns, decorative Taiwanese folkloric motifs, folk costume charm, smooth toy-like materials, clean Cinema 4D-style geometry, soft global illumination, dramatic dark background. Neon electric pink, fluorescent yellow, lime green, hot cyan, and electric purple appear as luminous embroidery thread trails sewn in concentric loops through the room. Clearly display the text “2026-07-07 03:35 UTC” on a glowing embroidered wall clock or stitched projection-room sign, in English, legible and central enough to read. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "idea": "刺繡民俗娃娃插畫風格的3D渲染場景：台南老戲院的狹窄放映室裡，一隻四腳柴犬趴在金屬倒片台前，用前爪壓住螢光繡線般的膠卷邊緣、用鼻尖推動手搖倒片器，背後放映機形成強烈輪廓光。銀幕裡又映出同一間放映室與同一隻狗正在修膠卷，形成遞迴德羅斯特效應，霓虹粉、螢光黃、電光紫像線跡一圈圈縫進空間。"
   }
 ]
