@@ -855,5 +855,61 @@
       "texture": "Mirror Water Reflection",
       "color_palette": "Crimson and Black"
     }
+  },
+  {
+    "news_inspiration": [
+      {
+        "summary": "韋伯望遠鏡在冥王星與泰坦大氣中發現前所未見的神祕物質，成為本週最吸睛的太空科學亮點。",
+        "url": "https://www.livescience.com/space/science-news-this-week-james-webb-telescope-finds-a-never-before-seen-substance-chinas-great-green-wall-grows-faster-than-natural-trees-and-a-medici-murder-mystery-is-solved",
+        "source": "Live Science"
+      },
+      {
+        "summary": "洛杉磯 Dataland AI 藝術博物館以互動雨林展結合影像、聲音、氣味與生物感測，帶來奇異又華麗的沉浸式體驗。",
+        "url": "https://www.businessinsider.com/dataland-worlds-first-ai-art-museum-in-la-photos-2026-7",
+        "source": "Business Insider"
+      },
+      {
+        "summary": "AI 虛擬演員 Tilly Norwood 將主演首部長片《Misaligned》，讓電影與人工智慧創作的邊界再度成為焦點。",
+        "url": "https://people.com/ai-actress-tilly-norwood-to-make-feature-film-debut-12012414",
+        "source": "People"
+      },
+      {
+        "summary": "溫布頓第八日出現多場精彩對決，Jasmine Paolini 擊敗創下菲律賓大滿貫紀錄的 Alexandra Eala，Arthur Fery 也延續驚奇晉級之旅。",
+        "url": "https://www.thetimes.com/sport/tennis/wimbledon/article/wimbledon-2026-live-scores-latest-news-day-8-kostyuk-de-minaur-fery-fritz-b022zf0sb",
+        "source": "The Times"
+      }
+    ],
+    "avoid_list": [
+      "狗用前爪輕輕撥開沙粒",
+      "狗用鼻尖或前爪推動物件",
+      "鏡子自拍後台構圖",
+      "可讀 UTC 時間標籤",
+      "繁體中文與英文文字限制",
+      "月夜靛藍冷色場景",
+      "金色裝飾與黑色背景",
+      "低光斜射輪廓光",
+      "復古褪色電影質感",
+      "高級時尚或劇院後台",
+      "考古現場清理陶片",
+      "太空科學實驗室與校色絲帶",
+      "俯瞰地圖式場景",
+      "柔和粉彩加莫蘭迪色調",
+      "狗協助人類修正混亂"
+    ],
+    "inspiration_url": "https://www.businessinsider.com/dataland-worlds-first-ai-art-museum-in-la-photos-2026-7",
+    "title": "銀雨獵犬",
+    "inspiration": "洛杉磯 Dataland AI 藝術博物館以互動雨林展結合影像、聲音、氣味與生物感測，帶來奇異又華麗的沉浸式體驗。",
+    "story": "展廳的生物感測地板把牠的步伐轉成雨聲，牠每走一步，牆上的黑白森林影像就開出新的漩渦葉脈。牠不是在表演，只是固執地把那只雨杯送到水池邊，彷彿整座機械雨林正在等牠完成一場無聲儀式。",
+    "comment_id": 4898932998,
+    "number": 19,
+    "style_picks": {
+      "art_style": "Art Nouveau",
+      "composition": "Full-Body Vertical Portrait",
+      "lighting": "Candlelight",
+      "texture": "Dynamic Water Splash",
+      "color_palette": "Monochrome / Black and White"
+    },
+    "prompt": "Art Nouveau black-and-white monochrome illustration, vertical full-body portrait: a four-legged hunting hound centered head-to-toe in a tall ornate Mucha-inspired frame inside the Dataland AI art museum in Los Angeles, interactive rainforest gallery. The dog clearly trots through a falling curtain of water while carrying a long slender glass rain cup in its mouth, moving toward a reflective pool. Flowing organic curves, ornamental borders, floral motifs, vine-like candlelight halos rendered as high-contrast white glow against deep ink shadows, intimate flickering atmosphere, soft dancing shadows. Dynamic water splash texture: silver-white fern-shaped bursts, crystalline liquid arcs, droplets and flying spray frozen mid-motion. Around the hound, the biosensor floor turns pawsteps into visual rain ripples, and black-and-white forest projections on the walls bloom into spiral leaf veins. Rich tonal range, dramatic shadows and highlights, balanced standing composition, environmental context visible. The exact text \"2026-07-07 00:35 UTC\" must be clearly displayed in English on an elegant Art Nouveau museum plaque or floor inlay within the image. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "idea": "新藝術風格的黑白單色直幅全身肖像：一隻四腳獵犬在洛杉磯 Dataland AI 藝術博物館的互動雨林展廳裡，叼著一只細長玻璃雨杯穿過垂落水簾，四周蠟燭映出藤蔓般的曲線光暈，水花像銀白蕨葉向外炸開。"
   }
 ]
