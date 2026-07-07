@@ -1266,5 +1266,61 @@
     "comment_id": 4902354465,
     "news_inspiration": [],
     "prompt": "Dark horror concept art, highly detailed digital painting, bird's-eye view looking straight down into the circular cafeteria of an abandoned underwater observatory. A four-legged yellow dog is clearly shown pushing a cracked ceramic bowl with its mouth across blue-and-yellow checkered floor tiles, sliding scattered dry kibble into a perfect ring as if feeding an unseen companion. Heavy black seawater presses against the round pressure windows outside; ceiling surveillance cameras with eerie yellow indicator lights stare down. Harsh direct on-camera flash creates blown-out highlights on the dog’s wet glossy back fur, hard shadows on the tiled floor, and exposes ghostly translucent wireframe instrument afterimages: glowing geometric mesh lines, technical grid overlays, futuristic see-through blueprint structures hovering over broken cafeteria equipment. Ominous gothic dread, deep shadows, cinematic horror atmosphere, miniature world effect from the top-down composition. Vivid complementary cool blue and warm yellow color scheme with striking graphic contrast. The exact text “2026-07-07 09:35 UTC” is visibly displayed in English on a small illuminated wall monitor or floor timestamp label. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字)."
+  },
+  {
+    "news_inspiration": [
+      {
+        "summary": "中國天問二號在13個月航行後拍到地球「準衛星」小行星 Kamoʻoalewa 的首張影像，為後續採樣返航任務揭開序幕。",
+        "url": "https://people.com/first-image-of-earth-s-quasi-moon-captured-by-chinese-spacecraft-following-13-month-journey-12013152",
+        "source": "People"
+      },
+      {
+        "summary": "AI 生成演員 Tilly Norwood 將主演首部長片《Misaligned》，把人工智慧、身份認同與電影創作的邊界變成一場奇特實驗。",
+        "url": "https://people.com/ai-actress-tilly-norwood-to-make-feature-film-debut-12012414",
+        "source": "People"
+      },
+      {
+        "summary": "Coco Gauff 與 Jessica Pegula 將在溫布頓女單八強上演罕見的美國內戰，也讓本屆女單確定會誕生全新冠軍。",
+        "url": "https://nypost.com/2026/07/06/sports/gauff-pegula-set-for-all-american-wimbledon-quarterfinal/",
+        "source": "New York Post"
+      },
+      {
+        "summary": "舊金山 Fraenkel Film Festival 回歸 Roxie Theater，由藝術家策展20部從經典到冷門的電影，收益支持獨立影院。",
+        "url": "https://www.sfchronicle.com/entertainment/movies-tv/article/fraenkel-film-festival-roxie-22331026.php",
+        "source": "San Francisco Chronicle"
+      }
+    ],
+    "prompt": "Top-down fantasy illustration, dreamy decorative bird's-eye flat-lay composition: on the far side of the Moon inside Chang'e Palace specimen courtyard, a four-legged white Shiba Inu lies prone in a dense sea of high-saturation peonies and star-sand blossoms, clearly lowering its nose to gently sniff tiny Kamoʻoalewa asteroid fragments resting on a polished jade dish. Transform the visual language of a xianxia beauty character standee into the dog: flowing hanfu-like silk ribbons around its body, ornate jade pendants, delicate hairpiece-inspired ornaments, and sculpted three-dimensional floral appliqué relief across the accessories. Ancient Chinese celestial garden details, lunar stone paths, specimen labels, nebula glow scattered across the courtyard, soft purple-blue galactic haze, glowing particles, colorful starfield illumination. Fantasy wuxia game art quality, soft glowing render, layered petal relief texture, bold vivid hues, energetic high-contrast color design. The date and time text “2026-07-07 11:35 UTC” must be visibly engraved on the jade dish rim in clear English lettering. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "number": 29,
+    "story": "天問二號傳回首張影像後，月宮的花匠們把一粒遠方小石請入標本庭，讓守庭白柴先辨認它的氣味。牠沒有叼走，也沒有碰壞，只安靜伏在繁花中央，把來自地球準衛星的塵埃聞成一段回家的路。",
+    "avoid_list": [
+      "狗叼著小道具穿越場景",
+      "狗用鼻尖按壓踏板",
+      "狗用前爪操作機械開關",
+      "靈巧機器手測試細微動作",
+      "苔蘚覆蓋舊設備",
+      "鑄鐵雕花與鏤空窗影",
+      "穆夏式新藝術拱框",
+      "三點打光輪廓光",
+      "螢光霓虹刺繡線跡",
+      "鏡面水面倒影構圖",
+      "框中框遞迴構圖",
+      "固定UTC時間標牌",
+      "翠綠生物光與藻綠光",
+      "柔焦霧面夢幻薄霧",
+      "狗協助校準機械裝置"
+    ],
+    "inspiration": "中國天問二號在13個月航行後拍到地球「準衛星」小行星 Kamoʻoalewa 的首張影像，為後續採樣返航任務揭開序幕。",
+    "comment_id": 4903376347,
+    "idea": "在月球背面的嫦娥宮標本庭院中，一隻四腳白柴犬俯臥於高飽和牡丹與星砂花海，正用鼻尖輕嗅落在玉盤上的 Kamoʻoalewa 小行星碎屑；畫面以古風仙俠美人立繪的華麗衣紋與髮飾語彙轉化為犬身飄帶、玉佩與立體花卉貼花，俯瞰構圖中灑滿星雲輝光。",
+    "title": "星砂聞月",
+    "inspiration_url": "https://people.com/first-image-of-earth-s-quasi-moon-captured-by-chinese-spacecraft-following-13-month-journey-12013152",
+    "style_picks": {
+      "art_style": "Xianxia Beauty Character Art",
+      "composition": "Overhead Reclining-in-Blossoms",
+      "lighting": "Nebula Cosmic Glow",
+      "texture": "Three-Dimensional Floral Appliqué",
+      "color_palette": "High Saturation Vivid"
+    }
   }
 ]
