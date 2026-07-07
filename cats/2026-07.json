@@ -1083,5 +1083,59 @@
     "inspiration": "中國新創與供應鏈正加速研發靈巧機器手，讓人形機器人更接近能執行細緻實用工作的階段。",
     "story": "工程師們暫停午餐時，柯基發現每按一次開關，機械手就會學會一種新的細微力道。牠不懂演算法，只專心聽那聲低低的繼電器咔嗒，像在一座長滿苔蘚的未來工廠裡替機器練習呼吸。",
     "prompt": "Real photograph, minimalist surreal scene inside a Shenzhen humanoid robotics laboratory: a short-legged corgi lies beside a calibration bench, clearly pressing a moss-covered orange foot pedal switch repeatedly with its front paw. Shallow depth-of-field close-up, intimate near-object framing, dog and pedal tack sharp, creamy blurred background with soft bokeh. In the distance, a dexterous robotic hand slowly pinches a dry fern leaf under overhead fluorescent lighting, neutral white 5000K, flat institutional illumination with almost no shadows. Vast clean negative space, dreamlike impossible staging, conceptual fine-art photography, tactile damp moss texture, lush green organic overgrowth reclaiming lab equipment, retro faded colors, washed-out vintage tones, low contrast, nostalgic film-era warmth, subtle grain. Shot on a 35mm lens at f/1.8. A small lab display or printed calibration label in the scene clearly reads: “2026-07-07 04:35 UTC”. All visible text must be English or Traditional Chinese only. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字)."
+  },
+  {
+    "number": 24,
+    "style_picks": {
+      "art_style": "Psychedelic Art",
+      "composition": "Frame Within a Frame",
+      "lighting": "Bioluminescence",
+      "texture": "Wood Grain",
+      "color_palette": "Gold and Black Luxury"
+    },
+    "title": "黑金星嗅",
+    "avoid_list": [
+      "前爪輕輕撥開沙粒或落葉",
+      "狗叼著小物奔跑或移送",
+      "可讀 UTC 時間牌",
+      "新藝術穆夏式裝飾框",
+      "月夜靛藍冷色場景",
+      "磨砂玻璃或透明玻璃包覆空間",
+      "考古現場與陶片碎片",
+      "水花雨幕與鏡面反射",
+      "三點打光電影感特寫",
+      "莫蘭迪灰綠沙粉色調",
+      "強制透視或等距構圖",
+      "高飽和藍紅綠色塊對比",
+      "狗幫人類完成溫柔任務"
+    ],
+    "idea": "一隻黑金斑點臘腸犬在佛羅里達卡納維爾角一座廢棄木造觀測塔的發射整備間裡，用前爪踩住刻滿年輪紋的黃銅軌道盤，鼻尖嗅著發出藻綠生物光的太空船線束；整體以迷幻風格呈現，透過圓形艙門、木框儀表窗與遠處火箭吊臂形成框中框構圖，黑色瀝青地面與金箔般的控制標記帶出奢華金黑色調。",
+    "news_inspiration": [
+      {
+        "summary": "NASA 與新創公司合作發射緊急任務，準備用機器太空船把老牌 Swift 太空望遠鏡推回安全軌道。",
+        "url": "https://www.theverge.com/science/961459/nasa-emergency-save-swift-observatory-katalyst-space-technologies",
+        "source": "The Verge"
+      },
+      {
+        "summary": "Coco Gauff 與 Jessica Pegula 將在溫布頓上演罕見的全美四強門票對決，也保證今年女單會誕生新冠軍。",
+        "url": "https://nypost.com/2026/07/06/sports/gauff-pegula-set-for-all-american-wimbledon-quarterfinal/",
+        "source": "New York Post"
+      },
+      {
+        "summary": "Taylor Fritz 以強勢發球闖進溫布頓八強，讓人想起 Pete Sampras 草地王朝時代的經典打法。",
+        "url": "https://www.theguardian.com/sport/2026/jul/06/taylor-fritz-aces-bublik-to-evoke-memories-of-sampras-golden-era",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "本週科學亮點包含韋伯望遠鏡在冥王星與泰坦發現神祕未知物質，以及中國「綠色長城」樹木成長速度驚人。",
+        "url": "https://www.livescience.com/space/science-news-this-week-james-webb-telescope-finds-a-never-before-seen-substance-chinas-great-green-wall-grows-faster-than-natural-trees-and-a-medici-murder-mystery-is-solved",
+        "source": "Live Science"
+      }
+    ],
+    "comment_id": 4900542636,
+    "inspiration": "NASA 與新創公司合作發射緊急任務，準備用機器太空船把老牌 Swift 太空望遠鏡推回安全軌道。",
+    "inspiration_url": "https://www.theverge.com/science/961459/nasa-emergency-save-swift-observatory-katalyst-space-technologies",
+    "prompt": "Psychedelic mixed-media illustration of a black-and-gold spotted dachshund inside the launch-prep room of an abandoned wooden observation tower at Cape Canaveral, Florida. The dog wears no clothing, clearly pressing its front paws onto an aged brass orbital track disk engraved with concentric wood-ring patterns, its nose sniffing spaceship wiring that emits algae-green bioluminescent glow. Frame-within-frame composition: view through a circular hatch, nested by wooden instrument windows and a distant rocket gantry arm; layered foreground borders create depth and focused perspective. Natural wood grain walls with visible knots appear to slowly swirl into star-map patterns; melting distorted forms, vibrant clashing neon accents, underwater phosphorescent blue-green radiance, black asphalt floor, metallic gold control markings like gold leaf, luxurious black-and-gold mood. Display the exact text “2026-07-07 05:35 UTC” clearly on a glowing brass control plate in the scene. Artistic technique: psychedelic poster art with organic tactile textures, saturated ink, metallic gold accents, luminous bioluminescent lighting, deep black background, opulent surreal atmosphere. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "story": "那晚，老觀測塔像一只倒扣的木盒，內壁年輪在生物光裡緩慢旋轉成星圖。臘腸犬不是工程師，也不穿任何服裝，只是固執地把爪子按在嗡嗡作響的軌道盤上，彷彿聽見高空中那架老望遠鏡發出的細小回聲。當機器太空船的機械臂投下金色影子，整個整備間忽然像一張活著的黑金唱片開始轉動。"
   }
 ]
