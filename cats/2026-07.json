@@ -1675,5 +1675,66 @@
       }
     ],
     "number": 38
+  },
+  {
+    "idea": "在瑞士索洛圖恩阿勒河的淺水考古區，一隻濕漉漉的伯恩山犬用胸背帶拖著繫繩樣本浮板，沿著晚期羅馬橋木樁遺跡旁緩慢游行；畫面以暗黑花卉肖像風格呈現，長卷全景構圖展開河床、考古船與岸邊測繪員，水下焦散光掠過木紋與莫蘭迪灰粉、鼠尾草綠、霧褐色調。",
+    "comment_id": 4909298890,
+    "number": 39,
+    "title": "古橋花影",
+    "style_picks": {
+      "art_style": "Dark Floral Portrait",
+      "composition": "Handscroll Panoramic Layout",
+      "lighting": "Underwater Caustics",
+      "texture": "Wood Grain",
+      "color_palette": "Morandi Color Palette"
+    },
+    "prompt": "Real fine-art photograph, Renaissance-influenced dark floral portrait mood in an extreme wide horizontal handscroll panorama: shallow-water archaeology zone in the Aare River near Solothurn, Switzerland. A wet Bernese Mountain Dog clearly swims slowly beside late Roman bridge timber pile remains, wearing a chest harness and towing a tethered floating sample board loaded with labeled wood samples back toward an archaeology boat, careful not to disturb riverbed markers. Oblique bird’s-eye angle, continuous right-to-left narrative with riverbed foreground, dog and ancient wooden piles midground, archaeology boat and shore surveyors in background. Waterproof label on the floating sample board visibly reads “2026-07-07 21:35 UTC”. Low-key lighting, black void-like shadowed edges framed with white daisies and baby’s breath, melancholic vanitas atmosphere, underwater caustic lighting, rippling blue-green aquatic glow, refracted sun shafts over natural wood grain, visible knots and lines. Morandi muted colors: desaturated dusty gray-pink, sage green, mist brown, quiet warm wood tones. Shot like a real photograph with 35mm lens, f/5.6, natural light, subtle film grain, deep panoramic depth of field, candid documentary realism. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "inspiration_url": "https://www.popularmechanics.com/science/archaeology/a71537926/roman-bridge-finally-found/",
+    "inspiration": "瑞士考古學家在索洛圖恩河底找到晚期羅馬橋的木樁遺跡，補上古代義大利通往德國路線的關鍵缺口。",
+    "story": "牠不是在尋寶，而是在把每一塊取樣木片平穩帶回船邊，避免浪花打亂河底標記。考古學家低聲報出座標時，狗回頭看了一眼水中成排的古橋木樁，像是聽見兩千年前馬車仍在橋面遠去。",
+    "news_inspiration": [
+      {
+        "summary": "NASA 的 TESS 太空望遠鏡首度用重力微透鏡技巧確認一顆藏在舊資料中的遙遠系外行星，展現尋找行星的新能力。",
+        "url": "https://www.space.com/astronomy/exoplanets/nasa-just-found-a-planet-hiding-in-tess-spacecraft-data-all-thanks-to-einstein",
+        "source": "Space.com"
+      },
+      {
+        "summary": "瑞士考古學家在索洛圖恩河底找到晚期羅馬橋的木樁遺跡，補上古代義大利通往德國路線的關鍵缺口。",
+        "url": "https://www.popularmechanics.com/science/archaeology/a71537926/roman-bridge-finally-found/",
+        "source": "Popular Mechanics"
+      },
+      {
+        "summary": "Pitchfork 宣布 2026 年墨西哥城音樂節陣容，將由 American Football、Lido Pimienta、Perfume Genius 等多組跨國音樂人登場。",
+        "url": "https://pitchfork.com/pitchfork-festival-cdmx-2026-announces-lineup",
+        "source": "Pitchfork"
+      },
+      {
+        "summary": "Coco Gauff 在溫布頓逆轉擊敗 Jessica Pegula，生涯首次闖進溫網女單四強。",
+        "url": "https://www.theguardian.com/sport/2026/jul/07/coco-gauff-fights-back-to-sink-jessica-pegula-and-reach-wimbledon-semi-final",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "NASA 分享 2026 年 7 月觀賞銀河的暗空指南，指出新月前後將是拍攝與觀星的理想時段。",
+        "url": "https://timesofindia.indiatimes.com/science/how-to-see-the-milky-way-in-july-2026-nasas-dark-sky-viewing-tips/articleshow/132233667.cms",
+        "source": "The Times of India"
+      }
+    ],
+    "avoid_list": [
+      "狗用鼻尖或前爪啟動裝置",
+      "俯瞰平鋪構圖中的狗",
+      "螢光霓虹刺繡線條",
+      "廢棄劇院與道具倉庫",
+      "水簾雨林與互動感測地板",
+      "藍黃互補色冷光場景",
+      "黑暗恐怖中的圓形光環",
+      "苔蘚或植物侵入科技設備",
+      "狗推動量測輪或碗狀物",
+      "發光標籤顯示 UTC 時間",
+      "博物館或實驗室裡的儀式感動作",
+      "框中框與遞迴畫面",
+      "陶瓷花瓣與紅泥面具",
+      "復古膠片與柔焦淺景深",
+      "古風仙俠飄帶套用在犬身"
+    ]
   }
 ]
