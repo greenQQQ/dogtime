@@ -1383,5 +1383,61 @@
     "prompt": "Real macro photography, extreme close-up at the outdoor stargazing platform of Taipei Astronomical Museum at night: a wet-nosed beagle crouches calmly at the exact center of a spiral vortex composition, holding a translucent frosted glass star chart in its mouth, clearly visible. The spiral is formed by a telescope focusing ring, black cables, circular dew spots, and nearby curved platform architecture, creating strong rotational perspective and a centered vanishing point. The beagle avoids the tripod legs; its tail has traced a small arc through the dew on the ground. The date and time text “2026-07-07 12:35 UTC” is visibly etched in English on the frosted glass star chart. Shot like a real photograph with a 100mm macro lens, f/2.0, low-angle cinematic framing, shallow depth of field, sharp whiskers, wet nose texture, matte glass scratches, diffused light passing through the star chart, soft blurred shapes behind it. Moonlit indigo color grading with deep night-blue and violet tones, cool silvery highlights, cinematic side lighting, volumetric light rays, dramatic shadows, high dynamic range, fine film grain. In the distant background, the moon and Saturn appear in the same frame, small but clear through the nocturnal haze. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
     "idea": "微距攝影風格：在台北市立天文科學教育館的戶外觀星平台，一隻濕鼻子的米格魯正用嘴叼著半透明磨砂玻璃星圖，蹲在望遠鏡調焦環、纜線與露水圓斑形成的螺旋漩渦構圖中央；月夜靛藍色調與電影感側光讓牠的鬍鬚、星圖霧面刮痕和遠處同框的月亮與土星都清晰可見。",
     "number": 30
+  },
+  {
+    "title": "黑鏡星犬",
+    "number": 31,
+    "style_picks": {
+      "art_style": "Steampunk",
+      "composition": "Doppelganger Mirror Composition",
+      "lighting": "Window Light",
+      "texture": "Sand Texture",
+      "color_palette": "Crimson and Black"
+    },
+    "comment_id": 4904451745,
+    "inspiration": "7月7日月亮與土星將在夜空中近距離同框，成為肉眼可見、適合拍照的天文小景。",
+    "avoid_list": [
+      "狗用鼻尖或前爪啟動裝置",
+      "俯瞰平鋪構圖中的狗",
+      "螢光霓虹刺繡線條",
+      "廢棄劇院與道具倉庫",
+      "水簾雨林與互動感測地板",
+      "藍黃互補色冷光場景",
+      "黑暗恐怖中的圓形光環",
+      "苔蘚或植物侵入科技設備",
+      "狗推動量測輪或碗狀物",
+      "發光標籤顯示 UTC 時間",
+      "博物館或實驗室裡的儀式感動作",
+      "框中框與遞迴畫面",
+      "陶瓷花瓣與紅泥面具",
+      "復古膠片與柔焦淺景深",
+      "古風仙俠飄帶套用在犬身"
+    ],
+    "news_inspiration": [
+      {
+        "summary": "7月7日月亮與土星將在夜空中近距離同框，成為肉眼可見、適合拍照的天文小景。",
+        "url": "https://m.economictimes.com/news/new-updates/moon-saturn-conjunction-2026-on-july-7-best-time-and-places-to-watch-the-moon-and-saturn-together/articleshow/132238339.cms",
+        "source": "The Economic Times"
+      },
+      {
+        "summary": "溫布頓女單八強迎來高芙對佩古拉的全美國焦點戰，並保證今年女單將誕生首位溫網冠軍。",
+        "url": "https://nypost.com/2026/07/06/sports/gauff-pegula-set-for-all-american-wimbledon-quarterfinal/",
+        "source": "New York Post"
+      },
+      {
+        "summary": "Major Lazer 在舊金山 Stern Grove Festival 把森林公園變成白天電音派對，吸引跨世代觀眾共舞。",
+        "url": "https://www.sfchronicle.com/entertainment/festivals/article/major-lazer-stern-grove-22316013.php",
+        "source": "San Francisco Chronicle"
+      },
+      {
+        "summary": "澳洲學校七人制橄欖球賽落幕，NSW 與昆士蘭在U16與U18女子組決賽中上演精彩對決並展現新生代潛力。",
+        "url": "https://www.dailytelegraph.com.au/sport/australian-schoolgirls-7s-2026-winners-results-merit-teams-and-photos/news-story/a588d9924ac6f6983f0b1191075f2111",
+        "source": "The Daily Telegraph"
+      }
+    ],
+    "inspiration_url": "https://m.economictimes.com/news/new-updates/moon-saturn-conjunction-2026-on-july-7-best-time-and-places-to-watch-the-moon-and-saturn-together/articleshow/132238339.cms",
+    "idea": "蒸汽朋克風格的懸崖海角天文台內，一隻緋紅項圈的黑色獵犬正叼著黃銅星圖筒穿過撒滿沙粒的觀測室地面，窗邊柔光照在牠與黑曜石鏡面中的異我倒影上，形成鏡像異我構圖。遠處圓窗外，月亮與土星貼近同框，整體以緋紅與烏黑為主調。",
+    "story": "老天文師把最後一張星圖遺落在沙時計旁，獵犬聽見海風撞動齒輪窗，立刻叼起星圖筒奔向望遠鏡座。牠在鏡面前停下，倒影裡的另一隻牠像是守著另一個夜空，而真正的牠只安靜坐著，等人類把這一瞬間記錄下來。",
+    "prompt": "Illustration prompt: A steampunk Victorian cliffside observatory interior at a sea cape, brass gears, cogs, steam pipes, telescope mount, hourglass, and retrofuturist machinery. A black hunting hound with a vivid crimson collar clearly carries a brass star-map tube in its mouth while crossing a fine sand-covered observatory floor with dune-like ripples and warm golden granules. Mirror-doppelganger composition: the dog pauses before an obsidian mirror surface, showing an uncanny reflected alternate self facing it, surreal twin framing and near-symmetry. Soft side-window light in a classic Vermeer-like illumination falls across the dog and mirror, smooth falloff into deep shadow, intimate still-life mood. Through a distant round window, the Moon and Saturn appear close together in the same frame above the dark ocean. Main colors: deep blood-red, jet black, brass gold, and warm sand, dramatic high contrast, seductive sinister mood. The date and time must be visibly displayed in English on a brass wall plaque or engraved observatory clock: \"2026-07-07 13:35 UTC\". IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字)."
   }
 ]
