@@ -1614,5 +1614,66 @@
     "inspiration": "新一代 AtLAST 望遠鏡設計論文提出 50 公尺級、氣候中和的次毫米天文台，可能讓 2030 年後的大尺度宇宙觀測更進一步。",
     "comment_id": 4907966290,
     "character": "latte"
+  },
+  {
+    "story": "牠不是天文學家，卻記得每晚哪一階樓梯最接近星光。當孩子們在風裡調整望遠鏡時，牠把星圖放在鏽斑旁，安靜坐下，像剛替夜空完成一次小小導覽。",
+    "title": "犬引星潮",
+    "avoid_list": [
+      "狗用鼻尖或前爪啟動裝置",
+      "俯瞰平鋪構圖中的狗",
+      "螢光霓虹刺繡線條",
+      "廢棄劇院與道具倉庫",
+      "水簾雨林與互動感測地板",
+      "藍黃互補色冷光場景",
+      "黑暗恐怖中的圓形光環",
+      "苔蘚或植物侵入科技設備",
+      "狗推動量測輪或碗狀物",
+      "發光標籤顯示 UTC 時間",
+      "博物館或實驗室裡的儀式感動作",
+      "框中框與遞迴畫面",
+      "陶瓷花瓣與紅泥面具",
+      "復古膠片與柔焦淺景深",
+      "古風仙俠飄帶套用在犬身"
+    ],
+    "inspiration": "七月夜空迎來月亮與土星、金星與軒轅十四等醒目相會，適合裸眼觀星與攝影。",
+    "prompt": "Pencil sketch illustration, graphite on textured paper with visible pencil strokes, hatching and cross-hatching: a four-legged mixed-breed dog sits on a rusted maintenance platform at Kaohsiung Cijin Lighthouse, holding a creased and stained star chart in its mouth while guiding two chibi children who aim small telescopes toward the moon and Saturn conjunction. The exact text \"2026-07-07 20:35 UTC\" is clearly printed on a small sticker label attached to the star chart. Die-cut sticker collage composition, central dog character surrounded by layered sticker cutouts, white outline borders, floating telescope parts, moon, Saturn, compass, and scrapbook-style overlays framing the scene. Butterfly lighting lands across the center of the dog’s face, overhead key light, soft even illumination, symmetrical shadow under the nose, glamour portrait lighting translated into graphite shading. Background details include sea wind, old iron railings, oxidized patina, peeling paint layers, aged industrial decay, warm orange-brown corrosion, and bamboo jade-green accents in emerald and malachite tones over the scene, elegant oriental green harmony. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "idea": "鉛筆素描風格中，一隻四腳米克斯犬在高雄旗津燈塔的鏽蝕維修平台上，用嘴叼著摺痕斑斑的星圖，帶著兩個拿望遠鏡的孩子尋找月亮與土星相會的位置；畫面以貼紙拼貼邊框收住，蝴蝶光落在犬臉中央，竹影翠綠調子覆在海風與舊鐵欄杆上。",
+    "style_picks": {
+      "art_style": "Pencil Sketch",
+      "composition": "Sticker Collage Frame",
+      "lighting": "Butterfly Lighting",
+      "texture": "Rust / Weathered",
+      "color_palette": "Bamboo Jade Green"
+    },
+    "comment_id": 4908542274,
+    "inspiration_url": "https://www.space.com/what-to-see-night-sky-july-2026",
+    "news_inspiration": [
+      {
+        "summary": "科學家把機器學習與量子物理結合，找到兩種新超導材料，讓室溫超導體搜尋更接近實用突破。",
+        "url": "https://www.sciencedaily.com/releases/2026/07/260701205006.htm",
+        "source": "ScienceDaily"
+      },
+      {
+        "summary": "七月夜空迎來月亮與土星、金星與軒轅十四等醒目相會，適合裸眼觀星與攝影。",
+        "url": "https://www.space.com/what-to-see-night-sky-july-2026",
+        "source": "Space.com"
+      },
+      {
+        "summary": "巴基斯坦屋頂太陽能在化石燃料供電失靈時補上缺口，並帶動快速成長的民間能源熱潮。",
+        "url": "https://www.goodnewsnetwork.org/rooftop-solar-gave-power-to-pakistan-when-fossil-fuels-failed-its-now-called-a-boom/",
+        "source": "Good News Network"
+      },
+      {
+        "summary": "巴黎高訂週上，Jonathan Anderson 以受藝術家 Lynda Benglis 啟發的雕塑感 Dior 系列轉移時尚焦點。",
+        "url": "https://apnews.com/article/couture-dior-france-fashion-paris-973a366707e52ddb2365dfb6cfd44856",
+        "source": "AP News"
+      },
+      {
+        "summary": "Tracee Ellis Ross 將以充滿互動與療癒感的《Every Brilliant Thing》完成百老匯首演。",
+        "url": "https://apnews.com/article/tracee-ellis-ross-brilliant-thing-913a86eed3adeaa34d9018dbd14331fd",
+        "source": "AP News"
+      }
+    ],
+    "number": 38
   }
 ]
