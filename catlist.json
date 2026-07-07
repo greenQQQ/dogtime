@@ -349,5 +349,17 @@
     "timestamp": "2026-07-07 18:35 UTC",
     "number": 36,
     "inspiration": "加州聖塔克魯茲山區的野生動物通道已讓近千隻動物安全穿越道路，成為保育設計的醒目案例。"
+  },
+  {
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-07_1935_UTC.webp",
+    "character_name": "拿鐵",
+    "status": "success",
+    "title": "拿鐵觀星",
+    "inspiration": "新一代 AtLAST 望遠鏡設計論文提出 50 公尺級、氣候中和的次毫米天文台，可能讓 2030 年後的大尺度宇宙觀測更進一步。",
+    "number": 37,
+    "timestamp": "2026-07-07 19:35 UTC",
+    "inspiration_url": "https://arxiv.org/abs/2607.05022",
+    "character": "latte",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)"
   }
 ]

@@ -1556,5 +1556,63 @@
     ],
     "number": 36,
     "inspiration": "加州聖塔克魯茲山區的野生動物通道已讓近千隻動物安全穿越道路，成為保育設計的醒目案例。"
+  },
+  {
+    "character_name": "拿鐵",
+    "style_picks": {
+      "art_style": "Biopunk",
+      "composition": "Ultra Wide Angle",
+      "lighting": "Fluorescent Lighting",
+      "texture": "Marble",
+      "color_palette": "Duotone"
+    },
+    "avoid_list": [
+      "狗用鼻尖或前爪啟動裝置",
+      "俯瞰平鋪構圖中的狗",
+      "螢光霓虹刺繡線條",
+      "廢棄劇院與道具倉庫",
+      "水簾雨林與互動感測地板",
+      "藍黃互補色冷光場景",
+      "黑暗恐怖中的圓形光環",
+      "苔蘚或植物侵入科技設備",
+      "狗推動量測輪或碗狀物",
+      "發光標籤顯示 UTC 時間",
+      "博物館或實驗室裡的儀式感動作",
+      "框中框與遞迴畫面",
+      "陶瓷花瓣與紅泥面具",
+      "復古膠片與柔焦淺景深",
+      "古風仙俠飄帶套用在犬身"
+    ],
+    "number": 37,
+    "story": "美容院今天替未來天文台辦小型募款下午茶，所有客人都在看望遠鏡模型，只有拿鐵堅信真正該被觀測的是牠完美的毛量。當美容師說出「漂亮」兩個字，牠立刻抬頭挺胸，小粉舌微微吐出，彷彿整個宇宙都該為牠調焦。",
+    "news_inspiration": [
+      {
+        "summary": "新一代 AtLAST 望遠鏡設計論文提出 50 公尺級、氣候中和的次毫米天文台，可能讓 2030 年後的大尺度宇宙觀測更進一步。",
+        "url": "https://arxiv.org/abs/2607.05022",
+        "source": "arXiv"
+      },
+      {
+        "summary": "研究人員展示用影片中的步態動態辨識野生動物個體的新方法，未來可望減少標記與捕捉對動物的干擾。",
+        "url": "https://arxiv.org/abs/2607.04518",
+        "source": "arXiv"
+      },
+      {
+        "summary": "費城經典電影《洛基》50 週年慶 RockyFest 將在 2026 年強勢回歸，並搭配美術館展覽延續影迷熱潮。",
+        "url": "https://www.axios.com/local/philadelphia/2026/07/07/rockyfest-rocky-balboa-sylvester-stallone",
+        "source": "Axios"
+      },
+      {
+        "summary": "梅西在世界盃淘汰賽率領阿根廷上演驚人逆轉，再添生涯紀錄與最後一舞式的傳奇時刻。",
+        "url": "https://people.com/lionel-messi-leads-argentina-to-unbelievable-world-cup-win-over-egypt-12013565",
+        "source": "People"
+      }
+    ],
+    "idea": "生物朋克風格的寵物美容院裡，超廣角鏡頭拉出一整排大理石洗吹檯與透明生物培養管，拿鐵這隻杏紅色泰迪貴賓坐在中央最軟的蕾絲墊上，正陶醉地讓美容師把牠圓蓬蓬的泰迪頭吹成像微型星雲。日光燈灑下雙色調的奶咖與冷白光，旁邊是一座由活體菌絲與大理石支架構成的50公尺望遠鏡概念模型。",
+    "inspiration_url": "https://arxiv.org/abs/2607.05022",
+    "prompt": "Real photograph, biopunk pet grooming salon, ultra wide angle 12mm lens, low counter-height viewpoint with dramatic perspective distortion and expansive field of view. A whole row of polished white marble wash-and-blow stations with natural grey veining stretches into the distance, interwoven with transparent biological culture tubes, living mycelium supports, bioluminescent organic-mechanical details, mutated flora, and subtle genetic-lab hardware. Center frame: Latte, a literal small toy poodle, apricot-red #C98B5E soft tight curly coat only, signature round teddy-bear groom with extra-fluffy round head and rounded plush muzzle, long floppy ears blended into curls, small round black button nose, round dark-brown #4A3220 button eyes, no collar, no bows, no clothing. Latte sits on the softest lace cushion on the central marble grooming table, four-legged dog posture, chest proudly lifted, tiny pink tongue peeking out, blissfully enjoying a human groomer blow-drying its fluffy round teddy head into a miniature nebula-like puff of curls. Background guests look at a 50-meter telescope concept model made of living mycelium and marble struts. A visible English wall sign or digital panel clearly reads: \"2026-07-07 19:35 UTC\". Overhead fluorescent institutional lighting, neutral white 5000K, flat no-shadow illumination, duotone color treatment using only milk-coffee warm beige and cool white, modern graphic impact, cool smooth marble finish, real photographic texture, sharp documentary realism. No white poodle, black poodle, grey poodle, show cut, shaved muzzle, pompom tail cut, straight silky fur, large standard poodle, upright ears, blue eyes, bows, ribbons, collar, dress, clothing, leash, anthropomorphic dog, humanoid dog, mascot costume, human body, human hands, human face. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "title": "拿鐵觀星",
+    "inspiration": "新一代 AtLAST 望遠鏡設計論文提出 50 公尺級、氣候中和的次毫米天文台，可能讓 2030 年後的大尺度宇宙觀測更進一步。",
+    "comment_id": 4907966290,
+    "character": "latte"
   }
 ]
