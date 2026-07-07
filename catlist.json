@@ -249,5 +249,14 @@
     "timestamp": "2026-07-07 07:35 UTC",
     "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-07_0735_UTC.webp",
     "inspiration": "考古學家在埃及西部沙漠發現保存良好的1600年前拜占庭城市，包含街道、教堂與日常生活遺物。"
+  },
+  {
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "title": "瓷花守夜",
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-07_0835_UTC.webp",
+    "timestamp": "2026-07-07 08:35 UTC",
+    "inspiration": "original",
+    "status": "success",
+    "number": 26
   }
 ]

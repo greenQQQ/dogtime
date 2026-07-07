@@ -1198,5 +1198,39 @@
     "title": "沙城花眠",
     "number": 25,
     "inspiration": "考古學家在埃及西部沙漠發現保存良好的1600年前拜占庭城市，包含街道、教堂與日常生活遺物。"
+  },
+  {
+    "story": "劇團失蹤那晚，所有道具花都自己開裂，只有這隻看門犬還記得哪一張面具不該被碰。牠不是在清理，而是在用氣味辨認最後一個演員留下的恐懼。環形燈每閃一次，陶瓷花海深處就多出一張新的空白臉。",
+    "title": "瓷花守夜",
+    "comment_id": 4901802867,
+    "prompt": "Dark horror concept art, highly detailed digital painting with sculpted clay and handmade matte ceramic textures: in the abandoned underground prop warehouse of an old Tainan theater, viewed from a strict overhead top-down flat-lay composition, a natural four-legged black mixed-breed dog lies prone in a dense sea of cracked ceramic chrysanthemum petals, clearly licking red clay off a row of eerie baby-face masks one by one. A flickering ring light above forms a perfect circular halo of illumination, casting the dog, petals, masks, and clay into a stark two-color duotone only: bone white and dried blood red, with deep surrounding shadows and gothic dread atmosphere. The scene feels like an unbaked nightmare made of clay and ceramic, matte surfaces with subtle imperfections, ominous decorative bird’s-eye framing, bold modern graphic impact. The dog remains anatomically canine, grounded and natural, muzzle extended, tongue visibly cleaning a mask. Display the English text “2026-07-07 08:35 UTC” clearly on a cracked theater prop label or floor placard within the image, legible and integrated into the composition. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "inspiration": "original",
+    "avoid_list": [
+      "狗叼著小道具穿越場景",
+      "狗用鼻尖按壓踏板",
+      "狗用前爪操作機械開關",
+      "靈巧機器手測試細微動作",
+      "苔蘚覆蓋舊設備",
+      "鑄鐵雕花與鏤空窗影",
+      "穆夏式新藝術拱框",
+      "三點打光輪廓光",
+      "螢光霓虹刺繡線跡",
+      "鏡面水面倒影構圖",
+      "框中框遞迴構圖",
+      "固定UTC時間標牌",
+      "翠綠生物光與藻綠光",
+      "柔焦霧面夢幻薄霧",
+      "狗協助校準機械裝置"
+    ],
+    "idea": "暗黑恐怖概念藝術：台南一座停演多年的老戲院地下道具倉庫裡，一隻黑色米克斯犬俯臥在碎裂陶瓷菊花海中央，正用舌頭一片片舔淨沾滿紅泥的嬰兒面具，頭頂環形燈把牠與花瓣照成骨白與乾血紅的雙色調。整個畫面由正上方俯瞰，狗仍是四足犬的自然姿態，黏土與陶瓷質感讓牠像被未燒成的噩夢包圍。",
+    "number": 26,
+    "style_picks": {
+      "art_style": "Dark Horror Concept Art",
+      "composition": "Overhead Reclining-in-Blossoms",
+      "lighting": "Ring Light",
+      "texture": "Clay / Ceramic",
+      "color_palette": "Duotone"
+    },
+    "news_inspiration": []
   }
 ]
