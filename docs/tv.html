@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>狗狗時光 · 電視牆</title>
+  <meta name="description" content="狗狗時光電視牆模式 — 全螢幕自動輪播，把螢幕變成每小時更新的 AI 狗狗相框。">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; background: #0e0a07; overflow: hidden; cursor: none; }
+    body.paused { cursor: default; }
+    .stage { position: fixed; inset: 0; }
+    .slide {
+      position: absolute; inset: 0;
+      display: flex; align-items: center; justify-content: center;
+      opacity: 0; transition: opacity 1.6s ease;
+    }
+    .slide.show { opacity: 1; }
+    .slide img { max-width: 100%; max-height: 100%; object-fit: contain; }
+    .caption {
+      position: fixed; left: 0; right: 0; bottom: 0;
+      padding: 1.4rem 2rem 1.6rem;
+      background: linear-gradient(transparent, rgba(10, 6, 3, .82));
+      color: #f3e7d7;
+      font-family: 'LXGW WenKai TC', 'Nunito', system-ui, sans-serif;
+      display: flex; align-items: baseline; gap: 1rem;
+      text-shadow: 0 1px 6px rgba(0,0,0,.6);
+      transition: opacity .8s ease;
+    }
+    .caption .t { font-size: 1.5rem; font-weight: 700; }
+    .caption .m { font-size: .95rem; opacity: .75; }
+    .caption .brand { margin-left: auto; font-size: .95rem; opacity: .6; }
+    .hint {
+      position: fixed; top: 1rem; right: 1.2rem; color: #f3e7d7;
+      font: .8rem 'Nunito', sans-serif; opacity: .45;
+      background: rgba(0,0,0,.35); padding: .3rem .7rem; border-radius: 999px;
+    }
+    .hint.fade { opacity: 0; transition: opacity 2s ease 4s; }
+    .paused-badge {
+      position: fixed; top: 1rem; left: 1.2rem; color: #ffd9a0;
+      font: .85rem 'Nunito', sans-serif;
+      background: rgba(0,0,0,.45); padding: .3rem .8rem; border-radius: 999px;
+      display: none;
+    }
+    body.paused .paused-badge { display: block; }
+  </style>
+</head>
+<body>
+  <div class="stage" id="stage"></div>
+  <div class="caption" id="caption"><span class="t" id="capT"></span><span class="m" id="capM"></span><span class="brand">🐾 狗狗時光</span></div>
+  <div class="hint fade">點一下暫停 · 再點繼續 · Esc 回相簿</div>
+  <div class="paused-badge">⏸ 已暫停</div>
+  <script>
+  (function () {
+    var LIST = "https://raw.githubusercontent.com/greenQQQ/dogtime/main/catlist.json";
+    var params = new URLSearchParams(location.search);
+    var interval = Math.max(5, parseInt(params.get("speed") || "18", 10)) * 1000;
+    var stage = document.getElementById("stage");
+    var capT = document.getElementById("capT");
+    var capM = document.getElementById("capM");
+    var items = [], idx = 0, timer = null, cur = null;
+
+    function shuffle(a) {
+      for (var i = a.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1)), t = a[i]; a[i] = a[j]; a[j] = t;
+      }
+      return a;
+    }
+
+    function load() {
+      return fetch(LIST + "?tv=" + Date.now())
+        .then(function (r) { return r.json(); })
+        .then(function (list) {
+          var ok = list.filter(function (c) { return c.status !== "failed" && c.url; });
+          var latest = ok.slice(-12).reverse();          // 最新 12 張先播
+          var rest = shuffle(ok.slice(0, -12));          // 其餘隨機
+          items = latest.concat(rest);
+          idx = 0;
+        });
+    }
+
+    function show() {
+      if (!items.length) return;
+      var dog = items[idx % items.length];
+      idx++;
+      var slide = document.createElement("div");
+      slide.className = "slide";
+      var img = document.createElement("img");
+      img.src = dog.url;
+      img.alt = dog.title || ("Dog #" + dog.number);
+      img.onload = function () {
+        slide.classList.add("show");
+        if (cur) { var old = cur; setTimeout(function () { old.remove(); }, 1800); }
+        cur = slide;
+        capT.textContent = "#" + dog.number + (dog.title ? "　" + dog.title : "");
+        capM.textContent = (dog.timestamp || "") + (dog.character_name ? " · 主演 " + dog.character_name : "");
+      };
+      img.onerror = function () { slide.remove(); show(); };
+      slide.appendChild(img);
+      stage.appendChild(slide);
+    }
+
+    function tick() { show(); timer = setTimeout(tick, interval); }
+
+    load().then(function () {
+      tick();
+      setInterval(load, 60 * 60 * 1000);   // 每小時重新抓，新狗自動進輪播
+    });
+
+    document.addEventListener("click", function () {
+      if (timer) { clearTimeout(timer); timer = null; document.body.classList.add("paused"); }
+      else { document.body.classList.remove("paused"); tick(); }
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") location.href = "index.html";
+    });
+  })();
+  </script>
+</body>
+</html>

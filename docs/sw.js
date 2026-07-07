@@ -1,4 +1,4 @@
-const STATIC_CACHE = "dogtime-static-v1";   // html/css/js/icons — network-first, cache is offline fallback
+const STATIC_CACHE = "dogtime-static-v2";   // html/css/js/icons — network-first, cache is offline fallback
 const CATS_CACHE = "dogtime-dogs-v1";       // cat images — immutable, kept across updates
 const CATLIST_RE = /catlist\.json$/;
 const ICON_RE = /(icon|favicon|apple-touch-icon)/;

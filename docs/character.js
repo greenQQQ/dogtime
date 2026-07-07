@@ -84,6 +84,25 @@
     // Filter: entries with character field matching this character id
     var matched = catlist.filter(function (e) { return e.character === c.id; });
 
+    // ── 角色小統計卡（登場次數 / 首次 / 最近 / 生日） ──
+    (function () {
+      var ok = matched.filter(function (e) { return e.status !== 'failed'; });
+      var chips = ['🎬 登場 ' + ok.length + ' 次'];
+      if (ok.length) {
+        chips.push('🌱 首次 ' + (ok[0].timestamp || '').slice(0, 10));
+        chips.push('🕐 最近 ' + (ok[ok.length - 1].timestamp || '').slice(0, 10));
+      }
+      var seasonal = ok.filter(function (e) { return e.is_seasonal; }).length;
+      if (seasonal) chips.push('🍂 季節特別篇 ' + seasonal + ' 次');
+      if (c.birthday) chips.push('🎂 生日 ' + c.birthday.replace('-', ' / '));
+      var box = document.createElement('div');
+      box.className = 'char-stats';
+      box.innerHTML = chips.map(function (t) { return '<span class="char-stat-chip">' + esc(t) + '</span>'; }).join('');
+      var profile = document.getElementById('character-profile');
+      var nameEl = document.getElementById('char-name');
+      if (profile && nameEl) profile.insertBefore(box, nameEl.nextSibling);
+    })();
+
     // Fallback: also check url/filename for character id
     if (matched.length === 0) {
       matched = catlist.filter(function (e) {

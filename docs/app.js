@@ -506,6 +506,7 @@
         if (dog.season && SEASON_ICONS[dog.season]) {
           tagText += " · " + SEASON_ICONS[dog.season];
         }
+        if (dog.is_birthday) tagText += " · 🎂";
         charTag.appendChild(document.createTextNode(tagText));
         cardInfo.appendChild(charTag);
       }
@@ -783,6 +784,7 @@
       if (dog.season && SEASON_ICONS[dog.season]) {
         tagText += " · " + SEASON_ICONS[dog.season];
       }
+      if (dog.is_birthday) tagText += " · 🎂";
       charTag.appendChild(document.createTextNode(tagText));
       appendWithSpace(lbInfo, charTag);
     }
@@ -925,6 +927,14 @@
         if (document.activeElement === last) { e.preventDefault(); first.focus(); }
       }
     }
+  });
+
+  // extras.js（頭條/時光牆/同題）點圖 → 開既有燈箱
+  document.addEventListener("open-dog-lightbox", e => {
+    const dog = e.detail;
+    if (!dog) return;
+    const idx = filtered.indexOf(dog);
+    openLightbox(dog, idx >= 0 ? idx : 0);
   });
 
   // ── Random dog button ──

@@ -305,6 +305,32 @@ def get_current_season(month: int, index: dict) -> str | None:
     return None
 
 
+def _birthday_character(now: datetime, index: dict) -> dict | None:
+    """生日特別篇：某角色生日當天，當日第一次成功生成強制由壽星主演（一天一次）。"""
+    today_md = now.strftime("%m-%d")
+    for entry in index.get("characters", []):
+        if not entry.get("enabled", True):
+            continue
+        char = load_character(entry["id"])
+        if not char or char.get("birthday") != today_md:
+            continue
+        # 今天已經主演過就不重複（catlist 是時間序，今天的都在最尾端）
+        cats = load_json_list(Path("catlist.json"))
+        prefix = now.strftime("%Y-%m-%d")
+        for c in reversed(cats):
+            if not isinstance(c, dict) or not str(c.get("timestamp", "")).startswith(prefix):
+                break
+            if c.get("character") == char["id"] and c.get("status", "success") == "success":
+                return None
+        chosen = dict(char)
+        chosen["_is_seasonal"] = False
+        chosen["_season"] = None
+        chosen["_is_birthday"] = True
+        print(f"🎂 Birthday special: {chosen['name']['zh']} ({chosen['id']})")
+        return chosen
+    return None
+
+
 def select_character(now: datetime) -> dict | None:
     """Select a character for this generation, or None for original.
 
@@ -313,6 +339,11 @@ def select_character(now: datetime) -> dict | None:
     index = load_character_index()
     if not index or not index.get("characters"):
         return None
+
+    # 生日壽星優先於機率抽選
+    birthday_char = _birthday_character(now, index)
+    if birthday_char is not None:
+        return birthday_char
 
     prob = index.get("probability", {})
     original_prob = prob.get("original", 0.50)
@@ -417,6 +448,13 @@ def format_character_for_idea(char: dict) -> str:
         if variant:
             seasonal_note = f"\n季節主題（{season}）：{variant}\n你必須將這個季節主題融入場景設計中。\n"
 
+    birthday_note = ""
+    if char.get("_is_birthday"):
+        birthday_note = (
+            "\n🎂 今天是這個角色的生日！場景必須是溫馨歡樂的生日慶祝："
+            "生日蛋糕、派對帽、氣球、彩帶或朋友們齊聚，至少出現其中一項，氣氛幸福。\n"
+        )
+
     return (
         f"TODAY'S CHARACTER: {char['name']['zh']} ({char['name']['en']})\n"
         f"外觀：{'。'.join(appearance_lines)}\n"
@@ -424,7 +462,7 @@ def format_character_for_idea(char: dict) -> str:
         f"小癖好：{quirks}\n"
         f"背景故事：{char.get('story_context', '')}\n"
         f"偏好場景：{'、'.join(char.get('preferred_settings', []))}\n"
-        f"{seasonal_note}\n"
+        f"{seasonal_note}{birthday_note}\n"
         f"你必須讓這個角色成為畫面的主角。\n"
         f"場景和行為要符合這個角色的個性和偏好。\n"
         f"保持角色的外觀特徵一致，這是系列角色。\n"
@@ -443,6 +481,11 @@ def format_character_for_render(char: dict) -> str:
         variant = char.get("seasonal_variants", {}).get(season, "")
         if variant:
             seasonal_addition = f" Seasonal theme: {season} - the dog should be dressed/styled appropriately for {season}."
+    if char.get("_is_birthday"):
+        seasonal_addition += (
+            " BIRTHDAY SPECIAL: it is this character's birthday — the scene MUST be a heartwarming "
+            "birthday celebration (birthday cake, party hat, balloons, confetti, or gathered friends)."
+        )
 
     negative = char.get("negative_prompt", "")
     negative_line = f"NEGATIVE CONSTRAINTS (must not appear): {negative}\n" if negative else ""
@@ -823,7 +866,45 @@ def fetch_news_inspiration() -> list[dict]:
     return []
 
 
-def generate_prompt_and_story(timestamp: str, creative_notes: dict, character: dict | None = None) -> dict:
+def _crossover_read() -> dict | None:
+    """讀姊妹站寫入的今日共享新聞（過期或缺檔回 None）。"""
+    path = os.environ.get("CROSSOVER_FILE")
+    if not path or not Path(path).exists():
+        return None
+    try:
+        data = json.loads(Path(path).read_text(encoding="utf-8"))
+        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        if data.get("date") == today and data.get("summary"):
+            return {"summary": data["summary"], "url": data.get("url"), "source": data.get("source")}
+    except Exception as e:
+        print(f"  crossover read failed ({e})")
+    return None
+
+
+def _crossover_write(summary: str, url: str | None, news: list) -> None:
+    """write 端把選中的新聞寫進共享檔，供姊妹站同題使用。"""
+    path = os.environ.get("CROSSOVER_FILE")
+    if not path:
+        return
+    source = None
+    for item in news or []:
+        if isinstance(item, dict) and (item.get("summary") or "").strip() == (summary or "").strip():
+            source = item.get("source")
+            break
+    payload = {
+        "date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+        "summary": summary,
+        "url": url,
+        "source": source,
+    }
+    try:
+        Path(path).write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"🐾 Crossover(write): 已寫入共享新聞 → {summary[:70]}")
+    except Exception as e:
+        print(f"  crossover write failed ({e})")
+
+
+def generate_prompt_and_story(timestamp: str, creative_notes: dict, character: dict | None = None, crossover_role: str | None = None) -> dict:
     """Three-stage prompt generation: news -> idea -> render.
 
     Stage 0: NEWS_PROMPT + Google Search -> [news summaries] (optional inspiration)
@@ -842,7 +923,20 @@ def generate_prompt_and_story(timestamp: str, creative_notes: dict, character: d
         )
 
     # Stage 0: Fetch news inspiration (70% chance; 30% force original)
-    if random.random() < 0.30:
+    # 狗狗同題聯動：write 端一定抓新聞且必選一則；read 端直接吃姊妹站寫入的共享新聞。
+    xo_item = None
+    if crossover_role == "read":
+        xo_item = _crossover_read()
+        if xo_item:
+            print(f"🐾 Crossover(read): 共享新聞 → {xo_item['summary'][:70]}")
+        else:
+            print("🐾 Crossover(read): 找不到今天的共享新聞，改走一般流程")
+    if xo_item:
+        news = [xo_item]
+    elif crossover_role == "write":
+        news = fetch_news_inspiration()
+        print("🐾 Crossover(write): 今天要選一則新聞與姊妹站同題")
+    elif random.random() < 0.30:
         print("Inspiration roll: forced original (30% chance)")
         news = []
     else:
@@ -850,12 +944,27 @@ def generate_prompt_and_story(timestamp: str, creative_notes: dict, character: d
     news_section = ""
     if news:
         bullets = "\n".join(f"- {item['summary']}" for item in news)
-        news_section = (
-            "Here are some current world events for inspiration. "
-            "You MAY creatively incorporate one into the dog scene, or ignore them entirely. "
-            "Aim for roughly half news-inspired, half pure imagination.\n"
-            f"{bullets}\n\n"
-        )
+        if xo_item:
+            news_section = (
+                "TODAY'S CROSSOVER NEWS — you MUST base the scene on this exact news item "
+                "(a sister site is drawing the same news today), and copy it exactly into the "
+                "inspiration field:\n"
+                f"{bullets}\n\n"
+            )
+        elif crossover_role == "write":
+            news_section = (
+                "Here are today's news items. You MUST pick exactly ONE of them as the scene's "
+                "inspiration (a sister site will draw the same news today), and copy it exactly "
+                "into the inspiration field:\n"
+                f"{bullets}\n\n"
+            )
+        else:
+            news_section = (
+                "Here are some current world events for inspiration. "
+                "You MAY creatively incorporate one into the dog scene, or ignore them entirely. "
+                "Aim for roughly half news-inspired, half pure imagination.\n"
+                f"{bullets}\n\n"
+            )
 
     # Character section for prompts
     character_idea_section = format_character_for_idea(character) if character else ""
@@ -884,6 +993,7 @@ def generate_prompt_and_story(timestamp: str, creative_notes: dict, character: d
         'title': '狗狗日常',
         'inspiration': 'original',
         'inspiration_url': None,
+        'crossover': False,
         'avoid_list': avoid_list,
         'news_inspiration': news,
         'style_picks': {k: v['en'] for k, v in style_picks.items()},
@@ -958,6 +1068,12 @@ def generate_prompt_and_story(timestamp: str, creative_notes: dict, character: d
                 print(f"  Stage 1 failed ({e}), using fallback.")
                 return fallback
 
+    # 聯動記帳：write 端把選中的新聞寫進共享檔；兩端都標 crossover 旗標
+    xo_used = bool(xo_item) and inspiration != "original"
+    if crossover_role == "write" and inspiration and inspiration != "original":
+        _crossover_write(inspiration, _match_news_url(news, inspiration), news)
+        xo_used = True
+
     # Brief delay between API calls to avoid rate limiting
     time.sleep(2)
 
@@ -987,6 +1103,7 @@ def generate_prompt_and_story(timestamp: str, creative_notes: dict, character: d
                 'title': title or '狗狗日常',
                 'inspiration': inspiration,
                 'inspiration_url': _match_news_url(news, inspiration),
+                'crossover': xo_used,
                 'avoid_list': avoid_list,
                 'news_inspiration': news,
                 'style_picks': {k: v['en'] for k, v in style_picks.items()},
@@ -1004,6 +1121,7 @@ def generate_prompt_and_story(timestamp: str, creative_notes: dict, character: d
                 'title': title or '狗狗日常',
                 'inspiration': inspiration,
                 'inspiration_url': _match_news_url(news, inspiration),
+                'crossover': xo_used,
                 'avoid_list': avoid_list,
                 'news_inspiration': news,
                 'style_picks': {k: v['en'] for k, v in style_picks.items()},
@@ -1021,6 +1139,7 @@ def generate_prompt_and_story(timestamp: str, creative_notes: dict, character: d
             'title': title or '狗狗日常',
             'inspiration': inspiration,
             'inspiration_url': _match_news_url(news, inspiration),
+            'crossover': xo_used,
             'avoid_list': avoid_list,
             'news_inspiration': news,
             'style_picks': {k: v['en'] for k, v in style_picks.items()},
@@ -1416,8 +1535,8 @@ def post_issue_comment(issue_number: str, image_url: str, number: int, timestamp
 
 def update_catlist_and_push(entry: dict) -> int:
     """Update catlist.json and monthly detail file, commit and push."""
-    index_fields = {"number", "timestamp", "url", "model", "status", "error", "title", "inspiration", "inspiration_url", "character", "character_name", "is_seasonal", "season"}
-    detail_fields = {"number", "prompt", "story", "idea", "title", "inspiration", "inspiration_url", "news_inspiration", "avoid_list", "style_picks", "comment_id", "character", "character_name", "is_seasonal", "season"}
+    index_fields = {"number", "timestamp", "url", "model", "status", "error", "title", "inspiration", "inspiration_url", "crossover", "is_birthday", "character", "character_name", "is_seasonal", "season"}
+    detail_fields = {"number", "prompt", "story", "idea", "title", "inspiration", "inspiration_url", "crossover", "is_birthday", "news_inspiration", "avoid_list", "style_picks", "comment_id", "character", "character_name", "is_seasonal", "season"}
 
     # Write lightweight index entry to catlist.json
     catlist_path = Path("catlist.json")
@@ -1517,7 +1636,15 @@ def main():
     character = select_character(now)
 
     print(f"Generating dog #{next_number} for {timestamp}...")
-    prompt_data = generate_prompt_and_story(timestamp, creative_notes, character)
+    # 狗狗同題聯動：在指定 UTC 小時，write 端選定新聞寫入共享檔、read 端照著畫
+    crossover_role = None
+    if os.environ.get("CROSSOVER_FILE") and os.environ.get("CROSSOVER_ROLE") in ("write", "read"):
+        try:
+            if now.hour == int(os.environ.get("CROSSOVER_HOUR_UTC", "4")):
+                crossover_role = os.environ["CROSSOVER_ROLE"]
+        except ValueError:
+            pass
+    prompt_data = generate_prompt_and_story(timestamp, creative_notes, character, crossover_role=crossover_role)
     prompt = prompt_data['prompt']
     story = prompt_data['story']
     idea = prompt_data.get('idea', '')
@@ -1586,6 +1713,10 @@ def main():
         entry["comment_id"] = comment_id
     if prompt_data.get("inspiration_url"):
         entry["inspiration_url"] = prompt_data["inspiration_url"]
+    if prompt_data.get("crossover"):
+        entry["crossover"] = True
+    if character and character.get("_is_birthday"):
+        entry["is_birthday"] = True
     if char_id:
         entry["character"] = char_id
         entry["character_name"] = char_name

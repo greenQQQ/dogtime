@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>猜靈感 · 狗狗時光</title>
+  <meta name="description" content="猜靈感小遊戲 — 看 AI 狗狗作品，猜猜它的靈感來自哪一則新聞。答案還能點回新聞出處。">
+  <meta name="theme-color" content="#5fa8e0">
+  <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="stylesheet" href="style.css?v=20260707b">
+  <style>
+    .guess-page { max-width: 720px; margin: 0 auto; padding: 1.4rem 1rem 4rem; }
+    .guess-head { text-align: center; font-family: var(--font-cute); margin-bottom: 1rem; }
+    .guess-head h1 {
+      font-size: 1.7rem; margin: .2rem 0;
+      background: linear-gradient(135deg, #4a90d9, var(--pink), #6ec6e8);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    }
+    .guess-head p { color: var(--text-muted); margin: 0; font-size: .92rem; }
+    .guess-score {
+      display: inline-block; margin-top: .5rem; font-weight: 700; font-size: .85rem;
+      background: var(--pink-pale); color: var(--pink);
+      border-radius: 999px; padding: .2rem .8rem;
+    }
+    .guess-card {
+      background: var(--photo-frame); border: 1px solid rgba(130,95,60,.1);
+      border-radius: 8px; padding: 12px 12px 10px;
+      box-shadow: 0 6px 20px var(--photo-shadow);
+    }
+    .guess-card img { width: 100%; border-radius: 3px; display: block; }
+    .guess-q {
+      font-family: var(--font-cute); font-weight: 700; font-size: 1.05rem;
+      text-align: center; margin: .9rem 0 .7rem;
+    }
+    .guess-opts { display: grid; gap: .6rem; }
+    .guess-opt {
+      font: inherit; text-align: left; cursor: pointer;
+      padding: .7rem .95rem; border-radius: 12px;
+      border: 1.5px dashed var(--pink-light);
+      background: var(--surface); color: var(--text);
+      transition: transform .12s ease, border-color .12s ease, background .12s ease;
+      line-height: 1.55;
+    }
+    .guess-opt:hover { transform: translateY(-1px); border-color: var(--pink); }
+    .guess-opt.correct { background: #e2f6e9; border: 1.5px solid #58b882; color: #23663f; }
+    .guess-opt.wrong { background: #fdeaea; border: 1.5px solid #e08585; color: #8a3030; opacity: .85; }
+    .guess-opt:disabled { cursor: default; }
+    [data-theme="dark"] .guess-opt.correct { background: #1e3627; color: #8fd4ab; }
+    [data-theme="dark"] .guess-opt.wrong { background: #3a2323; color: #e0a0a0; }
+    .guess-result { text-align: center; margin-top: .9rem; min-height: 2.2rem; font-weight: 700; }
+    .guess-result a { color: var(--blue); text-decoration: underline; text-underline-offset: 2px; }
+    .guess-next {
+      display: inline-block; margin-top: .4rem; cursor: pointer; font: inherit; font-weight: 700;
+      background: var(--pink); color: #fff; border: 0; border-radius: 999px; padding: .5rem 1.5rem;
+    }
+    .guess-final { text-align: center; padding: 2rem 0; font-family: var(--font-cute); }
+    .guess-final .big { font-size: 2rem; font-weight: 800; color: var(--pink); }
+    .guess-back { display: block; text-align: center; margin-top: 1.6rem; color: var(--text-muted); text-decoration: none; }
+    .guess-back:hover { color: var(--pink); }
+  </style>
+</head>
+<body>
+  <div class="guess-page">
+    <div class="guess-head">
+      <h1>🎮 猜靈感</h1>
+      <p>每張作品都藏著一則真實新聞，猜猜是哪一則</p>
+      <span class="guess-score" id="score">第 1 題 / 8 · 答對 0</span>
+    </div>
+    <div class="guess-card">
+      <img id="qimg" src="" alt="AI 狗狗作品" />
+      <div class="guess-q">這張的靈感來自哪一則新聞?</div>
+      <div class="guess-opts" id="opts"></div>
+      <div class="guess-result" id="result"></div>
+    </div>
+    <a class="guess-back" href="index.html">← 回狗狗時光</a>
+  </div>
+
+  <script>
+  (function () {
+    var OWNER = "greenQQQ/dogtime";
+    var LIST = "https://raw.githubusercontent.com/" + OWNER + "/main/catlist.json";
+    var TOTAL = 8;
+    var qs = [], qi = 0, good = 0, lock = false;
+
+    var $img = document.getElementById("qimg");
+    var $opts = document.getElementById("opts");
+    var $res = document.getElementById("result");
+    var $score = document.getElementById("score");
+
+    function shuffle(a) {
+      for (var i = a.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1)), t = a[i]; a[i] = a[j]; a[j] = t;
+      }
+      return a;
+    }
+
+    fetch(LIST).then(function (r) { return r.json(); }).then(function (list) {
+      var pool = list.filter(function (c) {
+        return c.status !== "failed" && c.url && c.inspiration && c.inspiration !== "original";
+      });
+      if (pool.length < 4) {
+        $opts.innerHTML = "<p style='color:var(--text-muted);text-align:center'>新聞靈感的作品還不夠多，晚點再來玩~</p>";
+        return;
+      }
+      var picked = shuffle(pool.slice()).slice(0, TOTAL);
+      qs = picked.map(function (dog) {
+        var wrong = shuffle(pool.filter(function (o) {
+          return o.number !== dog.number && o.inspiration !== dog.inspiration;
+        })).slice(0, 2).map(function (o) { return o.inspiration; });
+        return { dog: dog, options: shuffle([dog.inspiration].concat(wrong)) };
+      }).filter(function (q) { return q.options.length === 3; });
+      round();
+    }).catch(function () {
+      $opts.innerHTML = "<p style='color:var(--text-muted);text-align:center'>載入失敗，請稍後重試</p>";
+    });
+
+    function round() {
+      if (qi >= qs.length) return final();
+      lock = false;
+      var q = qs[qi];
+      $score.textContent = "第 " + (qi + 1) + " 題 / " + qs.length + " · 答對 " + good;
+      $img.src = q.dog.url;
+      $res.innerHTML = "";
+      $opts.innerHTML = "";
+      q.options.forEach(function (opt) {
+        var b = document.createElement("button");
+        b.type = "button";
+        b.className = "guess-opt";
+        b.textContent = opt;
+        b.addEventListener("click", function () { answer(b, opt, q); });
+        $opts.appendChild(b);
+      });
+    }
+
+    function answer(btn, opt, q) {
+      if (lock) return;
+      lock = true;
+      var right = opt === q.dog.inspiration;
+      if (right) good++;
+      Array.prototype.forEach.call($opts.children, function (b) {
+        b.disabled = true;
+        if (b.textContent === q.dog.inspiration) b.classList.add("correct");
+        else if (b === btn && !right) b.classList.add("wrong");
+      });
+      var link = q.dog.inspiration_url
+        ? '　<a href="' + q.dog.inspiration_url + '" target="_blank" rel="noopener">看這則新聞 ↗</a>'
+        : "";
+      $res.innerHTML = (right ? "答對了 🎉" : "可惜~") + link +
+        '<br><button class="guess-next" id="next">' + (qi + 1 >= qs.length ? "看成績" : "下一題") + "</button>";
+      $score.textContent = "第 " + (qi + 1) + " 題 / " + qs.length + " · 答對 " + good;
+      document.getElementById("next").addEventListener("click", function () { qi++; round(); });
+    }
+
+    function final() {
+      var msg = good >= qs.length - 1 ? "新聞鼻比狗還靈 🏆" : good >= qs.length / 2 ? "很有靈感雷達喔" : "牠們的想像力贏了這回合~";
+      document.querySelector(".guess-card").innerHTML =
+        '<div class="guess-final"><div class="big">' + good + " / " + qs.length + '</div><p>' + msg + '</p>' +
+        '<button class="guess-next" onclick="location.reload()">再玩一輪</button></div>';
+    }
+  })();
+  </script>
+</body>
+</html>

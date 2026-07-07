@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>時光小鎮 · 貓咪時光 × 狗狗時光</title>
+  <meta name="description" content="時光小鎮 — 貓咪時光與狗狗時光十位毛孩住民的世界觀：小鎮地圖、角色關係與友情故事。">
+  <meta name="theme-color" content="#ff8a5c">
+  <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="stylesheet" href="style.css?v=20260707b">
+  <style>
+    .world-page { max-width: 900px; margin: 0 auto; padding: 1.4rem 1rem 4rem; }
+    .world-head { text-align: center; font-family: var(--font-cute); margin-bottom: 1.2rem; }
+    .world-head h1 {
+      font-size: 1.8rem; margin: .2rem 0;
+      background: linear-gradient(135deg, #e8964c, var(--pink), #6ec6e8);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    }
+    .world-head p { color: var(--text-muted); margin: 0; font-size: .95rem; line-height: 1.8; }
+    .world-map {
+      border-radius: 14px; overflow: hidden;
+      border: 1px solid rgba(130,95,60,.12);
+      box-shadow: 0 8px 26px var(--photo-shadow);
+      margin: 1.2rem 0 .4rem;
+    }
+    .world-map img { width: 100%; display: block; }
+    .world-map-cap { text-align: center; color: var(--text-muted); font-size: .82rem; font-family: var(--font-cute); margin-bottom: 1.6rem; }
+    .world-title { font-family: var(--font-cute); font-weight: 800; font-size: 1.2rem; margin: 1.6rem 0 .9rem; }
+    .world-title::before { content: "🐾 "; }
+    .rel-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }
+    .rel-card {
+      background: var(--photo-frame);
+      border: 1px solid rgba(130,95,60,.1); border-radius: 14px;
+      box-shadow: 0 4px 16px var(--photo-shadow);
+      padding: 1rem;
+      position: relative;
+    }
+    .rel-pair { display: flex; align-items: center; justify-content: center; gap: .6rem; margin-bottom: .6rem; }
+    .rel-pair a { display: block; }
+    .rel-pair img {
+      width: 62px; height: 62px; border-radius: 50%; object-fit: cover;
+      border: 2.5px solid #fff; box-shadow: 0 3px 10px rgba(0,0,0,.14);
+      transition: transform .15s ease;
+    }
+    .rel-pair a:hover img { transform: scale(1.1) rotate(-4deg); }
+    .rel-heart { font-size: 1.2rem; }
+    .rel-name {
+      text-align: center; font-family: var(--font-cute); font-weight: 800;
+      font-size: 1.02rem; margin-bottom: .35rem; color: var(--pink);
+    }
+    .rel-desc { color: var(--text); font-size: .88rem; line-height: 1.75; margin: 0; }
+    .rel-place {
+      display: inline-block; margin-top: .55rem;
+      font-size: .74rem; font-weight: 700; color: #3f9268;
+      background: #ddf3e6; border-radius: 999px; padding: .16rem .6rem;
+    }
+    [data-theme="dark"] .rel-place { background: #23392c; color: #8fd4ab; }
+    .resident-row { display: flex; justify-content: center; gap: .7rem; flex-wrap: wrap; margin-top: .6rem; }
+    .resident { text-align: center; text-decoration: none; color: inherit; width: 72px; }
+    .resident img {
+      width: 56px; height: 56px; border-radius: 50%; object-fit: cover;
+      border: 2px solid #fff; box-shadow: 0 2px 8px rgba(0,0,0,.12);
+      transition: transform .15s ease;
+    }
+    .resident:hover img { transform: scale(1.12); }
+    .resident span { display: block; font-size: .74rem; font-family: var(--font-cute); margin-top: .25rem; color: var(--text); }
+    .world-links { text-align: center; margin-top: 2rem; font-family: var(--font-cute); }
+    .world-links a { color: var(--pink); font-weight: 700; text-decoration: none; margin: 0 .8rem; }
+    .world-links a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="world-page">
+    <div class="world-head">
+      <h1>🗺️ 時光小鎮</h1>
+      <p>貓咪時光和狗狗時光的十位住民，其實都住在同一座小鎮。<br>老街、巷弄、咖啡廳、河堤——每小時誕生的每張作品，都是小鎮某個角落的一瞬間。</p>
+    </div>
+
+    <div class="world-map"><img src="town-map.jpg" alt="時光小鎮地圖插畫" loading="lazy"
+      onerror="this.closest('.world-map').style.display='none';document.querySelector('.world-map-cap').style.display='none'"></div>
+    <p class="world-map-cap">時光小鎮全景（AI 繪製）</p>
+
+    <div class="world-title">住民名冊</div>
+    <div class="resident-row" id="residents"></div>
+
+    <div class="world-title">小鎮關係誌</div>
+    <div class="rel-grid" id="relations"></div>
+
+    <div class="world-links">
+      <a href="https://greenqqq.github.io/catime/">🐱 貓咪時光</a>
+      <a href="https://greenqqq.github.io/dogtime/">🐶 狗狗時光</a>
+    </div>
+  </div>
+
+  <script>
+  (function () {
+    var CAT = "https://greenqqq.github.io/catime/";
+    var DOG = "https://greenqqq.github.io/dogtime/";
+    var R = [
+      { a: ["qqq", "QQQ", CAT], b: ["machi", "麻吉", DOG], icon: "🍚", name: "巷口飯友",
+        place: "巷口的便當店前",
+        desc: "一個在等罐頭，一個在等家人下班，等著等著就變成每天一起等。老闆娘偶爾各賞一口，是小鎮公開的秘密。" },
+      { a: ["blanli", "布藍里", CAT], b: ["wuwu", "小嗚", DOG], icon: "🌙", name: "屋頂夜班",
+        place: "夜晚的頂樓",
+        desc: "布藍里安靜看星星，小嗚對著月亮嗚嗚演講。誰也聽不懂誰，但誰也不肯先下樓——小鎮最意外的一對搭檔。" },
+      { a: ["snowball", "雪球", CAT], b: ["latte", "拿鐵", DOG], icon: "🫖", name: "咖啡廳雙公主",
+        place: "貓咪咖啡廳的窗位",
+        desc: "每週三下午茶固定同席，一朵雲對一杯拿鐵。表面優雅寒暄，實際在比今天誰的毛比較蓬，勝負至今未分。" },
+      { a: ["oreo", "奧利奧", CAT], b: ["pudding", "布丁", DOG], icon: "💥", name: "搗蛋二人組",
+        place: "傳統市場一帶",
+        desc: "燕尾服負責高處作案，短腿負責地面掩護。花盆倒了、毛線滾了，目擊者眾多但沒有人生得了氣。" },
+      { a: ["huahua", "花花", CAT], b: ["ajin", "阿金", DOG], icon: "🍀", name: "老街暖心組",
+        place: "老街與廟口",
+        desc: "花花在誰家門口打盹誰家生意就好，阿金見人就叼禮物過去。店家都說：這兩位路過，比開運竹還有效。" },
+    ];
+    var rel = document.getElementById("relations");
+    R.forEach(function (r) {
+      var card = document.createElement("div");
+      card.className = "rel-card";
+      card.innerHTML =
+        "<div class='rel-pair'>" +
+        "<a href='" + r.a[2] + "character.html?id=" + r.a[0] + "'><img src='" + r.a[2] + "avatars/" + r.a[0] + ".webp' alt='" + r.a[1] + "'></a>" +
+        "<span class='rel-heart'>" + r.icon + "</span>" +
+        "<a href='" + r.b[2] + "character.html?id=" + r.b[0] + "'><img src='" + r.b[2] + "avatars/" + r.b[0] + ".webp' alt='" + r.b[1] + "'></a>" +
+        "</div>" +
+        "<div class='rel-name'>" + r.a[1] + " × " + r.b[1] + "：" + r.name + "</div>" +
+        "<p class='rel-desc'>" + r.desc + "</p>" +
+        "<span class='rel-place'>📍 " + r.place + "</span>";
+      rel.appendChild(card);
+    });
+    var residents = [];
+    R.forEach(function (r) { residents.push(r.a, r.b); });
+    var row = document.getElementById("residents");
+    residents.forEach(function (p) {
+      var a = document.createElement("a");
+      a.className = "resident";
+      a.href = p[2] + "character.html?id=" + p[0];
+      a.innerHTML = "<img src='" + p[2] + "avatars/" + p[0] + ".webp' alt=''><span>" + p[1] + "</span>";
+      row.appendChild(a);
+    });
+  })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>本週回顧 · 狗狗時光</title>
+  <meta name="description" content="狗狗時光本週回顧 — 過去七天的精選作品、主演排行與小統計，每週自動更新。">
+  <meta name="theme-color" content="#5fa8e0">
+  <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="stylesheet" href="style.css?v=20260707b">
+  <style>
+    .wk-page { max-width: 860px; margin: 0 auto; padding: 1.4rem 1rem 4rem; }
+    .wk-head { text-align: center; font-family: var(--font-cute); margin-bottom: 1.2rem; }
+    .wk-head h1 {
+      font-size: 1.7rem; margin: .2rem 0;
+      background: linear-gradient(135deg, #4a90d9, var(--pink), #6ec6e8);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    }
+    .wk-head p { color: var(--text-muted); margin: 0; font-size: .92rem; }
+    .wk-stats { display: flex; justify-content: center; gap: .6rem; flex-wrap: wrap; margin: 1rem 0 1.4rem; }
+    .wk-chip {
+      background: var(--pink-pale); color: var(--pink);
+      font-weight: 700; font-size: .85rem;
+      border-radius: 999px; padding: .35rem .95rem;
+      border: 1.5px dashed var(--pink-light);
+    }
+    .wk-title { font-family: var(--font-cute); font-weight: 800; font-size: 1.15rem; margin: 1.4rem 0 .8rem; }
+    .wk-title::before { content: "🐾 "; }
+    .wk-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 1rem; }
+    .wk-card {
+      background: var(--photo-frame); border: 1px solid rgba(130,95,60,.1);
+      border-radius: 6px; padding: 9px 9px 6px;
+      box-shadow: 0 4px 14px var(--photo-shadow);
+      cursor: pointer; text-decoration: none; color: inherit; display: block;
+      transition: transform .18s ease;
+    }
+    .wk-card:hover { transform: translateY(-4px) rotate(-.5deg); }
+    .wk-card img { width: 100%; border-radius: 3px; display: block; }
+    .wk-card .cap {
+      font-family: var(--font-cute); font-size: .82rem; text-align: center;
+      padding: .45rem .2rem .2rem; color: var(--text);
+    }
+    .wk-rank { display: grid; gap: .5rem; }
+    .wk-rank-row {
+      display: flex; align-items: center; gap: .7rem;
+      background: var(--surface); border: 1px solid rgba(130,95,60,.1);
+      border-radius: 12px; padding: .5rem .8rem;
+      text-decoration: none; color: inherit;
+    }
+    .wk-rank-row img { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; }
+    .wk-rank-row .nm { font-weight: 700; }
+    .wk-rank-row .ct { margin-left: auto; color: var(--text-muted); font-size: .85rem; }
+    .wk-empty { color: var(--text-muted); text-align: center; padding: 2rem 0; }
+    .wk-back { display: block; text-align: center; margin-top: 1.8rem; color: var(--text-muted); text-decoration: none; }
+    .wk-back:hover { color: var(--pink); }
+  </style>
+</head>
+<body>
+  <div class="wk-page">
+    <div class="wk-head">
+      <h1>📅 本週回顧</h1>
+      <p id="wk-range">載入中…</p>
+    </div>
+    <div class="wk-stats" id="wk-stats"></div>
+    <div class="wk-title">本週精選</div>
+    <div class="wk-grid" id="wk-picks"></div>
+    <div class="wk-title">主演排行</div>
+    <div class="wk-rank" id="wk-rank"></div>
+    <a class="wk-back" href="index.html">← 回狗狗時光</a>
+  </div>
+
+  <script>
+  (function () {
+    var OWNER = "greenQQQ/dogtime";
+    var LIST = "https://raw.githubusercontent.com/" + OWNER + "/main/catlist.json";
+    var LIKES = "likes.json";
+    var CHAR_INDEX = "https://raw.githubusercontent.com/" + OWNER + "/main/characters/index.json";
+
+    function parseTs(ts) {
+      var m = /^(\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2})/.exec(ts || "");
+      if (!m) return null;
+      return new Date(Date.UTC(+m[1], m[2] - 1, +m[3], +m[4], +m[5]));
+    }
+    function fmt(d) { return (d.getMonth() + 1) + "/" + d.getDate(); }
+
+    Promise.all([
+      fetch(LIST).then(function (r) { return r.json(); }),
+      fetch(LIKES).then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; }),
+    ]).then(function (rs) {
+      var list = rs[0], likes = rs[1] || {};
+      var now = new Date();
+      var weekAgo = new Date(now.getTime() - 7 * 86400 * 1000);
+      var ok = list.filter(function (c) { return c.status !== "failed" && c.url; });
+      var week = ok.filter(function (c) { var d = parseTs(c.timestamp); return d && d >= weekAgo; });
+      document.getElementById("wk-range").textContent = fmt(weekAgo) + " ~ " + fmt(now) + " 的七天";
+
+      // 統計
+      var newsCount = week.filter(function (c) { return c.inspiration && c.inspiration !== "original"; }).length;
+      var charCount = week.filter(function (c) { return c.character_name; }).length;
+      var stats = [
+        "本週誕生 " + week.length + " 張",
+        "新聞靈感 " + newsCount + " 張",
+        "角色主演 " + charCount + " 張",
+        "累積 " + ok.length + " 張",
+      ];
+      document.getElementById("wk-stats").innerHTML = stats.map(function (s) {
+        return "<span class='wk-chip'>" + s + "</span>";
+      }).join("");
+
+      // 精選：讚優先，其次新聞靈感有標題的，補到 6 張
+      var scored = week.slice().sort(function (a, b) {
+        var la = likes[String(a.number)] || 0, lb = likes[String(b.number)] || 0;
+        if (lb !== la) return lb - la;
+        var na = a.inspiration && a.inspiration !== "original" ? 1 : 0;
+        var nb = b.inspiration && b.inspiration !== "original" ? 1 : 0;
+        if (nb !== na) return nb - na;
+        return (b.number || 0) - (a.number || 0);
+      }).slice(0, 6);
+      var picks = document.getElementById("wk-picks");
+      if (!scored.length) picks.innerHTML = "<p class='wk-empty'>這週還沒有作品，晚點再來~</p>";
+      scored.forEach(function (c) {
+        var a = document.createElement("a");
+        a.className = "wk-card";
+        a.href = "index.html";
+        var lk = likes[String(c.number)] || 0;
+        a.innerHTML = "<img loading='lazy' src='" + c.url + "' alt=''><div class='cap'>#" + c.number +
+          (c.title ? " " + c.title : "") + (lk ? " · ❤" + lk : "") + "</div>";
+        picks.appendChild(a);
+      });
+
+      // 主演排行
+      var counts = {};
+      week.forEach(function (c) {
+        if (c.character_name && c.character) {
+          var k = c.character;
+          counts[k] = counts[k] || { id: k, name: c.character_name, n: 0 };
+          counts[k].n++;
+        }
+      });
+      var rows = Object.values(counts).sort(function (a, b) { return b.n - a.n; });
+      var rank = document.getElementById("wk-rank");
+      if (!rows.length) rank.innerHTML = "<p class='wk-empty'>本週大家都在休假中 💤</p>";
+      rows.forEach(function (r, i) {
+        var medal = ["🥇", "🥈", "🥉"][i] || "🐾";
+        var a = document.createElement("a");
+        a.className = "wk-rank-row";
+        a.href = "character.html?id=" + encodeURIComponent(r.id);
+        a.innerHTML = "<span>" + medal + "</span>" +
+          "<img src='avatars/" + r.id + ".webp' alt=''><span class='nm'>" + r.name + "</span>" +
+          "<span class='ct'>主演 " + r.n + " 次</span>";
+        rank.appendChild(a);
+      });
+    });
+  })();
+  </script>
+</body>
+</html>
