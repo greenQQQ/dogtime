@@ -1232,5 +1232,39 @@
       "color_palette": "Duotone"
     },
     "news_inspiration": []
+  },
+  {
+    "title": "黑水餐鐘",
+    "number": 27,
+    "idea": "暗黑恐怖概念藝術的俯瞰視角中，一隻四腳黃狗在廢棄海底觀測站的圓形食堂裡，用嘴推著一只裂開的陶碗沿著藍黃格紋地磚滑行，把散落的乾糧聚成一圈；直打閃光燈讓牠濕亮的背毛與地面上的線框透明質感儀器殘影同時刺眼浮現。",
+    "story": "食堂早已沒有人用餐，只有壓力艙外沉重的黑水貼著玻璃。狗每晚都把乾糧推成圓圈，像在餵一個看不見的同伴，而天花板監視器的黃燈總在牠完成時一起睜開。",
+    "inspiration": "original",
+    "avoid_list": [
+      "狗叼著小道具穿越場景",
+      "狗用鼻尖按壓踏板",
+      "狗用前爪操作機械開關",
+      "靈巧機器手測試細微動作",
+      "苔蘚覆蓋舊設備",
+      "鑄鐵雕花與鏤空窗影",
+      "穆夏式新藝術拱框",
+      "三點打光輪廓光",
+      "螢光霓虹刺繡線跡",
+      "鏡面水面倒影構圖",
+      "框中框遞迴構圖",
+      "固定UTC時間標牌",
+      "翠綠生物光與藻綠光",
+      "柔焦霧面夢幻薄霧",
+      "狗協助校準機械裝置"
+    ],
+    "style_picks": {
+      "art_style": "Dark Horror Concept Art",
+      "composition": "Bird's-Eye View",
+      "lighting": "Direct Flash",
+      "texture": "Wireframe Overlay",
+      "color_palette": "Blue and Yellow Complementary"
+    },
+    "comment_id": 4902354465,
+    "news_inspiration": [],
+    "prompt": "Dark horror concept art, highly detailed digital painting, bird's-eye view looking straight down into the circular cafeteria of an abandoned underwater observatory. A four-legged yellow dog is clearly shown pushing a cracked ceramic bowl with its mouth across blue-and-yellow checkered floor tiles, sliding scattered dry kibble into a perfect ring as if feeding an unseen companion. Heavy black seawater presses against the round pressure windows outside; ceiling surveillance cameras with eerie yellow indicator lights stare down. Harsh direct on-camera flash creates blown-out highlights on the dog’s wet glossy back fur, hard shadows on the tiled floor, and exposes ghostly translucent wireframe instrument afterimages: glowing geometric mesh lines, technical grid overlays, futuristic see-through blueprint structures hovering over broken cafeteria equipment. Ominous gothic dread, deep shadows, cinematic horror atmosphere, miniature world effect from the top-down composition. Vivid complementary cool blue and warm yellow color scheme with striking graphic contrast. The exact text “2026-07-07 09:35 UTC” is visibly displayed in English on a small illuminated wall monitor or floor timestamp label. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字)."
   }
 ]
