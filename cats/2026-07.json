@@ -911,5 +911,54 @@
     },
     "prompt": "Art Nouveau black-and-white monochrome illustration, vertical full-body portrait: a four-legged hunting hound centered head-to-toe in a tall ornate Mucha-inspired frame inside the Dataland AI art museum in Los Angeles, interactive rainforest gallery. The dog clearly trots through a falling curtain of water while carrying a long slender glass rain cup in its mouth, moving toward a reflective pool. Flowing organic curves, ornamental borders, floral motifs, vine-like candlelight halos rendered as high-contrast white glow against deep ink shadows, intimate flickering atmosphere, soft dancing shadows. Dynamic water splash texture: silver-white fern-shaped bursts, crystalline liquid arcs, droplets and flying spray frozen mid-motion. Around the hound, the biosensor floor turns pawsteps into visual rain ripples, and black-and-white forest projections on the walls bloom into spiral leaf veins. Rich tonal range, dramatic shadows and highlights, balanced standing composition, environmental context visible. The exact text \"2026-07-07 00:35 UTC\" must be clearly displayed in English on an elegant Art Nouveau museum plaque or floor inlay within the image. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
     "idea": "新藝術風格的黑白單色直幅全身肖像：一隻四腳獵犬在洛杉磯 Dataland AI 藝術博物館的互動雨林展廳裡，叼著一只細長玻璃雨杯穿過垂落水簾，四周蠟燭映出藤蔓般的曲線光暈，水花像銀白蕨葉向外炸開。"
+  },
+  {
+    "title": "褶光小徑",
+    "idea": "以曼陀羅藝術繪成長卷全景構圖：巴黎高訂週後台的螢光試衣長廊裡，一隻短腿柯基正用鼻尖按壓地板踏板，讓懸掛軌道上的立體褶皺布帶像發光花輪般旋轉展開。畫面覆著柔焦霧面薄霧，霓虹檸檬黃、電紫與螢光珊瑚色在布褶、地膠與狗毛邊緣形成細密曼陀羅紋。",
+    "prompt": "Mandala art illustration, extreme wide handscroll panoramic composition, right-to-left continuous narrative inside a fluorescent fitting corridor backstage at Paris Haute Couture Week. A short-legged corgi is clearly pressing a floor pedal with its nose, triggering suspended rail-mounted sculptural pleated fabric ribbons to rotate and unfold like glowing flower garlands. Designers stand silently along the corridor watching. Oblique bird's-eye angle, layered foreground, middleground, and background, multiple focal points spread horizontally. Complex radial symmetry, concentric sacred-geometric mandala patterns woven into the fabric folds, vinyl floor reflections, and fine glowing edges of the corgi's fur. Overhead neutral white 5000K fluorescent lighting, institutional flat illumination, no shadows, soft-focus matte haze, dreamy diffused blur, gentle glowing veil, low-contrast luminous finish. Neon lemon yellow, electric purple, fluorescent coral, electric pink, lime green, and hot cyan glowing against a dark backstage setting. Include a clear illuminated backstage digital sign or floor label showing exactly: \"2026-07-07 01:35 UTC\". IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "avoid_list": [
+      "前爪輕輕撥開沙粒或落葉",
+      "狗叼著小物奔跑或移送",
+      "可讀 UTC 時間牌",
+      "新藝術穆夏式裝飾框",
+      "月夜靛藍冷色場景",
+      "磨砂玻璃或透明玻璃包覆空間",
+      "考古現場與陶片碎片",
+      "水花雨幕與鏡面反射",
+      "三點打光電影感特寫",
+      "莫蘭迪灰綠沙粉色調",
+      "強制透視或等距構圖",
+      "高飽和藍紅綠色塊對比",
+      "狗幫人類完成溫柔任務"
+    ],
+    "comment_id": 4899300031,
+    "story": "服裝秀開始前，柯基被布料震動聲吸引，鑽進試衣長廊，意外啟動了尚未公開的動態褶皺裝置。設計師們沒有上前阻止，只安靜看著牠在四腳奔走與停頓之間，把整條後台變成一幅會呼吸的螢光曼陀羅長卷。",
+    "inspiration": "巴黎高訂週上，Jonathan Anderson 以受藝術家 Lynda Benglis 啟發的立體褶皺 Dior 系列，把焦點從名人婚紗轉向雕塑感時裝。",
+    "inspiration_url": "https://apnews.com/article/973a366707e52ddb2365dfb6cfd44856",
+    "news_inspiration": [
+      {
+        "summary": "泰國西部新考古遺址出土兩枚約兩千年歷史的金戒指，其中一枚刻有古印度婆羅米文字，為鐵器時代交流留下迷人線索。",
+        "url": "https://apnews.com/article/95f42060c51f62cc4c4b3346c0f0e549",
+        "source": "AP News"
+      },
+      {
+        "summary": "巴黎高訂週上，Jonathan Anderson 以受藝術家 Lynda Benglis 啟發的立體褶皺 Dior 系列，把焦點從名人婚紗轉向雕塑感時裝。",
+        "url": "https://apnews.com/article/973a366707e52ddb2365dfb6cfd44856",
+        "source": "AP News"
+      },
+      {
+        "summary": "威尼斯影展宣布將頒發終身成就金獅獎給喬治克隆尼，表彰他作為演員、導演與製片人的長年電影貢獻。",
+        "url": "https://apnews.com/article/de2fea048ff9e5f16d23f3ebf6fe1541",
+        "source": "AP News"
+      }
+    ],
+    "style_picks": {
+      "art_style": "Mandala Art",
+      "composition": "Handscroll Panoramic Layout",
+      "lighting": "Fluorescent Lighting",
+      "texture": "Soft-Focus Matte Haze",
+      "color_palette": "Neon Fluorescent"
+    },
+    "number": 20
   }
 ]
