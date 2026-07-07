@@ -26,13 +26,15 @@
     var today = new Date();
     var todays = ok.filter(function (c) { return sameLocalDay(parseTs(c.timestamp), today); });
 
-    buildClockWall(todays, today);
+    buildClockWall(ok, todays, today);
     buildHeadline(ok, todays);
     buildCrossover(ok);
   }).catch(function () {});
 
-  /* ── ⏰ 今日時光牆：24 小時格，走完一圈就是一天 ── */
-  function buildClockWall(todays, today) {
+  /* ── ⏰ 今日時光牆：24 小時格，走完一圈就是一天。
+        今天缺席的過去小時 → 用「最近某天同一小時」的作品回顧填充（調暗＋標日期），
+        牆永遠是滿的，又不假裝是今天生的。 ── */
+  function buildClockWall(ok, todays, today) {
     var host = document.getElementById("clock-wall");
     if (!host) return;
     var byHour = {};
@@ -40,28 +42,45 @@
       var d = parseTs(c.timestamp);
       if (d) byHour[d.getHours()] = c;   // 本地時區小時
     });
+    // 回顧池：由新到舊，找每個小時「非今天」的最近一張
+    var pastByHour = {};
+    var filledCount = 0;
+    for (var i = ok.length - 1; i >= 0 && filledCount < 24; i--) {
+      var d0 = parseTs(ok[i].timestamp);
+      if (!d0 || sameLocalDay(d0, today)) continue;
+      var hh = d0.getHours();
+      if (!(hh in pastByHour)) { pastByHour[hh] = ok[i]; filledCount++; }
+    }
     var nowH = today.getHours();
     var frag = document.createDocumentFragment();
     for (var h = 0; h < 24; h++) {
-      var cell = document.createElement(byHour[h] ? "a" : "div");
-      cell.className = "cw-cell" + (h === nowH ? " now" : "") + (byHour[h] ? " filled" : "");
+      var todayCat = byHour[h];
+      var pastCat = !todayCat && h <= nowH ? pastByHour[h] : null;
+      var dog = todayCat || pastCat;
+      var cell = document.createElement(dog ? "a" : "div");
+      cell.className = "cw-cell" + (h === nowH ? " now" : "") +
+        (todayCat ? " filled" : "") + (pastCat ? " filled past" : "");
       var label = "<span class='cw-h'>" + (h < 10 ? "0" + h : h) + "</span>";
-      if (byHour[h]) {
-        var c = byHour[h];
+      if (dog) {
         cell.href = "#";
-        cell.title = "#" + c.number + (c.title ? " " + c.title : "");
-        cell.innerHTML = label + "<img loading='lazy' src='" + c.url + "' alt='" + esc(cell.title) + "'>";
-        (function (dog) {
+        cell.title = "#" + dog.number + (dog.title ? " " + dog.title : "");
+        var badge = "";
+        if (pastCat) {
+          var pd = parseTs(pastCat.timestamp);
+          var dateTag = pd ? (pd.getMonth() + 1) + "/" + pd.getDate() : "";
+          badge = "<span class='cw-past'>回顧 " + dateTag + "</span>";
+          cell.title = "這小時今天休息，回顧 " + dateTag + " 的 " + cell.title;
+        }
+        cell.innerHTML = label + "<img loading='lazy' src='" + dog.url + "' alt='" + esc(cell.title) + "'>" + badge;
+        (function (c2) {
           cell.addEventListener("click", function (e) {
             e.preventDefault();
-            var evt = new CustomEvent("open-dog-lightbox", { detail: dog });
-            document.dispatchEvent(evt);
+            document.dispatchEvent(new CustomEvent("open-dog-lightbox", { detail: c2 }));
           });
-        })(byHour[h]);
+        })(dog);
       } else {
-        cell.innerHTML = label + "<span class='cw-zzz'>" + (h <= nowH ? "･ﾟ" : "💤") + "</span>";
-        if (h <= nowH) cell.title = "這個小時休息了";
-        else cell.title = "還沒到";
+        cell.innerHTML = label + "<span class='cw-zzz'>💤</span>";
+        cell.title = h <= nowH ? "這個小時休息了" : "還沒到";
       }
       frag.appendChild(cell);
     }

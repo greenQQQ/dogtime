@@ -1459,3 +1459,14 @@ a.news-tag::after { content: " ↗"; opacity: .85; }
   padding: .28rem .8rem;
 }
 [data-theme="dark"] .char-stat-chip { background: rgba(255,255,255,.05); }
+
+/* ── 時光牆回顧填充格 ── */
+.cw-cell.past img { filter: saturate(.4) brightness(.72); }
+.cw-cell.past:hover img { filter: saturate(.9) brightness(.95); }
+.cw-past {
+  position: absolute; right: 3px; bottom: 3px; z-index: 2;
+  font-family: var(--font-cute); font-weight: 700; font-size: .58rem;
+  color: #fff; background: rgba(40, 60, 80, .72);
+  border-radius: 999px; padding: .08rem .4rem;
+  pointer-events: none;
+}
