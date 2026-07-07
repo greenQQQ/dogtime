@@ -1322,5 +1322,66 @@
       "texture": "Three-Dimensional Floral Appliqué",
       "color_palette": "High Saturation Vivid"
     }
+  },
+  {
+    "avoid_list": [
+      "狗用鼻尖或前爪啟動裝置",
+      "俯瞰平鋪構圖中的狗",
+      "螢光霓虹刺繡線條",
+      "廢棄劇院與道具倉庫",
+      "水簾雨林與互動感測地板",
+      "藍黃互補色冷光場景",
+      "黑暗恐怖中的圓形光環",
+      "苔蘚或植物侵入科技設備",
+      "狗推動量測輪或碗狀物",
+      "發光標籤顯示 UTC 時間",
+      "博物館或實驗室裡的儀式感動作",
+      "框中框與遞迴畫面",
+      "陶瓷花瓣與紅泥面具",
+      "復古膠片與柔焦淺景深",
+      "古風仙俠飄帶套用在犬身"
+    ],
+    "inspiration_url": "https://m.economictimes.com/news/new-updates/moon-saturn-conjunction-2026-on-july-7-best-time-and-places-to-watch-the-Moon-and-Saturn-together/articleshow/132238339.cms",
+    "style_picks": {
+      "art_style": "Macro Photography",
+      "composition": "Spiral Vortex Frame",
+      "lighting": "Cinematic Lighting",
+      "texture": "Frosted Glass",
+      "color_palette": "Moonlit Indigo"
+    },
+    "title": "靛夜星犬",
+    "inspiration": "7月7日月亮與土星將在夜空中近距離同框，成為全球天文愛好者可肉眼欣賞與拍攝的視覺亮點。",
+    "news_inspiration": [
+      {
+        "summary": "南極一塊被誤認為海生爬蟲類近40年的尾骨化石，最新確認其實是泰坦巨龍骨骼，改寫當地恐龍發現紀錄。",
+        "url": "https://timesofindia.indiatimes.com/science/a-dinosaur-tail-bone-collected-in-antarctica-in-1985-was-mistaken-for-a-marine-reptile-for-40-yearsuntil-scientists-realized-it-belonged-to-a-titanosaur/articleshow/132214346.cms",
+        "source": "The Times of India"
+      },
+      {
+        "summary": "加州17號公路的野生動物通道已被山獅與約千隻動物使用，展現棲地連通工程的保育潛力。",
+        "url": "https://www.sfgate.com/bayarea/article/santa-cruz-mountain-lions-22331032.php",
+        "source": "SFGate"
+      },
+      {
+        "summary": "7月7日月亮與土星將在夜空中近距離同框，成為全球天文愛好者可肉眼欣賞與拍攝的視覺亮點。",
+        "url": "https://m.economictimes.com/news/new-updates/moon-saturn-conjunction-2026-on-july-7-best-time-and-places-to-watch-the-Moon-and-Saturn-together/articleshow/132238339.cms",
+        "source": "The Economic Times"
+      },
+      {
+        "summary": "TechRadar盤點2026年至今測試過的21款最佳科技產品，從相機、耳機到家用電池都展現今年消費電子的創新活力。",
+        "url": "https://www.techradar.com/tech/the-best-tech-of-2026-so-far-the-21-finest-gadgets-weve-tested-this-year",
+        "source": "TechRadar"
+      },
+      {
+        "summary": "南澳「Little Sporting Legend」票選聚焦多位5至12歲小選手的毅力與運動精神，呈現充滿希望的青少年體育故事。",
+        "url": "https://www.adelaidenow.com.au/entertainment/competitions/south-australias-little-sporting-legend-of-2026-competition-nominations-now-open/news-story/a9122512c4f6c69672407a5fcb839b13",
+        "source": "The Advertiser"
+      }
+    ],
+    "comment_id": 4903899535,
+    "story": "小學生天文社剛把望遠鏡對準夜空，星圖卻被晚風吹落，米格魯立刻追上去叼回來，停在不會踩到腳架的位置。牠沒有理解行星合相，卻像守夜員一樣安靜等著孩子把星圖接過，尾巴在地面露水裡畫出一圈小小的弧線。",
+    "prompt": "Real macro photography, extreme close-up at the outdoor stargazing platform of Taipei Astronomical Museum at night: a wet-nosed beagle crouches calmly at the exact center of a spiral vortex composition, holding a translucent frosted glass star chart in its mouth, clearly visible. The spiral is formed by a telescope focusing ring, black cables, circular dew spots, and nearby curved platform architecture, creating strong rotational perspective and a centered vanishing point. The beagle avoids the tripod legs; its tail has traced a small arc through the dew on the ground. The date and time text “2026-07-07 12:35 UTC” is visibly etched in English on the frosted glass star chart. Shot like a real photograph with a 100mm macro lens, f/2.0, low-angle cinematic framing, shallow depth of field, sharp whiskers, wet nose texture, matte glass scratches, diffused light passing through the star chart, soft blurred shapes behind it. Moonlit indigo color grading with deep night-blue and violet tones, cool silvery highlights, cinematic side lighting, volumetric light rays, dramatic shadows, high dynamic range, fine film grain. In the distant background, the moon and Saturn appear in the same frame, small but clear through the nocturnal haze. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "idea": "微距攝影風格：在台北市立天文科學教育館的戶外觀星平台，一隻濕鼻子的米格魯正用嘴叼著半透明磨砂玻璃星圖，蹲在望遠鏡調焦環、纜線與露水圓斑形成的螺旋漩渦構圖中央；月夜靛藍色調與電影感側光讓牠的鬍鬚、星圖霧面刮痕和遠處同框的月亮與土星都清晰可見。",
+    "number": 30
   }
 ]
