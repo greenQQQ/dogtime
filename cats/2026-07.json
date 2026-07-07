@@ -960,5 +960,37 @@
       "color_palette": "Neon Fluorescent"
     },
     "number": 20
+  },
+  {
+    "story": "整座維修庫被雪吹得像一張還沒擦乾淨的白板，技師們只能靠狗鼻子找到結冰軌道的細微縫隙。臘腸狗每推過一段測距輪，鑄鐵鏤空門上的黃粉筆記號就多一格，彷彿牠正在替一列冬眠的電車量體溫。",
+    "style_picks": {
+      "art_style": "Whiteboard Marker Art",
+      "composition": "Tiny Figure Scale Contrast",
+      "lighting": "Snowstorm Haze",
+      "texture": "Wrought Iron Filigree",
+      "color_palette": "Blue and Yellow Complementary"
+    },
+    "avoid_list": [
+      "前爪輕輕撥開沙粒或落葉",
+      "狗叼著小物奔跑或移送",
+      "可讀 UTC 時間牌",
+      "新藝術穆夏式裝飾框",
+      "月夜靛藍冷色場景",
+      "磨砂玻璃或透明玻璃包覆空間",
+      "考古現場與陶片碎片",
+      "水花雨幕與鏡面反射",
+      "三點打光電影感特寫",
+      "莫蘭迪灰綠沙粉色調",
+      "強制透視或等距構圖",
+      "高飽和藍紅綠色塊對比",
+      "狗幫人類完成溫柔任務"
+    ],
+    "prompt": "Whiteboard marker drawing on fogged glass, slightly faded blue and yellow ink with dry-erase smudges and erased streaks. In an old Harbin tram repair depot during a blizzard, a tiny dachshund lies beside icy rails and clearly pushes a yellow chalk-marked measuring wheel forward with its nose, helping technicians calibrate an ornate cast-iron filigree tram door half-buried in snow. A vast blue vintage tram carriage looms above, dwarfing the small dog and tiny human technicians for dramatic scale contrast. Lonely epic wide composition, low angle near the rails, heavy falling snow veil, muted diffused daylight, fogged distance, cold blue-white atmosphere with vivid complementary yellow chalk marks. Wrought iron scrollwork, Victorian openwork patterns, heritage metal craftsmanship rendered as hand-drawn line art. The date and time \"2026-07-07 02:35 UTC\" is visibly written in yellow marker on the snowy whiteboard-like depot wall. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "comment_id": 4899594901,
+    "inspiration": "original",
+    "news_inspiration": [],
+    "number": 21,
+    "title": "雪庫量軌",
+    "idea": "白板記號筆畫風格中，一隻小小的臘腸狗趴在哈爾濱老式電車維修庫的軌道旁，用鼻尖推動一只黃色粉筆標記的測距輪，協助技師校準被暴風雪埋住的鑄鐵雕花車門。畫面以巨大的藍色電車車廂壓出渺小人物對比，雪霧朦朧中只留下藍黃互補色的線條與擦痕。"
   }
 ]
