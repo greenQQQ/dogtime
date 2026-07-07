@@ -1736,5 +1736,60 @@
       "復古膠片與柔焦淺景深",
       "古風仙俠飄帶套用在犬身"
     ]
+  },
+  {
+    "idea": "人物懸浮攝影風格的寫實照片：加州 17 號公路野生動物地下通道的維修檢測間裡，一隻四腳邊境牧羊犬戴著藍青色珠飾水鑽反光胸背，正從壓力感測墊上彈跳騰空，用前爪拍向測試踏板；畫面外框做成冷色調配色條邊框，直打閃光燈讓水鑽、金屬閘門與相機陷阱都清晰發亮。",
+    "number": 40,
+    "title": "閃橋之犬",
+    "avoid_list": [
+      "俯瞰平鋪構圖中的四腳犬",
+      "狗用嘴叼星圖或星圖筒",
+      "月亮與土星同框天文場景",
+      "可讀 UTC 時間標籤",
+      "狗引導人類或動物前進",
+      "圓形光環與螺旋中心構圖",
+      "廢棄觀測站或老天文台",
+      "濕亮毛髮搭配電影側光",
+      "深陰影高反差恐怖氣氛",
+      "藍綠生物發光洞穴光",
+      "陶瓷黏土與裂花面具",
+      "黑色電影潮濕混凝土通道",
+      "玉盤標本與星砂花海",
+      "超明確四足自然犬姿態"
+    ],
+    "inspiration_url": "https://www.sfgate.com/bayarea/article/santa-cruz-mountain-lions-22331032.php",
+    "news_inspiration": [
+      {
+        "summary": "NASA 的 TESS 太空望遠鏡首度靠重力微透鏡在舊資料中揪出一顆隱藏系外行星，展示愛因斯坦相對論也能成為找行星的新工具。",
+        "url": "https://www.space.com/astronomy/exoplanets/nasa-just-found-a-planet-hiding-in-tess-spacecraft-data-all-thanks-to-einstein",
+        "source": "Space.com"
+      },
+      {
+        "summary": "紐西蘭一座洞穴出土約百萬年前鳥類與蛙類化石，像打開失落生態史的時間膠囊。",
+        "url": "https://theweek.com/science/new-zealand-moa-eggshell-cave-million-year-old-fossils",
+        "source": "The Week"
+      },
+      {
+        "summary": "加州 17 號公路的野生動物地下通道已讓山獅與上千隻動物安全穿越，成為棲地連通保育的亮眼案例。",
+        "url": "https://www.sfgate.com/bayarea/article/santa-cruz-mountain-lions-22331032.php",
+        "source": "SFGATE"
+      },
+      {
+        "summary": "環法自行車賽第四站中，曾罹癌的挪威車手 Torstein Træen 穿上黃衫，寫下振奮人心的回歸故事。",
+        "url": "https://www.theguardian.com/sport/2026/jul/07/cancer-survivor-torstein-treen-yellow-jersey-pedersen-wins-stage-four-tour-de-france-cycling",
+        "source": "The Guardian"
+      }
+    ],
+    "comment_id": 4909682279,
+    "inspiration": "加州 17 號公路的野生動物地下通道已讓山獅與上千隻動物安全穿越，成為棲地連通保育的亮眼案例。",
+    "story": "牠不是在帶路，而是在保育團隊的例行測試中幫忙觸發感測器，確認山獅與小動物通過時攝影機會準確啟動。閃光燈亮起的一瞬間，牠像被時間托住，懸在地下通道的藍青色空氣裡，旁邊兩位研究員正低頭看著監測螢幕上的新訊號。",
+    "prompt": "Realistic levitation photography, raw candid snapshot look: inside the maintenance inspection room of a California State Route 17 wildlife underpass, a four-legged border collie wearing a blue-teal beaded rhinestone reflective harness is frozen mid-air above a pressure sensor mat, front paws striking a test pedal. Two conservation researchers stand beside the tunnel wall, heads down checking a monitoring screen showing a new signal. Metal gate, camera traps, cables, sensor pads, concrete walls, and cool teal-blue tunnel air are clearly visible. Harsh direct on-camera flash, blown-out highlights on rhinestones and metal, hard shadows, muted film tones, crisp atmosphere, shallow depth of field with subtle background bokeh, 35mm lens, f/2.8, high shutter speed, natural jump captured at peak, support removed in post so the dog appears suspended naturally. Add a cool-toned vertical color-strip border on both sides made of stacked blue, teal, gray, and icy white blocks, portfolio presentation layout. The timestamp text “2026-07-07 22:35 UTC” must be clearly displayed on the monitoring screen or a small inspection label in English, sharp and readable. Real photograph only, not painting or digital art. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "style_picks": {
+      "art_style": "Levitation Photography",
+      "composition": "Color Palette Swatch Frame",
+      "lighting": "Direct Flash",
+      "texture": "Beaded Rhinestone Embellishment",
+      "color_palette": "Cool Tones (Blue / Teal)"
+    }
   }
 ]
