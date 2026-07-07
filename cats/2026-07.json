@@ -1439,5 +1439,61 @@
     "idea": "蒸汽朋克風格的懸崖海角天文台內，一隻緋紅項圈的黑色獵犬正叼著黃銅星圖筒穿過撒滿沙粒的觀測室地面，窗邊柔光照在牠與黑曜石鏡面中的異我倒影上，形成鏡像異我構圖。遠處圓窗外，月亮與土星貼近同框，整體以緋紅與烏黑為主調。",
     "story": "老天文師把最後一張星圖遺落在沙時計旁，獵犬聽見海風撞動齒輪窗，立刻叼起星圖筒奔向望遠鏡座。牠在鏡面前停下，倒影裡的另一隻牠像是守著另一個夜空，而真正的牠只安靜坐著，等人類把這一瞬間記錄下來。",
     "prompt": "Illustration prompt: A steampunk Victorian cliffside observatory interior at a sea cape, brass gears, cogs, steam pipes, telescope mount, hourglass, and retrofuturist machinery. A black hunting hound with a vivid crimson collar clearly carries a brass star-map tube in its mouth while crossing a fine sand-covered observatory floor with dune-like ripples and warm golden granules. Mirror-doppelganger composition: the dog pauses before an obsidian mirror surface, showing an uncanny reflected alternate self facing it, surreal twin framing and near-symmetry. Soft side-window light in a classic Vermeer-like illumination falls across the dog and mirror, smooth falloff into deep shadow, intimate still-life mood. Through a distant round window, the Moon and Saturn appear close together in the same frame above the dark ocean. Main colors: deep blood-red, jet black, brass gold, and warm sand, dramatic high contrast, seductive sinister mood. The date and time must be visibly displayed in English on a brass wall plaque or engraved observatory clock: \"2026-07-07 13:35 UTC\". IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字)."
+  },
+  {
+    "comment_id": 4905034974,
+    "number": 32,
+    "news_inspiration": [
+      {
+        "summary": "天文學家報告強力證據，可能首次偵測到圍繞褐矮星伴星運行的行星質量「系外衛星」。",
+        "url": "https://arxiv.org/abs/2607.05193",
+        "source": "arXiv"
+      },
+      {
+        "summary": "紐西蘭洞穴化石像百萬年前的生態時間膠囊，揭示古鳥類、青蛙與已滅絕鸚鵡親戚的故事。",
+        "url": "https://theweek.com/science/new-zealand-moa-eggshell-cave-million-year-old-fossils",
+        "source": "The Week"
+      },
+      {
+        "summary": "Google 投資歐洲核融合新創 Proxima Fusion，支持打造歐洲首座商用核融合電廠的長期願景。",
+        "url": "https://timesofindia.indiatimes.com/technology/tech-news/as-google-invests-468-million-in-europes-nuclear-fusion-startup-the-company-cautions-that-while-fusion-technology-can-change-the-world-it-is-not-guaranteed-to-/articleshow/132235006.cms",
+        "source": "The Times of India"
+      },
+      {
+        "summary": "溫網黑馬 Arthur Fery 以五盤大戰擊敗 Dimitrov，延續英國選手令人驚喜的童話之旅。",
+        "url": "https://www.thesun.ie/sport/17248015/arthur-fery-wins-wimbledon-grigor-dimitrov-quarter-final/",
+        "source": "The Sun"
+      }
+    ],
+    "title": "岩洞年輪",
+    "prompt": "Opaque gouache painting with matte finish and bold flat colors: a short-haired four-legged sheepdog on a wooden boardwalk inside a New Zealand limestone cave, clearly gripping a hemp rope in its mouth and leading two cave scholars deeper into the passage. Strong diagonal composition, tilted framing, dynamic slanted boardwalk lines creating kinetic movement across the frame. Cave walls show silhouetted fossils of ancient birds and frogs embedded in the limestone; the scholars crouch with small brushes near sediment layers as if uncovering fossils. Faint bioluminescent fungi glow along the cave wall, casting deep blue-green phosphorescent light over earth tones: terracotta, olive green, warm brown, limestone gray. The boardwalk has crisp natural wood grain, visible knots and rings like a map. Include a clearly readable English cave survey tag or carved wooden plaque displaying exactly: “2026-07-07 14:35 UTC”. Illustrative quality, tactile organic surfaces, warm natural harmony, mysterious prehistoric atmosphere. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "idea": "不透明水彩畫風，一隻四腳短毛牧羊犬在紐西蘭石灰岩洞穴的木棧道上叼著麻繩，帶領兩名洞穴學者沿對角線深入滿是古鳥與青蛙化石剪影的岩壁；洞壁微弱的生物發光菌映出大地色系，棧道木紋清晰如年輪地圖。",
+    "inspiration": "紐西蘭洞穴化石像百萬年前的生態時間膠囊，揭示古鳥類、青蛙與已滅絕鸚鵡親戚的故事。",
+    "story": "牠不是在尋寶，而是在追蹤一串從泥層裡滲出的古老氣味。每當牠停下，學者們就在牠身旁用小刷清開沉積物，彷彿百萬年前的森林正從石頭裡慢慢醒來。",
+    "inspiration_url": "https://theweek.com/science/new-zealand-moa-eggshell-cave-million-year-old-fossils",
+    "style_picks": {
+      "art_style": "Gouache",
+      "composition": "Diagonal Composition",
+      "lighting": "Bioluminescence",
+      "texture": "Wood Grain",
+      "color_palette": "Earth Tones"
+    },
+    "avoid_list": [
+      "狗用鼻尖或前爪啟動裝置",
+      "俯瞰平鋪構圖中的狗",
+      "螢光霓虹刺繡線條",
+      "廢棄劇院與道具倉庫",
+      "水簾雨林與互動感測地板",
+      "藍黃互補色冷光場景",
+      "黑暗恐怖中的圓形光環",
+      "苔蘚或植物侵入科技設備",
+      "狗推動量測輪或碗狀物",
+      "發光標籤顯示 UTC 時間",
+      "博物館或實驗室裡的儀式感動作",
+      "框中框與遞迴畫面",
+      "陶瓷花瓣與紅泥面具",
+      "復古膠片與柔焦淺景深",
+      "古風仙俠飄帶套用在犬身"
+    ]
   }
 ]
