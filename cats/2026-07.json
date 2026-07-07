@@ -1137,5 +1137,66 @@
     "inspiration_url": "https://www.theverge.com/science/961459/nasa-emergency-save-swift-observatory-katalyst-space-technologies",
     "prompt": "Psychedelic mixed-media illustration of a black-and-gold spotted dachshund inside the launch-prep room of an abandoned wooden observation tower at Cape Canaveral, Florida. The dog wears no clothing, clearly pressing its front paws onto an aged brass orbital track disk engraved with concentric wood-ring patterns, its nose sniffing spaceship wiring that emits algae-green bioluminescent glow. Frame-within-frame composition: view through a circular hatch, nested by wooden instrument windows and a distant rocket gantry arm; layered foreground borders create depth and focused perspective. Natural wood grain walls with visible knots appear to slowly swirl into star-map patterns; melting distorted forms, vibrant clashing neon accents, underwater phosphorescent blue-green radiance, black asphalt floor, metallic gold control markings like gold leaf, luxurious black-and-gold mood. Display the exact text “2026-07-07 05:35 UTC” clearly on a glowing brass control plate in the scene. Artistic technique: psychedelic poster art with organic tactile textures, saturated ink, metallic gold accents, luminous bioluminescent lighting, deep black background, opulent surreal atmosphere. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
     "story": "那晚，老觀測塔像一只倒扣的木盒，內壁年輪在生物光裡緩慢旋轉成星圖。臘腸犬不是工程師，也不穿任何服裝，只是固執地把爪子按在嗡嗡作響的軌道盤上，彷彿聽見高空中那架老望遠鏡發出的細小回聲。當機器太空船的機械臂投下金色影子，整個整備間忽然像一張活著的黑金唱片開始轉動。"
+  },
+  {
+    "avoid_list": [
+      "狗叼著小道具穿越場景",
+      "狗用鼻尖按壓踏板",
+      "狗用前爪操作機械開關",
+      "靈巧機器手測試細微動作",
+      "苔蘚覆蓋舊設備",
+      "鑄鐵雕花與鏤空窗影",
+      "穆夏式新藝術拱框",
+      "三點打光輪廓光",
+      "螢光霓虹刺繡線跡",
+      "鏡面水面倒影構圖",
+      "框中框遞迴構圖",
+      "固定UTC時間標牌",
+      "翠綠生物光與藻綠光",
+      "柔焦霧面夢幻薄霧",
+      "狗協助校準機械裝置"
+    ],
+    "comment_id": 4901331977,
+    "inspiration_url": "https://www.theguardian.com/world/2026/jul/04/archaeologists-uncover-ancient-byzantine-city-in-egypts-western-desert",
+    "story": "考古隊原本在清點教堂附近的日常器物，這隻駐地犬卻選中最整齊的花樣標本區午睡，翻身時把一圈朱紅花瓣推成像古城街道的曲線。年輕的測繪員沒有趕牠，只在俯拍照片上標下牠的位置，像替這座沉睡一千六百年的城市加上一枚活著的比例尺。",
+    "prompt": "Real medium format photograph, Hasselblad aesthetic, top-down overhead flat-lay view of a freshly excavated Byzantine city ruin in Egypt's Western Desert beside a temporary archaeological specimen tent. A white mixed-breed dog is clearly lying on its back inside an archaeological grid filled with dense vermilion red and white wildflowers, rubbing its back against a cool bright aluminum pottery-shard tray; its paws relaxed upward, body pressing into the flowers, a curved ring of red petals pushed aside like ancient city streets. High-key bright daylight, airy overexposed feel, soft even illumination, minimal shadows, extraordinary tonal range, creamy shallow depth of field, realistic film grain. Brushed and polished metal tray with sharp white-sand-like reflections, clean luminous atmosphere, vermilion red and white color scheme, crisp graphic balance with negative-space white sand. Nearby field tags, measuring tapes, ceramic fragments, and excavation string lines show this is an active archaeological site. The exact text “2026-07-07 07:35 UTC” must be visibly displayed in English on a small archival label or survey placard within the scene, clearly readable. Real documentary photography, not painting, not digital art. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "idea": "中片幅攝影風格，俯瞰埃及西部沙漠一座剛出土的拜占庭城市遺址旁臨時標本棚，一隻白色米克斯犬仰臥在朱紅與白色野花鋪成的考古方格中，正用背蹭著涼亮的鋁製陶片托盤，高調明亮光讓金屬表面像白沙一樣反光。",
+    "news_inspiration": [
+      {
+        "summary": "考古學家在埃及西部沙漠發現保存良好的1600年前拜占庭城市，包含街道、教堂與日常生活遺物。",
+        "url": "https://www.theguardian.com/world/2026/jul/04/archaeologists-uncover-ancient-byzantine-city-in-egypts-western-desert",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "溫網黑馬Arthur Fery以五盤大戰擊敗Dimitrov晉級八強，成為本屆英國球迷最驚喜的故事之一。",
+        "url": "https://www.thesun.ie/sport/17248015/arthur-fery-wins-wimbledon-grigor-dimitrov-quarter-final/",
+        "source": "The Sun"
+      },
+      {
+        "summary": "NASA錢卓拉X射線望遠鏡的新量測顯示，銀河系旋臂可能比以往認為延伸得更遠。",
+        "url": "https://nypost.com/2026/07/04/world-news/nasas-chandra-telescope-reveals-milky-ways-outer-reaches-may-stretch-farther-than-previously-known/",
+        "source": "New York Post"
+      },
+      {
+        "summary": "AI女演員Tilly Norwood將主演首部長片，讓電影、表演與人工智慧創作的邊界再度成為焦點。",
+        "url": "https://people.com/ai-actress-tilly-norwood-to-make-feature-film-debut-12012414",
+        "source": "People"
+      },
+      {
+        "summary": "本週科學新聞聚焦韋伯望遠鏡在冥王星與泰坦大氣中發現未知物質，以及中國「綠色長城」樹木生長快於天然林等奇特進展。",
+        "url": "https://www.livescience.com/space/science-news-this-week-james-webb-telescope-finds-a-never-before-seen-substance-chinas-great-green-wall-grows-faster-than-natural-trees-and-a-medici-murder-mystery-is-solved",
+        "source": "Live Science"
+      }
+    ],
+    "style_picks": {
+      "art_style": "Medium Format Photography",
+      "composition": "Overhead Reclining-in-Blossoms",
+      "lighting": "High-Key Bright Lighting",
+      "texture": "Metallic Surface",
+      "color_palette": "Vermilion and White"
+    },
+    "title": "沙城花眠",
+    "number": 25,
+    "inspiration": "考古學家在埃及西部沙漠發現保存良好的1600年前拜占庭城市，包含街道、教堂與日常生活遺物。"
   }
 ]
