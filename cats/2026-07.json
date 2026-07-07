@@ -1024,5 +1024,64 @@
     ],
     "prompt": "Polished 3D render in embroidered folk-doll illustration style: inside a narrow old Tainan cinema projection booth after midnight, a cute round-faced four-legged Shiba Inu lies on a metal film rewinding table, front paws pinning the glowing fluorescent-thread film edge while its nose pushes a hand-cranked film rewinder. Behind it, an old projector casts strong backlighting and bright rim light, outlining the dog with glowing silhouette edges. The cinema screen shows the same projection booth and the same dog repairing film again and again, creating a recursive Droste picture-within-picture loop. Stitched textile patterns, decorative Taiwanese folkloric motifs, folk costume charm, smooth toy-like materials, clean Cinema 4D-style geometry, soft global illumination, dramatic dark background. Neon electric pink, fluorescent yellow, lime green, hot cyan, and electric purple appear as luminous embroidery thread trails sewn in concentric loops through the room. Clearly display the text “2026-07-07 03:35 UTC” on a glowing embroidered wall clock or stitched projection-room sign, in English, legible and central enough to read. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
     "idea": "刺繡民俗娃娃插畫風格的3D渲染場景：台南老戲院的狹窄放映室裡，一隻四腳柴犬趴在金屬倒片台前，用前爪壓住螢光繡線般的膠卷邊緣、用鼻尖推動手搖倒片器，背後放映機形成強烈輪廓光。銀幕裡又映出同一間放映室與同一隻狗正在修膠卷，形成遞迴德羅斯特效應，霓虹粉、螢光黃、電光紫像線跡一圈圈縫進空間。"
+  },
+  {
+    "number": 23,
+    "news_inspiration": [
+      {
+        "summary": "NASA 公布哈伯望遠鏡拍到含約50萬顆古老恆星的梅西耶3星團影像，紅白藍色調讓宇宙照片兼具紀念性與科學美感。",
+        "url": "https://timesofindia.indiatimes.com/science/nasas-hubble-captures-a-spectacular-cluster-of-500000-ancient-stars-to-mark-americas-250th-anniversary/articleshow/132217269.cms",
+        "source": "Times of India"
+      },
+      {
+        "summary": "中國新創與供應鏈正加速研發靈巧機器手，讓人形機器人更接近能執行細緻實用工作的階段。",
+        "url": "https://www.theguardian.com/technology/ng-interactive/2026/jul/06/china-dextrous-robotic-hands-humanoid",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "高芙與佩古拉將在溫布頓上演罕見的美國內戰八強賽，女子單打也確定會誕生全新溫網冠軍。",
+        "url": "https://nypost.com/2026/07/06/sports/gauff-pegula-set-for-all-american-wimbledon-quarterfinal/",
+        "source": "New York Post"
+      },
+      {
+        "summary": "康乃狄克Mystic Museum of Art新展以天鵝絨與時裝串起地方紡織史，從古代奢華一路連到當代設計。",
+        "url": "https://www.ctinsider.com/living/article/ct-culture-corner-mystic-museum-luxe-textiles-22310851.php",
+        "source": "CT Insider"
+      },
+      {
+        "summary": "科學家在墨西哥確認全新化石蠑螈Ambystoma quetzalcoatli，將美西螈演化史推向更古老的湖泊生態。",
+        "url": "https://www.wired.com/story/scientists-have-identified-a-new-fossil-species-of-axolotl-in-mexico",
+        "source": "WIRED"
+      }
+    ],
+    "avoid_list": [
+      "前爪輕輕撥開沙粒或落葉",
+      "狗叼著小物奔跑或移送",
+      "可讀 UTC 時間牌",
+      "新藝術穆夏式裝飾框",
+      "月夜靛藍冷色場景",
+      "磨砂玻璃或透明玻璃包覆空間",
+      "考古現場與陶片碎片",
+      "水花雨幕與鏡面反射",
+      "三點打光電影感特寫",
+      "莫蘭迪灰綠沙粉色調",
+      "強制透視或等距構圖",
+      "高飽和藍紅綠色塊對比",
+      "狗幫人類完成溫柔任務"
+    ],
+    "title": "苔光校準",
+    "comment_id": 4900165960,
+    "style_picks": {
+      "art_style": "Minimalist Surreal Scene",
+      "composition": "Shallow Depth-of-Field Close-up",
+      "lighting": "Fluorescent Lighting",
+      "texture": "Moss Overgrowth",
+      "color_palette": "Retro Faded Tones"
+    },
+    "idea": "極簡超現實場景中，一隻短腿柯基趴在深圳人形機器人實驗室的校準台旁，用前爪反覆按下一枚被苔蘚覆蓋的橘色腳踏開關；淺景深特寫裡，遠處靈巧機器手在日光燈下緩慢捏合一片乾燥蕨葉，整體是復古褪色色調。",
+    "inspiration_url": "https://www.theguardian.com/technology/ng-interactive/2026/jul/06/china-dextrous-robotic-hands-humanoid",
+    "inspiration": "中國新創與供應鏈正加速研發靈巧機器手，讓人形機器人更接近能執行細緻實用工作的階段。",
+    "story": "工程師們暫停午餐時，柯基發現每按一次開關，機械手就會學會一種新的細微力道。牠不懂演算法，只專心聽那聲低低的繼電器咔嗒，像在一座長滿苔蘚的未來工廠裡替機器練習呼吸。",
+    "prompt": "Real photograph, minimalist surreal scene inside a Shenzhen humanoid robotics laboratory: a short-legged corgi lies beside a calibration bench, clearly pressing a moss-covered orange foot pedal switch repeatedly with its front paw. Shallow depth-of-field close-up, intimate near-object framing, dog and pedal tack sharp, creamy blurred background with soft bokeh. In the distance, a dexterous robotic hand slowly pinches a dry fern leaf under overhead fluorescent lighting, neutral white 5000K, flat institutional illumination with almost no shadows. Vast clean negative space, dreamlike impossible staging, conceptual fine-art photography, tactile damp moss texture, lush green organic overgrowth reclaiming lab equipment, retro faded colors, washed-out vintage tones, low contrast, nostalgic film-era warmth, subtle grain. Shot on a 35mm lens at f/1.8. A small lab display or printed calibration label in the scene clearly reads: “2026-07-07 04:35 UTC”. All visible text must be English or Traditional Chinese only. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字)."
   }
 ]
