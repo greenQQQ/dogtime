@@ -391,5 +391,15 @@
     "inspiration_url": "https://www.sfgate.com/bayarea/article/santa-cruz-mountain-lions-22331032.php",
     "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-07_2235_UTC.webp",
     "inspiration": "加州 17 號公路的野生動物地下通道已讓山獅與上千隻動物安全穿越，成為棲地連通保育的亮眼案例。"
+  },
+  {
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-07_2335_UTC.webp",
+    "title": "橘標鼻息",
+    "number": 41,
+    "timestamp": "2026-07-07 23:35 UTC",
+    "inspiration_url": "https://www.axios.com/local/tampa-bay/2026/07/07/florida-citrus-history-exhibit-st-pete-clearwater-international",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "inspiration": "佛州聖彼得-清水國際機場新開「Juicy」展覽，以復古柑橘箱標籤呈現佛州柑橘文化記憶。",
+    "status": "success"
   }
 ]

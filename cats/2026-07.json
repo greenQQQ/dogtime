@@ -1791,5 +1791,65 @@
       "texture": "Beaded Rhinestone Embellishment",
       "color_palette": "Cool Tones (Blue / Teal)"
     }
+  },
+  {
+    "style_picks": {
+      "art_style": "Point-and-Shoot Camera Aesthetic",
+      "composition": "Shallow Depth-of-Field Close-up",
+      "lighting": "Golden Hour",
+      "texture": "Marble",
+      "color_palette": "Earth Tones"
+    },
+    "avoid_list": [
+      "俯瞰平鋪構圖中的四腳犬",
+      "狗用嘴叼星圖或星圖筒",
+      "月亮與土星同框天文場景",
+      "可讀 UTC 時間標籤",
+      "狗引導人類或動物前進",
+      "圓形光環與螺旋中心構圖",
+      "廢棄觀測站或老天文台",
+      "濕亮毛髮搭配電影側光",
+      "深陰影高反差恐怖氣氛",
+      "藍綠生物發光洞穴光",
+      "陶瓷黏土與裂花面具",
+      "黑色電影潮濕混凝土通道",
+      "玉盤標本與星砂花海",
+      "超明確四足自然犬姿態"
+    ],
+    "title": "橘標鼻息",
+    "number": 41,
+    "inspiration_url": "https://www.axios.com/local/tampa-bay/2026/07/07/florida-citrus-history-exhibit-st-pete-clearwater-international",
+    "story": "牠原本只是陪主人等轉機，卻被橘皮香味吸引到展台前，鼻尖差點碰到標籤上的老式果園圖案。保全蹲下來輕聲阻止，旁邊旅客笑著拍照，像是這場展覽突然多了一件會喘氣的小型展品。",
+    "prompt": "Real photograph, Canon IXUS point-and-shoot camera aesthetic: shallow depth-of-field close-up at the entrance of the \"Juicy\" exhibition inside Florida St. Pete-Clearwater International Airport. A beige dachshund stands beside a low polished marble display plinth, front paws resting on the marble edge, nose lowered and actively sniffing a freshly peeled orange peel next to a vintage citrus crate label with an old orchard illustration. The dog is sharp, whiskers and nose texture visible, creamy blurred terminal background with travelers smiling and taking phone photos, a crouching security guard softly gesturing in the background. The exact date and time \"2026-07-07 23:35 UTC\" is clearly visible on a small English exhibit placard or digital airport timestamp sign near the display. 35mm compact camera look, f/1.8 shallow focus, direct flash mixed with golden hour sunlight slanting through airport glass, slightly overexposed highlights, casual candid framing, intimate near-object composition. Warm earth tones: terracotta, olive green, warm brown, orange peel, golden rim light on the dog, long soft shadows, tactile polished marble with natural veins and cool smooth reflections. Must look like a real candid travel photo, not painting or digital art. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "news_inspiration": [
+      {
+        "summary": "科學家從強烈黑洞合併的重力波中辨識出可能來自事件視界邊緣的訊號，為研究黑洞邊界開啟新方法。",
+        "url": "https://www.livescience.com/space/black-holes/a-new-way-to-study-the-edge-of-a-black-hole-physicists-just-got-the-closest-ever-look-at-a-black-holes-event-horizon",
+        "source": "Live Science"
+      },
+      {
+        "summary": "NASA 公開哈伯望遠鏡拍下的梅西耶3球狀星團影像，50萬顆古老恆星呈現壯觀紅白藍色彩。",
+        "url": "https://timesofindia.indiatimes.com/science/nasas-hubble-captures-a-spectacular-cluster-of-500000-ancient-stars-to-mark-americas-250th-anniversary/articleshow/132217269.cms",
+        "source": "The Times of India"
+      },
+      {
+        "summary": "費城富蘭克林研究所將推出《星際大戰》50週年沉浸式展覽，展出70件 Lucasfilm 原始道具。",
+        "url": "https://www.axios.com/local/philadelphia/2026/07/07/star-wars-experience-exhibit-philly-franklin-institute",
+        "source": "Axios"
+      },
+      {
+        "summary": "美國男足對比利時的世界盃賽事創下美國足球電視收視新高，平均吸引3000萬名觀眾。",
+        "url": "https://nypost.com/2026/07/07/sports/usmnt-belgium-drew-in-record-30-million-fox-viewers/",
+        "source": "New York Post"
+      },
+      {
+        "summary": "佛州聖彼得-清水國際機場新開「Juicy」展覽，以復古柑橘箱標籤呈現佛州柑橘文化記憶。",
+        "url": "https://www.axios.com/local/tampa-bay/2026/07/07/florida-citrus-history-exhibit-st-pete-clearwater-international",
+        "source": "Axios"
+      }
+    ],
+    "idea": "IXUS 消費相機風格的淺景深特寫：佛州聖彼得-清水國際機場「Juicy」展覽入口旁，一隻米色臘腸犬把前爪搭在低矮大理石展示台邊，正專心嗅聞一張復古柑橘箱標籤旁剛剝開的橘皮；黃金時刻斜照進航廈玻璃，整體是溫暖大地色系。",
+    "inspiration": "佛州聖彼得-清水國際機場新開「Juicy」展覽，以復古柑橘箱標籤呈現佛州柑橘文化記憶。",
+    "comment_id": 4909999825
   }
 ]
