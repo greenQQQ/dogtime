@@ -1851,5 +1851,62 @@
     "idea": "IXUS 消費相機風格的淺景深特寫：佛州聖彼得-清水國際機場「Juicy」展覽入口旁，一隻米色臘腸犬把前爪搭在低矮大理石展示台邊，正專心嗅聞一張復古柑橘箱標籤旁剛剝開的橘皮；黃金時刻斜照進航廈玻璃，整體是溫暖大地色系。",
     "inspiration": "佛州聖彼得-清水國際機場新開「Juicy」展覽，以復古柑橘箱標籤呈現佛州柑橘文化記憶。",
     "comment_id": 4909999825
+  },
+  {
+    "comment_id": 4910334166,
+    "story": "家人只是想給小嗚一場溫馨生日，牠卻把紙箱堆和保麗龍屑當成山頂雪原，嗚嗚嗚地替自己辯解說彩帶先攻擊牠。朋友們圍在半拆的沙發旁笑成一團，小嗚瞪大冰藍眼睛，嘴角掛著傻笑，像剛發現世界上最值得震驚的事：蛋糕居然會有蠟燭。",
+    "style_picks": {
+      "art_style": "Disposable Camera",
+      "composition": "Illustrated Story Panel Layout",
+      "lighting": "Snowstorm Haze",
+      "texture": "Gold Foil Flecks",
+      "color_palette": "Pastel Colors"
+    },
+    "inspiration": "original",
+    "character_name": "小嗚",
+    "is_birthday": true,
+    "title": "雪屑生日",
+    "avoid_list": [
+      "俯瞰平鋪構圖中的四腳犬",
+      "狗用嘴叼星圖或星圖筒",
+      "月亮與土星同框天文場景",
+      "可讀 UTC 時間標籤",
+      "狗引導人類或動物前進",
+      "圓形光環與螺旋中心構圖",
+      "廢棄觀測站或老天文台",
+      "濕亮毛髮搭配電影側光",
+      "深陰影高反差恐怖氣氛",
+      "藍綠生物發光洞穴光",
+      "陶瓷黏土與裂花面具",
+      "黑色電影潮濕混凝土通道",
+      "玉盤標本與星砂花海",
+      "超明確四足自然犬姿態"
+    ],
+    "character": "wuwu",
+    "number": 42,
+    "prompt": "Illustrated story page in a disposable-camera snapshot aesthetic: a warm living-room birthday party disguised as a snowy mountain by scattered styrofoam flakes, arranged as multiple irregular comic panels on one page with shoujo manga narrative flow, integrated Traditional Chinese dialogue bubbles, and a decorative title banner at the top reading \"小嗚生日雪原大冒險\". The exact timestamp \"2026-07-08 00:35 UTC\" must be clearly printed on the image like a disposable camera date stamp. Main subject: Wuwu, a literal four-legged Siberian Husky, athletic medium-large build, classic black-grey #3C4148 and snow-white #FFFFFF double coat, dark saddle over back and head-top, crisp symmetric black-grey mask markings, white face center, muzzle, chest, belly and legs, upright ears with white inner fluff, big fluffy brush tail, striking ice-blue #7EC3E8 eyes, goofy open-mouthed husky grin, theatrical shocked-and-wronged expression. Wuwu wears only a crooked paper birthday party hat and no collar, no harness, no leash, no clothing; he is using his front paws to stomp colorful ribbons beside a birthday cake with candles, sending streamers flying. Balloons cling to the ceiling, half-open cardboard boxes and styrofoam snow cover the floor, friends and family laugh around a half-disassembled sofa in the background. Painterly mixed-media storybook illustration with pastel gouache and colored-pencil linework, low-quality disposable-camera charm, flash artifacts, light leaks, soft blur at panel edges, gold foil flecks and hand-applied metallic splatter texture. Lighting: hazy snowstorm-like window glow, heavy falling-snow veil effect indoors from floating styrofoam, muted diffused daylight mixed with camera flash. Colors: cold blue-white snow mood balanced with soft pastel pink, lavender, mint, and baby blue, plus glinting gilded specks. Ensure the dog is clearly visible in the central panel performing the ribbon-stomping action, never anthropomorphic, never human-bodied, both eyes blue, black-grey and white husky coloring only. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "idea": "即棄相機風格的故事插畫分格畫面：一間被保麗龍屑偽裝成雪地的客廳生日派對裡，小嗚這隻黑白面具紋、冰藍眼睛的西伯利亞哈士奇戴著歪掉的派對帽，正用前爪把生日蛋糕旁的彩帶踩得亂飛，氣球貼在天花板，暴風雪般朦朧的窗光混著粉彩色系與金箔潑點肌理。",
+    "news_inspiration": [
+      {
+        "summary": "AI 結合量子物理協助科學家找到兩種新超導體，可能大幅加速尋找室溫超導材料的進程。",
+        "url": "https://www.sciencedaily.com/releases/2026/07/260701205006.htm",
+        "source": "ScienceDaily"
+      },
+      {
+        "summary": "科學家解開黑麥花粉中兩種特殊分子的 30 年謎團，為自然啟發的癌症研究開出新方向。",
+        "url": "https://www.sciencedaily.com/releases/2026/06/260625014838.htm",
+        "source": "ScienceDaily"
+      },
+      {
+        "summary": "Christopher Nolan 新片《The Odyssey》首映後獲得熱烈好評，被形容為壯闊且視覺震撼的電影盛事。",
+        "url": "https://www.theguardian.com/film/2026/jul/07/christopher-nolan-odyssey-critic-reactions-damon-pattinson-holland-hathaway",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "瑞士在世界盃 16 強賽中靠PK戰擊敗哥倫比亞，挺進八強並將對上阿根廷。",
+        "url": "https://www.theguardian.com/football/2026/jul/08/switzerland-colombia-world-cup-2026-last-16-match-report",
+        "source": "The Guardian"
+      }
+    ]
   }
 ]
