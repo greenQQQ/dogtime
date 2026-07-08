@@ -1908,5 +1908,60 @@
         "source": "The Guardian"
       }
     ]
+  },
+  {
+    "inspiration": "中國新創正集中攻克機器人最難的環節之一：打造能靈巧抓握、感知與學習的人形機器手。",
+    "title": "銀手試餅",
+    "news_inspiration": [
+      {
+        "summary": "澳洲 Bundanon 美術館以近 50 件 Arthur Boyd《Nebuchadnezzar》系列作品開啟大型展覽，呈現火焰、荒野與變形意象的強烈視覺旅程。",
+        "url": "https://www.theguardian.com/artanddesign/2026/jul/07/arthur-boyd-nebuchadnezzar-series-bundanon-art-exhibition-vietnam-war-paintings",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "天文學家首次從長年沉默的「藍眼脈衝星」偵測到微弱無線電訊號，暗示銀河系可能藏有更多低調運作的脈衝星。",
+        "url": "https://www.space.com/astronomy/stars/astronomers-discover-radio-signals-coming-from-rare-blue-eye-pulsar-after-decades-of-silence",
+        "source": "Space.com"
+      },
+      {
+        "summary": "中國新創正集中攻克機器人最難的環節之一：打造能靈巧抓握、感知與學習的人形機器手。",
+        "url": "https://www.theguardian.com/technology/ng-interactive/2026/jul/06/china-dextrous-robotic-hands-humanoid",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "英格蘭世界盃擊敗墨西哥的比賽即使在英國凌晨開踢，仍創下 BBC 多項直播與串流收視紀錄。",
+        "url": "https://www.theguardian.com/media/2026/jul/07/england-world-cup-win-mexico-breaks-viewing-records-bbc",
+        "source": "The Guardian"
+      }
+    ],
+    "idea": "建築藍圖風格的側臉特寫：一隻短毛米格魯趴在深圳機器人手實驗室的金屬校準台旁，用前爪按住壓力感測板，鼻尖貼近一隻正在學習抓握狗餅乾的人形機器手；日光燈把整個畫面壓成鈷藍與銀白雙色調。",
+    "story": "工程師們以為今天測的是機器手的觸覺回饋，卻發現狗餅乾被輕輕夾起時，米格魯的尾巴節奏比任何數據曲線都準。牠沒有站起來，只是安靜趴著，一次次用爪子重新啟動測試，像在教一隻金屬手學會溫柔。",
+    "avoid_list": [
+      "俯瞰平鋪構圖中的四腳犬",
+      "狗用嘴叼星圖或星圖筒",
+      "月亮與土星同框天文場景",
+      "可讀 UTC 時間標籤",
+      "狗引導人類或動物前進",
+      "圓形光環與螺旋中心構圖",
+      "廢棄觀測站或老天文台",
+      "濕亮毛髮搭配電影側光",
+      "深陰影高反差恐怖氣氛",
+      "藍綠生物發光洞穴光",
+      "陶瓷黏土與裂花面具",
+      "黑色電影潮濕混凝土通道",
+      "玉盤標本與星砂花海",
+      "超明確四足自然犬姿態"
+    ],
+    "comment_id": 4910607669,
+    "inspiration_url": "https://www.theguardian.com/technology/ng-interactive/2026/jul/06/china-dextrous-robotic-hands-humanoid",
+    "number": 43,
+    "prompt": "Architectural blueprint style technical illustration, white linework on cobalt blue background with silver-white metallic accents only, duotone color treatment. Side profile close-up portrait of a short-haired beagle lying beside a brushed metal calibration table inside a Shenzhen robotic hand laboratory; the dog clearly presses a pressure sensor plate with one front paw while its nose nearly touches a humanoid robotic hand gently learning to grip a dog biscuit. Elegant lateral framing, clean silhouette of the beagle’s nose, muzzle, chin, ears, paw, biscuit, and robotic fingers; precise measurement marks, calibration grid, schematic annotations, contour lines, and engineering callouts in English and Traditional Chinese only. Overhead neutral white 5000K fluorescent lighting, institutional flat illumination, no dramatic shadows, sharp reflections on polished metal, industrial premium feel. Include visible blueprint label text: “2026-07-08 01:35 UTC” displayed clearly on the image, plus Traditional Chinese labels such as “壓力感測板”, “機器手觸覺測試”, and “深圳機器人手實驗室”. Modern graphic design, precise technical drawing, bold clean composition. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "style_picks": {
+      "art_style": "Architectural Blueprint",
+      "composition": "Side Profile Portrait",
+      "lighting": "Fluorescent Lighting",
+      "texture": "Metallic Surface",
+      "color_palette": "Duotone"
+    }
   }
 ]
