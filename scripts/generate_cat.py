@@ -1587,7 +1587,7 @@ def update_catlist_and_push(entry: dict) -> int:
         if result.returncode == 0:
             break
         print(f"Push failed (attempt {attempt + 1}), rebasing...")
-        subprocess.run(["git", "pull", "--rebase"], check=True)
+        subprocess.run(["git", "pull", "--rebase", "--autostash"], check=True)
     else:
         raise RuntimeError("Failed to push after 3 attempts")
     return number or 0
