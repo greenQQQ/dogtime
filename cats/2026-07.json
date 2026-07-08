@@ -2201,5 +2201,65 @@
       }
     ],
     "comment_id": 4912041414
+  },
+  {
+    "title": "電化學的鼻尖探險",
+    "style_picks": {
+      "art_style": "Studio Portrait",
+      "composition": "Full-Bleed Frame Fill",
+      "lighting": "Harsh Midday Sun",
+      "texture": "Gilded Ink Outline",
+      "color_palette": "Duotone"
+    },
+    "news_inspiration": [
+      {
+        "summary": "一個國際研究團隊利用全新的人工智慧模型，在德國加速模擬中子星合併如何形成宇宙中的重元素，這將有助於更深入理解這些宇宙事件。",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEe0u6BsP-UdNv8L_EhRH9OtpktfJQr6gEQxiMVmzqCoPIXVgx8z7XjQ4Ep-c7kiFF9gKLyfPuvVObuz9layjft8_ZsO8gwzv2u8RGbZOdrAURXMo-7UdFIgXyZvIdRzPJ9hosRG3xUlFyiUG-w555FZtorvUbS2R4=",
+        "source": "sciencedaily.com"
+      },
+      {
+        "summary": "德國巴斯夫兒童實驗室（BASF Kids' Lab）在上海科技館重新開放，透過電化學實驗激發6至12歲兒童對科學的興趣。",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1DeZnPPeW7xgv0rgq9U0GxlGIkQZDwBM4ANC169JCkJ2xYR90r4nG8fhe_EwtfuuY_1YvqwhL4zdw_mLF6OzWJ0dS8pKOXNYAwAoMHTAbsLSo66hkQM7hhEZ5Eso2NWkXUoB5_J29GBjfLktlQMsm22WghIGaQ53o2Hbi3YRYj-d9SbhAnNbrnQ==",
+        "source": "basf.com"
+      },
+      {
+        "summary": "瑞士國家足球隊在FIFA世界盃16強賽中以點球大戰擊敗哥倫比亞，自1954年以來首次晉級八強，創造了歷史。",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnDm9APIImY4evA8z9RWJ0SqfHOsrjxYPQh4fyDTwACTy3TZbf8BoAP6r15hd1v_fEDFb8NnneTgUbfH_R0OPL3705flRpIYBPggpArggKD58kb8aHYxbXhskw9aY9Zkgo4buZNoUNwBcWsgp6iMjW9y2m-SFzxf0nNvC3qko8qdUiuyrY58_bhDDq3PYa89vzSnUoeNFtKEKLA0IWbd9sDFueLGwV6oHPYLOEcrhKzY3oAJjLY_kooczuztT6zvXZeRUsKzSbtHp1eqfxAxI=",
+        "source": "thehindu.com"
+      },
+      {
+        "summary": "法國索恩-羅亞爾省（Saône-et-Loire）警方發布警告，提醒駕駛注意食用發酵水果後可能醉酒的野生鹿群，促使當地駕駛更謹慎。",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEX2FE2IXAALhHmBb_ItfJHwTYfffRcxSCXHGG1D3eGH9FUBTYEQurNzok16L1AQe9lkfBBE3IpjC8OHlQWn0GbF_b3ZEa9909XKTxrb5B0RYbhBJM_kQRp0b5XopUs0jc5GLLU2TEOAKtp6cUvvU0ewbHu2mQ=",
+        "source": "funnytimes.com"
+      },
+      {
+        "summary": "法屬玻里尼西亞大溪地（Papeete, Tahiti）正舉辦Heiva i Tahiti文化節，透過傳統歌舞和體育競賽展現豐富的玻里尼西亞文化。",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPcjWGQjatiH6gD65AxS7LlZdc3d5KNEG4uKHguBj-3oRLVi4quPtYP7qOj6zanH62-9JyxgjjxZ5365e3LFM-e-gm3ui2JwEwiPABu4eRPu5_DhSjcmD3vImNHJPAsSsGxkA5h6ILkXcdllStxiJcmCHstSH3iLcmUYwIm8d0Ek7rwMaLzbqIqZXb0rGdZcvp1_w8_lkIrDY=",
+        "source": "amexessentials.com"
+      }
+    ],
+    "story": "米格魯犬「阿奇」對桌上冒著微小氣泡的藍色溶液充滿好奇，牠小心翼翼地將鼻子湊近燒杯，彷彿在探究其中的奧秘。旁邊散落的彩色電線和簡易電路板，是孩子們剛完成電化學實驗的證據，現在阿奇接手了「觀察員」的角色。",
+    "avoid_list": [
+      "俯瞰平鋪構圖中的四腳犬",
+      "狗用嘴叼星圖或星圖筒",
+      "月亮與土星同框天文場景",
+      "可讀 UTC 時間標籤",
+      "狗引導人類或動物前進",
+      "圓形光環與螺旋中心構圖",
+      "廢棄觀測站或老天文台",
+      "濕亮毛髮搭配電影側光",
+      "深陰影高反差恐怖氣氛",
+      "藍綠生物發光洞穴光",
+      "陶瓷黏土與裂花面具",
+      "黑色電影潮濕混凝土通道",
+      "玉盤標本與星砂花海",
+      "超明確四足自然犬姿態"
+    ],
+    "number": 49,
+    "idea": "一隻好奇的米格魯犬在兒童科學實驗室的棚拍人像，滿版特寫其嗅探電化學實驗的過程，硬光日照勾勒出描金墨線的細節，呈現雙色調的藝術風格。",
+    "inspiration_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1DeZnPPeW7xgv0rgq9U0GxlGIkQZDwBM4ANC169JCkJ2xYR90r4nG8fhe_EwtfuuY_1YvqwhL4zdw_mLF6OzWJ0dS8pKOXNYAwAoMHTAbsLSo66hkQM7hhEZ5Eso2NWkXUoB5_J29GBjfLktlQMsm22WghIGaQ53o2Hbi3YRYj-d9SbhAnNbrnQ==",
+    "prompt": "A striking studio portrait photograph of a curious beagle dog, Archie, intently sniffing a bubbling blue solution in a beaker. The setting is a child's electrochemistry laboratory, with scattered colorful wires and simple circuit boards visible. The composition is a full-bleed, frame-filling close-up, with the dog cropped to the edges, showing no empty margin, creating an immersive, overwhelming scale and dense, edge-to-edge detail. The lighting is characterized by harsh midday sunlight, producing hard edge shadows, high contrast natural daylight, and unforgiving illumination. The photograph features a duotone color treatment, using only two contrasting colors for a bold graphic impact and modern design feel. It incorporates a gilded ink outline texture, with fine black brush lines edged with lustrous metallic gold contours, and subtle ornamental hand-drawn detailing. Visually display '2026年7月8日 07:35 UTC' in Traditional Chinese. Professional studio photography, shallow depth of field, sharp focus on the dog's muzzle and eyes, naturalistic photographic texture. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "inspiration": "德國巴斯夫兒童實驗室（BASF Kids' Lab）在上海科技館重新開放，透過電化學實驗激發6至12歲兒童對科學的興趣。",
+    "comment_id": 4912497014
   }
 ]
