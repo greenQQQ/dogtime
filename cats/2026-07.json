@@ -2372,5 +2372,38 @@
     "idea": "",
     "prompt": "A cute dog with the date and time '2026-07-08 09:35 UTC' displayed in the image, high quality, detailed",
     "inspiration": "original"
+  },
+  {
+    "avoid_list": [
+      "時間戳記顯示",
+      "實驗室或科學場景",
+      "狗嗅探物體或裝置",
+      "直打閃光燈",
+      "高對比或硬光",
+      "寫實快照風格",
+      "淺景深特寫",
+      "雙色調或限定色調",
+      "35mm或傻瓜相機美學",
+      "狗執行測試或互動",
+      "古老檔案室或卷軸",
+      "穆夏式拱框構圖",
+      "金箔或閃亮紋理",
+      "可愛狗狗"
+    ],
+    "number": 52,
+    "idea": "在一個以新中式青綠山水風格打造的隱密禪宗花園中，一隻烏黑的拉布拉多犬在聚光燈下，專注地用前爪輕撥一棵點綴緋紅葉片的迷你盆栽，背景的岩石雕刻著立體花卉貼花，營造出強制透視伸手構圖的深邃感。",
+    "story": "在微塵輕舞的空氣中，烏黑的拉布拉多犬俯身凝視，牠的前爪輕巧地觸碰著鋪有立體花卉貼花的石板，調整一棵小巧的緋紅盆栽。聚光燈將牠的身影與盆栽籠罩在明暗對比之中，彷彿是這片新中式青綠山水中的活點睛之筆。",
+    "prompt": "在一個以新中式青綠山水風格打造的隱密禪宗花園中，一隻烏黑的拉布拉多犬在聚光燈下，專注地用前爪輕撥一棵點綴緋紅葉片的迷你盆栽，背景的岩石雕刻著立體花卉貼花，營造出強制透視伸手構圖的深邃感。. The date and time '2026-07-08 10:35 UTC' is visually displayed in the image. neo-Chinese blue-green landscape, modern qinglv shanshui, malachite and azurite mountains, gold-outlined peaks, decorative mineral pigment, contemporary ink scenery, forced perspective composition, hand or object thrust toward camera, exaggerated foreshortening, subject engaging the viewer, dynamic confrontational framing, narrow beam spotlight, dramatic high-contrast, sharp light edges, deep darkness falloff, three-dimensional floral appliqué texture, sculpted raised flowers applied to the surface, layered petal relief, ornate dimensional bloom decoration, crimson and black palette, deep blood-red against jet black, dramatic high-contrast intensity, seductive sinister mood IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "news_inspiration": [],
+    "inspiration": "original",
+    "comment_id": 4913920222,
+    "style_picks": {
+      "art_style": "Neo-Chinese Blue-Green Landscape",
+      "composition": "Forced Perspective Reach",
+      "lighting": "Spotlight",
+      "texture": "Three-Dimensional Floral Appliqué",
+      "color_palette": "Crimson and Black"
+    },
+    "title": "青綠禪心緋色點"
   }
 ]
