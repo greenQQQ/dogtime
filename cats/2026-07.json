@@ -2112,5 +2112,38 @@
       "超明確四足自然犬姿態"
     ],
     "prompt": "A cute dog with the date and time '2026-07-08 04:35 UTC' displayed in the image, high quality, detailed"
+  },
+  {
+    "inspiration": "original",
+    "idea": "",
+    "comment_id": 4911705298,
+    "story": "一隻可愛的狗狗正在享受美好的一天。",
+    "style_picks": {
+      "art_style": "Cinematic Realistic Portrait",
+      "composition": "Environmental Medium Portrait",
+      "lighting": "Venetian Blind Light",
+      "texture": "Velvet",
+      "color_palette": "Teal and Orange"
+    },
+    "avoid_list": [
+      "俯瞰平鋪構圖中的四腳犬",
+      "狗用嘴叼星圖或星圖筒",
+      "月亮與土星同框天文場景",
+      "可讀 UTC 時間標籤",
+      "狗引導人類或動物前進",
+      "圓形光環與螺旋中心構圖",
+      "廢棄觀測站或老天文台",
+      "濕亮毛髮搭配電影側光",
+      "深陰影高反差恐怖氣氛",
+      "藍綠生物發光洞穴光",
+      "陶瓷黏土與裂花面具",
+      "黑色電影潮濕混凝土通道",
+      "玉盤標本與星砂花海",
+      "超明確四足自然犬姿態"
+    ],
+    "title": "狗狗日常",
+    "number": 47,
+    "prompt": "A cute dog with the date and time '2026-07-08 05:35 UTC' displayed in the image, high quality, detailed",
+    "news_inspiration": []
   }
 ]
