@@ -2261,5 +2261,67 @@
     "prompt": "A striking studio portrait photograph of a curious beagle dog, Archie, intently sniffing a bubbling blue solution in a beaker. The setting is a child's electrochemistry laboratory, with scattered colorful wires and simple circuit boards visible. The composition is a full-bleed, frame-filling close-up, with the dog cropped to the edges, showing no empty margin, creating an immersive, overwhelming scale and dense, edge-to-edge detail. The lighting is characterized by harsh midday sunlight, producing hard edge shadows, high contrast natural daylight, and unforgiving illumination. The photograph features a duotone color treatment, using only two contrasting colors for a bold graphic impact and modern design feel. It incorporates a gilded ink outline texture, with fine black brush lines edged with lustrous metallic gold contours, and subtle ornamental hand-drawn detailing. Visually display '2026年7月8日 07:35 UTC' in Traditional Chinese. Professional studio photography, shallow depth of field, sharp focus on the dog's muzzle and eyes, naturalistic photographic texture. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
     "inspiration": "德國巴斯夫兒童實驗室（BASF Kids' Lab）在上海科技館重新開放，透過電化學實驗激發6至12歲兒童對科學的興趣。",
     "comment_id": 4912497014
+  },
+  {
+    "story": "布丁深信自己是探索廣闊世界的大型犬，牠那圓滾滾的蜜桃屁股因思考而輕輕搖擺，眼中充滿了樂觀與智慧的光芒。牠用最短的腿與最圓的屁股，挑戰著屬於牠的「獨自划船壯舉」，在沙灘上繪製著屬於自己的傳奇航線，準備迎接每一個新奇的發現。",
+    "news_inspiration": [
+      {
+        "summary": "中國的天問二號太空船在完成十億公里的旅程後，成功抵達地球的準衛星。",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQ0EYzVnP6hOJBuKVpX1JQSoxRLrFETk_AgzbppoWB6WWCK0fCa2Ezr2bGO7SBZzoTLf4Kk54kzxBflMHoUoQhgFhrxkDDODI50RmSqpYaAg==",
+        "source": "sci.news"
+      },
+      {
+        "summary": "丹麥正邀請遊客透過重新發現類比遊戲的樂趣，擺脫數位過載，享受文化和生活方式。",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd0l6xvb0EYIkKpgHR_i9UjVloGNS9DUnx2utZZ94z9onTU9Q4qEL1UxgJoKnWdTGgTDUmMAF-8OO7qMSbTxZeQ9REMBmCaFbKZyyb_yn0mzX5YowCgAwOJZihL0HiVFXXBcDvhtBZCO_H7o3yJjo=",
+        "source": "positive.news"
+      },
+      {
+        "summary": "美國的凱爾西·芬德勒（Kelsey Pfendler）成功獨自划船從加州抵達夏威夷，成為不分性別最快完成此壯舉的人。",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0ihWnpJ5iopXN-JqpiFrCELgt1y3XLar7FOid31IjUIfzhoezsyAkTVhiJgTotNU_nKtDQ8npeB-RD812HyBLv2VEUi2Qmjng9ljkJj5BiQfhwOA_CyNLCvR6o4EXmu3nkuPn",
+        "source": "goodgoodgood.co"
+      },
+      {
+        "summary": "義大利的科學家成功解讀了來自維蘇威火山灰下保存了2000年的哲學論文碎片。",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdV7w5-XO1aDn-7amOeHcECo5N-1vZKSjUgWD-HS1EDgMxbBm8cz_DdgTd0VkquEt9Q_3Je1lpWZO8xNsio1GmsPCEuSsoIYzUaqM6rL-hACivCh0OGDc_nsvFzfM=",
+        "source": "onlygoodnewsdaily.com"
+      },
+      {
+        "summary": "世界旅遊及觀光理事會（WTTC）邀請全球各地的人們票選「當代世界七大奇蹟」，以促進旅遊業發展。",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEW_7NdDBKIZw6Egz9HVKW6aEfSjUFTTP-IV5zgdfqDVeSNH6WJ-a4X5zqeq4697uypOOSbA-c4KrxML8SEvytf-D36CAflaQus6GHt_dO1Rw==",
+        "source": "wttc.org"
+      }
+    ],
+    "prompt": "A cheerful, eager Pembroke Welsh Corgi named Pudding, with a long loaf-shaped body on four short sturdy legs and a famously round peach-shaped rump, wiggling slightly as it 'thinks'. Pudding's coat is warm orange-red #D98243 and white (white collar ruff, white chest and belly, four white socks, thin white blaze up nose bridge). It has oversized upright triangle ears and big, round, bright brown #6B4423 eyes with upturned mouth corners in a happy grin. Pudding is intently lying on its belly, using its short sturdy legs to gently nudge a vibrant red beach ball. The ball rests on a colorful beach towel spread out on the sand, resembling a detailed adventure map, giving the impression of planning an epic journey. This is captured in a dreamy product photography style, a polished commercial still life, with a photorealistic central focal point and multi-layered depth. The scene is set on a pristine sandy beach at early dawn, bathed in soft window light and gentle directional daylight from a side window, creating a classic Vermeer-like illumination with pastel studio light. Smooth falloff into shadow defines an intimate still-life mood. Glossy reflections are visible on the red beach ball and subtle wet patches on the sand. The composition is vertical poster-style, with Pudding and the towel as hero objects on a soft gradient backdrop. The overall aesthetic features a retro faded color palette, washed-out vintage tones, and low contrast, evoking a nostalgic film-era warmth. A subtle frosted glass texture and translucent matte surface with diffused light transmission creates soft blurred shapes visible behind. Shot with a 35mm lens, f/2.8 aperture, shallow depth of field, natural light, minimal grain. Visually displayed clearly in the image: '2026-07-08 08:35 UTC'. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "character": "pudding",
+    "style_picks": {
+      "art_style": "Dreamy Product Photography",
+      "composition": "Vertical Calligraphy Poster",
+      "lighting": "Window Light",
+      "texture": "Frosted Glass",
+      "color_palette": "Retro Faded Tones"
+    },
+    "character_name": "布丁",
+    "idea": "以夢幻商品攝影風格，在清晨微光的沙灘上，主角布丁專注地趴在鋪展開的彩色海灘巾「地圖」前，用牠的小短腿輕巧地撥動一顆鮮紅色沙灘球，像是在規劃一場浩瀚的探險旅程。",
+    "title": "黎明海圖",
+    "avoid_list": [
+      "時間戳記顯示",
+      "實驗室或科學場景",
+      "狗嗅探物體或裝置",
+      "直打閃光燈",
+      "高對比或硬光",
+      "寫實快照風格",
+      "淺景深特寫",
+      "雙色調或限定色調",
+      "35mm或傻瓜相機美學",
+      "狗執行測試或互動",
+      "古老檔案室或卷軸",
+      "穆夏式拱框構圖",
+      "金箔或閃亮紋理",
+      "可愛狗狗"
+    ],
+    "inspiration_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0ihWnpJ5iopXN-JqpiFrCELgt1y3XLar7FOid31IjUIfzhoezsyAkTVhiJgTotNU_nKtDQ8npeB-RD812HyBLv2VEUi2Qmjng9ljkJj5BiQfhwOA_CyNLCvR6o4EXmu3nkuPn",
+    "comment_id": 4912943337,
+    "number": 50,
+    "inspiration": "美國的凱爾西·芬德勒（Kelsey Pfendler）成功獨自划船從加州抵達夏威夷，成為不分性別最快完成此壯舉的人。"
   }
 ]
