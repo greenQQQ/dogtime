@@ -3,7 +3,9 @@
    閒置入睡換睡姿貼紙、✕ 收起記憶 7 天。不亂走、不擋路。 */
 (function () {
   "use strict";
-  if (localStorage.getItem("pet-off") && Date.now() - (+localStorage.getItem("pet-off")) < 7 * 86400 * 1000) return;
+  var HIDDEN = !!(localStorage.getItem("pet-off") && Date.now() - (+localStorage.getItem("pet-off")) < 7 * 86400 * 1000);
+  var spawned = false;
+  var petApi = null;   // spawn 後提供 {poke}
 
   var NAME = "麻吉";
   var IMG_SIT = "pet-sit.png?v=3";
@@ -20,6 +22,10 @@
   ];
   var WAKE_LINE = "汪!? 我沒有在睡";
   var HELLO = "嗨~ 我是" + NAME + " 🐾";
+
+  function spawn() {
+  if (spawned) return;
+  spawned = true;
 
   var css = [
     ".petw{position:fixed;z-index:160;width:96px;user-select:none;touch-action:none;-webkit-tap-highlight-color:transparent;}",
@@ -192,6 +198,8 @@
     localStorage.setItem("pet-off", String(Date.now()));
     clearTimeout(sleepTimer); clearTimeout(talkTimer);
     wrap.remove();
+    spawned = false;   // 之後可用頁尾「🐾 小夥伴」召回
+    petApi = null;
   });
   ["scroll", "mousemove", "touchstart"].forEach(function (ev) {
     var throttled = false;
@@ -211,4 +219,21 @@
     }, 50000 + Math.random() * 50000);
   })();
   resetSleep();
+  petApi = { poke: poke };
+  }  /* end spawn() */
+
+  /* 頁尾「🐾 小夥伴」：被 ✕ 收起後的召回入口；在場時點了會打招呼 */
+  function bindRecall() {
+    var link = document.getElementById("pet-recall");
+    if (!link) return;
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
+      localStorage.removeItem("pet-off");
+      if (!spawned) spawn();
+      else if (petApi) petApi.poke();
+    });
+  }
+
+  if (!HIDDEN) spawn();
+  bindRecall();
 })();
