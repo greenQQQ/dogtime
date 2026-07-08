@@ -2471,5 +2471,38 @@
     },
     "prompt": "A cute dog with the date and time '2026-07-08 12:35 UTC' displayed in the image, high quality, detailed",
     "inspiration": "original"
+  },
+  {
+    "style_picks": {
+      "art_style": "Macro Photography",
+      "composition": "Handscroll Panoramic Layout",
+      "lighting": "Neon Lighting",
+      "texture": "Puffy Quilted Down",
+      "color_palette": "Bamboo Jade Green"
+    },
+    "prompt": "微距攝影捕捉一隻毛絨絨的狗狗，在竹影翠綠的霓虹燈光下，牠正專注地用鼻子和前掌小心翼翼地排列著迷你香料罐，其膨脹絎縫羽絨般的毛皮質感在長卷全景構圖中清晰可見，置身於一間古老香料店的展示架前。. The date and time '2026-07-08 13:35 UTC' is visually displayed in the image. macro photography, extreme close-up, sharp detail, shallow depth of field, fine textures visible, extreme wide handscroll composition, continuous panoramic narrative, layered foreground middleground background, multiple focal points spread horizontally, oblique bird's-eye angle, right-to-left reading flow, neon lighting, colorful glowing signs, reflections on wet surfaces, moody urban night atmosphere, puffy quilted down texture, inflated padded segments, soft bulging stitched channels, glossy puffer-jacket surface, plump air-filled volume, bamboo jade-green palette, fresh emerald and malachite tones, cool verdant serenity, elegant oriental green harmony IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "news_inspiration": [],
+    "idea": "微距攝影捕捉一隻毛絨絨的狗狗，在竹影翠綠的霓虹燈光下，牠正專注地用鼻子和前掌小心翼翼地排列著迷你香料罐，其膨脹絎縫羽絨般的毛皮質感在長卷全景構圖中清晰可見，置身於一間古老香料店的展示架前。",
+    "avoid_list": [
+      "時間戳記顯示",
+      "實驗室或科學場景",
+      "狗嗅探物體或裝置",
+      "直打閃光燈",
+      "高對比或硬光",
+      "寫實快照風格",
+      "淺景深特寫",
+      "雙色調或限定色調",
+      "35mm或傻瓜相機美學",
+      "狗執行測試或互動",
+      "古老檔案室或卷軸",
+      "穆夏式拱框構圖",
+      "金箔或閃亮紋理",
+      "可愛狗狗"
+    ],
+    "inspiration": "original",
+    "title": "翠影香韻",
+    "story": "狗狗的眼神充滿專注，翠綠的霓虹燈光在牠柔軟的毛髮上投下細緻的光影。牠輕柔地推動一個個小巧的玻璃罐，將茴香、肉桂與丁香排列得井然有序，彷彿在完成一項極其重要的儀式。長卷般的視角展開，展現這場寧靜而細膩的「香料盛宴」。",
+    "comment_id": 4915360235,
+    "number": 55
   }
 ]
