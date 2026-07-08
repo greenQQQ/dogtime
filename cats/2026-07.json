@@ -2145,5 +2145,61 @@
     "number": 47,
     "prompt": "A cute dog with the date and time '2026-07-08 05:35 UTC' displayed in the image, high quality, detailed",
     "news_inspiration": []
+  },
+  {
+    "avoid_list": [
+      "俯瞰平鋪構圖中的四腳犬",
+      "狗用嘴叼星圖或星圖筒",
+      "月亮與土星同框天文場景",
+      "可讀 UTC 時間標籤",
+      "狗引導人類或動物前進",
+      "圓形光環與螺旋中心構圖",
+      "廢棄觀測站或老天文台",
+      "濕亮毛髮搭配電影側光",
+      "深陰影高反差恐怖氣氛",
+      "藍綠生物發光洞穴光",
+      "陶瓷黏土與裂花面具",
+      "黑色電影潮濕混凝土通道",
+      "玉盤標本與星砂花海",
+      "超明確四足自然犬姿態"
+    ],
+    "inspiration": "original",
+    "character_name": "阿金",
+    "story": "一隻可愛的狗狗正在享受美好的一天。",
+    "title": "狗狗日常",
+    "style_picks": {
+      "art_style": "Cel Shading",
+      "composition": "Tiny Figure Scale Contrast",
+      "lighting": "Bioluminescence",
+      "texture": "Watercolor Splatter & Ink Spray",
+      "color_palette": "Duotone"
+    },
+    "number": 48,
+    "prompt": "A cute dog with the date and time '2026-07-08 06:35 UTC' displayed in the image, high quality, detailed\n⚠️ CHARACTER CONSISTENCY — NON-NEGOTIABLE:\n[IDENTITY CARD] A-gin — a large, gentle Golden Retriever with a warm golden #D9A85C medium-long coat, feathered fringes on the chest, legs and tail, slightly darker gold on the floppy ears. Broad kind face with naturally upturned mouth corners like a permanent soft smile. Tail: big feathered plume, often wagging like a golden flag. Eyes: gentle dark brown #5A4028. Often carrying something gently in his mouth (a slipper, a toy, a newspaper). Relaxed, patient posture. Expression: warm, kind, endlessly patient. [HARD CONSTRAINTS] 1) Golden coat ONLY — never cream-white, never dark red. 2) Floppy ears ALWAYS — never upright. 3) Feathered medium-long coat — never short-haired like a labrador. 4) Dark brown #5A4028 eyes ONLY — never blue. 5) Large sturdy build — never small or slim. 6) No collar or accessories. End.\nNEGATIVE CONSTRAINTS (must not appear): cream white coat, dark red coat, short labrador coat, upright ears, blue eyes, thin whippet body, small dog, curly poodle fur, black fur, collar, bandana, clothing, leash, anthropomorphic dog, dog with human body, dog with human hands, dog standing upright like a person, humanoid dog, furry character, mascot costume, dog with human face\nThe subject is ALWAYS a literal dog. NEVER replace the dog with a human, humanoid, person, child, or anthropomorphic figure — even if the scene mentions people, robots, or human activities. Humans may appear in the background, but the named character stays a four-legged dog.\nEvery HARD CONSTRAINT above is MANDATORY. Do NOT skip any.\nIf the art style makes any feature hard to show, simplify the style — NEVER drop the feature.\n",
+    "character": "ajin",
+    "idea": "",
+    "news_inspiration": [
+      {
+        "summary": "美國洛斯阿拉莫斯國家實驗室的科學家們在物理學上取得突破，成功使量子時間看起來能夠倒流。",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9HvHawCb-Ci1dWal5h7LZPdq1o8DHejOzns-ut7jMTZYkC7NYFyJhNs2eW1jd0YLW-IJVpaHn8KMFnkfN9KGfYDWpg9t3gKjO-J3Zhv7_55hHKCYDmgtXZbZ_nmZ9r6py0szb1JGkvZjRgwBxLx1xBazTQfua2kX9",
+        "source": "sciencedaily.com"
+      },
+      {
+        "summary": "位於瑞士阿爾卑斯山區的一條蒸汽火車鐵路慶祝其百年週年，吸引了眾多遊客。",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJYwfZHO42sEC1UJhJ3Ce9_H5pHJv5ubhOEm-0tNvWDvrlUKTZDIYQSGGDE9_AUvGuCjWuMupMx22tauWU34qLpaidDnc8AKpRUhGUkWpggJ1rEr7UKiu0Njug3VwXDkQSpOBsDw==",
+        "source": "arabnews.com"
+      },
+      {
+        "summary": "約旦亞喀巴海洋保護區的紅海珊瑚礁因其對全球暖化的非凡抵抗力，有望獲得聯合國教科文組織世界遺產地位。",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjqhO-TbKvEzlOpqItQkBo05u8SJAG1bmsX-X-itPj9Tyv7awbU3VV79IDRMakeqqPnQ3kBm2aJNnbwE2gSy93aoQFh5GuYk1-z1yC-ojC4K6EPq8foI9AYbSWJN0fwwwcGAidcpKzAj9vwkOlMm_cc_RMoG0gmnfJAgcqxc3PrR3jENQ=",
+        "source": "positive.news"
+      },
+      {
+        "summary": "葡萄牙舉辦了Afro Nation音樂節，將非洲節拍、Amapiano和Dancehall等全球黑人音樂帶到其美麗的海岸線。",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrISUK6V2d9Xd1kJJE30XWQsbOmmPdSy0_Sh7lxfJhN-Yx3qIuZmRENUjSBH_VqXidiqIMzAqpZbvd5Dy2Ytl_4ASxydfoco2vqYj7_aptdoaoJSKQ4j2lsTlbGQemYQ1uO6yh7q4yS-D-LdrKd3LCS6n7tgMBVhwf8uxJIoBU-0ljE7FyLFRIUrU=",
+        "source": "substack.com"
+      }
+    ],
+    "comment_id": 4912041414
   }
 ]
