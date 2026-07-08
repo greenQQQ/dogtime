@@ -1403,6 +1403,69 @@ async def _generate_via_codex_image_service(
     }
 
 
+async def _generate_via_local(output_dir: str, timestamp: str, prompt: str) -> dict:
+    """User-provided local/self-hosted image server that speaks the OpenAI
+    Images API shape: POST {base}/v1/images/generations -> data[0].b64_json|url.
+
+    Selected from the control panel (image_backend=local). The runner only
+    routes here when LOCAL_IMAGE_BASE_URL is non-empty, so this is a no-op slot
+    until the user points it at e.g. a local ComfyUI/A1111 OpenAI-compat bridge.
+    """
+    import base64 as _b64
+    import json as _json
+    import urllib.request
+    import urllib.error
+
+    base_url = (os.environ.get("LOCAL_IMAGE_BASE_URL") or "").rstrip("/")
+    model = os.environ.get("LOCAL_IMAGE_MODEL") or "gpt-image-1"
+    api_key = os.environ.get("LOCAL_IMAGE_KEY") or ""
+    if not base_url:
+        return {"file_path": None, "model_used": None, "status": "failed",
+                "error": "LOCAL_IMAGE_BASE_URL is not set"}
+
+    payload = _json.dumps({
+        "model": model, "prompt": prompt, "n": 1,
+        "size": "1024x1024", "response_format": "b64_json",
+    }).encode("utf-8")
+    headers = {"Content-Type": "application/json"}
+    if api_key:
+        headers["Authorization"] = f"Bearer {api_key}"
+
+    def _post(url: str, body: bytes) -> dict:
+        r = urllib.request.Request(url, data=body, headers=headers, method="POST")
+        timeout = int(os.environ.get("LOCAL_IMAGE_TIMEOUT", "300"))
+        with urllib.request.urlopen(r, timeout=timeout) as resp:
+            return _json.loads(resp.read().decode("utf-8"))
+
+    out_name = f"cat_{timestamp.replace(' ', '_').replace(':', '')}.png"
+    png_path = os.path.join(output_dir, out_name)
+    try:
+        data = await asyncio.to_thread(_post, f"{base_url}/v1/images/generations", payload)
+        items = data.get("data") or []
+        if not items:
+            return {"file_path": None, "model_used": None, "status": "failed",
+                    "error": f"local endpoint returned no images: {str(data)[:300]}"}
+        item = items[0]
+        if item.get("b64_json"):
+            with open(png_path, "wb") as fh:
+                fh.write(_b64.b64decode(item["b64_json"]))
+        elif item.get("url"):
+            await asyncio.to_thread(urllib.request.urlretrieve, item["url"], png_path)
+        else:
+            return {"file_path": None, "model_used": None, "status": "failed",
+                    "error": f"local image had neither b64_json nor url: {str(item)[:200]}"}
+    except urllib.error.HTTPError as exc:
+        body = exc.read().decode("utf-8", errors="replace") if exc.fp else ""
+        return {"file_path": None, "model_used": None, "status": "failed",
+                "error": f"local endpoint HTTP {exc.code}: {body[:300]}"}
+    except Exception as exc:
+        return {"file_path": None, "model_used": None, "status": "failed",
+                "error": f"local endpoint request failed: {exc}"}
+
+    return {"file_path": _convert_png_to_webp(png_path),
+            "model_used": f"{model} (local endpoint)", "status": "success"}
+
+
 async def generate_cat_image(output_dir: str, timestamp: str, prompt: str) -> dict:
     """Dispatch to the configured image backend.
 
@@ -1414,6 +1477,9 @@ async def generate_cat_image(output_dir: str, timestamp: str, prompt: str) -> di
     still produces a dog. The fallback is annotated in `model_used`.
     """
     backend = (os.environ.get("CAT_IMAGE_GENERATOR") or "").strip().lower()
+    if backend == "local":
+        print("Image backend: local (custom endpoint)")
+        return await _generate_via_local(output_dir, timestamp, prompt)
     if backend != "codex":
         print("Image backend: nanobanana (Gemini)")
         return await _generate_via_nanobanana(output_dir, timestamp, prompt)
