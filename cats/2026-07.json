@@ -2058,5 +2058,59 @@
       "玉盤標本與星砂花海",
       "超明確四足自然犬姿態"
     ]
+  },
+  {
+    "inspiration": "original",
+    "style_picks": {
+      "art_style": "Watercolor",
+      "composition": "Tiny Figure Scale Contrast",
+      "lighting": "Butterfly Lighting",
+      "texture": "Cotton Candy Clouds",
+      "color_palette": "High Saturation Vivid"
+    },
+    "title": "狗狗日常",
+    "idea": "",
+    "comment_id": 4911413626,
+    "news_inspiration": [
+      {
+        "summary": "美國科學家在猶他州成功復活了32億年前的酶，為地球生命起源提供了前所未有的線索。",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdkX7qwPDncw8I8LQooQynQ0UbeA9rTICUHLxqkp98jLkNT7NC8fbcBME6dFqov2gkEenH99D33JQdEZuCkaT6hOFLNcJ02qSdDY3yhaQPNlTho9j9qwXfScb_dxVLeGaADFc-RiVK80Yi3d9_IzGVydeMjgdHTBQ=",
+        "source": "sciencedaily.com"
+      },
+      {
+        "summary": "法屬玻里尼西亞大溪地島正舉辦一年一度的Heiva i Tahiti節日，展現傳統波利尼西亞舞蹈與文化。",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKpPW0_XHY0a09yAqy1SY5jBCtWmwv7k5fdY-vZnO9A-11HJJgZsbA0dPUL16RcW2QV7ASO2vYJV7DAK9P78b9iM4IsEN5g0UQWQP8vX3Qykf5uNNB86ZFNwP06j4hYtR9pm8W1BmzkiPSbnoK0kw4MYfQqPT-EY-lnpPLE2lw3bwgPE-CN0Ic_-jeEjdOmQDgeVniTOVPR_w=",
+        "source": "amexessentials.com"
+      },
+      {
+        "summary": "德國研究人員開發了一種新的人工智慧模型，能更快速地模擬中子星合併如何形成宇宙中的重元素。",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyE05C3FH0JvYTkmnu4iI2J6VmAM-CscTiBrCwHVEPSRa6Y_UoypXVM41I0ONepugVyz91geBNTws_925hD-SQ_Kou9jxPR5yauGQN1ySXEwO3EA38dBnRvhjOwlUK7YhHMW1TXiQQVcIqLmrWUHeUECpvqGSiSXA=",
+        "source": "sciencedaily.com"
+      },
+      {
+        "summary": "蘇格蘭立法規定所有新建房屋必須安裝「雨燕磚」，為這種數量銳減的鳥類提供築巢空間，以促進其生態保育。",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWGo5aHYtxYseCXxs7EuwDI0HtVFg_azfqXJDb9awuBtmS3I2VaAODdL9SvppRXY3DrL6Wyj9MagBDw8nZsvJ9svySBnGZt8gYeyZr5Qy78OgumB7Yzbsk7jY1gD0m0_YSUGYy0QW706KGncTIXCMYXDIE62uqdUxyW7kW5lyo_VB_dqPlo2UilIRey3Y=",
+        "source": "restless.co.uk"
+      }
+    ],
+    "story": "一隻可愛的狗狗正在享受美好的一天。",
+    "number": 46,
+    "avoid_list": [
+      "俯瞰平鋪構圖中的四腳犬",
+      "狗用嘴叼星圖或星圖筒",
+      "月亮與土星同框天文場景",
+      "可讀 UTC 時間標籤",
+      "狗引導人類或動物前進",
+      "圓形光環與螺旋中心構圖",
+      "廢棄觀測站或老天文台",
+      "濕亮毛髮搭配電影側光",
+      "深陰影高反差恐怖氣氛",
+      "藍綠生物發光洞穴光",
+      "陶瓷黏土與裂花面具",
+      "黑色電影潮濕混凝土通道",
+      "玉盤標本與星砂花海",
+      "超明確四足自然犬姿態"
+    ],
+    "prompt": "A cute dog with the date and time '2026-07-08 04:35 UTC' displayed in the image, high quality, detailed"
   }
 ]
