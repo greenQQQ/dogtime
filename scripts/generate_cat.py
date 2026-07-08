@@ -608,14 +608,67 @@ _NEWS_PROMPT_CODEX = (
     "- NOT politics, war, disasters, or tragedies\n\n"
     "Reply with ONLY this JSON object (no code fences, no commentary):\n"
     '{"news": [{"summary": "繁體中文一句話摘要", "url": "exact article URL copied from the search results", "source": "media name"}, ...]}\n\n'
-    "Rules: every url MUST be copied exactly from a real search result — never invent, shorten, or reconstruct URLs. "
+    "Rules: every url MUST be the FULL ARTICLE URL copied exactly from a real search result (it must contain a path, e.g. https://site.com/2026/07/story-name) — never a bare homepage like https://site.com/, never invented or shortened. "
     "If you cannot find a real URL for an item, set its url to null."
 )
 
 
+_OPENAI_KEY = os.environ.get("OPENAI_API_KEY") or ""
+_OPENAI_MODEL = os.environ.get("OPENAI_TEXT_MODEL", "gpt-5.4-mini")
+_LAST_CITATIONS: list = []   # 最近一次 openai 搜尋的 url_citation（新聞來源補洞用）
+
+
+def _openai_text(prompt: str, *, search: bool = False, timeout: int = 240) -> str | None:
+    """OpenAI Responses API（資料共享免費額度）。回最終文字，失敗回 None。"""
+    global _LAST_CITATIONS
+    if not _OPENAI_KEY:
+        return None
+    import urllib.request
+    payload = {
+        "model": _OPENAI_MODEL,
+        "input": prompt + "\n\nReply with ONLY the JSON object — no code fences, no extra commentary.",
+    }
+    if search:
+        payload["tools"] = [{"type": "web_search"}]
+    try:
+        req = urllib.request.Request(
+            "https://api.openai.com/v1/responses",
+            data=json.dumps(payload).encode("utf-8"),
+            headers={"Authorization": f"Bearer {_OPENAI_KEY}", "Content-Type": "application/json"},
+            method="POST",
+        )
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+        texts, cites = [], []
+        for out in data.get("output", []):
+            if out.get("type") != "message":
+                continue
+            for c in out.get("content", []):
+                if c.get("type") == "output_text":
+                    texts.append(c.get("text", ""))
+                    for a in c.get("annotations", []) or []:
+                        if a.get("type") == "url_citation" and a.get("url"):
+                            cites.append({"url": a["url"], "title": a.get("title")})
+        _LAST_CITATIONS = cites
+        text = "\n".join(t for t in texts if t).strip()
+        return text or None
+    except Exception as e:
+        print(f"  openai text backend failed ({e}); falling back.")
+        return None
+
+
+def _text_gen(prompt: str, *, search: bool = False, timeout: int = 240) -> str | None:
+    """依 CAT_TEXT_BACKEND 分派：openai（免費API）/ codex（訂閱）/ 其他→None（改走 Gemini）。"""
+    if _TEXT_BACKEND == "openai":
+        return _openai_text(prompt, search=search, timeout=timeout)
+    if _TEXT_BACKEND == "codex":
+        return _codex_text(prompt, search=search, timeout=timeout)
+    return None
+
+
 def _codex_text(prompt: str, *, search: bool = False, timeout: int = 240) -> str | None:
     """Run `codex exec` and return the final message text, or None on any failure."""
-    if _TEXT_BACKEND != "codex" or not _CODEX_BIN:
+    if not _CODEX_BIN:
         return None
     import tempfile
     out_path = None
@@ -703,7 +756,7 @@ def maybe_update_creative_notes(cat_number: int) -> dict:
     )
 
     try:
-        raw = _codex_text(SUMMARY_PROMPT.format(entries=entries_text))
+        raw = _text_gen(SUMMARY_PROMPT.format(entries=entries_text))
         result = parse_ai_response_generic(raw, ["avoid_list"]) if raw else None
         if not result:
             client = _create_genai_client()
@@ -808,7 +861,7 @@ def fetch_news_inspiration() -> list[dict]:
 
     # Codex CLI path (ChatGPT subscription): the model does the web search and
     # returns summaries with real source URLs directly — no grounding parsing.
-    raw = _codex_text(_NEWS_PROMPT_CODEX, search=True, timeout=300)
+    raw = _text_gen(_NEWS_PROMPT_CODEX, search=True, timeout=300)
     if raw:
         result = parse_ai_response_generic(raw, ["news"])
         if result and isinstance(result["news"], list):
@@ -816,17 +869,28 @@ def fetch_news_inspiration() -> list[dict]:
             for it in result["news"][:5]:
                 if isinstance(it, dict) and isinstance(it.get("summary"), str) and it["summary"].strip():
                     url = it.get("url")
+                    if not (isinstance(url, str) and url.startswith("http")):
+                        url = None
+                    elif len(url.split("://", 1)[-1].rstrip("/").split("/", 1)) < 2:
+                        url = None   # 只有網域的首頁連結不算數
                     items.append({
                         "summary": it["summary"].strip(),
-                        "url": url if isinstance(url, str) and url.startswith("http") else None,
+                        "url": url,
                         "source": it.get("source") if isinstance(it.get("source"), str) else None,
                     })
                 elif isinstance(it, str) and it.strip():
                     items.append({"summary": it.strip(), "url": None, "source": None})
             if items:
+                cites = [c for c in (_LAST_CITATIONS or []) if c.get("url")]
+                ci = 0
+                for item in items:
+                    if not item["url"] and ci < len(cites):
+                        item["url"] = cites[ci]["url"]
+                        item["source"] = item.get("source") or cites[ci].get("title")
+                        ci += 1
                 for i, item in enumerate(items, 1):
                     src = item.get("source") or ("有來源" if item.get("url") else "無來源")
-                    print(f"  News {i} [codex/{src}]: {item['summary'][:80]}...")
+                    print(f"  News {i} [{_TEXT_BACKEND}/{src}]: {item['summary'][:80]}...")
                 return items
         print("  codex news parse failed; falling back to Gemini news search.")
 
@@ -923,7 +987,7 @@ def generate_prompt_and_story(timestamp: str, creative_notes: dict, character: d
         )
 
     # Stage 0: Fetch news inspiration (70% chance; 30% force original)
-    # 狗狗同題聯動：write 端一定抓新聞且必選一則；read 端直接吃姊妹站寫入的共享新聞。
+    # 貓狗同題聯動：write 端一定抓新聞且必選一則；read 端直接吃姊妹站寫入的共享新聞。
     xo_item = None
     if crossover_role == "read":
         xo_item = _crossover_read()
@@ -1018,7 +1082,7 @@ def generate_prompt_and_story(timestamp: str, creative_notes: dict, character: d
     if character_idea_section:
         idea_input = character_idea_section + "\n" + idea_input
     # Codex CLI first (subscription); Gemini loop below only runs if it failed.
-    codex_raw = _codex_text(idea_input)
+    codex_raw = _text_gen(idea_input)
     codex_parsed = parse_ai_response_generic(codex_raw, ["idea", "story"]) if codex_raw else None
     if codex_parsed:
         idea = codex_parsed["idea"]
@@ -1084,7 +1148,7 @@ def generate_prompt_and_story(timestamp: str, creative_notes: dict, character: d
         if character_render_section:
             render_input = render_input + "\n" + character_render_section
         # Codex CLI first (subscription); Gemini only when it fails.
-        raw2 = _codex_text(render_input)
+        raw2 = _text_gen(render_input)
         result = parse_ai_response_generic(raw2, ["prompt"]) if raw2 else None
         if not result:
             response = client.models.generate_content(
@@ -1636,7 +1700,7 @@ def main():
     character = select_character(now)
 
     print(f"Generating dog #{next_number} for {timestamp}...")
-    # 狗狗同題聯動：在指定 UTC 小時，write 端選定新聞寫入共享檔、read 端照著畫
+    # 貓狗同題聯動：在指定 UTC 小時，write 端選定新聞寫入共享檔、read 端照著畫
     crossover_role = None
     if os.environ.get("CROSSOVER_FILE") and os.environ.get("CROSSOVER_ROLE") in ("write", "read"):
         try:
