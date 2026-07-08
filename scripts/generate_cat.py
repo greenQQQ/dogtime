@@ -616,12 +616,16 @@ _NEWS_PROMPT_CODEX = (
 _OPENAI_KEY = os.environ.get("OPENAI_API_KEY") or ""
 _OPENAI_MODEL = os.environ.get("OPENAI_TEXT_MODEL", "gpt-5.4-mini")
 _LAST_CITATIONS: list = []   # 最近一次 openai 搜尋的 url_citation（新聞來源補洞用）
+_WARNED_NO_KEY = False       # 空金鑰只警告一次
 
 
 def _openai_text(prompt: str, *, search: bool = False, timeout: int = 240) -> str | None:
     """OpenAI Responses API（資料共享免費額度）。回最終文字，失敗回 None。"""
-    global _LAST_CITATIONS
+    global _LAST_CITATIONS, _WARNED_NO_KEY
     if not _OPENAI_KEY:
+        if not _WARNED_NO_KEY:
+            _WARNED_NO_KEY = True
+            print("  [openai] OPENAI_API_KEY is EMPTY - check runner key loading; falling back!", file=sys.stderr)
         return None
     import urllib.request
     payload = {
