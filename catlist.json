@@ -433,5 +433,16 @@
     "number": 44,
     "title": "卷軸秘語",
     "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-08_0235_UTC.webp"
+  },
+  {
+    "number": 45,
+    "title": "狗狗日常",
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-08_0335_UTC.webp",
+    "timestamp": "2026-07-08 03:35 UTC",
+    "status": "success",
+    "inspiration": "original",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "character_name": "麻吉",
+    "character": "machi"
   }
 ]
