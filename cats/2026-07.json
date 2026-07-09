@@ -3154,5 +3154,36 @@
     "number": 67,
     "inspiration": "Nature 最新報導指出，海底裂縫首次被直接觀察到正在分裂並釋放熔岩，畫面與科學意義都很震撼。",
     "prompt": "Illustration / art: a chalk art scene on a dark green slate blackboard, dusty matte texture with visible hatching strokes, depicting a tiny subject staged inside a transparent glass observation tank like a jar or bottle, refractive glass border framing the composition. Inside the vessel, a yellow-and-white short-haired dog clearly presses its nose toward a cracked deep-sea fissure outside, holding still as if guarding evidence, while a scientist beside it urgently adjusts instruments. The outside seafloor crack erupts with molten lava in intense high-saturation contrast, fiery red against electric blue highlights, with glowing lava illuminating the dog’s side profile and the scientist’s startled expression. Use a harsh direct on-camera flash look, blown-out highlights, hard shadows, candid snapshot framing, and an eerie inflatable PVC-like glossy feel with puffy rounded forms and air-filled tension. Add the date and time visibly in the image as Traditional Chinese or English text: \"2026-07-09 09:35 UTC\". IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字)."
+  },
+  {
+    "story": "船匠忙著檢查舊船的吊索時，這隻狗總會把不同纜繩叼到木箱旁，像是在提醒哪一條才是今天要用的主繩。午後的工棚裡，海風把乾燥的海藻和壓平的葉片吹得微微掀起，牠則安靜坐在一旁，等下一個修繕指令。",
+    "comment_id": 4924166899,
+    "idea": "在一間位於義大利老港口邊的海上修船工棚裡，一隻四腳米白色邊境牧羊犬正專注把散落的繩結圖樣攤在木箱上，協助船匠辨認不同纜索用途；畫面以交叉沖洗呈現出濃厚大地色，搭配多格角色拼貼，閃光燈直打在潮濕金屬與壓花植物疊層的標本紙上，質感鮮明又真實。",
+    "number": 68,
+    "inspiration": "original",
+    "prompt": "Photograph, real candid snapshot of an Italian old port repair shed by the sea, a four-legged cream-colored Border Collie carefully arranging scattered rope-knot diagrams on top of a wooden crate for a shipwright to identify different cable uses, the dog clearly visible doing the task, with nearby old ship rigging and worn timber workbench, afternoon breeze lifting dry seaweed and flattened leaves, cross-processed film look with experimental color shifts, unpredictable color cast, heightened contrasts, retro vintage feel, earth-tone harmony in terracotta, olive green, and warm brown, harsh direct on-camera flash, blown-out highlights on wet metal surfaces, hard shadows, raw documentary feel, pressed botanical layers and translucent herbarium sheets layered into the scene, multi-panel character montage with the same dog shown in several poses and expressions across a cohesive comic-style grid, one panel featuring the dog sitting quietly waiting for the next repair instruction, visually display the text \"2026-07-09 10:35 UTC\" clearly in Traditional Chinese or English signage, natural grain, 35mm lens, f/2, shallow depth of field IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "news_inspiration": [],
+    "style_picks": {
+      "art_style": "Cross Processing",
+      "composition": "Multi-Panel Character Montage",
+      "lighting": "Direct Flash",
+      "texture": "Pressed Botanical Layers",
+      "color_palette": "Earth Tones"
+    },
+    "title": "港邊繩語",
+    "avoid_list": [
+      "地鐵月台維修通道",
+      "狗用前掌推撥物件",
+      "鼻尖貼地嗅聞線索",
+      "滿版特寫滿框構圖",
+      "長卷式連續敘事",
+      "霓虹濕地反光夜景",
+      "復古褪色低對比色調",
+      "三點打光柔和輪廓光",
+      "鏡像對稱異我構圖",
+      "丹麥麵包店夜間遠景",
+      "露出日期時間標示",
+      "懷舊城市記憶氛圍"
+    ]
   }
 ]
