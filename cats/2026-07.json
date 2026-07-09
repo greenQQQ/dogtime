@@ -3406,5 +3406,40 @@
     },
     "inspiration": "original",
     "title": "月台尋路"
+  },
+  {
+    "idea": "和風妖怪面具插畫風，分割畫面構圖：左半是東京清晨的地下商店街麵包店後場，右半是店門口灑滿黃金時刻陽光的騎樓外。兩隻四腳狗在紗網薄透肌理般的半透明蒸氣與麵粉光霧中忙著追逐滾落的可頌，藍黃互補色讓玻璃櫃、麵包屑與地面反光形成鮮明對撞。",
+    "inspiration": "original",
+    "comment_id": 4926885475,
+    "story": "店員剛把烤盤推回廚房，後門便被晨光切成兩格，一隻黃白花狗衝向掉下來的麵包屑，另一隻黑狗在門檻邊守著剛滾出的可頌。牠們不是在搗亂，而像在替整條街確認今天的第一批麵包是否真的出爐了，空氣裡全是熱麵糰與木頭店招的味道。",
+    "number": 73,
+    "title": "麵包晨巡",
+    "style_picks": {
+      "art_style": "Japanese Yokai Mask Illustration",
+      "composition": "Split View",
+      "lighting": "Golden Hour",
+      "texture": "Sheer Gauze Mesh",
+      "color_palette": "Blue and Yellow Complementary"
+    },
+    "avoid_list": [
+      "直式電影海報構圖",
+      "中央主體聚焦",
+      "狗用鼻尖嗅聞",
+      "月光靛藍夜景",
+      "曼陀羅式桌面陣列",
+      "三點打光柔側光",
+      "傳統中式書法側欄",
+      "巨幅背景與小人物對比",
+      "復古膠片交叉沖洗",
+      "厚塗油彩肌理",
+      "鏡像對稱構圖",
+      "海港修復工棚",
+      "科學觀測艙與儀器",
+      "高反差硬閃光",
+      "懷舊文藝復興式仰角",
+      "漂浮小島繪本風"
+    ],
+    "prompt": "Japanese yokai and oni mask illustration in bold ukiyo-inspired linework, eerie playful mood, traditional Japanese color accents. Split-view composition with a sharp vertical cut line: left half shows the back kitchen of a Tokyo underground shopping arcade bakery at dawn, photorealistic detail blended with illustration; right half shows the storefront under a covered arcade outside, rendered as a wireframe-diagram-like architectural contrast. Two four-legged dogs clearly visible: a yellow-and-white dog lunging after falling bread crumbs, and a black dog guarding a just-rolled croissant at the threshold, both moving through semi-transparent steam and flour mist with sheer gauze mesh texture, fine translucent netting, gossamer layered transparency, soft light passing through fabric. Blue and yellow complementary palette, vivid contrasting cool blue and warm yellow, glass display case reflections, bread crumbs, floor reflections, long soft shadows, golden rim light, warm sunrise glow from the right side, cool bakery interior tones on the left. The air feels full of warm dough and wooden shop-sign atmosphere. Display the date and time text clearly in the image: '2026-07-09 15:35 UTC' in Traditional Chinese or English typography. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "news_inspiration": []
   }
 ]
