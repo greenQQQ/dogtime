@@ -3185,5 +3185,66 @@
       "露出日期時間標示",
       "懷舊城市記憶氛圍"
     ]
+  },
+  {
+    "story": "布丁堅信自己是全世界最厲害的大型犬，所以每次踏進淺水灘都像在巡視領地，短短四肢卻踩出最響亮的夏天。牠把玩具排成一列，最後用鼻子輕輕選中最喜歡的那個，然後突然興奮地來了一個標準柯基趴，等著岸邊的人們笑著誇牠可愛。",
+    "avoid_list": [
+      "地鐵月台維修通道",
+      "狗用前掌推撥物件",
+      "鼻尖貼地嗅聞線索",
+      "滿版特寫滿框構圖",
+      "長卷式連續敘事",
+      "霓虹濕地反光夜景",
+      "復古褪色低對比色調",
+      "三點打光柔和輪廓光",
+      "鏡像對稱異我構圖",
+      "丹麥麵包店夜間遠景",
+      "露出日期時間標示",
+      "懷舊城市記憶氛圍"
+    ],
+    "idea": "童話水彩繪本風的浮島/漂浮場景中，布丁在一座位於溪邊淺水灘上的小小野餐島上，正專心把一排繽紛貝殼與玩具球排整齊再挑選其中一個，淺水被牠短腿踏得四濺，水花甚至比牠還高，斑駁光影落在白色圍脖與橘紅毛色上，紙質肌理讓整個夏日畫面像一本會呼吸的故事書。畫面主角是牠圓潤搖擺的蜜桃屁股、超大立耳與亮棕圓眼，氣氛俏皮又明亮，雙色調色彩讓清涼的溪水和溫暖的陽光形成鮮明對比。",
+    "season": "summer",
+    "style_picks": {
+      "art_style": "Watercolor Storybook Illustration",
+      "composition": "Floating Island Scene",
+      "lighting": "Dappled Light",
+      "texture": "Paper Texture",
+      "color_palette": "Duotone"
+    },
+    "character_name": "布丁",
+    "news_inspiration": [
+      {
+        "summary": "NASA的New Horizons太空船在休眠後恢復正常，持續傳回令人興奮的深空科學任務訊息。",
+        "url": "https://www.nasa.gov/news/",
+        "source": "NASA"
+      },
+      {
+        "summary": "《The Guardian》報導，研究顯示英國鳳蝶與歐洲近親分化的時間比先前想像更早，為演化研究帶來新發現。",
+        "url": "https://www.theguardian.com/science/2026/jul/05/all",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "《The Guardian》最新科學報導指出，年輕世代正重新愛上觀鳥，讓「親近自然」成為一種新潮流。",
+        "url": "https://www.theguardian.com/science/2026/jul/07/all",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "NASA的APOD刊出「Swift Boost Mission」，介紹一項延長太空船壽命的技術示範，畫面與概念都很吸睛。",
+        "url": "https://apod.nasa.gov/apod/ap.html",
+        "source": "NASA APOD"
+      },
+      {
+        "summary": "Live Science的7月新聞彙整提到，研究發現尼安德塔人與現代人可能在數萬年前共享文化，帶來很有趣的古人類學線索。",
+        "url": "https://www.livescience.com/news/archive/2026/07",
+        "source": "Live Science"
+      }
+    ],
+    "prompt": "Traditional Chinese children’s picture-book watercolor illustration of a whimsical floating-island scene by a stream: Pudding, a Pembroke Welsh Corgi with a long loaf-shaped body, short sturdy legs, oversized upright ears, bright brown eyes, warm orange-red and white coat with a white collar ruff, white chest and belly, four white socks, and a thin white blaze, is clearly shown on a tiny picnic island in shallow water, carefully lining up a row of colorful seashells and toy balls, then choosing one with his nose; his short legs splash the stream wildly so the water sprays higher than his round peach-shaped rump. Show his playful corgi posture, slightly cheeky happy grin, and the classic corgi sploot pose after picking the toy. Include the date and time text clearly visible in the image: “2026-07-09 11:35 UTC” in Traditional Chinese or English lettering. Soft transparent watercolor washes, visible paper fiber grain and textured paper surface, warm storybook charm, healing fairytale mood, gentle childlike composition, aerial floating-island feel with a miniature landscape on a levitating platform, dappled sunlight and mottled leaf shadows across the white ruff and orange-red fur, bright summer light contrasted with cool aqua stream water. Duotone color treatment with only two dominant tones: warm sunlit amber-orange and cool blue-green water, bold yet gentle graphic impact, serene natural atmosphere, no collar or accessories. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "inspiration": "original",
+    "comment_id": 4924664111,
+    "number": 69,
+    "character": "pudding",
+    "is_seasonal": true,
+    "title": "溪灘夏跳"
   }
 ]

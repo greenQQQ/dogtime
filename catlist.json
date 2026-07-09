@@ -671,5 +671,18 @@
     "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-09_1035_UTC.webp",
     "title": "港邊繩語",
     "inspiration": "original"
+  },
+  {
+    "inspiration": "original",
+    "season": "summer",
+    "number": 69,
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "character": "pudding",
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-09_1135_UTC.webp",
+    "is_seasonal": true,
+    "title": "溪灘夏跳",
+    "timestamp": "2026-07-09 11:35 UTC",
+    "status": "success",
+    "character_name": "布丁"
   }
 ]
