@@ -2671,5 +2671,40 @@
       "texture": "Mirror Water Reflection",
       "color_palette": "Crimson and Black"
     }
+  },
+  {
+    "avoid_list": [
+      "時間戳記顯示",
+      "實驗室或科學場景",
+      "狗嗅探物體或裝置",
+      "直打閃光燈",
+      "高對比或硬光",
+      "寫實快照風格",
+      "淺景深特寫",
+      "雙色調或限定色調",
+      "35mm或傻瓜相機美學",
+      "狗執行測試或互動",
+      "古老檔案室或卷軸",
+      "穆夏式拱框構圖",
+      "金箔或閃亮紋理",
+      "可愛狗狗"
+    ],
+    "character_name": "小嗚",
+    "idea": "機娘水彩插畫風格中，小嗚在一間位於山腰舊旅館頂樓的洗衣間裡，正用前掌把一整捆白色床單一條條拖進旋轉中的烘乾機；窗邊柔光灑在牠黑白分明的哈士奇面具上，冰藍眼睛瞪得像被世界冤枉，整個畫面以遞迴/德羅斯特效應把同一間洗衣間層層縮進牆上鏡面裡，帶著復古褪色色調與天鵝絨般柔軟質感。",
+    "comment_id": 4920740405,
+    "prompt": "Traditional Chinese illustrated art, watercolor mecha-girl illustration style fused with a literal four-legged Siberian Husky named Wuwu, no anthropomorphic body: Wuwu is a classic black-grey #3C4148 and snow-white #FFFFFF husky with crisp symmetric mask markings, white face center and muzzle, dark saddle over back and head-top, white chest/belly/legs, upright ears with white inner fluff, fluffy brush-like tail, athletic medium-large frame, striking ice-blue #7EC3E8 eyes wide with a theatrically wronged, goofy expression, mouth slightly open in a husky grin. Scene: inside the rooftop laundry room of an old mountain inn, Wuwu uses its front paws to drag a whole bundle of white bed sheets one by one into a spinning dryer, clearly showing the dog doing the activity. The same laundry room repeats recursively inside a wall mirror in a Droste effect, picture-within-a-picture looping deeper and deeper. Soft window light streams from the side, Vermeer-like gentle directional daylight with smooth falloff into shadow, intimate still-life mood. Retro faded color palette, washed-out vintage tones, low contrast, nostalgic film-era warmth, velvet-like soft texture, deep pile softness, tactile matte surfaces, fluid translucent watercolor washes, subtle glowing accents. Family members may stand at the doorway watching in the background. Visibly display the text '2026-07-09 01:35 UTC' in Traditional Chinese/English signage or a hanging note within the scene. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "number": 59,
+    "story": "牠原本只是想「幫忙」把床單整理好，結果每咬一角就多拖出一大串，像是在跟整座旅館較勁。家人站在門口看著牠嗚嗚辯解，最後只好承認：小嗚不是在搗蛋，是在執行一場全世界都不理解的拆解任務。",
+    "style_picks": {
+      "art_style": "Watercolor Mecha-Girl Illustration",
+      "composition": "Recursive / Droste Effect",
+      "lighting": "Window Light",
+      "texture": "Velvet",
+      "color_palette": "Retro Faded Tones"
+    },
+    "character": "wuwu",
+    "news_inspiration": [],
+    "inspiration": "original",
+    "title": "洗衣間風暴"
   }
 ]
