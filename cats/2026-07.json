@@ -2916,5 +2916,67 @@
       "低對比懷舊電影感"
     ],
     "story": "這隻狗每次聽見監測器發出細碎震動，就會跑去聞資料堆，像是在替整個地下電台做最可靠的巡檢。今晚它把一份標著 Centaurus A 的星系碰撞圖推到技師腳邊，彷彿提醒大家：宇宙的訊號，連狗也不想錯過。"
+  },
+  {
+    "inspiration_url": "https://apnews.com/article/c5983e89299c325c92d184559d4fce7c",
+    "inspiration": "洛杉磯奧運 2028 公布以「superbloom」為靈感的全新視覺識別，色彩鮮明而充滿加州風格。",
+    "story": "飛盤從鏡面牆邊彈回時，狗先聞到的是金屬與花粉混在一起的氣味，接著才是風裡那點屬於賽場的喧鬧。它一路追進展廳外的 superbloom 圖騰地面，讓巡場人員都停下來看這場意外的夜間追逐。",
+    "avoid_list": [
+      "日期時間標示",
+      "夢幻商品攝影",
+      "復古褪色調",
+      "柔和側窗光",
+      "強制透視伸手構圖",
+      "前爪輕推物件",
+      "專注趴伏姿勢",
+      "沙灘地圖探險",
+      "新中式青綠山水",
+      "霓虹竹影香料店",
+      "東京地鐵月台維修區",
+      "月台積水倒影",
+      "黏土動畫滿版特寫",
+      "水彩插畫遞迴鏡中場景",
+      "紅黑高反差配色",
+      "低對比懷舊電影感"
+    ],
+    "number": 64,
+    "news_inspiration": [
+      {
+        "summary": "科學家發現，學習另一種語言可能讓大腦老化速度放慢，帶來意想不到的健康益處。",
+        "url": "https://www.theguardian.com/education/2026/jul/06/learning-another-language-appears-to-slow-brain-ageing-scientists-say",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "最新研究顯示，熊蜂在高解析度影片中展現出類似情緒反應的行為，例如舔舌與甩頭。",
+        "url": "https://phys.org/news/2026-07-bees-reveal-emotion-reactions-lip.pdf",
+        "source": "Phys.org"
+      },
+      {
+        "summary": "《Science Weekly》探討 Z 世代為何愛上賞鳥，這股回歸自然的潮流讓人感到新鮮又療癒。",
+        "url": "https://www.theguardian.com/science/audio/2026/jul/07/a-break-from-scrolling-how-gen-z-fell-in-love-with-birding-podcast",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "洛杉磯奧運 2028 公布以「superbloom」為靈感的全新視覺識別，色彩鮮明而充滿加州風格。",
+        "url": "https://apnews.com/article/c5983e89299c325c92d184559d4fce7c",
+        "source": "AP News"
+      },
+      {
+        "summary": "Milan 的奧運藝術裝置邀請民眾用鏡面與文字一起思考運動精神，結合公共藝術與體育文化。",
+        "url": "https://apnews.com/article/7d651b0eac41204f57a5f3d8bd023455",
+        "source": "AP News"
+      }
+    ],
+    "idea": "在洛杉磯奧運 superbloom 視覺識別的臨時展示廊外，一隻黃褐色牧羊犬正追著一顆掉落的訓練飛盤穿過花海地磚，背景裡幾位小小的工作人員在巨幅鏡面裝置旁調整文字板。以運動追焦捕捉狗身的疾速動態，渺小人物對比凸顯展場尺度；月光照亮古絹絹本般的細緻紋理，暖琥珀與秋日橘金在夜色中流動。",
+    "comment_id": 4922291111,
+    "prompt": "Realistic sports panning photography, candid nighttime action scene outside the Los Angeles Olympics superbloom visual identity temporary exhibition gallery. A tan shepherd dog is clearly chasing a fallen training frisbee through a flowering superbloom-pattern tile plaza, its body frozen sharp while the background streaks with motion blur; high shutter speed, panning camera, 35mm lens, f/2.0, natural moonlight, shallow depth of field, subtle film grain. In the background, several tiny staff members adjust text boards beside a giant mirrored installation, emphasizing the enormous scale of the venue and creating dramatic size contrast. The surface details of the plaza and exhibit graphics echo aged silk scroll texture and antique manuscript feel, with visible weave-like texture, warm sepia patina, delicate crease-like marks, and faint weathered paper stains. Moonlight adds a gentle silvery glow over cool blue shadows, while warm amber, autumn orange, golden yellow, and burnt orange flow through the scene. Lonely epic framing, quiet nighttime atmosphere, dynamic energy, frozen subject with motion-blurred background, awe of monumental scale. The date and time \"2026-07-09 06:35 UTC\" must be clearly visible in Traditional Chinese or English on a sign or display within the scene. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "title": "花海飛馳",
+    "style_picks": {
+      "art_style": "Sports Panning Shot",
+      "composition": "Tiny Figure Scale Contrast",
+      "lighting": "Moonlight",
+      "texture": "Aged Silk Scroll",
+      "color_palette": "Warm Tones (Amber / Autumn)"
+    }
   }
 ]
