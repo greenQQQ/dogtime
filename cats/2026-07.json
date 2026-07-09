@@ -3309,5 +3309,67 @@
     ],
     "character": "machi",
     "title": "門口守望"
+  },
+  {
+    "story": "這天的展亭外正好傳來體育轉播的喧鬧，裡面卻安靜得只剩玻璃上的霜霧和木屑摩擦聲；小狗一邊用爪子推動木片，一邊追著滾動的網球，像在把夏季賽事的節奏重新編進海洋修復計畫。幾位研究員蹲在玻璃外微笑觀看，沒人打擾牠，因為牠正把一場比賽的熱度，變成一座可被眾人凝視的珊瑚礁模型。",
+    "inspiration": "Phys.org 報導一個結合藝術與科學的珊瑚礁計畫，透過創作提高大眾對海洋保育的關注。",
+    "prompt": "Illustration / mixed-media gallery art scene, a tiny four-legged dachshund clearly visible and centered, carefully using its front paws to assemble a miniature tennis net from Wimbledon grass-court racket fragments and coral-reef reclaimed wood blocks, beside a rolling tennis ball; inside a transparent glass cultivation tank pavilion like a miniature ocean education exhibit, with driftwood assemblage sculpture elements made of seaweed, rope, and salt-weathered driftwood, rustic handcrafted organic textures, land-art staging, contained miniature world framing, refractive glass border, liquid-metal reflections flowing along the inner glass walls, mercury-like chrome sheen, snowstorm atmospheric lighting with hazy frost and fogged distance, muted diffused daylight, visibility softened by flurries, earth-tone color scheme with terracotta, olive green, warm brown, and cold blue-white highlights; outside the glass, several researchers crouch and smile watching quietly; include clearly readable Traditional Chinese or English text inside the image displaying exactly: 2026-07-09 13:35 UTC IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "avoid_list": [
+      "直式電影海報構圖",
+      "中央主體聚焦",
+      "狗用鼻尖嗅聞",
+      "月光靛藍夜景",
+      "曼陀羅式桌面陣列",
+      "三點打光柔側光",
+      "傳統中式書法側欄",
+      "巨幅背景與小人物對比",
+      "復古膠片交叉沖洗",
+      "厚塗油彩肌理",
+      "鏡像對稱構圖",
+      "海港修復工棚",
+      "科學觀測艙與儀器",
+      "高反差硬閃光",
+      "懷舊文藝復興式仰角",
+      "漂浮小島繪本風"
+    ],
+    "news_inspiration": [
+      {
+        "summary": "科學家指出，7月8日地球上約99%的人口在同一時刻都能看到日光或曙暮光，畫面相當奇特。",
+        "url": "https://www.aljazeera.com/news/2026/7/8/99-of-people-on-earth-will-get-sunlight-at-the-same-time-this-wednesday",
+        "source": "Al Jazeera"
+      },
+      {
+        "summary": "Nature 報導一篇8日上線的科學問答，談高風險、高流動的人才環境如何促成更具突破性的研究。",
+        "url": "https://www.nature.com/news",
+        "source": "Nature"
+      },
+      {
+        "summary": "在溫布頓賽事中，年輕球員與大牌對決帶來多場精彩場面，為夏季體育話題增添亮點。",
+        "url": "https://www.aljazeera.com/sports/",
+        "source": "Al Jazeera"
+      },
+      {
+        "summary": "《衛報》整理出一則有趣的夏季體育觀察，從溫布頓到世界盃氛圍，描寫今年夏天的運動文化熱潮。",
+        "url": "https://www.theguardian.com/sport/2026/jul/08/farage-plays-his-part-in-summer-of-sport",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "Phys.org 報導一個結合藝術與科學的珊瑚礁計畫，透過創作提高大眾對海洋保育的關注。",
+        "url": "https://phys.org/news/2026-07-international-team-science-wont-coral.html",
+        "source": "Phys.org"
+      }
+    ],
+    "style_picks": {
+      "art_style": "Driftwood Assemblage Sculpture",
+      "composition": "Inside-the-Glass-Vessel Composition",
+      "lighting": "Snowstorm Haze",
+      "texture": "Liquid Metal",
+      "color_palette": "Earth Tones"
+    },
+    "number": 71,
+    "title": "霧裡球網",
+    "comment_id": 4925605540,
+    "idea": "在一座玻璃培養缸般的海洋教育展亭裡，一隻四腳臘腸狗正專心用前爪把溫布頓草地網球拍碎片與珊瑚礁回收木塊拼成一張迷你球網，周圍的海藻、麻繩與鹽蝕漂流木構成漂流木組合雕塑，整體以暴風雪朦朧的光霧包住，液態金屬般的反光沿著玻璃內壁流動，大地色系沉穩又溫暖。",
+    "inspiration_url": "https://phys.org/news/2026-07-international-team-science-wont-coral.html"
   }
 ]
