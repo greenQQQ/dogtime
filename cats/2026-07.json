@@ -2747,5 +2747,67 @@
     "comment_id": 4921065454,
     "number": 60,
     "inspiration": "original"
+  },
+  {
+    "comment_id": 4921337918,
+    "number": 61,
+    "style_picks": {
+      "art_style": "Surreal Floral-Coral Sculpture",
+      "composition": "Vertical Calligraphy Poster",
+      "lighting": "Cinematic Lighting",
+      "texture": "Impasto Oil Texture",
+      "color_palette": "Crimson and Black"
+    },
+    "prompt": "Vertical East Asian movie poster-style illustration of a Vienna photography exhibition corridor, a black Labrador in the foreground clearly sniff-tracking a trail of scattered bird feathers and colorful name tags on the floor like a birding tour detective, nose close to the ground, alert focused posture, tail slightly raised; behind it, walls layered with surreal floral-coral sculpture installations, organic blossoms morphing into coral-like growths, glossy databent biomorphic forms, ornamental border elements, red seal accents, multi-layered depth, side calligraphy panel, photorealistic central focal point, large framed bird photograph ahead as the destination; visible Traditional Chinese text and English signage in the exhibition, with the date and time clearly displayed: 2026-07-09 03:35 UTC; cinematic lighting with volumetric light rays and dramatic shadows, film-quality mood, high dynamic range, crimson and black palette with deep blood-red against jet black, thick impasto oil texture, heavy palette-knife strokes, raised three-dimensional paint ridges, visible brush gestures, rich tactile painterly surface, luxurious yet grounded realism, seductive sinister atmosphere IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "inspiration": "研究指出，年輕世代重新愛上賞鳥，成為一種讓人離開螢幕、回到自然的療癒潮流。",
+    "news_inspiration": [
+      {
+        "summary": "研究指出，年輕世代重新愛上賞鳥，成為一種讓人離開螢幕、回到自然的療癒潮流。",
+        "url": "https://www.theguardian.com/science/2026/jul/07/science-weekly-a-break-from-scrolling-how-gen-z-fell-in-love-with-birding-podcast",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "科學家以高速慢動作影片觀察到熊蜂似乎會表現出類似「喜歡」與「不喜歡」的行為反應。",
+        "url": "https://www.theguardian.com/science/2026/jul/06/do-bees-have-inner-lives-slow-motion-video-reveals-bumblebee-behaviour-similar-to-liking-or-disliking",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "一項研究發現，學習另一種語言可能有助於放慢腦部老化，對認知健康相當有趣。",
+        "url": "https://www.theguardian.com/science/2026/jul/06/learning-another-language-appears-to-slow-brain-ageing-scientists-say",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "藝術家如何用 AI 拍出一部看似不可能完成的紀錄片，展現影像創作的新可能。",
+        "url": "https://www.theguardian.com/culture/2026/jul/06/into-the-spiders-lair-how-an-australian-film-maker-made-an-impossible-documentary-with-ai",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "在維也納登場的一場展覽，透過照片與場景呈現巴黎-魯昂自行車賽的精彩畫面，視覺感十足。",
+        "url": "https://www.theguardian.com/culture/2026/jul/07/pedal-to-the-metal-the-best-of-arles-2026-in-pictures",
+        "source": "The Guardian"
+      }
+    ],
+    "title": "鳥影回廊",
+    "inspiration_url": "https://www.theguardian.com/science/2026/jul/07/science-weekly-a-break-from-scrolling-how-gen-z-fell-in-love-with-birding-podcast",
+    "story": "今天的展覽把城市人的目光拉回自然，也把一隻原本只愛追球的狗，變成最靈敏的「鳥蹤偵探」。它一路嗅過展板、花束與觀眾鞋邊，最後在一張巨幅鳥類照片前停住，尾巴輕搖，像是終於找到牠心中的答案。",
+    "avoid_list": [
+      "日期時間標示",
+      "夢幻商品攝影",
+      "復古褪色調",
+      "柔和側窗光",
+      "強制透視伸手構圖",
+      "前爪輕推物件",
+      "專注趴伏姿勢",
+      "沙灘地圖探險",
+      "新中式青綠山水",
+      "霓虹竹影香料店",
+      "東京地鐵月台維修區",
+      "月台積水倒影",
+      "黏土動畫滿版特寫",
+      "水彩插畫遞迴鏡中場景",
+      "紅黑高反差配色",
+      "低對比懷舊電影感"
+    ],
+    "idea": "在一座維也納攝影展的回廊裡，一隻黑色拉布拉多正專注地用鼻尖追蹤地面上一串散落的鳥羽與彩色名牌，像在為展場裡的賞鳥主題導覽尋找線索；周圍牆面堆疊著立體花卉渲生雕塑般的紙質裝置，整體以直式書法海報構圖呈現，電影感打光灑在緋紅烏黑的厚塗油彩肌理上，華麗卻真實。"
   }
 ]
