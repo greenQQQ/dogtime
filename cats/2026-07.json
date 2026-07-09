@@ -2978,5 +2978,63 @@
       "texture": "Aged Silk Scroll",
       "color_palette": "Warm Tones (Amber / Autumn)"
     }
+  },
+  {
+    "inspiration": "科學家在印度洋一次罕見火山噴發中，拍到海底板塊擴張的罕見清晰畫面。",
+    "comment_id": 4922776112,
+    "news_inspiration": [
+      {
+        "summary": "科學家在印度洋一次罕見火山噴發中，拍到海底板塊擴張的罕見清晰畫面。",
+        "url": "https://www.scientificamerican.com/article/scientists-get-clearest-view-yet-of-a-spreading-seafloor/",
+        "source": "Scientific American"
+      },
+      {
+        "summary": "研究人員首次在深海中活體拍到神秘的哥布林鯊，讓人一窺這種「活化石」的真實棲地。",
+        "url": "https://www.sciencedaily.com/releases/2026/07/260708143756.htm",
+        "source": "ScienceDaily"
+      },
+      {
+        "summary": "科學家利用 AI 破解水在超冷狀態下的微觀結構謎團，為理解水的異常性質提供新線索。",
+        "url": "https://www.sciencedaily.com/releases/2026/07/260708135747.htm",
+        "source": "ScienceDaily"
+      },
+      {
+        "summary": "一支科學與藝術團隊把南極與外太空的研究資料轉化成音樂，做出很有想像力的聲音作品。",
+        "url": "https://www.sciencenews.org/article/otherworldly-music-albums-feature-space-weather-data",
+        "source": "Science News"
+      },
+      {
+        "summary": "AP 以影像集呈現世界盃球迷在各地觀賽的盛況，充滿色彩、旗幟與歡呼氣氛。",
+        "url": "https://www.apnews.com/article/2c6a0c0b3a3c4b7e9d8f6a5b4c1d2e3f",
+        "source": "Associated Press"
+      }
+    ],
+    "number": 65,
+    "style_picks": {
+      "art_style": "Neo-Chinese Bridal Floral Portrait",
+      "composition": "Vertical Calligraphy Poster",
+      "lighting": "Window Light",
+      "texture": "Mirror Water Reflection",
+      "color_palette": "Earth Tones"
+    },
+    "story": "今天清晨，海底板塊擴張的最新樣本被抬上甲板，研究團隊圍著儀器低聲討論，狗狗安靜地守在一旁，鼻尖停在水槽邊緣卻沒有碰觸，只是認真盯著那些從深海帶回來的石塊。海風吹動帆布與資料紙角，牠像在替整個現場守住一個剛被打開的地底祕密。",
+    "prompt": "Photorealistic vertical poster composition, neo-Chinese bridal floral portrait styling adapted to a maritime research scene, with a central focal point: a four-legged beige shepherd dog sitting calmly on the deck beside an Indian Ocean research vessel, clearly watching scientists organize deep-sea samples, black basalt rocks placed neatly beside a transparent water tank. The dog’s nose hovers near the tank edge without touching it, attentive and solemn like it is guarding a hidden secret from the sea. Soft side window light falls across the dog’s damp mane and fur, with smooth falloff into shadow, classic Vermeer-like illumination, intimate still-life mood. Wet deck with shallow puddles creating a mirror-like water reflection and subtle inverted reflections of the scene. Earth-tone color scheme of terracotta, olive green, warm brown, basalt black, and muted beige; natural organic harmony, calm yet poetic tension. Include ornamental border elements, subtle red seal accents, and a side calligraphy panel in Traditional Chinese. Visible text must clearly display: '2026-07-09 07:35 UTC'. Sea breeze moving canvas tarps and paper corners, layered depth, East Asian movie poster framing, realistic scientific instruments, contemplative atmosphere, high detail, true-to-life textures, documentary realism. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "avoid_list": [
+      "地鐵月台維修通道",
+      "狗用前掌推撥物件",
+      "鼻尖貼地嗅聞線索",
+      "滿版特寫滿框構圖",
+      "長卷式連續敘事",
+      "霓虹濕地反光夜景",
+      "復古褪色低對比色調",
+      "三點打光柔和輪廓光",
+      "鏡像對稱異我構圖",
+      "丹麥麵包店夜間遠景",
+      "露出日期時間標示",
+      "懷舊城市記憶氛圍"
+    ],
+    "title": "海脊晨光",
+    "idea": "以新中式紅妝寫實人像風格呈現，一隻四腳米色牧羊犬正蹲坐在印度洋邊的海上研究船甲板旁，專注看著科學家把深海取回的黑色玄武岩樣本與透明水槽並排整理；窗邊柔光落在牠濕潤的鬃毛上，地面微微積水映出鏡面水反射，整體以大地色系與直式書法海報構圖營造沉穩而詩意的張力。",
+    "inspiration_url": "https://www.scientificamerican.com/article/scientists-get-clearest-view-yet-of-a-spreading-seafloor/"
   }
 ]
