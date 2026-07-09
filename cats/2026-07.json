@@ -3441,5 +3441,40 @@
     ],
     "prompt": "Japanese yokai and oni mask illustration in bold ukiyo-inspired linework, eerie playful mood, traditional Japanese color accents. Split-view composition with a sharp vertical cut line: left half shows the back kitchen of a Tokyo underground shopping arcade bakery at dawn, photorealistic detail blended with illustration; right half shows the storefront under a covered arcade outside, rendered as a wireframe-diagram-like architectural contrast. Two four-legged dogs clearly visible: a yellow-and-white dog lunging after falling bread crumbs, and a black dog guarding a just-rolled croissant at the threshold, both moving through semi-transparent steam and flour mist with sheer gauze mesh texture, fine translucent netting, gossamer layered transparency, soft light passing through fabric. Blue and yellow complementary palette, vivid contrasting cool blue and warm yellow, glass display case reflections, bread crumbs, floor reflections, long soft shadows, golden rim light, warm sunrise glow from the right side, cool bakery interior tones on the left. The air feels full of warm dough and wooden shop-sign atmosphere. Display the date and time text clearly in the image: '2026-07-09 15:35 UTC' in Traditional Chinese or English typography. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
     "news_inspiration": []
+  },
+  {
+    "story": "列車進站又出站的瞬間，柯基盯著地板上滾動的透明彈珠，追著那道閃爍的反光一路跑過整節車廂。乘客們笑著讓出空間，手機閃光與車燈在長曝光裡化成彩色拖尾，把這場日常通勤變成一幕活潑而真實的都市小劇場。",
+    "news_inspiration": [],
+    "idea": "長曝光攝影捕捉一隻四腳柯基在東京地下鐵車廂內，正追逐一條沿著地面滑行的彩色玻璃彈珠軌道，車窗與扶手在對角線構圖中拉出鮮明光痕；倫勃朗光從車廂側上方切開牠濕亮的毛，搭配高飽和鮮豔色與玻璃／水晶質感，畫面像一場現實中疾速流動的夜行冒險。",
+    "comment_id": 4927435237,
+    "inspiration": "original",
+    "avoid_list": [
+      "直式電影海報構圖",
+      "中央主體聚焦",
+      "狗用鼻尖嗅聞",
+      "月光靛藍夜景",
+      "曼陀羅式桌面陣列",
+      "三點打光柔側光",
+      "傳統中式書法側欄",
+      "巨幅背景與小人物對比",
+      "復古膠片交叉沖洗",
+      "厚塗油彩肌理",
+      "鏡像對稱構圖",
+      "海港修復工棚",
+      "科學觀測艙與儀器",
+      "高反差硬閃光",
+      "懷舊文藝復興式仰角",
+      "漂浮小島繪本風"
+    ],
+    "prompt": "Realistic long-exposure photography of a four-legged corgi sprinting through a Tokyo subway train carriage, chasing a colorful glass marble track rolling along the floor; the train is arriving and departing in the same moment, with passengers smiling and stepping aside. Show clear diagonal composition with tilted framing, slanted windows and handrails creating dynamic off-axis tension, energetic motion across the frame, light trails from phone flashes and carriage lights streaking into vivid ribbons, time-lapse feel, silky smooth motion blur. Rembrandt lighting from the upper side of the carriage cuts across the corgi’s wet glossy fur, creating dramatic chiaroscuro and a small triangle of light on the shadowed cheek. Emphasize transparent glass and crystal textures, prismatic reflections, light refraction, crystalline clarity, high saturation vivid colors, bold vibrant hues, eye-catching contrast, kinetic visual flow. The image must visibly display the text “2026-07-09 16:35 UTC” in Traditional Chinese or English somewhere in the carriage. Shot as a candid real photograph, 35mm lens, f/1.8, shallow depth of field, natural subway lighting mixed with flash, realistic grain, sharp subject with motion blur trails, urban night adventure atmosphere. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "title": "玻璃車廂追光",
+    "style_picks": {
+      "art_style": "Long Exposure Photography",
+      "composition": "Diagonal Composition",
+      "lighting": "Rembrandt Lighting",
+      "texture": "Glass / Crystal",
+      "color_palette": "High Saturation Vivid"
+    },
+    "number": 74
   }
 ]
