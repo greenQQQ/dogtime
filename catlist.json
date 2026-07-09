@@ -684,5 +684,16 @@
     "timestamp": "2026-07-09 11:35 UTC",
     "status": "success",
     "character_name": "布丁"
+  },
+  {
+    "status": "success",
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-09_1235_UTC.webp",
+    "timestamp": "2026-07-09 12:35 UTC",
+    "number": 70,
+    "inspiration": "original",
+    "character_name": "麻吉",
+    "character": "machi",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "title": "門口守望"
   }
 ]

@@ -3246,5 +3246,68 @@
     "character": "pudding",
     "is_seasonal": true,
     "title": "溪灘夏跳"
+  },
+  {
+    "number": 70,
+    "news_inspiration": [
+      {
+        "summary": "哈佛研究團隊打造出可在半導體晶片上同時寫入多段 DNA 的新技術，為更乾淨的生物製造與醫療研究開啟新可能。",
+        "url": "https://seas.harvard.edu/news/making-dna-semiconductor-chip",
+        "source": "Harvard SEAS"
+      },
+      {
+        "summary": "NASA 與 AWS 合作完成從月球傳回 4K 直播，刷新太空直播紀錄，畫面與技術都極具視覺震撼。",
+        "url": "https://www.aboutamazon.com/news/aws/how-nasa-streamed-live-4k-video-from-the-moon",
+        "source": "About Amazon"
+      },
+      {
+        "summary": "《Nature》最新科學報導提到，研究正以更有趣的方式檢視失智症預防，包括飲食、運動與社交等因素的綜合影響。",
+        "url": "https://www.nature.com/news",
+        "source": "Nature"
+      },
+      {
+        "summary": "科學新聞整理指出，研究者在 2026 年 7 月 8 日發現微小二氧化矽奈米粒子在小鼠中可清除侵襲性前列腺癌，並增強免疫反應。",
+        "url": null,
+        "source": "ScienceDaily"
+      },
+      {
+        "summary": "《Live Science》7 月 6 日與 7 月 2026 檔案列出多則新奇科學進展，包含 JWST 地圖揭露宇宙隱藏角落與古人類文化共享的新線索。",
+        "url": "https://www.livescience.com/news/archive/2026/07",
+        "source": "Live Science"
+      }
+    ],
+    "style_picks": {
+      "art_style": "Fauvism",
+      "composition": "Frame Within a Frame",
+      "lighting": "Volumetric Light",
+      "texture": "Wood Grain",
+      "color_palette": "Teal and Orange"
+    },
+    "story": "傍晚，家人還沒回來，麻吉照例守在老屋門口，鼻子不亂嗅，只是把下巴壓在門檻邊緣，像在監督今天的路線有沒有被偷偷改掉。聽見熟悉腳步聲時，牠立刻原地轉了半圈又定住，假裝自己只是在看夕陽，忠心和傲嬌都藏在那個一閃而過的柴犬微笑裡。",
+    "comment_id": 4925160599,
+    "prompt": "Fauvist illustration with bold non-naturalistic colors, textured impasto brushwork, simplified forms, wildly vibrant teal-and-orange cinematic grading, punchy balanced contrast, frame-within-a-frame composition. Scene: at dusk in an old alley house doorway, Machi, a compact red Shiba Inu with bright russet-red coat, cream urajiro cheeks/chin/chest, two fluffy white cheek tufts like mochi, dark brown eyes, upright ears, and a tightly curled tail over the back, crouches inside a wooden window frame in the porch, literally a dog. His front paws press on an unfolded walking map, chin near the threshold, stubbornly staring toward a nearby bento shop direction while acting like he is only passing by. Show his curled tail gently trembling, a shy smug shiba smile, and the sense of loyal but aloof anticipation. Volumetric light rays stream through the door crack and red brick wall, dust particles glowing in the atmosphere, dramatic depth, visible natural wood grain, rich warm wood tones, and strong contrast between the wooden floor texture and the white mochi fur on his cheeks. Add a clearly readable Traditional Chinese date/time display in the image: '2026-07-09 12:35 UTC'. Include layered foreground border, nested framing through the window opening, and a blockbuster film look. No humans in the foreground. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "inspiration": "original",
+    "character_name": "麻吉",
+    "idea": "野獸派色塊下的青橙電影調，麻吉蹲在巷口老屋門廊的木窗框內，前爪按著一張攤開的散步地圖，固執地盯著便當店方向；體積光穿過門縫與紅磚牆，木紋地板和牠臉頰兩團白色麻糬毛形成鮮明對比。畫面以框中框構圖呈現，牠那條捲成圈的尾巴微微顫著，明明很在意卻還要裝作「只是剛好路過」。",
+    "avoid_list": [
+      "直式電影海報構圖",
+      "中央主體聚焦",
+      "狗用鼻尖嗅聞",
+      "月光靛藍夜景",
+      "曼陀羅式桌面陣列",
+      "三點打光柔側光",
+      "傳統中式書法側欄",
+      "巨幅背景與小人物對比",
+      "復古膠片交叉沖洗",
+      "厚塗油彩肌理",
+      "鏡像對稱構圖",
+      "海港修復工棚",
+      "科學觀測艙與儀器",
+      "高反差硬閃光",
+      "懷舊文藝復興式仰角",
+      "漂浮小島繪本風"
+    ],
+    "character": "machi",
+    "title": "門口守望"
   }
 ]
