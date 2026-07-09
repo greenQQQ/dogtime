@@ -2854,5 +2854,67 @@
     "character": "latte",
     "comment_id": 4921613243,
     "character_name": "拿鐵"
+  },
+  {
+    "number": 63,
+    "title": "黑井犬訊",
+    "style_picks": {
+      "art_style": "Hand-drawn Infographic",
+      "composition": "Negative Space Composition",
+      "lighting": "Neon Lighting",
+      "texture": "Leather",
+      "color_palette": "Monochrome / Black and White"
+    },
+    "inspiration": "科學家偵測到來自黑洞事件視界附近的新型重力波訊號，可能讓人類首次「聽見」黑洞邊緣發生的事。",
+    "idea": "黑白單色的手繪信息圖風格場景，地點是曼哈頓一家地下天文電台資料室：一隻拉布拉多正用鼻尖把一疊印有星系碰撞圖譜的文件從桌邊拖到地上，旁邊的技師正彎腰調整一台顯示黑洞邊緣重力波波形的老式監測器。霓虹燈光從牆上的儀表板與金屬線槽間穿過，皮革椅、皮革工具包與狗胸前的皮革項圈在留白負空間中形成乾淨俐落的視覺節點。",
+    "comment_id": 4921916578,
+    "news_inspiration": [
+      {
+        "summary": "NASA釋出韋伯太空望遠鏡四週年紀念新影像，展示名為Centaurus A的震撼星系碰撞場景。",
+        "url": "https://www.space.com/astronomy/james-webb-space-telescope/james-webb-space-telescope-celebrates-its-4th-birthday-with-stunning-image-of-a-galaxy-crash-site",
+        "source": "Space"
+      },
+      {
+        "summary": "科學家偵測到來自黑洞事件視界附近的新型重力波訊號，可能讓人類首次「聽見」黑洞邊緣發生的事。",
+        "url": "https://www.livescience.com/space/black-holes/a-new-way-to-study-the-edge-of-a-black-hole-physicists-just-got-the-closest-ever-look-at-a-black-holes-event-horizon",
+        "source": "Live Science"
+      },
+      {
+        "summary": "中國AI新創MiniMax據報正在研發一個2.7兆參數的大型語言模型，可能成為全球最大開放權重模型之一。",
+        "url": "https://www.marketscreener.com/news/china-s-minimax-plans-to-launch-giant-2-7-trillion-parameter-model-ce7f5ed9d98ffe27",
+        "source": "Reuters via MarketScreener"
+      },
+      {
+        "summary": "夏季文化展覽熱潮升溫，時尚與藝術媒體整理出7月值得一逛的博物館與展覽，適合用視覺饗宴消暑。",
+        "url": "https://www.elle.com/culture/art-design/a71797061/best-fashion-exhibitions-july-2026/",
+        "source": "ELLE"
+      },
+      {
+        "summary": "世界盃賽事延續熱度，Reuters圖片報導捕捉到球迷把汽車改造成World Cup貼紙相冊等充滿創意的場景。",
+        "url": "https://www.reutersconnect.com/collection/top-pictures",
+        "source": "Reuters Connect"
+      }
+    ],
+    "prompt": "Hand-drawn infographic illustration, black-and-white monochrome, paper texture background, calligraphy brush strokes, high contrast with rich tonal range, dramatic shadows and highlights, warm rustic aesthetic translated into a moody urban night scene. Inside a Manhattan underground astronomy radio archive room, off-center composition with small subjects surrounded by expansive negative space and clean breathing room. A Labrador retriever clearly visible at the foreground edge, using its nose to drag a stack of documents labeled “Centaurus A” and galaxy collision charts off a desk and onto the floor, while a technician bends nearby adjusting an old monitoring console displaying gravity-wave waveforms from the edge of a black hole. Neon light passes through wall-mounted instrument panels and metal cable trays, creating glowing reflections and crisp visual nodes around a leather chair, a leather tool bag, and the dog’s leather collar, all with genuine leather texture and subtle aged patina. Minimalist, uncluttered framing, calm yet cinematic infographic storytelling, with the date and time “2026-07-09 05:35 UTC” clearly displayed in Traditional Chinese/English-style signage within the scene. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "inspiration_url": "https://www.livescience.com/space/black-holes/a-new-way-to-study-the-edge-of-a-black-hole-physicists-just-got-the-closest-ever-look-at-a-black-holes-event-horizon",
+    "avoid_list": [
+      "日期時間標示",
+      "夢幻商品攝影",
+      "復古褪色調",
+      "柔和側窗光",
+      "強制透視伸手構圖",
+      "前爪輕推物件",
+      "專注趴伏姿勢",
+      "沙灘地圖探險",
+      "新中式青綠山水",
+      "霓虹竹影香料店",
+      "東京地鐵月台維修區",
+      "月台積水倒影",
+      "黏土動畫滿版特寫",
+      "水彩插畫遞迴鏡中場景",
+      "紅黑高反差配色",
+      "低對比懷舊電影感"
+    ],
+    "story": "這隻狗每次聽見監測器發出細碎震動，就會跑去聞資料堆，像是在替整個地下電台做最可靠的巡檢。今晚它把一份標著 Centaurus A 的星系碰撞圖推到技師腳邊，彷彿提醒大家：宇宙的訊號，連狗也不想錯過。"
   }
 ]
