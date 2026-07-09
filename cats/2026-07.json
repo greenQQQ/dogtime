@@ -3036,5 +3036,65 @@
     "title": "海脊晨光",
     "idea": "以新中式紅妝寫實人像風格呈現，一隻四腳米色牧羊犬正蹲坐在印度洋邊的海上研究船甲板旁，專注看著科學家把深海取回的黑色玄武岩樣本與透明水槽並排整理；窗邊柔光落在牠濕潤的鬃毛上，地面微微積水映出鏡面水反射，整體以大地色系與直式書法海報構圖營造沉穩而詩意的張力。",
     "inspiration_url": "https://www.scientificamerican.com/article/scientists-get-clearest-view-yet-of-a-spreading-seafloor/"
+  },
+  {
+    "character_name": "阿金",
+    "idea": "以文藝復興的莊嚴構圖拍攝，極低角度仰望社區公園裡一座圓形玻璃拍照亭；阿金這隻金黃獵犬正叼著一卷報紙，溫柔地把它放到剛來的小女孩腳邊，四周以莫蘭迪色調的木椅、石柱與柔和花壇襯托，環形燈像祭壇般照亮牠蓬鬆的金色尾巴與永遠像在微笑的臉。",
+    "avoid_list": [
+      "地鐵月台維修通道",
+      "狗用前掌推撥物件",
+      "鼻尖貼地嗅聞線索",
+      "滿版特寫滿框構圖",
+      "長卷式連續敘事",
+      "霓虹濕地反光夜景",
+      "復古褪色低對比色調",
+      "三點打光柔和輪廓光",
+      "鏡像對稱異我構圖",
+      "丹麥麵包店夜間遠景",
+      "露出日期時間標示",
+      "懷舊城市記憶氛圍"
+    ],
+    "story": "阿金今天巡邏到公園新復興的古典拍照亭前，先把自己準備好的「禮物」叼來給每一位路人。牠安靜坐在亭邊，看著小女孩抱起報紙後露出笑容，尾巴搖得像一面溫柔的金旗。",
+    "style_picks": {
+      "art_style": "Renaissance",
+      "composition": "Extreme Low Angle",
+      "lighting": "Ring Light",
+      "texture": "Inflatable PVC",
+      "color_palette": "Morandi Color Palette"
+    },
+    "number": 66,
+    "comment_id": 4923209787,
+    "inspiration_url": "https://www.euronews.com/culture/2026/07/08/once-the-curtain-is-drawn-freedom-is-absolute-the-magic-and-mystery-of-old-photo-booths",
+    "character": "ajin",
+    "title": "禮物之光",
+    "inspiration": "歐洲文化新聞報導，古典照相亭在數位時代意外復興，保存老式拍照體驗的故事充滿懷舊感與視覺魅力。",
+    "prompt": "Traditional Chinese renaissance-inspired illustration with a solemn classical composition, extreme low-angle shot looking up at a round glass photo booth in a community park. Centered on A-gin, a large gentle Golden Retriever with a warm golden #D9A85C medium-long feathered coat, slightly darker gold floppy ears, broad kind face with a permanent soft smile, dark brown #5A4028 eyes, and a big feathered tail; he is a literal four-legged dog, calmly lowering a rolled newspaper from his mouth to a newly arrived little girl’s feet. Surround the scene with Morandi muted color tones, desaturated soft pastels, dusty grey undertones, quiet elegance, wooden benches, stone columns, and soft flower beds. Ring light illumination like an altar, even frontal lighting, circular catchlight in his eyes, masterful light and shadow, sfumato technique, rich warm palette, realistic perspective, dramatic towering feel, beauty portrait quality, inflatable PVC material with high-gloss balloon-like surface and puffy rounded forms. Display the text '2026-07-09 08:35 UTC' clearly in Traditional Chinese or English on a sign or plaque within the scene. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "news_inspiration": [
+      {
+        "summary": "歐洲慧星望遠鏡歐幾里得新發現兩個極早期超大質量黑洞，正幫助天文學家解開宇宙早期成長之謎。",
+        "url": "https://www.livescience.com/space/black-holes/euclid-telescope-discovers-the-2-most-ancient-monster-black-holes-in-the-universe-each-brighter-than-a-trillion-suns",
+        "source": "Live Science"
+      },
+      {
+        "summary": "物理學家首次在黑洞碰撞的重力波中抓到接近事件視界的訊號，可能開啟研究黑洞邊界的新方法。",
+        "url": "https://www.livescience.com/space/black-holes/a-new-way-to-study-the-edge-of-a-black-hole-physicists-just-got-the-closest-ever-look-at-a-black-holes-event-horizon",
+        "source": "Live Science"
+      },
+      {
+        "summary": "Apple 宣布與 Broadcom 簽下 300 億美元協議，將採購美國製造的無線晶片，凸顯科技供應鏈的新布局。",
+        "url": "https://www.engadget.com/2210449/apple-pledges-to-buy-30-billion-of-broadcom-us-made-chips/",
+        "source": "Engadget"
+      },
+      {
+        "summary": "歐洲文化新聞報導，古典照相亭在數位時代意外復興，保存老式拍照體驗的故事充滿懷舊感與視覺魅力。",
+        "url": "https://www.euronews.com/culture/2026/07/08/once-the-curtain-is-drawn-freedom-is-absolute-the-magic-and-mystery-of-old-photo-booths",
+        "source": "Euronews"
+      },
+      {
+        "summary": "歐洲新聞也報導加拿大將加入 Eurovision 歌唱大賽，成為自 2015 年以來首個新參賽國。",
+        "url": "https://www.euronews.com/video/2026/07/01/o-canada-eurovision-song-contest-welcomes-first-new-country-since-2015",
+        "source": "Euronews"
+      }
+    ]
   }
 ]
