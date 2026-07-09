@@ -3096,5 +3096,63 @@
         "source": "Euronews"
       }
     ]
+  },
+  {
+    "avoid_list": [
+      "地鐵月台維修通道",
+      "狗用前掌推撥物件",
+      "鼻尖貼地嗅聞線索",
+      "滿版特寫滿框構圖",
+      "長卷式連續敘事",
+      "霓虹濕地反光夜景",
+      "復古褪色低對比色調",
+      "三點打光柔和輪廓光",
+      "鏡像對稱異我構圖",
+      "丹麥麵包店夜間遠景",
+      "露出日期時間標示",
+      "懷舊城市記憶氛圍"
+    ],
+    "style_picks": {
+      "art_style": "Chalk Art",
+      "composition": "Inside-the-Glass-Vessel Composition",
+      "lighting": "Direct Flash",
+      "texture": "Inflatable PVC",
+      "color_palette": "High Saturation Vivid"
+    },
+    "idea": "在一座透明玻璃培養缸般的海底觀測艙內，一隻黃白相間的短毛犬正用鼻子緊盯艙外裂開的海底縫隙，旁邊的科學家忙著調整儀器，熔岩在艙外翻湧成高飽和鮮豔色的火紅與電藍對比，整體以粉筆畫表現，搭配玻璃容器置入構圖與閃光燈直打，呈現充氣PVC質感的詭異真實感。",
+    "story": "這隻狗原本只是隨船下潛，卻在海底裂縫首次被直接觀察到分裂噴發的瞬間安靜坐定，像在替所有人守住這個證據。艙壁外的熔岩照亮了牠的側臉，也照亮了科學家驚訝的表情，畫面既像實驗紀錄，也像一張被瞬間定格的奇景。",
+    "news_inspiration": [
+      {
+        "summary": "Nature 最新報導指出，海底裂縫首次被直接觀察到正在分裂並釋放熔岩，畫面與科學意義都很震撼。",
+        "url": "https://www.nature.com/news",
+        "source": "Nature"
+      },
+      {
+        "summary": "Live Science 整理的本週科學新聞提到，詹姆斯・韋伯望遠鏡發現前所未見的物質，帶來宇宙新謎題。",
+        "url": "https://www.livescience.com/space/science-news-this-week-james-webb-telescope-finds-a-never-before-seen-substance-chinas-great-green-wall-grows-faster-than-natural-trees-and-a-medici-murder-mystery-is-solved",
+        "source": "Live Science"
+      },
+      {
+        "summary": "AP 的照片特輯展現世界盃球迷在各地以服裝、臉彩與旗幟熱情應援，色彩感十足。",
+        "url": "https://www.ap.org/news-highlights/type/sports/",
+        "source": "The Associated Press"
+      },
+      {
+        "summary": "AP 的圖片報導記錄美國獨立 250 週年慶祝活動，煙火與大型戶外場景非常適合視覺瀏覽。",
+        "url": "https://www.ap.org/news-highlights/spotlights/2026/despite-stormy-weather-america-marks-250-years-of-independence-in-photos/",
+        "source": "The Associated Press"
+      },
+      {
+        "summary": "Nature 近日報導「深海怪奇生物與六月最佳科學影像」，把最新科學發現與精美照片一次呈現。",
+        "url": "https://www.nature.com/news",
+        "source": "Nature"
+      }
+    ],
+    "inspiration_url": "https://www.nature.com/news",
+    "comment_id": 4923695636,
+    "title": "熔縫凝視",
+    "number": 67,
+    "inspiration": "Nature 最新報導指出，海底裂縫首次被直接觀察到正在分裂並釋放熔岩，畫面與科學意義都很震撼。",
+    "prompt": "Illustration / art: a chalk art scene on a dark green slate blackboard, dusty matte texture with visible hatching strokes, depicting a tiny subject staged inside a transparent glass observation tank like a jar or bottle, refractive glass border framing the composition. Inside the vessel, a yellow-and-white short-haired dog clearly presses its nose toward a cracked deep-sea fissure outside, holding still as if guarding evidence, while a scientist beside it urgently adjusts instruments. The outside seafloor crack erupts with molten lava in intense high-saturation contrast, fiery red against electric blue highlights, with glowing lava illuminating the dog’s side profile and the scientist’s startled expression. Use a harsh direct on-camera flash look, blown-out highlights, hard shadows, candid snapshot framing, and an eerie inflatable PVC-like glossy feel with puffy rounded forms and air-filled tension. Add the date and time visibly in the image as Traditional Chinese or English text: \"2026-07-09 09:35 UTC\". IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字)."
   }
 ]
