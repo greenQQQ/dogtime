@@ -2809,5 +2809,50 @@
       "低對比懷舊電影感"
     ],
     "idea": "在一座維也納攝影展的回廊裡，一隻黑色拉布拉多正專注地用鼻尖追蹤地面上一串散落的鳥羽與彩色名牌，像在為展場裡的賞鳥主題導覽尋找線索；周圍牆面堆疊著立體花卉渲生雕塑般的紙質裝置，整體以直式書法海報構圖呈現，電影感打光灑在緋紅烏黑的厚塗油彩肌理上，華麗卻真實。"
+  },
+  {
+    "story": "拿鐵每三週來美容院一次，今天卻被帶到塞納河新開放的公共泳點旁，牠一邊踩著乾淨平台，一邊用那種「我可是最精緻的」眼神打量四周。當有人輕聲說出「漂亮」兩個字，牠立刻抬頭挺胸，連尾巴都像得意地輕輕擺起來。",
+    "inspiration_url": "https://www.reutersconnect.com/item/nature-environment/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMVpVTUEwMDBMMUNHV1c",
+    "crossover": true,
+    "news_inspiration": [
+      {
+        "summary": "巴黎塞納河在整治後重新開放三個公共游泳點，為這座城市帶來難得的夏日清涼與新鮮水岸風景。",
+        "url": "https://www.reutersconnect.com/item/nature-environment/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMVpVTUEwMDBMMUNHV1c",
+        "source": "Reuters Connect"
+      }
+    ],
+    "title": "塞納河小公主",
+    "idea": "原子龐克風的巴黎塞納河岸公共泳區入口，竹影翠綠的遮棚與紗網薄透肌理交錯，採三點打光與鏡像異我構圖，讓拿鐵站在畫面正中央、四腳踩在鋪著防滑墊的木平台上，專心低頭盯著一件小小的救生圈玩具，像在替自己挑選今天最漂亮的配件。牠杏紅色蓬鬆泰迪捲毛在清爽水岸風景裡格外醒目，黑色圓鼻和深棕鈕扣眼閃著精緻神氣，耳朵藏在毛裡，粉色小舌微吐，完全是這座夏日河畔的主角。",
+    "style_picks": {
+      "art_style": "Atompunk",
+      "composition": "Doppelganger Mirror Composition",
+      "lighting": "Three-Point Lighting",
+      "texture": "Sheer Gauze Mesh",
+      "color_palette": "Bamboo Jade Green"
+    },
+    "avoid_list": [
+      "日期時間標示",
+      "夢幻商品攝影",
+      "復古褪色調",
+      "柔和側窗光",
+      "強制透視伸手構圖",
+      "前爪輕推物件",
+      "專注趴伏姿勢",
+      "沙灘地圖探險",
+      "新中式青綠山水",
+      "霓虹竹影香料店",
+      "東京地鐵月台維修區",
+      "月台積水倒影",
+      "黏土動畫滿版特寫",
+      "水彩插畫遞迴鏡中場景",
+      "紅黑高反差配色",
+      "低對比懷舊電影感"
+    ],
+    "inspiration": "巴黎塞納河在整治後重新開放三個公共游泳點，為這座城市帶來難得的夏日清涼與新鮮水岸風景。",
+    "prompt": "Atompunk illustration in retro-futuristic atomic-age style, a surreal mirror-doppelganger composition at the entrance of a newly opened public swimming area on the Seine riverbank in Paris, with sleek chrome lines, optimistic space-age energy, bamboo jade-green and malachite tones, cool verdant serenity, and airy sheer gauze mesh interwoven with translucent netting and delicate woven veil textures; classic three-point lighting with a soft key light, gentle fill light, and subtle rim light separation. Center frame: Latte, a small toy poodle with an even apricot-red #C98B5E tight curly teddy-bear groom, fluffy round head, rounded muzzle, long floppy ears hidden in curls, small black button nose, round dark-brown button eyes, tiny pink tongue peeking out, standing on all four paws on a clean wooden platform with anti-slip mats, head lowered and carefully staring at a tiny lifebuoy toy as if choosing the most elegant accessory. The dog looks proud, sweet, and focused, with a slight tail sway. Reflective symmetry and uncanny twin framing create a mirrored self-encounter. Include the date and time clearly displayed as text in Traditional Chinese or English: 2026-07-09 04:35 UTC. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "number": 62,
+    "character": "latte",
+    "comment_id": 4921613243,
+    "character_name": "拿鐵"
   }
 ]

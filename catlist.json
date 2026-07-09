@@ -597,5 +597,18 @@
     "number": 61,
     "timestamp": "2026-07-09 03:35 UTC",
     "inspiration": "研究指出，年輕世代重新愛上賞鳥，成為一種讓人離開螢幕、回到自然的療癒潮流。"
+  },
+  {
+    "status": "success",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-09_0435_UTC.webp",
+    "inspiration": "巴黎塞納河在整治後重新開放三個公共游泳點，為這座城市帶來難得的夏日清涼與新鮮水岸風景。",
+    "character_name": "拿鐵",
+    "number": 62,
+    "character": "latte",
+    "timestamp": "2026-07-09 04:35 UTC",
+    "title": "塞納河小公主",
+    "crossover": true,
+    "inspiration_url": "https://www.reutersconnect.com/item/nature-environment/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMVpVTUEwMDBMMUNHV1c"
   }
 ]
