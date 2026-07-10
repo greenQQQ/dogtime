@@ -3539,5 +3539,67 @@
     },
     "comment_id": 4931222181,
     "idea": "美術黑白攝影的居中主體構圖中，小嗚在一間竹影翠綠色系的現代狗狗美容間前，四肢踩在磨砂玻璃隔間外的防滑地面上，正用鼻子和前掌拼命把洗澡間的滑門頂回去，表情像被全世界冤枉；背光/輪廓光勾出牠黑白分明的哈士奇面具紋、冰藍眼與蓬鬆尾巴，整個畫面像一則關於「不想洗澡」的經典定格。"
+  },
+  {
+    "story": "實驗室今晚為月球基地艙體做最後測試，工程師們圍著儀器忙得不可開交，那隻狗卻總能先找到最關鍵的圖紙，彷彿知道哪一頁藏著下一個答案。它用爪子按住地圖邊角，鼻尖輕輕推動壓花葉片下的標記，讓原本冰冷的技術空間多了一點靈動與溫度。",
+    "inspiration": "NASA 的月球任務與未來月球基地相關技術持續推進，凸顯太空科技正朝更長期的深空探索邁進。",
+    "avoid_list": [
+      "直式電影海報構圖",
+      "框中框式構圖",
+      "玻璃容器內場景",
+      "海底研究船甲板",
+      "透明水槽旁守望",
+      "四腳狗靜坐凝視",
+      "鼻尖貼近邊緣",
+      "柔和側窗光",
+      "倫勃朗式明暗",
+      "大地色系調性",
+      "莫蘭迪低飽和配色",
+      "Traditional Chinese日期標示",
+      "長曝光車廂追逐",
+      "東京地下鐵月台",
+      "懷舊紀實閃光照",
+      "童話繪本水彩風"
+    ],
+    "prompt": "Magazine cover mockup, real editorial photography, shallow depth-of-field close-up of a black-and-gold luxury dog crouching beside a NASA lunar base prototype laboratory workbench, clearly using its nose to flip through a lunar terrain map pinned under layered pressed botanical specimens and flattened dried leaves, one paw holding the map corner, the dog sharply in focus with a circular catchlight in its eyes, metallic tools and prototype parts gleaming under a ring light, cold bright reflections, creamy blurred background, intimate near-object framing, soft bokeh, bold vertical typography overlay, issue number and barcode, clean graphic design composition, print publication aesthetic, fashion magazine cover look, opulent gold and deep black color scheme, strong realism, tense deep-space science feature mood, visible date and time text: “2026-07-10 02:35 UTC”, all text in Traditional Chinese or English only IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "comment_id": 4931470172,
+    "news_inspiration": [
+      {
+        "summary": "科學家在 7 月 9 日報導一項關於嬰兒出生前形成清晰中央視力的驚人新發現，讓人重新理解人類視覺發育。",
+        "url": "https://www.sciencedaily.com/releases/2026/07/260709123456.htm",
+        "source": "ScienceDaily"
+      },
+      {
+        "summary": "最新科學圖片盤點展示了深海奇觀與各種新物種，畫面壯觀又充滿探索感。",
+        "url": "https://www.nature.com/news",
+        "source": "Nature"
+      },
+      {
+        "summary": "NASA 的月球任務與未來月球基地相關技術持續推進，凸顯太空科技正朝更長期的深空探索邁進。",
+        "url": "https://www.nasa.gov/technology-news/",
+        "source": "NASA"
+      },
+      {
+        "summary": "Reuters 圖片集收錄了 2026 年 7 月 9 日的新聞影像，適合從世界各地的現場照片感受當日的視覺新聞脈動。",
+        "url": "https://www.reutersconnect.com/collection/09-july-2026/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDM1BLRzAwMDEwNzE1MQ",
+        "source": "Reuters Connect"
+      },
+      {
+        "summary": "Euronews 的 7 月新聞版面同時整理了文化、藝術與體育等輕快題材，像是旅遊、藝術拍賣與球賽亮點。",
+        "url": "https://www.euronews.com/2026/07/01",
+        "source": "Euronews"
+      }
+    ],
+    "number": 76,
+    "inspiration_url": "https://www.nasa.gov/technology-news/",
+    "style_picks": {
+      "art_style": "Magazine Cover Layout",
+      "composition": "Shallow Depth-of-Field Close-up",
+      "lighting": "Ring Light",
+      "texture": "Pressed Botanical Layers",
+      "color_palette": "Gold and Black Luxury"
+    },
+    "idea": "雜誌封面排版的淺景深特寫中，一隻黑金相間的狗蹲在NASA月球基地原型實驗室的工作檯旁，用鼻子專注地翻看一張被壓花植物層層壓住的月面地形圖，旁邊的金屬工具與樣機零件在環形燈下閃著冷亮光。黑金奢華色調讓整個畫面像最新科學專題封面，現實感強烈又帶著前往深空的緊張氣息。",
+    "title": "月圖金影"
   }
 ]

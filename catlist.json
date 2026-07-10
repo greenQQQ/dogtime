@@ -743,5 +743,15 @@
     "title": "拒洗風暴",
     "character": "wuwu",
     "model": "gpt-image-2 (codex-image-service / $imagegen)"
+  },
+  {
+    "number": 76,
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-10_0235_UTC.webp",
+    "inspiration": "NASA 的月球任務與未來月球基地相關技術持續推進，凸顯太空科技正朝更長期的深空探索邁進。",
+    "inspiration_url": "https://www.nasa.gov/technology-news/",
+    "timestamp": "2026-07-10 02:35 UTC",
+    "status": "success",
+    "title": "月圖金影"
   }
 ]
