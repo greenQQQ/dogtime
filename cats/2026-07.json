@@ -3952,5 +3952,66 @@
       "color_palette": "Monochrome / Black and White"
     },
     "inspiration": "NASA與AWS合作，首次把來自月球的4K直播以雷射傳回地球，畫面與工程都很令人驚嘆。"
+  },
+  {
+    "number": 84,
+    "idea": "在一座白色高調明亮光的海岸天文台控制室裡，一隻短毛狗專注地用鼻尖按住一支正在滴落金箔潑點的螢光筆，替桌上那台記錄古老類星體的顯示板按下按鍵。超現實主義構圖以淺景深特寫捕捉牠眼神裡的反光，周圍散落著霓虹螢光色的儀器線材與玻璃螢幕，像是宇宙最早光芒被收進了人間的工作台。",
+    "inspiration": "天文學家找到31顆已知最古老的類星體之一，其中兩顆是史上最早被偵測到的，讓人窺見宇宙極早期。",
+    "avoid_list": [
+      "童話繪本水彩浮島",
+      "框中框構圖",
+      "狗用前爪壓地圖",
+      "低頭嗅聞路線圖",
+      "東京地下鐵月台",
+      "晨昏體積光",
+      "黑白單色戲劇光",
+      "高飽和青橙對比",
+      "玻璃培養缸展亭",
+      "蒸氣與霜霧朦朧感",
+      "長曝光追逐車廂光痕",
+      "居中對稱主體構圖",
+      "毛色輪廓背光",
+      "馬賽克拼字修補",
+      "南極資料音樂工作室"
+    ],
+    "news_inspiration": [
+      {
+        "summary": "科學家發現老橡樹即使停止長高，仍會持續吸收二氧化碳，可能改寫森林碳匯估算。",
+        "url": "https://www.sciencedaily.com/news/top/science/",
+        "source": "ScienceDaily"
+      },
+      {
+        "summary": "研究指出，人類在出生前形成銳利中央視覺的方式比原先以為更神祕，顛覆了部分視覺發育認知。",
+        "url": "https://www.sciencedaily.com/news/top/science/",
+        "source": "ScienceDaily"
+      },
+      {
+        "summary": "天文學家找到31顆已知最古老的類星體之一，其中兩顆是史上最早被偵測到的，讓人窺見宇宙極早期。",
+        "url": "https://www.sciencedaily.com/news/top/science/",
+        "source": "ScienceDaily"
+      },
+      {
+        "summary": "哈佛研究團隊打造出可用電與水基酵素同時寫入多段DNA的矽晶片，為更潔淨的DNA製造開路。",
+        "url": "https://www.sciencedaily.com/news/index.htm",
+        "source": "ScienceDaily"
+      },
+      {
+        "summary": "旗足球在NFL、NCAA與奧運體系支持下快速成長，正從校園新興運動邁向更大舞台。",
+        "url": "https://apnews.com/article/834a8df578cce5f11595c31dd46801ce",
+        "source": "Associated Press"
+      }
+    ],
+    "style_picks": {
+      "art_style": "Surrealism",
+      "composition": "Shallow Depth-of-Field Close-up",
+      "lighting": "High-Key Bright Lighting",
+      "texture": "Gold Foil Flecks",
+      "color_palette": "Neon Fluorescent"
+    },
+    "title": "星訊守犬",
+    "story": "今晚，值班工程師剛離開片刻，那隻狗就跳上了控制桌旁的低矮平台，安靜守著正在掃描的星圖。當顯示器跳出最古老的類星體訊號時，牠輕輕把爪邊的橡膠按鈕推回原位，像在替整座天文台保管一個秘密。",
+    "prompt": "Surrealist illustration of a white, high-key, brightly lit coastal observatory control room, dreamlike impossible scene, Dalí-inspired uncanny composition. A short-haired dog is clearly the main subject, shown in a shallow depth-of-field close-up, nose pressing down a glowing fluorescent marker while golden foil splatters drip from the tip, and one paw gently pushes a rubber button on a desk display panel recording an ancient quasar signal. The dog’s eyes catch reflections from the screens, sharp subject against a creamy blurred background, intimate near-object framing, soft bokeh, tactile detail emphasis. Around the desk are scattered neon fluorescent cables and glass monitors, electric pink, lime green, and hot cyan glowing against the clean luminous atmosphere, with minimal shadows and airy overexposed light. Include visible Traditional Chinese or English text on a screen or label showing the date and time: “2026-07-10 10:35 UTC”. Gold foil flecks, metallic gold leaf shards, glinting gilded specks, luxurious shimmering accents, hand-applied foil splatter, soft dreamy pastel mood, surrealistic composition, uncanny juxtaposition of astronomy equipment and a vigilant dog guarding a secret. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "inspiration_url": "https://www.sciencedaily.com/news/top/science/",
+    "comment_id": 4934462026
   }
 ]
