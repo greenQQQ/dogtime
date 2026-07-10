@@ -3830,5 +3830,66 @@
       "color_palette": "Vermilion and Gilt"
     },
     "title": "石碑花影"
+  },
+  {
+    "title": "海風節拍",
+    "inspiration_url": "https://apnews.com/article/43223fc554e3d510d244392b2f0a4aeb",
+    "story": "今晚的海邊場地正在為一場結合球賽與音樂的粉絲活動做最後彩排，工作人員忙著對接擴音與燈光。那隻鬥牛犬守在控制台旁，偶爾輕碰開關、偶爾抬頭看向舞台，彷彿它才是最認真的聲音總監。",
+    "idea": "剪紙藝術呈現的月夜靛藍場景中，一隻四腳鬥牛犬正趴在美式足球場邊的臨時音控台旁，專心用鼻尖按亮旋鈕，幫工作人員調整世界盃周邊音樂活動的節拍。燭光從一排小蠟燭盒裡透出，映在充氣PVC質感的巨型鼓面與球迷旗幟上，留白負空間讓整個洛杉磯海濱戶外舞台顯得格外開闊。",
+    "inspiration": "在美國各地，與世界盃相關的音樂與粉絲活動正陸續登場，讓球賽周邊也成為文化看點。",
+    "prompt": "Illustration / art: a papercut art scene with layered paper silhouettes and intricate cutout details, shadow depth, and negative space composition. In a moonlit indigo nighttime scene at an open Los Angeles seaside outdoor stage, a small four-legged bulldog lies beside a temporary audio control console at the edge of an American football field, clearly pressing a glowing knob with its nose as if carefully adjusting the beat for a World Cup fan music event; the dog should be the focal action. Show staff equipment, speaker cables, and a large inflatable PVC-textured drum with high-gloss puffy rounded surfaces, plus fan flags catching cool silvery highlights. Add a row of small candle boxes casting warm orange flickering glow and soft dancing shadows across the scene. Keep the composition calm, uncluttered, off-center, with expansive breathing room and a small subject in vast emptiness. Use deep night-blue and violet tones with mysterious nocturnal mood, dark dreamy blue dominance, and subtle candlelight warmth. Visibly display the text '2026-07-10 08:35 UTC' in Traditional Chinese or English within the image. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "avoid_list": [
+      "童話繪本水彩浮島",
+      "框中框構圖",
+      "狗用前爪壓地圖",
+      "低頭嗅聞路線圖",
+      "東京地下鐵月台",
+      "晨昏體積光",
+      "黑白單色戲劇光",
+      "高飽和青橙對比",
+      "玻璃培養缸展亭",
+      "蒸氣與霜霧朦朧感",
+      "長曝光追逐車廂光痕",
+      "居中對稱主體構圖",
+      "毛色輪廓背光",
+      "馬賽克拼字修補",
+      "南極資料音樂工作室"
+    ],
+    "comment_id": 4933578548,
+    "style_picks": {
+      "art_style": "Papercut Art",
+      "composition": "Negative Space Composition",
+      "lighting": "Candlelight",
+      "texture": "Inflatable PVC",
+      "color_palette": "Moonlit Indigo"
+    },
+    "number": 82,
+    "news_inspiration": [
+      {
+        "summary": "科學家首次在實驗中成功觀測到一種罕見量子現象，讓超高速電子行為更接近可被直接理解。",
+        "url": "https://apnews.com/article/6d1393f412fbb295ae1d2958fa5e6e3d",
+        "source": "AP News"
+      },
+      {
+        "summary": "一個全球級足球賽事宣布加入盛大中場表演，結合音樂與體育，打造超大型文化娛樂秀。",
+        "url": "https://apnews.com/article/f08a3cc88e5c1dfccf0517941458df2f",
+        "source": "AP News"
+      },
+      {
+        "summary": "旗標足球持續升溫，這項原本校園遊戲化的運動如今正加速走向更正式的競技舞台。",
+        "url": "https://apnews.com/article/834a8df578cce5f11595c31dd46801ce",
+        "source": "AP News"
+      },
+      {
+        "summary": "運動產業新公司把影視、紀錄片與現場活動串在一起，試圖用更像娛樂工業的方式講述體育故事。",
+        "url": "https://apnews.com/article/fbe080f9c2c50e13b9cd3530673154d0",
+        "source": "AP News"
+      },
+      {
+        "summary": "在美國各地，與世界盃相關的音樂與粉絲活動正陸續登場，讓球賽周邊也成為文化看點。",
+        "url": "https://apnews.com/article/43223fc554e3d510d244392b2f0a4aeb",
+        "source": "AP News"
+      }
+    ]
   }
 ]
