@@ -834,5 +834,18 @@
     "model": "gpt-image-2 (codex-image-service / $imagegen)",
     "status": "success",
     "inspiration_url": "https://www.sciencedaily.com/news/top/science/"
+  },
+  {
+    "character": "ajin",
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-10_1135_UTC.webp",
+    "status": "success",
+    "number": 85,
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "is_seasonal": true,
+    "season": "summer",
+    "character_name": "阿金",
+    "timestamp": "2026-07-10 11:35 UTC",
+    "title": "湖畔金旗",
+    "inspiration": "original"
   }
 ]
