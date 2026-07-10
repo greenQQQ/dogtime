@@ -4207,5 +4207,65 @@
     "news_inspiration": [],
     "number": 88,
     "idea": "歐普藝術風格的等距3D插圖中，一隻四腳狗在馬德里舊市集的橄欖醃漬攤後方，正專注把掉落的香草葉一片片叼回陶盆旁，攤位地磚與遮陽棚在硬光日照下形成層層沙質紋理與大地色幾何波紋。畫面以攤架、木箱、銅盆與晾曬繩索構成立體空間，讓狗在忙碌的市集日常裡成為最醒目的節奏點。"
+  },
+  {
+    "prompt": "Illustration / digital art, overhead top-down flat-lay composition of a four-legged corgi lying in a glass greenhouse flower bed beside the outer courts of Wimbledon, carefully using its front paws to examine a folded corner tennis court map, with scattered strawberry boxes, a tennis racket, and a shimmering glass water jug nearby. The scene is viewed through a CRT monitor aesthetic with visible scan lines, phosphor glow, retro screen curvature, and subtle vintage display artifacts. Dense blossoms surround the dog like a sea of flowers, with neon fluorescent petals in electric pink, lime green, and hot cyan glowing against a darker backdrop. Volumetric lighting pours through the greenhouse roof, with visible god rays, dust particles catching light, dramatic depth, transparent glass refraction, prismatic reflections, and crystalline dew droplets sparkling on the flowers. The image should clearly show the corgi actively studying the map, as if guiding someone through a secret summer tournament garden. Include the date and time displayed visibly in Traditional Chinese or English text: 2026-07-10 15:35 UTC. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "inspiration_url": "https://www.reutersconnect.com/item/wimbledon/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNNzkwUlRaSU0",
+    "number": 89,
+    "idea": "以 CRT掃描線 呈現的俯臥花海俯瞰視角裡，一隻四腳柯基趴在倫敦溫布頓外場旁的玻璃溫室花床中，正用前掌小心翻看一張折角的球場平面圖，旁邊還散落著草莓盒、球拍與一只晶亮玻璃水壺。體積光穿過溫室頂棚落在霓虹螢光色的花叢與水晶般露珠上，畫面像一張夏日賽事邊緣的秘密地圖。",
+    "inspiration": "溫布頓外場出現熱鬧觀眾景象，為這項經典網球賽事增添了很有畫面的夏日氣息。",
+    "style_picks": {
+      "art_style": "CRT Scanline",
+      "composition": "Overhead Reclining-in-Blossoms",
+      "lighting": "Volumetric Light",
+      "texture": "Glass / Crystal",
+      "color_palette": "Neon Fluorescent"
+    },
+    "news_inspiration": [
+      {
+        "summary": "科學家在太空站的生物列印實驗取得進展，朝著培養實驗室組織又邁進一步。",
+        "url": "https://www.ksl.com/article/51595848/space-station-bioprinting-experiment-advances-quest-for-lab-grown-tissues-company-says",
+        "source": "KSL.com"
+      },
+      {
+        "summary": "研究人員發現，mRNA 癌症疫苗可能動員了意想不到的免疫細胞，為抗腫瘤治療帶來新線索。",
+        "url": "https://www.sciencedaily.com/releases/2026/07/260709120000.htm",
+        "source": "ScienceDaily"
+      },
+      {
+        "summary": "科學家重新改寫了鎵的化學故事，發現這種金屬的特殊原子鍵在高溫下仍會重組。",
+        "url": "https://www.sciencedaily.com/releases/2026/07/260709120000.htm",
+        "source": "ScienceDaily"
+      },
+      {
+        "summary": "溫布頓外場出現熱鬧觀眾景象，為這項經典網球賽事增添了很有畫面的夏日氣息。",
+        "url": "https://www.reutersconnect.com/item/wimbledon/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNNzkwUlRaSU0",
+        "source": "Reuters Connect"
+      },
+      {
+        "summary": "考古與建築史學者指出，英國古建築上的所謂「女巫痕跡」其實多半只是石匠工作記號。",
+        "url": "https://www.theguardian.com/culture/2026/jul/09/all",
+        "source": "The Guardian"
+      }
+    ],
+    "title": "花海球圖",
+    "comment_id": 4936986358,
+    "story": "這隻柯基每次聽見外場歡呼，都會把鼻子埋進花叢裡，像在追蹤下一場發球會從哪個方向傳來。今天牠找到了一張被風吹進來的球場地圖，安靜趴著研究，彷彿真的要帶領誰穿過這片夏天的花海。",
+    "avoid_list": [
+      "四腳狗用鼻尖頂物",
+      "淺景深特寫",
+      "居中主體構圖",
+      "對角線動態構圖",
+      "高調柔光背景",
+      "黑白強烈對比",
+      "霓虹冷暖混光",
+      "月球基地實驗室",
+      "控制台守門場景",
+      "磨砂玻璃門前抗拒",
+      "金紅馬賽克拼貼",
+      "長曝光光痕拖尾",
+      "螢光螢幕與金屬反光",
+      "鼻尖推動按鈕或開關"
+    ]
   }
 ]
