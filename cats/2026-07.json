@@ -3601,5 +3601,67 @@
     },
     "idea": "雜誌封面排版的淺景深特寫中，一隻黑金相間的狗蹲在NASA月球基地原型實驗室的工作檯旁，用鼻子專注地翻看一張被壓花植物層層壓住的月面地形圖，旁邊的金屬工具與樣機零件在環形燈下閃著冷亮光。黑金奢華色調讓整個畫面像最新科學專題封面，現實感強烈又帶著前往深空的緊張氣息。",
     "title": "月圖金影"
+  },
+  {
+    "idea": "在一座 2026 世界盃決賽日的球場內圈 DJ 台旁，一隻四腳柯基正專心用鼻尖與前爪把掉落的金紅色馬賽克磁磚拼成「加油」字樣，周圍是魚眼鏡頭下洶湧的人潮與巨型螢幕，整體以馬賽克 3D 渲染呈現、自然漫射光灑在中國紅金色調上，畫面既熱鬧又精緻。",
+    "inspiration_url": "https://apnews.com/article/cb70708367cc68bd94edff66416b3c7d",
+    "inspiration": "2026世界盃持續升溫，最新焦點是多支隊伍即將進入更刺激的淘汰賽階段，全球球迷熱度不斷上升。",
+    "story": "球場中場秀剛結束，地面被歡呼聲震得微微發亮，那隻柯基卻不理會看台上的歌聲，只埋頭把散落的磁磚一塊塊推回原位。當最後一片金色拼進去時，旁邊的球迷群爆出笑聲與掌聲，彷彿整個決賽夜都被它修補得更完整了。",
+    "title": "拼出勝利夜",
+    "prompt": "Mosaic 3D illustration, polished Cinema 4D aesthetic with clean geometry and smooth materials: inside the inner ring of a 2026 World Cup final stadium during a halftime show, a four-legged corgi is clearly visible in the foreground, focused and adorable, using its nose and front paws to push scattered gold-and-red mosaic tiles back into place, assembling the Traditional Chinese words 「加油」 on the floor. Fisheye wide-angle lens, strong barrel distortion, exaggerated foreground, 360-degree crowd feel, giant stadium screens and a roaring sea of fans around the DJ booth, festive celebratory atmosphere. Soft diffused natural light, even illumination, gentle shadows, soft global illumination, warm China red dominance with bright gold accents, lucky vivid contrast, grouted mosaic texture, ancient Roman/Byzantine-inspired tile craftsmanship. Add visually displayed text in Traditional Chinese or English showing the date and time: 「2026-07-10 03:35 UTC」, integrated naturally into a stadium screen or event signage. The scene should feel lively yet refined, with the corgi repairing the fallen tiles as the centerpiece of the composition. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "news_inspiration": [
+      {
+        "summary": "FIFA宣布世界盃決賽中場秀將由賈斯汀·比伯等巨星同台演出，為球迷帶來盛大又具視覺感的娛樂表演。",
+        "url": "https://apnews.com/article/9587b78ba94ac915b4b2dd208f9a6eed",
+        "source": "AP News"
+      },
+      {
+        "summary": "科學家在太平洋深海發現巨大而罕見的珊瑚結構，展現出壯觀的海底自然景觀與生態多樣性。",
+        "url": "https://www.livescience.com/space/science-news-this-week-james-webb-telescope-finds-a-never-before-seen-substance-chinas-great-green-wall-grows-faster-than-natural-trees-and-a-medici-murder-mystery-is-solved",
+        "source": "Live Science"
+      },
+      {
+        "summary": "最新研究指出，深睡眠與生長激素釋放之間存在明確腦迴路連結，替睡眠科學與腦神經研究帶來新突破。",
+        "url": "https://www.sciencedaily.com/news/",
+        "source": "ScienceDaily"
+      },
+      {
+        "summary": "一支科學與藝術團隊把南極與外太空的研究資料轉化成音樂，讓科學數據以全新方式被聽見。",
+        "url": "https://www.sciencenews.org/sn-magazine/july-2026",
+        "source": "Science News"
+      },
+      {
+        "summary": "2026世界盃持續升溫，最新焦點是多支隊伍即將進入更刺激的淘汰賽階段，全球球迷熱度不斷上升。",
+        "url": "https://apnews.com/article/cb70708367cc68bd94edff66416b3c7d",
+        "source": "AP News"
+      }
+    ],
+    "style_picks": {
+      "art_style": "Mosaic",
+      "composition": "Fisheye Lens",
+      "lighting": "Soft Diffused Natural Light",
+      "texture": "3D Render",
+      "color_palette": "Festive Red and Gold"
+    },
+    "comment_id": 4931746643,
+    "number": 77,
+    "avoid_list": [
+      "直式電影海報構圖",
+      "框中框式構圖",
+      "玻璃容器內場景",
+      "海底研究船甲板",
+      "透明水槽旁守望",
+      "四腳狗靜坐凝視",
+      "鼻尖貼近邊緣",
+      "柔和側窗光",
+      "倫勃朗式明暗",
+      "大地色系調性",
+      "莫蘭迪低飽和配色",
+      "Traditional Chinese日期標示",
+      "長曝光車廂追逐",
+      "東京地下鐵月台",
+      "懷舊紀實閃光照",
+      "童話繪本水彩風"
+    ]
   }
 ]
