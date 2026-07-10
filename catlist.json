@@ -794,5 +794,15 @@
     "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-10_0635_UTC.webp",
     "status": "success",
     "title": "海站燉香"
+  },
+  {
+    "inspiration": "新研究指出，英國一座新增的古老石碑遺址保存了難得一見的歷史與藝術痕跡，讓人重新想像早期文明的日常與信仰。",
+    "timestamp": "2026-07-10 07:35 UTC",
+    "number": 81,
+    "status": "success",
+    "inspiration_url": "https://www.smithsonianmag.com/category/smartnews-arts-culture/",
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-10_0735_UTC.webp",
+    "title": "石碑花影",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)"
   }
 ]

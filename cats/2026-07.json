@@ -3769,5 +3769,66 @@
       }
     ],
     "title": "海站燉香"
+  },
+  {
+    "idea": "在英國新發現的古老石碑遺址旁，一隻泥金色拉布拉多趴臥在朱紅與深紫的野花叢中，專注地用鼻尖把一個小小的蝦殼碳燃料容器推進石槽旁的水窪裡，濺起靈動水花。畫面以暗黑花卉肖像呈現，俯臥花海俯瞰構圖配合蝴蝶光，讓石碑刻痕、花瓣與狗的濕潤毛髮都在朱紅描金色調中顯得格外鮮明。",
+    "story": "考古隊在石碑邊測試以蝦殼轉化的新材料容器時，這隻拉布拉多總愛湊近觀察，像是在替大家守著這片被時間掩埋的遺址。當研究員把容器放入水槽清洗時，狗突然俯身撥動水面，濺起一圈亮金色水滴，整個現場像被喚醒般熱鬧起來。",
+    "inspiration": "新研究指出，英國一座新增的古老石碑遺址保存了難得一見的歷史與藝術痕跡，讓人重新想像早期文明的日常與信仰。",
+    "avoid_list": [
+      "童話繪本水彩浮島",
+      "框中框構圖",
+      "狗用前爪壓地圖",
+      "低頭嗅聞路線圖",
+      "東京地下鐵月台",
+      "晨昏體積光",
+      "黑白單色戲劇光",
+      "高飽和青橙對比",
+      "玻璃培養缸展亭",
+      "蒸氣與霜霧朦朧感",
+      "長曝光追逐車廂光痕",
+      "居中對稱主體構圖",
+      "毛色輪廓背光",
+      "馬賽克拼字修補",
+      "南極資料音樂工作室"
+    ],
+    "inspiration_url": "https://www.smithsonianmag.com/category/smartnews-arts-culture/",
+    "news_inspiration": [
+      {
+        "summary": "新研究指出，英國一座新增的古老石碑遺址保存了難得一見的歷史與藝術痕跡，讓人重新想像早期文明的日常與信仰。",
+        "url": "https://www.smithsonianmag.com/category/smartnews-arts-culture/",
+        "source": "Smithsonian Magazine"
+      },
+      {
+        "summary": "研究人員首次拍到一顆小行星其實是兩塊相連的「花生形」天體，畫面非常特別，也有助於理解太空岩石的形成。",
+        "url": "https://www.smithsonianmag.com/articles/new-images-reveal-that-this-asteroid-is-actually-two-conjoined-space-rocks-they-form-a-peanut-shaped-object-called-a-contact-binary-180987678/",
+        "source": "Smithsonian Magazine"
+      },
+      {
+        "summary": "科學家發現一種蝙蝠會在飛行中捕食鳥類，還可能和文藝復興時期畫作中的細節互相呼應，非常新奇。",
+        "url": "https://www.smithsonianmag.com/smart-news/scientists-just-learned-that-this-bat-eats-birds-midflight-a-renaissance-painter-may-have-known-about-it-hundreds-of-years-ago-180987684/",
+        "source": "Smithsonian Magazine"
+      },
+      {
+        "summary": "新技術把蝦殼轉化成「碳負」燃料、食物與建材，兼具科學感與永續想像。",
+        "url": "https://www.smithsonianmag.com/smart-news/how-shrimp-shells-are-being-turned-into-carbon-negative-fuel-food-and-construction-materials-180987675/",
+        "source": "Smithsonian Magazine"
+      },
+      {
+        "summary": "一批海洋攝影比賽作品展現企鵝、海豹與魚群的壯麗瞬間，視覺上很適合今天的正向世界新聞。",
+        "url": "https://www.smithsonianmag.com/tag/nature/",
+        "source": "Smithsonian Magazine"
+      }
+    ],
+    "prompt": "Realistic photography, overhead top-down flat-lay composition of a dark floral portrait: a muddy-golden Labrador lying prone in a dense sea of vermilion and deep purple wildflowers beside a newly discovered ancient stone stele ruin in the UK, the dog clearly pushing a tiny shrimp-shell carbon fuel container with its nose into a shallow puddle beside a stone groove, frozen dynamic water splash and glittering droplets, wet fur catching the light. Butterfly lighting with an overhead key light, low-key mood, symmetrical shadow under the nose, candid documentary feel, shallow depth of field, crisp detail on stone carvings, petals, and glossy wet fur, Renaissance-influenced contemporary photography, melancholic vanitas atmosphere, dark floral portrait framing, birds-eye decorative composition. Color treatment in cinnabar red and gilt with metallic gold highlights, elegant lacquer-like richness, restrained warmth. Include clearly visible Traditional Chinese or English text in the scene displaying: '2026-07-10 07:35 UTC'. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "number": 81,
+    "comment_id": 4933118050,
+    "style_picks": {
+      "art_style": "Dark Floral Portrait",
+      "composition": "Overhead Reclining-in-Blossoms",
+      "lighting": "Butterfly Lighting",
+      "texture": "Dynamic Water Splash",
+      "color_palette": "Vermilion and Gilt"
+    },
+    "title": "石碑花影"
   }
 ]
