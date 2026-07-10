@@ -3891,5 +3891,66 @@
         "source": "AP News"
       }
     ]
+  },
+  {
+    "comment_id": 4934028038,
+    "inspiration_url": "https://www.aboutamazon.com/news/aws/how-nasa-streamed-live-4k-video-from-the-moon",
+    "news_inspiration": [
+      {
+        "summary": "NASA與AWS合作，首次把來自月球的4K直播以雷射傳回地球，畫面與工程都很令人驚嘆。",
+        "url": "https://www.aboutamazon.com/news/aws/how-nasa-streamed-live-4k-video-from-the-moon",
+        "source": "Amazon About AWS"
+      },
+      {
+        "summary": "瑞典推出「Unvisited Sweden」地圖，精選24處人少、風景又壯麗的自然秘境，適合想避開人潮的旅人。",
+        "url": "https://www.euronews.com/travel/2026/07/09/unvisited-sweden-new-map-reveals-the-nature-spots-far-far-away-from-the-crowds",
+        "source": "Euronews"
+      },
+      {
+        "summary": "加拿大正式加入下一屆歐洲歌唱大賽，成為這項全球最大型音樂賽事的最新成員之一。",
+        "url": "https://www.euronews.com/2026/07/01",
+        "source": "Euronews"
+      },
+      {
+        "summary": "摩洛哥球迷在波士頓為世界盃四強戰造勢，現場氣氛熱烈，照片與畫面感都很強。",
+        "url": "https://www.aljazeera.com/amp/sports/2026/7/9/morocco-fans-paint-boston-red-but-remain-wary-of-france-at-fifa-world-cup",
+        "source": "Al Jazeera"
+      },
+      {
+        "summary": "《Total Eclipse of the Heart》歌手 Bonnie Tyler 逝世後，樂壇名人紛紛致意，這則文化新聞備受關注。",
+        "url": "https://apnews.com/article/c2975c99e11d91bcfcbeca1158247d1c",
+        "source": "AP News"
+      }
+    ],
+    "title": "月訊走廊",
+    "avoid_list": [
+      "童話繪本水彩浮島",
+      "框中框構圖",
+      "狗用前爪壓地圖",
+      "低頭嗅聞路線圖",
+      "東京地下鐵月台",
+      "晨昏體積光",
+      "黑白單色戲劇光",
+      "高飽和青橙對比",
+      "玻璃培養缸展亭",
+      "蒸氣與霜霧朦朧感",
+      "長曝光追逐車廂光痕",
+      "居中對稱主體構圖",
+      "毛色輪廓背光",
+      "馬賽克拼字修補",
+      "南極資料音樂工作室"
+    ],
+    "story": "值班工程師們圍在玻璃之外檢查剛從月球傳回的畫面，而那隻狗卻對地面一截輕微震動的纜線產生了興趣，沿著走道一路小跑。它最後停在一台閃爍的訊號轉接箱前，抬頭望著螢幕上清晰的月面影像，像是也在替這場跨越太空的直播守門。",
+    "prompt": "Madhubani painting style illustration, environmental medium shot with balanced figure-and-context framing: a black-and-white mixed-breed four-legged dog in a lunar mission control corridor beside fluorescent-lit maintenance walkway, actively chasing a lightly vibrating laser communications cable with its nose along the floor, then stopping near a blinking signal relay box and looking up at a screen showing a clear moon surface live feed. Nearby metal cabinets with brushed, polished surfaces and sharp reflections; overhead fluorescent institutional lighting, neutral white 5000K, flat illumination with dramatic monochrome contrast, no colored lighting, no shadows emphasized. Dense linework, intricate geometric and floral patterns, rhythmic decorative texture, storytelling background, natural depth perspective, industrial premium feel, urban-mechanical lunar atmosphere. Include visually readable Traditional Chinese or English text displaying exactly: 2026-07-10 09:35 UTC. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "number": 83,
+    "idea": "米提拉畫風的中景環境人像，場景設在月球任務控制室旁的螢光燈維修走道：一隻黑白相間的四腳狗正專注地用鼻尖追著地上的一卷雷射通訊纜線，旁邊的金屬機櫃映出冷硬的光澤。整體以黑白單色呈現，線條繁密、圖案感強，像把月球4K直播與工程現場濃縮進一幅有節奏的都市機械圖景。",
+    "style_picks": {
+      "art_style": "Madhubani Painting",
+      "composition": "Environmental Medium Portrait",
+      "lighting": "Fluorescent Lighting",
+      "texture": "Metallic Surface",
+      "color_palette": "Monochrome / Black and White"
+    },
+    "inspiration": "NASA與AWS合作，首次把來自月球的4K直播以雷射傳回地球，畫面與工程都很令人驚嘆。"
   }
 ]

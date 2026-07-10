@@ -814,5 +814,15 @@
     "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-10_0835_UTC.webp",
     "inspiration": "在美國各地，與世界盃相關的音樂與粉絲活動正陸續登場，讓球賽周邊也成為文化看點。",
     "model": "gpt-image-2 (codex-image-service / $imagegen)"
+  },
+  {
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-10_0935_UTC.webp",
+    "timestamp": "2026-07-10 09:35 UTC",
+    "inspiration": "NASA與AWS合作，首次把來自月球的4K直播以雷射傳回地球，畫面與工程都很令人驚嘆。",
+    "inspiration_url": "https://www.aboutamazon.com/news/aws/how-nasa-streamed-live-4k-video-from-the-moon",
+    "title": "月訊走廊",
+    "status": "success",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "number": 83
   }
 ]
