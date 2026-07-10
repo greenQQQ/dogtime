@@ -732,5 +732,16 @@
     "timestamp": "2026-07-09 16:35 UTC",
     "inspiration": "original",
     "number": 74
+  },
+  {
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-10_0145_UTC.webp",
+    "inspiration": "original",
+    "number": 75,
+    "character_name": "小嗚",
+    "status": "success",
+    "timestamp": "2026-07-10 01:45 UTC",
+    "title": "拒洗風暴",
+    "character": "wuwu",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)"
   }
 ]

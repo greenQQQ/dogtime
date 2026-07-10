@@ -3476,5 +3476,68 @@
       "color_palette": "High Saturation Vivid"
     },
     "number": 74
+  },
+  {
+    "avoid_list": [
+      "直式電影海報構圖",
+      "框中框式構圖",
+      "玻璃容器內場景",
+      "海底研究船甲板",
+      "透明水槽旁守望",
+      "四腳狗靜坐凝視",
+      "鼻尖貼近邊緣",
+      "柔和側窗光",
+      "倫勃朗式明暗",
+      "大地色系調性",
+      "莫蘭迪低飽和配色",
+      "Traditional Chinese日期標示",
+      "長曝光車廂追逐",
+      "東京地下鐵月台",
+      "懷舊紀實閃光照",
+      "童話繪本水彩風"
+    ],
+    "number": 75,
+    "news_inspiration": [
+      {
+        "summary": "美國體壇熱議：FIFA 世界盃 2026 美國對比利時賽事以照片集形式呈現，畫面充滿張力與現場感。",
+        "url": "https://www.theguardian.com/artanddesign/all",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "科學新發現：研究顯示貓薄荷乳液在驅蚊效果上可與 DEET 相媲美，帶來有趣又實用的防蚊新選項。",
+        "url": "https://www.theguardian.com/science%2Btone/news",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "自然與攝影亮點：Nature 彙整六月最佳科學影像，展示深海奇景與多種新物種，畫面既奇妙又壯觀。",
+        "url": "https://www.nature.com/news",
+        "source": "Nature"
+      },
+      {
+        "summary": "科技趨勢：大型科技公司雄心勃勃的淨零目標正受 AI 能耗影響，凸顯人工智慧與能源之間的新角力。",
+        "url": "https://www.theguardian.com/technology/2026/jul/07/all",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "文化消息：奧地利掀起拯救史蒂芬・茨威格薩爾茲堡故居的行動，為文學遺產與城市文化保存注入熱度。",
+        "url": "https://www.theguardian.com/world/world%2Bculture/culture",
+        "source": "The Guardian"
+      }
+    ],
+    "character_name": "小嗚",
+    "story": "牠明明只是來「巡視」洗澡間，卻在看見水龍頭轉動的瞬間，整隻狗進入激烈抗議模式，先低聲嗚嗚辯解，再把一隻前掌壓住門把，像在阻止一場災難。洗完澡的濕毛讓黑白輪廓更銳利，連站在門外的美容師都忍不住笑出來，因為小嗚的眼神已經寫滿：這不是洗澡，這是對一隻哈士奇的審判。",
+    "title": "拒洗風暴",
+    "character": "wuwu",
+    "inspiration": "original",
+    "prompt": "Fine art black-and-white photography, real photographic look, centered subject composition with a single focal point dead center, balanced symmetrical framing, clean surrounding space. A literal four-legged Siberian Husky named Wuwu, athletic medium-large build, black-grey saddle and head-top with snow-white face center, muzzle, chest, belly and legs, crisp symmetric husky mask markings, upright ears with white inner fluff, big fluffy brush tail, striking ice-blue eyes, goofy theatrical wronged expression. Wuwu is standing on a non-slip floor outside a frosted-glass shower stall in a modern dog grooming room, pressing the sliding shower door back with his nose and one front paw as if desperately resisting bath time; wet fur sharpens the black-and-white contrast, backlight and rim light outlining the mask, eyes, and tail with glowing edges, deep blacks and luminous highlights, rich tonal gradation, contemplative monochrome mood, gallery print quality. The grooming room has bamboo-inspired jade-green surroundings implied through tones and decor, cool verdant serenity, translucent matte frosted glass with soft blurred shapes behind it, diffused light transmission. In the scene, a groomer is faintly visible outside the door laughing, but the dog remains the clear main subject. Show the date and time text clearly in the image as Traditional Chinese or English: '2026-07-10 01:45 UTC'. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "style_picks": {
+      "art_style": "Fine Art Black-and-White Photography",
+      "composition": "Centered Subject Composition",
+      "lighting": "Backlighting / Rim Light",
+      "texture": "Frosted Glass",
+      "color_palette": "Bamboo Jade Green"
+    },
+    "comment_id": 4931222181,
+    "idea": "美術黑白攝影的居中主體構圖中，小嗚在一間竹影翠綠色系的現代狗狗美容間前，四肢踩在磨砂玻璃隔間外的防滑地面上，正用鼻子和前掌拼命把洗澡間的滑門頂回去，表情像被全世界冤枉；背光/輪廓光勾出牠黑白分明的哈士奇面具紋、冰藍眼與蓬鬆尾巴，整個畫面像一則關於「不想洗澡」的經典定格。"
   }
 ]
