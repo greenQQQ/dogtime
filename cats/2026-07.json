@@ -3708,5 +3708,66 @@
       "懷舊紀實閃光照",
       "童話繪本水彩風"
     ]
+  },
+  {
+    "comment_id": 4932693613,
+    "number": 80,
+    "idea": "線描著色本插畫的分割畫面裡，左側是一間位於海岸研究站的金屬廚房，黃褐色的琺瑯鍋正冒著熱氣；一隻四腳黃金獵犬專注地用鼻尖頂著木匙，守著一鍋用小螃蟹與海藻熬煮的濃湯，閃光燈直打把描金墨線照得銳利。右側同場景切到窗外的深海監測畫面，幾條新發現的奇特深海生物像標本照片般平鋪在工作台旁，整體以暖色調琥珀與秋日金棕呈現。",
+    "avoid_list": [
+      "童話繪本水彩浮島",
+      "框中框構圖",
+      "狗用前爪壓地圖",
+      "低頭嗅聞路線圖",
+      "東京地下鐵月台",
+      "晨昏體積光",
+      "黑白單色戲劇光",
+      "高飽和青橙對比",
+      "玻璃培養缸展亭",
+      "蒸氣與霜霧朦朧感",
+      "長曝光追逐車廂光痕",
+      "居中對稱主體構圖",
+      "毛色輪廓背光",
+      "馬賽克拼字修補",
+      "南極資料音樂工作室"
+    ],
+    "inspiration_url": "https://www.livescience.com/news/archive/2026/07",
+    "inspiration": "科學家公布的最新影像顯示，深海裡又發現一批奇特新物種，畫面既陌生又迷人。",
+    "story": "研究員忙著比對深海影像時，廚房裡那隻狗始終守在爐邊，鼻頭跟著湯勺的每次移動輕輕點頭。當第一口湯煮好，它立刻轉向窗外那批陌生又迷人的深海新物種照片，像是在替整個站點守住一場又香又神秘的夜班。",
+    "style_picks": {
+      "art_style": "Coloring Book Line Art",
+      "composition": "Split View",
+      "lighting": "Direct Flash",
+      "texture": "Gilded Ink Outline",
+      "color_palette": "Warm Tones (Amber / Autumn)"
+    },
+    "prompt": "Illustration, ready-to-color coloring book line art with a split-view composition: a sharp vertical cut divides the image into two halves. Left half shows a coastal research station metal kitchen, a yellow-brown enamel pot steaming on the stove; a four-legged Golden Retriever stands guard by the burner, clearly using its nose to nudge a wooden spoon and watching the simmering seafood soup made with small crabs and seaweed, its posture focused and alert. Right half shows the same setting shifted to a window-facing deep-sea monitoring workspace, with several newly discovered strange deep-sea creatures laid flat like specimen photos beside the worktable, with wireframe diagram-like detailing and scientific display cues. Clean uniform black outlines on white, no shading, intricate decorative linework, playful illustrative shapes, fine black brush lines edged with metallic gold, lustrous gilt contours, gilded ink outline texture, ornamental hand-drawn detailing, raw candid snapshot energy, harsh direct on-camera flash look, blown-out highlights, hard shadows, sharp crisp edges. Warm amber color grading, autumn palette, golden yellows, burnt orange, cozy nostalgic warmth, amber and autumnal gold-brown tones throughout. Visually display the date and time exactly as: 2026-07-10 06:35 UTC, rendered as clear readable English text or Traditional Chinese. The dog must be unmistakably central and actively touching the spoon with its nose while guarding the soup. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "news_inspiration": [
+      {
+        "summary": "科學家公布的最新影像顯示，深海裡又發現一批奇特新物種，畫面既陌生又迷人。",
+        "url": "https://www.livescience.com/news/archive/2026/07",
+        "source": "Live Science"
+      },
+      {
+        "summary": "Nature 最新科學新聞整理提到，研究人員發現一種能保存哈伯望遠鏡的方案，讓太空觀測未來更有希望。",
+        "url": "https://www.nature.com/news",
+        "source": "Nature"
+      },
+      {
+        "summary": "IEEE Spectrum 報導多個原住民主導的 AI 語音模型計畫，展現科技如何與文化保存結合。",
+        "url": "https://spectrum.ieee.org/magazine/2026/july/",
+        "source": "IEEE Spectrum"
+      },
+      {
+        "summary": "《國家地理》7 月號聚焦一種世界上最美的蛇，主題兼具自然觀察與視覺魅力。",
+        "url": "https://www.nationalgeographic.com/magazine/issue/july-2026",
+        "source": "National Geographic"
+      },
+      {
+        "summary": "科學新聞週報提到蜜蜂出現類似情緒反應的行為，例如舔嘴和甩頭，研究既有趣又可愛。",
+        "url": "https://www.phys.org/weekly-news/",
+        "source": "Phys.org"
+      }
+    ],
+    "title": "海站燉香"
   }
 ]
