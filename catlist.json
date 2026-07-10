@@ -776,5 +776,13 @@
     "model": "gpt-image-2 (codex-image-service / $imagegen)",
     "status": "success",
     "inspiration_url": "https://www.sciencenews.org/article/otherworldly-music-albums-feature-space-weather-data"
+  },
+  {
+    "timestamp": "2026-07-10 05:35 UTC",
+    "number": null,
+    "url": null,
+    "model": "all failed",
+    "error": "codex-image-service job failed: Codex timed out after 360 seconds",
+    "status": "failed"
   }
 ]
