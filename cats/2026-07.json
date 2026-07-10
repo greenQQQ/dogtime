@@ -4174,5 +4174,38 @@
     "title": "溪灘水花舞",
     "character": "pudding",
     "prompt": "Realistic candid photography of Pudding, a Pembroke Welsh Corgi with a long loaf-shaped body on four short sturdy legs, warm orange-red and white coat only, white collar ruff, white chest and belly, four white socks, thin white blaze, oversized upright ears, big round bright brown eyes, cheerful corgi grin, tiny stub tail, no collar or accessories, clearly shown splashing in a shallow creek-side sandbar between black pebbles and red-brown wooden posts, joyfully pawing the water and kicking up water splashes higher than the dog’s head, round peach-shaped rump visible, summer scene. Wabi-sabi still life photography mood with imperfect organic objects, quiet contemplative emptiness, textured aged surfaces, wet sand ripples, scattered picnic basket and picnic mat, wooden boardwalk and path-driven leading lines guiding the eye toward the dog, converging perspective, strong directional depth. Rembrandt lighting from upper side at 45 degrees, single light source, dramatic chiaroscuro, delicate triangular highlight on the cheek, rich crimson and black environment, deep blood-red against jet black, subtle orange-red and white fur layering, shimmering water reflections with iridescent holographic rainbow shift and pastel prismatic glints on the surface. 35mm lens, f/1.8, shallow depth of field, natural light, fine grain, real photograph look. In clear visible Traditional Chinese or English text within the image, display: '2026-07-10 13:35 UTC'. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字)."
+  },
+  {
+    "style_picks": {
+      "art_style": "Op Art",
+      "composition": "Isometric 3D Illustration",
+      "lighting": "Harsh Midday Sun",
+      "texture": "Sand Texture",
+      "color_palette": "Earth Tones"
+    },
+    "avoid_list": [
+      "四腳狗用鼻尖頂物",
+      "淺景深特寫",
+      "居中主體構圖",
+      "對角線動態構圖",
+      "高調柔光背景",
+      "黑白強烈對比",
+      "霓虹冷暖混光",
+      "月球基地實驗室",
+      "控制台守門場景",
+      "磨砂玻璃門前抗拒",
+      "金紅馬賽克拼貼",
+      "長曝光光痕拖尾",
+      "螢光螢幕與金屬反光",
+      "鼻尖推動按鈕或開關"
+    ],
+    "prompt": "An isometric 3D illustration in Op Art style, with optical illusion patterns, abstract geometric design, and a sense of movement and vibration. Scene: inside an old Madrid market olive-pickling stall at morning opening, a four-legged dog is clearly visible behind the olive counter, carefully carrying fallen herb leaves one by one back beside a terracotta bowl, as if guarding its territory. The composition uses stacked stall shelves, wooden crates, copper basins, and hanging drying ropes to create a deep miniature 3D space. The ground tiles and awning cast layered sandy textures and earth-tone geometric ripples, inspired by desert dune ripples and wind-sculpted grain. Harsh midday-like hard sunlight, strong directional light, unforgiving illumination, crisp hard-edged shadows, high contrast natural daylight. Earth-tone color palette with terracotta, olive green, warm brown, and warm golden granules, with polished playful rendering and gritty urban realism. Include a visible Traditional Chinese or English sign displaying the date and time exactly: 2026-07-10 14:35 UTC. The dog should be the focal rhythmic accent in the busy market daily life, with the smiling shop owner in the background subtly offering an olive. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "inspiration": "original",
+    "story": "清晨的市集剛開張，狗鑽進橄欖攤後方，像在巡視自己的領地。它一次次把被風吹落的香草叼回陶盆邊，讓老闆娘笑著把一顆橄欖偷偷塞給它。",
+    "comment_id": 4936456448,
+    "title": "橄欖市集",
+    "news_inspiration": [],
+    "number": 88,
+    "idea": "歐普藝術風格的等距3D插圖中，一隻四腳狗在馬德里舊市集的橄欖醃漬攤後方，正專注把掉落的香草葉一片片叼回陶盆旁，攤位地磚與遮陽棚在硬光日照下形成層層沙質紋理與大地色幾何波紋。畫面以攤架、木箱、銅盆與晾曬繩索構成立體空間，讓狗在忙碌的市集日常裡成為最醒目的節奏點。"
   }
 ]
