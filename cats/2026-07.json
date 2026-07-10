@@ -4076,5 +4076,66 @@
     "character_name": "阿金",
     "title": "湖畔金旗",
     "inspiration": "original"
+  },
+  {
+    "title": "便當店守候",
+    "news_inspiration": [
+      {
+        "summary": "科學家首次在實時中觀察到海底中洋脊分裂並釋放熔岩，畫面相當震撼。",
+        "url": "https://www.nature.com/news",
+        "source": "Nature"
+      },
+      {
+        "summary": "一項新研究指出，尼安德塔人與現代人可能在5.9萬年前於土耳其共享文化。",
+        "url": "https://www.livescience.com/news/archive/2026/07",
+        "source": "Live Science"
+      },
+      {
+        "summary": "藝術展以孤獨、網路文化和幽默拼貼的方式，呈現墨爾本當代藝術的奇想與視覺衝擊。",
+        "url": "https://www.theguardian.com/artanddesign/art%2Bculture/culture",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "藝術家如何描繪太空旅行的展覽，回顧人類對飛行與宇宙的長久想像。",
+        "url": "https://www.theguardian.com/artanddesign/art%2Bculture/culture",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "慢動作影片揭露熊蜂疑似會表現出類似「喜歡」或「不喜歡」的行為，十分有趣。",
+        "url": "https://www.theguardian.com/science/2026/jul/09/all",
+        "source": "The Guardian"
+      }
+    ],
+    "character_name": "麻吉",
+    "style_picks": {
+      "art_style": "Art Deco",
+      "composition": "Vertical Calligraphy Poster",
+      "lighting": "Spotlight",
+      "texture": "Film Grain",
+      "color_palette": "Crimson and Black"
+    },
+    "character": "machi",
+    "idea": "裝飾藝術風格的直式書法海報構圖中，麻吉蹲坐在老城區便當店門口的石階旁，聚光燈像舞台一樣照亮牠亮赤紅與奶油白的毛色，黑紅色招牌與幾何線條把巷口襯得俐落而克制。牠把下巴擱在桌沿邊緣，眼神死盯著剛出爐的炸雞便當，尾巴捲成完美圈圈收在背上，彷彿全世界都在等牠點頭。",
+    "comment_id": 4935337418,
+    "story": "麻吉每天傍晚都會準時出現在這家便當店前，理由從不明說，但誰都知道牠最懂哪一盒是剛炸好的。今天牠照例一臉「本柴不需要」，卻在店員轉身時悄悄原地轉了半圈，裝作只是剛好路過。",
+    "prompt": "Traditional Chinese vertical Art Deco movie-poster composition of Machi, a compact red Shiba Inu with a bright russet-red coat (#C96F33) and clean cream urajiro (#FFF6E8) on cheeks, chin, chest, belly, and inner legs, two round fluffy white cheek tufts, upright triangle ears with cream inner fur, two tiny light eyebrow dots above round dark brown eyes (#4A3220), signature squinting shiba smile, tightly curled tail over the back, poised and dignified, clearly a literal four-legged dog. Set at the entrance of an old town bento shop in a narrow alley, Machi crouches beside the stone steps, chin resting on the table edge, staring intensely at a freshly fried chicken bento while secretly turning in place as if pretending to just pass by. Dramatic stage-like narrow spotlight from above isolates the dog in deep darkness, sharp light edges, high-contrast crimson, black, gold, and cream colors, luxurious symmetry, geometric Art Deco linework, ornamental border elements, East Asian movie-poster framing, side calligraphy panel, black-and-red shop sign, subtle red seal accents, multi-layered depth, visible film grain and analog texture, slight organic photographic imperfections, seductive sinister mood. Include clearly readable Traditional Chinese or English text displaying exactly: '2026-07-10 12:35 UTC' within the poster design, integrated as a poster caption or date stamp. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "inspiration": "original",
+    "avoid_list": [
+      "四腳狗用鼻尖頂物",
+      "淺景深特寫",
+      "居中主體構圖",
+      "對角線動態構圖",
+      "高調柔光背景",
+      "黑白強烈對比",
+      "霓虹冷暖混光",
+      "月球基地實驗室",
+      "控制台守門場景",
+      "磨砂玻璃門前抗拒",
+      "金紅馬賽克拼貼",
+      "長曝光光痕拖尾",
+      "螢光螢幕與金屬反光",
+      "鼻尖推動按鈕或開關"
+    ],
+    "number": 86
   }
 ]
