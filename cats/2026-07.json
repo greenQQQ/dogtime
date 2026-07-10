@@ -4137,5 +4137,42 @@
       "鼻尖推動按鈕或開關"
     ],
     "number": 86
+  },
+  {
+    "number": 87,
+    "story": "布丁一聽見溪水聲就興奮得原地劈叉趴地，接著立刻衝進淺灘，用四條小短腿奮力踩出一串比牠頭還高的水花。牠一邊左右搖著圓潤屁股，一邊把岸邊三顆小石頭排成一列，像在替自己挑選今天最棒的玩耍路線。附近的野餐墊旁，幾個小朋友笑著拍手，因為這隻堅信自己是大型犬的柯基，總能用最短的腿玩得最投入。",
+    "style_picks": {
+      "art_style": "Wabi-Sabi Still Life Photography",
+      "composition": "Leading Lines Composition",
+      "lighting": "Rembrandt Lighting",
+      "texture": "Iridescent Holographic",
+      "color_palette": "Crimson and Black"
+    },
+    "is_seasonal": true,
+    "idea": "以侘寂靜物攝影呈現的溪邊淺水灘場景，布丁是畫面主角，正開心地在黑色卵石與紅褐色木樁間踩水，濺起比牠還高的水花；鏡頭用引導線構圖沿著木棧道、濕潤沙紋與散落的野餐籃帶向牠，倫勃朗光從側上方落下，讓橘紅與白色毛色、白色圍脖與蜜桃屁股在緋紅烏黑的環境中帶出細緻層次，並映出帶虹彩全息感的水面反光。",
+    "comment_id": 4935903368,
+    "character_name": "布丁",
+    "avoid_list": [
+      "四腳狗用鼻尖頂物",
+      "淺景深特寫",
+      "居中主體構圖",
+      "對角線動態構圖",
+      "高調柔光背景",
+      "黑白強烈對比",
+      "霓虹冷暖混光",
+      "月球基地實驗室",
+      "控制台守門場景",
+      "磨砂玻璃門前抗拒",
+      "金紅馬賽克拼貼",
+      "長曝光光痕拖尾",
+      "螢光螢幕與金屬反光",
+      "鼻尖推動按鈕或開關"
+    ],
+    "season": "summer",
+    "news_inspiration": [],
+    "inspiration": "original",
+    "title": "溪灘水花舞",
+    "character": "pudding",
+    "prompt": "Realistic candid photography of Pudding, a Pembroke Welsh Corgi with a long loaf-shaped body on four short sturdy legs, warm orange-red and white coat only, white collar ruff, white chest and belly, four white socks, thin white blaze, oversized upright ears, big round bright brown eyes, cheerful corgi grin, tiny stub tail, no collar or accessories, clearly shown splashing in a shallow creek-side sandbar between black pebbles and red-brown wooden posts, joyfully pawing the water and kicking up water splashes higher than the dog’s head, round peach-shaped rump visible, summer scene. Wabi-sabi still life photography mood with imperfect organic objects, quiet contemplative emptiness, textured aged surfaces, wet sand ripples, scattered picnic basket and picnic mat, wooden boardwalk and path-driven leading lines guiding the eye toward the dog, converging perspective, strong directional depth. Rembrandt lighting from upper side at 45 degrees, single light source, dramatic chiaroscuro, delicate triangular highlight on the cheek, rich crimson and black environment, deep blood-red against jet black, subtle orange-red and white fur layering, shimmering water reflections with iridescent holographic rainbow shift and pastel prismatic glints on the surface. 35mm lens, f/1.8, shallow depth of field, natural light, fine grain, real photograph look. In clear visible Traditional Chinese or English text within the image, display: '2026-07-10 13:35 UTC'. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字)."
   }
 ]

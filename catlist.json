@@ -858,5 +858,18 @@
     "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-10_1235_UTC.webp",
     "timestamp": "2026-07-10 12:35 UTC",
     "number": 86
+  },
+  {
+    "number": 87,
+    "season": "summer",
+    "status": "success",
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-10_1335_UTC.webp",
+    "inspiration": "original",
+    "title": "溪灘水花舞",
+    "character": "pudding",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "is_seasonal": true,
+    "timestamp": "2026-07-10 13:35 UTC",
+    "character_name": "布丁"
   }
 ]
