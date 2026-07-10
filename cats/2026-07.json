@@ -3663,5 +3663,50 @@
       "懷舊紀實閃光照",
       "童話繪本水彩風"
     ]
+  },
+  {
+    "number": 78,
+    "title": "宇宙咖啡聲",
+    "story": "拿鐵每次陪主人來到這座把南極與外太空資料做成音樂的工作室，都會先跳上最軟的椅墊，專心用小爪子按住正在顯示波形的紙張。當耳機裡傳出宇宙數據轉成的旋律時，牠會滿意地輕輕晃尾巴，偶爾抬頭挺胸，好像真的在確認自己才是這裡最漂亮的監製。",
+    "character_name": "拿鐵",
+    "prompt": "Illustration / fine art scene in Chinese ink wash painting combined with vermilion-and-white negative space and thick impasto oil texture, sumi-e black ink on rice paper with minimalist brushwork, flowing gradients, visible palette-knife ridges, crisp graphic elegance, intimate still-life mood, soft side-window daylight with Vermeer-like illumination and smooth falloff into shadow. A small toy poodle named Latte, an apricot-red #C98B5E curly coat ONLY, round teddy-bear grooming, fluffy round head, rounded muzzle, floppy ears blended into curls, small black button nose, round dark-brown button eyes, tiny pink tongue peeking out, light prancing posture, sweet bright slightly proud expression, is clearly shown using its nose to gently push a row of knobs in a coffee roasting laboratory beside an Antarctic data-music studio, as cosmic sound wave data plays. The dog is the unmistakable main subject, sitting on the softest cushion, pressing a paper sheet with one paw, listening attentively and wagging its tail. Recursive Droste effect composition: the wall screen, the tabletop black vinyl record, and a tea cup surface all reflect the same dog repeatedly, creating a picture-within-a-picture infinite loop centered on Latte. Window light catches the dog like a refined latte foam glow. Include clearly visible Traditional Chinese or English text showing exactly: '2026-07-10 04:35 UTC'. Vermilion accents, clean white space, black ink contours, rich tactile painterly surface, elegant oriental balance. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "comment_id": 4932042395,
+    "inspiration_url": "https://www.sciencenews.org/article/otherworldly-music-albums-feature-space-weather-data",
+    "news_inspiration": [
+      {
+        "summary": "一支科學與藝術團隊把南極和外太空的研究資料做成音樂，把宇宙數據變成可聽見的作品。",
+        "url": "https://www.sciencenews.org/article/otherworldly-music-albums-feature-space-weather-data",
+        "source": "Science News"
+      }
+    ],
+    "character": "latte",
+    "inspiration": "一支科學與藝術團隊把南極和外太空的研究資料做成音樂，把宇宙數據變成可聽見的作品。",
+    "crossover": true,
+    "idea": "以水墨畫結合朱紅留白與厚塗油彩肌理，拿鐵在一間位於南極資料音樂工作室旁的咖啡烘焙實驗室裡，用鼻尖輕推一排正在播放宇宙聲紋的旋鈕，圓滾滾的杏紅捲毛在窗邊柔光下像一團精緻的拿鐵泡沫。畫面採遞迴／德羅斯特效應構圖：牆上的螢幕、桌上的黑膠與茶杯表面層層映出同一隻忙著「聽音」的拿鐵，讓牠成為整個場景最耀眼的主角。",
+    "style_picks": {
+      "art_style": "Chinese Ink Wash",
+      "composition": "Recursive / Droste Effect",
+      "lighting": "Window Light",
+      "texture": "Impasto Oil Texture",
+      "color_palette": "Vermilion and White"
+    },
+    "avoid_list": [
+      "直式電影海報構圖",
+      "框中框式構圖",
+      "玻璃容器內場景",
+      "海底研究船甲板",
+      "透明水槽旁守望",
+      "四腳狗靜坐凝視",
+      "鼻尖貼近邊緣",
+      "柔和側窗光",
+      "倫勃朗式明暗",
+      "大地色系調性",
+      "莫蘭迪低飽和配色",
+      "Traditional Chinese日期標示",
+      "長曝光車廂追逐",
+      "東京地下鐵月台",
+      "懷舊紀實閃光照",
+      "童話繪本水彩風"
+    ]
   }
 ]
