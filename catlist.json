@@ -899,5 +899,17 @@
     "inspiration": "original",
     "timestamp": "2026-07-10 16:35 UTC",
     "number": 90
+  },
+  {
+    "timestamp": "2026-07-12 17:00 UTC",
+    "number": 91,
+    "character": "ajin",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "title": "金尾禮物",
+    "inspiration": "體育場上的新趨勢持續擴散，像旗式美式足球這類新興運動正在全球與校園間迅速累積人氣。",
+    "character_name": "阿金",
+    "inspiration_url": "https://apnews.com/article/834a8df578cce5f11595c31dd46801ce",
+    "status": "success",
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-12_1700_UTC.webp"
   }
 ]
