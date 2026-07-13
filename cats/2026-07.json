@@ -4912,5 +4912,66 @@
         "source": "Smithsonian Magazine"
       }
     ]
+  },
+  {
+    "comment_id": 4958566884,
+    "inspiration_url": "https://www.smithsonianmag.com/history/take-an-exclusive-look-at-three-newly-discovered-medieval-shipwrecks-in-menorcas-cove-of-mysteries-180989048/",
+    "prompt": "Illustration / art, chibi sticker character set style with multiple cute Q-version poses, a four-legged dog clearly chasing and tugging a small camera shutter release cord while running around a dockside scene at the cliff harbor of Menorca, Spain, beside a crane lifting medieval shipwreck pottery samples from the water, the dog acting like a lively guardian for the archaeology team. Spiral vortex composition with strong rotational perspective, centered vanishing point, ropes, splashing waves, cargo boxes,吊索 and dock elements coiling into a dizzying sense of depth, cinematic low angle. Harsh direct on-camera flash, blown-out highlights, hard shadows, raw candid snapshot feel. Die-cut white outlines, playful expressions, kawaii sticker-pack layout, bright flat colors, minimalist oriental balance. Bold vermilion and white contrast with clean negative-space white, sharp cinnabar red accents, iridescent holographic sheen, rainbow color shift on translucent PVC, pastel prismatic reflections, shimmering translucent surface. The lifted crate reveals ancient ceramic fragments and exotic patterns glinting under the flash. Visibly display the date and time text: \"2026-07-13 13:35 UTC\" in Traditional Chinese or English, integrated as a clear sticker-like label within the image. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "idea": "在西班牙梅諾卡島的懸崖港口，一隻四腳狗叼著小型攝影機的快門線，繞著碼頭邊正在吊起的沉船陶罐樣本追逐奔跑；畫面採用Q版貼圖角色集風格，螺旋漩渦構圖把繩索、浪花與貨箱捲成強烈動勢，閃光燈直打讓朱紅與白色形成銳利對比，表面帶有虹彩全息般的光澤。",
+    "avoid_list": [
+      "四腳狗趴著研究物件",
+      "前爪按住地圖或文件",
+      "俯瞰平面構圖",
+      "置中單一主體構圖",
+      "日常現場感寫實攝影",
+      "淺景深與35mm鏡頭",
+      "黃金時刻柔光",
+      "環形燈均勻打光",
+      "老舊室內場景",
+      "博物館或圖書館",
+      "車廂或維修車間",
+      "花園花海與溫室光束",
+      "穆夏式拱框構圖",
+      "懷舊復古膠片質感",
+      "可愛又認真嗅聞翻找"
+    ],
+    "news_inspiration": [
+      {
+        "summary": "科學家追蹤到第三個已知的星際天體「3I/ATLAS」，並從最新觀測推測它可能形成於一個相對平靜的行星系統邊緣。",
+        "url": "https://www.smithsonianmag.com/science-nature/a-rare-comet-made-history-as-the-third-known-interstellar-object-to-fly-through-our-solar-system-studies-are-now-revealing-the-mysterious-conditions-in-which-it-formed-180989056/",
+        "source": "Smithsonian Magazine"
+      },
+      {
+        "summary": "新研究指出，名為 3I/ATLAS 的星際彗星為天文學帶來罕見機會，讓人得以觀察外太陽系物質的化學組成與形成環境。",
+        "url": "https://www.smithsonianmag.com/science-nature/a-rare-comet-made-history-as-the-third-known-interstellar-object-to-fly-through-our-solar-system-studies-are-now-revealing-the-mysterious-conditions-in-which-it-formed-180989056/",
+        "source": "Smithsonian Magazine"
+      },
+      {
+        "summary": "考古學家在西班牙梅諾卡島發現三艘中世紀沉船遺址，出土貨物顯示當時基督教與穆斯林文化之間有活躍交流。",
+        "url": "https://www.smithsonianmag.com/history/take-an-exclusive-look-at-three-newly-discovered-medieval-shipwrecks-in-menorcas-cove-of-mysteries-180989048/",
+        "source": "Smithsonian Magazine"
+      },
+      {
+        "summary": "在泰國一處鐵器時代墓地，考古團隊挖出兩枚約 2,000 年前的金戒指，其中一枚還刻有印度文字。",
+        "url": "https://www.smithsonianmag.com/history/a-pair-of-2000-year-old-gold-rings-one-engraved-with-indian-script-was-discovered-in-an-iron-age-burial-ground-in-thailand-180989047/",
+        "source": "Smithsonian Magazine"
+      },
+      {
+        "summary": "英國足球界出現新話題：球迷熱烈關注 2026 世界盃前夕的隊伍備戰、球員狀態與賽事氛圍。",
+        "url": null,
+        "source": "BBC Sport"
+      }
+    ],
+    "title": "港灣旋影",
+    "inspiration": "考古學家在西班牙梅諾卡島發現三艘中世紀沉船遺址，出土貨物顯示當時基督教與穆斯林文化之間有活躍交流。",
+    "style_picks": {
+      "art_style": "Chibi Sticker Character Set",
+      "composition": "Spiral Vortex Frame",
+      "lighting": "Direct Flash",
+      "texture": "Iridescent Holographic",
+      "color_palette": "Vermilion and White"
+    },
+    "number": 103,
+    "story": "今晚的港灣剛把一批中世紀沉船貨物搬上岸，狗狗興奮地追著晃動的吊索來回穿梭，像在替考古隊守著第一手發現。箱內露出的陶器碎片與異國紋飾在直閃下微微反光，牠每一次繞圈都讓整個場面更像一場突發的海上尋寶秀。"
   }
 ]
