@@ -959,5 +959,18 @@
     "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-13_0535_UTC.webp",
     "number": 95,
     "model": "gpt-image-2 (codex-image-service / $imagegen)"
+  },
+  {
+    "title": "燭影拿鐵",
+    "inspiration": "original",
+    "number": 96,
+    "is_seasonal": true,
+    "timestamp": "2026-07-13 06:35 UTC",
+    "character_name": "拿鐵",
+    "status": "success",
+    "character": "latte",
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-13_0635_UTC.webp",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "season": "summer"
   }
 ]

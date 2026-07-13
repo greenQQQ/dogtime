@@ -4596,5 +4596,43 @@
       "夏日社區活動"
     ],
     "prompt": "A real smartphone snapshot photograph of Machi, a compact red Shiba Inu with a bright russet-red coat, clean cream urajiro on the cheeks, chin, chest, belly, and inner legs, two fluffy white cheek tufts, upright triangle ears, dark brown eyes, and a tightly curled tail over its back, crouching beside the wooden step at the entrance of an old Tokyo wagashi shop in a quiet alley. Machi stretches its neck forward and lightly rests its chin just below the edge of a low serving counter, intensely staring at freshly baked red bean mochi on the tabletop. Golden hour lighting, warm sunset glow, long soft shadows, subtle golden rim light, natural light only, candid everyday moment, casual composition, 35mm lens, f/1.8, shallow depth of field, realistic grain. Background: a shop clerk wiping the glass with a cloth; visible wooden window frames and the tactile weave of the tablecloth/linen texture. Muted Morandi-style colors with desaturated soft pastels and dusty grey undertones, quiet and warm atmosphere. Tiny-dog scale against the old storefront. Include clearly readable Traditional Chinese or English text in the image showing the date and time: '2026-07-13 05:35 UTC'. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字)."
+  },
+  {
+    "story": "今天是拿鐵每三週準時報到的美容日，牠一邊被吹風機照顧得服服貼貼，一邊把最軟的枕墊踢到自己身下，堅持要在冷氣最舒服的位置安穩待著。當美容師說出「漂亮」兩個字，牠立刻把圓滾滾的頭抬高，深棕圓眼閃著得意的光，連耳朵都像藏不住的驕傲。",
+    "inspiration": "original",
+    "idea": "在一間老派高級寵物沙龍的冷氣房裡，拿鐵以剪成夏日短捲毛的圓蓬泰迪造型，坐在黑紅緋色的天鵝絨美容台上，身旁燭光搖曳、液態金屬質感的梳具與深色花器反射出暗黑花卉肖像般的戲劇光澤。牠剛吹完毛，微微吐著粉色小舌，抬頭挺胸享受被誇「漂亮」的瞬間，像一顆精緻的杏紅色小點心在微縮立體模型般的空間裡成為全場焦點。",
+    "prompt": "PHOTOGRAPHY, real-life editorial pet portrait of Latte, a tiny apricot-red toy poodle with an even #C98B5E coat, soft tight curls, signature round teddy-bear trim, extra-fluffy round head and rounded muzzle, long floppy ears blended into the curls, small black button nose, dark-brown button eyes, tiny pink tongue peeking out, sweet bright slightly proud expression. Latte is clearly a four-legged dog sitting on a black-and-crimson velvet grooming table in an old-fashioned luxury pet salon with air conditioning, after a fresh summer short curly blow-dry, chest lifted and head held high as if just praised “漂亮”, one soft cushion tucked beneath the body. Surrounding the dog: candlelight flickering, dark floral portrait mood, white daisies and baby's breath as subtle framing accents, liquid-metal grooming tools and dark ceramic vases reflecting dramatic low-key highlights, mercury-like chrome drips and molten mirror sheen, crimson and jet-black dominance, intimate miniature diorama feel with tilt-shift effect and tiny detailed world scale. Renaissance-influenced contemporary photography aesthetic, shallow depth of field, 35mm lens, f/1.8, candid studio realism, soft dancing shadows, melancholic vanitas atmosphere, high-contrast dark floral lighting. Visually display the date and time text clearly in the image in Traditional Chinese or English: “2026-07-13 06:35 UTC”. No humans in focus, dog remains the unmistakable subject. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "character": "latte",
+    "season": "summer",
+    "title": "燭影拿鐵",
+    "number": 96,
+    "style_picks": {
+      "art_style": "Dark Floral Portrait",
+      "composition": "Miniature Diorama",
+      "lighting": "Candlelight",
+      "texture": "Liquid Metal",
+      "color_palette": "Crimson and Black"
+    },
+    "is_seasonal": true,
+    "news_inspiration": [],
+    "character_name": "拿鐵",
+    "avoid_list": [
+      "俯瞰空拍魚眼",
+      "直式裝飾藝術海報",
+      "等距三維插圖",
+      "粉彩夢幻微距",
+      "居中對稱構圖",
+      "強烈單一聚光",
+      "蝴蝶光柔頂光",
+      "冷色環形燈",
+      "狗叼著小禮物",
+      "前爪按住物件",
+      "沿著引導線前進",
+      "復古膠片顆粒",
+      "地攤市集日常",
+      "花海溫室花床",
+      "夏日社區活動"
+    ],
+    "comment_id": 4955125501
   }
 ]
