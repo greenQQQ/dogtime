@@ -5094,5 +5094,65 @@
     "inspiration": "TechCrunch 報導：一款沒有相機的智慧眼鏡主打生產力，試圖用「不錄影別人」的賣點打開市場。",
     "title": "藍青晨務",
     "prompt": "Contemporary Chinese doll-style illustration with modern chinoiserie aesthetics, a realistic yet stylized scene of a blue-and-white four-legged dog clearly visible under a Tokyo apartment breakfast bar, extreme low-angle shot looking up from floor level, dramatic towering perspective. The dog is lying down and using its front paw to hold and straighten a smart glasses charging dock with no lens, while a tablet beside it glows with a to-do list and family schedule. The dog’s gaze follows busy human hands above the counter and scattered memo stickers, capturing a quiet, functioning home in the early morning. Display the date and time clearly and legibly in the image as Traditional Chinese or English text: '2026-07-13 15:35 UTC'. Cool blue-teal color grading with icy undertones, soft diffused natural light, even illumination, no harsh shadows, serene and calm mood. Include detailed material textures such as supple genuine leather barstool seats, fine grain pattern, and a neatly organized corner storage box with tactile realism. Add subtle ink-wash background treatment with crackle texture, delicate traditional flora motifs, and restrained calligraphy scroll accents blended into the modern apartment setting. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字)."
+  },
+  {
+    "style_picks": {
+      "art_style": "Chinese Ink Wash",
+      "composition": "Isometric Photography",
+      "lighting": "Blacklight / UV Glow",
+      "texture": "Snake Scale Texture",
+      "color_palette": "Vermilion and White"
+    },
+    "inspiration": "韋伯太空望遠鏡發布壯觀新影像，呈現一個星系碰撞殘骸的細節，令人再次驚嘆宇宙的視覺之美。",
+    "idea": "在一座位於海邊的天文資料處理室裡，一隻黑白相間的四腳狗正用前掌按著發光的控制板，盯著桌面上由韋伯太空望遠鏡新影像投影出的星系殘骸圖，整個空間以水墨畫筆觸呈現，採等距攝影構圖，黑光螢光勾出朱紅與白色的邊界，地面與金屬桌腳覆著細緻蛇鱗肌理。",
+    "avoid_list": [
+      "正中央對稱構圖",
+      "四腳狗用鼻尖推動物件",
+      "黃金時刻暖色自然光",
+      "直打閃光與過曝高光",
+      "粉彩莫蘭迪柔霧色調",
+      "微縮場景玩具感",
+      "博物館／展廳長廊場景",
+      "老店門口與木質街景",
+      "霓虹高飽和未來感",
+      "玻璃展示箱內構圖",
+      "旋渦式動態構圖",
+      "淺景深 35mm 街拍",
+      "復古膠片顆粒質感",
+      "狗狗專注守護某個發現"
+    ],
+    "comment_id": 4960326217,
+    "story": "夜班工程師離開後，狗狗跳上低矮工作台旁的地面，開始用鼻尖與前掌反覆輕拍一排按鈕，像在替大家把最新的宇宙影像對焦。螢光在牆面流動，映得它耳尖發亮；而那張碰撞星系的殘骸圖，像一場安靜的海潮，讓整個房間都屏住了呼吸。",
+    "title": "星圖夜班",
+    "prompt": "Chinese ink wash illustration, sumi-e style on rice paper, minimalist brushwork with flowing gradients, perfectly isometric composition. In a seaside astronomical data processing room, a black-and-white four-legged dog clearly visible and centered, standing on the floor beside a low workbench, pressing a glowing control panel with its front paws and sniffing at the buttons as if focusing the latest cosmic image. On the desk, project a Web-based telescope image of a galaxy debris collision; the projected debris map feels like a quiet tide. Include the date and time visibly on a monitor or wall display: '2026-07-13 16:35 UTC'. Blacklight UV illumination with fluorescent pigments glowing, vibrant neon accents on a dark background, ethereal ultraviolet luminescence, black ink on rice paper, crisp graphic elegance. Use vermilion and white highlights with clean negative-space balance, bold cinnabar red edges, blacklight outlines tracing the boundaries. The floor and metal table legs covered in fine snake scale texture, overlapping iridescent reptilian scales with glossy patterned surface and sinuous organic sheen. Seaside atmosphere, wall light flowing softly, dog’s ear tips glowing, no miniature effect, highly legible scene, artistic illustration IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "news_inspiration": [
+      {
+        "summary": "科學家與經濟學家聯名呼籲各國加快制定人工智慧經濟衝擊的應對政策，凸顯全球對 AI 轉型的高度關注。",
+        "url": "https://www.investing.com/news/economic-indicators/over-200-experts-call-for-urgent-action-to-tackle-ais-economic-impact-4788096",
+        "source": "Reuters"
+      },
+      {
+        "summary": "韋伯太空望遠鏡發布壯觀新影像，呈現一個星系碰撞殘骸的細節，令人再次驚嘆宇宙的視覺之美。",
+        "url": "https://www.space.com/astronomy/james-webb-space-telescope/james-webb-space-telescope-celebrates-its-4th-birthday-with-stunning-image-of-a-galaxy-crash-site",
+        "source": "Space.com"
+      },
+      {
+        "summary": "Reuters 的「每日最佳照片」系列收錄了 2026 年 7 月 9 日的精彩畫面，從新聞到生活場景都充滿視覺張力。",
+        "url": "https://www.reutersconnect.com/feed/packages",
+        "source": "Reuters"
+      },
+      {
+        "summary": "AP 的世界盃報導提到炎熱天氣對球員與球迷的影響，也反映本屆賽事在全球吸引大量關注與精彩比賽。",
+        "url": "https://apnews.com/article/e88edfc869146a2898928177e8c52286",
+        "source": "Associated Press"
+      },
+      {
+        "summary": "《科學日報》整理的 2026 年 7 月 13 日科學新聞聚焦多項新發現，從牙周菌與心臟瓣膜鈣化到月球污染風險，題材新鮮而有趣。",
+        "url": "https://www.sciencedaily.com/news/top/science/",
+        "source": "ScienceDaily"
+      }
+    ],
+    "inspiration_url": "https://www.space.com/astronomy/james-webb-space-telescope/james-webb-space-telescope-celebrates-its-4th-birthday-with-stunning-image-of-a-galaxy-crash-site",
+    "number": 106
   }
 ]
