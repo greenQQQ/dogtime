@@ -4668,5 +4668,66 @@
       "texture": "Origami",
       "color_palette": "Teal and Orange"
     }
+  },
+  {
+    "prompt": "Illustration / art poster in mosaic collage style: a four-legged dachshund in front of the British Museum Bayeux Tapestry exhibition limestone corridor, carefully pressing its nose to a loose wool thread beside a glass display case as if stitching the last seam of ancient battle history. The entire scene is built from small colored tiles with grouted texture, ancient Roman / Byzantine aesthetic, framed in a portfolio-layout composition with vertical color swatch bars on both sides like a museum guide color card. Add bold stacked color blocks and a modern design-moodboard feel. Harsh direct on-camera flash, blown-out highlights, hard shadows, candid snapshot energy. Use lace openwork textures, delicate floral cutout patterns, fine translucent filigree, and scalloped edges across the wall and carpet, casting dense lace-like shadows. Duotone treatment with only two contrasting colors, cold-vs-warm tension, solemn yet quirky atmosphere. The date and time '2026-07-13 09:35 UTC' must be clearly visible in the image in English or Traditional Chinese. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "inspiration": "英國大英博物館的《貝葉掛毯》展覽門票在 7 月 1 日開賣後創下館方紀錄",
+    "title": "織影守望",
+    "style_picks": {
+      "art_style": "Mosaic",
+      "composition": "Color Palette Swatch Frame",
+      "lighting": "Direct Flash",
+      "texture": "Lace Openwork Texture",
+      "color_palette": "Duotone"
+    },
+    "comment_id": 4956574799,
+    "avoid_list": [
+      "俯瞰空拍魚眼",
+      "直式裝飾藝術海報",
+      "等距三維插圖",
+      "粉彩夢幻微距",
+      "居中對稱構圖",
+      "強烈單一聚光",
+      "蝴蝶光柔頂光",
+      "冷色環形燈",
+      "狗叼著小禮物",
+      "前爪按住物件",
+      "沿著引導線前進",
+      "復古膠片顆粒",
+      "地攤市集日常",
+      "花海溫室花床",
+      "夏日社區活動"
+    ],
+    "story": "今晚的展廳提早安靜下來，只剩保全、展板燈光，和那隻對織物纖維格外執著的臘腸狗。牠沿著玻璃櫃邊嗅聞、停住、再往前一步，彷彿被一場跨越千年的戰役與針線記憶吸住了注意力。",
+    "news_inspiration": [
+      {
+        "summary": "科學家於 7 月 10 日觀測到漢尼拔翻越阿爾卑斯山的路線與嚴峻代價，讓古代戰史多了具體的地形與生理證據。",
+        "url": "https://www.nature.com/articles/d41586-026-02138-9",
+        "source": "Nature"
+      },
+      {
+        "summary": "研究團隊在 7 月 9 日指出，造成超過一百萬隻海洋生物死亡的海洋災變元兇已被鎖定為特定藻類。",
+        "url": "https://www.nature.com/articles/d41586-026-02139-8",
+        "source": "Nature"
+      },
+      {
+        "summary": "科技圈最新動態顯示，SK Hynix 宣布籌資 265 億美元，成為美國史上最大外國 IPO，凸顯記憶體與 AI 供應鏈熱度。",
+        "url": "https://techcrunch.com/2026/07/",
+        "source": "TechCrunch"
+      },
+      {
+        "summary": "阿姆斯特丹以外的藝術話題中，英國大英博物館的《貝葉掛毯》展覽門票在 7 月 1 日開賣後創下館方紀錄。",
+        "url": "https://news.artnet.com/market/paint-drippings-art-industry-news-jul-6-2786089?amp=1",
+        "source": "Artnet News"
+      },
+      {
+        "summary": "文化與體育跨界的有趣新話題是，The Guardian 以世界盃為切入點，從運動傷害、VAR 到比賽心理學談科學。",
+        "url": "https://www.theguardian.com/science/series/science",
+        "source": "The Guardian"
+      }
+    ],
+    "idea": "在英國大英博物館《貝葉掛毯》展覽的石灰岩長廊外，一隻四腳臘腸狗正專注地用鼻尖追著展櫃旁散落的羊毛線頭，像在替古老戰史補上最後一針。整個畫面以馬賽克拼貼構成，配色條邊框像博物館導覽色卡般環繞四周，閃光燈直打之下，蕾絲鏤空質感把牆面與地毯壓出細密陰影，雙色調在冷暖之間拉出莊嚴又古怪的張力。",
+    "inspiration_url": "https://news.artnet.com/market/paint-drippings-art-industry-news-jul-6-2786089?amp=1",
+    "number": 99
   }
 ]
