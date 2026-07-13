@@ -4851,5 +4851,66 @@
     "idea": "在巴黎龐特訥夫橋下的透明玻璃展箱裡，一隻黑白相間的狗正把幾片被風吹皺的時裝布料叼到小型縫紉台旁，熱成像風格把牠的身體輪廓燒成明亮的灰階火焰，聚光燈直射在玻璃表面，映出像棉花糖雲朵般翻湧的紋理。整個畫面採玻璃容器置入構圖，四周是橋上大型藝術裝置與圍觀人群的倒影，黑白單色讓這場街頭秀更像一段冷峻又喧鬧的現場紀錄。",
     "comment_id": 4957527845,
     "inspiration_url": "https://www.reutersconnect.com/item/france-art-culture-jr-pont-neuf-installation-paris-may-13-2026/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1RUMUhOU0xDUzAwMDlFR0Q0Tg?lastViewed=dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1RUMUhOU0xDUzAwMDdORkVNMw&position=1"
+  },
+  {
+    "avoid_list": [
+      "四腳狗趴著研究物件",
+      "前爪按住地圖或文件",
+      "俯瞰平面構圖",
+      "置中單一主體構圖",
+      "日常現場感寫實攝影",
+      "淺景深與35mm鏡頭",
+      "黃金時刻柔光",
+      "環形燈均勻打光",
+      "老舊室內場景",
+      "博物館或圖書館",
+      "車廂或維修車間",
+      "花園花海與溫室光束",
+      "穆夏式拱框構圖",
+      "懷舊復古膠片質感",
+      "可愛又認真嗅聞翻找"
+    ],
+    "prompt": "Photorealistic street photography of a playful four-legged dachshund puppy on a transparent platform of a historic German suspended monorail station, intensely chasing a rolling bright red cable ball near the track edge; the scene includes smiling passengers leaning on the railings, a century-old elevated railway structure, escalators and railings creating strong leading lines and converging perspective deep into the frame, architectural framing toward the dog. High-saturation Y2K aesthetic with holographic textures, pastel gradients, glitter accents, playful early-2000s signage, vivid neon signs in the background, distant city facades, energetic high-contrast colors of hot pink, electric blue, and acid yellow. Butterfly lighting from the station roof with overhead key light, soft even illumination, subtle symmetrical shadow under the nose, glamorous yet candid natural light, realistic reflections on glass and metal. Cotton-candy sky with fluffy marshmallow-like pastel pink and blue clouds, whimsical volumetric cloud texture. Include clearly visible Traditional Chinese or English text displaying exactly: '2026-07-13 12:35 UTC' on a station sign or digital board. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "title": "懸軌追風",
+    "style_picks": {
+      "art_style": "Y2K Aesthetic",
+      "composition": "Leading Lines Composition",
+      "lighting": "Butterfly Lighting",
+      "texture": "Cotton Candy Clouds",
+      "color_palette": "High Saturation Vivid"
+    },
+    "idea": "在德國百年空中懸掛鐵路的透明車站月台上，一隻四腳小獵犬正專注追著軌道旁滾動的鮮紅纜線球，背景是高飽和的Y2K霓虹招牌與遠方城市立面，導線構圖把鐵軌、扶梯與欄杆一路拉向畫面深處。蝴蝶光從站頂灑落，棉花糖雲朵般的天空映著亮粉、電藍與酸黃，整個場景既像交通奇景，也像未來派的街頭冒險。",
+    "inspiration_url": "https://www.smithsonianmag.com/travel/when-germany-built-a-flying-train-125-years-ago-a-city-coalesced-beneath-it-it-has-moved-royalty-commuters-and-tourists-and-one-elephant-ever-since-180988855/",
+    "comment_id": 4958033792,
+    "inspiration": "史密森尼旅遊報導：德國125年前建造的空中懸掛鐵路，至今仍是一座充滿城市記憶的交通奇景。",
+    "story": "這隻狗每次聽見懸掛列車經過的金屬低鳴，就會把注意力放在月台邊那顆被風推動的纜線球上，像在參加一場只有牠懂規則的追逐賽。旅客們靠在欄杆旁微笑觀望，將這段百年鐵路的城市記憶，意外變成今天最生動的一幕。",
+    "number": 102,
+    "news_inspiration": [
+      {
+        "summary": "史密森尼報導：一項新研究顯示，遠古海洋留下的多彩菊石化石保存得極其精美，宛如仍在閃耀。",
+        "url": "https://www.smithsonianmag.com/articles/an-ancient-sea-once-split-north-america-down-the-middle-the-beautiful-multicolored-ammonite-shells-from-its-waters-are-so-perfectly-preserved-that-they-still-shimmer-today-180988859/",
+        "source": "Smithsonian Magazine"
+      },
+      {
+        "summary": "史密森尼報導：一名革命戰爭少年士兵的身分被DNA與家譜研究重新確認，解開了將近250年的身世謎團。",
+        "url": "https://www.smithsonianmag.com/history/dna-reveals-the-identity-of-a-teenager-who-died-in-the-revolutionary-war-cracking-a-nearly-250-year-old-cold-case-180988858/",
+        "source": "Smithsonian Magazine"
+      },
+      {
+        "summary": "史密森尼精選圖輯：中央公園的綠意、開闊空間與建築之美，呈現紐約市難得的自然喘息。",
+        "url": "https://www.smithsonianmag.com/articles/verdant-beauty-wide-open-spaces-elegant-architecture-have-a-look-at-15-photos-that-show-why-central-park-is-the-lifeblood-of-manhattan-180988857/",
+        "source": "Smithsonian Magazine"
+      },
+      {
+        "summary": "史密森尼旅遊報導：德國125年前建造的空中懸掛鐵路，至今仍是一座充滿城市記憶的交通奇景。",
+        "url": "https://www.smithsonianmag.com/travel/when-germany-built-a-flying-train-125-years-ago-a-city-coalesced-beneath-it-it-has-moved-royalty-commuters-and-tourists-and-one-elephant-ever-since-180988855/",
+        "source": "Smithsonian Magazine"
+      },
+      {
+        "summary": "史密森尼藝術文化報導：觀眾可一窺吉姆·漢森工作室，了解《芝麻街》角色等奇幻木偶的製作過程。",
+        "url": "https://www.smithsonianmag.com/arts-culture/a-peek-inside-jim-hensons-creature-shop-where-sesame-street-characters-and-other-whimsical-puppets-are-designed-180988856/",
+        "source": "Smithsonian Magazine"
+      }
+    ]
   }
 ]
