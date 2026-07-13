@@ -937,5 +937,16 @@
     "character_name": "布丁",
     "number": 93,
     "model": "gpt-image-2 (codex-image-service / $imagegen)"
+  },
+  {
+    "timestamp": "2026-07-13 04:35 UTC",
+    "title": "書頁穩影",
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-13_0435_UTC.webp",
+    "inspiration": "一項分析 70,000 份研究的新研究顯示，預印本的核心結論多半在正式發表後仍維持穩定。",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "crossover": true,
+    "number": 94,
+    "status": "success",
+    "inspiration_url": "https://www.nature.com/news"
   }
 ]
