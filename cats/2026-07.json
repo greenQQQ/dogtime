@@ -4534,5 +4534,67 @@
     "crossover": true,
     "prompt": "Dreamy pastel editorial photography of a Labrador retriever seated at a round table in an old medical library, centered dead-on as the single focal point with balanced symmetrical framing. The dog is clearly and carefully using its nose and front paws to flip through an open research journal, with annotated preprint papers scattered on the tabletop, showing the contrast between preprints and the formal journal. A few researchers stand paused in the background, watching quietly. Include the date and time visibly displayed in Traditional Chinese or English: “2026-07-13 04:35 UTC”. Ring light illumination creates even frontal lighting and a circular catchlight in the dog’s eyes; soft light passes through frosted glass partitions, revealing blurred shapes behind them. Whimsical surreal atmosphere, kawaii editorial styling, cotton-candy softness, candy-colored accents, retro faded tones, washed-out vintage warmth, low contrast, nostalgic film grain, clean surrounding space, direct iconic presentation, real photograph look, 35mm lens, f/2.0, shallow depth of field, natural candid editorial shot. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
     "inspiration_url": "https://www.nature.com/news"
+  },
+  {
+    "style_picks": {
+      "art_style": "Smartphone Snapshot",
+      "composition": "Tiny Figure Scale Contrast",
+      "lighting": "Golden Hour",
+      "texture": "Fabric / Textile",
+      "color_palette": "Morandi Color Palette"
+    },
+    "character": "machi",
+    "idea": "手機隨拍感的黃金時刻裡，麻吉蹲在東京一間老舊和菓子店門口的木頭階梯旁，脖子前探、把下巴輕輕壓在桌沿下方的低矮餐台邊，專注盯著剛出爐的紅豆麻糬；背景裡店員正用布巾擦拭玻璃，細看能見木窗框與桌巾的織品質感，莫蘭迪色調讓整個巷口安靜又溫暖。",
+    "news_inspiration": [
+      {
+        "summary": "科學家在南澳海域鎖定引發大規模海洋生物死亡的有毒藻類，揭開一場海洋生態災害的元凶。",
+        "url": "https://www.nature.com/subjects/marine-biology/nature",
+        "source": "Nature"
+      },
+      {
+        "summary": "研究人員首次在實地觀察到海底板塊裂開並噴發熔岩，畫面極具震撼。",
+        "url": "https://www.nature.com/subjects/ocean-sciences/nature",
+        "source": "Nature"
+      },
+      {
+        "summary": "Smithsonian 報導考古學家在埃及綠洲發現一座1600年前的拜占庭基督教城鎮遺址文物。",
+        "url": "https://www.smithsonianmag.com/smart-news/see-artifacts-that-archaeologists-discovered-in-this-1600-year-old-byzantine-christian-town-buried-in-an-oasis-in-egypt-180989096/",
+        "source": "Smithsonian Magazine"
+      },
+      {
+        "summary": "科學家發現大足蝙蝠會在飛行中捕食小鳥，還可能早被文藝復興畫家描繪過，兼具科學與藝術趣味。",
+        "url": "https://www.smithsonianmag.com/smart-news/scientists-just-learned-that-this-bat-eats-birds-midflight-a-renaissance-painter-may-have-known-about-it-hundreds-of-years-ago-180989096/",
+        "source": "Smithsonian Magazine"
+      },
+      {
+        "summary": "年度速度通關慈善馬拉松 Summer Games Done Quick 再次募得超過200萬美元，展現遊戲社群的熱情與公益力。",
+        "url": "https://www.engadget.com/latest/",
+        "source": "Engadget"
+      }
+    ],
+    "character_name": "麻吉",
+    "comment_id": 4954782201,
+    "number": 95,
+    "story": "麻吉今天照例守著自己認定的「不能改路線」——從巷口轉進和菓子店，只為確認晚點那份便當邊角與麻糬是不是都會準時出現。牠明明一臉本柴不需要，尾巴卻在背上悄悄繞得更緊，像是在替這座老街的傍晚蓋章。",
+    "title": "巷口守候",
+    "inspiration": "original",
+    "avoid_list": [
+      "俯瞰空拍魚眼",
+      "直式裝飾藝術海報",
+      "等距三維插圖",
+      "粉彩夢幻微距",
+      "居中對稱構圖",
+      "強烈單一聚光",
+      "蝴蝶光柔頂光",
+      "冷色環形燈",
+      "狗叼著小禮物",
+      "前爪按住物件",
+      "沿著引導線前進",
+      "復古膠片顆粒",
+      "地攤市集日常",
+      "花海溫室花床",
+      "夏日社區活動"
+    ],
+    "prompt": "A real smartphone snapshot photograph of Machi, a compact red Shiba Inu with a bright russet-red coat, clean cream urajiro on the cheeks, chin, chest, belly, and inner legs, two fluffy white cheek tufts, upright triangle ears, dark brown eyes, and a tightly curled tail over its back, crouching beside the wooden step at the entrance of an old Tokyo wagashi shop in a quiet alley. Machi stretches its neck forward and lightly rests its chin just below the edge of a low serving counter, intensely staring at freshly baked red bean mochi on the tabletop. Golden hour lighting, warm sunset glow, long soft shadows, subtle golden rim light, natural light only, candid everyday moment, casual composition, 35mm lens, f/1.8, shallow depth of field, realistic grain. Background: a shop clerk wiping the glass with a cloth; visible wooden window frames and the tactile weave of the tablecloth/linen texture. Muted Morandi-style colors with desaturated soft pastels and dusty grey undertones, quiet and warm atmosphere. Tiny-dog scale against the old storefront. Include clearly readable Traditional Chinese or English text in the image showing the date and time: '2026-07-13 05:35 UTC'. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字)."
   }
 ]
