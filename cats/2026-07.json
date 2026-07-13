@@ -4729,5 +4729,66 @@
     "idea": "在英國大英博物館《貝葉掛毯》展覽的石灰岩長廊外，一隻四腳臘腸狗正專注地用鼻尖追著展櫃旁散落的羊毛線頭，像在替古老戰史補上最後一針。整個畫面以馬賽克拼貼構成，配色條邊框像博物館導覽色卡般環繞四周，閃光燈直打之下，蕾絲鏤空質感把牆面與地毯壓出細密陰影，雙色調在冷暖之間拉出莊嚴又古怪的張力。",
     "inspiration_url": "https://news.artnet.com/market/paint-drippings-art-industry-news-jul-6-2786089?amp=1",
     "number": 99
+  },
+  {
+    "idea": "故障藝術風格的側臉特寫：一隻四腳臘腸狗在紐約曼哈頓高架天橋的欄邊，專注叼著一卷亮橘色的反光警示帶，替街角的攝影隊把路面臨時圍起來；背光與輪廓光把牠的耳緣與鼻尖勾成銅色，腳下的積水映出扭曲閃爍的城市天際線。畫面以鏡面水反射延展出暖琥珀與秋色調，數位雜訊與色偏讓整個黃昏像被電流輕輕撕裂。",
+    "inspiration": "紐約曼哈頓出現一年兩次的「曼哈頓日落奇景」，攝影愛好者可在高樓夾道間捕捉夕陽對齊街廓的畫面。",
+    "prompt": "Glitch art digital illustration, side profile close-up of a four-legged dachshund on the edge of a Manhattan elevated overpass in New York, carefully holding and pulling a roll of bright orange reflective caution tape to cordon off the street for a street-corner film crew. Clean silhouette of nose and chin, profile-defining contour, elegant lateral framing, backlighting with rim light, glowing copper edges on the ear tips and nose, dramatic mood. The wet pavement below mirrors a distorted, flickering city skyline in mirror-water reflection, symmetrical inverted image with subtle ripples, glassy still surface, warm amber color grading, autumn tones, golden yellows and burnt orange. Digital distortion, RGB channel shift, corrupted data aesthetic, scan line artifacts, fragmented visuals, visible digital noise and color bleed, as if the sunset is gently torn by electricity. The scene is filled with Manhattan sunset-chasing photographers in the background, but the dog is the clear focal subject, actively placing the tape to protect the puddles. Display the exact text '2026-07-13 10:35 UTC' clearly within the image in Traditional Chinese or English typography, integrated naturally as a visible on-screen timestamp. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "avoid_list": [
+      "四腳狗趴著研究物件",
+      "前爪按住地圖或文件",
+      "俯瞰平面構圖",
+      "置中單一主體構圖",
+      "日常現場感寫實攝影",
+      "淺景深與35mm鏡頭",
+      "黃金時刻柔光",
+      "環形燈均勻打光",
+      "老舊室內場景",
+      "博物館或圖書館",
+      "車廂或維修車間",
+      "花園花海與溫室光束",
+      "穆夏式拱框構圖",
+      "懷舊復古膠片質感",
+      "可愛又認真嗅聞翻找"
+    ],
+    "story": "那天正好是曼哈頓日落奇景，街道兩側擠滿了等待對齊夕陽的攝影愛好者。小狗忙著把警示帶拖到最佳位置，彷彿知道今天的光線太珍貴，不能讓任何人跌進水窪裡。",
+    "inspiration_url": "https://apnews.com/article/32a00e4ce1e706c4a2c5b86b0d80e1da",
+    "news_inspiration": [
+      {
+        "summary": "紐約曼哈頓出現一年兩次的「曼哈頓日落奇景」，攝影愛好者可在高樓夾道間捕捉夕陽對齊街廓的畫面。",
+        "url": "https://apnews.com/article/32a00e4ce1e706c4a2c5b86b0d80e1da",
+        "source": "Associated Press"
+      },
+      {
+        "summary": "科學家發現英國諾福克的英國斑鳳蝶其實早在約二十萬年前就與歐洲近親分家，改寫保育與演化理解。",
+        "url": "https://www.theguardian.com/science%2Btone/news",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "研究指出，蚊蟲防護乳效果可與 DEET 相當，若進一步普及，或可帶來更親切也更永續的防蚊選擇。",
+        "url": "https://www.theguardian.com/science%2Btone/news",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "從「不滑手機也能上癮」的觀鳥熱潮，到年輕世代重新擁抱鳥類觀察，鳥類文化正意外回潮。",
+        "url": "https://www.theguardian.com/science/2026/jul/07/all",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "世界盃持續帶動球迷熱潮，美國隊開幕戰以 4 比 1 擊敗巴拉圭，點燃主場觀眾情緒。",
+        "url": "https://apnews.com/article/46d54749fcebbf18100fa901d56c4119",
+        "source": "Associated Press"
+      }
+    ],
+    "title": "夕照警戒線",
+    "comment_id": 4957082672,
+    "number": 100,
+    "style_picks": {
+      "art_style": "Glitch Art",
+      "composition": "Side Profile Portrait",
+      "lighting": "Backlighting / Rim Light",
+      "texture": "Mirror Water Reflection",
+      "color_palette": "Warm Tones (Amber / Autumn)"
+    }
   }
 ]

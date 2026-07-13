@@ -999,5 +999,15 @@
     "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-13_0935_UTC.webp",
     "status": "success",
     "number": 99
+  },
+  {
+    "timestamp": "2026-07-13 10:35 UTC",
+    "inspiration": "紐約曼哈頓出現一年兩次的「曼哈頓日落奇景」，攝影愛好者可在高樓夾道間捕捉夕陽對齊街廓的畫面。",
+    "status": "success",
+    "title": "夕照警戒線",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "number": 100,
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-13_1035_UTC.webp",
+    "inspiration_url": "https://apnews.com/article/32a00e4ce1e706c4a2c5b86b0d80e1da"
   }
 ]
