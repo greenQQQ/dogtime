@@ -4790,5 +4790,66 @@
       "texture": "Mirror Water Reflection",
       "color_palette": "Warm Tones (Amber / Autumn)"
     }
+  },
+  {
+    "number": 101,
+    "prompt": "Photorealistic street-performance scene inside a transparent glass display case beneath Pont Neuf Bridge in Paris, a black-and-white dog clearly visible as it grips wrinkled fashion fabric scraps in its mouth and drags them beside a tiny sewing table, actively gathering loose threads and cloth into order. Inside-the-glass-vessel composition with a refractive glass border, the dog staged as a miniature world, surrounded by mirrored reflections of large bridge-top art installations and a watching crowd. Thermal imaging style overlay with infrared vision, heat map color gradient, temperature visualization, bright grey flame-like contour around the dog’s body, subtle red-yellow-blue spectrum accents, dramatic high-contrast black-and-white monochrome overall. Narrow beam spotlight hitting the glass surface, sharp light edges, deep darkness falloff, cotton-candy cloud-like turbulent textures reflected across the glass like fluffy cumulus puffs. Include visible Traditional Chinese or English text in the scene showing the exact date and time: '2026-07-13 11:35 UTC'. Cinematic documentary feel, candid real-world photograph, 35mm lens, f/1.8, shallow depth of field, crisp reflections, dark urban atmosphere, lively yet austere street-show mood. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "style_picks": {
+      "art_style": "Thermal Imaging",
+      "composition": "Inside-the-Glass-Vessel Composition",
+      "lighting": "Spotlight",
+      "texture": "Cotton Candy Clouds",
+      "color_palette": "Monochrome / Black and White"
+    },
+    "news_inspiration": [
+      {
+        "summary": "世界盃帶來球迷的喜悅與難忘回憶，Reuters 以影像故事呈現各國球迷的熱情與情緒起伏。",
+        "url": "https://www.reutersconnect.com/item/the-wider-image-world-cup-brings-fans-joy-torment-and-a-lifetime-of-memories/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDMjYxTUFZTVFNVQ",
+        "source": "Reuters Connect"
+      },
+      {
+        "summary": "米蘭時裝周精選展示羽毛、花朵與誇張剪裁等造型亮點，畫面感十足。",
+        "url": "https://www.reutersconnect.com/feed/packages",
+        "source": "Reuters Connect"
+      },
+      {
+        "summary": "法國巴黎龐特訥夫橋上的大型藝術裝置吸引目光，呈現公共藝術的壯觀視覺效果。",
+        "url": "https://www.reutersconnect.com/item/france-art-culture-jr-pont-neuf-installation-paris-may-13-2026/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1RUMUhOU0xDUzAwMDlFR0Q0Tg?lastViewed=dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1RUMUhOU0xDUzAwMDdORkVNMw&position=1",
+        "source": "Reuters Connect"
+      },
+      {
+        "summary": "巴塞爾藝術展的觀眾近距離欣賞作品，反映國際藝術市場的現場氛圍。",
+        "url": "https://www.reutersconnect.com/item/visitors-look-at-an-artwork-displayed-at-art-basel/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDMk9WTEFDTVg2Qg%3D%3D",
+        "source": "Reuters Connect"
+      },
+      {
+        "summary": "帕爾馬的傳統乳酪在氣候變遷下受影響，這則報導從食物與環境角度切入，既新鮮又具畫面感。",
+        "url": "https://www.reutersconnect.com/item/how-climate-change-is-putting-traditional-parmesan-cheese-at-risk/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX0VYQU1QTEU",
+        "source": "Reuters Connect"
+      }
+    ],
+    "inspiration": "法國巴黎龐特訥夫橋上的大型藝術裝置吸引目光，呈現公共藝術的壯觀視覺效果。",
+    "title": "橋下縫光",
+    "avoid_list": [
+      "四腳狗趴著研究物件",
+      "前爪按住地圖或文件",
+      "俯瞰平面構圖",
+      "置中單一主體構圖",
+      "日常現場感寫實攝影",
+      "淺景深與35mm鏡頭",
+      "黃金時刻柔光",
+      "環形燈均勻打光",
+      "老舊室內場景",
+      "博物館或圖書館",
+      "車廂或維修車間",
+      "花園花海與溫室光束",
+      "穆夏式拱框構圖",
+      "懷舊復古膠片質感",
+      "可愛又認真嗅聞翻找"
+    ],
+    "story": "這隻狗每天都守在展箱裡，等著風把橋上的布料捲進來，牠就用嘴把散落的線頭和布片聚攏到工作台邊。路過的觀眾以為牠只是玩耍，直到看到牠一次次把材料推回聚光燈下，像在替某位看不見的設計師維持最後的秩序。",
+    "idea": "在巴黎龐特訥夫橋下的透明玻璃展箱裡，一隻黑白相間的狗正把幾片被風吹皺的時裝布料叼到小型縫紉台旁，熱成像風格把牠的身體輪廓燒成明亮的灰階火焰，聚光燈直射在玻璃表面，映出像棉花糖雲朵般翻湧的紋理。整個畫面採玻璃容器置入構圖，四周是橋上大型藝術裝置與圍觀人群的倒影，黑白單色讓這場街頭秀更像一段冷峻又喧鬧的現場紀錄。",
+    "comment_id": 4957527845,
+    "inspiration_url": "https://www.reutersconnect.com/item/france-art-culture-jr-pont-neuf-installation-paris-may-13-2026/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1RUMUhOU0xDUzAwMDlFR0Q0Tg?lastViewed=dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1RUMUhOU0xDUzAwMDdORkVNMw&position=1"
   }
 ]
