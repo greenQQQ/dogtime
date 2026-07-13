@@ -5034,5 +5034,65 @@
     ],
     "comment_id": 4959166316,
     "title": "苔碑光旋"
+  },
+  {
+    "idea": "新中式少女插畫風格，極低角度拍攝一隻藍白相間的四腳狗趴在東京公寓的早餐吧台下方，正用前爪按住一台沒有鏡頭的智慧眼鏡充電座，旁邊的平板亮著待辦清單與家庭日程，整體以冷色調藍青與柔和漫射自然光呈現，皮革椅面與牆角收納盒帶出細膩材質感。狗的視線追著桌上忙碌的人類手部與散落的筆記貼紙，場景真實而安靜，像一個正在運作中的家。",
+    "style_picks": {
+      "art_style": "Contemporary Chinese Doll Illustration",
+      "composition": "Extreme Low Angle",
+      "lighting": "Soft Diffused Natural Light",
+      "texture": "Leather",
+      "color_palette": "Cool Tones (Blue / Teal)"
+    },
+    "inspiration_url": "https://techcrunch.com/2026/07/",
+    "news_inspiration": [
+      {
+        "summary": "Nature 報導：科學家正以幹細胞培育早期人類精子，讓不孕治療更接近突破。",
+        "url": "https://www.nature.com/news",
+        "source": "Nature"
+      },
+      {
+        "summary": "Nature 報導：研究團隊首次即時觀察到海底板塊分裂並噴發熔岩，畫面非常壯觀。",
+        "url": "https://www.nature.com/news",
+        "source": "Nature"
+      },
+      {
+        "summary": "TechCrunch 報導：一款沒有相機的智慧眼鏡主打生產力，試圖用「不錄影別人」的賣點打開市場。",
+        "url": "https://techcrunch.com/2026/07/",
+        "source": "TechCrunch"
+      },
+      {
+        "summary": "TechCrunch 報導：OpenAI 讓 ChatGPT 更深入家庭場景，開始把產品定位到「家用」用途。",
+        "url": "https://techcrunch.com/2026/07/",
+        "source": "TechCrunch"
+      },
+      {
+        "summary": "Reuters 影像專題：世界盃精彩照片持續更新，捕捉球迷、進球與賽場瞬間的視覺張力。",
+        "url": "https://www.reutersconnect.com/collection/pictures-of-the-day-july-10-2026/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDM1BLRzAwMDEwNzE1OA",
+        "source": "Reuters Connect"
+      }
+    ],
+    "avoid_list": [
+      "正中央對稱構圖",
+      "四腳狗用鼻尖推動物件",
+      "黃金時刻暖色自然光",
+      "直打閃光與過曝高光",
+      "粉彩莫蘭迪柔霧色調",
+      "微縮場景玩具感",
+      "博物館／展廳長廊場景",
+      "老店門口與木質街景",
+      "霓虹高飽和未來感",
+      "玻璃展示箱內構圖",
+      "旋渦式動態構圖",
+      "淺景深 35mm 街拍",
+      "復古膠片顆粒質感",
+      "狗狗專注守護某個發現"
+    ],
+    "story": "清晨，屋裡沒有任何誇張的聲響，只有咖啡機和筆電風扇的低鳴。那隻狗守在吧台下，用爪子把眼鏡充電座推正，好讓主人一回頭就能看見今天的家務與會議安排。",
+    "comment_id": 4959732992,
+    "number": 105,
+    "inspiration": "TechCrunch 報導：一款沒有相機的智慧眼鏡主打生產力，試圖用「不錄影別人」的賣點打開市場。",
+    "title": "藍青晨務",
+    "prompt": "Contemporary Chinese doll-style illustration with modern chinoiserie aesthetics, a realistic yet stylized scene of a blue-and-white four-legged dog clearly visible under a Tokyo apartment breakfast bar, extreme low-angle shot looking up from floor level, dramatic towering perspective. The dog is lying down and using its front paw to hold and straighten a smart glasses charging dock with no lens, while a tablet beside it glows with a to-do list and family schedule. The dog’s gaze follows busy human hands above the counter and scattered memo stickers, capturing a quiet, functioning home in the early morning. Display the date and time clearly and legibly in the image as Traditional Chinese or English text: '2026-07-13 15:35 UTC'. Cool blue-teal color grading with icy undertones, soft diffused natural light, even illumination, no harsh shadows, serene and calm mood. Include detailed material textures such as supple genuine leather barstool seats, fine grain pattern, and a neatly organized corner storage box with tactile realism. Add subtle ink-wash background treatment with crackle texture, delicate traditional flora motifs, and restrained calligraphy scroll accents blended into the modern apartment setting. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字)."
   }
 ]
