@@ -4973,5 +4973,66 @@
     },
     "number": 103,
     "story": "今晚的港灣剛把一批中世紀沉船貨物搬上岸，狗狗興奮地追著晃動的吊索來回穿梭，像在替考古隊守著第一手發現。箱內露出的陶器碎片與異國紋飾在直閃下微微反光，牠每一次繞圈都讓整個場面更像一場突發的海上尋寶秀。"
+  },
+  {
+    "inspiration_url": "https://www.livescience.com/archaeology/boston-free-black-person-oldest-gravestone-discovered",
+    "avoid_list": [
+      "四腳狗趴著研究物件",
+      "前爪按住地圖或文件",
+      "俯瞰平面構圖",
+      "置中單一主體構圖",
+      "日常現場感寫實攝影",
+      "淺景深與35mm鏡頭",
+      "黃金時刻柔光",
+      "環形燈均勻打光",
+      "老舊室內場景",
+      "博物館或圖書館",
+      "車廂或維修車間",
+      "花園花海與溫室光束",
+      "穆夏式拱框構圖",
+      "懷舊復古膠片質感",
+      "可愛又認真嗅聞翻找"
+    ],
+    "idea": "以不透明水彩描繪一隻四腳柯基在波士頓墓園修復現場的地下探勘通道裡，用鼻尖推動一個迷你投影儀；魚眼鏡頭把拱形石階與濕潤苔蘚誇張地包進畫面，水下焦散光像從地底水層折射進來，整體是粉彩色系的怪奇寧靜。通道盡頭立著一塊剛出土的古老墓碑，碑面映出一圈圈像光學斯格明子的旋渦光斑，讓整個場景既像歷史現場又像未來實驗室。",
+    "prompt": "Opaque gouache painting, illustrative art with bold flat colors and matte finish, depicting a four-legged corgi clearly pushing a mini projector forward with its nose inside an underground survey tunnel at a Boston cemetery restoration site. Fisheye wide-angle lens, strong barrel distortion, exaggerated foreground, 360-degree feeling, arched stone steps and wet moss wrapped dramatically into the frame. Underwater caustic lighting and refracted light shafts appear to rise from beneath the ground, rippling blue-green glow dancing across damp stone, with a submerged dreamlike atmosphere. Soft pastel color palette of gentle pink, lavender, mint, and baby blue, creating a strange yet peaceful mood. At the tunnel’s end stands an unearthed ancient gravestone, and on its face the projected image forms swirling concentric optical skyrmion-like light spots, making the scene feel both like a historical excavation and a futuristic laboratory. Include visible text in Traditional Chinese or English showing the date and time exactly: 2026-07-13 14:35 UTC. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "inspiration": "麻省波士頓修復墓園時發現一位18世紀獲自由黑人的古老墓碑，帶來珍貴的歷史故事。",
+    "story": "夜裡修復隊離開後，這隻柯基偷偷鑽進墓園下方的探勘通道，把掉在地上的投影儀一路用鼻子頂到墓碑前。當影像投上碑面，那些柔和旋渦竟和苔蘚水光交疊成一種古老又前衛的紋理，彷彿替被遺忘的名字重新點亮了座標。",
+    "style_picks": {
+      "art_style": "Gouache",
+      "composition": "Fisheye Lens",
+      "lighting": "Underwater Caustics",
+      "texture": "Moss Overgrowth",
+      "color_palette": "Pastel Colors"
+    },
+    "number": 104,
+    "news_inspiration": [
+      {
+        "summary": "科學家以兩百年前的光學效應產生「光學斯格明子」，有望帶來未來新型電腦元件。",
+        "url": "https://www.sciencedaily.com/releases/2026/07/260713112233.htm",
+        "source": "ScienceDaily"
+      },
+      {
+        "summary": "麻省波士頓修復墓園時發現一位18世紀獲自由黑人的古老墓碑，帶來珍貴的歷史故事。",
+        "url": "https://www.livescience.com/archaeology/boston-free-black-person-oldest-gravestone-discovered",
+        "source": "Live Science"
+      },
+      {
+        "summary": "Nature 報導研究人員正接近用幹細胞製造人類精子，這項生殖科技進展充滿科幻感。",
+        "url": "https://www.nature.com/articles/d41586-026-02180-4",
+        "source": "Nature"
+      },
+      {
+        "summary": "Nature 報導海底觀測首次直接拍到海洋地殼在板塊交界處生成，畫面與科學意義都很驚人。",
+        "url": "https://www.nature.com/articles/d41586-026-02181-3",
+        "source": "Nature"
+      },
+      {
+        "summary": "Live Science 本週整理多則有趣科學新聞，包括迷你宇宙中時間的出現與北極海冰加厚實驗。",
+        "url": "https://www.livescience.com/physics-mathematics/science-news-this-week-time-emerges-inside-a-mini-universe-scientists-thicken-arctic-ice-and-one-of-the-oldest-graves-of-a-free-black-person-in-the-us-found",
+        "source": "Live Science"
+      }
+    ],
+    "comment_id": 4959166316,
+    "title": "苔碑光旋"
   }
 ]
