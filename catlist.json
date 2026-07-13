@@ -981,5 +981,13 @@
     "title": "窯火守味",
     "inspiration": "original",
     "model": "gpt-image-2 (codex-image-service / $imagegen)"
+  },
+  {
+    "timestamp": "2026-07-13 08:35 UTC",
+    "url": null,
+    "status": "failed",
+    "model": "all failed",
+    "error": "codex-image-service job failed: Codex timed out after 360 seconds",
+    "number": null
   }
 ]
