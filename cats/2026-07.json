@@ -4634,5 +4634,39 @@
       "夏日社區活動"
     ],
     "comment_id": 4955125501
+  },
+  {
+    "prompt": "Realistic candid photograph in a point-and-shoot IXUS consumer camera style, direct flash, slightly overexposed highlights, casual snapshot feel, 35mm equivalent, shallow depth of field, fine grain. A four-legged corgi in an Italian seaside town stands in front of a stone bread oven, carefully using its nose to push a wooden pizza peel so the edge of the pizza turns toward the fire; the dog’s action must be clearly visible and focused. Evening blackout atmosphere, the old baker absent, candlelight warming the brick walls and wrought-iron rack inside the oven alcove. Compose the scene inside a Mucha-style arched frame: symmetrical ornamental rounded arch, decorative border halo, subtle floral motifs, Art Nouveau panel framing. Add Origami-style folded-paper visual structure in the textures and forms: clean geometric creases, sharp angular folds, precise minimal paper-sculpture look, especially in the oven, bricks, and shadows. Teal-and-orange cinematic grading, warm orange firelight and candle glow against cool blue-green shadows, punchy balanced contrast, soft dancing shadows, intimate seaside ambiance. Show the date and time clearly in the image as Traditional Chinese or English text: '2026-07-13 07:35 UTC'. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "news_inspiration": [],
+    "number": 97,
+    "title": "窯火守味",
+    "avoid_list": [
+      "俯瞰空拍魚眼",
+      "直式裝飾藝術海報",
+      "等距三維插圖",
+      "粉彩夢幻微距",
+      "居中對稱構圖",
+      "強烈單一聚光",
+      "蝴蝶光柔頂光",
+      "冷色環形燈",
+      "狗叼著小禮物",
+      "前爪按住物件",
+      "沿著引導線前進",
+      "復古膠片顆粒",
+      "地攤市集日常",
+      "花海溫室花床",
+      "夏日社區活動"
+    ],
+    "idea": "以 IXUS 消費相機風格拍攝，一隻四腳柯基在義大利海邊小鎮的石造麵包窯前專注地用鼻尖推動木鏟，把烤盤邊緣的披薩轉向火焰。畫面採穆夏式拱框構圖，拱頂內側是被燭光染暖的磚牆與鍛鐵架，青橙電影調讓爐火與陰影在摺紙般清晰的紋理裡形成鮮明對比。",
+    "story": "傍晚停電後，老麵包師把最後一盤披薩留在窯裡，轉身去找蠟燭時，柯基悄悄溜到爐前。它不是在搗亂，而是憑著烤麵包的香氣，認真把烤盤往裡推了一點，像在守著今晚最重要的晚餐。",
+    "comment_id": 4955580609,
+    "inspiration": "original",
+    "style_picks": {
+      "art_style": "Point-and-Shoot Camera Aesthetic",
+      "composition": "Mucha Arched Frame Composition",
+      "lighting": "Candlelight",
+      "texture": "Origami",
+      "color_palette": "Teal and Orange"
+    }
   }
 ]
