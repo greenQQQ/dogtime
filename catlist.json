@@ -911,5 +911,19 @@
     "inspiration_url": "https://apnews.com/article/834a8df578cce5f11595c31dd46801ce",
     "status": "success",
     "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-12_1700_UTC.webp"
+  },
+  {
+    "inspiration": "科學博物館把足球科技帶進世界盃球迷體驗中，讓人從另一個角度看到運動與科技的結合。",
+    "season": "summer",
+    "character_name": "小嗚",
+    "character": "wuwu",
+    "number": 92,
+    "status": "success",
+    "title": "冷氣球迷王",
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-13_0235_UTC.webp",
+    "inspiration_url": "https://www.reutersconnect.com/item/science-museum-brings-soccer-tech-to-world-cup-fans/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1ZBMTgzNjIzMDYyMDI2UlAx",
+    "timestamp": "2026-07-13 02:35 UTC",
+    "is_seasonal": true,
+    "model": "gpt-image-2 (codex-image-service / $imagegen)"
   }
 ]

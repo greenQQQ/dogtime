@@ -4364,5 +4364,70 @@
     "inspiration": "體育場上的新趨勢持續擴散，像旗式美式足球這類新興運動正在全球與校園間迅速累積人氣。",
     "inspiration_url": "https://apnews.com/article/834a8df578cce5f11595c31dd46801ce",
     "prompt": "Traditional Chinese text in the image: \"2026-07-12 17:00 UTC\" clearly visible on a small sign or placard near the entrance arch. A large, gentle Golden Retriever named A-gin, a literal four-legged dog with a warm golden #D9A85C medium-long feathered coat, darker golden floppy ears, broad kind face, gentle dark brown #5A4028 eyes, naturally upturned soft smile, and a big feathered plume tail, carefully carries a wrapped small gift in his mouth and places it in front of a few children who have just finished training, one child wiping away tears while A-gin offers his favorite ball nearby. Scene set under the entrance arch of an old-style flag football field beside a community park. Handmade mechanical figurine photography look: assemblage sculpture dog with ceramic head and aged brass parts, subtle copper gears and springs, soft pastel patina, whimsical analog craft, artisan workshop aesthetic, realistic furry plush texture with cozy velvety strands, warm weighty chest fringe like a gold scarf, fluffy tail catching light. Mucha-style arched frame composition with an ornamental rounded arch, symmetrical Art Nouveau panel framing, decorative border halo, integrated floral motifs. Butterfly lighting with soft overhead key light, gentle even illumination, symmetrical shadow under the nose, dreamy shallow depth of field, soft focus background, deep black and muted park tones, luxurious metallic gold accents, gold and black color scheme, calm reassuring mood. Keep A-gin clearly dog-like on all fours, natural posture, no collar, no clothing. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字)."
+  },
+  {
+    "season": "summer",
+    "prompt": "Hyperrealistic anime-style close-up of Wuwu, a literal Siberian Husky with a black-grey #3C4148 saddle and head-top, snow-white #FFFFFF face center, muzzle, chest, belly and legs, crisp symmetric mask markings, striking ice-blue #7EC3E8 eyes, upright ears with white inner fluff, and a big fluffy brush tail. He is lying sprawled belly-up directly under an air-conditioning vent in a Tokyo underground football fan museum, body flattened in the coolest summer-relief pose, white belly exposed, while his front paws desperately pin down a half-crushed mini soccer ball he just bit into. Add lively mist, wet cleaned-floor reflections, and frozen splashes of water droplets and crystalline spray around him. Wuwu looks innocent and mischievous at once, with a blank, air-conditioned, “I am not causing trouble” expression. Golden hour light streams diagonally through a glass wall, with teal-and-orange cinematic color grading, warm sunset glow, long soft shadows, golden rim light on the husky, punchy balanced contrast, creamy blurred background, shallow depth of field, intimate near-object framing, subject razor-sharp against bokeh. In the background, soft silhouettes of fans queueing for the football tech exhibit, but the husky remains the clear focal point. Include clearly visible Traditional Chinese or English text in the scene reading: '2026-07-13 02:35 UTC'. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "idea": "超寫實動漫風的淺景深特寫中，小嗚趴在一間東京地下球迷博物館的冷氣出風口正下方，整隻攤成雪白肚皮朝天的模樣，前爪卻死命按住一顆被牠咬得半扁的迷你足球，周圍水霧與清洗後的地板反光帶出靈動水花飛濺的質感。黃金時刻的青橙電影調從玻璃牆斜斜灑進來，背景可見正在排隊體驗足球科技展區的球迷剪影，但畫面主角完全是這隻一臉「我沒有在搗蛋」卻又被冷氣吹到眼神放空的哈士奇。",
+    "avoid_list": [
+      "四腳狗用鼻尖按住按鈕",
+      "主角狗守在控制台旁",
+      "俯視平拍構圖",
+      "高對比戲劇光",
+      "霓虹螢光色花海",
+      "月夜靛藍場景",
+      "歐普藝術等距3D",
+      "分割對照式構圖",
+      "金箔潑點與描金細節",
+      "深景深與淺景深混搭特寫",
+      "海岸研究站與監測工作台",
+      "懷舊暖金秋色調",
+      "市集攤位與陶盆巡視",
+      "溫室花床與運動地圖",
+      "傳統中國書法海報風"
+    ],
+    "comment_id": 4953926861,
+    "inspiration_url": "https://www.reutersconnect.com/item/science-museum-brings-soccer-tech-to-world-cup-fans/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1ZBMTgzNjIzMDYyMDI2UlAx",
+    "inspiration": "科學博物館把足球科技帶進世界盃球迷體驗中，讓人從另一個角度看到運動與科技的結合。",
+    "style_picks": {
+      "art_style": "Hyperrealistic Anime",
+      "composition": "Shallow Depth-of-Field Close-up",
+      "lighting": "Golden Hour",
+      "texture": "Dynamic Water Splash",
+      "color_palette": "Teal and Orange"
+    },
+    "character_name": "小嗚",
+    "character": "wuwu",
+    "number": 92,
+    "story": "小嗚原本只是想把球迷博物館裡那顆迷你足球叼去「拆檢」，結果一頭栽進冷氣正下方，當場進入夏季最舒服模式，肚皮貼地、尾巴攤開，連嗚嗚辯解都懶得多說。每當旁邊的球迷笑著舉起手機拍牠，牠就把前爪更用力壓住足球，冰藍眼睛眨得一臉無辜，彷彿全世界的熱鬧都和牠無關，只有冷氣最懂狗。",
+    "news_inspiration": [
+      {
+        "summary": "在美加墨世界盃的舞台上，來自不同國家的球迷把足球熱情與城市慶典結合，讓現場畫面充滿節慶感。",
+        "url": "https://apnews.com/article/4cb69429672dc546496a81aeae80d7d2",
+        "source": "Associated Press"
+      },
+      {
+        "summary": "世界盃越來越全球化，卻也凸顯不同國家球迷跨國觀賽的簽證與旅行門檻，形成很有時代感的體育故事。",
+        "url": "https://apnews.com/article/9d9156323197936679cce74d0dfa2e7c",
+        "source": "Associated Press"
+      },
+      {
+        "summary": "科學博物館把足球科技帶進世界盃球迷體驗中，讓人從另一個角度看到運動與科技的結合。",
+        "url": "https://www.reutersconnect.com/item/science-museum-brings-soccer-tech-to-world-cup-fans/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1ZBMTgzNjIzMDYyMDI2UlAx",
+        "source": "Reuters Connect"
+      },
+      {
+        "summary": "最新科技研究顯示，科學家成功重現類黑洞旋轉取能的物理效應，屬於很有想像力的前沿發現。",
+        "url": "https://www.sciencedaily.com/releases/2026/07/260712111100.htm",
+        "source": "ScienceDaily"
+      },
+      {
+        "summary": "藝術與文化版面整理了近日的展覽與創意動態，反映夏季全球文化場景仍然非常活躍。",
+        "url": "https://www.sciencedaily.com/news/science_society/arts_and_culture/",
+        "source": "ScienceDaily"
+      }
+    ],
+    "title": "冷氣球迷王",
+    "is_seasonal": true
   }
 ]
