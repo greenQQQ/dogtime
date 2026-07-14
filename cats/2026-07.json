@@ -5854,5 +5854,66 @@
     ],
     "story": "這條巷子今晚有新牆面揭幕，居民圍著看畫家最後補筆，而那隻狗一直守在梯子旁，等著有人把掉在地上的海報筒撿起來。當它把筒子叼到巷口時，閃光燈一亮，所有鮮豔壁畫、路人驚喜的表情和牠沾著粉塵的鼻尖，都被定格成一張帶著秋日暖意的怪誕記憶。",
     "inspiration_url": "https://www.reutersconnect.com/item/von-trier-curates-exhibition-showing-art-influences-on-his-films/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1ZBNzI4ODA5MDYyMDI2UlAx/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX0xWQTAwNTcyODgwOTA2MjAyNlJQMQ"
+  },
+  {
+    "number": 120,
+    "news_inspiration": [
+      {
+        "summary": "科學家發現一種可預測厭食症復發的荷爾蒙，為早期介入帶來新希望。",
+        "url": "https://news.sciencealert.com/p/today-s-top-science-news-6b1d01149465fa5c",
+        "source": "ScienceAlert"
+      },
+      {
+        "summary": "冥王星號般的旅行者 1 號仍在太空中飛行，展現人類深空探測的驚人韌性。",
+        "url": "https://news.sciencealert.com/p/today-s-top-science-news-6b1d01149465fa5c",
+        "source": "ScienceAlert"
+      },
+      {
+        "summary": "史密森尼報導：葛飾式的視覺美感再次被展現，從中央公園的攝影特寫看見城市綠意之美。",
+        "url": "https://www.smithsonianmag.com/category/arts-culture/?page=1",
+        "source": "Smithsonian Magazine"
+      },
+      {
+        "summary": "考古學家在英國北部發現一幅罕見的 1600 年前守護靈雕刻，讓古羅馬信仰重見天日。",
+        "url": null,
+        "source": "Smithsonian Magazine"
+      },
+      {
+        "summary": "科學家確認一種生活在約 5.5 億年前的蠕蟲狀生物，可能是已知最早「右撇子」動物。",
+        "url": null,
+        "source": "Smithsonian Magazine"
+      }
+    ],
+    "avoid_list": [
+      "直式海報構圖",
+      "霧面紙玻璃風格",
+      "復古褪色色調",
+      "高對比硬光日照",
+      "前腳壓住紙角",
+      "叼著地圖研究",
+      "四腳狗正面聚焦",
+      "大地色系霧面氛圍",
+      "中央單一主體構圖",
+      "書報亭與海報道具",
+      "閃光燈直打快照感",
+      "貼紙拼貼邊框",
+      "懷舊電影感暖色",
+      "鼻尖貼近物件檢查",
+      "老式工作場景"
+    ],
+    "comment_id": 4971062020,
+    "style_picks": {
+      "art_style": "Flat Vector Illustration",
+      "composition": "Spiral Vortex Frame",
+      "lighting": "Rembrandt Lighting",
+      "texture": "Water Droplets on Skin",
+      "color_palette": "Morandi Color Palette"
+    },
+    "prompt": "Flat vector illustration of a four-legged Border Collie in a Tokyo Bay underwater research station observation corridor, clearly using its nose and front paws to guide a floating small ball into a rotating transparent ring tunnel; the dog is the focal subject, actively and clearly performing the task. Spiral vortex composition with strong rotational perspective, centered vanishing point, the dog, fish schools, instruments, circular porthole sea views, and the corridor architecture all coiling into one dramatic swirl around the subject. Cinematic low angle, clean lines, geometric forms, bright pastel shapes with minimal shading, white negative space accents, yet rendered in a restrained Morandi muted color palette of deep sea blue, gray-green, and misty pink, quiet elegance with subtle tension. Rembrandt lighting from a single 45-degree overhead source cutting diagonally from the ceiling, signature triangle of light on the shadowed cheek, dramatic chiaroscuro translated into vector form, glossy wet sheen on fur, water droplets and reflective micro-highlights on the dog’s damp coat and glass water streaks. Include visible Traditional Chinese or English text inside the image reading exactly: “2026-07-14 15:35 UTC”. Architectural circular structure coiling around the dog, dizzying sense of depth, submerged research equipment, flowing current motifs, serene but kinetic atmosphere. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "story": "研究站正在測試一套會隨洋流轉向的自動回收系統，而這隻狗被訓練來追蹤掉落的小球與漂浮標記，成了最靈敏的「活體導航員」。當它在環道旁靜靜繞圈時，外頭的海流像一個巨大的旋渦，彷彿整座海底建築也跟著它的節奏慢慢轉動。",
+    "inspiration_url": "https://news.sciencealert.com/p/today-s-top-science-news-6b1d01149465fa5c",
+    "idea": "在一座位於東京灣邊的海底研究站觀景廊道裡，一隻四腳邊境牧羊犬正專注地用鼻子與前掌把漂浮小球送進旋轉的透明環道，整個畫面以扁平向量插圖呈現，並用螺旋漩渦構圖把牠與周圍的魚群、儀器與圓窗海景捲成一圈。倫勃朗光從艙頂斜切落下，水珠濕膚肌理點亮牠濕潤的毛和玻璃上的水痕，莫蘭迪色調讓深海藍、灰綠與霧粉顯得安靜而有張力。",
+    "title": "海底旋環",
+    "inspiration": "冥王星號般的旅行者 1 號仍在太空中飛行，展現人類深空探測的驚人韌性。"
   }
 ]
