@@ -5915,5 +5915,66 @@
     "idea": "在一座位於東京灣邊的海底研究站觀景廊道裡，一隻四腳邊境牧羊犬正專注地用鼻子與前掌把漂浮小球送進旋轉的透明環道，整個畫面以扁平向量插圖呈現，並用螺旋漩渦構圖把牠與周圍的魚群、儀器與圓窗海景捲成一圈。倫勃朗光從艙頂斜切落下，水珠濕膚肌理點亮牠濕潤的毛和玻璃上的水痕，莫蘭迪色調讓深海藍、灰綠與霧粉顯得安靜而有張力。",
     "title": "海底旋環",
     "inspiration": "冥王星號般的旅行者 1 號仍在太空中飛行，展現人類深空探測的驚人韌性。"
+  },
+  {
+    "news_inspiration": [
+      {
+        "summary": "世界盃精彩照片集結，捕捉球迷、球場與比賽瞬間，畫面感十足。",
+        "url": "https://www.reutersconnect.com/collection/pictures-of-the-day-july-13-2026/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDM1BLRzAwMDEwNzE3Nw",
+        "source": "Reuters"
+      },
+      {
+        "summary": "新一批世界盃賽事攝影盤點出爐，展現足球盛會中最具張力的視覺片刻。",
+        "url": "https://www.reutersconnect.com/feed/packages",
+        "source": "Reuters Connect"
+      },
+      {
+        "summary": "AP 攝影記者整理出當日最佳照片，包含體育與街頭畫面，題材多元又鮮活。",
+        "url": "https://halifax.citynews.ca/2026/07/13/the-top-photos-of-the-day-by-ap-photojournalists-59/",
+        "source": "CityNews Halifax"
+      },
+      {
+        "summary": "紐約夏日熱浪下的行人街景被攝下，呈現出強烈的城市氛圍與光影感。",
+        "url": "https://www.reutersconnect.com/item/pedestrians-walk-during-a-summer-heat-wave-in-new-york-city/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDMjdETUE0WlRWSg",
+        "source": "Reuters Connect"
+      },
+      {
+        "summary": "Shutterstock 執行長卸任的消息引發關注，反映影像與科技產業的最新變動。",
+        "url": "https://www.marketscreener.com/news/shutterstock-ceo-hennessy-steps-down-weeks-after-failed-getty-deal-ce7f5edcda8ff325",
+        "source": "MarketScreener"
+      }
+    ],
+    "story": "列車呼嘯而過時，那顆足球在月台邊緣輕輕一跳，狗立刻追上去，用鼻尖停住它，再把球慢慢頂回安全的位置。球員笑著彎腰接過球，周圍乘客在黑白光影裡短暫停步，整個地鐵站像一瞬間被世界盃的張力點亮。",
+    "idea": "在紐約夏日熱浪蒸騰的地鐵月台下方，一隻黑白相間的四腳狗專注地用前爪把一顆滾落的足球推回球員身旁，旁邊幾位趕路的乘客被蝴蝶光勾出柔亮輪廓。超寫實動漫風呈現渺小人物對比的空間張力，單色調裡透出虹彩全息般的金屬光澤，像一張捕捉城市節奏與體育瞬間的現場照片。",
+    "style_picks": {
+      "art_style": "Hyperrealistic Anime",
+      "composition": "Tiny Figure Scale Contrast",
+      "lighting": "Butterfly Lighting",
+      "texture": "Iridescent Holographic",
+      "color_palette": "Monochrome / Black and White"
+    },
+    "inspiration_url": "https://www.reutersconnect.com/item/pedestrians-walk-during-a-summer-heat-wave-in-new-york-city/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDMjdETUE0WlRWSg",
+    "number": 121,
+    "inspiration": "紐約夏日熱浪下的行人街景被攝下，呈現出強烈的城市氛圍與光影感。",
+    "prompt": "Hyperrealistic anime hybrid illustration, a candid cinematic subway platform scene in New York during a summer heatwave, low-angle wide composition emphasizing tiny human figures dwarfed by the vast station architecture. In the foreground, a black-and-white dog clearly uses its front paws and nose to stop a rolling soccer ball and gently push it back toward a smiling player near the platform edge; nearby rushing commuters are briefly outlined by butterfly lighting, creating soft glowing contours. The entire station feels charged with World Cup tension and urban rhythm, like a live-action moment frozen at the peak of motion. Monochrome black-and-white dominant color scheme with high contrast, rich tonal range, dramatic shadows and highlights, subtle iridescent holographic metallic sheen and rainbow color shifts on reflective surfaces, shimmering translucent accents like bubble-like holographic film. Realistic-anime hybrid facial and fur detail, dramatic spotlight from overhead key light, symmetrical shadow under the nose on nearby faces, epic yet lonely framing, spatial tension, tiny figures for scale. Include the date and time visibly displayed in Traditional Chinese or English: “2026-07-14 16:35 UTC” on a station sign or digital display. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "comment_id": 4971659122,
+    "avoid_list": [
+      "直式海報構圖",
+      "霧面紙玻璃風格",
+      "復古褪色色調",
+      "高對比硬光日照",
+      "前腳壓住紙角",
+      "叼著地圖研究",
+      "四腳狗正面聚焦",
+      "大地色系霧面氛圍",
+      "中央單一主體構圖",
+      "書報亭與海報道具",
+      "閃光燈直打快照感",
+      "貼紙拼貼邊框",
+      "懷舊電影感暖色",
+      "鼻尖貼近物件檢查",
+      "老式工作場景"
+    ],
+    "title": "月台追球"
   }
 ]
