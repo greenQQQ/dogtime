@@ -5793,5 +5793,66 @@
       "滿版密實特寫構圖"
     ],
     "title": "穀倉尋跡"
+  },
+  {
+    "number": 119,
+    "news_inspiration": [
+      {
+        "summary": "卡薩布蘭加藝術家的壁畫計畫為城市巷弄帶來繽紛新面貌。",
+        "url": "https://www.reutersconnect.com/item/von-trier-curates-exhibition-showing-art-influences-on-his-films/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1ZBNzI4ODA5MDYyMDI2UlAx/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX0xWQTAwNTcyODgwOTA2MjAyNlJQMQ",
+        "source": "Reuters"
+      },
+      {
+        "summary": "科學家在最新研究中利用味蕾類器官與微電極陣列，建立可評估咖啡因如何影響味覺的生物感測器。",
+        "url": "https://spj.science.org/doi/full/10.34133/bmef.0286",
+        "source": "Science"
+      },
+      {
+        "summary": "研究團隊以高通量實驗結合機器學習，找出新型高熵稀土矽酸鹽材料的組成與性能關係。",
+        "url": "https://spj.science.org/doi/abs/10.34133/research.1308",
+        "source": "Science"
+      },
+      {
+        "summary": "國際奧委會報導一位南非冬季運動新星，展現非洲選手在雪地項目中的突破與啟發性。",
+        "url": "https://newsroom.olympics.com/record/1363",
+        "source": "IOC Newsroom"
+      },
+      {
+        "summary": "Reuters 的 2026 世界盃影像專題持續推出精彩照片，捕捉球迷、文化與賽場外的故事。",
+        "url": "https://reutersconnect.com/feed/packages",
+        "source": "Reuters"
+      }
+    ],
+    "title": "壁畫巷影",
+    "comment_id": 4970449722,
+    "inspiration": "卡薩布蘭加藝術家的壁畫計畫為城市巷弄帶來繽紛新面貌。",
+    "idea": "在卡薩布蘭加一條剛完成壁畫的巷弄裡，一隻四腳的黃白米克斯叼著捲起的海報紙，正把畫家掉落的色票卡推向一旁；牆面被超現實主義處理成層層貼紙拼貼邊框，直接閃光燈打亮濕潤石牆與暖橘、琥珀色顆粒質感。畫面像一張剛洗出的底片，現實巷景裡藏著不合邏輯的色塊跳接，卻又真實得像你正站在現場。",
+    "prompt": "Realistic photography, candid raw snapshot of a narrow alley in Casablanca just after a mural unveiling, a four-legged yellow-and-white mixed-breed dog clearly in the foreground carrying a rolled poster tube in its mouth while nudging a fallen artist color swatch card aside with its paw, residents and a painter gathered near a ladder in the background, wet stone wall reflecting harsh direct on-camera flash, blown-out highlights and hard shadows, visible film grain, analog texture, subtle noise, organic photographic imperfections. The wall is treated with a surrealist die-cut sticker collage look: layered sticker-frame borders, uncanny juxtapositions, dreamlike impossible color blocks, Dalí-inspired melting forms, scrapbook-style overlays, floating props, chibi side characters decorating the edges, yet still grounded as a real street scene. Warm amber color grading, autumn palette, golden yellows, burnt orange, cozy nostalgic warmth, gritty candid realism with a slightly uncanny surreal edge. Include clearly readable Traditional Chinese or English text displaying exactly: “2026-07-14 14:35 UTC”. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "style_picks": {
+      "art_style": "Surrealism",
+      "composition": "Sticker Collage Frame",
+      "lighting": "Direct Flash",
+      "texture": "Film Grain",
+      "color_palette": "Warm Tones (Amber / Autumn)"
+    },
+    "avoid_list": [
+      "極低角度看向吧台下方",
+      "四腳狗用前爪按住裝置",
+      "東京公寓早餐吧台",
+      "冷色調藍青漫射光",
+      "水墨與現代室內混搭",
+      "海邊天文資料處理室",
+      "螢光黑光與霓虹邊界",
+      "月夜靛藍頂樓洗衣台",
+      "柯基趴著排整齊物件",
+      "莫蘭迪粉彩加金箔雲紋",
+      "朱紅描金工業設備",
+      "命令列終端機風格海報",
+      "復古天文館圓頂放映室",
+      "生物發光水母夢境",
+      "滿版密實特寫構圖"
+    ],
+    "story": "這條巷子今晚有新牆面揭幕，居民圍著看畫家最後補筆，而那隻狗一直守在梯子旁，等著有人把掉在地上的海報筒撿起來。當它把筒子叼到巷口時，閃光燈一亮，所有鮮豔壁畫、路人驚喜的表情和牠沾著粉塵的鼻尖，都被定格成一張帶著秋日暖意的怪誕記憶。",
+    "inspiration_url": "https://www.reutersconnect.com/item/von-trier-curates-exhibition-showing-art-influences-on-his-films/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1ZBNzI4ODA5MDYyMDI2UlAx/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX0xWQTAwNTcyODgwOTA2MjAyNlJQMQ"
   }
 ]
