@@ -1137,5 +1137,15 @@
     "title": "塵雲甜痕",
     "model": "gpt-image-2 (codex-image-service / $imagegen)",
     "inspiration": "科學家在銀河系塵雲中偵測到「覆盆子糖」，顯示生命關鍵化合物可在星際空間自然形成。"
+  },
+  {
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "inspiration": "AP攝影師精選溫布頓網球賽最喜歡的畫面，呈現球場上充滿動感與張力的精彩瞬間。",
+    "number": 113,
+    "status": "success",
+    "timestamp": "2026-07-14 08:35 UTC",
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-14_0835_UTC.webp",
+    "title": "草地餘光",
+    "inspiration_url": "https://www.ap.org/news-highlights/spotlights/2026/ap-photographers-pick-their-favorite-photos-from-wimbledon/"
   }
 ]
