@@ -5759,5 +5759,39 @@
     "inspiration": "original",
     "news_inspiration": [],
     "comment_id": 4969211179
+  },
+  {
+    "idea": "在一座19世紀穀倉改建的乾草圖書室裡，一隻黃白混色的四腳狗蹲在長桌旁，正專注地用鼻尖嗅著攤開的舊地圖與麻繩包裹的郵袋。雙重曝光把窗外的麥田與室內書架疊進同一畫面，聚光燈落在狗與地圖上，留白負空間讓木梁與灰塵光柱在柔焦霧面中慢慢呼吸，整體以大地色系呈現。",
+    "prompt": "Photorealistic photography of a yellow-and-white mixed-color four-legged dog crouching beside a long table inside a 19th-century barn converted into a hay library, intently sniffing an unfolded old map and a mail sack wrapped in hemp rope, one front paw lightly pinning a creased map corner as if choosing the next route. A smiling old postman stands near the doorway watching. Double exposure effect blending the interior bookshelves with wheat fields outside the windows in one frame, silhouette filled with landscape, off-center placement, small subject in expansive emptiness, calm uncluttered framing, minimalist breathing room, negative space composition. Narrow beam spotlight falling on the dog and map, dramatic high-contrast light with sharp edges and deep falloff, soft-focus matte haze, dreamy diffused blur, gentle glowing veil, hazy atmospheric softness, low-contrast ethereal finish. Earth tone color palette with terracotta, olive green, warm brown, natural organic harmony. Wooden beams, floating dust shafts, muted hay-librarian atmosphere, shallow depth of field, 35mm lens, f/1.8, natural light, candid shot, subtle film grain. Visibly display the date and time text \"2026-07-14 13:35 UTC\" in Traditional Chinese or English on a hanging notice or postcard in the scene. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "story": "牠每翻到一張皺折的地圖，就把前爪輕輕壓住邊角，像在確認下一段路要往哪裡走。門口的老郵差笑著看牠，因為這隻狗總能先找到被遺忘的包裹，也總像知道誰會在今天回來。",
+    "number": 118,
+    "inspiration": "original",
+    "style_picks": {
+      "art_style": "Double Exposure",
+      "composition": "Negative Space Composition",
+      "lighting": "Spotlight",
+      "texture": "Soft-Focus Matte Haze",
+      "color_palette": "Earth Tones"
+    },
+    "news_inspiration": [],
+    "comment_id": 4969802496,
+    "avoid_list": [
+      "極低角度看向吧台下方",
+      "四腳狗用前爪按住裝置",
+      "東京公寓早餐吧台",
+      "冷色調藍青漫射光",
+      "水墨與現代室內混搭",
+      "海邊天文資料處理室",
+      "螢光黑光與霓虹邊界",
+      "月夜靛藍頂樓洗衣台",
+      "柯基趴著排整齊物件",
+      "莫蘭迪粉彩加金箔雲紋",
+      "朱紅描金工業設備",
+      "命令列終端機風格海報",
+      "復古天文館圓頂放映室",
+      "生物發光水母夢境",
+      "滿版密實特寫構圖"
+    ],
+    "title": "穀倉尋跡"
   }
 ]
