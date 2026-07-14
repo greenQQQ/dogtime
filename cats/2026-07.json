@@ -5216,5 +5216,66 @@
     ],
     "character_name": "小嗚",
     "idea": "在月夜靛藍的頂樓洗衣台旁，小嗚（西伯利亞哈士奇）正用鼻子和前爪把一整排沾著金箔潑點的「星際糖分子」實驗標籤與保麗龍屑攪亂成 Knolling 排列，身旁還有一台小型天文望遠鏡、紙箱碎片與正在嗡嗡作響的電風扇；侘寂靜物攝影以克制的真實質感捕捉牠冰藍眼裡一臉被世界冤枉的戲劇化表情，整個畫面被星雲輝光輕輕包住。"
+  },
+  {
+    "inspiration": "original",
+    "avoid_list": [
+      "正中央對稱構圖",
+      "四腳狗用鼻尖推動物件",
+      "黃金時刻暖色自然光",
+      "直打閃光與過曝高光",
+      "粉彩莫蘭迪柔霧色調",
+      "微縮場景玩具感",
+      "博物館／展廳長廊場景",
+      "老店門口與木質街景",
+      "霓虹高飽和未來感",
+      "玻璃展示箱內構圖",
+      "旋渦式動態構圖",
+      "淺景深 35mm 街拍",
+      "復古膠片顆粒質感",
+      "狗狗專注守護某個發現"
+    ],
+    "title": "海風柯基趴",
+    "character": "pudding",
+    "comment_id": 4965156778,
+    "news_inspiration": [
+      {
+        "summary": "科學家發現大腦視網膜內有一個全新的隱藏溝通網路，可能改寫我們對視覺處理的理解。",
+        "url": "https://www.sciencedaily.com/releases/2026/07/260713114938.htm",
+        "source": "ScienceDaily"
+      },
+      {
+        "summary": "研究指出，短睡眠不足也會在六週內讓體重上升，提醒睡眠對日常健康的影響其實很直接。",
+        "url": "https://www.sciencedaily.com/releases/2026/07/260713113240.htm",
+        "source": "ScienceDaily"
+      },
+      {
+        "summary": "歐洲新聞報導一尊2,500年前的青銅戰車出土，考古發現讓古代貿易與工藝的畫面更加鮮明。",
+        "url": "https://www.euronews.com/culture/art/2026/06/24/2-500-year-old-bronze-chariot-unearthed",
+        "source": "Euronews"
+      },
+      {
+        "summary": "Reuters 影像專題呈現世界盃球迷的喜悅與癡狂，充滿強烈色彩與現場感。",
+        "url": "https://www.reutersconnect.com/item/the-wider-image-world-cup-brings-fans-joy-torment-and-a-lifetime-of-memories/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDMktWTEFPQk9HRw",
+        "source": "Reuters Connect"
+      },
+      {
+        "summary": "Reuters 報導梅西將在世界盃準決賽迎來對英格蘭的首次交鋒，為球迷帶來高度期待的焦點戰。",
+        "url": "https://foot-boll.com/article.php?i=e4acf93744ce&lang=en",
+        "source": "foot-boll Sports Hub"
+      }
+    ],
+    "idea": "在一座海邊寵物友善咖啡廳的露天座位旁，布丁用全身居中直幅的構圖趴在地毯上做出招牌「柯基趴」，正專心把一排小玩具球用鼻尖一顆顆排整齊；斑駁光影落在牠橘紅白相間的身上，莫蘭迪色調裡混著金箔祥雲般的桌布花紋，營造出水母精靈幻境般的輕盈感。",
+    "story": "布丁一興奮就把短腿攤成最標準的柯基趴，屁股還會隨著心情輕輕左右搖，像在替自己的作業打拍子。牠把玩具排成一列後，立刻用亮棕色大圓眼期待地望向旁邊的客人，彷彿在說：快誇我，我可是會自己整理世界的大型犬。",
+    "style_picks": {
+      "art_style": "Jellyfish Spirit Fantasy",
+      "composition": "Full-Body Vertical Portrait",
+      "lighting": "Dappled Light",
+      "texture": "Gold Leaf Cloud Ornament",
+      "color_palette": "Morandi Color Palette"
+    },
+    "number": 108,
+    "character_name": "布丁",
+    "prompt": "Traditional Chinese illustration, full-body vertical portrait, entire figure centered in a tall frame, head-to-toe framing of Pudding, a Pembroke Welsh Corgi with a long loaf-shaped body on four short sturdy legs, oversized upright ears, big round bright brown eyes, warm orange-red and white coat only, white collar ruff, white chest and belly, four white socks, thin white blaze on the nose bridge, no tail or tiny stub. Pudding is lying in a classic corgi sploot on a carpet beside the outdoor seating area of a seaside pet-friendly cafe, focused on using its nose to neatly line up a row of small toy balls one by one; its peach-shaped rump is centered and slightly wiggly, cheerful eager expression, looking toward the nearby guest. Show dappled sunlight and soft mottled shadow patterns falling across the dog and floor, serene natural mood. Surround the scene with a jellyfish spirit fantasy illustration atmosphere: luminous deep-sea dreamscape, glowing translucent jellyfish-like light forms, bioluminescent tendrils, magical otherworldly softness, airy and light. Incorporate Morandi muted color palette with dusty pastel tones, quiet elegance, mixed with gold leaf ornamental cloud motifs on the tablecloth, embossed metallic finish, intricate curling swirl patterns, luxurious gilt texture on a dark ground. Include visually displayed text in Traditional Chinese or English reading exactly: 2026-07-14 03:35 UTC. Keep the dog clearly identifiable and realistic in anatomy, with no clothing, no collar, no human-like body, and no long fluffy tail. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字)."
   }
 ]
