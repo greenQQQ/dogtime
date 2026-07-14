@@ -5627,5 +5627,69 @@
       }
     ],
     "inspiration_url": "https://www.smithsonianmag.com/science-nature/a-rare-comet-made-history-as-the-third-known-interstellar-object-to-fly-through-our-solar-system-studies-are-now-revealing-the-mysterious-conditions-in-which-it-formed-180988476/"
+  },
+  {
+    "number": 115,
+    "comment_id": 4968239748,
+    "inspiration": "original",
+    "prompt": "Pencil sketch illustration on graphite paper of a bird’s-eye, top-down view of a summer lakeside dock, miniature world effect, looking straight down. A-gin, a large gentle Golden Retriever with a warm golden #D9A85C medium-long feathered coat, slightly darker gold floppy ears, broad kind face, dark brown #5A4028 eyes, and a big feathered plume tail, is clearly shown as a literal four-legged dog swimming back from the lake to shore, wet fur clinging to his body, fluffy texture and visible pencil strokes, hatching and cross-hatching throughout. He is carefully carrying a blue slipper in his mouth and placing it beside a smiling child sitting on the wooden planks; a shy new cat leans against A-gin’s front leg. Capture the moment with harsh direct on-camera flash, blown-out highlights on water droplets, hard shadows, raw candid snapshot feel, sparkling splash details, and close attention to fur and plush fibers. Include the date and time text clearly visible in the scene as Traditional Chinese or English: '2026-07-14 10:35 UTC'. Use retro faded color tones translated through pencil sketch shading, low contrast, washed-out vintage nostalgia, warm nostalgic film-era afternoon atmosphere, quiet and cozy summer community mood. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "is_seasonal": true,
+    "character": "ajin",
+    "avoid_list": [
+      "極低角度看向吧台下方",
+      "四腳狗用前爪按住裝置",
+      "東京公寓早餐吧台",
+      "冷色調藍青漫射光",
+      "水墨與現代室內混搭",
+      "海邊天文資料處理室",
+      "螢光黑光與霓虹邊界",
+      "月夜靛藍頂樓洗衣台",
+      "柯基趴著排整齊物件",
+      "莫蘭迪粉彩加金箔雲紋",
+      "朱紅描金工業設備",
+      "命令列終端機風格海報",
+      "復古天文館圓頂放映室",
+      "生物發光水母夢境",
+      "滿版密實特寫構圖"
+    ],
+    "season": "summer",
+    "story": "阿金一上岸，先四下看看有沒有人站在旁邊，確認安全後才用大尾巴甩出一圈細碎水花。碼頭邊的小朋友笑著接過那隻拖鞋，旁邊還有一隻怕生的新貓靠著阿金的前腿，整個夏天都安靜又溫暖。",
+    "style_picks": {
+      "art_style": "Pencil Sketch",
+      "composition": "Bird's-Eye View",
+      "lighting": "Direct Flash",
+      "texture": "Fur / Plush Texture",
+      "color_palette": "Retro Faded Tones"
+    },
+    "news_inspiration": [
+      {
+        "summary": "Nature報導科學家首次即時觀測到海底地殼分裂並噴發大量熔岩，畫面震撼又罕見。",
+        "url": "https://www.nature.com/articles/d41586-026-02139-7",
+        "source": "Nature"
+      },
+      {
+        "summary": "《Nature》精選六月最佳科學影像，呈現深海新物種與美麗海洋生物的視覺奇景。",
+        "url": "https://www.nature.com/immersive/d41586-026-02087-2/index.html",
+        "source": "Nature"
+      },
+      {
+        "summary": "AP攝影師挑選溫布頓球賽最愛照片，帶來充滿動感與張力的體育影像集。",
+        "url": "https://apnews.com/article/fafe913a9afe408331ba6f2f6db0a576",
+        "source": "Associated Press"
+      },
+      {
+        "summary": "AP整理本週全球最佳照片，涵蓋各地精彩瞬間與視覺敘事，適合快速看世界。",
+        "url": "https://apnews.com/article/4c9a94ac270243ad96e65210c9cd007e",
+        "source": "Associated Press"
+      },
+      {
+        "summary": "《Nature》最新新聞指出，天文學家首次在太空中找到「真正的糖」分子，讓人更接近生命起源線索。",
+        "url": "https://www.nature.com/news",
+        "source": "Nature"
+      }
+    ],
+    "character_name": "阿金",
+    "idea": "以鉛筆素描呈現一座夏日湖邊碼頭的鳥瞰場景，阿金剛從湖裡游回岸上，深金色濕毛貼在身上、羽毛狀大尾巴還滴著水，嘴裡叼著一條藍色拖鞋，正小心地把它放到一位坐在木板上的小朋友腳邊。畫面以閃光燈直打捕捉水珠與絨毛皮草的細節，復古褪色色調讓整個社區午後像一張被陽光洗舊的老照片。",
+    "title": "湖岸暖禮"
   }
 ]

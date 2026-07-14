@@ -1157,5 +1157,18 @@
     "status": "success",
     "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-14_0935_UTC.webp",
     "inspiration_url": "https://www.smithsonianmag.com/science-nature/a-rare-comet-made-history-as-the-third-known-interstellar-object-to-fly-through-our-solar-system-studies-are-now-revealing-the-mysterious-conditions-in-which-it-formed-180988476/"
+  },
+  {
+    "number": 115,
+    "status": "success",
+    "season": "summer",
+    "inspiration": "original",
+    "timestamp": "2026-07-14 10:35 UTC",
+    "is_seasonal": true,
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-14_1035_UTC.webp",
+    "character": "ajin",
+    "character_name": "阿金",
+    "title": "湖岸暖禮"
   }
 ]
