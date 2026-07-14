@@ -1114,5 +1114,18 @@
     "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-14_0535_UTC.webp",
     "status": "success",
     "title": "石階巡路"
+  },
+  {
+    "season": "summer",
+    "character_name": "拿鐵",
+    "number": 111,
+    "status": "success",
+    "inspiration": "original",
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-14_0635_UTC.webp",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "timestamp": "2026-07-14 06:35 UTC",
+    "title": "冷氣房公主",
+    "character": "latte",
+    "is_seasonal": true
   }
 ]
