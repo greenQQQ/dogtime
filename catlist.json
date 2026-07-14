@@ -1127,5 +1127,15 @@
     "title": "冷氣房公主",
     "character": "latte",
     "is_seasonal": true
+  },
+  {
+    "status": "success",
+    "timestamp": "2026-07-14 07:35 UTC",
+    "inspiration_url": "https://www.theguardian.com/science/2026/jul/13/space-jam-astronomers-detect-raspberry-sugar-on-dust-cloud-in-milky-way",
+    "number": 112,
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-14_0735_UTC.webp",
+    "title": "塵雲甜痕",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "inspiration": "科學家在銀河系塵雲中偵測到「覆盆子糖」，顯示生命關鍵化合物可在星際空間自然形成。"
   }
 ]
