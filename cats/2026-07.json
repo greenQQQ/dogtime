@@ -5154,5 +5154,67 @@
     ],
     "inspiration_url": "https://www.space.com/astronomy/james-webb-space-telescope/james-webb-space-telescope-celebrates-its-4th-birthday-with-stunning-image-of-a-galaxy-crash-site",
     "number": 106
+  },
+  {
+    "avoid_list": [
+      "正中央對稱構圖",
+      "四腳狗用鼻尖推動物件",
+      "黃金時刻暖色自然光",
+      "直打閃光與過曝高光",
+      "粉彩莫蘭迪柔霧色調",
+      "微縮場景玩具感",
+      "博物館／展廳長廊場景",
+      "老店門口與木質街景",
+      "霓虹高飽和未來感",
+      "玻璃展示箱內構圖",
+      "旋渦式動態構圖",
+      "淺景深 35mm 街拍",
+      "復古膠片顆粒質感",
+      "狗狗專注守護某個發現"
+    ],
+    "inspiration_url": "https://apnews.com/article/357144f4d69449b29dff17271ccd0dcd",
+    "prompt": "Realistic wabi-sabi still life photography, candid overhead flat lay on a rooftop laundry sink beside a humming electric fan and a small astronomical telescope, moonlit indigo night with soft nebula-like glow wrapping the scene in cool blue-violet haze and silvery highlights. A Siberian Husky named Wuwu, classic black-grey #3C4148 and snow-white #FFFFFF coat with crisp symmetric mask markings, upright ears with white inner fluff, fluffy brush tail, athletic medium-large build, striking ice-blue #7EC3E8 eyes, theatrical wronged expression and slightly open goofy husky grin, is clearly on all fours using his nose and front paws to scramble and re-arrange an entire row of experimental sample labels and styrofoam crumbs into a neat Knolling layout. Show scattered paper box fragments, metallic gold leaf flecks and gilded specks stuck on the labels, imperfect organic objects arranged in precise 90-degree angles against a clean aged rooftop surface, muted earthy textures, quiet contemplative emptiness, soft directional moonlight, shallow depth of field, natural grain, realistic textures. Make the date and time clearly visible as Traditional Chinese/English text in the scene: '2026-07-14 02:59 UTC'. Include the mood of Wuwu howling at the night sky as if defending himself, while the last cardboard box is tipped over nearby. No humans in focus, no collars or accessories, no illustration look. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "inspiration": "西班牙研究團隊在銀河系氣體雲中偵測到星際糖分子，讓宇宙化學更添趣味。",
+    "style_picks": {
+      "art_style": "Wabi-Sabi Still Life Photography",
+      "composition": "Knolling Photography",
+      "lighting": "Nebula Cosmic Glow",
+      "texture": "Gold Foil Flecks",
+      "color_palette": "Moonlit Indigo"
+    },
+    "comment_id": 4964996246,
+    "character": "wuwu",
+    "story": "小嗚原本只是想檢查頂樓吹來的風，卻把研究人員放在晾衣架上的星際糖分子樣本袋全數「重新整理」成一地完美混亂。當牠被發現時，先對著夜空嗚嗚辯解了三聲，尾巴還不小心掃倒了最後一個紙箱。",
+    "title": "月頂嗚嗚",
+    "number": 107,
+    "news_inspiration": [
+      {
+        "summary": "天文學家首次在星際空間發現四碳糖分子，為生命起源研究帶來新線索。",
+        "url": "https://www.nature.com/articles/d41586-026-02173-5",
+        "source": "Nature"
+      },
+      {
+        "summary": "AP 圖輯精選溫布頓網球錦標賽的最佳照片，畫面極具動感與視覺張力。",
+        "url": "https://apnews.com/article/fafe913a9afe408331ba6f2f6db0a576",
+        "source": "Associated Press"
+      },
+      {
+        "summary": "西班牙研究團隊在銀河系氣體雲中偵測到星際糖分子，讓宇宙化學更添趣味。",
+        "url": "https://apnews.com/article/357144f4d69449b29dff17271ccd0dcd",
+        "source": "Associated Press"
+      },
+      {
+        "summary": "最新研究指出，數位科技正在改變人們觀看與創作文化內容的方式。",
+        "url": null,
+        "source": "Reuters"
+      },
+      {
+        "summary": "體育圖輯回顧溫布頓賽事中的精彩瞬間，展現網球賽場的優雅與速度。",
+        "url": "https://apnews.com/article/ee2137a1264f6cddcf12dc3506323939",
+        "source": "Associated Press"
+      }
+    ],
+    "character_name": "小嗚",
+    "idea": "在月夜靛藍的頂樓洗衣台旁，小嗚（西伯利亞哈士奇）正用鼻子和前爪把一整排沾著金箔潑點的「星際糖分子」實驗標籤與保麗龍屑攪亂成 Knolling 排列，身旁還有一台小型天文望遠鏡、紙箱碎片與正在嗡嗡作響的電風扇；侘寂靜物攝影以克制的真實質感捕捉牠冰藍眼裡一臉被世界冤枉的戲劇化表情，整個畫面被星雲輝光輕輕包住。"
   }
 ]
