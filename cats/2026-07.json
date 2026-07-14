@@ -5277,5 +5277,46 @@
     "number": 108,
     "character_name": "布丁",
     "prompt": "Traditional Chinese illustration, full-body vertical portrait, entire figure centered in a tall frame, head-to-toe framing of Pudding, a Pembroke Welsh Corgi with a long loaf-shaped body on four short sturdy legs, oversized upright ears, big round bright brown eyes, warm orange-red and white coat only, white collar ruff, white chest and belly, four white socks, thin white blaze on the nose bridge, no tail or tiny stub. Pudding is lying in a classic corgi sploot on a carpet beside the outdoor seating area of a seaside pet-friendly cafe, focused on using its nose to neatly line up a row of small toy balls one by one; its peach-shaped rump is centered and slightly wiggly, cheerful eager expression, looking toward the nearby guest. Show dappled sunlight and soft mottled shadow patterns falling across the dog and floor, serene natural mood. Surround the scene with a jellyfish spirit fantasy illustration atmosphere: luminous deep-sea dreamscape, glowing translucent jellyfish-like light forms, bioluminescent tendrils, magical otherworldly softness, airy and light. Incorporate Morandi muted color palette with dusty pastel tones, quiet elegance, mixed with gold leaf ornamental cloud motifs on the tablecloth, embossed metallic finish, intricate curling swirl patterns, luxurious gilt texture on a dark ground. Include visually displayed text in Traditional Chinese or English reading exactly: 2026-07-14 03:35 UTC. Keep the dog clearly identifiable and realistic in anatomy, with no clothing, no collar, no human-like body, and no long fluffy tail. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字)."
+  },
+  {
+    "avoid_list": [
+      "正中央對稱構圖",
+      "四腳狗用鼻尖推動物件",
+      "黃金時刻暖色自然光",
+      "直打閃光與過曝高光",
+      "粉彩莫蘭迪柔霧色調",
+      "微縮場景玩具感",
+      "博物館／展廳長廊場景",
+      "老店門口與木質街景",
+      "霓虹高飽和未來感",
+      "玻璃展示箱內構圖",
+      "旋渦式動態構圖",
+      "淺景深 35mm 街拍",
+      "復古膠片顆粒質感",
+      "狗狗專注守護某個發現"
+    ],
+    "number": 109,
+    "crossover": true,
+    "news_inspiration": [
+      {
+        "summary": "新型鈉金屬電池設計可在4分鐘內充電，且容量維持多年。",
+        "url": "https://www.livescience.com/news/archive/2026/07",
+        "source": "Live Science"
+      }
+    ],
+    "comment_id": 4965448395,
+    "title": "四分鐘電光",
+    "idea": "在一間位於海邊工業港口的鈉電池測試實驗室裡，一隻四腳黑白米格魯正用鼻子把一台充電顯示儀旁的數據線撥近桌邊，周圍是朱紅描金的金屬機櫃與木紋工作台，整體以貢德畫風格、滿版特寫與閃光燈直打呈現，強烈貼近、密實而真實。畫面中電池模組與秒數跳動的螢幕佔滿視野，木紋、金屬、膠帶與指紋在直打閃光下清晰可見，形成帶有紀實感的濃烈紅金色調。",
+    "prompt": "Illustration / art, Gond painting inspired scene with intricate dot-and-line patterns, Indian tribal folklore motifs, vibrant vermilion red and metallic gold outlines, refined cinnabar lacquer-like warmth, nature-inspired ornamental details, dense edge-to-edge full-bleed composition with no empty margin, subject cropped to the frame edges, immersive overwhelming scale. In a seaside industrial port sodium-battery test laboratory, a four-legged black-and-white beagle clearly uses its nose to nudge a data cable closer to the edge of a wooden workbench beside a charging display, while battery modules and a screen counting seconds fill most of the view. Surrounding objects include朱紅描金 metal cabinets, wood-grain tables, tape, fingerprints, cables, and technical equipment rendered with tactile realism. Harsh direct on-camera flash look, blown-out highlights, hard shadows, raw candid documentary feel, flash hitting the beagle’s shiny nose, the wood grain, and the red-gold cabinets. Display the date and time exactly as visible text in the image: \"2026-07-14 04:35 UTC\". Strong documentary realism within an art illustration, dense detailed surfaces, warm red-gold dominance, intimate close-up, cluttered lab atmosphere, clear evidence of the dog interacting with the cable. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "inspiration_url": "https://www.livescience.com/news/archive/2026/07",
+    "inspiration": "新型鈉金屬電池設計可在4分鐘內充電，且容量維持多年。",
+    "style_picks": {
+      "art_style": "Gond Painting",
+      "composition": "Full-Bleed Frame Fill",
+      "lighting": "Direct Flash",
+      "texture": "Wood Grain",
+      "color_palette": "Vermilion and Gilt"
+    },
+    "story": "這隻米格魯原本只是跟著技術員進入測試室，卻總愛追著嗶嗶作響的儀器跑。當它把線纜輕輕頂回正確位置時，旁邊的工程師剛好看到新型鈉金屬電池在四分鐘內完成充電，大家都愣住了。\n\n沒有人把它當成守著什麼的看門狗，它只是偶然成了這個突破瞬間最醒目的旁觀者。直打閃光把牠鼻頭上的亮點、桌面木紋與朱紅機櫃全部打得像一張高密度的新聞現場照片。"
   }
 ]
