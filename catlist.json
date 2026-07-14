@@ -1147,5 +1147,15 @@
     "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-14_0835_UTC.webp",
     "title": "草地餘光",
     "inspiration_url": "https://www.ap.org/news-highlights/spotlights/2026/ap-photographers-pick-their-favorite-photos-from-wimbledon/"
+  },
+  {
+    "inspiration": "科學家正在研究一顆罕見的星際彗星 3I/ATLAS，揭示它在太陽系外可能形成於相對平靜的行星系統。",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "number": 114,
+    "title": "星圖守望",
+    "timestamp": "2026-07-14 09:35 UTC",
+    "status": "success",
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-14_0935_UTC.webp",
+    "inspiration_url": "https://www.smithsonianmag.com/science-nature/a-rare-comet-made-history-as-the-third-known-interstellar-object-to-fly-through-our-solar-system-studies-are-now-revealing-the-mysterious-conditions-in-which-it-formed-180988476/"
   }
 ]
