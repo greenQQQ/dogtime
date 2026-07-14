@@ -5725,5 +5725,39 @@
       "滿版密實特寫構圖"
     ],
     "prompt": "Architectural visualization render, photoreal CGI of a subway maintenance platform at dawn, mirror selfie composition with intimate close-up perspective and casual framing: a black-and-white four-legged dog presses its nose to a large frosted glass mirror, clearly inspecting the reflection; one paw nudges a small wrench on the floor, while the mirror shows a half-open toolbox, scattered screws, and the blurred silhouette of a technician changing a light tube, turning back with a gentle smile and holding up a phone to capture the moment in the mirror. Display the text “2026-07-14 11:35 UTC” clearly on a small maintenance sign or digital label in the scene. Clean global illumination, cinematic lighting, volumetric light rays, dramatic shadows, high dynamic range, film-quality mood, visible reflection, frosted glass texture, translucent matte surface, soft blurred shapes behind the glass, glass and concrete surfaces, metal frames, earth tone palette with terracotta, olive green, warm brown, natural organic harmony, quiet tension, design portfolio quality, realistic detail. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字)."
+  },
+  {
+    "story": "老闆暫停了攤位音樂，只為看這隻每天都來的狗怎麼把球一顆顆推進洞裡。牠每次失手就抬頭看一眼，再把鼻子貼回去，尾巴掃過地面，像在認真完成一場只有自己懂規則的比賽。",
+    "style_picks": {
+      "art_style": "Halftone",
+      "composition": "Centered Subject Composition",
+      "lighting": "Rembrandt Lighting",
+      "texture": "Inflatable PVC",
+      "color_palette": "Festive Red and Gold"
+    },
+    "avoid_list": [
+      "極低角度看向吧台下方",
+      "四腳狗用前爪按住裝置",
+      "東京公寓早餐吧台",
+      "冷色調藍青漫射光",
+      "水墨與現代室內混搭",
+      "海邊天文資料處理室",
+      "螢光黑光與霓虹邊界",
+      "月夜靛藍頂樓洗衣台",
+      "柯基趴著排整齊物件",
+      "莫蘭迪粉彩加金箔雲紋",
+      "朱紅描金工業設備",
+      "命令列終端機風格海報",
+      "復古天文館圓頂放映室",
+      "生物發光水母夢境",
+      "滿版密實特寫構圖"
+    ],
+    "title": "港邊得分日",
+    "number": 117,
+    "idea": "在一座1950年代紅金配色的海港遊樂場射擊攤前，一隻四腳臘腸狗正低頭用鼻尖推動一顆半透明PVC材質的球，試著把它滾進中央的得分洞；半色調網點質感覆在整個畫面上，倫勃朗光從攤位上方斜斜落下，讓狗背上的毛色與中國紅、金色標靶牌形成鮮明對照。",
+    "prompt": "Illustration / graphic art, retro CMYK print aesthetic with visible halftone dot pattern and newspaper-style dot matrix texture across the entire image, centered subject composition with a single focal point dead center, balanced symmetrical framing and clean surrounding space. A four-legged dachshund stands in front of a 1950s harbor amusement shooting booth, lowering its head and pushing a semi-transparent high-gloss PVC ball with its nose, trying to roll it into the central scoring hole; the dog is clearly active and focused, tail sweeping the ground, one paw stance steady, looking up slightly between attempts. The booth is decorated in auspicious Chinese red and bright gold accents, with target signs and festive harbor fair details. Render the dog’s fur in strong contrast against the Chinese red and gold targets. Rembrandt lighting from a single source at 45 degrees above the stall creates a signature triangle of light on the shadowed cheek, dramatic chiaroscuro, and warm celebratory glow. Direct iconic presentation, graphic texture, puffy rounded inflatable PVC material with air-filled tension, retro 1950s carnival atmosphere. Include the date and time clearly visible in the image as Traditional Chinese or English text: '2026-07-14 12:35 UTC'. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "inspiration": "original",
+    "news_inspiration": [],
+    "comment_id": 4969211179
   }
 ]
