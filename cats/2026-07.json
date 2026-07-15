@@ -6607,5 +6607,63 @@
     },
     "inspiration": "original",
     "idea": "以粉筆畫呈現一條長卷全景的老式海產市場內景，窗邊柔光從高窗斜落，朱紅與留白在地面、魚箱與牆面間交錯，鐵絲網纏繞在攤位後方形成細密的質感層次。一隻四腳狗正蹲坐在攤位旁專心看著攤主用鐵夾翻轉炭火上的章魚串，空氣裡有鹽霧與木屑的痕跡，場面真實而鮮活。"
+  },
+  {
+    "number": 135,
+    "avoid_list": [
+      "四腳邊境牧羊犬",
+      "俯視俯臥構圖",
+      "側臉特寫",
+      "鼻尖輕嗅",
+      "前爪推弄物件",
+      "夢幻商品攝影",
+      "雙色調深靛電藍",
+      "蕾絲鏤空金屬",
+      "強烈引導線構圖",
+      "黑白金奢華配色",
+      "傳統中式水墨描金",
+      "清晨靜謐工作場景"
+    ],
+    "style_picks": {
+      "art_style": "Japanese Film Photography",
+      "composition": "Vertical Calligraphy Poster",
+      "lighting": "Nebula Cosmic Glow",
+      "texture": "Tangled Wire Mesh",
+      "color_palette": "Vermilion and Gilt"
+    },
+    "idea": "在一座海底科學觀測站的透明圓窗前，一隻四腳米克斯狗正專注地用鼻子與爪邊的球形操縱桿，協助潛航員調整探測燈，窗外是深海黑藍與朱紅描金儀器反光交疊出的冷冽景象。畫面以日系底片攝影呈現，採直式書法海報構圖，星雲輝光般的艙內燈映在鐵絲網纏繞的欄架上，既寫實又帶著宇宙般的張力。",
+    "comment_id": 4983018927,
+    "inspiration": "科學家持續推進深海探索，利用新技術更接近揭開地球最後一片未完全測繪的區域。",
+    "title": "深海守圖",
+    "news_inspiration": [
+      {
+        "summary": "科學家持續推進深海探索，利用新技術更接近揭開地球最後一片未完全測繪的區域。",
+        "url": "https://www.nature.com/news",
+        "source": "Nature"
+      },
+      {
+        "summary": "科學新聞報導本月出現一項把南極與外太空聲音化為音樂的科學藝術合作計畫，視覺與聽覺都很有想像力。",
+        "url": "https://www.sciencenews.org/sn-magazine/july-2026",
+        "source": "Science News"
+      },
+      {
+        "summary": "IEEE Spectrum 介紹多個圍繞原住民語言、AI與科技自主權的專題，呈現科技與文化交會的新方向。",
+        "url": "https://spectrum.ieee.org/magazine/2026/july/",
+        "source": "IEEE Spectrum"
+      },
+      {
+        "summary": "AP 報導世界盃決賽將首次加入超級盃式中場秀，由 Madonna、Shakira 和 BTS 領銜，結合體育與流行文化。",
+        "url": "https://apnews.com/article/f08a3cc88e5c1dfccf0517941458df2f",
+        "source": "Associated Press"
+      },
+      {
+        "summary": "AP 也報導 Sports Illustrated 將在世界盃期間推出跨城市演唱會系列，把足球賽事與現場音樂娛樂結合起來。",
+        "url": "https://apnews.com/article/43223fc554e3d510d244392b2f0a4aeb",
+        "source": "Associated Press"
+      }
+    ],
+    "prompt": "A real Japanese film photograph, vertical poster composition, East Asian movie-poster framing, candid 35mm shot with 35mm lens, f/1.8, shallow depth of field, fine grain, natural low light. In front of a transparent round window inside an underwater science observation station, a four-legged mixed-breed dog is clearly shown actively helping adjust a probe light: its nose pressed near a spherical joystick beside its paw, head lowered toward a glowing monitor, tail lightly swishing. A smiling submarine pilot is partly visible nearby, aiming the camera at the dog. Outside the window: deep-sea black-blue darkness with cold reflections of vermilion and gilt instruments. Inside the cabin: nebula-like glow from overhead lamps reflected on iron wire mesh rails, tangled wireframe textures, coiled metal strands, layered depth. Subtle ornamental border elements and red seal accents, restrained warmth, muted airy tones, soft colorful starfield-like illumination, purple-blue highlights, realistic reflections. Include clearly readable Traditional Chinese or English text in the image showing the date and time: \"2026-07-15 16:35 UTC\". IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "story": "這隻狗是站在儀器艙旁等待下潛回收任務的常客，今晚卻在一陣震動後衝到控制台邊，守著逐漸亮起的深海地形圖。潛航員笑著把鏡頭對準牠，恰好拍下牠低頭盯著螢幕、尾巴輕甩的瞬間，像是在替人類守住地球最後一塊未完成的地圖。",
+    "inspiration_url": "https://www.nature.com/news"
   }
 ]
