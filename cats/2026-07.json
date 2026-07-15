@@ -6133,5 +6133,66 @@
         "source": "Phys.org"
       }
     ]
+  },
+  {
+    "prompt": "Realistic photography, dreamy commercial product still life in a temporary riverside surveying station beside frozen Arctic mountains, a four-legged Border Collie in side profile carrying an embroidered fabric ribbon in its mouth while carefully dragging a collected sugar-molecule sample bag onto a cool-lit tabletop; the dog is clearly performing the task, nose slightly raised, focused wet-eyed expression, elegant lateral framing, clean silhouette of nose and chin, side-view portrait. Hero object composition with the dog and sample bag as the focal point, soft gradient backdrop, floating scientific props, glossy reflections on metal vessels, lace openwork sample pad with delicate floral cutout texture, scattered dappled light and mottled shadow patterns, soft pastel studio light mixed with cold natural ice-valley light, Morandi muted color tones, desaturated soft pastels, dusty grey undertones, quiet elegant commercial still life. Background shows subdued blue-white glacial terrain and valley contours like a product-ad backdrop, shallow depth of field, 35mm lens, f/1.8, natural light, fine grain, crisp realistic detail. Visibly display the date and time text exactly as: 2026-07-15 07:35 UTC, on a small label or monitor in English or Traditional Chinese, integrated naturally into the scene. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "inspiration": "天文學家在太陽系外首次找到真正的糖分子，為生命起源線索帶來新突破。",
+    "avoid_list": [
+      "四腳狗清楚執行任務",
+      "鼻尖推動球或道具",
+      "前爪按住紙張邊角",
+      "復古年代場景",
+      "1950年代風格",
+      "地鐵月台場景",
+      "博物館式維修空間",
+      "海底研究站廊道",
+      "圓頂天文館放映室",
+      "倫勃朗光斜切照明",
+      "蝴蝶光柔亮輪廓",
+      "直接閃光燈快照感",
+      "大地色系與復古褪色調",
+      "多格漫畫分鏡構圖",
+      "鏡面或反射自拍構圖"
+    ],
+    "number": 126,
+    "style_picks": {
+      "art_style": "Dreamy Product Photography",
+      "composition": "Side Profile Portrait",
+      "lighting": "Dappled Light",
+      "texture": "Lace Openwork Texture",
+      "color_palette": "Morandi Color Palette"
+    },
+    "inspiration_url": "https://www.nature.com/articles/d41586-026-02100-3",
+    "news_inspiration": [
+      {
+        "summary": "天文學家在太陽系外首次找到真正的糖分子，為生命起源線索帶來新突破。",
+        "url": "https://www.nature.com/articles/d41586-026-02100-3",
+        "source": "Nature"
+      },
+      {
+        "summary": "NASA地球科學新文章展示北極冰封山地沖刷出的壯麗河谷景觀，畫面非常吸睛。",
+        "url": "https://science.nasa.gov/earth/recent-news/",
+        "source": "NASA Science"
+      },
+      {
+        "summary": "史密森尼報導指出，研究人員在北極高緯地區發現一種可在超低氧環境生存的可愛高山鼠類。",
+        "url": "https://www.smithsonianmag.com/smart-news/heres-how-these-adorable-mice-can-live-at-an-extremely-high-elevation-where-no-other-mammal-is-known-to-reside-180987632/",
+        "source": "Smithsonian Magazine"
+      },
+      {
+        "summary": "史密森尼介紹了一款把大都會藝術博物館開放典藏變成線上猜謎遊戲的新作品，結合藝術與互動科技。",
+        "url": "https://www.smithsonianmag.com/smart-news/can-you-guess-the-origins-of-papyrus-fragments-or-painted-ceramics-a-college-student-turned-the-mets-open-access-database-into-an-online-game-180987624/",
+        "source": "Smithsonian Magazine"
+      },
+      {
+        "summary": "Smithsonian報導一件17世紀畫作可能早已描繪出科學家近年才確認的蝙蝠獵鳥行為，古今觀察意外呼應。",
+        "url": "https://www.smithsonianmag.com/smart-news/scientists-just-learned-that-this-bat-eats-birds-midflight-a-renaissance-painter-may-have-known-about-it-hundreds-of-years-ago-180987611/",
+        "source": "Smithsonian Magazine"
+      }
+    ],
+    "story": "研究團隊剛在外太空糖分子的新聞旁搭起這座流動實驗亭，狗狗是唯一最懂節奏的「搬運員」——它把樣本袋從雪坡邊帶回來，停在標記著谷地輪廓的桌前，鼻尖微抬，像在確認每一份證據都沒有被風雪帶走。鏡頭捕捉它專注的側臉與濕亮眼神，背景裡冰谷的藍白地形被柔和壓低，讓整個場景像一張靜謐卻充滿發現感的產品廣告。",
+    "title": "雪谷糖痕",
+    "comment_id": 4978056840,
+    "idea": "在北極冰封山地旁的臨時河谷測繪站裡，一隻四腳邊境牧羊犬側臉叼著一串繡花布帶，專注地把剛採回來的糖分子樣本袋拖到冷光檯面上；畫面以夢幻商品攝影呈現，莫蘭迪色調柔霧鋪陳，斑駁光影落在蕾絲鏤空質感的樣本墊與金屬器皿上，像一場安靜又精準的科學展示。"
   }
 ]
