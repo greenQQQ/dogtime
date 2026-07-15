@@ -6028,5 +6028,49 @@
     "inspiration": "original",
     "title": "星台嗚嗚",
     "story": "今晚的觀測站剛把一箱包材打開，小嗚就以為世界終於要開始拆遷了，整隻狗興奮到在儀器間來回衝刺，嗚嗚地抗議「我只是幫忙檢查」。負責人的手電光一照，牠立刻露出一臉震驚又無辜的哈士奇表情，嘴角還掛著傻笑，彷彿連月亮都在笑牠。"
+  },
+  {
+    "crossover": true,
+    "avoid_list": [
+      "直式海報構圖",
+      "霧面紙玻璃風格",
+      "復古褪色色調",
+      "高對比硬光日照",
+      "前腳壓住紙角",
+      "叼著地圖研究",
+      "四腳狗正面聚焦",
+      "大地色系霧面氛圍",
+      "中央單一主體構圖",
+      "書報亭與海報道具",
+      "閃光燈直打快照感",
+      "貼紙拼貼邊框",
+      "懷舊電影感暖色",
+      "鼻尖貼近物件檢查",
+      "老式工作場景"
+    ],
+    "prompt": "Traditional Chinese four-panel comic strip, colorful manga page composition with expressive humor, each panel clearly showing Pudding, a literal Pembroke Welsh Corgi with a long loaf-shaped body, short sturdy legs, oversized upright ears, bright brown eyes, warm orange-red and white coat, white collar ruff, white chest and belly, four white socks, thin white blaze on the nose bridge, tiny Pembroke stub tail, cheerful eager cheeky grin. Scene: South Australian winter light art festival on a harbor boardwalk with bamboo jade-green tones, emerald and malachite serenity, and rusted weathered metal, oxidized patina, peeling paint, aged industrial decay, warm orange-brown corrosion. Pudding excitedly lines up several small glowing light devices in a row, then sniffs and chooses one with its nose; nearby water and railings reflect dreamy lights; children in the background smile and crouch to pet its head. Tilt-shift photography look with miniature toy-like effect, selective focus band, blurred foreground and background, vibrant saturated colors. Dramatic Rembrandt lighting from one side at 45 degrees, strong chiaroscuro, signature triangle of light on the shadowed cheek, highlighting Pudding’s white ruff, orange-red back, and round peach-shaped rump as the main focus. Include a clearly visible Traditional Chinese date/time caption in the image: '2026-07-15 04:35 UTC'. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "comment_id": 4976917868,
+    "character": "pudding",
+    "news_inspiration": [
+      {
+        "summary": "文化新聞提到南澳的冬季燈光藝術節持續到 7 月 19 日，結合燈光、藝術、音樂與科技，氣氛夢幻又適合看圖。",
+        "url": "https://www.theguardian.com/artanddesign/2026/jul/11/feathered-frolics-webcam-landscapes-and-the-hay-wain-the-week-in-art",
+        "source": "The Guardian"
+      }
+    ],
+    "number": 123,
+    "story": "布丁一到燈光藝術節就先衝去步道邊，把亮晶晶的小燈件排得整整齊齊，像在挑選今晚最喜歡的玩具。牠興奮得原地來了個標誌性的柯基趴，逗得路過的小朋友都笑著蹲下來摸牠的頭。",
+    "character_name": "布丁",
+    "title": "燈海裡的布丁",
+    "inspiration": "文化新聞提到南澳的冬季燈光藝術節持續到 7 月 19 日，結合燈光、藝術、音樂與科技，氣氛夢幻又適合看圖。",
+    "idea": "以四格漫畫呈現、結合移軸微縮效果的南澳冬季燈光藝術節現場：在竹影翠綠色調與帶有鐵鏽舊化質感的海港步道上，布丁正興奮地把幾個小型發光裝置排成一排再用鼻子挑選一個，旁邊的水面與欄杆映著夢幻燈光。倫勃朗光從展架側面切出牠的白圍脖、橘紅背脊與圓潤蜜桃屁股，讓牠成為整個畫面的主角。",
+    "inspiration_url": "https://www.theguardian.com/artanddesign/2026/jul/11/feathered-frolics-webcam-landscapes-and-the-hay-wain-the-week-in-art",
+    "style_picks": {
+      "art_style": "Four-panel Comic",
+      "composition": "Tilt-Shift Miniature",
+      "lighting": "Rembrandt Lighting",
+      "texture": "Rust / Weathered",
+      "color_palette": "Bamboo Jade Green"
+    }
   }
 ]

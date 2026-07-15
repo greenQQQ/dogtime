@@ -1238,5 +1238,18 @@
     "title": "星台嗚嗚",
     "status": "success",
     "character_name": "小嗚"
+  },
+  {
+    "crossover": true,
+    "title": "燈海裡的布丁",
+    "timestamp": "2026-07-15 04:35 UTC",
+    "character": "pudding",
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-15_0435_UTC.webp",
+    "inspiration": "文化新聞提到南澳的冬季燈光藝術節持續到 7 月 19 日，結合燈光、藝術、音樂與科技，氣氛夢幻又適合看圖。",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "number": 123,
+    "status": "success",
+    "inspiration_url": "https://www.theguardian.com/artanddesign/2026/jul/11/feathered-frolics-webcam-landscapes-and-the-hay-wain-the-week-in-art",
+    "character_name": "布丁"
   }
 ]
