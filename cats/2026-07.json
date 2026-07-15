@@ -6573,5 +6573,39 @@
         "source": "Smithsonian Magazine"
       }
     ]
+  },
+  {
+    "number": 134,
+    "news_inspiration": [],
+    "story": "清晨市場剛開門，狗沿著濕亮的石地慢慢走到炭爐邊，鼻尖停在熱氣與魚香交界的地方。攤主沒有理會牠，只是繼續翻烤章魚串；狗安靜地守著那一小片光，像在等待今天第一口落下的聲音。",
+    "prompt": "Illustration / fine art chalk drawing on blackboard: an extreme wide horizontal handscroll panorama of an old seafood market interior, continuous panoramic narrative, right-to-left reading flow, layered foreground middleground background, multiple focal points spread across the width, oblique bird’s-eye angle. Dusty matte chalk texture on dark green slate, visible hatching strokes, soft window light slanting in from high side windows with smooth falloff into shadow, intimate still-life mood, classic Vermeer-like illumination. Vermilion and white interwoven with restrained dark slate tones: bold cinnabar red accents against clean negative-space white on the floor, fish boxes, and walls. Tangled wire mesh and industrial netting behind the stalls, coiled woven metal strands creating dense tactile layers. A realistic four-legged dog is clearly shown crouching beside a stall, attentively watching the vendor use iron tongs to flip octopus skewers over a charcoal brazier; the dog remains still, focused on the heat and aroma at the edge of the smoke. Wet stone floor, salt mist, wood shavings, and market steam visible in the air, vivid and lifelike. Include the date and time text prominently and legibly in Traditional Chinese or English: “2026-07-15 15:35 UTC”. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "avoid_list": [
+      "四腳狗叼著物件",
+      "狗用鼻子和前爪操作",
+      "側臉近景特寫",
+      "俯視花海構圖",
+      "戲劇性單一側光",
+      "倫勃朗光與明暗對比",
+      "夢幻商業攝影感",
+      "超現實拼貼邊框",
+      "漩渦螺旋引導線",
+      "莫蘭迪低飽和色調",
+      "霓虹生物發光效果",
+      "城市/研究站/工作檯場景",
+      "俏皮又認真的狗表情",
+      "可讀日期時間標籤",
+      "海報式多格漫畫構圖"
+    ],
+    "comment_id": 4982461984,
+    "title": "炭爐邊的守候",
+    "style_picks": {
+      "art_style": "Chalk Art",
+      "composition": "Handscroll Panoramic Layout",
+      "lighting": "Window Light",
+      "texture": "Tangled Wire Mesh",
+      "color_palette": "Vermilion and White"
+    },
+    "inspiration": "original",
+    "idea": "以粉筆畫呈現一條長卷全景的老式海產市場內景，窗邊柔光從高窗斜落，朱紅與留白在地面、魚箱與牆面間交錯，鐵絲網纏繞在攤位後方形成細密的質感層次。一隻四腳狗正蹲坐在攤位旁專心看著攤主用鐵夾翻轉炭火上的章魚串，空氣裡有鹽霧與木屑的痕跡，場面真實而鮮活。"
   }
 ]
