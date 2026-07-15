@@ -6264,5 +6264,69 @@
     "prompt": "Oriental mythic poster art illustration, cinematic fantasy composition, side-profile close-up of a black-and-white beagle clearly visible and actively pawing chopped scallions into a copper pot beside a vermilion and gilt kitchen counter, the dog’s nose and chin defined in elegant lateral framing, photorealistic central subject merged with traditional Chinese ink cloud ornaments, vertical calligraphy panels, red seal stamps, gold leaf accents on deep black, moody interior, film-noir atmosphere, dramatic graphic shadow pattern, venetian blind striped lighting casting hard parallel bands of light and shadow across the dog and pot, cold white steam rising and reflecting on the copper surface. Background: a narrow Cantonese dim sum kitchen lined with marble textures and natural vein patterns, polished cool stone, stacked steamers, porcelain bowls, and wall-mounted gold-edged name plaques arranged in crisp layered depth. A smiling master chef’s long chopsticks gently receiving the scallions near the pot rim, suggesting a quiet early-morning ritual. Include the date and time clearly as Traditional Chinese/English text: \"2026-07-15 09:35 UTC\" integrated as a refined vertical title panel or sign. Deep black, cinnabar red, metallic gold, copper, and cool white tones, ornate yet restrained, luxurious lacquer-like richness. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
     "idea": "東方奇幻海報風格的側臉特寫中，一隻黑白相間的米格魯正蹲在朱紅描金的廚房吧台旁，專注把切好的蔥花撥進銅鍋裡，鍋面映著百葉窗條紋光與冷白蒸氣。背景是鋪滿大理石紋理的狹長粵式點心廚房，蒸籠、瓷碗與掛著金邊字牌的牆面被切成清晰層次。",
     "inspiration": "original"
+  },
+  {
+    "number": 129,
+    "title": "湖岸金禮",
+    "season": "summer",
+    "prompt": "Renaissance painting style with realistic perspective and masterful light and shadow, depicting a large gentle Golden Retriever named A-gin in a top-down overhead composition, reclining in a sea of summer blossoms beside a lake, body surrounded by dense flowers. A-gin has a warm golden #D9A85C medium-long feathered coat with slightly darker gold floppy ears, feathered chest, legs, and tail, broad kind face, dark brown #5A4028 eyes, and a permanent soft smile; he is clearly a literal four-legged dog with no collar. He is shown just after coming ashore from the lake, wet fur clinging but still fluffy, chest fur like a golden scarf beaded with water droplets, carrying in his mouth a red cloth-wrapped bundle and a clean towel to a small kitten sitting by the flowerbed. The dog is glancing sideways as if checking no one is nearby, with a half-shaken arc of water and his tail wagging like a golden flag. Bright white seamless studio lighting on a pure white cyclorama, shadowless high-key product clarity, bold cinnabar red flower petals and clean negative-space white for striking contrast, rich warm palette with vermilion and white balance, classical composition, sfumato technique, dreamy decorative bird’s-eye arrangement, crisp commercial clarity, aged silk scroll surface, warm sepia patina, visible silk weave, delicate crease lines, antique manuscript texture. Clearly display the date and time text: '2026-07-15 10:35 UTC' in Traditional Chinese or English within the image. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "character_name": "阿金",
+    "is_seasonal": true,
+    "news_inspiration": [
+      {
+        "summary": "研究人員正嘗試重建胸腺，這個會隨年齡退化的免疫器官，或許有助於延緩老化。",
+        "url": "https://www.nature.com/news",
+        "source": "Nature"
+      },
+      {
+        "summary": "科學家首次在海底觀測到板塊分裂並釋放熔岩，讓深海地殼如何形成變得更直觀。",
+        "url": "https://www.nature.com/news",
+        "source": "Nature"
+      },
+      {
+        "summary": "研究團隊在瓜地馬拉的瑪雅遺址牆面上發現數學公式，展現古代天文與數學的驚人深度。",
+        "url": "https://www.nature.com/news",
+        "source": "Nature"
+      },
+      {
+        "summary": "天文學家在太空中找到首個「真正的糖」分子，為生命起源研究提供新的線索。",
+        "url": "https://www.nature.com/news",
+        "source": "Nature"
+      },
+      {
+        "summary": "國家地理 2026 年 7 月號聚焦月球與火星生活準備、野生動物攝影與世界上最美麗的蛇等題材，充滿視覺感。",
+        "url": "https://www.nationalgeographic.com/magazine/issue/july-2026",
+        "source": "National Geographic"
+      }
+    ],
+    "avoid_list": [
+      "四腳狗清楚執行任務",
+      "鼻尖推動球或道具",
+      "前爪按住紙張邊角",
+      "復古年代場景",
+      "1950年代風格",
+      "地鐵月台場景",
+      "博物館式維修空間",
+      "海底研究站廊道",
+      "圓頂天文館放映室",
+      "倫勃朗光斜切照明",
+      "蝴蝶光柔亮輪廓",
+      "直接閃光燈快照感",
+      "大地色系與復古褪色調",
+      "多格漫畫分鏡構圖",
+      "鏡面或反射自拍構圖"
+    ],
+    "idea": "以文藝復興風格呈現一片夏日湖畔花海的俯臥俯視構圖：阿金剛從湖水裡上岸，深金色濕毛貼身卻仍蓬鬆，胸前像披著金圍巾的長毛沾著水珠，正低頭把一條剛撿來的紅布包與乾淨毛巾叼向花叢旁的小男孩；白底去背棚光讓牠與朱紅花瓣、大片留白形成鮮明對比，古絹絹本質感像被精心保存的夏日卷軸。",
+    "story": "阿金游完泳上岸前，還特地側頭確認旁邊沒人，才用力甩了半圈水，然後把自己最喜歡的禮物叼給坐在碼頭邊發呆的新搬來小貓。牠安安靜靜趴進花海中央，尾巴像一面金色小旗慢慢搖著，彷彿在說：每個人都值得被好好迎接。",
+    "style_picks": {
+      "art_style": "Renaissance",
+      "composition": "Overhead Reclining-in-Blossoms",
+      "lighting": "White Seamless Studio Light",
+      "texture": "Aged Silk Scroll",
+      "color_palette": "Vermilion and White"
+    },
+    "comment_id": 4979642045,
+    "character": "ajin",
+    "inspiration": "original"
   }
 ]

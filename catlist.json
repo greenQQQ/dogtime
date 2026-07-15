@@ -1299,5 +1299,18 @@
     "timestamp": "2026-07-15 09:35 UTC",
     "model": "gpt-image-2 (codex-image-service / $imagegen)",
     "status": "success"
+  },
+  {
+    "number": 129,
+    "title": "湖岸金禮",
+    "season": "summer",
+    "character": "ajin",
+    "character_name": "阿金",
+    "inspiration": "original",
+    "timestamp": "2026-07-15 10:35 UTC",
+    "is_seasonal": true,
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "status": "success",
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-15_1035_UTC.webp"
   }
 ]
