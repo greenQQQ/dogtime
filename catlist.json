@@ -1251,5 +1251,13 @@
     "status": "success",
     "inspiration_url": "https://www.theguardian.com/artanddesign/2026/jul/11/feathered-frolics-webcam-landscapes-and-the-hay-wain-the-week-in-art",
     "character_name": "布丁"
+  },
+  {
+    "error": "codex-image-service job failed: Codex timed out after 360 seconds",
+    "timestamp": "2026-07-15 05:35 UTC",
+    "model": "all failed",
+    "url": null,
+    "status": "failed",
+    "number": null
   }
 ]
