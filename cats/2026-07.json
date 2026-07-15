@@ -6451,5 +6451,66 @@
       "color_palette": "Festive Red and Gold"
     },
     "character": "machi"
+  },
+  {
+    "inspiration_url": "https://www.nature.com/nature/articles/mathematics-formula-found-on-maya-wall-rivals-insights-of-ancient-masters-1.5",
+    "idea": "在瓜地馬拉一處瑪雅遺址的石階回廊內，一隻四腳臘腸狗正專注地用鼻尖追著地上散落的數學拓印紙，旁邊的考古學家蹲在拱門下整理刻有星圖的陶片。畫面以新中式水墨描金時尚插畫呈現，中景環境人像構圖搭配蝴蝶光，高飽和的青綠、朱紅與金色在蕾絲鏤空質感的衣紋與石雕陰影間交錯，古老與當代像被同一口呼吸輕輕連起。",
+    "title": "石階星算",
+    "news_inspiration": [
+      {
+        "summary": "研究人員正嘗試重建胸腺，期望這個會隨年齡萎縮的免疫器官能為延緩老化帶來新線索。",
+        "url": "https://www.nature.com/nature/articles/could-this-mysterious-disappearing-organ-hold-the-key-to-longevity-1.5",
+        "source": "Nature"
+      },
+      {
+        "summary": "深海研究迎來新突破，科學家正運用鑽探船、海床感測器與再利用海底電纜來探索地球最少被測繪的區域。",
+        "url": "https://www.nature.com/nature/articles/the-race-to-explore-the-deep-ocean-four-technologies-transforming-research-1.5",
+        "source": "Nature"
+      },
+      {
+        "summary": "瓜地馬拉一處瑪雅遺址出土的數學公式顯示，古代天文知識可能比想像中更精密。",
+        "url": "https://www.nature.com/nature/articles/mathematics-formula-found-on-maya-wall-rivals-insights-of-ancient-masters-1.5",
+        "source": "Nature"
+      },
+      {
+        "summary": "天文學家在太陽系外首次找到「真正的糖」分子，為生命起源與宇宙化學提供新線索。",
+        "url": "https://www.nature.com/articles/first-true-sugar-molecule-found-in-space-offering-hints-to-life-s-origins-1.5",
+        "source": "Nature"
+      },
+      {
+        "summary": "科學家發現一顆原本看似普通的小天體其實帶有彗尾，這種神祕的「暗彗星」行為讓太空觀測更添驚奇。",
+        "url": "https://www.nature.com/articles/dark-comet-unmasked-by-its-mysterious-motions-1.5",
+        "source": "Nature"
+      }
+    ],
+    "prompt": "Modern Chinese ink-and-gold fashion illustration, neo-chinoiserie editorial style, environmental medium shot with balanced figure-and-context framing in a Guatemalan Maya ruin stone colonnade after rain. A four-legged dachshund in the foreground is clearly shown sniffing and gently nudging scattered math rubbings on the damp stone floor with its nose, tail subtly wagging; nearby, an archaeologist crouches beneath an archway sorting ceramic shards engraved with star maps. Visually display the date and time '2026-07-15 13:35 UTC' as elegant Traditional Chinese/English typography integrated into a stone plaque or caption card within the scene. Flowing ink-wash background, gilt linework accents, high-saturation vivid teal-green, vermilion, and gold, lace openwork fabric texture translated into delicate perforated garment details, floral cutout patterns, translucent filigree, scalloped edges, and stone shadow interplay. Butterfly lighting with overhead key light, soft even illumination, symmetrical shadow under the nose, natural depth perspective, storytelling background, ancient and contemporary connected by a single breath, elegant fusion couture, lively contrast, fashion illustration finish. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "story": "雨後的石階還帶著潮氣，臘腸狗沿著刻痕一路嗅到一張半濕的公式拓印，尾巴在空氣裡小幅擺動。考古學家笑著抬頭，發現那些被風化的符號竟與狗爪旁的排列不謀而合，像是古老天文知識在回廊深處悄悄醒來。",
+    "number": 132,
+    "comment_id": 4981240116,
+    "inspiration": "瓜地馬拉一處瑪雅遺址出土的數學公式顯示，古代天文知識可能比想像中更精密。",
+    "style_picks": {
+      "art_style": "Modern Chinese Ink-and-Gold Fashion Illustration",
+      "composition": "Environmental Medium Portrait",
+      "lighting": "Butterfly Lighting",
+      "texture": "Lace Openwork Texture",
+      "color_palette": "High Saturation Vivid"
+    },
+    "avoid_list": [
+      "四腳狗叼著物件",
+      "狗用鼻子和前爪操作",
+      "側臉近景特寫",
+      "俯視花海構圖",
+      "戲劇性單一側光",
+      "倫勃朗光與明暗對比",
+      "夢幻商業攝影感",
+      "超現實拼貼邊框",
+      "漩渦螺旋引導線",
+      "莫蘭迪低飽和色調",
+      "霓虹生物發光效果",
+      "城市/研究站/工作檯場景",
+      "俏皮又認真的狗表情",
+      "可讀日期時間標籤",
+      "海報式多格漫畫構圖"
+    ]
   }
 ]
