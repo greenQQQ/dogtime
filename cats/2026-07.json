@@ -5976,5 +5976,57 @@
       "老式工作場景"
     ],
     "title": "月台追球"
+  },
+  {
+    "news_inspiration": [
+      {
+        "summary": "我目前無法在可驗證的搜尋結果中穩定找到符合「過去24–48小時、非政治／戰爭／災難、且提供完整文章URL」的3–5則新聞。",
+        "url": null,
+        "source": "N/A"
+      },
+      {
+        "summary": "已搜尋到一些可能相關的媒體入口與版面，但未能可靠抓到可直接複製的完整文章連結。",
+        "url": null,
+        "source": "N/A"
+      },
+      {
+        "summary": "若你願意，我可以改用較寬鬆條件再次搜尋，或限定特定媒體（如 Reuters、AP、BBC、The Verge、Smithsonian）。",
+        "url": null,
+        "source": "N/A"
+      }
+    ],
+    "comment_id": 4976600868,
+    "number": 122,
+    "idea": "以體素／我的世界風格呈現一座位於火山口邊緣的天文觀測平台，畫面用多格角色拼貼分成四個視角：小嗚趴在覆滿苔蘚的紅黑色儀器台旁，正瘋狂嗅著被吹得亂飛的保麗龍屑，尾巴甩成一團刷影，冰藍眼睛亮得像兩顆冰晶。星雲輝光從圓頂天窗灑下，讓整個夜空與苔蘚邊緣都泛著緋紅與黑色的層次。",
+    "character_name": "小嗚",
+    "avoid_list": [
+      "直式海報構圖",
+      "霧面紙玻璃風格",
+      "復古褪色色調",
+      "高對比硬光日照",
+      "前腳壓住紙角",
+      "叼著地圖研究",
+      "四腳狗正面聚焦",
+      "大地色系霧面氛圍",
+      "中央單一主體構圖",
+      "書報亭與海報道具",
+      "閃光燈直打快照感",
+      "貼紙拼貼邊框",
+      "懷舊電影感暖色",
+      "鼻尖貼近物件檢查",
+      "老式工作場景"
+    ],
+    "style_picks": {
+      "art_style": "Voxel / Minecraft Style",
+      "composition": "Multi-Panel Character Montage",
+      "lighting": "Nebula Cosmic Glow",
+      "texture": "Moss Overgrowth",
+      "color_palette": "Crimson and Black"
+    },
+    "character": "wuwu",
+    "prompt": "Minecraft-style voxel art, playful 3D render, clean lighting, comic-style multi-panel character montage in a cohesive grid of four views. Scene: a moonlit astronomical observation platform perched on the rim of a volcanic crater, built from blocky red-black stone and moss-covered instruments, with lush green organic overgrowth reclaiming the edges. Nebula cosmic glow pours through a round dome skylight, bathing the night sky, moss, and black-crimson machinery in ethereal purple-blue starfield light with glowing particles and galactic haze; deep blood-red and jet-black layers contrast with soft crimson highlights. Show Wuwu, a literal Siberian Husky with black-grey #3C4148 and snow-white #FFFFFF coat, crisp symmetric husky mask, upright ears with white inner fluff, fluffy double coat, big brush tail, and ice-blue #7EC3E8 eyes ONLY, in four expressive poses: sniffing furiously at flying packing foam bits near a moss-covered red-black instrument table, tail whipping into a blur, ecstatic and mischievous; sprinting between telescopes as if ‘helping inspect’ the packing material; shocked and wronged husky face under a flashlight beam; goofy grin with the moonlight making him look even sillier. The dog must clearly be four-legged and literal, not humanoid. Include visible Traditional Chinese text or English text with the exact date/time: ‘2026-07-15 03:28 UTC’ on a small instrument display, sign, or caption within the image. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "inspiration": "original",
+    "title": "星台嗚嗚",
+    "story": "今晚的觀測站剛把一箱包材打開，小嗚就以為世界終於要開始拆遷了，整隻狗興奮到在儀器間來回衝刺，嗚嗚地抗議「我只是幫忙檢查」。負責人的手電光一照，牠立刻露出一臉震驚又無辜的哈士奇表情，嘴角還掛著傻笑，彷彿連月亮都在笑牠。"
   }
 ]

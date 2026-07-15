@@ -1227,5 +1227,16 @@
     "title": "月台追球",
     "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-14_1635_UTC.webp",
     "number": 121
+  },
+  {
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-15_0328_UTC.webp",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "timestamp": "2026-07-15 03:28 UTC",
+    "character": "wuwu",
+    "number": 122,
+    "inspiration": "original",
+    "title": "星台嗚嗚",
+    "status": "success",
+    "character_name": "小嗚"
   }
 ]
