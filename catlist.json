@@ -1312,5 +1312,15 @@
     "model": "gpt-image-2 (codex-image-service / $imagegen)",
     "status": "success",
     "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-15_1035_UTC.webp"
+  },
+  {
+    "title": "海底地圖犬",
+    "inspiration": "Nature指出，深海鑽探船、海底感測器與再利用的網路電纜等新技術，正在幫助人類探索地球最後一個大致未被測繪的區域。",
+    "status": "success",
+    "number": 130,
+    "timestamp": "2026-07-15 11:35 UTC",
+    "inspiration_url": "https://www.nature.com/news/latest-science-news-discoveries-and-analysis",
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-15_1135_UTC.webp",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)"
   }
 ]

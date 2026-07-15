@@ -6328,5 +6328,66 @@
     "comment_id": 4979642045,
     "character": "ajin",
     "inspiration": "original"
+  },
+  {
+    "prompt": "Pastel seaside illustration, breezy coastal scene with a soft candy sky and sea, gentle gradient pastels, fresh airy holiday mood. A four-legged Labrador sits beside the circular hatch door of an underground coastal observation station on the beach, clearly using its nose and front paws to press and flatten an unfolded deep-sea map onto an ornate cast-iron filigree pedestal desk; the dog is focused and intent, with the map centered on a circular disk marking a deep-ocean trench. Perfectly symmetrical composition, centered subject, mirror-like balance, architectural framing. On both sides, fluorescent light tubes, seawater pressure gauges, and repurposed old network cables mirror each other neatly. Overhead fluorescent lighting, neutral white 5000K institutional flat illumination, no shadows. Wrought iron filigree, ornate black scrollwork, Victorian architectural ironwork, cast iron lace, heritage metal craftsmanship. Earth-tone palette of sand, copper, beige, terracotta, olive green, warm brown, natural organic harmony, quiet and solid atmosphere. Show waves hitting the rocks outside the hatch, subtle sonar echo mood. Include clearly visible Traditional Chinese or English text displaying the date and time: 2026-07-15 11:35 UTC. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "number": 130,
+    "avoid_list": [
+      "四腳狗叼著物件",
+      "狗用鼻子和前爪操作",
+      "側臉近景特寫",
+      "俯視花海構圖",
+      "戲劇性單一側光",
+      "倫勃朗光與明暗對比",
+      "夢幻商業攝影感",
+      "超現實拼貼邊框",
+      "漩渦螺旋引導線",
+      "莫蘭迪低飽和色調",
+      "霓虹生物發光效果",
+      "城市/研究站/工作檯場景",
+      "俏皮又認真的狗表情",
+      "可讀日期時間標籤",
+      "海報式多格漫畫構圖"
+    ],
+    "title": "海底地圖犬",
+    "story": "潮水退去後，觀測站只剩機械嗡鳴與濕鹽味，拉布拉多把一枚標記深海裂谷的圓片推到地圖中央，像在替人類最後未被測繪的海底補上一筆。艙門外的浪花拍打礁岩，牠抬頭聽見遠處聲納回音，又低下頭繼續把紙角壓平，彷彿知道這片海正等著被重新命名。",
+    "news_inspiration": [
+      {
+        "summary": "Nature報導，科學家正加速重建胸腺，盼望這個可退化的免疫器官能成為延緩老化的新突破。",
+        "url": "https://www.nature.com/news/latest-science-news-discoveries-and-analysis",
+        "source": "Nature"
+      },
+      {
+        "summary": "Nature指出，深海鑽探船、海底感測器與再利用的網路電纜等新技術，正在幫助人類探索地球最後一個大致未被測繪的區域。",
+        "url": "https://www.nature.com/news/latest-science-news-discoveries-and-analysis",
+        "source": "Nature"
+      },
+      {
+        "summary": "Nature報導，危地馬拉馬雅遺址出土的數學文字，讓研究者重新看見古代天文與計算智慧的高度。",
+        "url": "https://www.nature.com/news/latest-science-news-discoveries-and-analysis",
+        "source": "Nature"
+      },
+      {
+        "summary": "《衛報》文化版刊出約翰藍儂的創作中出現的Yoko Ono《Cut Piece》重演報導，凸顯一件六十年前的表演藝術作品仍能持續震撼觀眾。",
+        "url": "https://www.theguardian.com/artanddesign/artanddesign%2Bculture/culture",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "《衛報》攝影版精選世界各地讀者拍攝的「城市生活與一隻好奇的貓」作品集，畫面感十足、很適合快速瀏覽。",
+        "url": "https://www.theguardian.com/artanddesign/photography/2026/jul/14/all",
+        "source": "The Guardian"
+      }
+    ],
+    "comment_id": 4980095822,
+    "idea": "粉彩海濱插畫中，一隻四腳拉布拉多坐在海邊的地下觀測站圓形艙門旁，牠正專注用鼻尖與前爪把一張攤開的深海地圖按在鑄鐵雕花檯座上；對稱構圖讓左右兩側的螢光燈管、海水壓力表與再利用的舊網路電纜整齊映成鏡像，大地色的沙、銅、米白在柔和日光燈下顯得安靜而堅實。",
+    "inspiration": "Nature指出，深海鑽探船、海底感測器與再利用的網路電纜等新技術，正在幫助人類探索地球最後一個大致未被測繪的區域。",
+    "inspiration_url": "https://www.nature.com/news/latest-science-news-discoveries-and-analysis",
+    "style_picks": {
+      "art_style": "Pastel Seaside Illustration",
+      "composition": "Symmetrical Composition",
+      "lighting": "Fluorescent Lighting",
+      "texture": "Wrought Iron Filigree",
+      "color_palette": "Earth Tones"
+    }
   }
 ]
