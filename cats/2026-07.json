@@ -6512,5 +6512,66 @@
       "可讀日期時間標籤",
       "海報式多格漫畫構圖"
     ]
+  },
+  {
+    "title": "洋底守圖",
+    "inspiration": "研究團隊首次在實地觀察到海底板塊裂開並釋放熔岩，畫面震撼且有助理解海洋地殼生成。",
+    "style_picks": {
+      "art_style": "Command Line Terminal",
+      "composition": "Fisheye Lens",
+      "lighting": "Underwater Caustics",
+      "texture": "Gold Foil Flecks",
+      "color_palette": "Gold and Black Luxury"
+    },
+    "comment_id": 4981853089,
+    "avoid_list": [
+      "四腳狗叼著物件",
+      "狗用鼻子和前爪操作",
+      "側臉近景特寫",
+      "俯視花海構圖",
+      "戲劇性單一側光",
+      "倫勃朗光與明暗對比",
+      "夢幻商業攝影感",
+      "超現實拼貼邊框",
+      "漩渦螺旋引導線",
+      "莫蘭迪低飽和色調",
+      "霓虹生物發光效果",
+      "城市/研究站/工作檯場景",
+      "俏皮又認真的狗表情",
+      "可讀日期時間標籤",
+      "海報式多格漫畫構圖"
+    ],
+    "number": 133,
+    "idea": "在一艘沉入海面的古老海底觀測艙內，一隻黑金色短毛狗正專心用爪子按住一張從金屬夾板上滑出的海圖，鼻尖幾乎貼近艙窗，魚眼鏡頭把狹小空間撐成弧形；窗外正好映出海底板塊裂開、熔岩緩慢翻湧的震撼瞬間，水下焦散光在艙壁上游移，金箔潑點肌理像散落的碎光。整體以命令列終端機般的黑底金字感統攝畫面，金色與黑色奢華而克制，狗是全場唯一的焦點。",
+    "story": "這隻狗不是在追逐海浪，而是在替潛艙裡的工程師守住一份即將被水流捲走的海底地圖。當裂開的洋底在窗外亮起熔岩紅時，它仍低頭把圖紙按得更穩，像在等待下一道訊號。",
+    "inspiration_url": "https://www.nature.com/articles/d41586-026-02123-8",
+    "prompt": "Illustration/art in a luxurious retro command-line terminal aesthetic: a black console background with monospace bitmap text output, CJK system font rendering, scrolling log lines, and a blinking cursor prompt, all integrated into a cinematic underwater scene. Inside an ancient submerged ocean observatory capsule, a black-and-gold short-haired dog is the single focal point, urgently pinning down a sea chart that has slipped from a metal clipboard with its paw, nose nearly pressed to the porthole glass; use a fisheye wide-angle lens look with strong barrel distortion and exaggerated foreground so the cramped capsule curves dramatically around the viewer. Outside the window, show the shocking moment of the seafloor plates cracking open with lava slowly churning below, while blue-green underwater caustic lighting and refracted sun shafts move across the capsule walls. Scatter gold foil flecks, metallic gold leaf shards, and glinting gilded specks across the scene like dispersed light, with a restrained opulent black-and-gold palette and deep black shadows. Make the dog clearly visible and dominant in the composition, focused on holding the map steady for the engineer. Display the date and time exactly as visible text in the image: 2026-07-15 14:35 UTC, rendered in Traditional Chinese/English-compatible terminal text styling. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "news_inspiration": [
+      {
+        "summary": "科學家正加速研究胸腺再生技術，希望未來能延緩老化並改善免疫功能。",
+        "url": "https://www.nature.com/news/could-this-mysterious-disappearing-organ-hold-the-key-to-longevity-14-07-2026",
+        "source": "Nature"
+      },
+      {
+        "summary": "研究團隊首次在實地觀察到海底板塊裂開並釋放熔岩，畫面震撼且有助理解海洋地殼生成。",
+        "url": "https://www.nature.com/articles/d41586-026-02123-8",
+        "source": "Nature"
+      },
+      {
+        "summary": "一篇關於馬雅牆面上的數學公式的報導指出，古代天文知識可能比我們以為的更精深。",
+        "url": "https://www.nature.com/articles/d41586-026-02119-4",
+        "source": "Nature"
+      },
+      {
+        "summary": "《Smithsonian》報導修復人員揭開倫勃朗未完成畫作的原貌，讓失落的藝術細節重見天日。",
+        "url": "https://www.smithsonianmag.com/arts-culture/rembrandt-began-biblical-painting-another-artist-finished-it-rather-crudely-now-restorations-have-revealed-the-long-lost-original-180987909/",
+        "source": "Smithsonian Magazine"
+      },
+      {
+        "summary": "《Smithsonian》介紹吉姆漢森工作室如何打造《芝麻街》等經典角色，充滿視覺想像與手作魅力。",
+        "url": "https://www.smithsonianmag.com/arts-culture/a-peek-inside-jim-hensons-creature-shop-where-sesame-street-characters-and-other-whimsical-puppets-are-designed-180986715/",
+        "source": "Smithsonian Magazine"
+      }
+    ]
   }
 ]
