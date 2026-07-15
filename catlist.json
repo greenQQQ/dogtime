@@ -1290,5 +1290,14 @@
     "character": "latte",
     "number": 127,
     "character_name": "拿鐵"
+  },
+  {
+    "number": 128,
+    "inspiration": "original",
+    "title": "蔥香初醒",
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-15_0935_UTC.webp",
+    "timestamp": "2026-07-15 09:35 UTC",
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "status": "success"
   }
 ]
