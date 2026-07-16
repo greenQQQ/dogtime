@@ -7014,5 +7014,65 @@
     "title": "琥珀訊號",
     "number": 144,
     "idea": "一隻毛茸茸的小狗，在一個由廢棄巴士站改造而成的、充滿植物的後末日療癒動畫場景中，牠正用鼻子仔細嗅探一台巨大的老舊無線電收發器，並用前爪輕輕撥動按鈕，整個畫面瀰漫著暖琥珀色的電影感光線和細膩的紙質肌理。"
+  },
+  {
+    "inspiration": "original",
+    "idea": "",
+    "news_inspiration": [
+      {
+        "summary": "天文學家觀察到一顆遙遠的類太陽恆星吞噬了其中一顆行星，留下獨特的化學指紋。",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKhCuaFnyklfvzpFpyi4LEUZyilmMbt4kIh1DD9nwbF4leiap4pKEsEQhtzD6YA87lu4bfl8w3JIspoNPRlgFjl2YtPP702Bi7h3I5UtbtCe7cCHNBznoCDrtMP-gZcgfQZpgqR8CcgH0gwbaxGcz_HgTLEaEbs-I=",
+        "source": "sciencedaily.com"
+      },
+      {
+        "summary": "在獅子山（Sierra Leone），一項農業計畫正幫助截肢者學習永續耕作技能，重建生活並獲得收入。",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8YM5oh-7RhbKRe2D1O4m0kiVe8nGM66wLWNaJx9xSiKV4tZFd_5NarT2O-sJxhh81XVA8dv0C0HFi-gyb1jI2jYoOfOpk0_89y0N6NXRUcoPxqnLjL-NoPk4Ib771DdkGL8D1SQIyRFu0J6BmotaP01SQbBA4Bh-5Ne3ep_ym5-L6TOE2B4X-jxyHgZ8pxMvTOPT7ovhZhTPCgncLqCQY3a1IfY5hkaqxuIsSqyKV_tY=",
+        "source": "positive.news"
+      },
+      {
+        "summary": "美國密蘇里州堪薩斯城（Kansas City, Missouri）今日舉行KC藝穗節，展示當地、國內及國際藝術家的多樣化表演與視覺藝術。",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGn-QFz7p7TdxFIVayphXEieKrIUveoUl8ol5k-N8FP9sVMkh6ABPwFHYioaQMt50CqQoffd1vpuNV15luVydDY-l0Q9fL5YL8Sk1HNwo9Yk1JVhDmoLbYDkBIu0DuoL8ueyVwSccvp33Xx5Wro",
+        "source": "visitkc.com"
+      },
+      {
+        "summary": "法國巴黎（Paris, France）正在利用塞納河（Seine River）的冷水，作為一種創新方式為城市建築降溫，以取代傳統空調系統。",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvCu7nx5grPV8zWTd9piQpE80_Yb0KDoVUbpP8nNujwOT1zaSaUIvbxWECXBUzUty_RbCpi9H5ac1JAxpULYUPhb6z-sjvBY8QwV38lD5BTHIpoFu5qA==",
+        "source": "globalgoodnews.com"
+      },
+      {
+        "summary": "科學家在剛果民主共和國（Democratic Republic of Congo）的雨林中發現了一個新的非洲猴子物種，被當地人稱為Likweli。",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG53jwu2NBOElgscrTiOuGCp7bVUr6DvXvrMgWVJ4R72bhXRlqgVQXoLdcQUGwBViWKX5bwdNXBIAx2wA4I92-NJhCCmZ2E9Sj25IFJtWOpqDlfnKZ9VCW3uVTpMTofjuerC4X2cK23m7N49klVncIAoj24muTUb2uxumqJBIJCSuNs6omEZRptkZ0zfzKMqHir_He-mei7_a6Kwx1CQYvgf6WycOuu2xKYxhrwKW1qiIURD2TQxT5ry8HodFJvYvFN7G43IiUYuGal3X81UTPjMwwEhuXnKJE=",
+        "source": "12newsnow.com"
+      }
+    ],
+    "number": 145,
+    "prompt": "A cute dog with the date and time '2026-07-16 14:35 UTC' displayed in the image, high quality, detailed",
+    "story": "一隻可愛的狗狗正在享受美好的一天。",
+    "title": "狗狗日常",
+    "avoid_list": [
+      "對稱構圖",
+      "四腳狗",
+      "正中央主體",
+      "螢光燈均勻照明",
+      "無陰影平光",
+      "新中式水墨描金",
+      "印象派筆觸",
+      "貼紙拼貼邊框",
+      "海邊地下觀測站",
+      "海底科學觀測艙",
+      "古老天文台圓頂",
+      "伸鼻按住地圖",
+      "趴在桌邊盯著",
+      "黑金奢華配色",
+      "繁體中文日期時間標示"
+    ],
+    "style_picks": {
+      "art_style": "Cyberpunk",
+      "composition": "Ultra Wide Angle",
+      "lighting": "Butterfly Lighting",
+      "texture": "Cotton Candy Clouds",
+      "color_palette": "Teal and Orange"
+    },
+    "comment_id": 4993152718
   }
 ]
