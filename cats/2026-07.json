@@ -6980,5 +6980,39 @@
       "color_palette": "Morandi Color Palette"
     },
     "title": "狗狗日常"
+  },
+  {
+    "news_inspiration": [],
+    "inspiration": "original",
+    "comment_id": 4992580680,
+    "avoid_list": [
+      "對稱構圖",
+      "四腳狗",
+      "正中央主體",
+      "螢光燈均勻照明",
+      "無陰影平光",
+      "新中式水墨描金",
+      "印象派筆觸",
+      "貼紙拼貼邊框",
+      "海邊地下觀測站",
+      "海底科學觀測艙",
+      "古老天文台圓頂",
+      "伸鼻按住地圖",
+      "趴在桌邊盯著",
+      "黑金奢華配色",
+      "繁體中文日期時間標示"
+    ],
+    "prompt": "一隻毛茸茸的小狗，在一個由廢棄巴士站改造而成的、充滿植物的後末日療癒動畫場景中，牠正用鼻子仔細嗅探一台巨大的老舊無線電收發器，並用前爪輕輕撥動按鈕，整個畫面瀰漫著暖琥珀色的電影感光線和細膩的紙質肌理。. The date and time '2026-07-16 13:35 UTC' is visually displayed in the image. post-apocalyptic cozy animation scene, nature reclaiming ruins, lush greenery over abandoned structures, warm hopeful light, soft anime background painting, serene melancholic mood, tiny figure for scale, a small human dwarfed by a vast subject or structure, dramatic size contrast, awe of monumental scale, lonely epic framing, cinematic lighting, volumetric light rays, dramatic shadows, high dynamic range, film-quality mood, textured paper surface, visible fiber grain, kraft or watercolor paper feel, tactile warmth, warm amber color grading, autumn palette, golden yellows, burnt orange, cozy nostalgic warmth IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "story": "浩劫後的黃昏，小狗「米卡」在倖存者的秘密基地裡，試圖從生鏽的機器中捕捉微弱的訊號。牠的身軀在巨大的控制面板前顯得格外渺小，卻帶著不屈的希望，期盼著能聽見遠方的呼喚，周圍是溫暖而蕭瑟的秋日色調。",
+    "style_picks": {
+      "art_style": "Post-Apocalyptic Cozy Animation Scene",
+      "composition": "Tiny Figure Scale Contrast",
+      "lighting": "Cinematic Lighting",
+      "texture": "Paper Texture",
+      "color_palette": "Warm Tones (Amber / Autumn)"
+    },
+    "title": "琥珀訊號",
+    "number": 144,
+    "idea": "一隻毛茸茸的小狗，在一個由廢棄巴士站改造而成的、充滿植物的後末日療癒動畫場景中，牠正用鼻子仔細嗅探一台巨大的老舊無線電收發器，並用前爪輕輕撥動按鈕，整個畫面瀰漫著暖琥珀色的電影感光線和細膩的紙質肌理。"
   }
 ]
