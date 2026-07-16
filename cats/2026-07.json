@@ -6789,5 +6789,66 @@
     "news_inspiration": [],
     "comment_id": 4989381363,
     "character": "pudding"
+  },
+  {
+    "number": 139,
+    "news_inspiration": [
+      {
+        "summary": "加拿大團隊以深海影像技術把沙克爾頓與史考特的沉船重建成高細節3D數位模型，讓百年探險史以全新方式被保存。",
+        "url": "https://www.theguardian.com/science/2026/jul/15/deep-sea-expedition-builds-digital-twins-shipwrecks-scott-shackleton",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "科學家在蘇格蘭附近海域重新記錄到一種罕見海洋生物的保育蹤跡，展現海洋探索與生物多樣性的驚喜發現。",
+        "url": null,
+        "source": "The Guardian"
+      },
+      {
+        "summary": "Guardian 音樂文化版面本週報導多項新鮮文化話題，從樂壇動態到跨界創作都充滿視覺與聽覺亮點。",
+        "url": "https://www.theguardian.com/music/music%2Bculture/culture",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "體育版面報導梅西等球星在世界盃賽事中的關鍵表現，聚焦高強度競技與經典足球對決的魅力。",
+        "url": "https://www.theguardian.com/theguardian/sport",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "科技版面提到大型資料中心與 AI 基礎設施正在快速成形，凸顯現代科技如何把抽象運算變成龐大的實體建築。",
+        "url": "https://www.theguardian.com/technology/computing",
+        "source": "The Guardian"
+      }
+    ],
+    "avoid_list": [
+      "四腳邊境牧羊犬",
+      "俯視俯臥構圖",
+      "側臉特寫",
+      "鼻尖輕嗅",
+      "前爪推弄物件",
+      "夢幻商品攝影",
+      "雙色調深靛電藍",
+      "蕾絲鏤空金屬",
+      "強烈引導線構圖",
+      "黑白金奢華配色",
+      "傳統中式水墨描金",
+      "清晨靜謐工作場景"
+    ],
+    "style_picks": {
+      "art_style": "Japanese Yokai Mask Illustration",
+      "composition": "Frame Within a Frame",
+      "lighting": "Fluorescent Lighting",
+      "texture": "Sand Texture",
+      "color_palette": "Crimson and Black"
+    },
+    "is_seasonal": true,
+    "prompt": "Traditional Japanese yokai-mask illustration of Latte, a small toy poodle with an even apricot-red #C98B5E coat in a signature round teddy-bear cut, extra-fluffy round head and rounded muzzle, floppy ears blended into the curls, small round black button nose, round dark-brown button eyes, tiny pink tongue peeking out, sweet and slightly proud expression. Latte is clearly a literal four-legged dog, lying sprawled and relaxed on a low window ledge inside a pet grooming salon’s air-conditioned room, after a bath, enjoying the cool air; the ears are buried in the curls. Frame-within-a-frame composition: the dog is seen through a black window frame and nested window borders, looking out at a heat-haze street scene shimmering beyond the glass. Overhead fluorescent lighting, neutral white 5000K institutional illumination, flat no-shadow lighting. Nearby grooming tools neatly placed: a hair dryer and comb. Fine sand-texture in the apricot curls with subtle grain detail, bold ukiyo-inspired linework, folkloric Japanese spirit mood, playful eerie atmosphere, traditional Japanese accent colors with crimson and jet black, dramatic high-contrast design. Display the date and time clearly in the image as Traditional Chinese/English text: '2026-07-16 08:35 UTC'. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "idea": "和風妖怪面具插畫風格中，拿鐵正趴在寵物美容院冷氣房的矮窗台上，透過框中框構圖的黑色窗框望向外頭熱浪翻湧的街景；牠剪成清爽夏日短捲毛，杏紅色蓬鬆身體在螢光燈下帶著細細的沙質紋理，黑亮圓眼與小圓鼻像精緻面具般醒目。旁邊的吹風機與梳子整齊放著，牠微微吐著粉色小舌，像是在等美容師再誇一句「漂亮」。",
+    "comment_id": 4989863514,
+    "season": "summer",
+    "title": "冷氣房公主",
+    "inspiration": "original",
+    "character_name": "拿鐵",
+    "story": "今天是拿鐵每三週固定報到的日子，牠剛洗完澡，正把整個身體攤在涼涼的窗邊乘冷氣，享受得連耳朵都埋進了捲毛裡。只要有人經過說出「漂亮」兩個字，牠就會立刻抬起圓蓬的頭，擺出全街最精緻的小公主神情。",
+    "character": "latte"
   }
 ]

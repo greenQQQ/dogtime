@@ -1404,5 +1404,18 @@
     "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-16_0735_UTC.webp",
     "character": "pudding",
     "status": "success"
+  },
+  {
+    "season": "summer",
+    "number": 139,
+    "status": "success",
+    "timestamp": "2026-07-16 08:35 UTC",
+    "is_seasonal": true,
+    "model": "gpt-image-2 (codex-image-service / $imagegen)",
+    "inspiration": "original",
+    "character_name": "拿鐵",
+    "url": "https://github.com/greenQQQ/dogtime/releases/download/dogs-2026-07/cat_2026-07-16_0835_UTC.webp",
+    "character": "latte",
+    "title": "冷氣房公主"
   }
 ]
