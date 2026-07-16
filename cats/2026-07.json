@@ -6665,5 +6665,36 @@
     "prompt": "A real Japanese film photograph, vertical poster composition, East Asian movie-poster framing, candid 35mm shot with 35mm lens, f/1.8, shallow depth of field, fine grain, natural low light. In front of a transparent round window inside an underwater science observation station, a four-legged mixed-breed dog is clearly shown actively helping adjust a probe light: its nose pressed near a spherical joystick beside its paw, head lowered toward a glowing monitor, tail lightly swishing. A smiling submarine pilot is partly visible nearby, aiming the camera at the dog. Outside the window: deep-sea black-blue darkness with cold reflections of vermilion and gilt instruments. Inside the cabin: nebula-like glow from overhead lamps reflected on iron wire mesh rails, tangled wireframe textures, coiled metal strands, layered depth. Subtle ornamental border elements and red seal accents, restrained warmth, muted airy tones, soft colorful starfield-like illumination, purple-blue highlights, realistic reflections. Include clearly readable Traditional Chinese or English text in the image showing the date and time: \"2026-07-15 16:35 UTC\". IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
     "story": "這隻狗是站在儀器艙旁等待下潛回收任務的常客，今晚卻在一陣震動後衝到控制台邊，守著逐漸亮起的深海地形圖。潛航員笑著把鏡頭對準牠，恰好拍下牠低頭盯著螢幕、尾巴輕甩的瞬間，像是在替人類守住地球最後一塊未完成的地圖。",
     "inspiration_url": "https://www.nature.com/news"
+  },
+  {
+    "story": "柴犬名叫「點點」，它在港灣旁的香氛實驗室裡，專注盯著每一次滴管起落，彷彿知道今晚要完成一款屬於海風的味道。調香師笑著把量杯推近，它便輕輕守在一旁，等著下一縷冷冽又清新的氣息成形。",
+    "inspiration": "original",
+    "number": 136,
+    "idea": "新中式水墨描金時尚插畫風格，一隻四腳柴犬正趴在玻璃調香台前，用鼻尖與前爪協助調香師把一滴藍綠色香精滴入晶透量杯；畫面以多格角色拼貼呈現同一間白底棚光的香氛實驗室、試管架與反光玻璃桌面，冷色調在金色線條勾勒下顯得俐落而精緻。",
+    "style_picks": {
+      "art_style": "Modern Chinese Ink-and-Gold Fashion Illustration",
+      "composition": "Multi-Panel Character Montage",
+      "lighting": "White Seamless Studio Light",
+      "texture": "Glass / Crystal",
+      "color_palette": "Cool Tones (Blue / Teal)"
+    },
+    "comment_id": 4988400894,
+    "title": "海風調香",
+    "news_inspiration": [],
+    "prompt": "Modern Chinese ink-and-gold fashion illustration, neo-chinoiserie editorial style, multi-panel character montage of the same Shiba Inu named 點點 shown in several poses across a cohesive comic-style grid. Scene: a white seamless studio-lit fragrance laboratory by the harbor, with a reflective glass perfume counter, test tube rack, transparent measuring cups, and cool-toned lab equipment. The four-legged Shiba Inu is clearly visible, lying on its belly at the glass perfume station, using its nose and front paws to help the perfumer carefully drop one bead of blue-green fragrance oil into a crystal-clear measuring cup; the perfumer smiles and nudges the cup closer. Include the date and time displayed visibly in the image as Traditional Chinese or English text: “2026-07-16 05:02 UTC”. Cool blue-teal grading with icy undertones, crisp and serene mood, bright high-key white cyclorama lighting, evenly lit shadowless product look, transparent glass with refraction and prismatic reflections, clean commercial clarity. Flowing ink-wash accents blend with gilt linework, refined gold contours, elegant fashion-illustration finish, polished contemporary composition, cohesive collage layout, sharp, delicate, and sophisticated. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "avoid_list": [
+      "四腳邊境牧羊犬",
+      "俯視俯臥構圖",
+      "側臉特寫",
+      "鼻尖輕嗅",
+      "前爪推弄物件",
+      "夢幻商品攝影",
+      "雙色調深靛電藍",
+      "蕾絲鏤空金屬",
+      "強烈引導線構圖",
+      "黑白金奢華配色",
+      "傳統中式水墨描金",
+      "清晨靜謐工作場景"
+    ]
   }
 ]
