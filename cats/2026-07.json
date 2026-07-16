@@ -6946,5 +6946,39 @@
     "title": "藍夜謎鍵",
     "inspiration": "original",
     "comment_id": 4991395101
+  },
+  {
+    "inspiration": "original",
+    "number": 143,
+    "news_inspiration": [],
+    "prompt": "A cute dog with the date and time '2026-07-16 12:35 UTC' displayed in the image, high quality, detailed",
+    "idea": "",
+    "story": "一隻可愛的狗狗正在享受美好的一天。",
+    "avoid_list": [
+      "對稱構圖",
+      "四腳狗",
+      "正中央主體",
+      "螢光燈均勻照明",
+      "無陰影平光",
+      "新中式水墨描金",
+      "印象派筆觸",
+      "貼紙拼貼邊框",
+      "海邊地下觀測站",
+      "海底科學觀測艙",
+      "古老天文台圓頂",
+      "伸鼻按住地圖",
+      "趴在桌邊盯著",
+      "黑金奢華配色",
+      "繁體中文日期時間標示"
+    ],
+    "comment_id": 4991894116,
+    "style_picks": {
+      "art_style": "Surreal Floral-Coral Sculpture",
+      "composition": "Knolling Photography",
+      "lighting": "Three-Point Lighting",
+      "texture": "Pressed Botanical Layers",
+      "color_palette": "Morandi Color Palette"
+    },
+    "title": "狗狗日常"
   }
 ]
