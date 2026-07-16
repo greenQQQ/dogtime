@@ -632,8 +632,10 @@ def _openai_text(prompt: str, *, search: bool = False, timeout: int = 240) -> st
         "model": _OPENAI_MODEL,
         "input": prompt + "\n\nReply with ONLY the JSON object — no code fences, no extra commentary.",
     }
-    if search:
-        payload["tools"] = [{"type": "web_search"}]
+    # IMPORTANT: OpenAI's web_search tool is billed PER CALL (~US$0.03) and is
+    # NOT covered by the free data-sharing token quota. We deliberately never
+    # enable it. Current news comes from free RSS instead (see _fetch_news_rss).
+    _ = search  # intentionally ignored for the OpenAI backend
     try:
         req = urllib.request.Request(
             "https://api.openai.com/v1/responses",
@@ -856,16 +858,71 @@ def _match_news_url(news: list[dict], inspiration: str) -> str | None:
     return None
 
 
-def fetch_news_inspiration() -> list[dict]:
-    """Use Gemini with Google Search grounding to fetch today's interesting news.
+def _fetch_news_rss(limit: int = 8) -> list[dict]:
+    """Free news headlines from Google News RSS — no API key, no per-call cost.
 
+    Returns [{"summary", "url", "source"}]. Titles come as "Headline - Source";
+    we split the trailing source off. Links are Google News redirects (clickable).
+    """
+    import urllib.request
+    import xml.etree.ElementTree as ET
+    import html as _html
+
+    feeds = [
+        "https://news.google.com/rss?hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+        "https://news.google.com/rss/headlines/section/topic/WORLD?hl=zh-TW&gl=TW&ceid=TW:zh-Hant",
+    ]
+    for feed in feeds:
+        try:
+            req = urllib.request.Request(feed, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                xml_data = resp.read().decode("utf-8", errors="replace")
+            root = ET.fromstring(xml_data)
+            items = []
+            for it in root.iter("item"):
+                title = (it.findtext("title") or "").strip()
+                link = (it.findtext("link") or "").strip()
+                src_el = it.find("source")
+                source = src_el.text.strip() if (src_el is not None and src_el.text) else None
+                if not title:
+                    continue
+                if not source and " - " in title:
+                    title, source = title.rsplit(" - ", 1)
+                items.append({
+                    "summary": _html.unescape(title.strip()),
+                    "url": link or None,
+                    "source": source,
+                })
+                if len(items) >= limit:
+                    break
+            if items:
+                random.shuffle(items)
+                return items[:5]
+        except Exception as e:
+            print(f"  RSS feed failed ({feed.split('?')[0]}): {e}")
+    return []
+
+
+def fetch_news_inspiration() -> list[dict]:
+    """Fetch today's interesting news for scene inspiration.
+
+    Order: free Google News RSS -> Codex web search (subscription, no cash) ->
+    Gemini grounding (free tier). We NEVER use OpenAI web_search (billed per call).
     Returns a list of {"summary", "url", "source"} dicts, or empty list on failure.
     """
-    print("Stage 0: Fetching today's news for inspiration...")
+    print("Stage 0: Fetching today's news for inspiration (free RSS)...")
 
-    # Codex CLI path (ChatGPT subscription): the model does the web search and
-    # returns summaries with real source URLs directly — no grounding parsing.
-    raw = _text_gen(_NEWS_PROMPT_CODEX, search=True, timeout=300)
+    # 1) FREE: Google News RSS — no API key, no per-call cost, real article links.
+    rss_items = _fetch_news_rss()
+    if rss_items:
+        for i, item in enumerate(rss_items, 1):
+            src = item.get("source") or ("有來源" if item.get("url") else "無來源")
+            print(f"  News {i} [rss/{src}]: {item['summary'][:80]}...")
+        return rss_items
+
+    # 2) Codex web search (ChatGPT subscription — no cash cost). We deliberately
+    #    do NOT use OpenAI's web_search here: it is billed per call (~US$0.03).
+    raw = _codex_text(_NEWS_PROMPT_CODEX, search=True, timeout=300) if _CODEX_BIN else None
     if raw:
         result = parse_ai_response_generic(raw, ["news"])
         if result and isinstance(result["news"], list):
