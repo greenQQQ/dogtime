@@ -6696,5 +6696,65 @@
       "傳統中式水墨描金",
       "清晨靜謐工作場景"
     ]
+  },
+  {
+    "character_name": "小嗚",
+    "avoid_list": [
+      "四腳邊境牧羊犬",
+      "俯視俯臥構圖",
+      "側臉特寫",
+      "鼻尖輕嗅",
+      "前爪推弄物件",
+      "夢幻商品攝影",
+      "雙色調深靛電藍",
+      "蕾絲鏤空金屬",
+      "強烈引導線構圖",
+      "黑白金奢華配色",
+      "傳統中式水墨描金",
+      "清晨靜謐工作場景"
+    ],
+    "comment_id": 4988954050,
+    "inspiration": "Buzz Aldrin 任務中救命用的簽字筆在拍賣會上拍出超過85萬美元，讓太空歷史小物變成熱門收藏話題。",
+    "style_picks": {
+      "art_style": "Colored Pencil Drawing",
+      "composition": "Centered Subject Composition",
+      "lighting": "Rembrandt Lighting",
+      "texture": "Beaded Rhinestone Embellishment",
+      "color_palette": "Vermilion and Gilt"
+    },
+    "inspiration_url": "https://www.theguardian.com/science/2026/jul/15/one-small-pen-for-one-giant-fee-buzz-aldrins-mission-saving-felt-tip-sells-for-over-850000",
+    "title": "星筆疑案",
+    "prompt": "Colored pencil illustration of Wuwu, a literal four-legged Siberian Husky with classic black-grey #3C4148 and snow-white #FFFFFF coat, crisp symmetric husky mask, white face center and muzzle, athletic medium-large build, upright ears with white inner fluff, big fluffy brush tail, striking ice-blue #7EC3E8 eyes, theatrical shocked expression, centered single-subject composition, balanced symmetrical framing, clean surrounding space. Wuwu is inside the domed observation room of an ancient observatory at night, surrounded by vermilion-and-gilt astronomical instruments, lacquer-like cinnabar red and metallic gold details, and a window view of the dark night sky. The dog is clearly doing the action: using its nose and one front paw to scatter an auction-grade vintage fountain pen and a notebook full of star maps across the desk, with loose pages flying messily. Show the date and time clearly as visible text in Traditional Chinese or English: '2026-07-16 06:35 UTC'. Rembrandt lighting from upper side at 45 degrees, dramatic chiaroscuro, signature triangle of light on the shadowed cheek, dramatic side shadows, highly expressive face. Visible colored pencil grain, layered hues, rough sketchbook paper texture, direct iconic presentation. Include ornate restrained warmth, beaded rhinestone-like embellishments, encrusted glittering gems and pearls on the collarless metal instruments and small decorative fittings only, subtle sparkling faceted stones, refined opulent couture-like detailing in the objects, not on the dog. The dog’s fur should remain black-grey and white only, with no accessories, no clothing, no harness, no collar. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "story": "小嗚原本只是來夜巡，卻在觀測室裡把所有東西都當成可疑目標，先對舊筆發出一串嗚嗚辯解，再把整疊星圖翻得到處都是。家人一邊收拾一邊笑，說牠大概以為自己正在拯救整個宇宙，而牠只是頂著一臉「我沒有錯，是世界太奇怪」的震驚表情，繼續盯著那支筆不放。",
+    "news_inspiration": [
+      {
+        "summary": "加拿大科學家以深海探測將沙克爾頓與史考特的沉船重建成高精度3D數位模型，畫面與探索感都很震撼。",
+        "url": "https://www.theguardian.com/science/2026/jul/15/deep-sea-expedition-builds-digital-twins-shipwrecks-scott-shackleton",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "Buzz Aldrin 任務中救命用的簽字筆在拍賣會上拍出超過85萬美元，讓太空歷史小物變成熱門收藏話題。",
+        "url": "https://www.theguardian.com/science/2026/jul/15/one-small-pen-for-one-giant-fee-buzz-aldrins-mission-saving-felt-tip-sells-for-over-850000",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "一種看起來美味的野生蘑菇其實含有強烈致幻成分，這篇植物觀察報導把自然界的神祕與危險寫得很吸睛。",
+        "url": "https://www.theguardian.com/science/2026/jul/15/plantwatch-beware-a-tasty-mushroom-with-a-powerful-hallucinogen",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "SpaceX 股價首度跌破 IPO 價格，顯示這家太空科技公司炙手可熱的漲勢開始降溫。",
+        "url": "https://www.theguardian.com/science/2026/jul/15/spacex-shares-slide-below-ipo-price-for-first-time-as-surge-fizzles",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "英格蘭《The Guardian》體育版報導 Cody Bellinger 在全明星賽拿下 MVP，延續了棒球場上的精彩與傳承故事。",
+        "url": null,
+        "source": "Al Jazeera"
+      }
+    ],
+    "idea": "以色鉛筆畫呈現的小嗚，位在一座古老天文台的圓頂觀測室中央，朱紅描金的儀器與夜色窗景環繞著牠；牠正用鼻子和前腳分別把一支拍賣級舊簽字筆與一本滿是星圖的筆記翻得亂七八糟，耳朵豎起、冰藍眼睛瞪大，像是剛發現「這支筆居然能救命」的驚天秘密。倫勃朗光從側上方灑落，讓牠黑白分明的哈士奇面具紋更戲劇化，毛茸茸大尾巴緊張地掃過桌邊，珠飾水鑽鑲嵌般的細節在項圈與金屬器材上微微閃爍。",
+    "character": "wuwu",
+    "number": 137
   }
 ]
