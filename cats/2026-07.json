@@ -6850,5 +6850,67 @@
     "character_name": "拿鐵",
     "story": "今天是拿鐵每三週固定報到的日子，牠剛洗完澡，正把整個身體攤在涼涼的窗邊乘冷氣，享受得連耳朵都埋進了捲毛裡。只要有人經過說出「漂亮」兩個字，牠就會立刻抬起圓蓬的頭，擺出全街最精緻的小公主神情。",
     "character": "latte"
+  },
+  {
+    "number": 141,
+    "story": "阿金一看到新搬來的小男孩坐在湖邊步道旁發呆，就先去叼來自己從社區便利店門口撿到的毛絨球，再慢慢放在他面前。牠沒有催促，只是安靜地守在旁邊，等男孩伸手摸到那團柔軟時，阿金才放心地把尾巴搖成一片溫暖的金色模糊。",
+    "style_picks": {
+      "art_style": "Medium Format Photography",
+      "composition": "Isometric 3D Illustration",
+      "lighting": "Three-Point Lighting",
+      "texture": "Liquid Metal",
+      "color_palette": "Vermilion and Gilt"
+    },
+    "idea": "中片幅攝影風格、等距3D插圖構圖的社區公園黃昏場景，阿金叼著一個包著紅緞帶的小禮物，正小心翼翼地把它放到長椅旁正在哭的小朋友腳邊；朱紅描金的秋葉與木頭地面在三點打光下浮出柔和陰影，牠溫暖的金毛帶著液態金屬般的細緻光澤，尾巴像一面輕搖的金旗。",
+    "inspiration": "original",
+    "avoid_list": [
+      "對稱構圖",
+      "四腳狗",
+      "正中央主體",
+      "螢光燈均勻照明",
+      "無陰影平光",
+      "新中式水墨描金",
+      "印象派筆觸",
+      "貼紙拼貼邊框",
+      "海邊地下觀測站",
+      "海底科學觀測艙",
+      "古老天文台圓頂",
+      "伸鼻按住地圖",
+      "趴在桌邊盯著",
+      "黑金奢華配色",
+      "繁體中文日期時間標示"
+    ],
+    "character": "ajin",
+    "title": "金尾禮物",
+    "prompt": "Medium format photography look with Hasselblad aesthetic, but rendered as a clean isometric 3D illustration of a community park at dusk. Show A-gin, a large gentle Golden Retriever with a warm golden #D9A85C medium-long feathered coat, darker gold floppy ears, broad kind face, dark brown #5A4028 eyes, relaxed patient posture, no collar, carrying a small gift wrapped with a red ribbon in his mouth as he carefully places it beside a crying child near a park bench. The dog must be clearly four-legged and literal, with a big feathered tail like a gently waving golden flag. Include a lakeside walkway and park bench in the background, with a newly moved-in little boy sitting nearby in a quiet, emotional moment. Display the date and time text clearly in the image as Traditional Chinese or English: “2026-07-16 10:35 UTC”. Use extraordinary tonal range, creamy shallow depth of field, clean geometric forms, polished playful rendering, classic three-point lighting with soft key shadows, subtle fill light, and gentle rim light separation. Autumn leaves and wooden ground should glow in vermilion and gilt tones with refined cinnabar red and metallic gold outlines, elegant lacquer-like richness, soft pastel accents, and warm dusk atmosphere. Give A-gin’s coat a liquid metal sheen with mercury-like reflective flow and molten mirror highlights, while keeping the scene tender, restrained, and cinematic. IMPORTANT: any text rendered in the image (date/time, title, signs, captions) must use Traditional Chinese (繁體中文 / 正體字) glyphs or English only. NEVER render Simplified Chinese (简体字).",
+    "comment_id": 4990904780,
+    "character_name": "阿金",
+    "news_inspiration": [
+      {
+        "summary": "Nature報導：科學家以深海探勘資料把沙克爾頓與史考特的沉船重建成3D數位模型，畫面與考古價值都很吸睛。",
+        "url": "https://www.theguardian.com/science/2026/jul/15/shipwrecks-of-shackleton-and-scott-recreated-in-3d-digital-form-after-deep-sea-expedition",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "Nature刊出最新研究：裸鼴鼠女王會用單一化學訊號抑制其他雌性的繁殖，展現罕見而有趣的社會生物學。",
+        "url": "https://www.nature.com/articles/d41586-026-02222-5",
+        "source": "Nature"
+      },
+      {
+        "summary": "Nature報導：鈉離子電池正邁向量產，部分研究者認為它可能成為更便宜、更安全的鋰電池替代方案。",
+        "url": "https://www.nature.com/articles/d41586-026-02223-4",
+        "source": "Nature"
+      },
+      {
+        "summary": "《衛報》科技版：澳洲政府成立 AI 辦公室並強調保護創作者權益，凸顯生成式 AI 與文化產業的最新拉鋸。",
+        "url": "https://www.theguardian.com/technology/2026/jul/15/not-up-for-grabs-albanese-establishes-ai-office-and-vows-to-protect-australian-creatives-from-copyright-theft",
+        "source": "The Guardian"
+      },
+      {
+        "summary": "《衛報》體育版：阿根廷在世界盃關鍵夜再度晉級，梅西的表現與比賽張力讓畫面感十足。",
+        "url": "https://www.theguardian.com/sport/2026/jul/15/lionel-messis-inevitable-gravity-bends-another-occasion-in-argentinas-favour",
+        "source": "The Guardian"
+      }
+    ]
   }
 ]
