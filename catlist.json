@@ -1552,5 +1552,13 @@
     "status": "failed",
     "number": null,
     "url": null
+  },
+  {
+    "error": "codex-image-service job failed: Codex exited with code 1",
+    "model": "all failed",
+    "number": null,
+    "status": "failed",
+    "timestamp": "2026-07-17 08:35 UTC",
+    "url": null
   }
 ]
